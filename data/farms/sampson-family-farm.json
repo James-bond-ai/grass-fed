@@ -1,0 +1,54 @@
+{
+  "id": "sampson-family-farm",
+  "slug": "sampson-family-farm",
+  "farm_name": "Sampson Family Farm",
+  "city": "Live Oak",
+  "state": "FL",
+  "zip": "32060",
+  "address_public": false,
+  "website": "https://sampsonfamilyfarm.com/",
+  "phone": "(386) 330-2302",
+  "social_urls": [
+    "https://www.facebook.com/sampsonfamilyfarm",
+    "https://www.instagram.com/sampsonfamilyfarm"
+  ],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "bulk beef shares",
+    "bulk lamb shares",
+    "individual cuts",
+    "tallow products"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Today, we raise Angus cattle and Katahdin sheep using a pasture-based, grass-fed and grass-finished production system.",
+    "source_url": "https://sampsonfamilyfarm.com/program.htm"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/florida/live-oak/beef-1/sampson-family-farms/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/florida/live-oak/beef-1/sampson-family-farms/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://sampson-family-farm.localline.ca/100-grass-fed-and-finished-beef-and-lamb",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/florida/live-oak/beef-1/sampson-family-farms/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

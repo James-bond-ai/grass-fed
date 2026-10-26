@@ -1,0 +1,46 @@
+{
+  "id": "okeechobee-farms",
+  "slug": "okeechobee-farms",
+  "farm_name": "Okeechobee Farms",
+  "city": "Okeechobee",
+  "state": "FL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.okeechobeefarms.com/",
+  "phone": "561.225.3073",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "Angus beef",
+    "bulk beef shares",
+    "lamb",
+    "pork",
+    "chicken",
+    "duck",
+    "turkey"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our premium angus beef cattle feed on 100% living Florida grasses and legumes.",
+    "source_url": "https://www.okeechobeefarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "local-delivery",
+    "csa"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.okeechobeefarms.com/shop-selection/",
+  "data_source": "web-search",
+  "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

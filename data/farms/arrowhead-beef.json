@@ -1,0 +1,47 @@
+{
+  "id": "arrowhead-beef",
+  "slug": "arrowhead-beef",
+  "farm_name": "Arrowhead Beef",
+  "city": "Chipley",
+  "state": "FL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://arrowheadbeef.com/",
+  "phone": "850 270 8804",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "Wagyu beef",
+    "Berkshire pork",
+    "bone broth",
+    "offal"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Grass Fed AND Grass-Finished but all livestock are also completely Hormone-free and Antibiotic-free.",
+    "source_url": "https://arrowheadbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "farmers-market",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [
+    "Seaside Farmers Market (Saturdays)"
+  ],
+  "bulk_shares": true,
+  "ordering_url": "https://arrowheadbeef.com/collections/bulk-beef-pork-shares",
+  "data_source": "web-search",
+  "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

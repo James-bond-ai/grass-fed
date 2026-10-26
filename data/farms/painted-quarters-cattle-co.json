@@ -1,0 +1,48 @@
+{
+  "id": "painted-quarters-cattle-co",
+  "slug": "painted-quarters-cattle-co",
+  "farm_name": "Painted Quarters Cattle Co.",
+  "city": "Indiantown",
+  "state": "FL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.paintedquarters.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "pork"
+  ],
+  "products": [
+    "Wagyu beef",
+    "steaks",
+    "ground beef",
+    "breakfast sausage",
+    "chicken",
+    "pork",
+    "subscription boxes"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "We raise F1 American Wagyu cattle, primarily grass-fed and grass-finished.",
+    "source_url": "https://www.paintedquarters.com/faq/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "on-farm-store",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [
+    "PQ Crackers Market, Indiantown",
+    "Traditions market, St. Lucie County"
+  ],
+  "bulk_shares": false,
+  "ordering_url": "https://www.paintedquarters.com/shop/",
+  "data_source": "web-search",
+  "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

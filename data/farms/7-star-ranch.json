@@ -1,0 +1,41 @@
+{
+  "id": "7-star-ranch",
+  "slug": "7-star-ranch",
+  "farm_name": "7 Star Ranch",
+  "city": "Naples",
+  "state": "FL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.naplesfarmfresh.com/",
+  "phone": "239-488-BEEF",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "grass-fed beef",
+    "pastured pork",
+    "chicken",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "offers grassfed beef, pastured pork, chicken, eggs, raw dairy products",
+    "source_url": "https://www.naplesfarmfresh.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://www.naplesfarmfresh.com/general-7",
+  "data_source": "web-search",
+  "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "barton-beef",
+  "slug": "barton-beef",
+  "farm_name": "Barton Beef",
+  "city": "Bunnell",
+  "state": "FL",
+  "zip": "32110",
+  "address_public": false,
+  "website": "https://www.bartonbeef.com/",
+  "phone": "(386) 793-0963",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter, half and whole beef",
+    "ground sirloin"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Grass, plus hay we bale ourselves, plus minerals and molasses.",
+    "source_url": "https://www.bartonbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.bartonbeef.com/order/",
+  "data_source": "web-search",
+  "source_url": "https://www.clickorlando.com/news/local/2023/12/04/mooo-ve-over-store-bought-steaks-how-you-can-buy-beef-directly-from-the-pasture/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

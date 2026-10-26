@@ -1,0 +1,45 @@
+{
+  "id": "clover-farms-of-florida",
+  "slug": "clover-farms-of-florida",
+  "farm_name": "Clover Farms of Florida",
+  "city": "Jacksonville",
+  "state": "FL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://cloverfarmsfl.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "grass-finished beef",
+    "beef shares",
+    "bones and organs",
+    "pasture-raised eggs",
+    "whole chicken",
+    "beef tallow products"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We're dedicated to ethically raising grass-finished beef and outdoor-living chickens",
+    "source_url": "https://cloverfarmsfl.com/pages/our-farm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market",
+    "retail",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "fort-mccoy-ranch",
+  "slug": "fort-mccoy-ranch",
+  "farm_name": "Fort McCoy Ranch",
+  "city": "Fort McCoy",
+  "state": "FL",
+  "zip": "32134",
+  "address_public": true,
+  "website": "https://fortmccoyranch.com/",
+  "phone": "(352) 546-3000",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "grass-finished beef",
+    "grain-finished beef",
+    "beef shares",
+    "bundles",
+    "subscriptions"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Grass-Fed, Grass-Finished Beef",
+    "source_url": "https://fortmccoyranch.com/collections/100-grass-fed-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://fortmccoyranch.com/collections/100-grass-fed-beef",
+  "data_source": "web-search",
+  "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "19798 NE Highway 315, Fort McCoy, FL 32134"
+}

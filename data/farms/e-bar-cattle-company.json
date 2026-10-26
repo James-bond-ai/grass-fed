@@ -1,0 +1,42 @@
+{
+  "id": "e-bar-cattle-company",
+  "slug": "e-bar-cattle-company",
+  "farm_name": "E Bar Cattle Company",
+  "city": "Wesley Chapel",
+  "state": "FL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://ebarcattlecompany.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "beef bundles",
+    "soup bones",
+    "oxtail"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "We don't use any fillers or additives and feed only forage of both native and improved grasses.",
+    "source_url": "https://ebarcattlecompany.com/pages/faqs"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://ebarcattlecompany.com/",
+  "data_source": "web-search",
+  "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

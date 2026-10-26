@@ -1,0 +1,39 @@
+{
+  "id": "providence-cattle-company",
+  "slug": "providence-cattle-company",
+  "farm_name": "Providence Cattle Company",
+  "city": "Tampa",
+  "state": "FL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://providencecattle.com/",
+  "phone": "727-459-3423",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "quarter, half and whole steers"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "our animals are humanly raised on Florida grasses and finished on high protein grasses.",
+    "source_url": "https://providencecattle.com/shop-grass-fed-beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "retail",
+    "restaurants",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://providencecattle.com/shop-grass-fed-beef/",
+  "data_source": "web-search",
+  "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

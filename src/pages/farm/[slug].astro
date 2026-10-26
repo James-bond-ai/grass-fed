@@ -15,6 +15,8 @@ const st = STATE_BY_ABBR[farm.state];
 const certs = (farm.certifications ?? []).filter((c) => CERTIFICATIONS[c.program]);
 const claim = farm.feeding_claim ?? { category: 'unknown' };
 const nearby = all.filter((f) => f.state === farm.state && f.slug !== farm.slug).slice(0, 5);
+const KEYPAD: Record<string, string> = { A:'2',B:'2',C:'2',D:'3',E:'3',F:'3',G:'4',H:'4',I:'4',J:'5',K:'5',L:'5',M:'6',N:'6',O:'6',P:'7',Q:'7',R:'7',S:'7',T:'8',U:'8',V:'8',W:'9',X:'9',Y:'9',Z:'9' };
+const telDigits = (p: string) => p.toUpperCase().replace(/[A-Z]/g, (c) => KEYPAD[c]).replace(/[^\d+]/g, '');
 const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
 
 const jsonLd = [
@@ -89,7 +91,7 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
       {farm.farmers_markets?.length > 0 && <><dt>Farmers markets</dt><dd>{farm.farmers_markets.join(', ')}</dd></>}
       <dt>Website</dt><dd><a href={farm.website} rel="nofollow">{host(farm.website)}</a></dd>
       {farm.ordering_url && <><dt>Order online</dt><dd><a href={farm.ordering_url} rel="nofollow">{host(farm.ordering_url)}</a></dd></>}
-      {farm.phone && <><dt>Phone</dt><dd><a href={`tel:${farm.phone.replace(/[^\d+]/g, '')}`}>{farm.phone}</a></dd></>}
+      {farm.phone && <><dt>Phone</dt><dd><a href={`tel:${telDigits(farm.phone)}`}>{farm.phone}</a></dd></>}
       {farm.address_public && farm.address && <><dt>Address</dt><dd>{farm.address}, {farm.city}, {farm.state} {farm.zip}</dd></>}
     </dl>
     <p class="small muted">Last checked against the farm's website on {fmtDate(farm.last_verified_at)}. Products, prices and availability change; confirm with the farm before you buy. Something wrong? <a href="/corrections/">Report a correction</a>.</p>

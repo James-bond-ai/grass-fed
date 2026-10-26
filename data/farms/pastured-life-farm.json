@@ -1,0 +1,46 @@
+{
+  "id": "pastured-life-farm",
+  "slug": "pastured-life-farm",
+  "farm_name": "Pastured Life Farm",
+  "city": "O'Brien",
+  "state": "FL",
+  "zip": "32071",
+  "address_public": true,
+  "website": "https://www.pasturedlife.com/",
+  "phone": "(386) 244-2536",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs",
+    "dairy-cow"
+  ],
+  "products": [
+    "grass-fed beef",
+    "forest-raised pork",
+    "pasture-raised chicken",
+    "eggs",
+    "turkey",
+    "A2 dairy"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Cows should only eat grass and natural forage every day.",
+    "source_url": "https://www.pasturedlife.com/our-farming-principles"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery",
+    "farmers-market"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://www.pasturedlife.com/store/grass-fed-beef",
+  "data_source": "web-search",
+  "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "6944 210th Place, O'Brien, FL 32071"
+}
