@@ -28,7 +28,9 @@
     "source_url": "https://fallingsunranch.com/faqs/"
   },
   "certifications": [],
-  "sales_channels": [],
+  "sales_channels": [
+    "online-order"
+  ],
   "farmers_markets": [],
   "bulk_shares": true,
   "ordering_url": "https://app.barn2door.com/fallingsunranch/all",

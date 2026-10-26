@@ -67,6 +67,7 @@ function checkFarm(file, f, { candidate = false } = {}) {
     if (f.last_verified_at > today) err(file, 'last_verified_at is in the future');
     if (f.listing_status && !STATUS.includes(f.listing_status)) err(file, `listing_status must be one of ${STATUS.join(', ')}`);
     if (f.verification_method && !METHODS.includes(f.verification_method)) err(file, `verification_method must be one of ${METHODS.join(', ')}`);
+    if (f.listing_status === 'published' && Array.isArray(f.sales_channels) && f.sales_channels.length === 0) err(file, 'published listing needs at least one sales channel; if the site gives no way to buy, set listing_status to "unpublished"');
     if (f.listing_status === 'published' && f.last_verified_at) {
       const age = (Date.parse(today) - Date.parse(f.last_verified_at)) / 86400000;
       if (age > 365) err(file, 'published listing not verified in over 12 months; recheck or set listing_status to "unpublished"');

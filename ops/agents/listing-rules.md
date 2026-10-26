@@ -69,7 +69,7 @@ One file per farm: `data/farms/{slug}.json`. The slug is the farm name in lowerc
 
 Allowed values:
 - `species`: beef, bison, lamb, goat, pork, poultry, eggs, dairy-cow, dairy-goat, dairy-sheep
-- `sales_channels`: on-farm-store, farm-pickup, csa, farmers-market, local-delivery, ships-nationwide, ships-regional, retail, restaurants
+- `sales_channels`: on-farm-store, farm-pickup, csa, farmers-market, local-delivery, ships-nationwide, ships-regional, online-order, retail, restaurants (a published listing needs at least one)
 - `data_source`: usda, certifier, state-program, self-submitted, web-search
 - `listing_status`: published, stale, unpublished
 

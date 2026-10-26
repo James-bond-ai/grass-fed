@@ -88,6 +88,7 @@ export const CHANNELS = {
   'local-delivery': 'Local delivery',
   'ships-nationwide': 'Ships nationwide',
   'ships-regional': 'Ships to nearby states',
+  'online-order': 'Online ordering',
   retail: 'Sold in stores',
   restaurants: 'Sold to restaurants',
 };
