@@ -1,0 +1,38 @@
+name: Organic data refresh
+
+# Monthly USDA Organic Integrity snapshot, published at the start of each month.
+on:
+  schedule:
+    - cron: '17 14 3 * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/organic/fetch.mjs', 'scripts/organic/slim.py', '.github/workflows/organic-data.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: npm i --no-save playwright@1 && npx playwright install --with-deps chromium
+      - run: pip install pandas openpyxl
+      - run: node scripts/organic/fetch.mjs
+      - run: python scripts/organic/slim.py
+      - name: Publish to the organic-data branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp download.json out/
+          git switch --orphan organic-data-tmp
+          git rm -rf --quiet . || true
+          cp out/* .
+          git add us-operations.json columns.json download.json
+          git commit -m "Organic Integrity snapshot $(jq -r .date download.json)"
+          git push -f origin HEAD:organic-data
