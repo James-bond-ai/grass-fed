@@ -1,0 +1,44 @@
+{
+  "id": "polyface-farm",
+  "slug": "polyface-farm",
+  "farm_name": "Polyface Farm",
+  "city": "Swoope",
+  "state": "VA",
+  "zip": "24479",
+  "address_public": true,
+  "address": "43 Pure Meadows Ln, Swoope, VA 24479",
+  "website": "https://polyfacefarm.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "grass-finished beef",
+    "pastured pork",
+    "pastured chicken",
+    "turkey",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "always 100% grass-fed and grass finished",
+    "source_url": "https://polyfacefarm.com/store/grassfed-grass-finished-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://polyfacefarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://polyfacefarm.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

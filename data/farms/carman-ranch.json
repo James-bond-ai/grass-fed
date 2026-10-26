@@ -1,0 +1,40 @@
+{
+  "id": "carman-ranch",
+  "slug": "carman-ranch",
+  "farm_name": "Carman Ranch",
+  "city": "Wallowa County",
+  "state": "OR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.carmanranch.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "hot dogs",
+    "beef snack sticks",
+    "beef boxes",
+    "bulk packs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Carman Ranch raises nutrient-rich, 100% grassfed & finished beef for our communities in Portland and Seattle.",
+    "source_url": "https://www.carmanranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.carmanranch.com/",
+  "data_source": "web-search",
+  "source_url": "https://www.carmanranch.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "unpublished"
+}

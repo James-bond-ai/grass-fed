@@ -1,0 +1,44 @@
+{
+  "id": "knee-deep-cattle-co",
+  "slug": "knee-deep-cattle-co",
+  "farm_name": "Knee Deep Cattle Co.",
+  "city": "Eugene",
+  "state": "OR",
+  "zip": "97405",
+  "address": "84046 Lorane Hwy, Eugene, OR 97405",
+  "address_public": true,
+  "website": "https://www.kneedeepcattlecompany.com/",
+  "phone": "541-521-1586",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "short ribs",
+    "stew meat",
+    "soup bones",
+    "whole, half and quarter beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Never Fed Cereal Grains",
+    "source_url": "https://www.kneedeepcattlecompany.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.kneedeepcattlecompany.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

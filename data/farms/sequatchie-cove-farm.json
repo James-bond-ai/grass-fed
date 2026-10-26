@@ -1,0 +1,49 @@
+{
+  "id": "sequatchie-cove-farm",
+  "slug": "sequatchie-cove-farm",
+  "farm_name": "Sequatchie Cove Farm",
+  "city": "Sequatchie",
+  "state": "TN",
+  "zip": "37374",
+  "address_public": true,
+  "website": "https://www.sequatchiecovefarm.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "lamb",
+    "eggs"
+  ],
+  "products": [
+    "beef",
+    "heritage pork",
+    "chicken",
+    "lamb",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "unknown",
+    "verbatim": "",
+    "source_url": ""
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "local-delivery",
+    "farmers-market",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Main Street Farmers Market (Chattanooga)"
+  ],
+  "bulk_shares": false,
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.sequatchiecovefarm.com",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "unpublished",
+  "address": "320 Dixon Cove Rd, Sequatchie, TN 37374"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "saffire-farm",
+  "slug": "saffire-farm",
+  "farm_name": "Saffire Farm",
+  "city": "Lebanon",
+  "state": "TN",
+  "zip": "",
+  "address_public": false,
+  "website": "https://saffirefarm.com",
+  "phone": "(615) 681-9512",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "goat"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "roasts",
+    "lamb chops",
+    "ground lamb",
+    "whole goat"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "In addition to grass, we feed our animals balage, alfalfa and orchard grass hay during the winter months.",
+    "source_url": "https://saffirefarm.com/why-grassfed/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Lebanon Farmers Market",
+    "Murfreesboro Farmers Market"
+  ],
+  "bulk_shares": true,
+  "ordering_url": "https://saffirefarm.com/available-products/",
+  "data_source": "state-program",
+  "source_url": "https://www.picktnproducts.org/picktn-producers/picktn-listing.15392.html",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

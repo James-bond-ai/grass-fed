@@ -1,0 +1,69 @@
+{
+  "id": "windy-n-ranch",
+  "slug": "windy-n-ranch",
+  "farm_name": "Windy N Ranch",
+  "city": "Ellensburg",
+  "state": "WA",
+  "zip": "98926",
+  "address_public": true,
+  "website": "https://windynranch.com",
+  "phone": "(509) 260-2008",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "goat",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "Wagyu-Angus beef",
+    "Berkshire pork",
+    "lamb",
+    "goat",
+    "chicken",
+    "Thanksgiving turkeys",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "They eat grass and only grass from weaning to finish.",
+    "source_url": "https://windynranch.com/"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/washington/ellensburg/beef-1/windy-n-ranch/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/washington/ellensburg/beef-1/windy-n-ranch/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Ballard",
+    "Capitol Hill (Sunday)",
+    "University District",
+    "Bellevue",
+    "Capitol Hill (Tuesday)",
+    "Downtown Yakima",
+    "Issaquah",
+    "Madrona",
+    "Madison Park"
+  ],
+  "bulk_shares": true,
+  "ordering_url": "https://app.barn2door.com/windyncustombutcher/all",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/ellensburg/beef-1/windy-n-ranch/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "3650 Passmore Rd, Ellensburg, WA 98926"
+}

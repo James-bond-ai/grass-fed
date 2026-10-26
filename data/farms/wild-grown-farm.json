@@ -1,0 +1,48 @@
+{
+  "id": "wild-grown-farm",
+  "slug": "wild-grown-farm",
+  "farm_name": "Wild Grown Farm",
+  "city": "Redmond",
+  "state": "OR",
+  "zip": "97756",
+  "address": "4255 Northwest Coyner Avenue, Redmond, OR 97756",
+  "address_public": true,
+  "website": "https://www.wildgrownfarm.com/",
+  "phone": "503-209-9873",
+  "social_urls": [
+    "http://www.instagram.com/wildgrownfarm",
+    "https://www.facebook.com/WildGrownUrbanFarm/"
+  ],
+  "species": [
+    "poultry"
+  ],
+  "products": [
+    "whole chickens",
+    "turkey",
+    "bone broth",
+    "chicken parts"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "We raise a diverse array of pastured poultry including chickens, ducks, turkeys and geese.",
+    "source_url": "https://www.wildgrownfarm.com/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/oregon/redmond-1/chicken-1/wild-grown-farm/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://www.wildgrownfarm.com/shop-poultry",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/redmond-1/chicken-1/wild-grown-farm/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "a-and-m-farms",
+  "slug": "a-and-m-farms",
+  "farm_name": "A&M Farms",
+  "city": "Hillsville",
+  "state": "VA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://aandmfarmsbeef.com",
+  "phone": "276-733-6968",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "roasts",
+    "half and quarter beef",
+    "monthly beef subscription"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% All Natural Grass Fed and Finished, free of hormones and antibiotics",
+    "source_url": "https://aandmfarmsbeef.com/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/virginia/hillsville/beef-1/southwest-virginia-farmers-market/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/virginia/hillsville/beef-1/southwest-virginia-farmers-market/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "csa"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/virginia/hillsville/beef-1/southwest-virginia-farmers-market/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

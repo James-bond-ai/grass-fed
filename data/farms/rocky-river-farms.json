@@ -1,0 +1,46 @@
+{
+  "id": "rocky-river-farms",
+  "slug": "rocky-river-farms",
+  "farm_name": "Rocky River Farms",
+  "city": "Monroe",
+  "state": "NC",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.rockyriverfarmsnc.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "dry aged beef",
+    "pork",
+    "chicken eggs",
+    "honey"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Our grass-fed cows are pasture-raised and fed a special protein mix",
+    "source_url": "https://rockyriverfarmsnc.com/about/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/monroe/beef-1/rocky-river-farms-llc/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://app.barn2door.com/rockyriverfarmsnc/all",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/monroe/beef-1/rocky-river-farms-llc/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

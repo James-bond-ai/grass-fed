@@ -1,0 +1,48 @@
+{
+  "id": "bn-acres",
+  "slug": "bn-acres",
+  "farm_name": "BN Acres",
+  "city": "Lexington",
+  "state": "NC",
+  "zip": "27292",
+  "address_public": true,
+  "address": "1043 Turner Road, Lexington, NC 27292",
+  "website": "https://www.bnacres.com",
+  "phone": "(336) 238-3939",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "lamb cuts",
+    "mutton",
+    "eggs",
+    "honey"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "BN Acres offers our community a local source for grassfed beef, lamb, eggs, honey, and more.",
+    "source_url": "https://www.bnacres.com/"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/lexington/beef-1/bn-acres-llc/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://www.bnacres.com/shop",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/lexington/beef-1/bn-acres-llc/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

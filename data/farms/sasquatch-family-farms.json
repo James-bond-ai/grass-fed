@@ -1,0 +1,45 @@
+{
+  "id": "sasquatch-family-farms",
+  "slug": "sasquatch-family-farms",
+  "farm_name": "Sasquatch Family Farms",
+  "city": "Toledo",
+  "state": "WA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.sasquatchfamilyfarms.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "pork",
+    "lamb"
+  ],
+  "products": [
+    "Berkshire pork cuts",
+    "sausage",
+    "bacon",
+    "lamb (pre-order)"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "raising pasture-fed pigs and lambs for our community",
+    "source_url": "https://www.sasquatchfamilyfarms.com/about-us"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/washington/toledo-1/pork-1/sasquatch-family-farms/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/toledo-1/pork-1/sasquatch-family-farms/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

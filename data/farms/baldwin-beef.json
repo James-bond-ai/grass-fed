@@ -1,0 +1,47 @@
+{
+  "id": "baldwin-beef",
+  "slug": "baldwin-beef",
+  "farm_name": "Baldwin Beef",
+  "city": "Yanceyville",
+  "state": "NC",
+  "zip": "27379",
+  "address_public": true,
+  "address": "5341 NC Highway 86 South, Yanceyville, NC 27379",
+  "website": "https://www.baldwinbeef.com",
+  "phone": "(336) 694-1620",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "roasts",
+    "beef jerky",
+    "dog food and treats"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Each week, our grass-finished steers are processed at a USDA-inspected facility.",
+    "source_url": "https://www.baldwinbeef.com/about"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/yanceyville/beef-1/baldwin-family-farms/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/yanceyville/beef-1/baldwin-family-farms/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

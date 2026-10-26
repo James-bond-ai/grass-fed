@@ -1,0 +1,43 @@
+{
+  "id": "against-the-grain-farm",
+  "slug": "against-the-grain-farm",
+  "farm_name": "Against the Grain Farm",
+  "city": "Zionville",
+  "state": "NC",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.atgfarm.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef",
+    "meat CSA"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "The cattle are raised exclusively on grass and hay and are only fed GMO-free grain as treats.",
+    "source_url": "https://www.atgfarm.com/livestock"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/zionville/beef-1/against-the-grain-farm/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "csa",
+    "farmers-market"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://www.atgfarm.com/csa",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/zionville/beef-1/against-the-grain-farm/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

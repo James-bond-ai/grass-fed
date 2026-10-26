@@ -1,0 +1,54 @@
+{
+  "id": "malheur-river-meats",
+  "slug": "malheur-river-meats",
+  "farm_name": "Malheur River Meats",
+  "city": "Vale",
+  "state": "OR",
+  "zip": "97918",
+  "address": "4276 John Day Hwy, Vale, OR 97918",
+  "address_public": true,
+  "website": "https://www.malheurrivermeats.com/",
+  "phone": "(208) 573-1058",
+  "social_urls": [
+    "https://www.facebook.com/pages/category/Specialty-Grocery-Store/Malheur-River-Meats-LLC-360910354032288/"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "goat",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef quarters, halves and wholes",
+    "pork",
+    "goat",
+    "sausages",
+    "smoked products",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our grass fed / pasture raised animals nutritional needs are met by following Mother Nature's seasonal growth cycles.",
+    "source_url": "https://www.malheurrivermeats.com/about-us"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/oregon/vale/eggs-1/malheur-river-meats/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/vale/eggs-1/malheur-river-meats/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

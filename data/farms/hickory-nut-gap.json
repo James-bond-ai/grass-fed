@@ -1,0 +1,42 @@
+{
+  "id": "hickory-nut-gap",
+  "slug": "hickory-nut-gap",
+  "farm_name": "Hickory Nut Gap",
+  "city": "Fairview",
+  "state": "NC",
+  "zip": "",
+  "address_public": false,
+  "website": "https://hickorynutgap.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "grassfed beef",
+    "pasture-raised pork",
+    "charcuterie",
+    "snacks",
+    "gift boxes"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "ensuring animals are 100% grassfed and grass-finished",
+    "source_url": "https://hickorynutgap.com/pages/grassfed-beef-standards"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://hickorynutgap.com/collections",
+  "data_source": "web-search",
+  "source_url": "https://hickorynutgap.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "unpublished",
+  "notes": "Unpublished 2026-10-26: sells meat from a network of partner farms, so its feeding description may not apply to every product. Needs manual review."
+}

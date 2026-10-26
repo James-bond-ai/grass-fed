@@ -1,0 +1,40 @@
+{
+  "id": "tennessee-grass-fed",
+  "slug": "tennessee-grass-fed",
+  "farm_name": "Tennessee Grass Fed",
+  "city": "Clarksville",
+  "state": "TN",
+  "zip": "37043",
+  "address_public": true,
+  "website": "https://tennesseegrassfed.com",
+  "phone": "(615) 347-5454",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "roasts",
+    "soup bones",
+    "bulk beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "nor is grain ever a part of our grass fed and finished beef's diet.",
+    "source_url": "https://tennesseegrassfed.com/pages/about-us"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://tennesseegrassfed.com/pages/delivery-and-pick-up-options",
+  "data_source": "state-program",
+  "source_url": "https://picktnproducts.org/picktn-producers/picktn-listing.2726.html",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "335 Williams Rd, Clarksville, TN 37043"
+}

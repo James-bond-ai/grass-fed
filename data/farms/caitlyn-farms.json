@@ -1,0 +1,46 @@
+{
+  "id": "caitlyn-farms",
+  "slug": "caitlyn-farms",
+  "farm_name": "Caitlyn Farms",
+  "city": "Mill Spring",
+  "state": "NC",
+  "zip": "",
+  "address_public": false,
+  "website": "https://beefandbobwhites.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "whole and half beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grassfed and finished, and NEVER fed grain.",
+    "source_url": "https://beefandbobwhites.com/buy-beef"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/mill-spring/beef-1/caitlyn-farms-sustainably-raised-beef/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Hendersonville Farmers Market"
+  ],
+  "bulk_shares": true,
+  "ordering_url": "https://beefandbobwhites.com/buy-beef",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/mill-spring/beef-1/caitlyn-farms-sustainably-raised-beef/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

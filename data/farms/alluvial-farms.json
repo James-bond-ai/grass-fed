@@ -1,0 +1,44 @@
+{
+  "id": "alluvial-farms",
+  "slug": "alluvial-farms",
+  "farm_name": "Alluvial Farms",
+  "city": "Everson",
+  "state": "WA",
+  "zip": "98247",
+  "address_public": true,
+  "website": "https://alluvialfarms.com",
+  "phone": "530-717-7224",
+  "social_urls": [],
+  "species": [
+    "pork"
+  ],
+  "products": [
+    "pork shares",
+    "a la carte pork cuts",
+    "pork liver dog treats"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "raising hogs outdoors on pasture, improving soil through rotational grazing",
+    "source_url": "https://alluvialfarms.com/pages/about-us"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/washington/everson/pork-1/alluvial-farms/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/everson/pork-1/alluvial-farms/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "6825 Goodwin Road, Everson, WA 98247"
+}

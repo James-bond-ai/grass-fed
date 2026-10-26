@@ -1,0 +1,50 @@
+{
+  "id": "kinloch-farm",
+  "slug": "kinloch-farm",
+  "farm_name": "Kinloch Farm",
+  "city": "The Plains",
+  "state": "VA",
+  "zip": "20198",
+  "address_public": true,
+  "address": "4559 Old Tavern Road, The Plains, VA 20198",
+  "website": "https://kinlochfarm.com",
+  "phone": "540-253-5266",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "whole and half beef",
+    "quarter and eighth beef bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We carry a complete inventory of cuts of our grassfed, grass-finished beef",
+    "source_url": "https://kinlochfarm.com/farm-store/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/virginia/the-plains/beef-1/kinloch-farm-store/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/virginia/the-plains/beef-1/kinloch-farm-store/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://shop.kinlochfarm.com/",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/virginia/the-plains/beef-1/kinloch-farm-store/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

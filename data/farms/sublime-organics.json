@@ -1,0 +1,48 @@
+{
+  "id": "sublime-organics",
+  "slug": "sublime-organics",
+  "farm_name": "Sublime Organics",
+  "city": "Sublimity",
+  "state": "OR",
+  "zip": "97385",
+  "address": "7908 Boedigheimer Road SE, Sublimity, OR 97385",
+  "address_public": true,
+  "website": "https://www.sublimeorganicsllc.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.instagram.com/sublimeorganics/",
+    "https://www.facebook.com/sublimeorganicsllc"
+  ],
+  "species": [
+    "lamb"
+  ],
+  "products": [
+    "lamb",
+    "whole lamb",
+    "half lamb"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Lambs are raised on pasture grass.",
+    "source_url": "https://www.sublimeorganicsllc.com/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/oregon/sublimity/goat-1/sublime-organics-llc/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.sublimeorganicsllc.com/order-online",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/sublimity/goat-1/sublime-organics-llc/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

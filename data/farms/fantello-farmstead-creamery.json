@@ -1,0 +1,52 @@
+{
+  "id": "fantello-farmstead-creamery",
+  "slug": "fantello-farmstead-creamery",
+  "farm_name": "Fantello Farmstead Creamery",
+  "city": "Enumclaw",
+  "state": "WA",
+  "zip": "98022",
+  "address_public": true,
+  "website": "https://fantellocreamery.com",
+  "phone": "(253) 606-9446",
+  "social_urls": [
+    "https://www.facebook.com/fantellofarmsteadcreamery",
+    "https://www.instagram.com/fantello_creamery"
+  ],
+  "species": [
+    "dairy-cow"
+  ],
+  "products": [
+    "raw milk cheeses",
+    "cultured butter",
+    "A2/A2 Jersey raw milk",
+    "ricotta"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "All of their cows are registered Jersey cows that are fed with local hay and local grasses, so you can “taste the place.”",
+    "source_url": "https://fantellocreamery.com/the-journey"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/washington/enumclaw/cheese-1/fantello-farmstead-creamery/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farmers-market",
+    "retail"
+  ],
+  "farmers_markets": [
+    "University District Farmers Market",
+    "Ballard Farmers Market"
+  ],
+  "bulk_shares": false,
+  "ordering_url": "https://fantellocreamery.com/shop",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/enumclaw/cheese-1/fantello-farmstead-creamery/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "39719 236th Ave SE, Enumclaw, WA 98022"
+}

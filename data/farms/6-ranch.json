@@ -1,0 +1,40 @@
+{
+  "id": "6-ranch",
+  "slug": "6-ranch",
+  "farm_name": "6 Ranch",
+  "city": "Enterprise",
+  "state": "OR",
+  "zip": "97828",
+  "address": "66799 Sunrise Road, Enterprise, OR 97828",
+  "address_public": true,
+  "website": "https://6ranch.com/",
+  "phone": "541-398-0446",
+  "social_urls": [
+    "http://instagram.com/6ranch/",
+    "http://facebook.com/6ranch/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "Corriente beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Six generations of family have worked 6 Ranch, raising 100% grass-fed Corriente beef in pristine Wallowa County, OR.",
+    "source_url": "https://6ranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "ships-nationwide",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://6ranch.com/",
+  "data_source": "web-search",
+  "source_url": "https://6ranch.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

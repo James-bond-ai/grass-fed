@@ -1,0 +1,40 @@
+{
+  "id": "lifted-hearts-farm",
+  "slug": "lifted-hearts-farm",
+  "farm_name": "Lifted Hearts Farm",
+  "city": "Pikeville",
+  "state": "TN",
+  "zip": "37367",
+  "address_public": true,
+  "website": "https://www.liftedheartsfarm.com",
+  "phone": "423-401-5024",
+  "social_urls": [],
+  "species": [
+    "lamb",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "lamb",
+    "whole or half pork",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Lifted Hearts Farm offers local grass fed lamb, pastured pork, pastured rabbit and free range eggs.",
+    "source_url": "https://www.liftedheartsfarm.com"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.liftedheartsfarm.com/category/all-products",
+  "data_source": "state-program",
+  "source_url": "https://www.picktnproducts.org/picktn-producers/picktn-listing.26286.html",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "750 Lilac Ln, Pikeville, TN 37367"
+}

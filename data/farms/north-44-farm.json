@@ -1,0 +1,57 @@
+{
+  "id": "north-44-farm",
+  "slug": "north-44-farm",
+  "farm_name": "North 44 Farm",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://north44farm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "poultry"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "ground lamb",
+    "lamb chops",
+    "sausages",
+    "bone broth",
+    "chicken"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "No grain finishing here, just pure grass-fed and finished beef from our farm to you.",
+    "source_url": "https://north44farm.com/pages/our-beef"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/oregon/bend/beef-1/north-44-farm/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/oregon/bend/beef-1/north-44-farm/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "ships-nationwide",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/bend/beef-1/north-44-farm/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

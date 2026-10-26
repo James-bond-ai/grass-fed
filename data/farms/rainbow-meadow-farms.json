@@ -1,0 +1,49 @@
+{
+  "id": "rainbow-meadow-farms",
+  "slug": "rainbow-meadow-farms",
+  "farm_name": "Rainbow Meadow Farms",
+  "city": "Snow Hill",
+  "state": "NC",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.rmfpasturepuremeats.com",
+  "phone": "919-922-3596",
+  "social_urls": [],
+  "species": [
+    "pork",
+    "poultry",
+    "lamb",
+    "beef",
+    "eggs"
+  ],
+  "products": [
+    "Berkshire pork",
+    "chicken",
+    "turkey",
+    "lamb",
+    "beef",
+    "sausage",
+    "bacon",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Rainbow Meadow Farms livestock rotationally graze about 300 acres of native grasses and small grain pastures.",
+    "source_url": "https://www.rmfpasturepuremeats.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market",
+    "csa",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.rmfpasturepuremeats.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

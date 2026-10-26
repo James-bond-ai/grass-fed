@@ -1,0 +1,52 @@
+{
+  "id": "bean-hollow-grassfed",
+  "slug": "bean-hollow-grassfed",
+  "farm_name": "Bean Hollow Grassfed",
+  "city": "Flint Hill",
+  "state": "VA",
+  "zip": "22627",
+  "address_public": true,
+  "address": "15 A Over Jordan Farm Ln., Flint Hill, VA 22627",
+  "website": "https://www.beanhollowgrassfed.com",
+  "phone": "540-675-1025",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork"
+  ],
+  "products": [
+    "beef",
+    "lamb",
+    "pastured pork"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Their small statures mature well on grass diets, without the need for supplemental grain feed.",
+    "source_url": "https://www.beanhollowgrassfed.com/what-we-do"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/virginia/flint-hill/lamb-and-mutton/bean-hollow-grassfed/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/virginia/flint-hill/lamb-and-mutton/bean-hollow-grassfed/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://store.beanhollowgrassfed.com",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/virginia/flint-hill/lamb-and-mutton/bean-hollow-grassfed/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

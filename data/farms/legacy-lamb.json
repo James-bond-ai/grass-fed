@@ -1,0 +1,48 @@
+{
+  "id": "legacy-lamb",
+  "slug": "legacy-lamb",
+  "farm_name": "Legacy Lamb",
+  "city": "Bellingham",
+  "state": "WA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.legacylamb.com",
+  "phone": "",
+  "social_urls": [
+    "https://www.instagram.com/legacy_lamb_co/"
+  ],
+  "species": [
+    "lamb"
+  ],
+  "products": [
+    "whole lamb",
+    "ground lamb",
+    "lamb chops",
+    "leg of lamb",
+    "shanks",
+    "bones and organs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "a small, 100% grass-fed Icelandic sheep farm focused on ecological land management and reverent whole-animal use.",
+    "source_url": "https://www.legacylamb.com/about"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/washington/bellingham/lamb-and-mutton/legacy-lamb/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.legacylamb.com/shop",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/bellingham/lamb-and-mutton/legacy-lamb/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

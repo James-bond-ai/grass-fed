@@ -1,0 +1,40 @@
+{
+  "id": "nehalem-river-ranch",
+  "slug": "nehalem-river-ranch",
+  "farm_name": "Nehalem River Ranch",
+  "city": "Nehalem",
+  "state": "OR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://nehalemriverranch.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "beef",
+    "heritage pork",
+    "beef jerky"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "\"Grass-fed/finished\" means our cattle eat the diet of the grasses and legumes (pasture and grass silage cut on-farm) that cattle evolved to consume.",
+    "source_url": "https://nehalemriverranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://app.barn2door.com/nehalemriverranch/all",
+  "data_source": "web-search",
+  "source_url": "https://nehalemriverranch.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

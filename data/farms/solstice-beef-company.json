@@ -1,0 +1,37 @@
+{
+  "id": "solstice-beef-company",
+  "slug": "solstice-beef-company",
+  "farm_name": "Solstice Beef Company",
+  "city": "Gordonsville",
+  "state": "VA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://solsticebeef.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef shares",
+    "bulk ground beef",
+    "beef sticks"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are 100% grass fed and grass finished, grazing on open fields year round.",
+    "source_url": "https://solsticebeef.com/pages/our-practices"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://solsticebeef.com/pages/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.vabeef.org/beef-home/how-to-buy-beef/virginia-beef-directory",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

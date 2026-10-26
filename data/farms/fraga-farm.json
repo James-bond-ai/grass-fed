@@ -1,0 +1,47 @@
+{
+  "id": "fraga-farm",
+  "slug": "fraga-farm",
+  "farm_name": "Fraga Farm",
+  "city": "Gales Creek",
+  "state": "OR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://fragafarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "dairy-goat"
+  ],
+  "products": [
+    "goat cheese",
+    "chevre",
+    "feta",
+    "aged cheese",
+    "gelato"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our goats spend their days on pasture in the beautiful Gales Creek Valley.",
+    "source_url": "https://fragafarm.com/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/oregon/gales-creek/dairy-1/fraga-farmstead-creamery/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://fragafarm.com/collections/all",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/gales-creek/dairy-1/fraga-farmstead-creamery/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}
