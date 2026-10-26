@@ -34,5 +34,15 @@
   "last_verified_at": "2026-10-26",
   "verification_method": "auto",
   "listing_status": "published",
-  "address": "5023 State Rd 23, Dodgeville, WI 53533"
+  "address": "5023 State Rd 23, Dodgeville, WI 53533",
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://www.uplandscheese.com/shipping-policy"
+  },
+  "dairy_products": [
+    "cheese"
+  ]
 }

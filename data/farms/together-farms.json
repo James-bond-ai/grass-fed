@@ -42,5 +42,16 @@
   "last_verified_at": "2026-10-26",
   "verification_method": "auto",
   "listing_status": "published",
-  "address": "W93 Norden Rd., Mondovi, WI 54755"
+  "address": "W93 Norden Rd., Mondovi, WI 54755",
+  "delivery": {
+    "local_areas": [
+      "within about 45 minutes of the farm"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [
+      "WI"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://togetherfarms.com/ways-to-shop"
+  }
 }

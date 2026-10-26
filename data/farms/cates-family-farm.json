@@ -36,5 +36,14 @@
   "last_verified_at": "2026-10-26",
   "verification_method": "auto",
   "listing_status": "published",
-  "address": "5992 County Highway T, Spring Green, WI 53588"
+  "address": "5992 County Highway T, Spring Green, WI 53588",
+  "delivery": {
+    "local_areas": [
+      "SW WI area"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.catesfamilyfarm.com/enjoy-our-beef"
+  }
 }

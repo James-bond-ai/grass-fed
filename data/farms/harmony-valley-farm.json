@@ -33,5 +33,18 @@
   "source_url": "https://harmonyvalleyfarm.com/",
   "last_verified_at": "2026-10-26",
   "verification_method": "auto",
-  "listing_status": "published"
+  "listing_status": "published",
+  "delivery": {
+    "local_areas": [
+      "Minneapolis/St. Paul, Minnesota",
+      "Madison, Wisconsin",
+      "La Crosse",
+      "Onalaska",
+      "Viroqua"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://harmonyvalleyfarm.com/csa/"
+  }
 }

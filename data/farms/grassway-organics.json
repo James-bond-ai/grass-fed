@@ -29,8 +29,7 @@
   },
   "certifications": [],
   "sales_channels": [
-    "on-farm-store",
-    "ships-nationwide"
+    "on-farm-store"
   ],
   "farmers_markets": [],
   "bulk_shares": false,
@@ -40,5 +39,22 @@
   "last_verified_at": "2026-10-26",
   "verification_method": "auto",
   "listing_status": "published",
-  "address": "W2716 Friemoth Road, East Troy, WI 53120"
+  "address": "W2716 Friemoth Road, East Troy, WI 53120",
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Brookfield (Sundays)",
+      "Mequon (Sundays)",
+      "Plymouth (Mondays)",
+      "Kiel (Mondays)",
+      "Northwest Milwaukee (Tuesdays)",
+      "South Milwaukee (Tuesdays)",
+      "Racine (Wednesdays)",
+      "Kenosha (Wednesdays)",
+      "Madison Area (Fridays)"
+    ],
+    "source_url": "https://grasswayorganics.grazecart.com/homepage-3"
+  }
 }

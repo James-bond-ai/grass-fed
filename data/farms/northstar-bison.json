@@ -26,7 +26,7 @@
   "certifications": [],
   "sales_channels": [
     "retail",
-    "ships-regional"
+    "ships-nationwide"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
@@ -35,5 +35,14 @@
   "source_url": "https://northstarbison.com/pages/ranch-tours-map",
   "last_verified_at": "2026-10-26",
   "verification_method": "auto",
-  "listing_status": "published"
+  "listing_status": "published",
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Northstar Bison Distribution, 222 Birch Ave, Cameron, WI"
+    ],
+    "source_url": "https://northstarbison.com/policies/shipping-policy"
+  }
 }
