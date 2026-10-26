@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { GA_MEASUREMENT_ID } from '../data/site.mjs';
 
 interface Props {
   title: string;
@@ -38,6 +39,17 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=Zilla+Slab:wght@500;600;700&display=swap" rel="stylesheet" />
     {ld.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
+    {GA_MEASUREMENT_ID && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>
+        <script is:inline define:vars={{ id: GA_MEASUREMENT_ID }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', id);
+        </script>
+      </>
+    )}
   </head>
   <body>
     <a class="visually-hidden" href="#main">Skip to content</a>
@@ -79,6 +91,7 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
             <ul>
               <li><a href="/list-your-farm/">List your farm</a></li>
               <li><a href="/about/">About</a></li>
+              <li><a href="/privacy/">Privacy</a></li>
             </ul>
           </div>
         </div>

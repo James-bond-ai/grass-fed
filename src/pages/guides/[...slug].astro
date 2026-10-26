@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
 import { fmtDate } from '../../data/format.mjs';
+import { AFFILIATES_ENABLED } from '../../data/site.mjs';
 
 export async function getStaticPaths() {
   const articles = await getCollection('articles');
@@ -42,7 +43,7 @@ const jsonLd = [
     <p class="muted small">
       By the grassfed.food editors. Updated {fmtDate(d.updated)}{d.updated.getTime() !== d.published.getTime() && <>, first published {fmtDate(d.published)}</>}.
     </p>
-    {d.affiliate && (
+    {AFFILIATES_ENABLED && d.affiliate && (
       <p class="disclosure"><strong>We earn commissions on some links in this article.</strong> If you buy through a link marked "paid link," we may be paid by the seller at no extra cost to you. Sellers can't pay for placement or influence what we write. <a href="/disclosure/">How we make money</a></p>
     )}
     {isComparison && (

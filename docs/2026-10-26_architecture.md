@@ -1,12 +1,12 @@
 # grassfed.food: System Architecture
 
-**Version:** 1.0, October 26, 2026
+**Version:** 1.1, October 26, 2026
 **Owner:** Harry
-**Status:** Draft for approval. Nothing is built yet.
+**Status:** Approved. Site built and deployed; informational only.
 
 ## 1. What the business is
 
-grassfed.food is a nationwide US directory of grass-fed meat and dairy farms, paired with buying guides and brand comparisons that earn affiliate commissions. The content attracts search traffic; the directory and the guides convert it into farm visits and affiliate sales.
+grassfed.food is a nationwide US directory of grass-fed meat and dairy farms, paired with informational buying guides. It carries no affiliate links and no ads at launch. Revenue comes later from display advertising through a premium ad network (Journey by Mediavine or Raptive) once traffic qualifies; affiliate links may be added after that. Both switches live in `src/data/site.mjs` and only Harry changes them.
 
 The positioning comes from the research: every existing directory is weak on at least one of filtering, freshness, or verification. grassfed.food wins on three things competitors do not do:
 
@@ -38,7 +38,7 @@ Each agent has exactly one job, one schedule, and writes only to its own part of
 | **Writer** | Writes the next article from the editorial queue, using only sourced facts. | `ops/editorial-queue.md`, `data/`, `docs/research/` | `src/content/drafts/` | Mon, Wed, Fri, 5:15 am |
 | **Compliance** | Reviews every draft against the rules in section 5. Publishes drafts that pass; returns failures to the queue with reasons. Also audits live pages weekly. | `src/content/drafts/`, `src/content/articles/` | `src/content/articles/`, `ops/compliance-log.md` | Daily, 7:20 am |
 | **Builder** | Works the site backlog: new state hubs once a state reaches 5 verified farms, template fixes, performance, schema markup. Never touches content or data. | `ops/site-backlog.md`, `data/farms/` | `src/` (code only) | Tue and Thu, 9:45 pm |
-| **Monitor** | Runs link checks, build health, stale-listing counts, and coverage gaps. Feeds problems to the other agents' queues and writes the weekly report. | Whole repo, live site | `ops/reports/`, queues | Mon, 6:35 am |
+| **Monitor** | Runs link checks, build health, stale-listing counts, coverage gaps, and the traffic watch against ad network thresholds. Feeds problems to the other agents' queues and writes the weekly report. | Whole repo, live site | `ops/reports/`, queues | Mon, 6:35 am |
 
 **Collision safety:** schedules are staggered so no two agents run at once. Every agent pulls before working, runs `npm run validate` before committing, and rebases before pushing. GitHub Actions runs the same validation on every push and refuses to deploy a failing build, so a bad commit cannot reach the live site.
 
@@ -86,9 +86,10 @@ These are enforced twice: by the Compliance agent on every draft, and by `valida
 - **No claims of hands-on testing.** Agents cannot buy and taste products, so comparisons are research-based and say so in a visible methodology note. This keeps the site within the FTC Consumer Reviews Rule, which prohibits fake or AI-generated reviews.
 - **Raw milk pages** state legal status by state with a dated citation and a "not legal advice" note.
 
-### Affiliate disclosure
-- A clear disclosure above the first link on every page containing affiliate links, with "paid link" labels next to links. "Affiliate link" alone does not meet FTC guidance.
-- Directory rankings are never influenced by affiliate status.
+### Revenue switches
+- Affiliates are off. While off, the validator rejects any paid link. When switched on, every page with affiliate links needs a disclosure above the first link and a "paid link" label beside each link; "affiliate link" alone does not meet FTC guidance.
+- Ads are off. When switched on, ads stay visually separate from content and advertisers have no influence on listings or articles.
+- Directory rankings are never influenced by money.
 
 ### SEO
 - A state page is indexed only with at least 5 verified farms; a city page only with at least 5 farms in reach. Below that, the page is `noindex` or folded into the state page.
@@ -109,13 +110,13 @@ Full editorial queue (20 articles) and site structure are in `docs/research/`.
 
 | Action | When | Why |
 |---|---|---|
-| Set **Settings → Pages → Source** to GitHub Actions | Before first deploy | Enables the deploy workflow |
-| Add DNS records for grassfed.food (4 A records to GitHub Pages, `www` CNAME to `james-bond-ai.github.io`) | Before first deploy | Points the domain at the site |
-| Set the custom domain and enforce HTTPS in Pages settings | After first deploy | Secures the domain |
-| Apply to affiliate programs, starting with: Grass Roots Farmers Cooperative (15%, verified), US Wellness Meats, White Oak Pastures, ButcherBox (100% grass-fed line only), Thrive Market | After launch, once 5 or more articles are live | Programs review the site before approving; agents cannot create accounts. Add each tracking link to `data/affiliates.json` or send it to Claude |
+| Set **Settings → Pages → Source** to GitHub Actions | Done | Enables the deploy workflow |
+| Add DNS records for grassfed.food (4 A records to GitHub Pages, `www` CNAME to `james-bond-ai.github.io`) | Done | Points the domain at the site |
+| Set the custom domain `grassfed.food` and enforce HTTPS in Pages settings | Now | Agents cannot change Pages settings |
+| Create a Google Analytics 4 property and send Claude the measurement ID | Now | Premium ad networks verify traffic through GA4 |
+| Apply to Journey by Mediavine or Raptive when Monitor flags the threshold in `ops/traffic.md` | When traffic qualifies | Agents cannot create accounts |
+| Affiliate programs (researched in `docs/research/`) | Deferred | Informational-only for now |
 | Register Google Search Console and Bing Webmaster Tools | After launch | Indexing and traffic data for the Monitor agent's reports |
-
-Until affiliate programs approve the site, product links go to brand sites without tracking and carry no "paid link" label.
 
 **Deferred on purpose:** automated email outreach to farms. Unsolicited bulk email from an autonomous agent carries CAN-SPAM exposure and reputational risk. Farms will reach the site through a "List your farm" link instead; outreach can be added later with a sending domain and opt-out handling.
 
@@ -124,8 +125,9 @@ Until affiliate programs approve the site, product links go to brand sites witho
 | Item | Confidence | Note |
 |---|---|---|
 | Keyword volumes and winnability | Low | From one free source; verify with Search Console after 60 to 90 days |
-| Affiliate commission rates | Medium | Only Grass Roots (15%), Porter Road (8%), Snake River Farms (10%), and Kettle & Fire (20%) are published by the brands. Porter Road and Snake River Farms are not grass-fed brands and are excluded |
+| Ad network thresholds | Medium | Sources disagree on Journey's minimum (1,000 to 10,000 sessions); recheck before applying |
+| Traffic data for Monitor | Medium | No first-party GA4 connector is available; traffic figures are entered in `ops/traffic.md` until one is |
 | Farm coverage pace | Medium | Web-only verification limits throughput to an estimated 15 to 40 farms per day |
 | AGA and AGW listing reuse | Medium | Facts are not copyrightable, but permission requests to both certifiers are recommended |
 | Scheduled task usage | Medium | Six agents on these cadences run about 25 sessions a week against Harry's Claude plan limits |
-| Revenue timeline | Low | New domains typically take 6 to 12 months to earn meaningful search traffic |
+| Revenue timeline | Low | No revenue until a premium ad network approves the site; new domains typically take 6 to 12 months to earn meaningful search traffic |

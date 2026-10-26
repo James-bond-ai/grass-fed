@@ -1,10 +1,45 @@
 {
-  "_note": "Programs the site belongs to. Only programs with status 'approved' may be linked with tracking. Links to any domain in tracking_domains must use rel=\"sponsored nofollow\" followed by (paid link).",
+  "_note": "Affiliate links are switched off (src/data/site.mjs AFFILIATES_ENABLED = false). This file records programs researched for later. Agents must not apply to programs or add tracking links.",
   "programs": [
-    { "brand": "Grass Roots Farmers Cooperative", "site": "https://grassrootscoop.com", "network": "in-house", "status": "not-applied", "tracking_domains": [], "notes": "15% published commission. Grass-fed; finishing not stated." },
-    { "brand": "US Wellness Meats", "site": "https://grasslandbeef.com", "network": "Impact", "status": "not-applied", "tracking_domains": [], "notes": "Grass-fed and grass-finished beef plus grass-fed dairy." },
-    { "brand": "White Oak Pastures", "site": "https://whiteoakpastures.com", "network": "Shopify Collabs", "status": "not-applied", "tracking_domains": [], "notes": "States all cattle are grass-fed and grass-finished." },
-    { "brand": "ButcherBox", "site": "https://www.butcherbox.com", "network": "Impact", "status": "not-applied", "tracking_domains": [], "notes": "Link only to the 100% grass-fed, grass-finished beef line." },
-    { "brand": "Thrive Market", "site": "https://thrivemarket.com", "network": "unconfirmed", "status": "not-applied", "tracking_domains": [], "notes": "Grocery retailer; covers grass-fed dairy brands without programs." }
+    {
+      "brand": "Grass Roots Farmers Cooperative",
+      "site": "https://grassrootscoop.com",
+      "network": "in-house",
+      "status": "not-applied",
+      "tracking_domains": [],
+      "notes": "15% published commission. Grass-fed; finishing not stated."
+    },
+    {
+      "brand": "US Wellness Meats",
+      "site": "https://grasslandbeef.com",
+      "network": "Impact",
+      "status": "not-applied",
+      "tracking_domains": [],
+      "notes": "Grass-fed and grass-finished beef plus grass-fed dairy."
+    },
+    {
+      "brand": "White Oak Pastures",
+      "site": "https://whiteoakpastures.com",
+      "network": "Shopify Collabs",
+      "status": "not-applied",
+      "tracking_domains": [],
+      "notes": "States all cattle are grass-fed and grass-finished."
+    },
+    {
+      "brand": "ButcherBox",
+      "site": "https://www.butcherbox.com",
+      "network": "Impact",
+      "status": "not-applied",
+      "tracking_domains": [],
+      "notes": "Link only to the 100% grass-fed, grass-finished beef line."
+    },
+    {
+      "brand": "Thrive Market",
+      "site": "https://thrivemarket.com",
+      "network": "unconfirmed",
+      "status": "not-applied",
+      "tracking_domains": [],
+      "notes": "Grocery retailer; covers grass-fed dairy brands without programs."
+    }
   ]
 }

@@ -10,6 +10,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
+import { AFFILIATES_ENABLED } from '../src/data/site.mjs';
 import { STATE_BY_ABBR, SPECIES, FEEDING, CHANNELS, CERTIFICATIONS } from '../src/data/states.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
@@ -151,6 +152,7 @@ function checkArticle(file) {
   const allLinks = [...body.matchAll(/\]\((https?:\/\/[^)\s]+)\)|href="(https?:\/\/[^"]+)"/g)].map((x) => x[1] ?? x[2]);
   const tracked = allLinks.filter((u) => trackingHosts.includes(hostOf(u)));
   if (tracked.length && sponsored.length < tracked.length) err(file, 'links to affiliate tracking domains must use <a rel="sponsored nofollow"> followed by (paid link)');
+  if (!AFFILIATES_ENABLED && (sponsored.length || tracked.length || fm.affiliate === true)) err(file, 'affiliate links are switched off (src/data/site.mjs); remove paid links and the affiliate flag');
   if ((sponsored.length || tracked.length) && fm.affiliate !== true) err(file, 'has paid links, so frontmatter must set affiliate: true');
 
   // Internal links

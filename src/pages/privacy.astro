@@ -1,0 +1,29 @@
+---
+import Page from '../layouts/Page.astro';
+import { GA_MEASUREMENT_ID, ADS_ENABLED } from '../data/site.mjs';
+const updated = 'October 26, 2026';
+---
+<Page title="Privacy policy" crumb="Privacy" description="What information grassfed.food collects, why, and the choices you have.">
+  <p class="muted small">Last updated {updated}</p>
+  <p class="lede">grassfed.food doesn't ask you to create an account and doesn't sell personal information.</p>
+
+  <h2>What we collect</h2>
+  {GA_MEASUREMENT_ID ? (
+    <p>We use Google Analytics to understand how many people visit and which pages they read. Google Analytics uses cookies and collects information such as pages viewed, approximate location, device and browser type, and how you arrived at the site. We use this only in aggregate to improve the site. Google's handling of this data is described in <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow">How Google uses information from sites that use its services</a>. You can opt out with the <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow">Google Analytics opt-out browser add-on</a>.</p>
+  ) : (
+    <p>We don't currently use analytics, advertising or tracking cookies. Our host, GitHub Pages, may log technical information such as IP addresses to keep the service secure; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="nofollow">GitHub's privacy statement</a>.</p>
+  )}
+  {!ADS_ENABLED && <p>The site shows no advertising.</p>}
+
+  <h2>Farm submissions and corrections</h2>
+  <p>If you submit a farm or a correction, the details you enter are published on GitHub, where our directory is maintained, and are visible to anyone. Don't include information you want kept private. Business details we publish about a farm (name, town, website, phone) are taken from the farm's own public website.</p>
+
+  <h2>Your choices</h2>
+  <p>You can block or delete cookies in your browser settings. Farms can ask us to update or remove their listing at any time through our <a href="/corrections/">corrections form</a>.</p>
+
+  <h2>Children</h2>
+  <p>grassfed.food is not directed at children under 13 and doesn't knowingly collect information from them.</p>
+
+  <h2>Changes</h2>
+  <p>We'll update this page before any change in what we collect, including if we add advertising, and change the date above.</p>
+</Page>
