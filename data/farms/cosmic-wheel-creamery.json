@@ -1,0 +1,38 @@
+{
+  "id": "cosmic-wheel-creamery",
+  "slug": "cosmic-wheel-creamery",
+  "farm_name": "Cosmic Wheel Creamery at Turnip Rock Farm",
+  "city": "Clear Lake",
+  "state": "WI",
+  "zip": "54005",
+  "address_public": true,
+  "address": "260 95th Street, Clear Lake, WI 54005",
+  "website": "https://www.cosmicwheelcreamery.com/",
+  "phone": "715-268-9311",
+  "social_urls": [],
+  "species": ["dairy-cow", "beef", "pork"],
+  "products": ["aged raw milk natural rind cheeses", "feta", "fresh cheese curds", "quark", "soft-ripened cheese", "whole milk ricotta", "grass-fed beef", "pastured pork"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our cows are milked seasonally and are 100% grass fed.",
+    "source_url": "https://www.cosmicwheelcreamery.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "online-order", "farmers-market", "csa", "retail", "restaurants"],
+  "farmers_markets": ["St. Croix Falls Farmers Market", "Mill City Farmers Market", "MidCity Farmers Market"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Foxtail Farm Winter CSA", "Threshing Table Farm CSA"],
+    "source_url": "https://www.cosmicwheelcreamery.com/"
+  },
+  "dairy_products": ["cheese"],
+  "ordering_url": "https://turnip-rock.localline.ca/",
+  "data_source": "web-search",
+  "source_url": "https://millcityfarmersmarket.org/micro-creameries",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}
