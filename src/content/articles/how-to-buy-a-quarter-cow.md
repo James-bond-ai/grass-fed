@@ -4,6 +4,11 @@ description: "What a quarter, half or whole beef share costs, how hanging weight
 kind: guide
 published: 2026-10-26
 updated: 2026-10-26
+image:
+  src: "https://images.unsplash.com/photo-1632154023554-c2975e9be348?w=1200&q=80&auto=format&fit=crop"
+  alt: "A raw beef steak resting on a sheet of butcher paper"
+  credit: "Llio Angharad"
+  credit_url: "https://unsplash.com/photos/a-piece-of-meat-sitting-on-top-of-a-piece-of-paper-jkVToIbJsWA"
 sources:
   - title: "USDA AMS Livestock, Poultry and Grain Market News: National Grass Fed Beef Report (Quarterly), 2025 Quarter 3, September 26, 2025"
     url: "https://esmis.nal.usda.gov/sites/default/release-files/q237hr97c/nc582m402/31980k92f/LSMNGFBEEF.PDF"

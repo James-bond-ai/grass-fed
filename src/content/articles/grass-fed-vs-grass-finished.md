@@ -4,6 +4,11 @@ description: "What grass-fed and grass-finished mean on US meat labels, how the 
 kind: guide
 published: 2026-10-26
 updated: 2026-10-26
+image:
+  src: "https://images.unsplash.com/photo-1715798637010-8a4f27a0950f?w=1200&q=80&auto=format&fit=crop"
+  alt: "A herd of cattle grazing on a green summer pasture lined with trees in Texas"
+  credit: "David Banning"
+  credit_url: "https://unsplash.com/photos/a-herd-of-cattle-grazing-on-a-lush-green-field-QxpYNaQhAB8"
 sources:
   - title: "USDA FSIS: Guideline on Substantiating Animal-Raising or Environment-Related Labeling Claims (FSIS-GD-2024-0006, August 2024, PDF)"
     url: "https://www.usda.gov/sites/default/files/guidance-documents/FSIS.%20FSIS%20Guideline%20on%20Substantiating%20Animal-Raising%20or%20Environment-Related%20Labeling%20Claims.pdf"

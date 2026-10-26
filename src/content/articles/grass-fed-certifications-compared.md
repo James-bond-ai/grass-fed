@@ -4,6 +4,11 @@ description: "How AGA, Certified Grassfed by AGW, Animal Welfare Approved, OPT a
 kind: guide
 published: 2026-10-26
 updated: 2026-10-26
+image:
+  src: "https://images.unsplash.com/photo-1666367475952-7c481f25090d?w=1200&q=80&auto=format&fit=crop"
+  alt: "Cattle standing in a fenced pasture on the South Dakota prairie"
+  credit: "Mick Haupt"
+  credit_url: "https://unsplash.com/photos/a-herd-of-cows-in-a-fenced-in-pasture-LeddYmHIFAc"
 sources:
   - title: "American Grassfed Association: Our standards"
     url: "https://www.americangrassfed.org/about-us/our-standards/"

@@ -4,6 +4,11 @@ description: "Twelve questions to ask a farm before you buy grass-fed beef, lamb
 kind: guide
 published: 2026-10-26
 updated: 2026-10-26
+image:
+  src: "https://images.unsplash.com/photo-1758621359346-f0e052d78c12?w=1200&q=80&auto=format&fit=crop"
+  alt: "A herd of black cattle standing behind a barbed wire fence at the edge of a green pasture"
+  credit: "Linda Gerbec"
+  credit_url: "https://unsplash.com/photos/a-herd-of-black-cows-behind-a-fence-SYM50MBGiu0"
 sources:
   - title: "Federal Register (2007): United States Standards for Livestock and Meat Marketing Claims, Grass (Forage) Fed Claim"
     url: "https://www.govinfo.gov/content/pkg/FR-2007-10-16/pdf/07-5072.pdf"
