@@ -1,0 +1,55 @@
+{
+  "id": "vermont-shepherd",
+  "slug": "vermont-shepherd",
+  "farm_name": "Vermont Shepherd",
+  "city": "Westminster",
+  "state": "VT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://vermontshepherd.com/",
+  "phone": "802-387-4473",
+  "social_urls": [
+    "http://facebook.com/vermontshepherd",
+    "http://instagram.com/vermontshepherd"
+  ],
+  "species": [
+    "dairy-sheep"
+  ],
+  "products": [
+    "Verano sheep milk cheese",
+    "Invierno mixed milk cheese",
+    "ricotta",
+    "fromage blanc",
+    "wool",
+    "soap"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "We utilize intensive rotational grazing to feed and care for our sheep",
+    "source_url": "https://vermontshepherd.com/pages/about-us"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://vermontshepherd.com/pages/shipping-returns"
+  },
+  "dairy_products": [
+    "cheese"
+  ],
+  "ordering_url": "https://vermontshepherd.com/collections/all-products",
+  "data_source": "web-search",
+  "source_url": "https://vermontshepherd.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

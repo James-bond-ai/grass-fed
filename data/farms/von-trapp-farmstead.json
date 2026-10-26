@@ -1,0 +1,61 @@
+{
+  "id": "von-trapp-farmstead",
+  "slug": "von-trapp-farmstead",
+  "farm_name": "von Trapp Farmstead",
+  "city": "Waitsfield",
+  "state": "VT",
+  "zip": "05673",
+  "address_public": true,
+  "website": "https://www.vontrappfarmstead.com/",
+  "phone": "802-496-6100",
+  "social_urls": [
+    "https://www.instagram.com/vontrappfarmstead/",
+    "https://www.facebook.com/VonTrappFarmsteadCheese/"
+  ],
+  "species": [
+    "dairy-cow",
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "farmstead cheese",
+    "yogurt",
+    "raw milk (CSA)",
+    "beef",
+    "pork",
+    "salami"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Our herd of cows is raised on the farm's organic pasture with minimal supplemental grain.",
+    "source_url": "https://vontrappfarmstead.com/meat"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "csa",
+    "online-order",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://www.vontrappfarmstead.com/"
+  },
+  "dairy_products": [
+    "cheese",
+    "yogurt",
+    "raw-milk"
+  ],
+  "ordering_url": "https://vontrappfarmstead.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.vontrappfarmstead.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "251 Common Road, Waitsfield, VT 05673"
+}

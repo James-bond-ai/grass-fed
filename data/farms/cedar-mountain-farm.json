@@ -1,0 +1,55 @@
+{
+  "id": "cedar-mountain-farm",
+  "slug": "cedar-mountain-farm",
+  "farm_name": "Cedar Mountain Farm",
+  "city": "Hartland",
+  "state": "VT",
+  "zip": "05048",
+  "address_public": true,
+  "website": "https://www.cedarmountainfarm.org/",
+  "phone": "802-436-1448",
+  "social_urls": [
+    "https://www.instagram.com/cedarmountainfarmvermont/"
+  ],
+  "species": [
+    "dairy-cow",
+    "beef"
+  ],
+  "products": [
+    "raw milk",
+    "milk subscription",
+    "beef cuts",
+    "ground beef",
+    "beef bundles",
+    "vegetables"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Their diet is balanced with a custom ration from Poulin grain and dry hay.",
+    "source_url": "https://www.cedarmountainfarm.org/our-cows"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.cedarmountainfarm.org/shop"
+  },
+  "dairy_products": [
+    "raw-milk"
+  ],
+  "ordering_url": "https://www.cedarmountainfarm.org/shop",
+  "data_source": "web-search",
+  "source_url": "https://cobbhillcheese.com/about",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "25A Linden Rd, Hartland, VT 05048"
+}

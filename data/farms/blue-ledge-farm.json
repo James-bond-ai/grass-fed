@@ -1,0 +1,57 @@
+{
+  "id": "blue-ledge-farm",
+  "slug": "blue-ledge-farm",
+  "farm_name": "Blue Ledge Farm",
+  "city": "Salisbury",
+  "state": "VT",
+  "zip": "05769",
+  "address_public": true,
+  "website": "https://blueledgefarm.com/",
+  "phone": "802-247-0095",
+  "social_urls": [],
+  "species": [
+    "dairy-goat"
+  ],
+  "products": [
+    "fresh chevre",
+    "aged goat cheese",
+    "bloomy rind cheese",
+    "blue cheese"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "graze and forage throughout most of the year",
+    "source_url": "https://blueledgefarm.com/our-story.html"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/vermont/leicester/cheese-1/blue-ledge-farm/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://blueledgefarm.com/store.html"
+  },
+  "dairy_products": [
+    "cheese"
+  ],
+  "ordering_url": "https://blueledgefarm.com/store.html",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/vermont/leicester/cheese-1/blue-ledge-farm/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "2001 Old Jerusalem Rd, Salisbury, VT 05769"
+}
