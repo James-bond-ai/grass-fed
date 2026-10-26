@@ -5,7 +5,7 @@
 // Usage:
 //   node scripts/validate.mjs            farms, candidates, published articles
 //   node scripts/validate.mjs --drafts   also check src/content/drafts
-//   node scripts/validate.mjs path.md    check specific article files only
+//   node scripts/validate.mjs a.md b.json  check specific article or farm files only
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -170,8 +170,14 @@ function mdFiles(dir) {
 
 // ---------- Run ----------
 const explicit = args.filter((a) => a.endsWith('.md'));
-if (explicit.length) {
+const explicitJson = args.filter((a) => a.endsWith('.json'));
+if (explicit.length || explicitJson.length) {
   explicit.forEach((f) => checkArticle(path.resolve(f)));
+  explicitJson.forEach((f) => {
+    const file = path.resolve(f);
+    try { checkFarm(file, JSON.parse(fs.readFileSync(file, 'utf8')), { candidate: file.includes('/candidates/') }); }
+    catch (e) { err(file, `invalid JSON: ${e.message}`); }
+  });
 } else {
   const farms = readJsonDir('data/farms');
   readJsonDir('data/candidates', { candidate: true });
