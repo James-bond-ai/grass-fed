@@ -1,0 +1,49 @@
+{
+  "id": "blackwater-pastures",
+  "slug": "blackwater-pastures",
+  "farm_name": "Blackwater Pastures",
+  "city": "Quitman",
+  "state": "GA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://blackwater-pastures.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "short ribs",
+    "organs and bones",
+    "Berkshire pork",
+    "beef shares"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Enhanced Flavor Profile: Rich, buttery taste from grain diet.",
+    "source_url": "https://blackwater-pastures.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Decatur Market",
+    "East Atlanta Village Market",
+    "Vinings Jubilee Farmers Market",
+    "Piedmont Green Market",
+    "Grant Park Market",
+    "Avondale Estates Farmers Market"
+  ],
+  "bulk_shares": true,
+  "ordering_url": "https://blackwater-pastures.com/collections/all",
+  "data_source": "web-search",
+  "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "blue-bear-farm-and-cattle-co",
+  "slug": "blue-bear-farm-and-cattle-co",
+  "farm_name": "Blue Bear Farm & Cattle Co.",
+  "city": "Cairo",
+  "state": "GA",
+  "zip": "39828",
+  "address_public": true,
+  "address": "568 Lewis Road, Cairo, GA 39828",
+  "website": "https://www.bluebeargrassfed.com",
+  "phone": "850-212-5816",
+  "social_urls": [
+    "https://www.facebook.com/bluebearfarmga",
+    "https://www.instagram.com/bluebear_devons"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "stew beef",
+    "ribs",
+    "brisket",
+    "organ meat",
+    "bones",
+    "bone broth"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our Red Devon cattle are raised and finished solely on the diverse forages in our pastures.",
+    "source_url": "https://www.bluebeargrassfed.com/page/about-us"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/georgia/cairo/beef-1/blue-bear-farm-cattle-co/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/georgia/cairo/beef-1/blue-bear-farm-cattle-co/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.bluebeargrassfed.com/shop.php",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/georgia/cairo/beef-1/blue-bear-farm-cattle-co/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

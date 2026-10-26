@@ -1,0 +1,36 @@
+{
+  "id": "sweet-grass-dairy-ga",
+  "slug": "sweet-grass-dairy-ga",
+  "farm_name": "Sweet Grass Dairy",
+  "city": "Thomasville",
+  "state": "GA",
+  "zip": "31792",
+  "address_public": false,
+  "website": "https://sweetgrassdairy.com",
+  "phone": "(229) 227-0752",
+  "social_urls": [],
+  "species": [
+    "dairy-cow"
+  ],
+  "products": [
+    "cheese"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "The cows are rotated to a new pasture every 12 hours for fresh green grass.",
+    "source_url": "https://sweetgrassdairy.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "retail",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://www.goldbelly.com/restaurants/sweet-grass-dairy",
+  "data_source": "web-search",
+  "source_url": "https://sweetgrassdairy.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

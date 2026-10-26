@@ -1,0 +1,42 @@
+{
+  "id": "marble-creek-farms",
+  "slug": "marble-creek-farms",
+  "farm_name": "Marble Creek Farms",
+  "city": "Gainesville",
+  "state": "GA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://marblecreekfarms.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "bulk beef",
+    "beef boxes",
+    "pasture-raised chicken",
+    "eggs",
+    "tallow products"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Grass-fed with optional finishing on grass or on grain, depending on preference.",
+    "source_url": "https://marblecreekfarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://marblecreekfarms.com/store",
+  "data_source": "web-search",
+  "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

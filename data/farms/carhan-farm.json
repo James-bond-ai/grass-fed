@@ -1,0 +1,36 @@
+{
+  "id": "carhan-farm",
+  "slug": "carhan-farm",
+  "farm_name": "Carhan Farm",
+  "city": "Eatonton",
+  "state": "GA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://carhanfarm.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "grass-fed beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our cattle live a natural life on beautiful pastures, and are 100% grass-fed.",
+    "source_url": "https://carhanfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "restaurants",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://app.barn2door.com/3v875/all",
+  "data_source": "web-search",
+  "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "little-springs-cattle-co",
+  "slug": "little-springs-cattle-co",
+  "farm_name": "Little Springs Cattle Co.",
+  "city": "Covington",
+  "state": "GA",
+  "zip": "30014",
+  "address_public": true,
+  "address": "1186 Clark St. SW, Covington, GA 30014",
+  "website": "https://littlespringscattleco.com",
+  "phone": "470-327-2000",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "quarter, half and whole beef",
+    "tallow products"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Our grass-fed, grain-finished approach not only enhances the flavor, texture, and marbling of our beef.",
+    "source_url": "https://littlespringscattleco.com/pages/about"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://littlespringscattleco.com/collections/all",
+  "data_source": "web-search",
+  "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}
