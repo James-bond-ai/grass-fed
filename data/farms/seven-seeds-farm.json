@@ -34,6 +34,14 @@
       "program": "awa",
       "evidence_url": "https://agreenerworld.org/agw-listings/united-states/wisconsin/spring-green/beef-1/seven-seeds-farm/",
       "verified_on": "2026-10-26"
+    },
+    {
+      "body": "Midwest Organic Services Association, Inc.",
+      "program": "usda-organic",
+      "cert_id": "9950003214",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Found as \"Seven Seeds Farm, LLC\" (Spring Green, WI) with status Certified in the USDA Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-10-26"
     }
   ],
   "sales_channels": [

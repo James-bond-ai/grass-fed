@@ -22,7 +22,16 @@
     "verbatim": "grows vegetables, fruits, nuts, and pasture-raised chickens and pigs.",
     "source_url": "https://www.riverdogfarm.com/"
   },
-  "certifications": [],
+  "certifications": [
+    {
+      "body": "CCOF Certification Services, LLC",
+      "program": "usda-organic",
+      "cert_id": "5561003078",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Found as \"Riverdog Farm\" (Guinda, CA) with status Certified in the USDA Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-10-26"
+    }
+  ],
   "sales_channels": [
     "csa",
     "farmers-market",

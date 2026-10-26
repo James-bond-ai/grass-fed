@@ -1,57 +1,27 @@
-# Turns the downloaded Organic Integrity workbook into data/organic/us-operations.json:
-# one row per US certified operation with the fields our matcher needs.
-import json, sys, re
+# Turns the USDA Organic Integrity monthly workbook ("Operation Level" sheet) into a slim
+# lookup of US certified operations: data/organic/us-operations.json.
+# Usage: python scripts/organic/slim.py <workbook.xlsx> <snapshot YYYYMMDD> <out.json>
+import json, sys
 import pandas as pd
 
-info = json.load(open('download.json'))
-xl = pd.ExcelFile(info['file'])
-report = {'source': info, 'sheets': {}}
-for sh in xl.sheet_names:
-    head = pd.read_excel(xl, sh, nrows=3)
-    report['sheets'][sh] = {'columns': [str(c) for c in head.columns], 'sample': head.astype(str).values.tolist()}
-json.dump(report, open('columns.json', 'w'), indent=2)
-
-def pick(cols, *keys):
-    for k in keys:
-        for c in cols:
-            if k in c.lower().replace(' ', ''):
-                return c
-    return None
-
-# Use the sheet with operation names; it has the most columns matching ours.
-best = None
-for sh in xl.sheet_names:
-    cols = report['sheets'][sh]['columns']
-    if pick(cols, 'operationname', 'operation') and pick(cols, 'state'):
-        best = sh; break
-if best is None:
-    print('could not find operations sheet', report); sys.exit(1)
-df = pd.read_excel(xl, best, dtype=str).fillna('')
-cols = list(df.columns)
-c = {
-  'id': pick(cols, 'operationid', 'nopid', 'id'),
-  'name': pick(cols, 'operationname', 'operation'),
-  'other_names': pick(cols, 'othernames', 'dba'),
-  'city': pick(cols, 'physicaladdresscity', 'city'),
-  'state': pick(cols, 'physicaladdressstate', 'state'),
-  'country': pick(cols, 'physicaladdresscountry', 'country'),
-  'certifier': pick(cols, 'certifiername', 'certifier'),
-  'status': pick(cols, 'operationcertificationstatus', 'status'),
-  'livestock': pick(cols, 'livestockscopecertificationstatus', 'livestock'),
-  'handling': pick(cols, 'handlingscopecertificationstatus', 'handling'),
-  'website': pick(cols, 'website', 'url'),
+src, snap, out = sys.argv[1], sys.argv[2], sys.argv[3]
+cols = {
+    'op_nopOpID': 'id', 'op_name': 'name', 'op_otherNames': 'other_names', 'Cert_name': 'certifier',
+    'op_status': 'status', 'opSC_LS': 'livestock', 'opSC_HANDLING': 'handling', 'opSC_CR': 'crops',
+    'opPA_city': 'city', 'opPA_state': 'state', 'opPA_country': 'country', 'op_url': 'website',
+    'opEx_dairy': 'dairy', 'op_certificate': 'certificate',
 }
-print('column map', c)
-rows = []
-for _, r in df.iterrows():
-    get = lambda k: (r[c[k]].strip() if c[k] else '')
-    country = get('country')
-    if country and not re.search(r'united states|^us$|^usa$', country, re.I):
-        continue
-    rows.append({k: get(k) for k in c if c[k] and k != 'country'})
-out = {'snapshot': info['date'], 'source_url': 'https://organic.ams.usda.gov/integrity/Reports/DataHistory', 'columns': c, 'count': len(rows), 'operations': rows}
-import os
-os.makedirs('out', exist_ok=True)
-json.dump(out, open('out/us-operations.json', 'w'), separators=(',', ':'))
-json.dump(report, open('out/columns.json', 'w'), indent=2)
-print('wrote', len(rows), 'US operations')
+df = pd.read_excel(src, sheet_name='Operation Level', usecols=list(cols), dtype=str).fillna('')
+df = df.iloc[1:]  # second header row holds human-readable labels
+df = df.rename(columns=cols)
+df = df[df['country'].str.contains('United States', case=False, na=False)]
+df = df[df['status'].str.strip().eq('Certified')]
+df = df.drop(columns=['country', 'certificate'])
+ops = df.to_dict(orient='records')
+json.dump({
+    'snapshot': f'{snap[:4]}-{snap[4:6]}-{snap[6:]}',
+    'source_url': 'https://organic.ams.usda.gov/integrity/Reports/DataHistory',
+    'count': len(ops),
+    'operations': ops,
+}, open(out, 'w'), separators=(',', ':'))
+print('wrote', len(ops), 'US operations to', out)

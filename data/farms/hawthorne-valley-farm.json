@@ -40,6 +40,14 @@
       "program": "awa",
       "evidence_url": "https://agreenerworld.org/agw-listings/united-states/new-york/ghent/beef-1/hawthorne-valley-farm-store/",
       "verified_on": "2026-10-26"
+    },
+    {
+      "body": "NOFA-NY Certified Organic, LLC",
+      "program": "usda-organic",
+      "cert_id": "3252018075",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Found as \"Hawthorne Valley Association, Inc. DBA Hawthorne Valley Farm & Creamery\" (Ghent, NY) with status Certified in the USDA Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-10-26"
     }
   ],
   "sales_channels": [

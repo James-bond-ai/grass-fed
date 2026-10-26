@@ -28,7 +28,16 @@
     "verbatim": "Our cows are 100% grass-fed.",
     "source_url": "https://www.larsonfarmvt.com/our-farm"
   },
-  "certifications": [],
+  "certifications": [
+    {
+      "body": "Vermont Organic Farmers, LLC",
+      "program": "usda-organic",
+      "cert_id": "4213724407",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Found as \"Producer: Richard Larson DBA Larson Farm; Larson Creamery\" (Wells, VT) with status Certified in the USDA Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-10-26"
+    }
+  ],
   "sales_channels": [
     "on-farm-store",
     "csa",

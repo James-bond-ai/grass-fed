@@ -5,9 +5,6 @@ on:
   schedule:
     - cron: '17 14 3 * *'
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ['scripts/organic/fetch.mjs', 'scripts/organic/slim.py', '.github/workflows/organic-data.yml']
 
 permissions:
   contents: write
@@ -24,18 +21,17 @@ jobs:
       - run: npm i --no-save playwright@1 && npx playwright install --with-deps chromium
       - run: pip install pandas openpyxl
       - run: node scripts/organic/fetch.mjs
-      - run: python scripts/organic/slim.py
-      - name: Publish to the organic-data branch
-        if: always()
+      - name: Slim the workbook to US certified operations
         run: |
-          mkdir -p out
-          cp diag.json out/ 2>/dev/null || true
+          f=$(jq -r .file download.json); d=$(jq -r .date download.json)
+          mkdir -p data/organic
+          python scripts/organic/slim.py "$f" "$d" data/organic/us-operations.json
+      - name: Match farms and commit
+        run: |
+          node scripts/organic/match.mjs data/organic/us-operations.json
+          npm ci && npm run validate
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          cp download.json out/ 2>/dev/null || true
-          git switch --orphan organic-data-tmp
-          git rm -rf --quiet . || true
-          cp out/* .
-          git add -A
-          git commit -m "Organic Integrity data refresh"
-          git push -f origin HEAD:organic-data
+          git add data/organic/us-operations.json data/farms ops/organic-review.md
+          git diff --cached --quiet || git commit -m "Organic Integrity snapshot $(jq -r .date download.json): refresh data and matches"
+          git pull --rebase origin main && git push origin HEAD:main

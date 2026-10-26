@@ -22,7 +22,16 @@
     "verbatim": "100 % Grass Fed",
     "source_url": "https://harmonyvalleyfarm.com/meat-shares/"
   },
-  "certifications": [],
+  "certifications": [
+    {
+      "body": "Midwest Organic Services Association, Inc.",
+      "program": "usda-organic",
+      "cert_id": "9950000060",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Found as \"Harmony Valley Farm, LLC\" (Viroqua, WI) with status Certified in the USDA Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-10-26"
+    }
+  ],
   "sales_channels": [
     "csa"
   ],

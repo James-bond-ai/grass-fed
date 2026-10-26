@@ -28,7 +28,16 @@
     "verbatim": "Our beef and lamb are 100% grass-fed and grass-finished",
     "source_url": "https://www.stemplecreek.com/"
   },
-  "certifications": [],
+  "certifications": [
+    {
+      "body": "CCOF Certification Services, LLC",
+      "program": "usda-organic",
+      "cert_id": "5561008846",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Found as \"Stemple Creek Ranch Inc. dba Stemple Creek Ranch\" (Petaluma, CA) with status Certified in the USDA Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-10-26"
+    }
+  ],
   "sales_channels": [
     "ships-nationwide",
     "retail"

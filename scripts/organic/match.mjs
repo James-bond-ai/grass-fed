@@ -4,7 +4,7 @@
 // Input:  the organic-data branch file us-operations.json (path as first argument,
 //         default data/organic/us-operations.json).
 // Output: adds a `usda-organic` certification to farms with an exact match
-//         (same normalized name or listed other name, same state, certified status),
+//         (same normalized name or listed other name, same state, operation and LIVESTOCK scope certified),
 //         and writes ops/organic-review.md listing possible matches for a person or agent to check.
 //
 // Usage:  node scripts/organic/match.mjs [path/to/us-operations.json] [--dry-run]
@@ -48,8 +48,17 @@ for (const f of fs.readdirSync(farmsDir).filter((n) => n.endsWith('.json'))) {
   const farm = JSON.parse(fs.readFileSync(file, 'utf8'));
   const key = norm(farm.farm_name);
   const ops = byState[farm.state] ?? [];
-  const exact = ops.filter((o) => o.names.includes(key) && key.length >= 3);
-  const isCert = exact.filter((o) => certified(o.status));
+  const host = (u) => { try { return new URL(/^https?:/.test(u) ? u : `https://${u}`).hostname.replace(/^www\./, ''); } catch { return ''; } };
+  const farmHost = host(farm.website);
+  const distinct = key.split(' ').filter((w) => w.length >= 4);
+  const sameCity = (o) => farm.city && o.city && o.city.trim().toLowerCase() === farm.city.trim().toLowerCase();
+  // Exact: same normalized name, same website domain, or same city plus a shared distinctive name word.
+  const exact = ops.filter((o) =>
+    (key.length >= 3 && o.names.includes(key)) ||
+    (farmHost && o.website && host(o.website) === farmHost) ||
+    (sameCity(o) && distinct.length && o.names.some((n) => distinct.some((w) => n.split(' ').includes(w)))));
+  // The badge means the farm's animals are certified organic, so the LIVESTOCK scope must be certified.
+  const isCert = exact.filter((o) => certified(o.status) && certified(o.livestock));
   if (isCert.length) {
     const op = isCert[0];
     const has = (farm.certifications ?? []).some((c) => c.program === 'usda-organic');
@@ -68,11 +77,11 @@ for (const f of fs.readdirSync(farmsDir).filter((n) => n.endsWith('.json'))) {
     continue;
   }
   // Possible matches: shared distinctive word in the same state, or same city.
-  const words = key.split(' ').filter((w) => w.length >= 4);
-  const near = ops.filter((o) => o.names.some((n) => words.some((w) => n.split(' ').includes(w))) || (exact.length && !certified(o.status)))
+  const words = distinct;
+  const near = (exact.length ? exact : ops.filter((o) => certified(o.status) && o.names.some((n) => words.some((w) => n.split(' ').includes(w)))))
     .filter((o) => !farm.city || !o.city || o.city.toLowerCase() === farm.city.toLowerCase() || words.length)
     .slice(0, 5);
-  if (near.length) possible.push({ farm: farm.farm_name, slug: farm.slug, state: farm.state, city: farm.city, near: near.map((o) => `${o.name} (${o.city || '?'}; ${o.status}; ${o.certifier})`) });
+  if (near.length) possible.push({ farm: farm.farm_name, slug: farm.slug, state: farm.state, city: farm.city, near: near.map((o) => `${o.name} (${o.city || '?'}; operation ${o.status}; livestock ${o.livestock || 'not certified'}; ${o.certifier})`) });
 }
 
 const lines = [

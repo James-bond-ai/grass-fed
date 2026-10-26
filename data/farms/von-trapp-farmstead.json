@@ -30,7 +30,16 @@
     "verbatim": "Our herd of cows is raised on the farm's organic pasture with minimal supplemental grain.",
     "source_url": "https://vontrappfarmstead.com/meat"
   },
-  "certifications": [],
+  "certifications": [
+    {
+      "body": "Vermont Organic Farmers, LLC",
+      "program": "usda-organic",
+      "cert_id": "4210012012",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Found as \"von Trapp Farmstead, LLC\" (Waitsfield, VT) with status Certified in the USDA Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-10-26"
+    }
+  ],
   "sales_channels": [
     "on-farm-store",
     "csa",

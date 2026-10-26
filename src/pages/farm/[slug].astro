@@ -92,7 +92,9 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
     {certs.length ? (
       <ul>
         {certs.map((c) => (
-          <li><strong>{CERTIFICATIONS[c.program].name}</strong>. Confirmed in the <a href={c.evidence_url} rel="nofollow">certifier's listing</a> on {fmtDate(c.verified_on)}.</li>
+          <li><strong>{CERTIFICATIONS[c.program].name}</strong>{c.program === 'usda-organic'
+            ? <>, certified by {c.body}. Livestock certification confirmed in the <a href={c.evidence_url} rel="nofollow">USDA Organic Integrity Database</a> on {fmtDate(c.verified_on)}.</>
+            : <>. Confirmed in the <a href={c.evidence_url} rel="nofollow">certifier's listing</a> on {fmtDate(c.verified_on)}.</>}</li>
         ))}
       </ul>
     ) : (

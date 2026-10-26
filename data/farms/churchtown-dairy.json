@@ -23,7 +23,16 @@
     "verbatim": "The cows are fed a grass-based diet, in alignment with their natural dietary needs, with only minimal supplementation of grain.",
     "source_url": "https://www.churchtowndairy.org/farming"
   },
-  "certifications": [],
+  "certifications": [
+    {
+      "body": "NOFA-NY Certified Organic, LLC",
+      "program": "usda-organic",
+      "cert_id": "3252023019",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Found as \"The Foundation for Agricultural Integrity\" (Hudson, NY) with status Certified in the USDA Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-10-26"
+    }
+  ],
   "sales_channels": [
     "on-farm-store",
     "retail"

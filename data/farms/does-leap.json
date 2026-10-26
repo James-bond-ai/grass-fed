@@ -27,7 +27,16 @@
     "verbatim": "Our grazing system includes 50 acres of varied land and forage.",
     "source_url": "https://doesleap.com/goats"
   },
-  "certifications": [],
+  "certifications": [
+    {
+      "body": "Vermont Organic Farmers, LLC",
+      "program": "usda-organic",
+      "cert_id": "4210020057",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Found as \"Does' Leap LLC\" (Bakersfield, VT) with status Certified in the USDA Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-10-26"
+    }
+  ],
   "sales_channels": [
     "on-farm-store",
     "online-order",
