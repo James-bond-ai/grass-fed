@@ -1,0 +1,41 @@
+{
+  "id": "paicines-ranch",
+  "slug": "paicines-ranch",
+  "farm_name": "Paicines Ranch",
+  "city": "Paicines",
+  "state": "CA",
+  "zip": "95043",
+  "address_public": false,
+  "website": "https://www.paicinesranch.com",
+  "phone": "831-628-0288",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef",
+    "lamb",
+    "pork",
+    "turkey"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Grassfed and finished",
+    "source_url": "https://www.paicinesranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://store.paicinesranch.com",
+  "data_source": "web-search",
+  "source_url": "https://www.paicinesranch.com",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

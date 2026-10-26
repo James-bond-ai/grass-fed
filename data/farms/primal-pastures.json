@@ -1,0 +1,44 @@
+{
+  "id": "primal-pastures",
+  "slug": "primal-pastures",
+  "farm_name": "Primal Pastures",
+  "city": "Murrieta",
+  "state": "CA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://primalpastures.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "pork",
+    "lamb"
+  ],
+  "products": [
+    "beef",
+    "pasture-raised chicken",
+    "pork",
+    "lamb",
+    "tallow",
+    "turkey"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are 100% grass-fed and grass-finished, raised on pristine pasture with constant rotation",
+    "source_url": "https://primalpastures.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "ships-nationwide",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://primalpastures.com/collections/all-products",
+  "data_source": "web-search",
+  "source_url": "https://primalpastures.com",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "markegard-family-grass-fed",
+  "slug": "markegard-family-grass-fed",
+  "farm_name": "Markegard Family Grass-Fed",
+  "city": "Half Moon Bay",
+  "state": "CA",
+  "zip": "94019",
+  "address_public": true,
+  "website": "https://www.markegardfamily.com",
+  "phone": "(650) 387-3398",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "grass-fed beef",
+    "grass-fed lamb",
+    "pastured pork",
+    "pastured chicken"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle and sheep are never grain fed or given synthetic hormones or antibiotics.",
+    "source_url": "https://www.markegardfamily.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://www.markegardfamily.com/what-we-offer",
+  "data_source": "web-search",
+  "source_url": "https://www.markegardfamily.com",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "20080 Cabrillo Hwy S, Half Moon Bay, CA 94019"
+}

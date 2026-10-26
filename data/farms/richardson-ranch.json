@@ -1,0 +1,49 @@
+{
+  "id": "richardson-ranch",
+  "slug": "richardson-ranch",
+  "farm_name": "Richardson Ranch",
+  "city": "Stewarts Point",
+  "state": "CA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://richardsonranches.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "whole, half and quarter beef",
+    "beef boxes",
+    "whole and half lamb"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our coastal raised, grass-fed, grass-finished Hereford and Angus cows",
+    "source_url": "https://richardsonranches.com"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/california/annapolis-1/beef-1/richardson-ranch/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/california/annapolis-1/beef-1/richardson-ranch/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "csa"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://richardsonranches.com/beef-lamb-operation/",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/california/annapolis-1/beef-1/richardson-ranch/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

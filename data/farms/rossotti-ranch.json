@@ -1,0 +1,42 @@
+{
+  "id": "rossotti-ranch",
+  "slug": "rossotti-ranch",
+  "farm_name": "Rossotti Ranch",
+  "city": "Petaluma",
+  "state": "CA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.rossottiranch.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "goat",
+    "beef",
+    "poultry"
+  ],
+  "products": [
+    "goat",
+    "pasture-raised veal",
+    "duck",
+    "chicken",
+    "whole animal shares"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "all our animals spend their entire lives in the beautiful rolling grasslands of west Marin and Sonoma Counties",
+    "source_url": "https://www.rossottiranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "restaurants",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.rossottiranch.com/product-category/whole-animal-shares/",
+  "data_source": "web-search",
+  "source_url": "https://www.rossottiranch.com",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

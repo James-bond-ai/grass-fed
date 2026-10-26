@@ -1,0 +1,37 @@
+{
+  "id": "morris-grassfed",
+  "slug": "morris-grassfed",
+  "farm_name": "Morris Grassfed",
+  "city": "San Juan Bautista",
+  "state": "CA",
+  "zip": "95045",
+  "address_public": true,
+  "website": "https://www.morrisgrassfed.com",
+  "phone": "(831) 801-3798",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "dry-aged beef",
+    "quarter, half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Morris Grassfed produces 100% pasture-raised and finished beef, grown on the California central coast.",
+    "source_url": "https://www.morrisgrassfed.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://morrisgrassfed.grazecart.com",
+  "data_source": "web-search",
+  "source_url": "https://www.morrisgrassfed.com",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "500 Mission Vineyard Road, San Juan Bautista, CA 95045"
+}
