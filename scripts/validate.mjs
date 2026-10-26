@@ -11,7 +11,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
 import { AFFILIATES_ENABLED } from '../src/data/site.mjs';
-import { STATE_BY_ABBR, SPECIES, FEEDING, CHANNELS, CERTIFICATIONS } from '../src/data/states.mjs';
+import { STATE_BY_ABBR, SPECIES, FEEDING, CHANNELS, CERTIFICATIONS, DAIRY_PRODUCTS } from '../src/data/states.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const args = process.argv.slice(2);
@@ -60,6 +60,30 @@ function checkFarm(file, f, { candidate = false } = {}) {
     if (!DATE.test(c.verified_on ?? '')) err(file, `certification ${c.program} needs verified_on YYYY-MM-DD`);
   }
   if (f.bulk_shares !== undefined && typeof f.bulk_shares !== 'boolean') err(file, 'bulk_shares must be true or false');
+
+  // Delivery
+  const dv = f.delivery;
+  if (dv !== undefined) {
+    if (typeof dv !== 'object' || dv === null || Array.isArray(dv)) err(file, 'delivery must be an object');
+    else {
+      const st = dv.ships_to;
+      if (st !== undefined && st !== 'nationwide' && !Array.isArray(st)) err(file, 'delivery.ships_to must be "nationwide" or a list of state abbreviations');
+      if (Array.isArray(st)) st.forEach((s) => { if (!STATE_BY_ABBR[s]) err(file, `delivery.ships_to has unknown state "${s}"`); });
+      const ch = f.sales_channels ?? [];
+      if (st === 'nationwide' && !ch.includes('ships-nationwide')) err(file, 'delivery.ships_to is "nationwide" but sales_channels lacks ships-nationwide');
+      if (ch.includes('ships-nationwide') && st !== undefined && st !== 'nationwide') err(file, 'sales_channels has ships-nationwide but delivery.ships_to is not "nationwide"');
+      for (const k of ['local_areas', 'pickup_locations']) if (dv[k] !== undefined && !Array.isArray(dv[k])) err(file, `delivery.${k} must be a list`);
+      if (dv.local_radius_miles != null && !(typeof dv.local_radius_miles === 'number' && dv.local_radius_miles > 0 && dv.local_radius_miles < 1000)) err(file, 'delivery.local_radius_miles must be a number of miles or null');
+      if (dv.source_url && !isUrl(dv.source_url)) err(file, 'delivery.source_url must be a full URL');
+    }
+  } else if (!candidate && f.listing_status === 'published') warn(file, 'no delivery details yet');
+
+  // Dairy
+  if (f.dairy_products !== undefined) {
+    if (!Array.isArray(f.dairy_products)) err(file, 'dairy_products must be a list');
+    else f.dairy_products.forEach((d) => { if (!DAIRY_PRODUCTS[d]) err(file, `unknown dairy product "${d}"`); });
+  }
+  if ((f.species ?? []).some((s) => String(s).startsWith('dairy-')) && !(f.dairy_products ?? []).length && f.listing_status === 'published') warn(file, 'sells dairy but dairy_products is empty');
 
   if (!candidate) {
     ['last_verified_at', 'verification_method', 'listing_status'].forEach(req);

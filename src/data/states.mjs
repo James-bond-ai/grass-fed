@@ -100,3 +100,32 @@ export const CERTIFICATIONS = {
   opt: { name: 'OPT Certified Grass-Fed Organic', short: 'OPT Grass-Fed Organic', url: 'https://certification.oeffa.org/organic-grass-fed/' },
   'usda-organic': { name: 'USDA Organic', short: 'USDA Organic', url: 'https://organic.ams.usda.gov/integrity/' },
 };
+
+export const DAIRY_PRODUCTS = {
+  milk: 'Milk',
+  'raw-milk': 'Raw milk',
+  cheese: 'Cheese',
+  butter: 'Butter',
+  yogurt: 'Yogurt',
+  cream: 'Cream',
+  kefir: 'Kefir',
+  ghee: 'Ghee',
+  'ice-cream': 'Ice cream',
+};
+
+export const isOrganic = (f) => (f.certifications ?? []).some((c) => c.program === 'usda-organic' || c.program === 'opt');
+export const sellsDairy = (f) => (f.species ?? []).some((s) => s.startsWith('dairy-'));
+
+// Where a farm's products can reach. Returns { nationwide, shipsTo:Set, localAreas[], radius, pickup[] }.
+export function reach(f) {
+  const d = f.delivery ?? {};
+  const ch = f.sales_channels ?? [];
+  const nationwide = d.ships_to === 'nationwide' || ch.includes('ships-nationwide');
+  const shipsTo = new Set(Array.isArray(d.ships_to) ? d.ships_to : []);
+  return { nationwide, shipsTo, localAreas: d.local_areas ?? [], radius: d.local_radius_miles ?? null, pickup: d.pickup_locations ?? [] };
+}
+// True if a shopper in `abbr` can get this farm's products by shipping or because the farm is in that state.
+export function servesState(f, abbr) {
+  const r = reach(f);
+  return f.state === abbr || r.nationwide || r.shipsTo.has(abbr);
+}

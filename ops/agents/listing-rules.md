@@ -28,6 +28,9 @@ Open the farm's own website with WebFetch. Every listing must be confirmed again
    - `unknown`: nothing specific. When ambiguous, choose the more cautious category.
 4. Certifications: add one only if you find the farm in that certifier's own public listing. Put that listing page's URL in `evidence_url`. A logo or claim on the farm's site alone is not enough. Programs: `aga`, `agw-grassfed`, `awa`, `opt`, `usda-organic`.
 5. `bulk_shares: true` only if the site offers quarter, half or whole animals (or "freezer beef" shares).
+6. Delivery and shipping: record exactly where the farm says it delivers and ships, in a `delivery` object (see format). Use the farm's own wording for local areas (towns, counties, metro areas, "within 50 miles of the farm"). For shipping, use "nationwide" only if the site says it ships anywhere in the continental US or nationwide; otherwise list the state abbreviations it names. If the site doesn't say, leave the field empty rather than guessing. Pickup points away from the farm (drop sites, processors, markets) go in `pickup_locations`.
+7. Dairy: if the farm sells dairy, list what it sells in `dairy_products`. Use `raw-milk` only when the site clearly says the milk is raw (unpasteurized), and note that raw milk is legal only in some states; never add anything about health.
+8. Organic: add `usda-organic` to certifications only after finding the operation in the USDA Organic Integrity Database (https://organic.ams.usda.gov/integrity/). Put the database search or operation page URL in `evidence_url`. A farm saying "organic" or "organic practices" is not enough.
 
 If a farm fails (site down, no direct sales, no grass or pasture language, not in the US), do not list it. Write `data/rejected/{slug}.json` containing `{ "slug", "farm_name", "state", "website", "reason", "checked_on" }` so nobody re-adds it.
 
@@ -58,6 +61,14 @@ One file per farm: `data/farms/{slug}.json`. The slug is the farm name in lowerc
   "sales_channels": ["farm-pickup", "ships-regional"],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Austin metro", "Travis County"],
+    "local_radius_miles": null,
+    "ships_to": ["TX", "OK"],
+    "pickup_locations": ["Saturday farmers market, San Marcos"],
+    "source_url": "https://example.com/delivery"
+  },
+  "dairy_products": [],
   "ordering_url": "",
   "data_source": "web-search",
   "source_url": "https://where-you-found-it.example",
@@ -68,6 +79,8 @@ One file per farm: `data/farms/{slug}.json`. The slug is the farm name in lowerc
 ```
 
 Allowed values:
+- `delivery.ships_to`: the string "nationwide", a list of state abbreviations, or an empty list. Must agree with `sales_channels` (ships-nationwide means "nationwide"; ships-regional means a list of states).
+- `dairy_products`: milk, raw-milk, cheese, butter, yogurt, cream, kefir, ghee, ice-cream (required when `species` includes a dairy type)
 - `species`: beef, bison, lamb, goat, pork, poultry, eggs, dairy-cow, dairy-goat, dairy-sheep
 - `sales_channels`: on-farm-store, farm-pickup, csa, farmers-market, local-delivery, ships-nationwide, ships-regional, online-order, retail, restaurants (a published listing needs at least one)
 - `data_source`: usda, certifier, state-program, self-submitted, web-search
