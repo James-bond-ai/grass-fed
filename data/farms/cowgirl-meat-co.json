@@ -1,0 +1,37 @@
+{
+  "id": "cowgirl-meat-co",
+  "slug": "cowgirl-meat-co",
+  "farm_name": "Cowgirl Meat Co",
+  "city": "Big Timber",
+  "state": "MT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://cowgirlmeatco.com",
+  "phone": "406-633-3657",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "beef",
+    "pork"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "The grass finished beef we raise never leave the ranch and graze on pasture ground most of the year.",
+    "source_url": "https://cowgirlmeatco.com/pages/the-meat"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://cowgirlmeatco.com/collections/all",
+  "data_source": "web-search",
+  "source_url": "https://abundantmontana.com/amt-lister/cowgirl-meat-co/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

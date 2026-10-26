@@ -1,0 +1,54 @@
+{
+  "id": "lohof-grass-finished-beef",
+  "slug": "lohof-grass-finished-beef",
+  "farm_name": "Lohof Grass-Finished Beef",
+  "city": "Otter",
+  "state": "MT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://lohofgrassfinishedbeef.com",
+  "phone": "406-784-2549",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "goat"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "offal",
+    "lamb",
+    "goat",
+    "bulk beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Lohof Beef is grass-finished!",
+    "source_url": "https://lohofgrassfinishedbeef.com/"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/montana/otter/beef-1/lohof-grass-finished-beef/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/montana/otter/beef-1/lohof-grass-finished-beef/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://lohofgrassfinishedbeef.com/products/",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/montana/otter/beef-1/lohof-grass-finished-beef/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

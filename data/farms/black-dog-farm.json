@@ -1,0 +1,59 @@
+{
+  "id": "black-dog-farm",
+  "slug": "black-dog-farm",
+  "farm_name": "Black Dog Farm",
+  "city": "Livingston",
+  "state": "MT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://blackdogfarmmt.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "poultry",
+    "eggs",
+    "pork",
+    "lamb"
+  ],
+  "products": [
+    "whole chickens",
+    "chicken pieces",
+    "bone broth",
+    "eggs",
+    "pork",
+    "whole and half hogs",
+    "duck",
+    "lamb"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our animals live outdoors, rotating around our farm inside portable fencing.",
+    "source_url": "https://blackdogfarmmt.com/pages/about-us"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/montana/livingston/chicken-1/black-dog-farm/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market",
+    "local-delivery",
+    "ships-regional",
+    "csa"
+  ],
+  "farmers_markets": [
+    "Bozeman Winter Farmers Market",
+    "Bozeman Farmers Market",
+    "Gallatin Valley Farmers Market"
+  ],
+  "bulk_shares": true,
+  "ordering_url": "https://blackdogfarmmt.com/pages/how-to-purchase",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/montana/livingston/chicken-1/black-dog-farm/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

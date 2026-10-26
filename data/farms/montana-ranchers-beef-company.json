@@ -1,0 +1,35 @@
+{
+  "id": "montana-ranchers-beef-company",
+  "slug": "montana-ranchers-beef-company",
+  "farm_name": "Montana RancHERS Beef Company",
+  "city": "Lewistown",
+  "state": "MT",
+  "zip": "59457",
+  "address_public": false,
+  "website": "https://montanaranchersbeefco.com",
+  "phone": "406-855-0297",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef boxes",
+    "quarter, half and whole beef shares"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our cattle remain on native pastures and local feed sources for the duration of their lives.",
+    "source_url": "https://montanaranchersbeefco.com/"
+  },
+  "certifications": [],
+  "sales_channels": [],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://montanaranchersbeefco.com/shop/",
+  "data_source": "web-search",
+  "source_url": "https://abundantmontana.com/amt-lister/montana-ranchers-beef-company/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "unpublished",
+  "notes": "Unpublished 2026-10-26: website gives no way to buy and shows shares out of stock. Recheck later."
+}

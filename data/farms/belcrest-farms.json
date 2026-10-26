@@ -1,0 +1,38 @@
+{
+  "id": "belcrest-farms",
+  "slug": "belcrest-farms",
+  "farm_name": "Belcrest Farms",
+  "city": "Bozeman",
+  "state": "MT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.belcrestfarms.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "dry-aged beef",
+    "pork"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Grass-fed & Steam Rolled Barley-finished.",
+    "source_url": "https://www.belcrestfarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://belcrestfarms.shop",
+  "data_source": "web-search",
+  "source_url": "https://abundantmontana.com/amt-lister/belcrest-farms/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

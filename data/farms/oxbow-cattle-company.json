@@ -1,0 +1,39 @@
+{
+  "id": "oxbow-cattle-company",
+  "slug": "oxbow-cattle-company",
+  "farm_name": "Oxbow Cattle Company",
+  "city": "Missoula",
+  "state": "MT",
+  "zip": "59803",
+  "address_public": true,
+  "website": "https://www.oxbowcattleco.com",
+  "phone": "406-529-3881",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "burger packs",
+    "custom beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Raised and finished on pasture and hay in Missoula, Montana",
+    "source_url": "https://www.oxbowcattleco.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://www.oxbowcattleco.com/shop/",
+  "data_source": "web-search",
+  "source_url": "https://abundantmontana.com/amt-lister/oxbow-cattle-co/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "6225 Haugan Drive, Missoula, MT 59803"
+}

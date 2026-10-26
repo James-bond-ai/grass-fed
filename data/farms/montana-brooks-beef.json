@@ -1,0 +1,39 @@
+{
+  "id": "montana-brooks-beef",
+  "slug": "montana-brooks-beef",
+  "farm_name": "Montana Brooks Beef",
+  "city": "Ronan",
+  "state": "MT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.montanabrooksbeef.com",
+  "phone": "406-624-9536",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "stew meat",
+    "hamburger",
+    "quarter, half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our promise is our cows are never fed anything other than range land grasses and pesticide-free alfalfa their whole lives.",
+    "source_url": "https://www.montanabrooksbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://montanabrooksbeef.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://abundantmontana.com/?p=16593",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}
