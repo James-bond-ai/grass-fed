@@ -1,0 +1,45 @@
+{
+  "id": "the-high-lonesome-ranch",
+  "slug": "the-high-lonesome-ranch",
+  "farm_name": "The High Lonesome Ranch",
+  "city": "De Beque",
+  "state": "CO",
+  "zip": "",
+  "address_public": false,
+  "website": "https://thehighlonesomeranch.com/",
+  "phone": "970.283.9420",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "roasts and ribs",
+    "ground beef",
+    "variety boxes",
+    "bulk beef",
+    "offal"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "For generations, we have been committed to raising premium, grass-finished beef",
+    "source_url": "https://thehighlonesomeranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Glenwood Springs Farmers Market",
+    "Palisade Farmers Market",
+    "Fruita Farmers and Makers Market"
+  ],
+  "bulk_shares": true,
+  "ordering_url": "https://shop.thehighlonesomeranch.com/",
+  "data_source": "web-search",
+  "source_url": "https://www.cobeef.com/local-beef-directory",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

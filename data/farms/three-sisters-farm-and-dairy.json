@@ -1,0 +1,36 @@
+{
+  "id": "three-sisters-farm-and-dairy",
+  "slug": "three-sisters-farm-and-dairy",
+  "farm_name": "Three Sisters Farm & Dairy",
+  "city": "Boone",
+  "state": "CO",
+  "zip": "81025",
+  "address_public": true,
+  "website": "https://www.threesistersfarmanddairy.com/",
+  "phone": "719.240.4996",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cattle sold each fall and spring for custom processing"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Three Sisters cattle grow under the warm southeastern Colorado sunshine eating their natural diet of Grass and Hay.",
+    "source_url": "https://www.threesistersfarmanddairy.com/meat"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.cobeef.com/local-beef-directory",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "2043 53rd Lane, Boone, CO 81025"
+}

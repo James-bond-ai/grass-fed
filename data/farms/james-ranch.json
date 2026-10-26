@@ -1,0 +1,48 @@
+{
+  "id": "james-ranch",
+  "slug": "james-ranch",
+  "farm_name": "James Ranch",
+  "city": "Durango",
+  "state": "CO",
+  "zip": "81301",
+  "address_public": true,
+  "website": "https://www.jamesranch.net/",
+  "phone": "(970) 385-6858",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "dairy-cow",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "half and whole beef",
+    "raw milk cheese",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass fed and finished.",
+    "source_url": "https://www.jamesranch.net/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/colorado/durango/cheese-1/james-ranch-artisan-cheese/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.jamesranch.net/beef",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/colorado/durango/cheese-1/james-ranch-artisan-cheese/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "33846 US-550, Durango, CO 81301"
+}

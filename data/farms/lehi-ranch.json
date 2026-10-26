@@ -1,0 +1,43 @@
+{
+  "id": "lehi-ranch",
+  "slug": "lehi-ranch",
+  "farm_name": "Lehi Ranch",
+  "city": "Livermore",
+  "state": "CO",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.lehiranch.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb"
+  ],
+  "products": [
+    "quarter and half beef shares",
+    "small beef package",
+    "half pork share",
+    "half lamb share",
+    "lamb leg"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Every steer and heifer at Lehi Ranch is 100% grass-fed and finished.",
+    "source_url": "https://www.lehiranch.com/practices"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Larimer County Farmers Market"
+  ],
+  "bulk_shares": true,
+  "ordering_url": "https://www.lehiranch.com/store",
+  "data_source": "web-search",
+  "source_url": "https://www.cobeef.com/local-beef-directory",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

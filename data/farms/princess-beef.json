@@ -1,0 +1,42 @@
+{
+  "id": "princess-beef",
+  "slug": "princess-beef",
+  "farm_name": "Princess Beef",
+  "city": "Hotchkiss",
+  "state": "CO",
+  "zip": "",
+  "address_public": false,
+  "website": "https://princessbeef.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole, half and split quarter beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Grassfed & Finished Princess Beef since 1999",
+    "source_url": "https://princessbeef.com/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/colorado/hotchkiss/beef-1/princess-beef/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://princessbeef.com/?page_id=428",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/colorado/hotchkiss/beef-1/princess-beef/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

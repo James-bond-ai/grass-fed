@@ -1,0 +1,40 @@
+{
+  "id": "slash-j-beef-co",
+  "slug": "slash-j-beef-co",
+  "farm_name": "Slash J Beef Co",
+  "city": "Fort Morgan",
+  "state": "CO",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.slashjbeef.com/",
+  "phone": "(970) 768-6620",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "grass fed/grass finished beef",
+    "grain finished beef",
+    "beef shares and boxes",
+    "pork"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass Fed/Grass Finished",
+    "source_url": "https://www.slashjbeef.com/shop"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.slashjbeef.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.cobeef.com/local-beef-directory",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

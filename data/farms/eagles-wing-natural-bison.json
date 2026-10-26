@@ -1,0 +1,38 @@
+{
+  "id": "eagles-wing-natural-bison",
+  "slug": "eagles-wing-natural-bison",
+  "farm_name": "Eagle's Wing Natural Bison",
+  "city": "Walden",
+  "state": "CO",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.eagleswingnaturalbison.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "bison"
+  ],
+  "products": [
+    "bison cuts",
+    "ground bison",
+    "sausage",
+    "half and whole bison"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass Finished only; never grain.",
+    "source_url": "https://www.eagleswingnaturalbison.com/pages/the-ranch"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.eagleswingnaturalbison.com/collections/cuts",
+  "data_source": "web-search",
+  "source_url": "https://coloradocountrylife.coop/?p=28378",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}
