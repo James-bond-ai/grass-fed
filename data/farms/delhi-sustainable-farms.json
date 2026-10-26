@@ -1,0 +1,45 @@
+{
+  "id": "delhi-sustainable-farms",
+  "slug": "delhi-sustainable-farms",
+  "farm_name": "Delhi Sustainable Farms",
+  "city": "Bourbon",
+  "state": "MO",
+  "zip": "65441",
+  "address_public": true,
+  "address": "553 Libhart Rd, Bourbon, MO 65441",
+  "website": "https://www.delhisustainablefarms.com/",
+  "phone": "314-650-4569",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "pork",
+    "lamb"
+  ],
+  "products": [
+    "beef",
+    "chicken",
+    "pork",
+    "lamb",
+    "subscription boxes"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We raise 100% grass-fed grass-finished beef.",
+    "source_url": "https://www.delhisustainablefarms.com/grass-fed-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://www.delhisustainablefarms.com/shop-products",
+  "data_source": "web-search",
+  "source_url": "https://mofb.org/missouri-meat-producers/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

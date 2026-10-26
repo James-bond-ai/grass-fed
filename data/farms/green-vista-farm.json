@@ -1,0 +1,43 @@
+{
+  "id": "green-vista-farm",
+  "slug": "green-vista-farm",
+  "farm_name": "Green Vista Farm",
+  "city": "Wooster",
+  "state": "OH",
+  "zip": "44691",
+  "address": "8200 Lattasburg Rd., Wooster, OH 44691",
+  "address_public": true,
+  "website": "https://www.greenvistafarm.com/",
+  "phone": "330-464-4358",
+  "social_urls": [
+    "https://www.instagram.com/greenvistafarm/"
+  ],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "half beef",
+    "whole beef",
+    "half hog",
+    "whole hog"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef cattle are 100% grassfed to finish and we harvest the spring flush of grass to feed in the winter",
+    "source_url": "https://www.greenvistafarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.greenvistafarm.com/contact-us",
+  "data_source": "web-search",
+  "source_url": "https://www.greenvistafarm.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "bear-meadows-farm",
+  "slug": "bear-meadows-farm",
+  "farm_name": "Bear Meadows Farm",
+  "city": "Boalsburg",
+  "state": "PA",
+  "zip": "16827",
+  "address_public": true,
+  "address": "265 Bear Meadows Road, Boalsburg, PA 16827",
+  "website": "https://www.bear-meadows-farm.com/",
+  "phone": "814-404-9902",
+  "social_urls": [],
+  "species": ["dairy-cow", "beef", "eggs"],
+  "products": ["raw milk", "cheese", "eggs", "ground beef"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our cows are grass-fed.",
+    "source_url": "https://www.bear-meadows-farm.com/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/boalsburg/dairy-1/bear-meadows-farm/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": ["on-farm-store"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/boalsburg/dairy-1/bear-meadows-farm/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

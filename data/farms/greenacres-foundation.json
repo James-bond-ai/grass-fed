@@ -1,0 +1,46 @@
+{
+  "id": "greenacres-foundation",
+  "slug": "greenacres-foundation",
+  "farm_name": "Greenacres Foundation",
+  "city": "Cincinnati",
+  "state": "OH",
+  "zip": "45242",
+  "address": "8300 Spooky Hollow Rd, Cincinnati, OH 45242",
+  "address_public": true,
+  "website": "https://green-acres.org/",
+  "phone": "(513) 891-4227",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "lamb",
+    "pork",
+    "chicken",
+    "turkey",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grassfed and grass finished, never fed grain",
+    "source_url": "https://green-acres.org/grass-fed-and-finished-beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "csa"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://green-acres.org/farm-store-product-availability/",
+  "data_source": "web-search",
+  "source_url": "https://green-acres.org/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

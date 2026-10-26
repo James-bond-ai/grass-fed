@@ -1,0 +1,44 @@
+{
+  "id": "valley-ridge-farms",
+  "slug": "valley-ridge-farms",
+  "farm_name": "Valley Ridge Farms",
+  "city": "Lower Salem",
+  "state": "OH",
+  "zip": "45745",
+  "address": "33088 County Road 15, Lower Salem, OH 45745",
+  "address_public": true,
+  "website": "https://www.valleyridgefarms.com/",
+  "phone": "440-570-6401",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "half beef",
+    "whole beef",
+    "ground beef",
+    "steaks",
+    "roasts"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are raised and finished on 100% grass pasture and hay.",
+    "source_url": "https://www.valleyridgefarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market",
+    "retail"
+  ],
+  "farmers_markets": [
+    "River City Farmers Market, Marietta"
+  ],
+  "bulk_shares": true,
+  "ordering_url": "https://www.valleyridgefarms.com/buying.html",
+  "data_source": "web-search",
+  "source_url": "https://www.valleyridgefarms.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

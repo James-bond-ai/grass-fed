@@ -1,0 +1,43 @@
+{
+  "id": "moso-farm",
+  "slug": "moso-farm",
+  "farm_name": "MoSo Farm",
+  "city": "Athens",
+  "state": "OH",
+  "zip": "45701",
+  "address": "5686 Enlow Road, Athens, OH 45701",
+  "address_public": true,
+  "website": "https://mosofarm.com/",
+  "phone": "740-331-0357",
+  "social_urls": [
+    "https://www.instagram.com/mosofarmin/"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef",
+    "pork",
+    "chicken"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass-fed and finished, meaning our cattle live their lives on pasture and are never fed grain.",
+    "source_url": "https://mosofarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://mosofarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://mosofarm.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

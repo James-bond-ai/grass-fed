@@ -1,0 +1,36 @@
+{
+  "id": "the-lands-at-hillside-farms",
+  "slug": "the-lands-at-hillside-farms",
+  "farm_name": "The Lands at Hillside Farms",
+  "city": "Shavertown",
+  "state": "PA",
+  "zip": "18708",
+  "address_public": true,
+  "address": "65 Hillside Rd, Shavertown, PA 18708",
+  "website": "https://www.hillsidefarms.org/",
+  "phone": "570-696-2881",
+  "social_urls": [],
+  "species": ["dairy-cow", "beef"],
+  "products": ["milk", "ice cream", "beef"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "We are proud to sell our own high-quality, wholesome items such as pastured 100% grass fed beef,",
+    "source_url": "https://www.hillsidefarms.org/mercantile"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/shavertown/dairy-1/the-lands-at-hillside-farms/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": ["on-farm-store"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/shavertown/dairy-1/the-lands-at-hillside-farms/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

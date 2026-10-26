@@ -62,8 +62,8 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
     <h2>How the farm describes its feeding</h2>
     {claim.verbatim ? (
       <>
-        <p class="claim">"{claim.verbatim}"</p>
-        <p class="small muted">Quoted from {claim.source_url ? <a href={claim.source_url} rel="nofollow">{host(claim.source_url)}</a> : 'the farm'}. Our summary: {FEEDING[claim.category] ?? FEEDING.unknown}. {certs.length ? '' : 'Farm-reported; not independently certified.'}</p>
+        <p class="claim">{claim.verbatim}</p>
+        <p class="small muted">How the farm describes it on {claim.source_url ? <a href={claim.source_url} rel="nofollow">{host(claim.source_url)}</a> : 'its website'}, as of {fmtDate(farm.last_verified_at)}. Our summary: {FEEDING[claim.category] ?? FEEDING.unknown}. {certs.length ? '' : 'Farm-reported; not independently certified.'}</p>
       </>
     ) : (
       <p>The farm's website doesn't describe its feeding in detail. Ask the farm directly how animals are fed and finished.</p>

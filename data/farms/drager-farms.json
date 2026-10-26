@@ -1,0 +1,41 @@
+{
+  "id": "drager-farms",
+  "slug": "drager-farms",
+  "farm_name": "Drager Farms",
+  "city": "Marietta",
+  "state": "PA",
+  "zip": "17547",
+  "address_public": true,
+  "address": "1558 Old River Road, Marietta, PA 17547",
+  "website": "https://dragerfarms.com/",
+  "phone": "717-951-0327",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["steaks", "ground beef", "roasts", "short ribs", "soup bones"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Drager Farms has been raising a herd of 100% grassfed beef since 2014.",
+    "source_url": "https://dragerfarms.com/100-grassfed-beef/"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/marietta-1/beef-1/drager-farms/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/marietta-1/beef-1/drager-farms/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": ["farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://dragerfarms.com/contact/",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/marietta-1/beef-1/drager-farms/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

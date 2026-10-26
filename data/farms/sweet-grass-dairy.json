@@ -1,0 +1,49 @@
+{
+  "id": "sweet-grass-dairy",
+  "slug": "sweet-grass-dairy",
+  "farm_name": "Sweet Grass Dairy",
+  "city": "Fredericktown",
+  "state": "OH",
+  "zip": "43019",
+  "address": "6049 Bryant Rd, Fredericktown, OH 43019",
+  "address_public": true,
+  "website": "https://www.sweetgrassdairyofohio.com/",
+  "phone": "(740) 309-3343",
+  "social_urls": [
+    "https://www.facebook.com/sweetgrassofohio/",
+    "https://www.instagram.com/sweetgrassofohio/"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs",
+    "dairy-cow"
+  ],
+  "products": [
+    "beef cuts",
+    "meat bundles",
+    "pork",
+    "chicken",
+    "eggs",
+    "raw milk herdshare"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass-finished cows raised on certified organic pasture in Central Ohio",
+    "source_url": "https://www.sweetgrassdairyofohio.com/grass-fed-beef-ohio"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://shop.sweetgrassdairyofohio.com/store/grass-fed-beef",
+  "data_source": "web-search",
+  "source_url": "https://www.sweetgrassdairyofohio.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "green-dirt-farm",
+  "slug": "green-dirt-farm",
+  "farm_name": "Green Dirt Farm",
+  "city": "Weston",
+  "state": "MO",
+  "zip": "64098",
+  "address_public": true,
+  "address": "1099 Welt St., Weston, MO 64098",
+  "website": "https://www.greendirtfarm.com/",
+  "phone": "816-386-2156",
+  "social_urls": [],
+  "species": [
+    "dairy-sheep"
+  ],
+  "products": [
+    "sheep milk cheese",
+    "sheep milk yogurt",
+    "sheep milk ice cream"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "We are a working, grass-based, dairy and our farm is hilly and spread out.",
+    "source_url": "https://www.greendirtfarm.com/tour-and-tasting/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/missouri/weston/bath-and-body/green-dirt-farm/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "ships-regional",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://www.greendirtfarm.com/shop/",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/missouri/weston/bath-and-body/green-dirt-farm/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

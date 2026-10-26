@@ -1,0 +1,37 @@
+{
+  "id": "horstmann-cattle-company",
+  "slug": "horstmann-cattle-company",
+  "farm_name": "Horstmann Cattle Company",
+  "city": "Owensville",
+  "state": "MO",
+  "zip": "65066",
+  "address_public": true,
+  "address": "2199 Highway V, Owensville, Missouri 65066",
+  "website": "https://horstmanncattleco.com/",
+  "phone": "314-322-1076",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass-Finished Beef",
+    "source_url": "https://horstmanncattleco.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://horstmanncattleco.com/collections/all",
+  "data_source": "web-search",
+  "source_url": "https://mofb.org/missouri-meat-producers/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

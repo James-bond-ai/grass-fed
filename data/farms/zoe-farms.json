@@ -1,0 +1,49 @@
+{
+  "id": "zoe-farms",
+  "slug": "zoe-farms",
+  "farm_name": "ZOE Farms",
+  "city": "Canton",
+  "state": "OH",
+  "zip": "44706",
+  "address": "5676 Faircrest ST SW, Canton, OH 44706",
+  "address_public": true,
+  "website": "https://zoefarms.com/",
+  "phone": "330-942-4668",
+  "social_urls": [
+    "https://www.instagram.com/zoe.farms"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "ground beef",
+    "chicken",
+    "turkey",
+    "pork",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "our grass-fed and finished beef along with pasture raised meats stand in a category of their own.",
+    "source_url": "https://zoefarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "local-delivery",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://zoefarms.com/navigation/store",
+  "data_source": "web-search",
+  "source_url": "https://zoefarms.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

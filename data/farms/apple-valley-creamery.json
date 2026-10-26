@@ -1,0 +1,36 @@
+{
+  "id": "apple-valley-creamery",
+  "slug": "apple-valley-creamery",
+  "farm_name": "Apple Valley Creamery",
+  "city": "East Berlin",
+  "state": "PA",
+  "zip": "17316",
+  "address_public": true,
+  "address": "541 Germany Road, East Berlin, PA 17316",
+  "website": "https://applevalleycreamery.com/",
+  "phone": "717-528-4520",
+  "social_urls": [],
+  "species": ["dairy-cow", "beef", "pork", "poultry", "eggs"],
+  "products": ["raw milk", "pasteurized milk", "butter", "cream", "yogurt", "cheese", "eggs", "beef", "pork", "chicken"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our cows are not given the rBST hormone injection and are grass-fed.",
+    "source_url": "https://applevalleycreamery.com/milkAVC"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/east-berlin/cheese-1/apple-valley-creamery-llc/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": ["on-farm-store", "local-delivery", "retail"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://applevalleycreamery.com/summary.php?go=products&cat=84",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/east-berlin/cheese-1/apple-valley-creamery-llc/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

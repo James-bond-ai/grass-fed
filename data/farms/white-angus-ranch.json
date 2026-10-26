@@ -1,0 +1,43 @@
+{
+  "id": "white-angus-ranch",
+  "slug": "white-angus-ranch",
+  "farm_name": "White Angus Ranch",
+  "city": "Richland",
+  "state": "MO",
+  "zip": "",
+  "address_public": false,
+  "website": "https://whiteangusranch.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/whiteangusranch/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter, half and whole beef",
+    "steaks",
+    "ground beef",
+    "roasts",
+    "brats",
+    "organ meat",
+    "bones"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are grass fed and grass finished",
+    "source_url": "https://whiteangusranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://whiteangusranch.com/shop/",
+  "data_source": "web-search",
+  "source_url": "https://mofb.org/missouri-meat-producers/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

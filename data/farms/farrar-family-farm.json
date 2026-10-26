@@ -1,0 +1,47 @@
+{
+  "id": "farrar-family-farm",
+  "slug": "farrar-family-farm",
+  "farm_name": "Farrar Family Farm",
+  "city": "Adrian",
+  "state": "MO",
+  "zip": "",
+  "address_public": false,
+  "website": "https://farrarfamilyfarmkc.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "poultry",
+    "pork"
+  ],
+  "products": [
+    "beef",
+    "lamb",
+    "chicken",
+    "turkey",
+    "pork",
+    "bones",
+    "organ meats"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We raise strictly grass-fed grass-finished beef that is never fed any grain or treated with hormones or antibiotics.",
+    "source_url": "https://farrarfamilyfarmkc.com/products/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "csa",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://farrarfamilyfarmkc.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://mofb.org/missouri-meat-producers/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

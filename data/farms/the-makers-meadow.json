@@ -1,0 +1,50 @@
+{
+  "id": "the-makers-meadow",
+  "slug": "the-makers-meadow",
+  "farm_name": "The Maker's Meadow",
+  "city": "West Alexandria",
+  "state": "OH",
+  "zip": "45381",
+  "address": "3135 North Preble County Line Rd., West Alexandria, OH 45381",
+  "address_public": true,
+  "website": "https://themakersmeadow.com/",
+  "phone": "(937) 336-7025",
+  "social_urls": [
+    "https://www.facebook.com/themakersmeadow/",
+    "https://www.instagram.com/themakersmeadow/"
+  ],
+  "species": [
+    "beef",
+    "lamb",
+    "poultry",
+    "pork"
+  ],
+  "products": [
+    "beef cuts",
+    "lamb",
+    "chicken",
+    "turkey",
+    "pork"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Because our beef cattle and sheep are 100% grass-fed and finished",
+    "source_url": "https://themakersmeadow.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "ships-regional",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://themakersmeadow.com/store",
+  "data_source": "web-search",
+  "source_url": "https://themakersmeadow.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

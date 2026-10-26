@@ -1,0 +1,30 @@
+{
+  "id": "locust-point-cattle-company",
+  "slug": "locust-point-cattle-company",
+  "farm_name": "Locust Point Cattle Co.",
+  "city": "Dover",
+  "state": "PA",
+  "zip": "17315",
+  "address_public": true,
+  "address": "3205 West Canal Rd, Dover, PA 17315",
+  "website": "https://locustpointcattlecompany.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["steaks", "ground beef", "roasts", "beef bundles"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Price: $100.00 for no less than 12 lbs of 100% grass fed and grass finished beef.",
+    "source_url": "https://locustpointcattlecompany.com/products/"
+  },
+  "certifications": [],
+  "sales_channels": ["farmers-market", "local-delivery", "retail", "restaurants"],
+  "farmers_markets": ["Central Market York"],
+  "bulk_shares": false,
+  "ordering_url": "https://app.barn2door.com/locustpointcattlecompany/all",
+  "data_source": "web-search",
+  "source_url": "https://agreenerworld.org/?p=28591",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

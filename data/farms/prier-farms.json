@@ -1,0 +1,40 @@
+{
+  "id": "prier-farms",
+  "slug": "prier-farms",
+  "farm_name": "Prier Farms",
+  "city": "Eagle Rock",
+  "state": "MO",
+  "zip": "65641",
+  "address_public": true,
+  "address": "25717 FR 1168, Eagle Rock, MO 65641",
+  "website": "https://www.prierfarms.com/",
+  "phone": "417-770-2178",
+  "social_urls": [
+    "https://www.facebook.com/PFarms0389"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter beef",
+    "ground beef",
+    "live steers"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "raising our own hay for seasonal feeding as we use NO grain or corn and deliver USDA certified 100% grass-fed beef",
+    "source_url": "https://www.prierfarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.prierfarms.com/products-and-pricing/",
+  "data_source": "web-search",
+  "source_url": "https://mofb.org/missouri-meat-producers/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

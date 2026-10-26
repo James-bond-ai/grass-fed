@@ -1,0 +1,40 @@
+{
+  "id": "falling-sun-ranch",
+  "slug": "falling-sun-ranch",
+  "farm_name": "Falling Sun Ranch",
+  "city": "Bonne Terre",
+  "state": "MO",
+  "zip": "",
+  "address_public": false,
+  "website": "https://fallingsunranch.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef",
+    "beef shares",
+    "pork",
+    "chicken",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our cattle are born, raised, and grass-fed in open pastures without the use of synthetic hormones.",
+    "source_url": "https://fallingsunranch.com/faqs/"
+  },
+  "certifications": [],
+  "sales_channels": [],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://app.barn2door.com/fallingsunranch/all",
+  "data_source": "web-search",
+  "source_url": "https://www.feastmagazine.com/community/how-to-buy-sustainable-beef-directly-from-st-louis-area-farmers/article_12f82424-c831-11ed-b62c-e7ba46c07967.html",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

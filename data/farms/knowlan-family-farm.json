@@ -1,0 +1,39 @@
+{
+  "id": "knowlan-family-farm",
+  "slug": "knowlan-family-farm",
+  "farm_name": "Knowlan Family Farm",
+  "city": "Burfordville",
+  "state": "MO",
+  "zip": "63739",
+  "address_public": true,
+  "address": "3243 State Highway 34, Burfordville, MO 63739",
+  "website": "https://knowlanfamilyfarm.com/",
+  "phone": "573-204-3831",
+  "social_urls": [
+    "https://www.facebook.com/KnowlanFamilyFarm/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter beef",
+    "side of beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Knowlan Family Farm's cattle are raised and finished on grass with no antibiotic and no hormones.",
+    "source_url": "https://knowlanfamilyfarm.com/beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://mofb.org/missouri-meat-producers/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

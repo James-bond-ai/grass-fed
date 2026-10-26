@@ -1,0 +1,48 @@
+{
+  "id": "creekside-farm",
+  "slug": "creekside-farm",
+  "farm_name": "Creekside Farm",
+  "city": "Athens",
+  "state": "OH",
+  "zip": "",
+  "address_public": false,
+  "website": "https://creeksidefarmathens.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "dairy-goat"
+  ],
+  "products": [
+    "goat cheese",
+    "chevre",
+    "drinkable goat yogurt",
+    "goat milk soap"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "In fact, we feed only a fraction of the amount of grain compared to most commercial dairy producers.",
+    "source_url": "https://creeksidefarmathens.com/livestock/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/ohio/athens-1/cheese-1/creekside-farm/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farmers-market",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [
+    "Athens Farmers Market"
+  ],
+  "bulk_shares": false,
+  "ordering_url": "https://creeksidefarmathens.com/shop/",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/ohio/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

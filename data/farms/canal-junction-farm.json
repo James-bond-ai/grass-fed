@@ -1,0 +1,51 @@
+{
+  "id": "canal-junction-farm",
+  "slug": "canal-junction-farm",
+  "farm_name": "Canal Junction Farm",
+  "city": "Defiance",
+  "state": "OH",
+  "zip": "43512",
+  "address": "18637 Rd 168, Defiance, OH 43512",
+  "address_public": true,
+  "website": "https://canaljunctionfarm.com/",
+  "phone": "(419) 399-2350",
+  "social_urls": [
+    "https://www.instagram.com/canaljunctionfarm/",
+    "https://www.facebook.com/canaljunctionfarm/"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "lamb",
+    "eggs"
+  ],
+  "products": [
+    "ground beef",
+    "beef cuts",
+    "pork",
+    "sausage",
+    "chicken",
+    "lamb",
+    "turkey",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are 100% grass-fed from start to finish, and raised on our nutrient-dense pastures.",
+    "source_url": "https://canaljunctionfarm.com/our-farm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://canaljunctionfarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://canaljunctionfarm.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}
