@@ -32,12 +32,23 @@
   ],
   "sales_channels": [
     "on-farm-store",
-    "ships-regional",
+    "ships-nationwide",
     "retail",
     "restaurants"
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://www.greendirtfarm.com/shop/"
+  },
+  "dairy_products": [
+    "cheese",
+    "ice-cream"
+  ],
   "ordering_url": "https://www.greendirtfarm.com/shop/",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/missouri/weston/bath-and-body/green-dirt-farm/",

@@ -31,6 +31,17 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "CSA pickup sites in Napa, Lake, Solano, Yolo, Sacramento, Alameda and Contra Costa counties and San Francisco",
+      "Farmers markets in Berkeley and Sacramento"
+    ],
+    "source_url": "https://www.riverdogfarm.com/csa"
+  },
+  "dairy_products": [],
   "ordering_url": "https://gofarmhand.com/shop/riverdog-farm",
   "data_source": "web-search",
   "source_url": "https://www.riverdogfarm.com",

@@ -32,6 +32,37 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Half Moon Bay",
+      "La Honda",
+      "San Gregorio",
+      "Pescadero",
+      "San Mateo County"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Markegard Ranch Gate, Half Moon Bay",
+      "Apple Jack's Bar, La Honda",
+      "Skywood Trading Post, Skyline",
+      "Whiskey Hill Rd, Woodside",
+      "Half Moon Bay Brewing Co., Half Moon Bay",
+      "Pescadero Rd, Pescadero",
+      "Banana Belt, Santa Cruz",
+      "Glen Park, San Francisco",
+      "Table Wine Merchant, Pacifica",
+      "Ticonderoga Dr., San Mateo",
+      "Petaluma, by appointment",
+      "Santa Rosa, by appointment",
+      "Farmers market, San Mateo (CSM campus)",
+      "Farmers market, Sunnyvale",
+      "Farmers market, Palo Alto",
+      "Farmers market, Campbell"
+    ],
+    "source_url": "https://www.markegardfamily.com/pickup-delivery-options"
+  },
+  "dairy_products": [],
   "ordering_url": "https://www.markegardfamily.com/what-we-offer",
   "data_source": "web-search",
   "source_url": "https://www.markegardfamily.com",

@@ -38,6 +38,28 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Kansas City metro"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Merriam, KS",
+      "Olathe, KS",
+      "Prairie Village, KS",
+      "Lee's Summit, MO",
+      "Blue Springs, MO",
+      "Harrisonville, MO",
+      "Liberty, MO",
+      "Kansas City, MO",
+      "Adrian, MO",
+      "Parkville, MO",
+      "Raymore, MO"
+    ],
+    "source_url": "https://farrarfamilyfarmkc.com/frequently-asked-questions/"
+  },
+  "dairy_products": [],
   "ordering_url": "https://farrarfamilyfarmkc.grazecart.com/store",
   "data_source": "web-search",
   "source_url": "https://mofb.org/missouri-meat-producers/",

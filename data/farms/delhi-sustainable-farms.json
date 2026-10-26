@@ -36,6 +36,19 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Cuba",
+      "Bourbon",
+      "Sullivan",
+      "St. Louis area"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.delhisustainablefarms.com/shipping-and-delivery"
+  },
+  "dairy_products": [],
   "ordering_url": "https://www.delhisustainablefarms.com/shop-products",
   "data_source": "web-search",
   "source_url": "https://mofb.org/missouri-meat-producers/",

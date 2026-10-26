@@ -35,6 +35,17 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Willowside Meats, Santa Rosa (half and whole beef)",
+      "Bud's Custom Meats, Penngrove (half and whole beef)"
+    ],
+    "source_url": "https://stemplecreek.com/pages/faqs"
+  },
+  "dairy_products": [],
   "ordering_url": "https://www.stemplecreek.com/collections",
   "data_source": "web-search",
   "source_url": "https://www.stemplecreek.com",

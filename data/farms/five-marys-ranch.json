@@ -31,6 +31,16 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Fort Jones pickup at the Five Marys Burgerhouse, by arrangement"
+    ],
+    "source_url": "https://fivemarys.com/faq"
+  },
+  "dairy_products": [],
   "ordering_url": "https://fivemarysmeats.com",
   "data_source": "web-search",
   "source_url": "https://fivemarys.com",

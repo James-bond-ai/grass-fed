@@ -23,10 +23,40 @@
   },
   "certifications": [],
   "sales_channels": [
-    "local-delivery"
+    "local-delivery",
+    "online-order"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Aptos",
+      "Berkeley",
+      "Fremont",
+      "Gilroy",
+      "Monterey",
+      "Palo Alto / Portola Valley",
+      "Pleasanton",
+      "Sacramento",
+      "San Francisco",
+      "San Jose",
+      "San Juan Bautista",
+      "Scotts Valley",
+      "Vacaville",
+      "Santa Clarita",
+      "Pasadena",
+      "Lake Elsinore",
+      "Westminster",
+      "Santa Barbara",
+      "Camarillo",
+      "San Luis Obispo"
+    ],
+    "source_url": "https://morrisgrassfed.com/pickup-locations/"
+  },
+  "dairy_products": [],
   "ordering_url": "https://morrisgrassfed.grazecart.com",
   "data_source": "web-search",
   "source_url": "https://www.morrisgrassfed.com",

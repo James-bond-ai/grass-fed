@@ -40,6 +40,16 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Sonoma Meat Company processor, Santa Rosa"
+    ],
+    "source_url": "https://richardsonranches.com/beef-lamb-operation/"
+  },
+  "dairy_products": [],
   "ordering_url": "https://richardsonranches.com/beef-lamb-operation/",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/california/annapolis-1/beef-1/richardson-ranch/",

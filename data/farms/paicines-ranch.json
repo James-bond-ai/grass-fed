@@ -28,10 +28,26 @@
   },
   "certifications": [],
   "sales_channels": [
-    "farm-pickup"
+    "farm-pickup",
+    "local-delivery"
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Hollister"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Paicines Ranch, by appointment",
+      "Farmers market, Mountain View",
+      "Aptos, last Friday of the month",
+      "Del Monte Shopping Center farmers market, Monterey"
+    ],
+    "source_url": "https://paicinesranch.com/pastured-meats/"
+  },
+  "dairy_products": [],
   "ordering_url": "https://store.paicinesranch.com",
   "data_source": "web-search",
   "source_url": "https://www.paicinesranch.com",
