@@ -1,0 +1,2312 @@
+[
+  {
+    "url": "https://organic.ams.usda.gov/integrity/Reports/DataHistoryReport?id=4&reportDate=20261001&ret=Reports/DataHistory&retName=Data+History",
+    "text": " United States Department of Agriculture\nAgricultural Marketing Service\nLog In\nRegister\nHome\nSearch\nReports\nTrade Partners\nContact Us   About  \nReturn to Data History Page\nData History Report\n\nReport can be printed or exported.\n\nUpdate Report Print Report\n\nReport\nSelect Report \n Certified Organic Operations by Country (USDA)\nData As Of Date\nSelect Date\nAnnual Data\nYear \n None\n / \n4\n \nCount of USDA-NOP Certified Organic\nData as of 10/1/2026\nCountry*\nNumber of Operations\nOperations by Country\nAfghanistan\n2\nAlbania\n36\nAlgeria\n56\nAmerican Samoa\n1\nAndorra\n2\nAntarctica\n1\nArgentina\n1,364\nArmenia\n14\nAustralia\n484\nAustria\n69\nAzerbaijan\n5\nBangladesh\n2\nBarbados\n1\nBelarus\n1\nBelgium\n100\nBelize\n5\nBenin\n53\nBolivia (Plurinational State of)\n231\nBosnia and Herzegovina\n7\nBotswana\n1\nBrazil\n1,075\nBulgaria\n91\nBurkina Faso\n79\nBurundi\n2\nCambodia\n58\nCameroon\n3\nCanada\n2,259\nCayman Islands\n1\nChad\n7\nChile\n842\nChina\n2,178\nColombia\n325\nComoros\n3\nCongo (the Democratic Republic of the)\n33\nCosta Rica\n90\nCôte d'Ivoire\n57\nCroatia\n8\nCuba\n6\nCyprus\n5\nCzech Republic\n6\n10/26/2026 9:28:22 PM\n Return to top\nAskUSDA\nPrivacy Policy\nUSDA.gov\nUSA.gov\nWhiteHouse.gov\nFOIA\nAccessibility Statement\nNon-­Discrimination Statement\nInformation Quality\nPlain Writing\nContact USDA",
+    "clickables": [
+      [
+        "A",
+        "United States Department of Agriculture",
+        "//usda.gov"
+      ],
+      [
+        "A",
+        "Agricultural Marketing Service",
+        "//www.ams.usda.gov"
+      ],
+      [
+        "A",
+        "Log In",
+        "EauthLogin?redirectUri=https://organic.ams.usda.gov/integrity/"
+      ],
+      [
+        "A",
+        "Register",
+        "UserManagement/RegisterNewAccount"
+      ],
+      [
+        "A",
+        "Home",
+        "Home"
+      ],
+      [
+        "A",
+        "Contact Us",
+        "ContactUs"
+      ],
+      [
+        "A",
+        "About",
+        "About"
+      ],
+      [
+        "A",
+        "Return to Data History Page",
+        "Reports/DataHistory"
+      ],
+      [
+        "BUTTON",
+        "Update Report",
+        null
+      ],
+      [
+        "BUTTON",
+        "Print Report",
+        null
+      ],
+      [
+        "A",
+        "Navigate Backward",
+        "#"
+      ],
+      [
+        "A",
+        "Navigate Forward",
+        "#"
+      ],
+      [
+        "A",
+        "Stop Rendering",
+        "#"
+      ],
+      [
+        "A",
+        "Refresh",
+        "#"
+      ],
+      [
+        "A",
+        "First Page",
+        "#"
+      ],
+      [
+        "A",
+        "Last Page",
+        "#"
+      ],
+      [
+        "A",
+        "Print...",
+        "#"
+      ],
+      [
+        "A",
+        "Send an email",
+        "#"
+      ],
+      [
+        "A",
+        "Export",
+        "#"
+      ],
+      [
+        "A",
+        "Toggle Print Preview",
+        "#"
+      ],
+      [
+        "A",
+        "Search",
+        "#"
+      ],
+      [
+        "BUTTON",
+        "Preview",
+        null
+      ],
+      [
+        "BUTTON",
+        "sendEmailSendLabel",
+        null
+      ],
+      [
+        "BUTTON",
+        "sendEmailCancelLabel",
+        null
+      ],
+      [
+        "BUTTON",
+        "Return to top",
+        null
+      ],
+      [
+        "A",
+        "AskUSDA",
+        "https://ask.usda.gov/s/?utm_source=USDA&utm_medium=homepage&utm_campaign=homepage%20referrals"
+      ],
+      [
+        "A",
+        "Privacy Policy",
+        "https://www.usda.gov/privacy-policy"
+      ],
+      [
+        "A",
+        "USDA.gov",
+        "https://www.usda.gov/"
+      ],
+      [
+        "A",
+        "USA.gov",
+        "https://www.usa.gov/"
+      ],
+      [
+        "A",
+        "WhiteHouse.gov",
+        "https://www.whitehouse.gov/"
+      ],
+      [
+        "A",
+        "FOIA",
+        "https://www.usda.gov/ogc/office-information-affairs/foia-division"
+      ],
+      [
+        "A",
+        "Accessibility Statement",
+        "https://www.usda.gov/accessibility-statement"
+      ],
+      [
+        "A",
+        "Non-­Discrimination Statement",
+        "https://www.usda.gov/non-discrimination-statement"
+      ],
+      [
+        "A",
+        "Information Quality",
+        "https://www.usda.gov/ocio/guidelines-and-compliance-resources/information-quality-activities"
+      ],
+      [
+        "A",
+        "Plain Writing",
+        "https://www.usda.gov/plain-writing"
+      ],
+      [
+        "A",
+        "Contact USDA",
+        "https://ask.usda.gov/s/contactsupport"
+      ],
+      [
+        "A",
+        "Reload",
+        ""
+      ],
+      [
+        "A",
+        "🗙",
+        null
+      ]
+    ],
+    "responses": [
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Reports/DataHistoryReport?id=4&reportDate=20261001&ret=Reports/DataHistory&retName=Data+History",
+        "status": 200,
+        "ctype": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/bootstrap/bootstrap.min.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fsa-design-system/fsa-style.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.UI.for.Blazor/css/kendo-theme-default/all.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/IntegrityTheme.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/site.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/js/jquery.min.js",
+        "status": 200,
+        "ctype": "application/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/lib/blazor-ui/styles/bootstrap-main.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/js/telerikReportViewer",
+        "status": 200,
+        "ctype": "text/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/js/api.js",
+        "status": 200,
+        "ctype": "application/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_framework/blazor.server.js",
+        "status": 200,
+        "ctype": "application/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.ReportViewer.Blazor/interop.js",
+        "status": 200,
+        "ctype": "application/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.UI.for.Blazor/js/telerik-blazor.js",
+        "status": 200,
+        "ctype": "application/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_blazor/initializers",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_blazor/negotiate?negotiateVersion=1",
+        "status": 200,
+        "ctype": "application/json"
+      },
+      {
+        "url": "https://api.data.gov/static/javascripts/signup_embed.js",
+        "status": 200,
+        "ctype": "text/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fsa-design-system/img/usda-logo--white.svg",
+        "status": 200,
+        "ctype": "image/svg+xml"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-regular-webfont.woff2",
+        "status": 200,
+        "ctype": "font/woff2"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-bold-webfont.woff2",
+        "status": 200,
+        "ctype": "font/woff2"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Images/header_logo.svg",
+        "status": 200,
+        "ctype": "image/svg+xml"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Images/arrow_back.gif",
+        "status": 200,
+        "ctype": "image/gif"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-light-webfont.woff2",
+        "status": 200,
+        "ctype": "font/woff2"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/js/telerikReportViewer.kendo-17.2.23.1010.min.js/",
+        "status": 200,
+        "ctype": "text/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/version",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/templates/telerikReportViewerTemplate-17.2.23.1010.html/",
+        "status": 200,
+        "ctype": "text/html"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/styles/telerikReportViewer-17.2.23.1010.css/",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/font/fonticons-17.2.23.1010.css/",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/font/ReportingIcons-17.2.23.1010.ttf/",
+        "status": 200,
+        "ctype": "application/font-ttf"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/sessionTimeout",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1236c592cb6/parameters",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1236c592cb6/instances",
+        "status": 201,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1236c592cb6/instances/286b950bac8/documents",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1236c592cb6/instances/286b950bac8/documents/b8b85f41db8aac08b08d84/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1236c592cb6/instances/286b950bac8/documents/b8b85f41db8aac08b08d84/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1236c592cb6/instances/286b950bac8/documents/b8b85f41db8aac08b08d84/pages/1",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1236c592cb6/instances/286b950bac8/documents/b8b85f41db8aac08b08d84/resources/0d49cead71194fd6926f07440b8f592f/",
+        "status": 200,
+        "ctype": "image/png"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1236c592cb6/instances/286b950bac8/documents/b8b85f41db8aac08b08d84/info",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      }
+    ]
+  },
+  {
+    "url": "https://organic.ams.usda.gov/integrity/Reports/DataHistoryReport?id=5&reportDate=20261001&ret=Reports/DataHistory&retName=Data+History",
+    "text": " United States Department of Agriculture\nAgricultural Marketing Service\nLog In\nRegister\nHome\nSearch\nReports\nTrade Partners\nContact Us   About  \nReturn to Data History Page\nData History Report\n\nReport can be printed or exported.\n\nUpdate Report Print Report\n\nReport\nSelect Report \n  \nData As Of Date\nSelect Date\nAnnual Data\nYear \n None\n / \n4\n \nCount of USDA-NOP Certified Organic\nData as of 10/1/2026\nCountry*\nNumber of Operations\nOperations by Country\nAfghanistan\n2\nAlbania\n36\nAlgeria\n56\nAmerican Samoa\n1\nAndorra\n2\nAntarctica\n1\nArgentina\n1,364\nArmenia\n14\nAustralia\n484\nAustria\n69\nAzerbaijan\n5\nBangladesh\n2\nBarbados\n1\nBelarus\n1\nBelgium\n100\nBelize\n5\nBenin\n53\nBolivia (Plurinational State of)\n231\nBosnia and Herzegovina\n7\nBotswana\n1\nBrazil\n1,075\nBulgaria\n91\nBurkina Faso\n79\nBurundi\n2\nCambodia\n58\nCameroon\n3\nCanada\n2,259\nCayman Islands\n1\nChad\n7\nChile\n842\nChina\n2,178\nColombia\n325\nComoros\n3\nCongo (the Democratic Republic of the)\n33\nCosta Rica\n90\nCôte d'Ivoire\n57\nCroatia\n8\nCuba\n6\nCyprus\n5\nCzech Republic\n6\n10/26/2026 9:30:44 PM\n Return to top\nAskUSDA\nPrivacy Policy\nUSDA.gov\nUSA.gov\nWhiteHouse.gov\nFOIA\nAccessibility Statement\nNon-­Discrimination Statement\nInformation Quality\nPlain Writing\nContact USDA",
+    "clickables": [
+      [
+        "A",
+        "United States Department of Agriculture",
+        "//usda.gov"
+      ],
+      [
+        "A",
+        "Agricultural Marketing Service",
+        "//www.ams.usda.gov"
+      ],
+      [
+        "A",
+        "Log In",
+        "EauthLogin?redirectUri=https://organic.ams.usda.gov/integrity/"
+      ],
+      [
+        "A",
+        "Register",
+        "UserManagement/RegisterNewAccount"
+      ],
+      [
+        "A",
+        "Home",
+        "Home"
+      ],
+      [
+        "A",
+        "Contact Us",
+        "ContactUs"
+      ],
+      [
+        "A",
+        "About",
+        "About"
+      ],
+      [
+        "A",
+        "Return to Data History Page",
+        "Reports/DataHistory"
+      ],
+      [
+        "BUTTON",
+        "Update Report",
+        null
+      ],
+      [
+        "BUTTON",
+        "Print Report",
+        null
+      ],
+      [
+        "A",
+        "Navigate Backward",
+        "#"
+      ],
+      [
+        "A",
+        "Navigate Forward",
+        "#"
+      ],
+      [
+        "A",
+        "Stop Rendering",
+        "#"
+      ],
+      [
+        "A",
+        "Refresh",
+        "#"
+      ],
+      [
+        "A",
+        "First Page",
+        "#"
+      ],
+      [
+        "A",
+        "Last Page",
+        "#"
+      ],
+      [
+        "A",
+        "Print...",
+        "#"
+      ],
+      [
+        "A",
+        "Send an email",
+        "#"
+      ],
+      [
+        "A",
+        "Export",
+        "#"
+      ],
+      [
+        "A",
+        "Toggle Print Preview",
+        "#"
+      ],
+      [
+        "A",
+        "Search",
+        "#"
+      ],
+      [
+        "BUTTON",
+        "Preview",
+        null
+      ],
+      [
+        "BUTTON",
+        "sendEmailSendLabel",
+        null
+      ],
+      [
+        "BUTTON",
+        "sendEmailCancelLabel",
+        null
+      ],
+      [
+        "BUTTON",
+        "Return to top",
+        null
+      ],
+      [
+        "A",
+        "AskUSDA",
+        "https://ask.usda.gov/s/?utm_source=USDA&utm_medium=homepage&utm_campaign=homepage%20referrals"
+      ],
+      [
+        "A",
+        "Privacy Policy",
+        "https://www.usda.gov/privacy-policy"
+      ],
+      [
+        "A",
+        "USDA.gov",
+        "https://www.usda.gov/"
+      ],
+      [
+        "A",
+        "USA.gov",
+        "https://www.usa.gov/"
+      ],
+      [
+        "A",
+        "WhiteHouse.gov",
+        "https://www.whitehouse.gov/"
+      ],
+      [
+        "A",
+        "FOIA",
+        "https://www.usda.gov/ogc/office-information-affairs/foia-division"
+      ],
+      [
+        "A",
+        "Accessibility Statement",
+        "https://www.usda.gov/accessibility-statement"
+      ],
+      [
+        "A",
+        "Non-­Discrimination Statement",
+        "https://www.usda.gov/non-discrimination-statement"
+      ],
+      [
+        "A",
+        "Information Quality",
+        "https://www.usda.gov/ocio/guidelines-and-compliance-resources/information-quality-activities"
+      ],
+      [
+        "A",
+        "Plain Writing",
+        "https://www.usda.gov/plain-writing"
+      ],
+      [
+        "A",
+        "Contact USDA",
+        "https://ask.usda.gov/s/contactsupport"
+      ],
+      [
+        "A",
+        "Reload",
+        ""
+      ],
+      [
+        "A",
+        "🗙",
+        null
+      ]
+    ],
+    "responses": [
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Reports/DataHistoryReport?id=5&reportDate=20261001&ret=Reports/DataHistory&retName=Data+History",
+        "status": 200,
+        "ctype": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/js/telerikReportViewer",
+        "status": 200,
+        "ctype": "text/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/site.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/bootstrap/bootstrap.min.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/js/jquery.min.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.UI.for.Blazor/js/telerik-blazor.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.UI.for.Blazor/css/kendo-theme-default/all.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/lib/blazor-ui/styles/bootstrap-main.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/IntegrityTheme.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fsa-design-system/fsa-style.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/js/api.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_framework/blazor.server.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.ReportViewer.Blazor/interop.js",
+        "status": 304
+      },
+      {
+        "url": "https://api.data.gov/static/javascripts/signup_embed.js",
+        "status": 200,
+        "ctype": "text/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_blazor/initializers",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_blazor/negotiate?negotiateVersion=1",
+        "status": 200,
+        "ctype": "application/json"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fsa-design-system/img/usda-logo--white.svg",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-bold-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-regular-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Images/header_logo.svg",
+        "status": 200,
+        "ctype": "image/svg+xml"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Images/arrow_back.gif",
+        "status": 200,
+        "ctype": "image/gif"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-light-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/js/telerikReportViewer.kendo-17.2.23.1010.min.js/",
+        "status": 200,
+        "ctype": "text/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/version",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/templates/telerikReportViewerTemplate-17.2.23.1010.html/",
+        "status": 200,
+        "ctype": "text/html"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/font/fonticons-17.2.23.1010.css/",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/styles/telerikReportViewer-17.2.23.1010.css/",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/font/ReportingIcons-17.2.23.1010.ttf/",
+        "status": 200,
+        "ctype": "application/font-ttf"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/sessionTimeout",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1e1ef87c221/parameters",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1e1ef87c221/instances",
+        "status": 201,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1e1ef87c221/instances/62070a8d27c/documents",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1e1ef87c221/instances/62070a8d27c/documents/807245b0e725a0d2023cf0/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1e1ef87c221/instances/62070a8d27c/documents/807245b0e725a0d2023cf0/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1e1ef87c221/instances/62070a8d27c/documents/807245b0e725a0d2023cf0/info",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1e1ef87c221/instances/62070a8d27c/documents/807245b0e725a0d2023cf0/pages/1",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/1e1ef87c221/instances/62070a8d27c/documents/807245b0e725a0d2023cf0/resources/ce4c84f8112442b3a80e6008eab78abb/",
+        "status": 200
+      }
+    ]
+  },
+  {
+    "url": "https://organic.ams.usda.gov/integrity/Reports/DataHistoryReport?id=4&reportDate=20260901&ret=Reports/DataHistory&retName=Data+History",
+    "text": " United States Department of Agriculture\nAgricultural Marketing Service\nLog In\nRegister\nHome\nSearch\nReports\nTrade Partners\nContact Us   About  \nReturn to Data History Page\nData History Report\n\nReport can be printed or exported.\n\nUpdate Report Print Report\n\nReport\nSelect Report \n Certified Organic Operations by Country (USDA)\nData As Of Date\nSelect Date\nAnnual Data\nYear \n None\n / \n4\n \nCount of USDA-NOP Certified Organic\nData as of 9/1/2026\nCountry*\nNumber of Operations\nOperations by Country\nAfghanistan\n2\nAlbania\n36\nAlgeria\n56\nAmerican Samoa\n1\nAndorra\n2\nAntarctica\n1\nArgentina\n1,364\nArmenia\n14\nAustralia\n484\nAustria\n69\nAzerbaijan\n5\nBangladesh\n2\nBarbados\n1\nBelarus\n1\nBelgium\n100\nBelize\n5\nBenin\n53\nBolivia (Plurinational State of)\n231\nBosnia and Herzegovina\n7\nBotswana\n1\nBrazil\n1,075\nBulgaria\n91\nBurkina Faso\n79\nBurundi\n2\nCambodia\n58\nCameroon\n3\nCanada\n2,259\nCayman Islands\n1\nChad\n7\nChile\n842\nChina\n2,178\nColombia\n325\nComoros\n3\nCongo (the Democratic Republic of the)\n33\nCosta Rica\n90\nCôte d'Ivoire\n57\nCroatia\n8\nCuba\n6\nCyprus\n5\nCzech Republic\n6\n10/26/2026 9:33:11 PM\n Return to top\nAskUSDA\nPrivacy Policy\nUSDA.gov\nUSA.gov\nWhiteHouse.gov\nFOIA\nAccessibility Statement\nNon-­Discrimination Statement\nInformation Quality\nPlain Writing\nContact USDA",
+    "clickables": [
+      [
+        "A",
+        "United States Department of Agriculture",
+        "//usda.gov"
+      ],
+      [
+        "A",
+        "Agricultural Marketing Service",
+        "//www.ams.usda.gov"
+      ],
+      [
+        "A",
+        "Log In",
+        "EauthLogin?redirectUri=https://organic.ams.usda.gov/integrity/"
+      ],
+      [
+        "A",
+        "Register",
+        "UserManagement/RegisterNewAccount"
+      ],
+      [
+        "A",
+        "Home",
+        "Home"
+      ],
+      [
+        "A",
+        "Contact Us",
+        "ContactUs"
+      ],
+      [
+        "A",
+        "About",
+        "About"
+      ],
+      [
+        "A",
+        "Return to Data History Page",
+        "Reports/DataHistory"
+      ],
+      [
+        "BUTTON",
+        "Update Report",
+        null
+      ],
+      [
+        "BUTTON",
+        "Print Report",
+        null
+      ],
+      [
+        "A",
+        "Navigate Backward",
+        "#"
+      ],
+      [
+        "A",
+        "Navigate Forward",
+        "#"
+      ],
+      [
+        "A",
+        "Stop Rendering",
+        "#"
+      ],
+      [
+        "A",
+        "Refresh",
+        "#"
+      ],
+      [
+        "A",
+        "First Page",
+        "#"
+      ],
+      [
+        "A",
+        "Last Page",
+        "#"
+      ],
+      [
+        "A",
+        "Print...",
+        "#"
+      ],
+      [
+        "A",
+        "Send an email",
+        "#"
+      ],
+      [
+        "A",
+        "Export",
+        "#"
+      ],
+      [
+        "A",
+        "Toggle Print Preview",
+        "#"
+      ],
+      [
+        "A",
+        "Search",
+        "#"
+      ],
+      [
+        "BUTTON",
+        "Preview",
+        null
+      ],
+      [
+        "BUTTON",
+        "sendEmailSendLabel",
+        null
+      ],
+      [
+        "BUTTON",
+        "sendEmailCancelLabel",
+        null
+      ],
+      [
+        "BUTTON",
+        "Return to top",
+        null
+      ],
+      [
+        "A",
+        "AskUSDA",
+        "https://ask.usda.gov/s/?utm_source=USDA&utm_medium=homepage&utm_campaign=homepage%20referrals"
+      ],
+      [
+        "A",
+        "Privacy Policy",
+        "https://www.usda.gov/privacy-policy"
+      ],
+      [
+        "A",
+        "USDA.gov",
+        "https://www.usda.gov/"
+      ],
+      [
+        "A",
+        "USA.gov",
+        "https://www.usa.gov/"
+      ],
+      [
+        "A",
+        "WhiteHouse.gov",
+        "https://www.whitehouse.gov/"
+      ],
+      [
+        "A",
+        "FOIA",
+        "https://www.usda.gov/ogc/office-information-affairs/foia-division"
+      ],
+      [
+        "A",
+        "Accessibility Statement",
+        "https://www.usda.gov/accessibility-statement"
+      ],
+      [
+        "A",
+        "Non-­Discrimination Statement",
+        "https://www.usda.gov/non-discrimination-statement"
+      ],
+      [
+        "A",
+        "Information Quality",
+        "https://www.usda.gov/ocio/guidelines-and-compliance-resources/information-quality-activities"
+      ],
+      [
+        "A",
+        "Plain Writing",
+        "https://www.usda.gov/plain-writing"
+      ],
+      [
+        "A",
+        "Contact USDA",
+        "https://ask.usda.gov/s/contactsupport"
+      ],
+      [
+        "A",
+        "Reload",
+        ""
+      ],
+      [
+        "A",
+        "🗙",
+        null
+      ]
+    ],
+    "responses": [
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Reports/DataHistoryReport?id=4&reportDate=20260901&ret=Reports/DataHistory&retName=Data+History",
+        "status": 200,
+        "ctype": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/js/telerikReportViewer",
+        "status": 200,
+        "ctype": "text/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/bootstrap/bootstrap.min.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/site.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/js/jquery.min.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.UI.for.Blazor/js/telerik-blazor.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.UI.for.Blazor/css/kendo-theme-default/all.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fsa-design-system/fsa-style.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/lib/blazor-ui/styles/bootstrap-main.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/IntegrityTheme.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/js/api.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_framework/blazor.server.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.ReportViewer.Blazor/interop.js",
+        "status": 304
+      },
+      {
+        "url": "https://api.data.gov/static/javascripts/signup_embed.js",
+        "status": 200,
+        "ctype": "text/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_blazor/initializers",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_blazor/negotiate?negotiateVersion=1",
+        "status": 200,
+        "ctype": "application/json"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-bold-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fsa-design-system/img/usda-logo--white.svg",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-regular-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Images/header_logo.svg",
+        "status": 200,
+        "ctype": "image/svg+xml"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-light-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Images/arrow_back.gif",
+        "status": 200,
+        "ctype": "image/gif"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/js/telerikReportViewer.kendo-17.2.23.1010.min.js/",
+        "status": 200,
+        "ctype": "text/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/version",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/templates/telerikReportViewerTemplate-17.2.23.1010.html/",
+        "status": 200,
+        "ctype": "text/html"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/font/fonticons-17.2.23.1010.css/",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/styles/telerikReportViewer-17.2.23.1010.css/",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/font/ReportingIcons-17.2.23.1010.ttf/",
+        "status": 200,
+        "ctype": "application/font-ttf"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/sessionTimeout",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/fb486d91bca/parameters",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/fb486d91bca/instances",
+        "status": 201,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/fb486d91bca/instances/b576de6bc16/documents",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/fb486d91bca/instances/b576de6bc16/documents/97c033792ffae19361eade/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/fb486d91bca/instances/b576de6bc16/documents/97c033792ffae19361eade/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/fb486d91bca/instances/b576de6bc16/documents/97c033792ffae19361eade/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/fb486d91bca/instances/b576de6bc16/documents/97c033792ffae19361eade/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/fb486d91bca/instances/b576de6bc16/documents/97c033792ffae19361eade/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/fb486d91bca/instances/b576de6bc16/documents/97c033792ffae19361eade/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      }
+    ]
+  },
+  {
+    "url": "https://organic.ams.usda.gov/integrity/Reports/DataHistoryReport?id=5&reportDate=20260901&ret=Reports/DataHistory&retName=Data+History",
+    "text": " United States Department of Agriculture\nAgricultural Marketing Service\nLog In\nRegister\nHome\nSearch\nReports\nTrade Partners\nContact Us   About  \nReturn to Data History Page\nData History Report\n\nReport can be printed or exported.\n\nUpdate Report Print Report\n\nReport\nSelect Report \n  \nData As Of Date\nSelect Date\nAnnual Data\nYear \n None\n / \n4\n \nCount of USDA-NOP Certified Organic\nData as of 9/1/2026\nCountry*\nNumber of Operations\nOperations by Country\nAfghanistan\n2\nAlbania\n36\nAlgeria\n56\nAmerican Samoa\n1\nAndorra\n2\nAntarctica\n1\nArgentina\n1,364\nArmenia\n14\nAustralia\n484\nAustria\n69\nAzerbaijan\n5\nBangladesh\n2\nBarbados\n1\nBelarus\n1\nBelgium\n100\nBelize\n5\nBenin\n53\nBolivia (Plurinational State of)\n231\nBosnia and Herzegovina\n7\nBotswana\n1\nBrazil\n1,075\nBulgaria\n91\nBurkina Faso\n79\nBurundi\n2\nCambodia\n58\nCameroon\n3\nCanada\n2,259\nCayman Islands\n1\nChad\n7\nChile\n842\nChina\n2,178\nColombia\n325\nComoros\n3\nCongo (the Democratic Republic of the)\n33\nCosta Rica\n90\nCôte d'Ivoire\n57\nCroatia\n8\nCuba\n6\nCyprus\n5\nCzech Republic\n6\n10/26/2026 9:35:28 PM\n Return to top\nAskUSDA\nPrivacy Policy\nUSDA.gov\nUSA.gov\nWhiteHouse.gov\nFOIA\nAccessibility Statement\nNon-­Discrimination Statement\nInformation Quality\nPlain Writing\nContact USDA",
+    "clickables": [
+      [
+        "A",
+        "United States Department of Agriculture",
+        "//usda.gov"
+      ],
+      [
+        "A",
+        "Agricultural Marketing Service",
+        "//www.ams.usda.gov"
+      ],
+      [
+        "A",
+        "Log In",
+        "EauthLogin?redirectUri=https://organic.ams.usda.gov/integrity/"
+      ],
+      [
+        "A",
+        "Register",
+        "UserManagement/RegisterNewAccount"
+      ],
+      [
+        "A",
+        "Home",
+        "Home"
+      ],
+      [
+        "A",
+        "Contact Us",
+        "ContactUs"
+      ],
+      [
+        "A",
+        "About",
+        "About"
+      ],
+      [
+        "A",
+        "Return to Data History Page",
+        "Reports/DataHistory"
+      ],
+      [
+        "BUTTON",
+        "Update Report",
+        null
+      ],
+      [
+        "BUTTON",
+        "Print Report",
+        null
+      ],
+      [
+        "A",
+        "Navigate Backward",
+        "#"
+      ],
+      [
+        "A",
+        "Navigate Forward",
+        "#"
+      ],
+      [
+        "A",
+        "Stop Rendering",
+        "#"
+      ],
+      [
+        "A",
+        "Refresh",
+        "#"
+      ],
+      [
+        "A",
+        "First Page",
+        "#"
+      ],
+      [
+        "A",
+        "Last Page",
+        "#"
+      ],
+      [
+        "A",
+        "Print...",
+        "#"
+      ],
+      [
+        "A",
+        "Send an email",
+        "#"
+      ],
+      [
+        "A",
+        "Export",
+        "#"
+      ],
+      [
+        "A",
+        "Toggle Print Preview",
+        "#"
+      ],
+      [
+        "A",
+        "Search",
+        "#"
+      ],
+      [
+        "BUTTON",
+        "Preview",
+        null
+      ],
+      [
+        "BUTTON",
+        "sendEmailSendLabel",
+        null
+      ],
+      [
+        "BUTTON",
+        "sendEmailCancelLabel",
+        null
+      ],
+      [
+        "BUTTON",
+        "Return to top",
+        null
+      ],
+      [
+        "A",
+        "AskUSDA",
+        "https://ask.usda.gov/s/?utm_source=USDA&utm_medium=homepage&utm_campaign=homepage%20referrals"
+      ],
+      [
+        "A",
+        "Privacy Policy",
+        "https://www.usda.gov/privacy-policy"
+      ],
+      [
+        "A",
+        "USDA.gov",
+        "https://www.usda.gov/"
+      ],
+      [
+        "A",
+        "USA.gov",
+        "https://www.usa.gov/"
+      ],
+      [
+        "A",
+        "WhiteHouse.gov",
+        "https://www.whitehouse.gov/"
+      ],
+      [
+        "A",
+        "FOIA",
+        "https://www.usda.gov/ogc/office-information-affairs/foia-division"
+      ],
+      [
+        "A",
+        "Accessibility Statement",
+        "https://www.usda.gov/accessibility-statement"
+      ],
+      [
+        "A",
+        "Non-­Discrimination Statement",
+        "https://www.usda.gov/non-discrimination-statement"
+      ],
+      [
+        "A",
+        "Information Quality",
+        "https://www.usda.gov/ocio/guidelines-and-compliance-resources/information-quality-activities"
+      ],
+      [
+        "A",
+        "Plain Writing",
+        "https://www.usda.gov/plain-writing"
+      ],
+      [
+        "A",
+        "Contact USDA",
+        "https://ask.usda.gov/s/contactsupport"
+      ],
+      [
+        "A",
+        "Reload",
+        ""
+      ],
+      [
+        "A",
+        "🗙",
+        null
+      ]
+    ],
+    "responses": [
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Reports/DataHistoryReport?id=5&reportDate=20260901&ret=Reports/DataHistory&retName=Data+History",
+        "status": 200,
+        "ctype": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/js/telerikReportViewer",
+        "status": 200,
+        "ctype": "text/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.UI.for.Blazor/js/telerik-blazor.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/js/jquery.min.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/site.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/bootstrap/bootstrap.min.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.UI.for.Blazor/css/kendo-theme-default/all.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/js/api.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/IntegrityTheme.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_framework/blazor.server.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fsa-design-system/fsa-style.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/lib/blazor-ui/styles/bootstrap-main.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.ReportViewer.Blazor/interop.js",
+        "status": 304
+      },
+      {
+        "url": "https://api.data.gov/static/javascripts/signup_embed.js",
+        "status": 200,
+        "ctype": "text/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_blazor/initializers",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_blazor/negotiate?negotiateVersion=1",
+        "status": 200,
+        "ctype": "application/json"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fsa-design-system/img/usda-logo--white.svg",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-regular-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-bold-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Images/header_logo.svg",
+        "status": 200,
+        "ctype": "image/svg+xml"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Images/arrow_back.gif",
+        "status": 200,
+        "ctype": "image/gif"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-light-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/js/telerikReportViewer.kendo-17.2.23.1010.min.js/",
+        "status": 200,
+        "ctype": "text/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/version",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/templates/telerikReportViewerTemplate-17.2.23.1010.html/",
+        "status": 200,
+        "ctype": "text/html"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/font/fonticons-17.2.23.1010.css/",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/styles/telerikReportViewer-17.2.23.1010.css/",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/font/ReportingIcons-17.2.23.1010.ttf/",
+        "status": 200,
+        "ctype": "application/font-ttf"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/sessionTimeout",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/4a0c3c40085/parameters",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/4a0c3c40085/instances",
+        "status": 201,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/4a0c3c40085/instances/d053dd1e700/documents",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/4a0c3c40085/instances/d053dd1e700/documents/48fd7f280b00f1122e338c/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/4a0c3c40085/instances/d053dd1e700/documents/48fd7f280b00f1122e338c/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/4a0c3c40085/instances/d053dd1e700/documents/48fd7f280b00f1122e338c/pages/1",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/4a0c3c40085/instances/d053dd1e700/documents/48fd7f280b00f1122e338c/resources/c815c255efb04da393b8547f39900746/",
+        "status": 200
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/4a0c3c40085/instances/d053dd1e700/documents/48fd7f280b00f1122e338c/info",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      }
+    ]
+  },
+  {
+    "url": "https://organic.ams.usda.gov/integrity/Reports/DataHistoryReport?id=4&reportDate=20260801&ret=Reports/DataHistory&retName=Data+History",
+    "text": " United States Department of Agriculture\nAgricultural Marketing Service\nLog In\nRegister\nHome\nSearch\nReports\nTrade Partners\nContact Us   About  \nReturn to Data History Page\nData History Report\n\nReport can be printed or exported.\n\nUpdate Report Print Report\n\nReport\nSelect Report \n Certified Organic Operations by Country (USDA)\nData As Of Date\nSelect Date\nAnnual Data\nYear \n None\n / \n4\n \nCount of USDA-NOP Certified Organic\nData as of 8/1/2026\nCountry*\nNumber of Operations\nOperations by Country\nAfghanistan\n2\nAlbania\n36\nAlgeria\n56\nAmerican Samoa\n1\nAndorra\n2\nAntarctica\n1\nArgentina\n1,364\nArmenia\n14\nAustralia\n484\nAustria\n69\nAzerbaijan\n5\nBangladesh\n2\nBarbados\n1\nBelarus\n1\nBelgium\n100\nBelize\n5\nBenin\n53\nBolivia (Plurinational State of)\n231\nBosnia and Herzegovina\n7\nBotswana\n1\nBrazil\n1,075\nBulgaria\n91\nBurkina Faso\n79\nBurundi\n2\nCambodia\n58\nCameroon\n3\nCanada\n2,259\nCayman Islands\n1\nChad\n7\nChile\n842\nChina\n2,178\nColombia\n325\nComoros\n3\nCongo (the Democratic Republic of the)\n33\nCosta Rica\n90\nCôte d'Ivoire\n57\nCroatia\n8\nCuba\n6\nCyprus\n5\nCzech Republic\n6\n10/26/2026 9:37:52 PM\n Return to top\nAskUSDA\nPrivacy Policy\nUSDA.gov\nUSA.gov\nWhiteHouse.gov\nFOIA\nAccessibility Statement\nNon-­Discrimination Statement\nInformation Quality\nPlain Writing\nContact USDA",
+    "clickables": [
+      [
+        "A",
+        "United States Department of Agriculture",
+        "//usda.gov"
+      ],
+      [
+        "A",
+        "Agricultural Marketing Service",
+        "//www.ams.usda.gov"
+      ],
+      [
+        "A",
+        "Log In",
+        "EauthLogin?redirectUri=https://organic.ams.usda.gov/integrity/"
+      ],
+      [
+        "A",
+        "Register",
+        "UserManagement/RegisterNewAccount"
+      ],
+      [
+        "A",
+        "Home",
+        "Home"
+      ],
+      [
+        "A",
+        "Contact Us",
+        "ContactUs"
+      ],
+      [
+        "A",
+        "About",
+        "About"
+      ],
+      [
+        "A",
+        "Return to Data History Page",
+        "Reports/DataHistory"
+      ],
+      [
+        "BUTTON",
+        "Update Report",
+        null
+      ],
+      [
+        "BUTTON",
+        "Print Report",
+        null
+      ],
+      [
+        "A",
+        "Navigate Backward",
+        "#"
+      ],
+      [
+        "A",
+        "Navigate Forward",
+        "#"
+      ],
+      [
+        "A",
+        "Stop Rendering",
+        "#"
+      ],
+      [
+        "A",
+        "Refresh",
+        "#"
+      ],
+      [
+        "A",
+        "First Page",
+        "#"
+      ],
+      [
+        "A",
+        "Last Page",
+        "#"
+      ],
+      [
+        "A",
+        "Print...",
+        "#"
+      ],
+      [
+        "A",
+        "Send an email",
+        "#"
+      ],
+      [
+        "A",
+        "Export",
+        "#"
+      ],
+      [
+        "A",
+        "Toggle Print Preview",
+        "#"
+      ],
+      [
+        "A",
+        "Search",
+        "#"
+      ],
+      [
+        "BUTTON",
+        "Preview",
+        null
+      ],
+      [
+        "BUTTON",
+        "sendEmailSendLabel",
+        null
+      ],
+      [
+        "BUTTON",
+        "sendEmailCancelLabel",
+        null
+      ],
+      [
+        "BUTTON",
+        "Return to top",
+        null
+      ],
+      [
+        "A",
+        "AskUSDA",
+        "https://ask.usda.gov/s/?utm_source=USDA&utm_medium=homepage&utm_campaign=homepage%20referrals"
+      ],
+      [
+        "A",
+        "Privacy Policy",
+        "https://www.usda.gov/privacy-policy"
+      ],
+      [
+        "A",
+        "USDA.gov",
+        "https://www.usda.gov/"
+      ],
+      [
+        "A",
+        "USA.gov",
+        "https://www.usa.gov/"
+      ],
+      [
+        "A",
+        "WhiteHouse.gov",
+        "https://www.whitehouse.gov/"
+      ],
+      [
+        "A",
+        "FOIA",
+        "https://www.usda.gov/ogc/office-information-affairs/foia-division"
+      ],
+      [
+        "A",
+        "Accessibility Statement",
+        "https://www.usda.gov/accessibility-statement"
+      ],
+      [
+        "A",
+        "Non-­Discrimination Statement",
+        "https://www.usda.gov/non-discrimination-statement"
+      ],
+      [
+        "A",
+        "Information Quality",
+        "https://www.usda.gov/ocio/guidelines-and-compliance-resources/information-quality-activities"
+      ],
+      [
+        "A",
+        "Plain Writing",
+        "https://www.usda.gov/plain-writing"
+      ],
+      [
+        "A",
+        "Contact USDA",
+        "https://ask.usda.gov/s/contactsupport"
+      ],
+      [
+        "A",
+        "Reload",
+        ""
+      ],
+      [
+        "A",
+        "🗙",
+        null
+      ]
+    ],
+    "responses": [
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Reports/DataHistoryReport?id=4&reportDate=20260801&ret=Reports/DataHistory&retName=Data+History",
+        "status": 200,
+        "ctype": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/js/telerikReportViewer",
+        "status": 200,
+        "ctype": "text/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/bootstrap/bootstrap.min.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.UI.for.Blazor/css/kendo-theme-default/all.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/site.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/js/jquery.min.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.UI.for.Blazor/js/telerik-blazor.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/lib/blazor-ui/styles/bootstrap-main.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fsa-design-system/fsa-style.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/IntegrityTheme.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/js/api.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_framework/blazor.server.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.ReportViewer.Blazor/interop.js",
+        "status": 304
+      },
+      {
+        "url": "https://api.data.gov/static/javascripts/signup_embed.js",
+        "status": 200,
+        "ctype": "text/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_blazor/initializers",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_blazor/negotiate?negotiateVersion=1",
+        "status": 200,
+        "ctype": "application/json"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-regular-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-bold-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fsa-design-system/img/usda-logo--white.svg",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Images/header_logo.svg",
+        "status": 200,
+        "ctype": "image/svg+xml"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Images/arrow_back.gif",
+        "status": 200,
+        "ctype": "image/gif"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-light-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/js/telerikReportViewer.kendo-17.2.23.1010.min.js/",
+        "status": 200,
+        "ctype": "text/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/version",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/templates/telerikReportViewerTemplate-17.2.23.1010.html/",
+        "status": 200,
+        "ctype": "text/html"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/font/fonticons-17.2.23.1010.css/",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/styles/telerikReportViewer-17.2.23.1010.css/",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/font/ReportingIcons-17.2.23.1010.ttf/",
+        "status": 200,
+        "ctype": "application/font-ttf"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/sessionTimeout",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/aabf1337322/parameters",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/aabf1337322/instances",
+        "status": 201,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/aabf1337322/instances/bf83f394166/documents",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/aabf1337322/instances/bf83f394166/documents/91f046707fb61c045dd7eb/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/aabf1337322/instances/bf83f394166/documents/91f046707fb61c045dd7eb/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/aabf1337322/instances/bf83f394166/documents/91f046707fb61c045dd7eb/pages/1",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/aabf1337322/instances/bf83f394166/documents/91f046707fb61c045dd7eb/resources/0b6f53b034a74b469e992c70bb471dd3/",
+        "status": 200,
+        "ctype": "image/png"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/aabf1337322/instances/bf83f394166/documents/91f046707fb61c045dd7eb/info",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      }
+    ]
+  },
+  {
+    "url": "https://organic.ams.usda.gov/integrity/Reports/DataHistoryReport?id=5&reportDate=20260801&ret=Reports/DataHistory&retName=Data+History",
+    "text": " United States Department of Agriculture\nAgricultural Marketing Service\nLog In\nRegister\nHome\nSearch\nReports\nTrade Partners\nContact Us   About  \nReturn to Data History Page\nData History Report\n\nReport can be printed or exported.\n\nUpdate Report Print Report\n\nReport\nSelect Report \n  \nData As Of Date\nSelect Date\nAnnual Data\nYear \n None\n / \n4\n \nCount of USDA-NOP Certified Organic\nData as of 8/1/2026\nCountry*\nNumber of Operations\nOperations by Country\nAfghanistan\n2\nAlbania\n36\nAlgeria\n56\nAmerican Samoa\n1\nAndorra\n2\nAntarctica\n1\nArgentina\n1,364\nArmenia\n14\nAustralia\n484\nAustria\n69\nAzerbaijan\n5\nBangladesh\n2\nBarbados\n1\nBelarus\n1\nBelgium\n100\nBelize\n5\nBenin\n53\nBolivia (Plurinational State of)\n231\nBosnia and Herzegovina\n7\nBotswana\n1\nBrazil\n1,075\nBulgaria\n91\nBurkina Faso\n79\nBurundi\n2\nCambodia\n58\nCameroon\n3\nCanada\n2,259\nCayman Islands\n1\nChad\n7\nChile\n842\nChina\n2,178\nColombia\n325\nComoros\n3\nCongo (the Democratic Republic of the)\n33\nCosta Rica\n90\nCôte d'Ivoire\n57\nCroatia\n8\nCuba\n6\nCyprus\n5\nCzech Republic\n6\n10/26/2026 9:40:15 PM\n Return to top\nAskUSDA\nPrivacy Policy\nUSDA.gov\nUSA.gov\nWhiteHouse.gov\nFOIA\nAccessibility Statement\nNon-­Discrimination Statement\nInformation Quality\nPlain Writing\nContact USDA",
+    "clickables": [
+      [
+        "A",
+        "United States Department of Agriculture",
+        "//usda.gov"
+      ],
+      [
+        "A",
+        "Agricultural Marketing Service",
+        "//www.ams.usda.gov"
+      ],
+      [
+        "A",
+        "Log In",
+        "EauthLogin?redirectUri=https://organic.ams.usda.gov/integrity/"
+      ],
+      [
+        "A",
+        "Register",
+        "UserManagement/RegisterNewAccount"
+      ],
+      [
+        "A",
+        "Home",
+        "Home"
+      ],
+      [
+        "A",
+        "Contact Us",
+        "ContactUs"
+      ],
+      [
+        "A",
+        "About",
+        "About"
+      ],
+      [
+        "A",
+        "Return to Data History Page",
+        "Reports/DataHistory"
+      ],
+      [
+        "BUTTON",
+        "Update Report",
+        null
+      ],
+      [
+        "BUTTON",
+        "Print Report",
+        null
+      ],
+      [
+        "A",
+        "Navigate Backward",
+        "#"
+      ],
+      [
+        "A",
+        "Navigate Forward",
+        "#"
+      ],
+      [
+        "A",
+        "Stop Rendering",
+        "#"
+      ],
+      [
+        "A",
+        "Refresh",
+        "#"
+      ],
+      [
+        "A",
+        "First Page",
+        "#"
+      ],
+      [
+        "A",
+        "Last Page",
+        "#"
+      ],
+      [
+        "A",
+        "Print...",
+        "#"
+      ],
+      [
+        "A",
+        "Send an email",
+        "#"
+      ],
+      [
+        "A",
+        "Export",
+        "#"
+      ],
+      [
+        "A",
+        "Toggle Print Preview",
+        "#"
+      ],
+      [
+        "A",
+        "Search",
+        "#"
+      ],
+      [
+        "BUTTON",
+        "Preview",
+        null
+      ],
+      [
+        "BUTTON",
+        "sendEmailSendLabel",
+        null
+      ],
+      [
+        "BUTTON",
+        "sendEmailCancelLabel",
+        null
+      ],
+      [
+        "BUTTON",
+        "Return to top",
+        null
+      ],
+      [
+        "A",
+        "AskUSDA",
+        "https://ask.usda.gov/s/?utm_source=USDA&utm_medium=homepage&utm_campaign=homepage%20referrals"
+      ],
+      [
+        "A",
+        "Privacy Policy",
+        "https://www.usda.gov/privacy-policy"
+      ],
+      [
+        "A",
+        "USDA.gov",
+        "https://www.usda.gov/"
+      ],
+      [
+        "A",
+        "USA.gov",
+        "https://www.usa.gov/"
+      ],
+      [
+        "A",
+        "WhiteHouse.gov",
+        "https://www.whitehouse.gov/"
+      ],
+      [
+        "A",
+        "FOIA",
+        "https://www.usda.gov/ogc/office-information-affairs/foia-division"
+      ],
+      [
+        "A",
+        "Accessibility Statement",
+        "https://www.usda.gov/accessibility-statement"
+      ],
+      [
+        "A",
+        "Non-­Discrimination Statement",
+        "https://www.usda.gov/non-discrimination-statement"
+      ],
+      [
+        "A",
+        "Information Quality",
+        "https://www.usda.gov/ocio/guidelines-and-compliance-resources/information-quality-activities"
+      ],
+      [
+        "A",
+        "Plain Writing",
+        "https://www.usda.gov/plain-writing"
+      ],
+      [
+        "A",
+        "Contact USDA",
+        "https://ask.usda.gov/s/contactsupport"
+      ],
+      [
+        "A",
+        "Reload",
+        ""
+      ],
+      [
+        "A",
+        "🗙",
+        null
+      ]
+    ],
+    "responses": [
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Reports/DataHistoryReport?id=5&reportDate=20260801&ret=Reports/DataHistory&retName=Data+History",
+        "status": 200,
+        "ctype": "text/html; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/js/telerikReportViewer",
+        "status": 200,
+        "ctype": "text/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/site.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.UI.for.Blazor/css/kendo-theme-default/all.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/bootstrap/bootstrap.min.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.UI.for.Blazor/js/telerik-blazor.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/js/jquery.min.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fsa-design-system/fsa-style.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/IntegrityTheme.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/lib/blazor-ui/styles/bootstrap-main.css",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/js/api.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_framework/blazor.server.js",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_content/Telerik.ReportViewer.Blazor/interop.js",
+        "status": 304
+      },
+      {
+        "url": "https://api.data.gov/static/javascripts/signup_embed.js",
+        "status": 200,
+        "ctype": "text/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_blazor/initializers",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/_blazor/negotiate?negotiateVersion=1",
+        "status": 200,
+        "ctype": "application/json"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fsa-design-system/img/usda-logo--white.svg",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-regular-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-bold-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Images/header_logo.svg",
+        "status": 200,
+        "ctype": "image/svg+xml"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/Images/arrow_back.gif",
+        "status": 200,
+        "ctype": "image/gif"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/fonts/sourcesanspro-light-webfont.woff2",
+        "status": 304
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/js/telerikReportViewer.kendo-17.2.23.1010.min.js/",
+        "status": 200,
+        "ctype": "text/javascript"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/version",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/templates/telerikReportViewerTemplate-17.2.23.1010.html/",
+        "status": 200,
+        "ctype": "text/html"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/font/fonticons-17.2.23.1010.css/",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/styles/telerikReportViewer-17.2.23.1010.css/",
+        "status": 200,
+        "ctype": "text/css"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/resources/font/ReportingIcons-17.2.23.1010.ttf/",
+        "status": 200,
+        "ctype": "application/font-ttf"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/sessionTimeout",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/b03896204a3/parameters",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/b03896204a3/instances",
+        "status": 201,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/b03896204a3/instances/9c37c575f9a/documents",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/b03896204a3/instances/9c37c575f9a/documents/518699e37cc4ac89b3f58e/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/b03896204a3/instances/9c37c575f9a/documents/518699e37cc4ac89b3f58e/info",
+        "status": 202,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/b03896204a3/instances/9c37c575f9a/documents/518699e37cc4ac89b3f58e/info",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/b03896204a3/instances/9c37c575f9a/documents/518699e37cc4ac89b3f58e/pages/1",
+        "status": 200,
+        "ctype": "application/json; charset=utf-8"
+      },
+      {
+        "url": "https://organic.ams.usda.gov/integrity/api/reports/clients/b03896204a3/instances/9c37c575f9a/documents/518699e37cc4ac89b3f58e/resources/5e12de35a8ed49c7822bea8a0fb7b033/",
+        "status": 200
+      }
+    ]
+  }
+]
