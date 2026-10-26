@@ -35,6 +35,17 @@
     "River City Farmers Market, Marietta"
   ],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Processing facility (bulk beef)",
+      "River City Farmers Market, Marietta (Saturdays, mid-May through mid-September)"
+    ],
+    "source_url": "https://www.valleyridgefarms.com/buying.html"
+  },
+  "dairy_products": [],
   "ordering_url": "https://www.valleyridgefarms.com/buying.html",
   "data_source": "web-search",
   "source_url": "https://www.valleyridgefarms.com/",

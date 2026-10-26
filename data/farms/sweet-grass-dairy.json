@@ -40,6 +40,23 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Columbus and Central Ohio"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.sweetgrassdairyofohio.com/front-door-delivery"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "milk",
+    "butter",
+    "cheese",
+    "yogurt",
+    "kefir"
+  ],
   "ordering_url": "https://shop.sweetgrassdairyofohio.com/store/grass-fed-beef",
   "data_source": "web-search",
   "source_url": "https://www.sweetgrassdairyofohio.com/",

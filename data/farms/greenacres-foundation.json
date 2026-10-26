@@ -37,6 +37,16 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Greenacres Michaela Farm store, Batesville, IN"
+    ],
+    "source_url": "https://green-acres.org/farm-market/"
+  },
+  "dairy_products": [],
   "ordering_url": "https://green-acres.org/farm-store-product-availability/",
   "data_source": "web-search",
   "source_url": "https://green-acres.org/",

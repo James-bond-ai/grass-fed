@@ -42,6 +42,27 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Flanders Road (Toledo), Church of Christ",
+      "Archbold, Homestead Bulk Food Store",
+      "Wauseon, Crossroads Church",
+      "Whitehouse, Cedar Creek Church",
+      "Perrysburg, Cedar Creek Church",
+      "Bowling Green, First Baptist Church",
+      "Ottawa, Wellness 4 All"
+    ],
+    "source_url": "https://canaljunctionfarm.com/pickup"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "cream",
+    "butter",
+    "cheese"
+  ],
   "ordering_url": "https://canaljunctionfarm.com/store",
   "data_source": "web-search",
   "source_url": "https://canaljunctionfarm.com/",

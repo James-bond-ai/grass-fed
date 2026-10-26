@@ -35,6 +35,16 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Local butcher (bulk beef pickup)"
+    ],
+    "source_url": "https://www.baltzlycattle.com/retail-cuts"
+  },
+  "dairy_products": [],
   "ordering_url": "https://mailchi.mp/08847379c181/bulk-beef-waitlist",
   "data_source": "web-search",
   "source_url": "https://www.baltzlycattle.com/",

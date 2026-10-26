@@ -41,6 +41,18 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Dayton",
+      "Columbus",
+      "Cincinnati"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://themakersmeadow.com/store"
+  },
+  "dairy_products": [],
   "ordering_url": "https://themakersmeadow.com/store",
   "data_source": "web-search",
   "source_url": "https://themakersmeadow.com/",

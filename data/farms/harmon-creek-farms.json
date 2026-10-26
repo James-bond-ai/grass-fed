@@ -41,6 +41,21 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Buyers club, Rocky River",
+      "Buyers club, Strongsville",
+      "Buyers club, Two Cafe & Boutique, Chagrin Falls",
+      "Buyers club, Peace Love & Little Donuts, Hudson",
+      "Buyers club, Rising Sun Holistic Choices, Canton",
+      "Buyers club, Vogelgesang Family Chiropractic, Massillon"
+    ],
+    "source_url": "https://harmoncreekfarms.com/pages/buyers-clubs"
+  },
+  "dairy_products": [],
   "ordering_url": "https://harmoncreekfarms.com/collections/all",
   "data_source": "web-search",
   "source_url": "https://harmoncreekfarms.com/",

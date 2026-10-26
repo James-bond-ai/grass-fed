@@ -39,6 +39,19 @@
     "Athens Farmers Market"
   ],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Athens Farmers Market, Saturdays"
+    ],
+    "source_url": "https://creeksidefarmathens.com/dairy/"
+  },
+  "dairy_products": [
+    "yogurt",
+    "cheese"
+  ],
   "ordering_url": "https://creeksidefarmathens.com/shop/",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/ohio/",

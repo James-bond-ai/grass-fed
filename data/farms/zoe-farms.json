@@ -40,6 +40,30 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Cleveland",
+      "Columbus",
+      "Toledo",
+      "Cincinnati",
+      "all of Ohio"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [
+      "OH"
+    ],
+    "pickup_locations": [
+      "Nine food hub pickup points across Northeast Ohio"
+    ],
+    "source_url": "https://zoefarms.com/"
+  },
+  "dairy_products": [
+    "milk",
+    "cream",
+    "butter",
+    "yogurt",
+    "cheese"
+  ],
   "ordering_url": "https://zoefarms.com/navigation/store",
   "data_source": "web-search",
   "source_url": "https://zoefarms.com/",

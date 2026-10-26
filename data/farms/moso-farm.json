@@ -34,6 +34,16 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Pickup locations in Athens and Columbus, OH"
+    ],
+    "source_url": "https://mosofarm.com/"
+  },
+  "dairy_products": [],
   "ordering_url": "https://mosofarm.com/store",
   "data_source": "web-search",
   "source_url": "https://mosofarm.com/",
