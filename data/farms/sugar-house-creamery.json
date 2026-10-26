@@ -1,0 +1,50 @@
+{
+  "id": "sugar-house-creamery",
+  "slug": "sugar-house-creamery",
+  "farm_name": "Sugar House Creamery",
+  "city": "Upper Jay",
+  "state": "NY",
+  "zip": "",
+  "address_public": true,
+  "website": "https://www.sugarhousecreamery.com/",
+  "phone": "518 300 0626",
+  "social_urls": [
+    "https://www.instagram.com/sugarhousecreamery"
+  ],
+  "species": [
+    "dairy-cow"
+  ],
+  "products": [
+    "raw milk",
+    "farmstead cheese"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "During the winter, our cows eat hay and non-gmo grain.",
+    "source_url": "https://www.sugarhousecreamery.com/milk"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.sugarhousecreamery.com/farm-store"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "cheese"
+  ],
+  "ordering_url": "",
+  "data_source": "state-program",
+  "source_url": "https://agriculture.ny.gov/dairy/raw-milk-permit-holders",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "18 Sugar House Way, Upper Jay, NY 12987"
+}

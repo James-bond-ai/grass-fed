@@ -1,0 +1,58 @@
+{
+  "id": "painted-goat-farm",
+  "slug": "painted-goat-farm",
+  "farm_name": "Painted Goat Farm",
+  "city": "Garrattsville",
+  "state": "NY",
+  "zip": "13342",
+  "address_public": true,
+  "website": "https://www.paintedgoat.com/",
+  "phone": "607.321.3191",
+  "social_urls": [],
+  "species": [
+    "dairy-goat"
+  ],
+  "products": [
+    "fresh goat cheese",
+    "aged goat cheese",
+    "feta"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our animals have over 100 acres of rolling hills on which they graze, get exercise, and fresh air.",
+    "source_url": "https://www.paintedgoat.com/homepage.html"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "csa",
+    "online-order",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Cooperstown Farmers' Market",
+    "Hastings-on-Hudson Farmers' Market",
+    "Union Square Greenmarket (Fridays)",
+    "Fort Greene Greenmarket"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Goat cheese CSA pickup, Westchester County"
+    ],
+    "source_url": "https://www.paintedgoat.com/cheese.html"
+  },
+  "dairy_products": [
+    "cheese"
+  ],
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/new-york/hastings-on-hudson/cheese-1/hastings-on-hudson-farmers-market/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "371 Mittedorf Road, Garrattsville, NY 13342"
+}

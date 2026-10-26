@@ -1,0 +1,77 @@
+{
+  "id": "chaseholm-farm",
+  "slug": "chaseholm-farm",
+  "farm_name": "Chaseholm Farm",
+  "city": "Pine Plains",
+  "state": "NY",
+  "zip": "",
+  "address_public": true,
+  "website": "https://www.chaseholmfarm.com/",
+  "phone": "(518) 610-3488",
+  "social_urls": [
+    "https://www.instagram.com/chaseholmfarm"
+  ],
+  "species": [
+    "dairy-cow",
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "raw milk",
+    "farmstead cheese",
+    "yogurt",
+    "beef",
+    "veal",
+    "pork"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% GRASS-FED BEEF & DAIRY",
+    "source_url": "https://www.chaseholmfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "csa",
+    "farmers-market",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Grand Army Plaza Greenmarket",
+    "McCarren Park Greenmarket",
+    "Millerton",
+    "Hillsdale/Copake",
+    "Pawling",
+    "Rhinebeck",
+    "Cold Spring",
+    "Tarrytown/Sleepy Hollow"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "HolmGoods CSA: Poughkeepsie Farm Project, Poughkeepsie",
+      "HolmGoods CSA: Obercreek Farm, Wappingers Falls",
+      "HolmGoods CSA: Phillies Bridge Farm, New Paltz",
+      "HolmGoods CSA: Solid Ground Farm, Kingston",
+      "HolmGoods CSA: Hilltop Hanover Farm, Yorktown Heights",
+      "HolmGoods CSA: Village Grocery & Refillery, Kingston",
+      "HolmGoods CSA: Q Farms, Sharon, CT"
+    ],
+    "source_url": "https://www.chaseholmfarm.com/holmgoods"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "cheese",
+    "yogurt"
+  ],
+  "ordering_url": "",
+  "data_source": "state-program",
+  "source_url": "https://agriculture.ny.gov/dairy/raw-milk-permit-holders",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "115 Chase Road, Pine Plains, NY"
+}

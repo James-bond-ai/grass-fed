@@ -1,0 +1,52 @@
+{
+  "id": "churchtown-dairy",
+  "slug": "churchtown-dairy",
+  "farm_name": "Churchtown Dairy",
+  "city": "Hudson",
+  "state": "NY",
+  "zip": "12534",
+  "address_public": true,
+  "website": "https://www.churchtowndairy.org/",
+  "phone": "518-851-2042",
+  "social_urls": [],
+  "species": [
+    "dairy-cow",
+    "beef"
+  ],
+  "products": [
+    "raw milk",
+    "cheese",
+    "meat"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "The cows are fed a grass-based diet, in alignment with their natural dietary needs, with only minimal supplementation of grain.",
+    "source_url": "https://www.churchtowndairy.org/farming"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.churchtowndairy.org/"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "cheese"
+  ],
+  "ordering_url": "",
+  "data_source": "state-program",
+  "source_url": "https://agriculture.ny.gov/dairy/raw-milk-permit-holders",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "unpublished",
+  "address": "357 County Route 12, Hudson, NY 12534",
+  "notes": "Unpublished 2026-10-26: feeding wording was pieced together from fragments; recheck against the live site before publishing."
+}

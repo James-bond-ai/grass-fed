@@ -1,0 +1,52 @@
+{
+  "id": "old-ford-farm",
+  "slug": "old-ford-farm",
+  "farm_name": "Old Ford Farm",
+  "city": "New Paltz",
+  "state": "NY",
+  "zip": "12561",
+  "address_public": true,
+  "website": "https://www.oldfordfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "dairy-cow",
+    "beef",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "raw milk",
+    "beef",
+    "chicken",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Our lactating dairy cows are sometimes supplemented with a small amount of grain during their lactation.",
+    "source_url": "https://www.oldfordfarm.com/practices.html"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.oldfordfarm.com/farm-store.html"
+  },
+  "dairy_products": [
+    "raw-milk"
+  ],
+  "ordering_url": "",
+  "data_source": "state-program",
+  "source_url": "https://agriculture.ny.gov/dairy/raw-milk-permit-holders",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "1359 Old Ford Rd, New Paltz, NY 12561"
+}

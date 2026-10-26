@@ -1,0 +1,58 @@
+{
+  "id": "kriemhild-dairy",
+  "slug": "kriemhild-dairy",
+  "farm_name": "Kriemhild Dairy",
+  "city": "Hamilton",
+  "state": "NY",
+  "zip": "13346",
+  "address_public": true,
+  "website": "https://www.kriemhilddairy.com/",
+  "phone": "(315) 333-2336",
+  "social_urls": [
+    "https://www.facebook.com/KriemhildDairy/",
+    "https://www.instagram.com/kriemhilddairy/"
+  ],
+  "species": [
+    "dairy-cow"
+  ],
+  "products": [
+    "butter",
+    "meadow butter",
+    "bakers butter"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Using high quality milk from these grass fed cattle, our products are made in small batches daily.",
+    "source_url": "https://www.kriemhilddairy.com/about-us.html"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "online-order",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Hamilton Farmers Market",
+    "Pleasantville Summer Market"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.kriemhilddairy.com/"
+  },
+  "dairy_products": [
+    "butter"
+  ],
+  "ordering_url": "https://www.kriemhilddairy.com/online-store.html",
+  "data_source": "web-search",
+  "source_url": "https://www.kriemhilddairy.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "unpublished",
+  "address": "1093 State Route 12B, Hamilton, NY 13346",
+  "notes": "Unpublished 2026-10-26: creamery may buy milk from more than one farm; confirm it milks its own herd."
+}

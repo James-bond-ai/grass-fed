@@ -1,0 +1,62 @@
+{
+  "id": "blue-pepper-farm",
+  "slug": "blue-pepper-farm",
+  "farm_name": "Blue Pepper Farm",
+  "city": "Jay",
+  "state": "NY",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.bluepepperfarm.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.instagram.com/bluepepperfarm/"
+  ],
+  "species": [
+    "dairy-sheep",
+    "lamb",
+    "eggs"
+  ],
+  "products": [
+    "sheep milk yogurt",
+    "lamb",
+    "eggs",
+    "sheepskins",
+    "yarn"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "We make small batches of sheep milk yogurt from May through November, when our ewes are grazing on pasture.",
+    "source_url": "https://www.bluepepperfarm.com/yogurt"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/new-york/jay/dairy-1/blue-pepper-farm/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farmers-market",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Keene Valley Farmers Market"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.bluepepperfarm.com/yogurt"
+  },
+  "dairy_products": [
+    "yogurt"
+  ],
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/new-york/jay/dairy-1/blue-pepper-farm/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

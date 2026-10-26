@@ -1,0 +1,86 @@
+{
+  "id": "hawthorne-valley-farm",
+  "slug": "hawthorne-valley-farm",
+  "farm_name": "Hawthorne Valley Farm",
+  "city": "Ghent",
+  "state": "NY",
+  "zip": "12075",
+  "address_public": true,
+  "website": "https://farm.hawthornevalley.org/",
+  "phone": "(518) 672-7500",
+  "social_urls": [
+    "https://www.facebook.com/hvalleyfarm",
+    "https://www.instagram.com/hawthornevalley"
+  ],
+  "species": [
+    "dairy-cow",
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "raw milk",
+    "pasteurized milk",
+    "yogurt",
+    "quark",
+    "ricotta",
+    "cheese",
+    "buttermilk",
+    "beef",
+    "pork",
+    "chicken"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Whether raw or pasteurized, our milk comes from our own grass-fed herd",
+    "source_url": "https://farm.hawthornevalley.org/creamery/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/new-york/ghent/beef-1/hawthorne-valley-farm-store/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "csa",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Union Square Greenmarket",
+    "Inwood Greenmarket",
+    "Columbia Greenmarket",
+    "Dag Hammarskjold Plaza Greenmarket",
+    "Jackson Heights Greenmarket",
+    "St. Stephen's (82nd St.) Greenmarket",
+    "Borough Hall Greenmarket, Brooklyn"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "CSA pickup: Inwood (Isham Park)",
+      "CSA pickup: Riverdale Neighborhood House",
+      "CSA pickup: Garden City (Cathedral of Incarnation)",
+      "CSA pickup: Union Square, Dag Hammarskjold, 82nd St and Columbia Greenmarkets"
+    ],
+    "source_url": "https://farm.hawthornevalley.org/about-the-csa/"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "milk",
+    "yogurt",
+    "cheese"
+  ],
+  "ordering_url": "https://store.hawthornevalley.org",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/new-york/ghent/beef-1/hawthorne-valley-farm-store/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "327 County Route 21C, Ghent, NY 12075"
+}

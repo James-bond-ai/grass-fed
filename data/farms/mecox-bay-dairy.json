@@ -1,0 +1,58 @@
+{
+  "id": "mecox-bay-dairy",
+  "slug": "mecox-bay-dairy",
+  "farm_name": "Mecox Bay Dairy",
+  "city": "Bridgehampton",
+  "state": "NY",
+  "zip": "11932",
+  "address_public": true,
+  "website": "https://www.mecoxbaydairy.com/",
+  "phone": "631.537.0335",
+  "social_urls": [],
+  "species": [
+    "dairy-cow",
+    "beef",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "raw milk cheeses",
+    "raw milk",
+    "beef",
+    "pork",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our milking cows are also primarily pastured",
+    "source_url": "https://www.mecoxbaydairy.com/farm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "local-delivery",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Southampton to Montauk"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://mecoxdirect.com"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "cheese"
+  ],
+  "ordering_url": "https://mecoxdirect.com",
+  "data_source": "state-program",
+  "source_url": "https://agriculture.ny.gov/dairy/raw-milk-permit-holders",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "855 Mecox Road, Bridgehampton, NY 11932"
+}

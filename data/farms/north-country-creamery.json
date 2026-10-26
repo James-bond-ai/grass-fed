@@ -1,0 +1,72 @@
+{
+  "id": "north-country-creamery",
+  "slug": "north-country-creamery",
+  "farm_name": "North Country Creamery",
+  "city": "Keeseville",
+  "state": "NY",
+  "zip": "12944",
+  "address_public": true,
+  "website": "https://www.northcountrycreamery.com/",
+  "phone": "(518) 645-2697",
+  "social_urls": [
+    "https://www.facebook.com/NorthCountryCreamery/",
+    "https://www.instagram.com/northcountrycreamery/"
+  ],
+  "species": [
+    "dairy-cow"
+  ],
+  "products": [
+    "raw milk",
+    "farmstead cheese",
+    "cream-line yogurt"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our animals are fed only grass and forage from the time they are weaned.",
+    "source_url": "https://www.northcountrycreamery.com/farming-practices"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/new-york/keeseville/cheese-1/north-country-creamery/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/new-york/keeseville/cheese-1/north-country-creamery/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Saranac Lake Farmers Market",
+    "Keene Valley Farmers Market",
+    "Peru Town Market"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Clover Mead Cafe & Farmstore, Keeseville (raw milk sold only here)"
+    ],
+    "source_url": "https://www.northcountrycreamery.com/retail"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "cheese",
+    "yogurt"
+  ],
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/new-york/keeseville/cheese-1/north-country-creamery/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "931 Mace Chasm Road, Keeseville, NY 12944"
+}
