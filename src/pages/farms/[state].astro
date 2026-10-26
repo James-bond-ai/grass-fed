@@ -66,7 +66,7 @@ const jsonLd = [
         <div><dt>Sell quarter or half shares</dt><dd>{bulk}</dd></div>
         <div><dt>Ship nationwide</dt><dd>{ships}</dd></div>
         <div><dt>Sell dairy</dt><dd>{dairyN}</dd></div>
-        <div><dt>USDA Organic</dt><dd>{organicN}</dd></div>
+        {organicN > 0 && <div><dt>USDA Organic</dt><dd>{organicN}</dd></div>}
       </dl>
       <Filters listId="farms" total={n} />
       <ul class="farm-list" id="farms">
@@ -89,7 +89,7 @@ const jsonLd = [
     </section>
   )}
   {dairyN > 0 && <p><a href={`/dairy/${st.slug}/`}>Grass-fed dairy farms in {st.name}</a></p>}
-  <p class="small muted" style="margin-top:2rem">Feeding descriptions are quoted from each farm's website. Certifications are shown only when we found the farm in the certifier's own listing. <a href="/methodology/">How we verify</a></p>
+  <p class="small muted" style="margin-top:2rem">Feeding descriptions are in each farm's own words, from its website. Certifications are shown only when we found the farm in the certifier's own listing. <a href="/methodology/">How we verify</a></p>
 </Base>
 <style>
   .state-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin: 1.5rem 0 0; }
