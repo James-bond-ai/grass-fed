@@ -19,7 +19,7 @@ const warnings = [];
 const err = (file, msg) => errors.push(`${path.relative(ROOT, file)}: ${msg}`);
 const warn = (file, msg) => warnings.push(`${path.relative(ROOT, file)}: ${msg}`);
 
-const EM_DASH = /—/;
+const EM_DASH = /\u2014/;
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
 const isUrl = (u) => typeof u === 'string' && /^https?:\/\/[^\s]+\.[^\s]+/.test(u);
 const today = new Date().toISOString().slice(0, 10);
