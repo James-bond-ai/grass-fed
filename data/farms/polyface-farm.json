@@ -44,10 +44,7 @@
     "pickup_locations": [],
     "source_url": "https://polyfacefarm.com/how-to-buy"
   },
-  "dairy_products": [
-    "milk",
-    "ghee"
-  ],
+  "dairy_products": [],
   "ordering_url": "https://polyfacefarm.com/store",
   "data_source": "web-search",
   "source_url": "https://polyfacefarm.com/",

@@ -48,11 +48,7 @@
     "pickup_locations": [],
     "source_url": "https://shop.kinlochfarm.com/products/pages/shipping-payment"
   },
-  "dairy_products": [
-    "milk",
-    "butter",
-    "cheese"
-  ],
+  "dairy_products": [],
   "ordering_url": "https://shop.kinlochfarm.com/",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/virginia/the-plains/beef-1/kinloch-farm-store/",
