@@ -45,70 +45,70 @@ On a federally inspected US meat label, "grass fed" is supposed to mean the anim
 
 ## The two terms in plain English
 
-Almost all beef cattle start life on grass. USDA's Economic Research Service describes the usual path: calves nurse and graze with their mothers, are weaned at roughly 3 to 7 months, may graze for a few more months, then go to a feedlot (a pen where cattle are fed a prepared ration) for anywhere from 90 to 300 days. Feedlot rations are generally 70 to 90 percent grain and protein concentrates.
+Most beef calves begin on pasture. USDA's Economic Research Service describes the usual path: calves stay on pasture with their mothers until they are weaned at roughly 3 to 7 months, may graze for a few more months, then go to a feedlot (a pen where cattle are fed a prepared ration) for anywhere from 90 to 300 days. Feedlot rations are generally 70 to 90 percent grain and protein concentrates.
 
 That history is why the two words matter:
 
-- **Grass fed** describes what the animal ate. In USDA's current guidance, the words "Grass Fed," "Grassfed," "Grass-Fed" and "100% Grass-Fed" all mean the same thing: forage only after weaning, no grain, and continuous access to pasture during the growing season until slaughter.
-- **Grass finished** describes the finishing period, the final months when cattle put on most of their weight. USDA says this term is not the same as grass fed, and that an animal sold as grass finished may have eaten grain earlier. Its example of a truthful label is "Grain Fed, Grass Finished."
+- **Grass fed** describes what the animal ate. In USDA's current guidance, the words "Grass Fed," "Grassfed," "Grass-Fed" and "100% Grass-Fed" all mean the same thing: forage only after weaning, no grain, and pasture access throughout the growing season, right up to slaughter.
+- **Grass finished** describes the finishing period, the final stretch before slaughter. USDA says this term is not the same as grass fed, and that an animal sold as grass finished may have eaten grain earlier. Its example of a truthful label is "Grain Fed, Grass Finished."
 
-**Forage** has a specific meaning here. FSIS (the Food Safety and Inspection Service, the USDA agency that approves meat labels) lists grasses, legumes and other leafy plants, browse, and cereal crops grazed before they form grain. Hay, haylage, baleage, silage and crop residue without grain also count. Routine mineral and vitamin supplements are allowed.
+**Forage** has a specific meaning here. FSIS (the Food Safety and Inspection Service, the USDA agency that approves meat labels) lists grasses, legumes and other leafy plants, browse, and cereal crops while still in their leafy, pre-grain stage. Hay, haylage, baleage, silage and crop residue without grain also count. Routine mineral and vitamin supplements are allowed.
 
 ## Why "grass-fed" alone does not always mean grass-finished
 
-You have probably read that "grass-fed" beef can still be grain-finished. Under the current FSIS guideline, that should not be true for a product whose label simply says "grass fed": FSIS says those animals are never confined to a feedlot. So why do the warnings persist? Four reasons.
+You may have read that "grass-fed" beef can still be grain-finished. Under the current FSIS guideline, that should not be true for meat labeled simply "grass fed": FSIS says those animals should never be kept in a feedlot. The warnings persist for four reasons.
 
-1. **Partial claims are allowed.** If an animal's post-weaning diet was less than 100 percent forage, FSIS lets the label say so, as long as it describes the actual diet. The guideline's example is "Made from cattle fed grass and corn." A quick glance at the words "grass" and "fed" can mislead you.
-2. **The proof is mostly a signed statement.** For a diet claim, FSIS asks the company for a written description of its controls and a signed, dated document describing the animals' diet. Unless the producer uses a third-party program, nobody visits the farm to check.
-3. **The guideline is not binding.** FSIS states plainly that the document does not have the force of law. It explains how FSIS evaluates label submissions; it is not a regulation.
-4. **Not every "grass-fed" claim goes through FSIS.** Label approval applies to meat packaged at inspected plants. Words on a farm's website, a restaurant menu, a sign at a market stall, or a dairy carton are not reviewed by FSIS at all. In those places, "grass-fed" can mean whatever the seller intends, as long as it is not misleading.
+1. **Partial claims are allowed.** If an animal's post-weaning diet was less than 100 percent forage, FSIS lets the label say so, as long as it describes the actual diet. The guideline's example is "Made from cattle fed grass and corn," which is easy to misread at a glance.
+2. **The proof is mostly a signed statement.** For a diet claim, FSIS asks the company for a written description of its controls and a signed, dated document describing the animals' diet. The guideline describes reviewing paperwork, not visiting farms, so our reading is that without a third-party program the claim rests largely on the producer's own records.
+3. **The guideline is not binding.** FSIS states that guidance like this lacks the force of law. It is not a regulation.
+4. **Not every "grass-fed" claim goes through FSIS.** This is our own reading, not something FSIS spells out: its review covers labels on inspected meat. As far as we can tell, a farm website, restaurant menu or market sign does not get that review, and dairy falls outside FSIS (see below). There, treat "grass-fed" as the seller's own description and ask questions.
 
-The practical upshot: "grass-fed" on an inspected meat label is a decent signal, "grass-fed and grass-finished" or "100% grass-fed" removes ambiguity, and a certification seal adds independent checking.
+Our practical take: "grass-fed" on an inspected meat label is a decent signal, "grass-fed and grass-finished" or "100% grass-fed" removes ambiguity, and a certification seal adds independent checking.
 
 ## A short history of the USDA definition
 
-The rules have shifted several times since the mid-2000s. Here is the sequence, drawn from USDA documents.
+The rules have shifted several times since 2007:
 
 | Year | Agency | What happened |
 |---|---|---|
 | 2007 | AMS | The Agricultural Marketing Service (AMS) set a voluntary Grass (Forage) Fed marketing claim standard that producers could have verified. |
 | January 2016 | AMS | AMS withdrew the standard, effective January 12, 2016, saying it lacked express authority from Congress to define the claim. |
-| October 2016 | FSIS | FSIS published a draft labeling guideline for animal-raising claims that added detail on grass fed, and asked for public comment. |
-| December 2019 | FSIS | FSIS posted its revised guideline. It barred feedlot beef from the grass-fed label and required partial claims to describe the real diet. |
+| October 2016 | FSIS | FSIS posted a revised animal-raising claims guideline and took public comments on it. |
+| December 2019 | FSIS | FSIS posted an updated guideline that responded to the 2016 comments. According to a National Sustainable Agriculture Coalition summary, it barred feedlot beef from the grass-fed label and required partial claims to describe the real diet. |
 | August 2024 | FSIS | FSIS released an updated guideline (FSIS-GD-2024-0006) asking for stronger documentation and strongly encouraging third-party certification. |
 
-**2016: AMS steps back.** When AMS withdrew its standard, companies that had used it for verification had until February 11, 2016 to name a replacement standard. AMS's own call notes from January 14, 2016 say FSIS's requirement for 100 percent grass-fed claims (forage after weaning) did not change. AMS also kept a small-producer grass-fed program running for operations marketing 49 or fewer cattle a year. The bigger shift was that no federal agency would now write and audit one grass-fed standard; private certifiers filled that role.
+**2016: AMS steps back.** When AMS withdrew its standard, companies that had used it for verification had until February 11, 2016 to name a replacement standard. AMS's own call notes from January 14, 2016 say FSIS's requirement for 100 percent grass-fed claims (forage after weaning) did not change. AMS also kept a small-producer grass-fed program running for operations marketing 49 or fewer cattle a year. In our view, the bigger shift was that USDA no longer kept a general grass-fed standard for companies to verify against, leaving that role to private standards and certifiers.
 
-**2019: FSIS tightens the language.** FSIS announced its revised guideline on December 20, 2019 and published the notice on December 27. According to the National Sustainable Agriculture Coalition, which had pushed for changes, the update kept percentage claims but required them to read like a feeding history (for example, cattle fed 85 percent grass and 15 percent corn) rather than "85% grass-fed."
+**2019: FSIS tightens the language.** FSIS announced its revised guideline on December 20, 2019 and published the notice on December 27. This detail comes from a summary by the National Sustainable Agriculture Coalition, which had pushed for changes, not from the 2019 guideline itself: the update kept percentage claims but required them to read like a feeding history (for example, cattle fed 85 percent grass and 15 percent corn) rather than "85% grass-fed." The 2024 guideline that replaced it also keeps feedlot cattle out of the claim.
 
-**2024: certification encouraged.** On August 28, 2024, FSIS released its current guideline. USDA's announcement says the agency "strongly encourages the use of third-party certification" for animal-raising claims. FSIS will approve a certified claim only if the label shows the certifier's name, website and logo (if it has one). That is useful for you: a legitimate certified claim should point you to the certifier.
+**2024: certification encouraged.** In its current guideline, released August 28, 2024, FSIS "strongly encourages the use of third-party certification" for animal-raising claims. Under the guideline, FSIS will approve a certified claim only if the label shows the certifier's name, the website where its standards are posted, and its logo (if it has one). So a legitimate certified claim should point you to the certifier.
 
-## Which certifications guarantee grass-finished
+## Certifications that require grass-finished
 
-These programs require a forage-only diet and use outside inspectors. Each one publishes its standards, and you can find more detail on our [certifications page](/certifications/).
+These programs require a forage-based diet for the animal's whole life (with the limited exceptions noted in the table) and use outside inspectors. Each one publishes its standards, and you can find more detail on our [certifications page](/certifications/).
 
 | Certification | Diet rule | Who checks | Dairy? |
 |---|---|---|---|
-| American Grassfed Association (AGA) | Forage from birth to harvest (mother's milk excepted); no grain. Hay and silage allowed when pasture is short. No antibiotics, ionophores or hormones. US-born and raised. | Independent third-party inspectors at least every 15 months | Yes, under a separate AGA dairy standard |
-| Certified Grassfed by AGW (A Greener World) | Grass and forage only for life, apart from milk before weaning. No grain or concentrates. In approved drought emergencies, sprouted grain up to 25 percent of daily dry matter. Farm must also hold Animal Welfare Approved certification. | A Greener World auditors | Yes: cow, sheep and goat dairies |
-| OPT Certified Grass-Fed Organic | Must already be USDA Organic. Forage-based diet; grain crops only before they head out. At least 150 grazing days a year and at least 60 percent of dry matter from grazing. Meat must go through a certified grass-fed slaughter facility. | Certifiers accredited by OPT (such as OEFFA), with annual inspection | Yes: milk and meat |
+| American Grassfed Association (AGA) | Mother's milk, then only grass and forage from weaning to harvest; no grain. Hay, haylage and silage allowed in bad weather or when forage quality is low. No antibiotics, ionophores or hormones. US-born and raised. | Independent third-party inspectors at least every 15 months | Yes, under a separate AGA dairy standard |
+| Certified Grassfed by AGW (A Greener World) | Grass and forage only for life, apart from milk before weaning. No grain or concentrates. In approved drought emergencies, sprouted grain up to 25 percent of daily dry matter. Farm must also hold Animal Welfare Approved certification. | A Greener World audits | Yes: cow, sheep and goat dairies |
+| OPT Certified Grass-Fed Organic | Must already be USDA Organic. Forage-based diet; grain crops only at the leafy growth stage, before they set seed heads. At least 150 grazing days a year and at least 60 percent of dry matter from grazing. Meat must go through a slaughter facility that is also OPT grass-fed certified (milk needs a certified processing plant). | Certifiers accredited by OPT (such as OEFFA), with annual inspection | Yes: milk and meat |
 
-**What about USDA Organic alone?** Organic is not a grass-fed label. Organic rules require at least 120 grazing days a year and at least 30 percent of dry matter from grazing during that season, they also let organic slaughter cattle spend a finishing period on feedlot rations, for up to 120 days or one-fifth of the animal's life, whichever is shorter. During that period the 30 percent grazing rule does not apply. So organic beef is not necessarily grass-finished unless it also carries a grass-fed certification.
+**What about USDA Organic alone?** Organic is not a grass-fed label. Organic rules require at least 120 grazing days a year and at least 30 percent of dry matter from grazing during that season. But they also let organic slaughter cattle spend a finishing period in yards or feedlots, for up to 120 days or one-fifth of the animal's life, whichever is shorter. During that period the 30 percent grazing rule does not apply. So organic beef is not necessarily grass-finished unless it also carries a grass-fed certification.
 
-**Animal Welfare Approved** on its own is a welfare label, not a diet label. Look for the separate Certified Grassfed by AGW mark if diet matters to you.
+**Animal Welfare Approved** alone is a welfare label, not a diet label; look for the separate Certified Grassfed by AGW mark.
 
 ## How to read a meat label
 
-Work through the package in this order:
+Check the package in this order:
 
-1. **Find the exact words.** "Grass fed," "100% grass fed" and "grass-fed, grass-finished" all point to forage only after weaning. "Grass finished" by itself, or "pasture raised," does not tell you about grain earlier in life.
-2. **Look for diet descriptions.** Phrases like "fed grass and corn" or "fed 85% grass" mean the animal ate grain. That is legal and truthful, but it is not 100 percent grass-fed.
-3. **Look for a certifier.** A certified claim should name the certifier and its website. Check that the logo matches one of the programs above, then look up the farm in the certifier's public producer list.
-4. **Check the origin.** Only some certifications (such as AGA) require US-born and raised animals. If origin matters to you, ask the seller.
+1. **Find the exact words.** "Grass fed," "100% grass fed" and "grass-fed, grass-finished" should all mean forage only after weaning. "Grass finished" by itself, or "pasture raised," does not tell you about grain earlier in life.
+2. **Look for diet descriptions.** Phrases like "fed grass and corn" or "fed 85% grass" mean the animal ate grain. That can be truthful, but it is not 100 percent grass-fed.
+3. **Look for a certifier.** A certified claim should name the certifier and its website. Then look up the farm in that certifier's public producer list.
+4. **Check the origin.** AGA requires animals born and raised in the US. If origin matters to you, check the standards of any other program on the label, or ask the seller.
 
 ## What to ask a farmer
 
-Buying direct from a farm often means no inspected retail label at all, especially for bulk shares (a quarter or half of an animal). You can ask questions a label never answers. Our [farm directory](/farms/) lists each farm's stated feeding claim and any certifications we could confirm with the certifier.
+When you buy direct from a farm, especially a bulk share (a quarter or half of an animal), you are often relying on the farm's own description more than a package label. But you can ask questions a label never answers. Our [farm directory](/farms/) lists each farm's stated feeding claim and any certifications we found in the certifier's public listing.
 
 - Do your animals eat any grain or grain by-products at any point in their lives, including as young calves?
 - What do they eat in winter or during a drought? (Hay and silage are allowed under the standards above; grain or sprouted grain is worth asking about.)
@@ -117,21 +117,20 @@ Buying direct from a farm often means no inspected retail label at all, especial
 - Are you certified by anyone? Can I see your listing on the certifier's website?
 - If an animal gets sick and needs treatment that breaks your standard, what happens to it?
 
-A good farmer will answer these without hesitation. Vague replies such as "they're mostly on grass" usually mean some grain.
+Clear, specific answers are a good sign. A vague reply such as "they're mostly on grass" is a cue to ask directly whether the animals ever get grain.
 
 ## A note on grass-fed dairy
 
-Milk, butter, cheese and yogurt fall under the FDA (Food and Drug Administration), not FSIS, for labeling. According to Labels Unwrapped, a label guide from Vermont Law and Graduate School, the FDA has not defined "grass-fed," so on dairy the term can mean what the producer says it means as long as it is not misleading. There is no government label review for a grass-fed dairy claim the way there is for inspected meat.
+Milk, butter, cheese and yogurt labels are the FDA's (Food and Drug Administration) territory, not FSIS's. According to Labels Unwrapped, a label guide from Vermont Law and Graduate School, the FDA has not defined "grass-fed" and does not enforce USDA's meat definitions, so on dairy the term can mean what the producer says it means as long as it is not misleading. As far as we can tell, no government agency reviews a grass-fed dairy claim before it appears, the way FSIS does for inspected meat.
 
-That makes certification more important for dairy than for meat. AGA, Certified Grassfed by AGW and OPT Certified Grass-Fed Organic all certify grass-fed dairy, each with its own rules. Certified Grassfed by AGW, for example, requires cow dairies to test their forage and to complete a one-year period of 100 percent grassfed feeding. If a carton says "grass-fed" with no seal, check the brand's website for a stated grazing standard or contact them and ask the same diet questions you would ask a beef farmer.
+That makes certification more important for dairy than for meat. All three programs above certify grass-fed dairy, each with its own rules. Certified Grassfed by AGW, for example, requires cow dairies to test their forage and to complete a one-year period of 100 percent grassfed feeding. If a carton says "grass-fed" with no seal, look for a stated grazing standard on the brand's website or ask them the diet questions above.
 
 ## The short version
 
 - "Grass fed" on an inspected US meat label should mean forage only after weaning, but it rests largely on the producer's own signed statement.
-- "Grass finished" alone does not rule out grain earlier in life.
-- "Fed grass and corn" or a percentage means grain was part of the diet.
+- "Grass finished" alone, "fed grass and corn" or a percentage all leave room for grain.
 - USDA Organic allows grain finishing; it is not a grass-fed guarantee.
 - For independent proof, look for AGA, Certified Grassfed by AGW or OPT Certified Grass-Fed Organic, then confirm the farm on the certifier's list.
-- For dairy, no federal definition exists, so a certification seal is the main safeguard.
+- For dairy, the FDA has not defined "grass-fed," so a certification seal is the main safeguard.
 
-Rules and certification standards change. Check the certifier's current standards before you buy, and confirm feeding details with the farm.
+Rules and standards change, so check the certifier's current standards and confirm feeding details with the farm.

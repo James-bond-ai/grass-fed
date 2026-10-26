@@ -1,0 +1,38 @@
+{
+  "id": "patterson-ranch",
+  "slug": "patterson-ranch",
+  "farm_name": "Patterson Ranch",
+  "city": "Whiteface",
+  "state": "TX",
+  "zip": "",
+  "address_public": false,
+  "website": "https://pattersonranch.net",
+  "phone": "(806) 893-1220",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "ground beef"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "continues to produce Hereford and Angus cross cattle on grass and grain without added hormones or antibiotics.",
+    "source_url": "https://pattersonranch.net/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Wolforth farmers market"
+  ],
+  "bulk_shares": false,
+  "ordering_url": "https://pattersonranch.net/order/",
+  "data_source": "web-search",
+  "source_url": "https://kfyo.com/ixp/190/p/buying-grass-fed-beef-lubbock/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "parker-county-beef-company",
+  "slug": "parker-county-beef-company",
+  "farm_name": "Parker County Beef Company",
+  "city": "Springtown",
+  "state": "TX",
+  "zip": "76082",
+  "address_public": true,
+  "address": "1705 N FM 51, Springtown, TX 76082",
+  "website": "https://burtnettfarmingandranching.grazecart.com",
+  "phone": "817-404-7405",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "beef boxes",
+    "half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "In the final 150 days before processing, they are finished on a carefully balanced grain ration along with free-choice hay.",
+    "source_url": "https://burtnettfarmingandranching.grazecart.com/blog"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://burtnettfarmingandranching.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://burtnettfarmingandranching.grazecart.com/blog",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

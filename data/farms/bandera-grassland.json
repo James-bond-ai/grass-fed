@@ -1,0 +1,35 @@
+{
+  "id": "bandera-grassland",
+  "slug": "bandera-grassland",
+  "farm_name": "Bandera Grassland",
+  "city": "Tarpley",
+  "state": "TX",
+  "zip": "78883",
+  "address_public": false,
+  "website": "https://www.banderagrassland.com",
+  "phone": "(830) 562-3650",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "grassfed Texas Longhorn beef",
+    "bulk beef",
+    "individual cuts"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grassfed birth to harvest.",
+    "source_url": "https://www.banderagrassland.com/"
+  },
+  "certifications": [],
+  "sales_channels": [],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://theshelbyreport.com/tag/bandera-grassland/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "unpublished"
+}

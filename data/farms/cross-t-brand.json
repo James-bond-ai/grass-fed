@@ -1,0 +1,45 @@
+{
+  "id": "cross-t-brand",
+  "slug": "cross-t-brand",
+  "farm_name": "Cross T Brand (Waypoint Farm)",
+  "city": "Hallettsville",
+  "state": "TX",
+  "zip": "",
+  "address_public": false,
+  "website": "https://waypointfarm.grazecart.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "Akaushi beef",
+    "lamb"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Grass Fed & Finished",
+    "source_url": "https://waypointfarm.grazecart.com"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/southwest/cross-t-brand-hallettsville-tx/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Fulshear Farmers' Market"
+  ],
+  "bulk_shares": false,
+  "ordering_url": "https://waypointfarm.grazecart.com",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/southwest/cross-t-brand-hallettsville-tx/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

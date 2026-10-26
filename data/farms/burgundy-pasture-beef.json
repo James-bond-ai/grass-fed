@@ -1,0 +1,39 @@
+{
+  "id": "burgundy-pasture-beef",
+  "slug": "burgundy-pasture-beef",
+  "farm_name": "Burgundy Pasture Beef",
+  "city": "Grandview",
+  "state": "TX",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.burgundypasturebeef.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "grass-fed beef",
+    "lamb",
+    "mixed cut packages"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "We have produced 100% Grass Fed Beef since 1999.",
+    "source_url": "https://www.burgundypasturebeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "retail",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.greensourcedfw.org/greenbusiness/burgundy-pasture-beef",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

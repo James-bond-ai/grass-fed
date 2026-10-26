@@ -1,0 +1,40 @@
+{
+  "id": "holy-cow-beef",
+  "slug": "holy-cow-beef",
+  "farm_name": "Holy Cow Beef",
+  "city": "Lubbock",
+  "state": "TX",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.holycowbeef.com",
+  "phone": "806-805-1102",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "bone broth packs",
+    "ranch box subscription",
+    "whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grassfed • Grass-Finished • Made For Family Tables • Texas Flavor",
+    "source_url": "https://www.holycowbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.holycowbeef.com/products",
+  "data_source": "web-search",
+  "source_url": "https://kfyo.com/ixp/190/p/buying-grass-fed-beef-lubbock/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

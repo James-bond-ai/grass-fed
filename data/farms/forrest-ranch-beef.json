@@ -1,0 +1,37 @@
+{
+  "id": "forrest-ranch-beef",
+  "slug": "forrest-ranch-beef",
+  "farm_name": "Forrest Ranch Beef",
+  "city": "Slaton",
+  "state": "TX",
+  "zip": "",
+  "address_public": false,
+  "website": "https://forrestranchbeef.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry"
+  ],
+  "products": [
+    "eighth, quarter, half and whole beef",
+    "ground beef bundles",
+    "pastured whole chicken",
+    "subscription boxes"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "They are grass and grain-supplemented to finish out with the high quality beef you can only get straight from the ranch.",
+    "source_url": "https://forrestranchbeef.com/pages/about-us"
+  },
+  "certifications": [],
+  "sales_channels": [],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://forrestranchbeef.com/collections/bulk-beef/eighth",
+  "data_source": "web-search",
+  "source_url": "https://kfyo.com/ixp/190/p/buying-grass-fed-beef-lubbock/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "unpublished"
+}

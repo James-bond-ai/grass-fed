@@ -1,0 +1,47 @@
+{
+  "id": "canyon-valley-provisions",
+  "slug": "canyon-valley-provisions",
+  "farm_name": "Canyon Valley Provisions",
+  "city": "Canyon Valley",
+  "state": "TX",
+  "zip": "",
+  "address_public": false,
+  "website": "https://canyonvalleyprovisions.com",
+  "phone": "",
+  "social_urls": [
+    "http://instagram.com/canyonvalleyprovisionstx"
+  ],
+  "species": [
+    "beef",
+    "lamb",
+    "poultry"
+  ],
+  "products": [
+    "beef cuts",
+    "beef shares",
+    "lamb",
+    "pasture-raised chicken",
+    "beef jerky",
+    "tallow"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Yes, our cattle are grass fed and grass finished, but that is only a part of the picture.",
+    "source_url": "https://canyonvalleyprovisions.com/pages/about"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "ships-regional",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://canyonvalleyprovisions.com/collections/beef-shares",
+  "data_source": "web-search",
+  "source_url": "https://kfyo.com/ixp/190/p/buying-grass-fed-beef-lubbock/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}
