@@ -35,6 +35,19 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "neighborhoods all over Virginia, Maryland, and Washington, DC"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://polyfacefarm.com/how-to-buy"
+  },
+  "dairy_products": [
+    "milk",
+    "ghee"
+  ],
   "ordering_url": "https://polyfacefarm.com/store",
   "data_source": "web-search",
   "source_url": "https://polyfacefarm.com/",

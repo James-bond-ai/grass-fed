@@ -41,6 +41,13 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://aandmfarmsbeef.com/csa-program/"
+  },
   "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/virginia/hillsville/beef-1/southwest-virginia-farmers-market/",

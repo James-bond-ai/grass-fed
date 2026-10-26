@@ -43,6 +43,13 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.beanhollowgrassfed.com/faq"
+  },
   "ordering_url": "https://store.beanhollowgrassfed.com",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/virginia/flint-hill/lamb-and-mutton/bean-hollow-grassfed/",
