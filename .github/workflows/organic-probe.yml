@@ -1,0 +1,26 @@
+name: Organic database probe
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/organic/probe.mjs', '.github/workflows/organic-probe.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm i --no-save playwright@1 && npx playwright install --with-deps chromium
+      - run: node scripts/organic/probe.mjs
+      - run: |
+          for u in "https://organic.ams.usda.gov/integrity/" "https://organic.ams.usda.gov/integrity/Reports/DataHistory.aspx" "https://organic.ams.usda.gov/integrity/api/" ; do
+            echo "== $u"; curl -sS -L -o /dev/null -w "%{http_code} %{content_type} %{url_effective}\n" "$u" || true
+          done
+      - uses: actions/upload-artifact@v4
+        with: { name: probe, path: probe.json }
