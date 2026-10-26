@@ -38,6 +38,16 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.jamesranch.net/faq"
+  },
+  "dairy_products": [
+    "cheese"
+  ],
   "ordering_url": "https://www.jamesranch.net/beef",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/colorado/durango/cheese-1/james-ranch-artisan-cheese/",

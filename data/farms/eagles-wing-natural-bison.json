@@ -29,6 +29,16 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Lafayette, CO (meet at Walgreens, 309 N US Highway 287, by arrangement)",
+      "Double J Meat Packing, 726 W. Main, Pierce, CO (half and whole bison)"
+    ],
+    "source_url": "https://www.eagleswingnaturalbison.com/pages/shipping-delivery"
+  },
   "ordering_url": "https://www.eagleswingnaturalbison.com/collections/cuts",
   "data_source": "web-search",
   "source_url": "https://coloradocountrylife.coop/?p=28378",

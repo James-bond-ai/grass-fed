@@ -31,6 +31,22 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Denver",
+      "Colorado Springs",
+      "Pueblo",
+      "Castle Rock",
+      "Fort Collins",
+      "Loveland and surrounding areas"
+    ],
+    "local_radius_miles": 200,
+    "ships_to": [
+      "CO"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://slashjbeef.com/policies/shipping-policy"
+  },
   "ordering_url": "https://www.slashjbeef.com/shop",
   "data_source": "web-search",
   "source_url": "https://www.cobeef.com/local-beef-directory",

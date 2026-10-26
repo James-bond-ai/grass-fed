@@ -38,6 +38,19 @@
     "Seaside Farmers Market (Saturdays)"
   ],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Destin to PCB"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Seaside farmers market, Seaside (Saturdays)",
+      "Farmers markets around Panama City"
+    ],
+    "source_url": "https://arrowheadbeef.com/pages/local-options"
+  },
+  "dairy_products": [],
   "ordering_url": "https://arrowheadbeef.com/collections/bulk-beef-pork-shares",
   "data_source": "web-search",
   "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",

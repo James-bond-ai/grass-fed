@@ -32,10 +32,27 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Golden Gate Estates, 30 Golden Gate Blvd West, Naples (Fridays)",
+      "Collier Blvd & US 41, Tractor Supply parking lot, Naples (Tuesdays)",
+      "North Naples, 2325 Vanderbilt Beach Rd (Fridays)",
+      "Lakewood Blvd & US 41, Naples (Thursdays)",
+      "Ave Maria, South Park parking lot (Thursdays)",
+      "Davie, FL (by appointment)",
+      "Marathon, FL (by appointment)"
+    ],
+    "source_url": "https://www.naplesfarmfresh.com/general-7"
+  },
+  "dairy_products": [],
   "ordering_url": "https://www.naplesfarmfresh.com/general-7",
   "data_source": "web-search",
   "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
   "last_verified_at": "2026-10-26",
   "verification_method": "auto",
-  "listing_status": "published"
+  "listing_status": "published",
+  "notes": "Raw dairy sold labeled for pets only under Florida law; not listed as dairy."
 }

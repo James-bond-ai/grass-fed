@@ -28,7 +28,8 @@
   "certifications": [],
   "sales_channels": [
     "farmers-market",
-    "retail"
+    "retail",
+    "ships-nationwide"
   ],
   "farmers_markets": [
     "Glenwood Springs Farmers Market",
@@ -36,6 +37,16 @@
     "Fruita Farmers and Makers Market"
   ],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Mesa County",
+      "Garfield County"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://shop.thehighlonesomeranch.com/pages/faqs"
+  },
   "ordering_url": "https://shop.thehighlonesomeranch.com/",
   "data_source": "web-search",
   "source_url": "https://www.cobeef.com/local-beef-directory",

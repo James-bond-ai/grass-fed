@@ -45,6 +45,23 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Sheridan, WY",
+      "Billings, MT",
+      "Miles City, MT",
+      "Denver, CO (annually, at cost)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Sheridan Farmers Market, Sheridan, WY",
+      "Yellowstone Valley Farmers Market, Billings, MT",
+      "Arranged group pickup time and place"
+    ],
+    "source_url": "https://lohofgrassfinishedbeef.com/more-info/"
+  },
+  "dairy_products": [],
   "ordering_url": "https://lohofgrassfinishedbeef.com/products/",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/montana/otter/beef-1/lohof-grass-finished-beef/",

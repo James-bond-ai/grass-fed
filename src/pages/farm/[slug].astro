@@ -6,6 +6,8 @@ import { STATE_BY_ABBR, SPECIES, FEEDING, CHANNELS, CERTIFICATIONS, DAIRY_PRODUC
 import { loadPublishedFarms } from '../../data/farms.mjs';
 import { fmtDate } from '../../data/format.mjs';
 import { getCollection } from 'astro:content';
+import Icon from '../../components/Icon.astro';
+import { BROWSE } from '../../data/browse.mjs';
 
 export function getStaticPaths() {
   const all = loadPublishedFarms();
@@ -54,6 +56,7 @@ const rawGuide = (await getCollection('articles')).some((a) => a.id === 'raw-mil
 const shipsList = [...r.shipsTo].map((a) => STATE_BY_ABBR[a]?.name ?? a);
 const hasReach = r.nationwide || shipsList.length || r.localAreas.length || r.radius || r.pickup.length;
 const photos = (farm.photos ?? []).filter((p) => p.permission);
+const icons = BROWSE.filter((b) => (farm.species ?? []).some((x) => b.species.includes(x)));
 const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.length ? ` sells ${species.slice(0, 3).join(', ').toLowerCase()}` : ''}. Feeding claims, certifications and how to buy, last checked ${fmtDate(farm.last_verified_at)}.`;
 ---
 <Base title={`${farm.farm_name}, ${farm.city}, ${st.abbr}`} description={description.slice(0, 165)} jsonLd={jsonLd}>
@@ -62,6 +65,7 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
     <div>
       <h1>{farm.farm_name}</h1>
       <p class="lede">{farm.city}, {st.name}</p>
+      {icons.length > 0 && <ul class="farm-icons" aria-label="Sells">{icons.map((b) => <li title={b.label}><Icon name={b.icon} size={34} /><span>{b.label}</span></li>)}</ul>}
     </div>
     <Stamp date={farm.last_verified_at} />
   </div>
@@ -121,7 +125,7 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
       <dt>Website</dt><dd><a href={farm.website} rel="nofollow">{host(farm.website)}</a></dd>
       {farm.ordering_url && <><dt>Order online</dt><dd><a href={farm.ordering_url} rel="nofollow">{host(farm.ordering_url)}</a></dd></>}
       {farm.phone && <><dt>Phone</dt><dd><a href={`tel:${telDigits(farm.phone)}`}>{farm.phone}</a></dd></>}
-      {farm.address_public && farm.address && <><dt>Address</dt><dd>{farm.address}, {farm.city}, {farm.state} {farm.zip}</dd></>}
+      {farm.address_public && farm.address && <><dt>Address</dt><dd>{farm.address.includes(farm.city) ? farm.address : `${farm.address}, ${farm.city}, ${farm.state} ${farm.zip ?? ''}`.trim()}</dd></>}
     </dl>
     <p class="small muted">Last checked against the farm's website on {fmtDate(farm.last_verified_at)}. Products, prices and availability change; confirm with the farm before you buy. Something wrong? <a href="/corrections/">Report a correction</a>.</p>
   </section>
@@ -137,4 +141,6 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
 <style>
   .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1.5rem; flex-wrap: wrap; }
   .head .stamp { font-size: 1.1rem; margin-top: 0.5rem; }
+  .farm-icons { list-style: none; display: flex; flex-wrap: wrap; gap: 1.25rem; padding: 0; margin: 0.5rem 0 0; }
+  .farm-icons li { display: flex; align-items: center; gap: 0.4rem; font-size: 0.9rem; color: var(--ink-soft); }
 </style>

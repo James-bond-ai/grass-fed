@@ -50,6 +50,16 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "The Prepared Table - Kitchen Shop, Tallahassee, FL",
+      "Sowega Meat Company, Colquitt, GA (half or whole beef only)"
+    ],
+    "source_url": "https://www.bluebeargrassfed.com/delivery_locations.php"
+  },
   "ordering_url": "https://www.bluebeargrassfed.com/shop.php",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/georgia/cairo/beef-1/blue-bear-farm-cattle-co/",

@@ -36,6 +36,13 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://flyingbbar.com/faq/"
+  },
   "ordering_url": "https://shopflyingbbar.com",
   "data_source": "web-search",
   "source_url": "https://www.cobeef.com/local-beef-directory",

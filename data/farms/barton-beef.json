@@ -27,6 +27,16 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Braddock's Slaughter House, Seville (Mondays)"
+    ],
+    "source_url": "https://www.bartonbeef.com/faq/"
+  },
+  "dairy_products": [],
   "ordering_url": "https://www.bartonbeef.com/order/",
   "data_source": "web-search",
   "source_url": "https://www.clickorlando.com/news/local/2023/12/04/mooo-ve-over-store-bought-steaks-how-you-can-buy-beef-directly-from-the-pasture/",

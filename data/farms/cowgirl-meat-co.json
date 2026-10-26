@@ -28,6 +28,14 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://cowgirlmeatco.com/pages/faq"
+  },
+  "dairy_products": [],
   "ordering_url": "https://cowgirlmeatco.com/collections/all",
   "data_source": "web-search",
   "source_url": "https://abundantmontana.com/amt-lister/cowgirl-meat-co/",

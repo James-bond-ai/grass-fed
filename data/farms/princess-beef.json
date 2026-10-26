@@ -33,6 +33,17 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Montrose (one scheduled pickup date)",
+      "Grand Junction (one scheduled pickup date)",
+      "Denver/Colorado Springs (one scheduled pickup date)"
+    ],
+    "source_url": "https://princessbeef.com/?page_id=173"
+  },
   "ordering_url": "https://princessbeef.com/?page_id=428",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/colorado/hotchkiss/beef-1/princess-beef/",

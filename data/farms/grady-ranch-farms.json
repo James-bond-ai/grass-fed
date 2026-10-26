@@ -33,6 +33,17 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Red Hills Online Market pickup, Thursdays, Tallahassee, FL",
+      "Red Hills Online Market pickup, Thursdays, Sweet Grass Dairy, Thomasville, GA",
+      "Tallahassee Farmers Market, Tallahassee, FL"
+    ],
+    "source_url": "https://www.gradyranchfarms.com/"
+  },
   "ordering_url": "https://www.rhomarket.com/",
   "data_source": "web-search",
   "source_url": "https://www.gpb.org/blogs/fork-in-the-road/2024/09/05/fork-in-the-road-podcast-grady-ranch-farms",

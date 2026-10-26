@@ -32,6 +32,17 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Weekly Tuesday route from Craig south toward Aspen"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Predetermined meeting locations along the Craig to Aspen route"
+    ],
+    "source_url": "https://nieslanikbeef.com/pickup-delivery"
+  },
   "ordering_url": "https://nieslanikbeef.com/shop-all-products",
   "data_source": "web-search",
   "source_url": "https://www.cobeef.com/local-beef-directory",

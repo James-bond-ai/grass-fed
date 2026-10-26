@@ -40,6 +40,13 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://whiteoakpastures.com/policies/shipping-policy"
+  },
   "ordering_url": "https://whiteoakpastures.com/collections/grassfed-beef",
   "data_source": "web-search",
   "source_url": "https://whiteoakpastures.com/pages/about-us",

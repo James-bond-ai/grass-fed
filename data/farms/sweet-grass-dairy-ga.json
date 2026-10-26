@@ -27,6 +27,16 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://www.goldbelly.com/restaurants/sweet-grass-dairy"
+  },
+  "dairy_products": [
+    "cheese"
+  ],
   "ordering_url": "https://www.goldbelly.com/restaurants/sweet-grass-dairy",
   "data_source": "web-search",
   "source_url": "https://sweetgrassdairy.com/",

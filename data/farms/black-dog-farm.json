@@ -50,6 +50,27 @@
     "Gallatin Valley Farmers Market"
   ],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Bozeman",
+      "Belgrade",
+      "Four Corners",
+      "Big Sky",
+      "Livingston (within town)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [
+      "MT"
+    ],
+    "pickup_locations": [
+      "Bozeman Winter Farmers Market (October through May)",
+      "Bozeman Farmers Market (Tuesday evenings, June through September)",
+      "Gallatin Valley Farmers Market (Saturday mornings, June through September)",
+      "Yellowstone Valley Food Hub drop points, Billings area"
+    ],
+    "source_url": "https://blackdogfarmmt.com/pages/how-to-purchase"
+  },
+  "dairy_products": [],
   "ordering_url": "https://blackdogfarmmt.com/pages/how-to-purchase",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/montana/livingston/chicken-1/black-dog-farm/",

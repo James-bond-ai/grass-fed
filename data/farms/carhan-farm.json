@@ -27,6 +27,13 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://carhanfarm.com/products/"
+  },
   "ordering_url": "https://app.barn2door.com/3v875/all",
   "data_source": "web-search",
   "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",

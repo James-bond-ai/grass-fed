@@ -37,6 +37,22 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Vero Beach Farmers Market Oceanside, Vero Beach (Saturdays)",
+      "Hobe Sound Farmers Market, Hobe Sound (Saturdays and Sundays)",
+      "West Palm Beach Green Market, West Palm Beach (Saturdays)",
+      "Delray Green Market, Delray Beach (Saturdays)",
+      "Stuart Farmers Market, Stuart (Sundays)"
+    ],
+    "source_url": "https://www.okeechobeefarms.com/market-locations/"
+  },
+  "dairy_products": [
+    "ghee"
+  ],
   "ordering_url": "https://www.okeechobeefarms.com/shop-selection/",
   "data_source": "web-search",
   "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",

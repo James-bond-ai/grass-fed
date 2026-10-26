@@ -30,6 +30,14 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://fortmccoyranch.com/policies/shipping-policy"
+  },
+  "dairy_products": [],
   "ordering_url": "https://fortmccoyranch.com/collections/100-grass-fed-beef",
   "data_source": "web-search",
   "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",

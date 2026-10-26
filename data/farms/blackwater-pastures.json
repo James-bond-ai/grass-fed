@@ -29,7 +29,8 @@
   },
   "certifications": [],
   "sales_channels": [
-    "farmers-market"
+    "farmers-market",
+    "ships-regional"
   ],
   "farmers_markets": [
     "Decatur Market",
@@ -40,6 +41,34 @@
     "Avondale Estates Farmers Market"
   ],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [
+      "FL",
+      "GA",
+      "AL",
+      "NC",
+      "SC",
+      "TN",
+      "VA",
+      "WV",
+      "AR",
+      "LA",
+      "KY",
+      "MS"
+    ],
+    "pickup_locations": [
+      "Decatur Market, Decatur, GA",
+      "East Atlanta Village Market, Atlanta, GA",
+      "Vinings Jubilee Farmers Market, Atlanta, GA",
+      "Piedmont Green Market, Atlanta, GA",
+      "SaltAir Farmer's Market, Port St. Joe, FL",
+      "Grant Park Market, Atlanta, GA",
+      "Avondale Estates Farmers Market, Avondale Estates, GA"
+    ],
+    "source_url": "https://blackwater-pastures.com/pages/shipping-policy"
+  },
   "ordering_url": "https://blackwater-pastures.com/collections/all",
   "data_source": "web-search",
   "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
