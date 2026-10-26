@@ -1,0 +1,55 @@
+{
+  "id": "sassy-cow-creamery",
+  "slug": "sassy-cow-creamery",
+  "farm_name": "Sassy Cow Creamery",
+  "city": "Columbus",
+  "state": "WI",
+  "zip": "53925",
+  "address_public": true,
+  "address": "W4192 Bristol Rd., Columbus, WI 53925",
+  "website": "https://sassycowcreamery.com/",
+  "phone": "608-837-7766",
+  "social_urls": [],
+  "species": [
+    "dairy-cow"
+  ],
+  "products": [
+    "milk",
+    "organic milk",
+    "chocolate milk",
+    "heavy cream",
+    "half and half",
+    "ice cream"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "A considerable amount of the organic cows\u2019 diet is from grass grown on our organic pastures.",
+    "source_url": "https://sassycowcreamery.com/about-us/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://sassycowcreamery.com/news-events/"
+  },
+  "dairy_products": [
+    "milk",
+    "cream",
+    "ice-cream"
+  ],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.dairyherd.com/news/how-sassy-cow-creamery-grew-50-cows-iconic-ice-cream-shop",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "unpublished",
+  "notes": "Unpublished 2026-10-26: mostly confinement herd with pasture access; weak fit for a grass-fed directory. Needs manual review."
+}

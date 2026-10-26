@@ -1,0 +1,51 @@
+{
+  "id": "kelley-country-creamery",
+  "slug": "kelley-country-creamery",
+  "farm_name": "Kelley Country Creamery",
+  "city": "Fond du Lac",
+  "state": "WI",
+  "zip": "54937",
+  "address_public": true,
+  "address": "W5215 County Road B, Fond du Lac, WI 54937",
+  "website": "https://kelleycountrycreamery.com/",
+  "phone": "920-923-1715",
+  "social_urls": [
+    "https://www.instagram.com/kelleycountrycreamery/"
+  ],
+  "species": [
+    "dairy-cow"
+  ],
+  "products": [
+    "ice cream",
+    "ice cream cakes and pies",
+    "sundaes"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "keep many animals on green pastures, weather permitting",
+    "source_url": "https://kelleycountrycreamery.com/our-story"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://kelleycountrycreamery.com/contact-us/hours/"
+  },
+  "dairy_products": [
+    "ice-cream"
+  ],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.nbc26.com/news/kelley-country-creamery-keeps-it-on-the-farm-and-in-the-family",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "unpublished",
+  "notes": "Unpublished 2026-10-26: site does not say the ice cream uses its own herd's milk; confirm before publishing."
+}
