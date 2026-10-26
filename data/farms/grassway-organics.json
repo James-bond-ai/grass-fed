@@ -1,0 +1,44 @@
+{
+  "id": "grassway-organics",
+  "slug": "grassway-organics",
+  "farm_name": "Grassway Organics",
+  "city": "East Troy",
+  "state": "WI",
+  "zip": "53120",
+  "address_public": true,
+  "website": "https://www.grasswayorganics.com",
+  "phone": "(920) 894-4201",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "chicken",
+    "turkey",
+    "pork",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We will never feed grain!",
+    "source_url": "https://www.grasswayorganics.com/about"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://grasswayorganics.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://www.grasswayorganics.com",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "W2716 Friemoth Road, East Troy, WI 53120"
+}

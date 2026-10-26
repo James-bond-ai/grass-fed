@@ -1,0 +1,38 @@
+{
+  "id": "uplands-cheese",
+  "slug": "uplands-cheese",
+  "farm_name": "Uplands Cheese",
+  "city": "Dodgeville",
+  "state": "WI",
+  "zip": "53533",
+  "address_public": true,
+  "website": "https://uplandscheese.com",
+  "phone": "608-935-5558",
+  "social_urls": [],
+  "species": [
+    "dairy-cow"
+  ],
+  "products": [
+    "Pleasant Ridge Reserve cheese",
+    "Rush Creek Reserve cheese"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Award-winning artisan cheese crafted from the unpasteurized milk of grass-fed cows.",
+    "source_url": "https://uplandscheese.com/product/pleasant-ridge-reserve"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "ships-nationwide",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://uplandscheese.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://uplandscheese.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "5023 State Rd 23, Dodgeville, WI 53533"
+}

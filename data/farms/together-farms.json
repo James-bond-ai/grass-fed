@@ -1,0 +1,46 @@
+{
+  "id": "together-farms",
+  "slug": "together-farms",
+  "farm_name": "Together Farms",
+  "city": "Mondovi",
+  "state": "WI",
+  "zip": "54755",
+  "address_public": true,
+  "website": "https://togetherfarms.com",
+  "phone": "715-210-4740",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef",
+    "lamb",
+    "pork",
+    "chicken",
+    "bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "From birth to freezer. No corn, no soy. Just grass & pasture.",
+    "source_url": "https://togetherfarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "local-delivery",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://togetherfarms.com/store",
+  "data_source": "web-search",
+  "source_url": "https://togetherfarms.grazecart.com/store/grass-fed-beef",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "W93 Norden Rd., Mondovi, WI 54755"
+}

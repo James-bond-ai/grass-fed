@@ -1,0 +1,50 @@
+{
+  "id": "seven-seeds-farm",
+  "slug": "seven-seeds-farm",
+  "farm_name": "Seven Seeds Farm",
+  "city": "Spring Green",
+  "state": "WI",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.sevenseedsorganicfarm.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef",
+    "pork",
+    "chicken"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Organic and grassfed beef, pork and chicken raised in Wisconsin on our regenerative farm.",
+    "source_url": "https://www.sevenseedsorganicfarm.com"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/wisconsin/spring-green/beef-1/seven-seeds-farm/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/wisconsin/spring-green/beef-1/seven-seeds-farm/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/category/beef-1/united-states/wisconsin",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "harmony-valley-farm",
+  "slug": "harmony-valley-farm",
+  "farm_name": "Harmony Valley Farm",
+  "city": "Viroqua",
+  "state": "WI",
+  "zip": "",
+  "address_public": false,
+  "website": "https://harmonyvalleyfarm.com",
+  "phone": "608 483 2143",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "beef",
+    "pork"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "100 % Grass Fed",
+    "source_url": "https://harmonyvalleyfarm.com/meat-shares/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "csa"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://harmonyvalleyfarm.com/meat-shares/",
+  "data_source": "web-search",
+  "source_url": "https://harmonyvalleyfarm.com/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

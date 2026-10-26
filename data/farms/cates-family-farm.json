@@ -1,0 +1,40 @@
+{
+  "id": "cates-family-farm",
+  "slug": "cates-family-farm",
+  "farm_name": "Cates Family Farm",
+  "city": "Spring Green",
+  "state": "WI",
+  "zip": "53588",
+  "address_public": true,
+  "website": "https://www.catesfamilyfarm.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "mixed bulk packs",
+    "quarters",
+    "halves"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Grass fed finished beef in the SW Driftless region of Wisconsin.",
+    "source_url": "https://www.catesfamilyfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.catesfamilyfarm.com/enjoy-our-beef",
+  "data_source": "web-search",
+  "source_url": "https://www.farmprogress.com/livestock/consumer-demand-for-cates-family-farm-beef-skyrockets",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "5992 County Highway T, Spring Green, WI 53588"
+}

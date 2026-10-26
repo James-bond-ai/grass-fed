@@ -1,0 +1,39 @@
+{
+  "id": "northstar-bison",
+  "slug": "northstar-bison",
+  "farm_name": "Northstar Bison",
+  "city": "Rice Lake",
+  "state": "WI",
+  "zip": "",
+  "address_public": false,
+  "website": "https://northstarbison.com",
+  "phone": "(715) 458-4300",
+  "social_urls": [],
+  "species": [
+    "bison"
+  ],
+  "products": [
+    "bison cuts",
+    "ground bison",
+    "organ meats",
+    "bone broth"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Grass Fed & Finished, Field Harvested",
+    "source_url": "https://northstarbison.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "retail",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://northstarbison.com/collections/all",
+  "data_source": "web-search",
+  "source_url": "https://northstarbison.com/pages/ranch-tours-map",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "pigeon-river-farm",
+  "slug": "pigeon-river-farm",
+  "farm_name": "Pigeon River Farm",
+  "city": "Clintonville",
+  "state": "WI",
+  "zip": "",
+  "address_public": false,
+  "website": "http://www.pigeonriverfarm.com/",
+  "phone": "715-754-2425",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef",
+    "broiler chickens",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our focus is on Grass-Fed Artisan Beef, pastured free-range broiler chickens and Golden Rich Pasture-Raised Eggs.",
+    "source_url": "http://www.pigeonriverfarm.com/"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/wisconsin/clintonville/beef-1/pigeon-river-farm/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup",
+    "csa"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://www.farmmatch.com/pigeonriverfarm/",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/category/beef-1/united-states/wisconsin",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}
