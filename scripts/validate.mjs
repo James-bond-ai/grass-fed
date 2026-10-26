@@ -161,6 +161,7 @@ function checkArticle(file) {
 
   const words = body.split(/\s+/).length;
   if (words < 600) warn(file, `only ${words} words; guides should be substantial`);
+  if (words > 2300) warn(file, `${words} words; the target is 1,200 to 2,000 (tables count)`);
 }
 
 function mdFiles(dir) {

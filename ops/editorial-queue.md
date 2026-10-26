@@ -6,11 +6,11 @@ Statuses: queued, drafting, in-review, returned, published.
 
 | # | Slug | Title | Kind | Status | Notes |
 |---|---|---|---|---|---|
-| 1 | how-to-buy-a-quarter-cow | How to buy a quarter cow: cost, cut sheet and freezer space | guide | queued | Hub for every future /bulk-beef/ state page. Explain hanging vs packaged weight, processing fees, cut sheet choices, freezer space. Cite extension services. |
-| 2 | grass-fed-vs-grass-finished | Grass-fed vs grass-finished: what the label really means | guide | queued | Use FSIS 2019 and 2024 guidance and the certifications page. |
-| 3 | grass-fed-certifications-compared | Grass-fed certifications compared: AGA, AGW, OPT and USDA Organic | guide | queued | Comparison table. Primary sources only. |
-| 4 | how-to-vet-a-grass-fed-farm | How to vet a local grass-fed farm: 12 questions to ask | guide | queued | Practical. Link to /farms/. |
-| 5 | raw-milk-laws-by-state | Raw milk laws by state, and how herdshares work | guide | queued | Cite Farm-to-Consumer Legal Defense Fund map and NCSL with dates. Include a "not legal advice" line. No health claims either way; note FDA and CDC position neutrally with citation. |
+| 1 | how-to-buy-a-quarter-cow | How to buy a quarter cow: cost, cut sheet and freezer space | guide | published | Hub for every future /bulk-beef/ state page. Explain hanging vs packaged weight, processing fees, cut sheet choices, freezer space. Cite extension services. |
+| 2 | grass-fed-vs-grass-finished | Grass-fed vs grass-finished: what the label really means | guide | published | Use FSIS 2019 and 2024 guidance and the certifications page. |
+| 3 | grass-fed-certifications-compared | Grass-fed certifications compared: AGA, AGW, OPT and USDA Organic | guide | published | Comparison table. Primary sources only. |
+| 4 | how-to-vet-a-grass-fed-farm | How to vet a local grass-fed farm: 12 questions to ask | guide | published | Practical. Link to /farms/. |
+| 5 | raw-milk-laws-by-state | Raw milk laws by state, and how herdshares work | guide | in-review | Cite Farm-to-Consumer Legal Defense Fund map and NCSL with dates. Include a "not legal advice" line. No health claims either way. HELD 2026-10-26: confirm NC 2026 Farm Act (signed June 2026) left herdshares and pet milk unchanged, re-fetch FDA and CDC pages, keep body plus table near 2,000 words. |
 | 6 | best-grass-fed-beef-delivery | Best grass-fed beef delivery services, compared by price per pound | best | queued | Research-based. Table: price per lb (date checked), grass-finished yes/no as stated, certification. |
 | 7 | quarter-vs-half-vs-whole-cow | Quarter vs half vs whole cow: which share size fits your household | guide | queued | |
 | 8 | is-grass-fed-beef-worth-it | Is grass-fed beef worth the price? | guide | queued | Include omega-3 numbers WITH absolute amounts and context. |
