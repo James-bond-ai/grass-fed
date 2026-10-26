@@ -26,13 +26,16 @@ jobs:
       - run: node scripts/organic/fetch.mjs
       - run: python scripts/organic/slim.py
       - name: Publish to the organic-data branch
+        if: always()
         run: |
+          mkdir -p out
+          cp diag.json out/ 2>/dev/null || true
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          cp download.json out/
+          cp download.json out/ 2>/dev/null || true
           git switch --orphan organic-data-tmp
           git rm -rf --quiet . || true
           cp out/* .
-          git add us-operations.json columns.json download.json
-          git commit -m "Organic Integrity snapshot $(jq -r .date download.json)"
+          git add -A
+          git commit -m "Organic Integrity data refresh"
           git push -f origin HEAD:organic-data
