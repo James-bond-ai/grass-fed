@@ -1,0 +1,25 @@
+---
+import { STATES } from '../data/states.mjs';
+interface Props { counts: Record<string, number> }
+const { counts } = Astro.props;
+const level = (n: number) => (n === 0 ? '' : n < 5 ? 'l1' : n < 15 ? 'l2' : n < 40 ? 'l3' : 'l4');
+---
+<div class="tilemap" role="list" aria-label="Verified farms by state">
+  {STATES.map((s) => {
+    const n = counts[s.abbr] ?? 0;
+    return (
+      <a role="listitem" class={`tile ${level(n)}`} href={`/farms/${s.slug}/`}
+        style={`grid-column:${s.col + 1};grid-row:${s.row + 1}`}
+        aria-label={`${s.name}: ${n} verified ${n === 1 ? 'farm' : 'farms'}`}>
+        <b>{s.abbr}</b><small>{n}</small>
+      </a>
+    );
+  })}
+</div>
+<p class="map-legend" aria-hidden="true">
+  <span><i></i>None yet</span>
+  <span><i style="background:#e3ecd0"></i>1 to 4</span>
+  <span><i style="background:#b9d08d"></i>5 to 14</span>
+  <span><i style="background:#6f9a52"></i>15 to 39</span>
+  <span><i style="background:#2f5d3a"></i>40 or more</span>
+</p>

@@ -1,0 +1,41 @@
+name: List your farm
+description: Ask grassfed.food to add your farm to the directory. Listing is free.
+title: "Farm listing: "
+labels: ["farm-submission"]
+body:
+  - type: input
+    id: farm_name
+    attributes: { label: Farm name }
+    validations: { required: true }
+  - type: input
+    id: website
+    attributes: { label: Farm website, description: "We verify listings against this site, so it needs to describe what you sell and how your animals are fed." }
+    validations: { required: true }
+  - type: input
+    id: location
+    attributes: { label: Town and state }
+    validations: { required: true }
+  - type: checkboxes
+    id: species
+    attributes:
+      label: What you sell
+      options:
+        - label: Beef
+        - label: Bison
+        - label: Lamb or goat
+        - label: Pork
+        - label: Poultry or eggs
+        - label: Dairy
+  - type: textarea
+    id: feeding
+    attributes: { label: How your animals are fed and finished, description: "Plain description. We will quote your website rather than this text, so make sure your site says the same." }
+  - type: input
+    id: certifications
+    attributes: { label: Certifications, description: "For example AGA, Certified Grassfed by AGW, OPT, USDA Organic. We confirm each in the certifier's public listing." }
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Confirmation
+      options:
+        - label: I own or manage this farm, and the details above are accurate.
+          required: true

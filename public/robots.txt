@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://grassfed.food/sitemap-index.xml

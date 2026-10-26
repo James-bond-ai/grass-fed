@@ -1,0 +1,10 @@
+---
+import Page from '../layouts/Page.astro';
+const formUrl = 'https://github.com/James-bond-ai/grass-fed/issues/new?template=correction.yml';
+---
+<Page title="Corrections" description="Report an error in a grassfed.food farm listing or guide. We check every report and fix confirmed errors.">
+  <p class="lede">If a listing or guide is wrong, we want to fix it.</p>
+  <p>Tell us the page, what's wrong, and a link that shows the correct information if you have one. We check every report against the source and update the page. Farms can also ask us to update or remove their own listing this way.</p>
+  <p><a class="btn" href={formUrl}>Report a correction</a></p>
+  <p class="small muted">The form opens on GitHub and needs a free GitHub account.</p>
+</Page>

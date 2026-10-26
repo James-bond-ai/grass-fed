@@ -1,0 +1,101 @@
+---
+import Base from '../layouts/Base.astro';
+import TileMap from '../components/TileMap.astro';
+import { getCollection } from 'astro:content';
+import { STATES } from '../data/states.mjs';
+import { loadPublishedFarms, farmsByState } from '../data/farms.mjs';
+import { fmtDate } from '../data/format.mjs';
+
+const farms = loadPublishedFarms();
+const byState = farmsByState(farms);
+const counts = Object.fromEntries(Object.entries(byState).map(([k, v]) => [k, v.length]));
+const statesWithFarms = STATES.filter((s) => counts[s.abbr]).length;
+const latestCheck = farms.map((f) => f.last_verified_at).sort().at(-1);
+const articles = (await getCollection('articles'))
+  .sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime())
+  .slice(0, 6);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'grassfed.food',
+  url: 'https://grassfed.food/',
+};
+---
+<Base title="grassfed.food" description="Find US farms selling grass-fed and grass-finished beef, lamb, bison and dairy. Every listing is checked against the farm's own website and dated." jsonLd={jsonLd}>
+  <section class="hero">
+    <div>
+      <h1>Grass-fed meat and dairy, from farms we've actually checked.</h1>
+      <p class="lede">Search US farms that sell beef, lamb, bison and milk raised on pasture. Each listing shows what the farm says about how its animals are fed, which certifications we confirmed, and the date we last checked.</p>
+      <form class="state-jump" action="/farms/" method="get" id="state-jump">
+        <label for="state-select">Find farms in</label>
+        <div class="row">
+          <select id="state-select" name="state" required>
+            <option value="">Choose a state</option>
+            {STATES.slice().sort((a, b) => a.name.localeCompare(b.name)).map((s) => (
+              <option value={s.slug}>{s.name}{counts[s.abbr] ? ` (${counts[s.abbr]})` : ''}</option>
+            ))}
+          </select>
+          <button class="btn" type="submit">Show farms</button>
+        </div>
+      </form>
+    </div>
+    <div class="hero-stamp-wrap" aria-hidden="true">
+      <span class="stamp hero-stamp">
+        <b>Verified</b>
+        <small>{latestCheck ? fmtDate(latestCheck) : 'every listing'}</small>
+      </span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Farms by state</h2>
+    <p class="muted">{farms.length} verified {farms.length === 1 ? 'farm' : 'farms'} in {statesWithFarms} {statesWithFarms === 1 ? 'state' : 'states'}, with more added every week.</p>
+    <TileMap counts={counts} />
+  </section>
+
+  <section class="prose">
+    <h2>How a farm gets listed</h2>
+    <ol class="steps">
+      <li><strong>We find it</strong> through certifier listings, USDA local food data, state agriculture programs, or the farm itself.</li>
+      <li><strong>We check the farm's own website</strong> for what it sells, how it sells, and exactly how it describes its feeding. We quote that wording rather than rephrase it.</li>
+      <li><strong>We confirm certifications</strong> in the certifier's own public listing before showing a badge.</li>
+      <li><strong>We recheck every listing</strong> on a schedule. Anything we can't confirm comes down.</li>
+    </ol>
+    <p><a href="/methodology/">Read the full method</a></p>
+  </section>
+
+  {articles.length > 0 && (
+    <section>
+      <h2>Buying guides</h2>
+      <ul class="article-list">
+        {articles.map((a) => (
+          <li><a href={`/guides/${a.id}/`}>{a.data.title}</a><p>{a.data.description}</p></li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>
+
+<script>
+  const form = document.getElementById('state-jump') as HTMLFormElement | null;
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const v = (form.elements.namedItem('state') as HTMLSelectElement).value;
+    if (v) location.href = `/farms/${v}/`;
+  });
+</script>
+
+<style>
+  .hero { display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: center; padding-bottom: 1rem; }
+  .hero h1 { max-width: 17ch; font-size: clamp(2.3rem, 6vw, 4rem); }
+  .hero-stamp-wrap { padding: 1rem 2rem 0 0; }
+  .hero-stamp { font-size: clamp(1.3rem, 3vw, 2rem); padding: 0.5em 1.2em; border-width: 3px; }
+  .state-jump { margin-top: 1.75rem; }
+  .state-jump .row { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 0.4rem; }
+  .state-jump select { min-width: 240px; }
+  .steps { padding-left: 1.3rem; }
+  .steps li { margin-bottom: 0.7rem; padding-left: 0.3rem; }
+  .steps li::marker { font-family: var(--display); font-weight: 700; color: var(--hay); }
+  @media (max-width: 720px) { .hero { grid-template-columns: 1fr; } .hero-stamp-wrap { display: none; } }
+</style>

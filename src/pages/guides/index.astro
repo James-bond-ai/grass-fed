@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('articles')).sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime());
+const groups = [
+  { kind: 'guide', label: 'Buying guides' },
+  { kind: 'best', label: 'Best of' },
+  { kind: 'compare', label: 'Comparisons' },
+  { kind: 'review', label: 'Company profiles' },
+];
+---
+<Base title="Grass-fed buying guides" description="Plain-language guides to buying grass-fed beef, lamb and dairy: labels and certifications, bulk shares, delivery services and how to vet a farm.">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Guides</nav>
+  <h1>Buying guides</h1>
+  <p class="lede">What the labels mean, how to buy a share of a steer, and how the delivery companies compare. Every claim links to its source.</p>
+  {articles.length === 0 && <p class="empty">Our first guides are being written and checked. In the meantime, <a href="/farms/">find a farm near you</a>.</p>}
+  {groups.map((g) => {
+    const list = articles.filter((a) => a.data.kind === g.kind);
+    return list.length > 0 && (
+      <section>
+        <h2>{g.label}</h2>
+        <ul class="article-list">
+          {list.map((a) => <li><a href={`/guides/${a.id}/`}>{a.data.title}</a><p>{a.data.description}</p></li>)}
+        </ul>
+      </section>
+    );
+  })}
+</Base>

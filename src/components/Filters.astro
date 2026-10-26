@@ -1,0 +1,51 @@
+---
+import { SPECIES } from '../data/states.mjs';
+interface Props { listId: string; total: number }
+const { listId, total } = Astro.props;
+---
+<form class="filters" data-filter-for={listId} aria-label="Filter farms">
+  <div class="field">
+    <label for={`${listId}-species`}>What you want to buy</label>
+    <select id={`${listId}-species`} name="species">
+      <option value="">Anything</option>
+      {Object.entries(SPECIES).map(([k, v]) => <option value={k}>{v}</option>)}
+    </select>
+  </div>
+  <div class="checks">
+    <label><input type="checkbox" name="finish" /> Grass-finished only</label>
+    <label><input type="checkbox" name="certified" /> Third-party certified</label>
+    <label><input type="checkbox" name="bulk" /> Sells quarter or half shares</label>
+    <label><input type="checkbox" name="ships" /> Ships nationwide</label>
+    <label><input type="checkbox" name="pickup" /> Farm pickup or store</label>
+  </div>
+</form>
+<p class="result-count" aria-live="polite" data-count-for={listId}>{total} {total === 1 ? 'farm' : 'farms'}</p>
+<script>
+  for (const form of document.querySelectorAll<HTMLFormElement>('form[data-filter-for]')) {
+    const id = form.dataset.filterFor!;
+    const list = document.getElementById(id);
+    const count = document.querySelector(`[data-count-for="${id}"]`);
+    if (!list) continue;
+    const apply = () => {
+      const f = new FormData(form);
+      const species = f.get('species') as string;
+      let shown = 0;
+      for (const row of list.querySelectorAll<HTMLElement>('.farm-row')) {
+        const d = row.dataset;
+        const ok =
+          (!species || (d.species ?? '').split(' ').includes(species)) &&
+          (!f.get('finish') || d.finish === 'grass-finished') &&
+          (!f.get('certified') || d.certified === '1') &&
+          (!f.get('bulk') || d.bulk === '1') &&
+          (!f.get('ships') || d.ships === '1') &&
+          (!f.get('pickup') || d.pickup === '1');
+        row.hidden = !ok;
+        if (ok) shown++;
+      }
+      if (count) count.textContent = shown === 0
+        ? 'No farms match these filters. Clear one to see more.'
+        : `${shown} ${shown === 1 ? 'farm' : 'farms'}`;
+    };
+    form.addEventListener('change', apply);
+  }
+</script>

@@ -1,0 +1,43 @@
+---
+import Page from '../layouts/Page.astro';
+import { FRESH_DAYS } from '../data/format.mjs';
+import { INDEX_THRESHOLD } from '../data/states.mjs';
+---
+<Page title="How we verify farms and write guides" crumb="How we verify" description="How grassfed.food finds farms, checks each listing against the farm's own website, confirms certifications, and keeps listings current.">
+  <p class="lede">A directory is only useful if it's right. Here is exactly what our "Verified" stamp means, and what it doesn't.</p>
+
+  <h2>Where farms come from</h2>
+  <p>We find farms through certifier listings (American Grassfed Association, A Greener World), USDA local food data, state agriculture programs, web searches, and farms that ask to be listed. We record facts and link to sources. We don't copy descriptions or photos from other directories.</p>
+
+  <h2>What we check before listing a farm</h2>
+  <ol>
+    <li>The farm's own website is live and names the farm.</li>
+    <li>The website says what the farm sells and how people can buy it: on-farm store, pickup, farmers markets, CSA, shipping, or bulk shares.</li>
+    <li>We record how the farm describes its feeding, word for word, and the page where it says so.</li>
+    <li>For each certification the farm mentions, we look the farm up in the certifier's public listing. We show a certification only when we find it there.</li>
+  </ol>
+
+  <h2>What "Verified" means</h2>
+  <p>The date on each stamp is the last time we completed those checks. It confirms the farm exists and describes itself the way we show it. It does not mean we visited the farm or audited its practices. Only third-party certifiers do that, which is why we show certifications separately.</p>
+  <p>We recheck listings regularly. A listing not rechecked within {FRESH_DAYS} days shows "Due for recheck." If we can't confirm a farm for 12 months, we take the listing down.</p>
+
+  <h2>How we summarize feeding claims</h2>
+  <ul>
+    <li><strong>Grass-fed and grass-finished:</strong> the farm says animals eat grass and forage for their whole lives, including finishing.</li>
+    <li><strong>Grass-fed (finishing not stated):</strong> the farm says grass-fed but doesn't say how animals are finished.</li>
+    <li><strong>Grass-fed, grain-finished:</strong> the farm says animals receive grain before harvest.</li>
+    <li><strong>Partial grass diet:</strong> the farm describes a percentage or mixed diet.</li>
+    <li><strong>Pasture-raised:</strong> the farm describes pasture access without a grass-only diet. Common for pork and poultry.</li>
+  </ul>
+  <p>When the wording is ambiguous, we use the more cautious category.</p>
+
+  <h2>State pages</h2>
+  <p>A state guide is shown to search engines once it has at least {INDEX_THRESHOLD} verified farms. Until then you can still browse it, and we keep adding farms.</p>
+
+  <h2>How we write guides and comparisons</h2>
+  <p>Our guides are researched and drafted with the help of AI tools, then checked against the sources linked at the end of every article. Every factual claim needs a source. We don't make health claims about grass-fed food, and when we mention nutrition research we say how large the differences actually are.</p>
+  <p>Comparisons of delivery companies use each company's published prices, sourcing statements and certifications. We haven't taste-tested the products, and every comparison says so.</p>
+
+  <h2>Independence</h2>
+  <p>Farms can't pay to be listed or to rank higher. Some guides contain paid links, which never affect the directory or what we write. <a href="/disclosure/">How we make money</a></p>
+</Page>

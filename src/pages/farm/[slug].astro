@@ -1,0 +1,109 @@
+---
+import Base from '../../layouts/Base.astro';
+import Stamp from '../../components/Stamp.astro';
+import FarmRow from '../../components/FarmRow.astro';
+import { STATE_BY_ABBR, SPECIES, FEEDING, CHANNELS, CERTIFICATIONS } from '../../data/states.mjs';
+import { loadPublishedFarms } from '../../data/farms.mjs';
+import { fmtDate } from '../../data/format.mjs';
+
+export function getStaticPaths() {
+  const all = loadPublishedFarms();
+  return all.map((f) => ({ params: { slug: f.slug }, props: { farm: f, all } }));
+}
+const { farm, all } = Astro.props;
+const st = STATE_BY_ABBR[farm.state];
+const certs = (farm.certifications ?? []).filter((c) => CERTIFICATIONS[c.program]);
+const claim = farm.feeding_claim ?? { category: 'unknown' };
+const nearby = all.filter((f) => f.state === farm.state && f.slug !== farm.slug).slice(0, 5);
+const host = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return u; } };
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': farm.address_public ? 'LocalBusiness' : 'Organization',
+    name: farm.farm_name,
+    url: farm.website,
+    ...(farm.phone ? { telephone: farm.phone } : {}),
+    address: {
+      '@type': 'PostalAddress',
+      ...(farm.address_public && farm.address ? { streetAddress: farm.address } : {}),
+      addressLocality: farm.city,
+      addressRegion: farm.state,
+      ...(farm.zip ? { postalCode: farm.zip } : {}),
+      addressCountry: 'US',
+    },
+    ...(farm.lat && farm.lng ? { geo: { '@type': 'GeoCoordinates', latitude: farm.lat, longitude: farm.lng } } : {}),
+    ...(farm.social_urls?.length ? { sameAs: farm.social_urls } : {}),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://grassfed.food/' },
+      { '@type': 'ListItem', position: 2, name: st.name, item: `https://grassfed.food/farms/${st.slug}/` },
+      { '@type': 'ListItem', position: 3, name: farm.farm_name, item: `https://grassfed.food/farm/${farm.slug}/` },
+    ],
+  },
+];
+const species = (farm.species ?? []).map((s) => SPECIES[s] ?? s);
+const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.length ? ` sells ${species.slice(0, 3).join(', ').toLowerCase()}` : ''}. Feeding claims, certifications and how to buy, last checked ${fmtDate(farm.last_verified_at)}.`;
+---
+<Base title={`${farm.farm_name}, ${farm.city}, ${st.abbr}`} description={description.slice(0, 165)} jsonLd={jsonLd}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/farms/">Farms</a> / <a href={`/farms/${st.slug}/`}>{st.name}</a> / {farm.farm_name}</nav>
+  <div class="head">
+    <div>
+      <h1>{farm.farm_name}</h1>
+      <p class="lede">{farm.city}, {st.name}</p>
+    </div>
+    <Stamp date={farm.last_verified_at} />
+  </div>
+
+  <section class="prose">
+    <h2>How the farm describes its feeding</h2>
+    {claim.verbatim ? (
+      <>
+        <p class="claim">"{claim.verbatim}"</p>
+        <p class="small muted">Quoted from {claim.source_url ? <a href={claim.source_url} rel="nofollow">{host(claim.source_url)}</a> : 'the farm'}. Our summary: {FEEDING[claim.category] ?? FEEDING.unknown}. {certs.length ? '' : 'Farm-reported; not independently certified.'}</p>
+      </>
+    ) : (
+      <p>The farm's website doesn't describe its feeding in detail. Ask the farm directly how animals are fed and finished.</p>
+    )}
+
+    <h2>Certifications</h2>
+    {certs.length ? (
+      <ul>
+        {certs.map((c) => (
+          <li><strong>{CERTIFICATIONS[c.program].name}</strong>. Confirmed in the <a href={c.evidence_url} rel="nofollow">certifier's listing</a> on {fmtDate(c.verified_on)}.</li>
+        ))}
+      </ul>
+    ) : (
+      <p>We didn't find this farm in any certifier's public listing. That doesn't mean its practices fall short; many small farms sell direct without certification. <a href="/certifications/">What the certifications mean</a></p>
+    )}
+
+    <h2>What they sell and how to buy</h2>
+    <dl class="facts">
+      {species.length > 0 && <><dt>Animals</dt><dd>{species.join(', ')}</dd></>}
+      {farm.products?.length > 0 && <><dt>Products</dt><dd>{farm.products.join(', ')}</dd></>}
+      <dt>Bulk shares</dt><dd>{farm.bulk_shares ? 'Sells quarter, half or whole animals' : 'Not offered or not stated'}</dd>
+      {farm.sales_channels?.length > 0 && <><dt>Ways to buy</dt><dd>{farm.sales_channels.map((c) => CHANNELS[c] ?? c).join(', ')}</dd></>}
+      {farm.farmers_markets?.length > 0 && <><dt>Farmers markets</dt><dd>{farm.farmers_markets.join(', ')}</dd></>}
+      <dt>Website</dt><dd><a href={farm.website} rel="nofollow">{host(farm.website)}</a></dd>
+      {farm.ordering_url && <><dt>Order online</dt><dd><a href={farm.ordering_url} rel="nofollow">{host(farm.ordering_url)}</a></dd></>}
+      {farm.phone && <><dt>Phone</dt><dd><a href={`tel:${farm.phone.replace(/[^\d+]/g, '')}`}>{farm.phone}</a></dd></>}
+      {farm.address_public && farm.address && <><dt>Address</dt><dd>{farm.address}, {farm.city}, {farm.state} {farm.zip}</dd></>}
+    </dl>
+    <p class="small muted">Last checked against the farm's website on {fmtDate(farm.last_verified_at)}. Products, prices and availability change; confirm with the farm before you buy. Something wrong? <a href="/corrections/">Report a correction</a>.</p>
+  </section>
+
+  {nearby.length > 0 && (
+    <section>
+      <h2>More farms in {st.name}</h2>
+      <ul class="farm-list">{nearby.map((f) => <FarmRow farm={f} showState={false} />)}</ul>
+      <p><a href={`/farms/${st.slug}/`}>All {st.name} farms</a></p>
+    </section>
+  )}
+</Base>
+<style>
+  .head { display: flex; justify-content: space-between; align-items: flex-start; gap: 1.5rem; flex-wrap: wrap; }
+  .head .stamp { font-size: 1.1rem; margin-top: 0.5rem; }
+</style>

@@ -1,0 +1,10 @@
+---
+import { fmtDate, daysSince, FRESH_DAYS } from '../data/format.mjs';
+interface Props { date: string; class?: string }
+const { date, class: cls = '' } = Astro.props;
+const stale = daysSince(date) > FRESH_DAYS;
+---
+<span class={`stamp ${stale ? 'stale' : ''} ${cls}`} title="Date we last checked this listing against the farm's own website">
+  <b>{stale ? 'Due for recheck' : 'Verified'}</b>
+  <small>{fmtDate(date)}</small>
+</span>

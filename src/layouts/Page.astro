@@ -1,0 +1,12 @@
+---
+import Base from './Base.astro';
+interface Props { title: string; description: string; crumb?: string }
+const { title, description, crumb } = Astro.props;
+---
+<Base title={title} description={description}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / {crumb ?? title}</nav>
+  <article class="prose">
+    <h1>{title}</h1>
+    <slot />
+  </article>
+</Base>

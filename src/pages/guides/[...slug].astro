@@ -1,0 +1,61 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+import { fmtDate } from '../../data/format.mjs';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((a) => ({ params: { slug: a.id }, props: { article: a } }));
+}
+const { article } = Astro.props;
+const { Content } = await render(article);
+const d = article.data;
+const isComparison = d.kind !== 'guide';
+const url = `https://grassfed.food/guides/${article.id}/`;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: d.title,
+    description: d.description,
+    datePublished: d.published.toISOString().slice(0, 10),
+    dateModified: d.updated.toISOString().slice(0, 10),
+    author: { '@type': 'Organization', name: 'grassfed.food', url: 'https://grassfed.food/about/' },
+    publisher: { '@type': 'Organization', name: 'grassfed.food', url: 'https://grassfed.food/' },
+    mainEntityOfPage: url,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://grassfed.food/' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://grassfed.food/guides/' },
+      { '@type': 'ListItem', position: 3, name: d.title, item: url },
+    ],
+  },
+];
+---
+<Base title={d.title} description={d.description} jsonLd={jsonLd}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/guides/">Guides</a></nav>
+  <article class="prose">
+    <h1>{d.title}</h1>
+    <p class="muted small">
+      By the grassfed.food editors. Updated {fmtDate(d.updated)}{d.updated.getTime() !== d.published.getTime() && <>, first published {fmtDate(d.published)}</>}.
+    </p>
+    {d.affiliate && (
+      <p class="disclosure"><strong>We earn commissions on some links in this article.</strong> If you buy through a link marked "paid link," we may be paid by the seller at no extra cost to you. Sellers can't pay for placement or influence what we write. <a href="/disclosure/">How we make money</a></p>
+    )}
+    {isComparison && (
+      <p class="disclosure method-note">This comparison is based on each company's published information: prices, sourcing statements, and third-party certifications. We have not taste-tested these products. <a href="/methodology/">Our method</a></p>
+    )}
+    <Content />
+    <h2>Sources</h2>
+    <ol class="small">
+      {d.sources.map((s) => <li><a href={s.url} rel="nofollow">{s.title}</a></li>)}
+    </ol>
+    <p class="small muted">Spotted an error? <a href="/corrections/">Report a correction</a>.</p>
+  </article>
+</Base>
+<style>
+  .method-note { background: var(--paper-2); border-left-color: var(--pasture); }
+</style>

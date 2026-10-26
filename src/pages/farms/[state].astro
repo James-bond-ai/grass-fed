@@ -1,0 +1,84 @@
+---
+import Base from '../../layouts/Base.astro';
+import FarmRow from '../../components/FarmRow.astro';
+import Filters from '../../components/Filters.astro';
+import { STATES, INDEX_THRESHOLD, SPECIES } from '../../data/states.mjs';
+import { loadPublishedFarms, farmsByState } from '../../data/farms.mjs';
+import { fmtDate } from '../../data/format.mjs';
+
+export function getStaticPaths() {
+  return STATES.map((s) => ({ params: { state: s.slug }, props: { st: s } }));
+}
+const { st } = Astro.props;
+const farms = farmsByState(loadPublishedFarms())[st.abbr] ?? [];
+const n = farms.length;
+const indexable = n >= INDEX_THRESHOLD;
+const finished = farms.filter((f) => f.feeding_claim?.category === 'grass-finished').length;
+const certified = farms.filter((f) => (f.certifications ?? []).length).length;
+const bulk = farms.filter((f) => f.bulk_shares).length;
+const ships = farms.filter((f) => (f.sales_channels ?? []).includes('ships-nationwide')).length;
+const latest = farms.map((f) => f.last_verified_at).sort().at(-1);
+const speciesCount: Record<string, number> = {};
+for (const f of farms) for (const s of f.species ?? []) speciesCount[s] = (speciesCount[s] ?? 0) + 1;
+const topSpecies = Object.entries(speciesCount).sort((a, b) => b[1] - a[1]).slice(0, 4);
+
+const title = `Grass-fed beef and dairy farms in ${st.name}`;
+const description = n
+  ? `${n} verified ${st.name} farms selling grass-fed meat and dairy. Filter by grass-finished, certification, bulk shares and shipping. Last checked ${latest ? fmtDate(latest) : ''}.`
+  : `Grass-fed meat and dairy farms in ${st.name}. We are verifying farms in this state now; check back soon or list your farm.`;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://grassfed.food/' },
+      { '@type': 'ListItem', position: 2, name: 'Farms', item: 'https://grassfed.food/farms/' },
+      { '@type': 'ListItem', position: 3, name: st.name, item: `https://grassfed.food/farms/${st.slug}/` },
+    ],
+  },
+  ...(n
+    ? [{
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: title,
+        itemListElement: farms.map((f, i) => ({ '@type': 'ListItem', position: i + 1, url: `https://grassfed.food/farm/${f.slug}/`, name: f.farm_name })),
+      }]
+    : []),
+];
+---
+<Base title={title} description={description} noindex={!indexable} jsonLd={jsonLd}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/farms/">Farms</a> / {st.name}</nav>
+  <h1>{title}</h1>
+  {n > 0 ? (
+    <>
+      <p class="lede">
+        {n} verified {n === 1 ? 'farm' : 'farms'} in {st.name}
+        {topSpecies.length > 0 && <> selling {topSpecies.map(([k]) => (SPECIES[k] ?? k).toLowerCase()).join(', ')}</>}.
+        {latest && <> Last checked {fmtDate(latest)}.</>}
+      </p>
+      <dl class="state-facts">
+        <div><dt>Say grass-finished</dt><dd>{finished}</dd></div>
+        <div><dt>Third-party certified</dt><dd>{certified}</dd></div>
+        <div><dt>Sell quarter or half shares</dt><dd>{bulk}</dd></div>
+        <div><dt>Ship nationwide</dt><dd>{ships}</dd></div>
+      </dl>
+      <Filters listId="farms" total={n} />
+      <ul class="farm-list" id="farms">
+        {farms.map((f) => <FarmRow farm={f} showState={false} />)}
+      </ul>
+    </>
+  ) : (
+    <div class="empty">
+      <p><strong>We haven't verified any {st.name} farms yet.</strong></p>
+      <p>We add farms every week, starting with the states where we find the most certified producers. If you raise grass-fed animals in {st.name}, <a href="/list-your-farm/">list your farm</a> and we'll check it first.</p>
+      <p><a href="/farms/">Browse other states</a></p>
+    </div>
+  )}
+  <p class="small muted" style="margin-top:2rem">Feeding descriptions are quoted from each farm's website. Certifications are shown only when we found the farm in the certifier's own listing. <a href="/methodology/">How we verify</a></p>
+</Base>
+<style>
+  .state-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin: 1.5rem 0 0; }
+  .state-facts div { border-top: 3px solid var(--clover); padding-top: 0.5rem; }
+  .state-facts dt { font-size: 0.9rem; color: var(--ink-soft); }
+  .state-facts dd { margin: 0; font-family: var(--display); font-weight: 700; font-size: 2rem; color: var(--pasture-deep); }
+</style>

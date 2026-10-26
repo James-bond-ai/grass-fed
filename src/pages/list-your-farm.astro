@@ -1,0 +1,14 @@
+---
+import Page from '../layouts/Page.astro';
+const formUrl = 'https://github.com/James-bond-ai/grass-fed/issues/new?template=list-your-farm.yml';
+---
+<Page title="List your farm" description="Add your grass-fed farm to grassfed.food for free. Tell us about your farm and we'll verify it against your website.">
+  <p class="lede">Listing is free, and we never charge farms for placement.</p>
+  <h2>Who we list</h2>
+  <p>US farms and ranches that sell grass-fed or pasture-raised meat, eggs or dairy directly to the public: from the farm, at markets, through a CSA or meat share, or by shipping.</p>
+  <h2>What we need</h2>
+  <p>A website (or a public farm page) that says what you sell, how people can buy, and how your animals are fed. We quote your own wording about feeding, so make sure it's on your site. If you're certified, we'll confirm it in your certifier's public listing.</p>
+  <h2>How to apply</h2>
+  <p><a class="btn" href={formUrl}>Submit your farm</a></p>
+  <p class="small muted">The form opens on GitHub, where our directory is maintained, and needs a free GitHub account. We review submissions in the order they arrive, usually within a week.</p>
+</Page>
