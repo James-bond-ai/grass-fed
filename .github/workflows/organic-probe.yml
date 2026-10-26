@@ -7,7 +7,7 @@ on:
     paths: ['scripts/organic/probe.mjs', '.github/workflows/organic-probe.yml']
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   probe:
@@ -22,5 +22,14 @@ jobs:
           for u in "https://organic.ams.usda.gov/integrity/" "https://organic.ams.usda.gov/integrity/Reports/DataHistory.aspx" "https://organic.ams.usda.gov/integrity/api/" ; do
             echo "== $u"; curl -sS -L -o /dev/null -w "%{http_code} %{content_type} %{url_effective}\n" "$u" || true
           done
-      - uses: actions/upload-artifact@v4
-        with: { name: probe, path: probe.json }
+      - name: Save results to the organic-data branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p /tmp/out && cp probe.json /tmp/out/
+          git fetch origin organic-data || true
+          git switch --orphan organic-data-tmp
+          git rm -rf --quiet . || true
+          cp /tmp/out/probe.json .
+          git add probe.json && git commit -m "Organic database probe results"
+          git push -f origin HEAD:organic-data
