@@ -1,0 +1,49 @@
+{
+  "id": "white-oak-pastures",
+  "slug": "white-oak-pastures",
+  "farm_name": "White Oak Pastures",
+  "city": "Bluffton",
+  "state": "GA",
+  "zip": "39824",
+  "address_public": true,
+  "address": "101 Church Street, Bluffton, Georgia 39824",
+  "website": "https://whiteoakpastures.com",
+  "phone": "(229) 641-2081",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "goat",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "grass-fed beef",
+    "lamb",
+    "goat",
+    "pork",
+    "chicken",
+    "turkey",
+    "bone broth",
+    "sausage",
+    "tallow"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "All cattle at White Oak Pastures are grass-fed and grass-finished.",
+    "source_url": "https://whiteoakpastures.com/collections/grassfed-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "https://whiteoakpastures.com/collections/grassfed-beef",
+  "data_source": "web-search",
+  "source_url": "https://whiteoakpastures.com/pages/about-us",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

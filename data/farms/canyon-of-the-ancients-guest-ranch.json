@@ -1,0 +1,49 @@
+{
+  "id": "canyon-of-the-ancients-guest-ranch",
+  "slug": "canyon-of-the-ancients-guest-ranch",
+  "farm_name": "Canyon of the Ancients Guest Ranch",
+  "city": "Cortez",
+  "state": "CO",
+  "zip": "81321",
+  "address_public": true,
+  "website": "https://canyonoftheancients.com/",
+  "phone": "(970) 565-4288",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "grass-fed beef",
+    "grass-fed lamb"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "All natural grass-fed beef and lamb raised at our Colorado ranch are available for purchase.",
+    "source_url": "https://canyonoftheancients.com/cortez-colorado-organic-food/"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/colorado/cortez/beef-1/canyon-of-the-ancients-guest-ranch/",
+      "verified_on": "2026-10-26"
+    },
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/colorado/cortez/beef-1/canyon-of-the-ancients-guest-ranch/",
+      "verified_on": "2026-10-26"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/colorado/cortez/beef-1/canyon-of-the-ancients-guest-ranch/",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "7950 County Rd G, Cortez, CO 81321"
+}

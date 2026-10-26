@@ -1,0 +1,37 @@
+{
+  "id": "lasater-grasslands-beef",
+  "slug": "lasater-grasslands-beef",
+  "farm_name": "Lasater Grasslands Beef",
+  "city": "Matheson",
+  "state": "CO",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.lgbeef.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "aged ground beef",
+    "beef sides"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "our cattle eat nothing but grasses and forbs, supplemented by hay and alfalfa pellets in the winter.",
+    "source_url": "https://www.lgbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://shop.lgbeef.com",
+  "data_source": "web-search",
+  "source_url": "https://www.audubon.org/news/audubon-certification-touts-s-w-lasater-ranch-colorado-beacon-grassland-birds",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

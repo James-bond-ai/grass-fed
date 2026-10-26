@@ -1,0 +1,48 @@
+{
+  "id": "hunter-cattle-company",
+  "slug": "hunter-cattle-company",
+  "farm_name": "Hunter Cattle Company",
+  "city": "Brooklet",
+  "state": "GA",
+  "zip": "30415",
+  "address_public": true,
+  "address": "934 Driggers Rd, Brooklet, GA 30415",
+  "website": "https://huntercattle.com",
+  "phone": "(912) 823-2333",
+  "social_urls": [
+    "https://www.facebook.com/HunterCattleCompany",
+    "https://www.instagram.com/huntercattle"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "grass-fed beef",
+    "pork",
+    "chicken",
+    "beef snacks",
+    "bone broth",
+    "sausage"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "On our farm, as well as our partnering farms, we raise and finish our cattle 100% grassfed, free to roam and graze.",
+    "source_url": "https://huntercattle.com/grassfed-beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://huntercattle.com/shop-hunter-cattle/",
+  "data_source": "web-search",
+  "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

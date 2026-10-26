@@ -1,0 +1,43 @@
+{
+  "id": "rafter-w-ranch",
+  "slug": "rafter-w-ranch",
+  "farm_name": "Rafter W Ranch",
+  "city": "Simla",
+  "state": "CO",
+  "zip": "",
+  "address_public": true,
+  "website": "https://rafterwranch.net/",
+  "phone": "(719) 541-1002",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "poultry"
+  ],
+  "products": [
+    "dry-aged beef",
+    "ground beef",
+    "lamb",
+    "chicken"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cows are never fed grain of any kind!",
+    "source_url": "https://rafterwranch.net/our-farm-protocols/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://app.barn2door.com/rafterwranch.net/all",
+  "data_source": "web-search",
+  "source_url": "https://www.cobeef.com/local-beef-directory",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "27178 State Hwy 86, Simla, Colorado"
+}

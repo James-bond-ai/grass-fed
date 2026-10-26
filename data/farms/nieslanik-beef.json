@@ -1,0 +1,42 @@
+{
+  "id": "nieslanik-beef",
+  "slug": "nieslanik-beef",
+  "farm_name": "Nieslanik Beef",
+  "city": "Carbondale",
+  "state": "CO",
+  "zip": "81623",
+  "address_public": true,
+  "website": "https://nieslanikbeef.com/",
+  "phone": "970-963-1644",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef cuts",
+    "whole and half beef",
+    "pork",
+    "whole turkey"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "We finish them on our unique mixture of homegrown grasses and grains.",
+    "source_url": "https://nieslanikbeef.com/cattle"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://nieslanikbeef.com/shop-all-products",
+  "data_source": "web-search",
+  "source_url": "https://www.cobeef.com/local-beef-directory",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published",
+  "address": "761 Ranch View Drive, Carbondale, CO 81623"
+}

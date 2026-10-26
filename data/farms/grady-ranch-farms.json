@@ -1,0 +1,42 @@
+{
+  "id": "grady-ranch-farms",
+  "slug": "grady-ranch-farms",
+  "farm_name": "Grady Ranch Farms",
+  "city": "Whigham",
+  "state": "GA",
+  "zip": "39897",
+  "address_public": true,
+  "address": "200 Grady Ranch Lane, Whigham, GA 39897",
+  "website": "https://www.gradyranchfarms.com",
+  "phone": "(229) 378-7674",
+  "social_urls": [
+    "https://www.facebook.com/gradyranchfarms/",
+    "https://www.instagram.com/gradyranch/"
+  ],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "beef cuts",
+    "lamb"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grady Ranch produces 100% Grassfed and Grass Finished Angus Beef.",
+    "source_url": "https://www.gradyranchfarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "ordering_url": "https://www.rhomarket.com/",
+  "data_source": "web-search",
+  "source_url": "https://www.gpb.org/blogs/fork-in-the-road/2024/09/05/fork-in-the-road-podcast-grady-ranch-farms",
+  "last_verified_at": "2026-10-26",
+  "verification_method": "auto",
+  "listing_status": "published"
+}
