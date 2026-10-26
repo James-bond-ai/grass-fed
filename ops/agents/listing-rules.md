@@ -88,6 +88,14 @@ Allowed values:
 
 Only include `phone`, `address` (with `address_public: true`) and `zip` if the farm publishes them on its own website. Leave optional fields empty rather than guessing. Never use em dashes in any field.
 
+## Photos
+
+Never copy photos from a farm's website or anywhere else. A listing may show photos only when the farm itself sent them and granted permission, usually through the "List your farm" form. Save them in `public/farm-photos/{slug}/` and add to the listing:
+
+```json
+"photos": [{ "src": "/farm-photos/{slug}/1.jpg", "alt": "Cattle grazing on the north pasture", "credit": "Farm name", "permission": { "granted_by": "Owner name", "date": "YYYY-MM-DD", "record_url": "link to the submission" } }]
+```
+
 ## Before finishing
 
 Run `node scripts/validate.mjs data/farms/{each file you wrote}.json` from the repo root and fix every error in your own files.

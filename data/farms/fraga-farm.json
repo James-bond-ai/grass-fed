@@ -38,6 +38,17 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://fragafarm.com/pages/visit-the-farm"
+  },
+  "dairy_products": [
+    "cheese",
+    "ice-cream"
+  ],
   "ordering_url": "https://fragafarm.com/collections/all",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/gales-creek/dairy-1/fraga-farmstead-creamery/",

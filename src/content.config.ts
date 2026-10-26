@@ -10,6 +10,9 @@ const articles = defineCollection({
     published: z.coerce.date(),
     updated: z.coerce.date(),
     affiliate: z.boolean().default(false),
+    image: z
+      .object({ src: z.string().url(), alt: z.string().min(10), credit: z.string(), credit_url: z.string().url() })
+      .optional(),
     sources: z
       .array(z.object({ title: z.string(), url: z.string().url() }))
       .min(1),

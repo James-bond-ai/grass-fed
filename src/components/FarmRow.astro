@@ -1,29 +1,42 @@
 ---
 import Stamp from './Stamp.astro';
-import { STATE_BY_ABBR, SPECIES, FEEDING, CERTIFICATIONS } from '../data/states.mjs';
+import { STATE_BY_ABBR, SPECIES, CERTIFICATIONS, DAIRY_PRODUCTS, isOrganic, sellsDairy, reach } from '../data/states.mjs';
 interface Props { farm: any; showState?: boolean }
 const { farm, showState = true } = Astro.props;
 const st = STATE_BY_ABBR[farm.state];
-const certs = (farm.certifications ?? []).filter((c) => CERTIFICATIONS[c.program]);
-const ships = (farm.sales_channels ?? []).includes('ships-nationwide');
-const pickup = (farm.sales_channels ?? []).some((c) => ['on-farm-store', 'farm-pickup'].includes(c));
+const certs = (farm.certifications ?? []).filter((c) => CERTIFICATIONS[c.program] && c.program !== 'usda-organic');
+const organic = isOrganic(farm);
+const dairy = sellsDairy(farm);
+const r = reach(farm);
+const ch = farm.sales_channels ?? [];
+const delivers = ch.includes('local-delivery') || r.localAreas.length > 0 || !!r.radius;
+const ships = r.nationwide || r.shipsTo.size > 0 || ch.includes('ships-regional');
+const pickup = ch.some((c) => ['on-farm-store', 'farm-pickup'].includes(c));
+const shipLabel = r.nationwide ? 'Ships nationwide' : r.shipsTo.size ? `Ships to ${r.shipsTo.size} ${r.shipsTo.size === 1 ? 'state' : 'states'}` : ships ? 'Ships regionally' : '';
 ---
 <li class="farm-row"
   data-species={(farm.species ?? []).join(' ')}
   data-finish={farm.feeding_claim?.category ?? 'unknown'}
   data-certified={certs.length ? '1' : '0'}
+  data-organic={organic ? '1' : '0'}
+  data-dairy={dairy ? '1' : '0'}
+  data-dairy-products={(farm.dairy_products ?? []).join(' ')}
   data-bulk={farm.bulk_shares ? '1' : '0'}
   data-ships={ships ? '1' : '0'}
+  data-delivers={delivers || ships ? '1' : '0'}
   data-pickup={pickup ? '1' : '0'}>
   <div>
     <h3><a href={`/farm/${farm.slug}/`}>{farm.farm_name}</a></h3>
     <p class="where">{farm.city}{showState && st ? `, ${st.name}` : ''}</p>
     <ul class="tags">
       {farm.feeding_claim?.category === 'grass-finished' && <li class="tag finish">Grass-finished</li>}
+      {organic && <li class="tag organic">Organic</li>}
       {certs.map((c) => <li class="tag cert">{CERTIFICATIONS[c.program].short}</li>)}
-      {(farm.species ?? []).slice(0, 4).map((s) => <li class="tag">{SPECIES[s] ?? s}</li>)}
+      {(farm.species ?? []).filter((s) => !s.startsWith('dairy-')).slice(0, 4).map((s) => <li class="tag">{SPECIES[s] ?? s}</li>)}
+      {dairy && <li class="tag dairy">{(farm.dairy_products ?? []).length ? (farm.dairy_products).slice(0, 3).map((d) => DAIRY_PRODUCTS[d] ?? d).join(', ') : 'Dairy'}</li>}
       {farm.bulk_shares && <li class="tag">Bulk shares</li>}
-      {ships && <li class="tag">Ships nationwide</li>}
+      {delivers && <li class="tag ship">Local delivery</li>}
+      {shipLabel && <li class="tag ship">{shipLabel}</li>}
     </ul>
   </div>
   <Stamp date={farm.last_verified_at} />

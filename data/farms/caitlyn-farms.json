@@ -37,6 +37,16 @@
     "Hendersonville Farmers Market"
   ],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Hendersonville Farmers Market, Saturdays May to October",
+      "Candler, pickup by appointment"
+    ],
+    "source_url": "https://beefandbobwhites.com/buy-beef"
+  },
   "ordering_url": "https://beefandbobwhites.com/buy-beef",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/mill-spring/beef-1/caitlyn-farms-sustainably-raised-beef/",

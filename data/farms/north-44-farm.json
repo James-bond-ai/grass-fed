@@ -42,12 +42,25 @@
     }
   ],
   "sales_channels": [
-    "ships-nationwide",
     "local-delivery",
     "farm-pickup"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Bend",
+      "Redmond",
+      "Sisters",
+      "Sunriver",
+      "Powell Butte",
+      "Tumalo"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://north44farm.com/pages/local-delivery-info"
+  },
   "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/bend/beef-1/north-44-farm/",

@@ -157,3 +157,30 @@ a.tile:hover { outline: 2px solid var(--hay); outline-offset: 1px; }
   .hero-stamp { animation: press 700ms cubic-bezier(.2,.9,.3,1.3) 250ms both; }
   @keyframes press { from { opacity: 0; transform: scale(1.4) rotate(-12deg); } to { opacity: 1; transform: scale(1) rotate(-3deg); } }
 }
+
+/* Tags added for organic, dairy and delivery */
+.tag.organic { background: #e6efd9; border-color: #b9cf98; }
+.tag.dairy { background: #eef2f6; border-color: #c9d4de; }
+.tag.ship { background: #fff; border-style: dashed; }
+
+/* Icons and illustration */
+.icon { display: block; color: var(--pasture); }
+.art-band { display: block; width: 100%; height: auto; margin: 0 0 1.5rem; }
+.species-row { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.75rem; }
+.species-row a { display: flex; flex-direction: column; align-items: center; gap: 0.4rem; padding: 1rem 0.5rem; border: 1px solid var(--rule); border-radius: var(--radius-md); background: #fff; text-decoration: none; color: var(--pasture-deep); font-family: var(--display); font-weight: 600; font-size: 1.05rem; }
+.species-row a:hover { border-color: var(--pasture); background: var(--paper-2); }
+.species-row small { font-family: var(--body); font-weight: 400; font-size: 0.8rem; color: var(--ink-soft); }
+
+/* Photos */
+.farm-photos { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.75rem; margin: 1rem 0 1.5rem; }
+.farm-photos figure { margin: 0; }
+.farm-photos img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius-md); display: block; }
+.farm-photos figcaption, .lead-image figcaption { font-size: 0.8rem; color: var(--ink-soft); margin-top: 0.3rem; }
+.lead-image { margin: 0 0 1.75rem; max-width: var(--measure); }
+.lead-image img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius-md); display: block; }
+
+/* Delivery block */
+.reach { border: 1px solid var(--rule); border-radius: var(--radius-md); padding: 1rem 1.25rem; background: #fff; margin: 1rem 0 1.5rem; }
+.reach dl { margin: 0; display: grid; grid-template-columns: minmax(120px, max-content) 1fr; gap: 0.5rem 1.25rem; }
+.reach dt { font-weight: 600; color: var(--pasture-deep); }
+.reach dd { margin: 0; }

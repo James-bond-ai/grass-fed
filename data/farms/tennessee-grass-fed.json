@@ -30,6 +30,17 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Within 95mi radius from Farm Store",
+      "Memphis, Knoxville and Chattanooga (long haul delivery)",
+      "Same day delivery in 37040, 37042 and 37043"
+    ],
+    "local_radius_miles": 95,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://tennesseegrassfed.com/pages/delivery-and-pick-up-options"
+  },
   "ordering_url": "https://tennesseegrassfed.com/pages/delivery-and-pick-up-options",
   "data_source": "state-program",
   "source_url": "https://picktnproducts.org/picktn-producers/picktn-listing.2726.html",

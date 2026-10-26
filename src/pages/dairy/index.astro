@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import FarmRow from '../../components/FarmRow.astro';
+import Filters from '../../components/Filters.astro';
+import Icon from '../../components/Icon.astro';
+import { STATES, sellsDairy, DAIRY_PRODUCTS } from '../../data/states.mjs';
+import { loadPublishedFarms } from '../../data/farms.mjs';
+
+const dairy = loadPublishedFarms().filter(sellsDairy);
+const byState: Record<string, number> = {};
+for (const f of dairy) byState[f.state] = (byState[f.state] ?? 0) + 1;
+const states = STATES.filter((s) => byState[s.abbr]).sort((a, b) => a.name.localeCompare(b.name));
+const productCount: Record<string, number> = {};
+for (const f of dairy) for (const p of f.dairy_products ?? []) productCount[p] = (productCount[p] ?? 0) + 1;
+---
+<Base title="Grass-fed dairy farms: milk, cheese and butter" description="US farms selling grass-fed and pasture-based milk, cheese, butter and yogurt direct from their own herds, with delivery and shipping details." noindex={dairy.length < 5}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Dairy</nav>
+  <div class="dairy-head">
+    <Icon name="dairy" size={56} />
+    <h1>Grass-fed dairy, straight from the farm</h1>
+  </div>
+  <p class="lede">Farms that milk their own cows, goats or sheep on pasture and sell milk, cheese, butter or yogurt to the public. {dairy.length} verified so far{states.length ? ` in ${states.length} ${states.length === 1 ? 'state' : 'states'}` : ''}.</p>
+  <p class="muted small">Grass-fed dairy has no federal definition, so check each farm's own description and any certification. Raw milk is legal to sell only in some states, and the rules differ widely.</p>
+  {states.length > 0 && (
+    <p class="state-pills">{states.map((s) => <a href={`/dairy/${s.slug}/`}>{s.name} <span>{byState[s.abbr]}</span></a>)}</p>
+  )}
+  {dairy.length ? (
+    <>
+      <Filters listId="dairy" total={dairy.length} mode="dairy" />
+      <ul class="farm-list" id="dairy">{dairy.map((f) => <FarmRow farm={f} />)}</ul>
+    </>
+  ) : (
+    <p class="empty">We're verifying our first grass-fed dairy farms now. <a href="/list-your-farm/">Run a grass-fed dairy? List your farm.</a></p>
+  )}
+</Base>
+<style>
+  .dairy-head { display: flex; align-items: center; gap: 1rem; }
+  .dairy-head h1 { margin: 0; }
+  .state-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .state-pills a { border: 1px solid var(--rule); border-radius: 999px; padding: 0.3em 0.9em; text-decoration: none; color: var(--pasture-deep); background: #fff; }
+  .state-pills a:hover { border-color: var(--pasture); }
+  .state-pills span { color: var(--ink-soft); font-size: 0.85em; margin-left: 0.25em; }
+</style>

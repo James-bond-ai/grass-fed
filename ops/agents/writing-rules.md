@@ -41,6 +41,20 @@ sources:
 
 Body in Markdown: start with a two or three sentence answer to the reader's question (no heading), then `##` sections. 1,200 to 2,000 words. Use a table when comparing three or more things. Link to `/farms/` where a reader would want to find a farm, `/certifications/` when labels come up, and other guides at `/guides/{slug}/` only if the file exists in `src/content/articles/`. No affiliate or tracking links. Don't add a sources section in the body; the page renders the frontmatter list.
 
+## Lead image (optional)
+
+A guide may have one stock photo at the top. Use only Unsplash or Pexels photos (both free for commercial use). Add to the frontmatter:
+
+```yaml
+image:
+  src: "https://images.unsplash.com/photo-...?w=1200&q=80"
+  alt: "What the photo shows, in plain words"
+  credit: "Photographer name on Unsplash"
+  credit_url: "https://unsplash.com/photos/..."
+```
+
+The photo must match the article honestly (no misleading scenes, no identifiable brands or people's faces). Never use photos from farm websites, news sites or image search results.
+
 ## Before finishing
 
 Run `node scripts/validate.mjs path/to/your-file.md` from the repo root and fix every error and warning.

@@ -27,6 +27,14 @@
   "sales_channels": ["on-farm-store", "local-delivery", "retail"],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["South Central Pennsylvania"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://applevalleycreamery.com/faq"
+  },
+  "dairy_products": ["milk", "raw-milk", "butter", "cream", "yogurt", "cheese"],
   "ordering_url": "https://applevalleycreamery.com/summary.php?go=products&cat=84",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/east-berlin/cheese-1/apple-valley-creamery-llc/",

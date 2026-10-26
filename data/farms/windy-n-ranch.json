@@ -45,7 +45,8 @@
   ],
   "sales_channels": [
     "farm-pickup",
-    "farmers-market"
+    "farmers-market",
+    "ships-regional"
   ],
   "farmers_markets": [
     "Ballard",
@@ -59,6 +60,21 @@
     "Madison Park"
   ],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [
+      "WA",
+      "OR",
+      "CA",
+      "AK"
+    ],
+    "pickup_locations": [
+      "Bellevue drop site (twice monthly)",
+      "Farmers markets by arrangement"
+    ],
+    "source_url": "https://windynranch.com/faqs/"
+  },
   "ordering_url": "https://app.barn2door.com/windyncustombutcher/all",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/ellensburg/beef-1/windy-n-ranch/",

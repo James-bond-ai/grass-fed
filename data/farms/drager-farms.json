@@ -32,6 +32,13 @@
   "sales_channels": ["farm-pickup"],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://dragerfarms.com/news/"
+  },
   "ordering_url": "https://dragerfarms.com/contact/",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/marietta-1/beef-1/drager-farms/",

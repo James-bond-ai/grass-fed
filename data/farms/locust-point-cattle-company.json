@@ -21,6 +21,13 @@
   "sales_channels": ["farmers-market", "local-delivery", "retail", "restaurants"],
   "farmers_markets": ["Central Market York"],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Central Market York, 34 W. Philadelphia St., York, PA"],
+    "source_url": "https://locustpointcattlecompany.com/find-us/"
+  },
   "ordering_url": "https://app.barn2door.com/locustpointcattlecompany/all",
   "data_source": "web-search",
   "source_url": "https://agreenerworld.org/?p=28591",

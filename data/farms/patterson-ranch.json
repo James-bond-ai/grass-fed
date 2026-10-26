@@ -29,6 +29,16 @@
     "Wolforth farmers market"
   ],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Wolforth Farmers Market"
+    ],
+    "source_url": "https://pattersonranch.net/order/"
+  },
+  "dairy_products": [],
   "ordering_url": "https://pattersonranch.net/order/",
   "data_source": "web-search",
   "source_url": "https://kfyo.com/ixp/190/p/buying-grass-fed-beef-lubbock/",

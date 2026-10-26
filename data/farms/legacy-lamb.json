@@ -39,6 +39,13 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.legacylamb.com/shop"
+  },
   "ordering_url": "https://www.legacylamb.com/shop",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/bellingham/lamb-and-mutton/legacy-lamb/",

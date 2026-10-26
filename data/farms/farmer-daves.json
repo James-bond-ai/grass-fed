@@ -37,6 +37,15 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Onslow County Farmers Market"
+    ],
+    "source_url": "https://www.farmerdavespork.com/place-an-order"
+  },
   "ordering_url": "https://www.farmerdavespork.com/place-an-order",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/kenansville/pork-1/farmer-daves-pork-shop/",

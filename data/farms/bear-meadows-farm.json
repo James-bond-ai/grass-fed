@@ -27,6 +27,14 @@
   "sales_channels": ["on-farm-store"],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.bear-meadows-farm.com/"
+  },
+  "dairy_products": ["raw-milk", "cheese"],
   "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/boalsburg/dairy-1/bear-meadows-farm/",

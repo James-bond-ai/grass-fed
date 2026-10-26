@@ -42,6 +42,18 @@
     "Ballard Farmers Market"
   ],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://fantellocreamery.com/where-to-buy"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "cheese",
+    "butter"
+  ],
   "ordering_url": "https://fantellocreamery.com/shop",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/enumclaw/cheese-1/fantello-farmstead-creamery/",

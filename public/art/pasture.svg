@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="t">
+  <title id="t">Cattle grazing on rolling pasture behind a wooden fence</title>
+  <defs>
+    <symbol id="cow" viewBox="0 0 100 60">
+      <path d="M14 21c0-6 5-9 11-9h44c5 0 9 3 11 6l7-4c4-2 9-1 10 3l-1 9c-1 4-5 5-9 4l-5-1-2 10c-1 3-3 4-5 4l-1 13h-4l-1-13H33l-1 13h-4l-1-13c-8-1-12-6-13-12z"/>
+      <path d="M14 21c-6 5-6 11-4 17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="calf" viewBox="0 0 100 60">
+      <path d="M22 26c0-5 4-8 9-8h32c4 0 7 2 9 5l6-3c4-1 7 0 8 3l-1 7c-1 3-4 4-7 3l-4-1-2 8c-1 2-2 3-4 3v12h-3l-1-12H36l-1 12h-3l-1-12c-6-1-9-5-9-10z"/>
+    </symbol>
+  </defs>
+  <circle cx="930" cy="120" r="70" fill="#f3e6c4"/>
+  <path d="M0 210 C 180 150 330 170 470 190 S 760 140 920 160 S 1120 190 1200 175 V380 H0Z" fill="#e3ecd0"/>
+  <path d="M0 255 C 160 215 300 235 460 245 S 740 205 900 225 S 1110 250 1200 238 V380 H0Z" fill="#b9d08d"/>
+  <g fill="#4a5a50" color="#4a5a50" opacity="0.55">
+    <use href="#cow" x="640" y="188" width="60" height="36"/>
+    <use href="#cow" x="760" y="196" width="52" height="31" transform="matrix(-1 0 0 1 1572 0)"/>
+  </g>
+  <path d="M0 300 C 200 270 380 285 560 292 S 900 268 1200 286 V380 H0Z" fill="#6f9a52"/>
+  <g fill="#1f4029" color="#1f4029">
+    <use href="#cow" x="250" y="232" width="120" height="72"/>
+    <use href="#calf" x="370" y="262" width="70" height="42" transform="matrix(-1 0 0 1 810 0)"/>
+    <use href="#cow" x="930" y="240" width="105" height="63" transform="matrix(-1 0 0 1 1965 0)"/>
+  </g>
+  <g stroke="#a87a14" stroke-width="5" stroke-linecap="round">
+    <path d="M0 336 H1200" stroke-width="4"/>
+    <path d="M0 356 H1200" stroke-width="4"/>
+    <path d="M60 318 V380 M220 318 V380 M380 318 V380 M540 318 V380 M700 318 V380 M860 318 V380 M1020 318 V380 M1180 318 V380"/>
+  </g>
+  <g stroke="#2f5d3a" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M110 372 l-4 -14 M116 372 l0 -17 M122 372 l5 -13 M460 372 l-5 -12 M466 372 l1 -16 M472 372 l6 -11 M800 372 l-4 -13 M806 372 l0 -16 M812 372 l5 -12 M1090 372 l-4 -14 M1096 372 l1 -17 M1102 372 l5 -12"/>
+  </g>
+</svg>

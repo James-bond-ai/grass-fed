@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import FarmRow from '../../components/FarmRow.astro';
 import Filters from '../../components/Filters.astro';
-import { STATES, INDEX_THRESHOLD, SPECIES } from '../../data/states.mjs';
+import { STATES, INDEX_THRESHOLD, SPECIES, servesState, isOrganic, sellsDairy } from '../../data/states.mjs';
 import { loadPublishedFarms, farmsByState } from '../../data/farms.mjs';
 import { fmtDate } from '../../data/format.mjs';
 
@@ -10,7 +10,11 @@ export function getStaticPaths() {
   return STATES.map((s) => ({ params: { state: s.slug }, props: { st: s } }));
 }
 const { st } = Astro.props;
-const farms = farmsByState(loadPublishedFarms())[st.abbr] ?? [];
+const all = loadPublishedFarms();
+const farms = farmsByState(all)[st.abbr] ?? [];
+const shipIn = all.filter((f) => f.state !== st.abbr && servesState(f, st.abbr));
+const organicN = farms.filter(isOrganic).length;
+const dairyN = farms.filter(sellsDairy).length;
 const n = farms.length;
 const indexable = n >= INDEX_THRESHOLD;
 const finished = farms.filter((f) => f.feeding_claim?.category === 'grass-finished').length;
@@ -61,6 +65,8 @@ const jsonLd = [
         <div><dt>Third-party certified</dt><dd>{certified}</dd></div>
         <div><dt>Sell quarter or half shares</dt><dd>{bulk}</dd></div>
         <div><dt>Ship nationwide</dt><dd>{ships}</dd></div>
+        <div><dt>Sell dairy</dt><dd>{dairyN}</dd></div>
+        <div><dt>USDA Organic</dt><dd>{organicN}</dd></div>
       </dl>
       <Filters listId="farms" total={n} />
       <ul class="farm-list" id="farms">
@@ -74,6 +80,15 @@ const jsonLd = [
       <p><a href="/farms/">Browse other states</a></p>
     </div>
   )}
+  {shipIn.length > 0 && (
+    <section id="ships-here">
+      <h2>Farms in other states that ship to {st.name}</h2>
+      <p class="muted">These farms say they ship to {st.name} or anywhere in the continental US. Check shipping costs and timing with each farm.</p>
+      <Filters listId="ship-in" total={shipIn.length} />
+      <ul class="farm-list" id="ship-in">{shipIn.map((f) => <FarmRow farm={f} />)}</ul>
+    </section>
+  )}
+  {dairyN > 0 && <p><a href={`/dairy/${st.slug}/`}>Grass-fed dairy farms in {st.name}</a></p>}
   <p class="small muted" style="margin-top:2rem">Feeding descriptions are quoted from each farm's website. Certifications are shown only when we found the farm in the certifier's own listing. <a href="/methodology/">How we verify</a></p>
 </Base>
 <style>

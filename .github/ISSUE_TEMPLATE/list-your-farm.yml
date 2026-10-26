@@ -32,6 +32,17 @@ body:
   - type: input
     id: certifications
     attributes: { label: Certifications, description: "For example AGA, Certified Grassfed by AGW, OPT, USDA Organic. We confirm each in the certifier's public listing." }
+  - type: textarea
+    id: photos
+    attributes:
+      label: Photos (optional)
+      description: "Drag up to 4 photos of your farm, animals or products into this box. Only send photos you took or own."
+  - type: checkboxes
+    id: photo_permission
+    attributes:
+      label: Photo permission
+      options:
+        - label: I own these photos and give grassfed.food permission to show them on my farm's listing, credited to my farm.
   - type: checkboxes
     id: consent
     attributes:

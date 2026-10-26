@@ -1,21 +1,33 @@
 ---
-import { SPECIES } from '../data/states.mjs';
-interface Props { listId: string; total: number }
-const { listId, total } = Astro.props;
+import { SPECIES, DAIRY_PRODUCTS } from '../data/states.mjs';
+interface Props { listId: string; total: number; mode?: 'all' | 'dairy' }
+const { listId, total, mode = 'all' } = Astro.props;
 ---
 <form class="filters" data-filter-for={listId} aria-label="Filter farms">
-  <div class="field">
-    <label for={`${listId}-species`}>What you want to buy</label>
-    <select id={`${listId}-species`} name="species">
-      <option value="">Anything</option>
-      {Object.entries(SPECIES).map(([k, v]) => <option value={k}>{v}</option>)}
-    </select>
-  </div>
+  {mode === 'dairy' ? (
+    <div class="field">
+      <label for={`${listId}-product`}>Product</label>
+      <select id={`${listId}-product`} name="product">
+        <option value="">Any dairy</option>
+        {Object.entries(DAIRY_PRODUCTS).map(([k, v]) => <option value={k}>{v}</option>)}
+      </select>
+    </div>
+  ) : (
+    <div class="field">
+      <label for={`${listId}-species`}>What you want to buy</label>
+      <select id={`${listId}-species`} name="species">
+        <option value="">Anything</option>
+        {Object.entries(SPECIES).map(([k, v]) => <option value={k}>{v}</option>)}
+      </select>
+    </div>
+  )}
   <div class="checks">
-    <label><input type="checkbox" name="finish" /> Grass-finished only</label>
-    <label><input type="checkbox" name="certified" /> Third-party certified</label>
-    <label><input type="checkbox" name="bulk" /> Sells quarter or half shares</label>
-    <label><input type="checkbox" name="ships" /> Ships nationwide</label>
+    <label><input type="checkbox" name="finish" /> Grass-finished</label>
+    <label><input type="checkbox" name="organic" /> Organic</label>
+    <label><input type="checkbox" name="certified" /> Grass-fed or welfare certified</label>
+    {mode !== 'dairy' && <label><input type="checkbox" name="dairy" /> Sells dairy</label>}
+    {mode !== 'dairy' && <label><input type="checkbox" name="bulk" /> Quarter or half shares</label>}
+    <label><input type="checkbox" name="delivers" /> Delivers or ships</label>
     <label><input type="checkbox" name="pickup" /> Farm pickup or store</label>
   </div>
 </form>
@@ -28,16 +40,20 @@ const { listId, total } = Astro.props;
     if (!list) continue;
     const apply = () => {
       const f = new FormData(form);
-      const species = f.get('species') as string;
+      const species = (f.get('species') as string) || '';
+      const product = (f.get('product') as string) || '';
       let shown = 0;
       for (const row of list.querySelectorAll<HTMLElement>('.farm-row')) {
         const d = row.dataset;
         const ok =
           (!species || (d.species ?? '').split(' ').includes(species)) &&
+          (!product || (d.dairyProducts ?? '').split(' ').includes(product)) &&
           (!f.get('finish') || d.finish === 'grass-finished') &&
+          (!f.get('organic') || d.organic === '1') &&
           (!f.get('certified') || d.certified === '1') &&
+          (!f.get('dairy') || d.dairy === '1') &&
           (!f.get('bulk') || d.bulk === '1') &&
-          (!f.get('ships') || d.ships === '1') &&
+          (!f.get('delivers') || d.delivers === '1') &&
           (!f.get('pickup') || d.pickup === '1');
         row.hidden = !ok;
         if (ok) shown++;

@@ -2,9 +2,10 @@
 import Base from '../../layouts/Base.astro';
 import Stamp from '../../components/Stamp.astro';
 import FarmRow from '../../components/FarmRow.astro';
-import { STATE_BY_ABBR, SPECIES, FEEDING, CHANNELS, CERTIFICATIONS } from '../../data/states.mjs';
+import { STATE_BY_ABBR, SPECIES, FEEDING, CHANNELS, CERTIFICATIONS, DAIRY_PRODUCTS, reach } from '../../data/states.mjs';
 import { loadPublishedFarms } from '../../data/farms.mjs';
 import { fmtDate } from '../../data/format.mjs';
+import { getCollection } from 'astro:content';
 
 export function getStaticPaths() {
   const all = loadPublishedFarms();
@@ -48,6 +49,11 @@ const jsonLd = [
   },
 ];
 const species = (farm.species ?? []).map((s) => SPECIES[s] ?? s);
+const r = reach(farm);
+const rawGuide = (await getCollection('articles')).some((a) => a.id === 'raw-milk-laws-by-state');
+const shipsList = [...r.shipsTo].map((a) => STATE_BY_ABBR[a]?.name ?? a);
+const hasReach = r.nationwide || shipsList.length || r.localAreas.length || r.radius || r.pickup.length;
+const photos = (farm.photos ?? []).filter((p) => p.permission);
 const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.length ? ` sells ${species.slice(0, 3).join(', ').toLowerCase()}` : ''}. Feeding claims, certifications and how to buy, last checked ${fmtDate(farm.last_verified_at)}.`;
 ---
 <Base title={`${farm.farm_name}, ${farm.city}, ${st.abbr}`} description={description.slice(0, 165)} jsonLd={jsonLd}>
@@ -60,6 +66,13 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
     <Stamp date={farm.last_verified_at} />
   </div>
 
+  {photos.length > 0 && (
+    <div class="farm-photos">
+      {photos.map((p) => (
+        <figure><img src={p.src} alt={p.alt} loading="lazy" width="640" height="480" /><figcaption>Photo: {p.credit}</figcaption></figure>
+      ))}
+    </div>
+  )}
   <section class="prose">
     <h2>How the farm describes its feeding</h2>
     {claim.verbatim ? (
@@ -82,10 +95,26 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
       <p>We didn't find this farm in any certifier's public listing. That doesn't mean its practices fall short; many small farms sell direct without certification. <a href="/certifications/">What the certifications mean</a></p>
     )}
 
+    <h2>Delivery, shipping and pickup</h2>
+    {hasReach ? (
+      <div class="reach">
+        <dl>
+          {r.localAreas.length > 0 && <><dt>Delivers to</dt><dd>{r.localAreas.join('; ')}</dd></>}
+          {r.radius && <><dt>Delivery range</dt><dd>Within about {r.radius} miles of the farm</dd></>}
+          <dt>Ships to</dt><dd>{r.nationwide ? 'Anywhere in the continental US' : shipsList.length ? shipsList.join(', ') : 'Does not ship, or not stated'}</dd>
+          {r.pickup.length > 0 && <><dt>Pickup</dt><dd>{r.pickup.join('; ')}</dd></>}
+        </dl>
+        {farm.delivery?.source_url && <p class="small muted" style="margin:0.75rem 0 0">From the farm's <a href={farm.delivery.source_url} rel="nofollow">delivery information</a>. Delivery areas and fees change; check with the farm.</p>}
+      </div>
+    ) : (
+      <p>The farm's website doesn't say where it delivers or ships. Contact the farm to ask.</p>
+    )}
+
     <h2>What they sell and how to buy</h2>
     <dl class="facts">
       {species.length > 0 && <><dt>Animals</dt><dd>{species.join(', ')}</dd></>}
       {farm.products?.length > 0 && <><dt>Products</dt><dd>{farm.products.join(', ')}</dd></>}
+      {farm.dairy_products?.length > 0 && <><dt>Dairy</dt><dd>{farm.dairy_products.map((d) => DAIRY_PRODUCTS[d] ?? d).join(', ')}{farm.dairy_products.includes('raw-milk') && <> (raw milk is legal to sell only in some states{rawGuide ? <>; <a href="/guides/raw-milk-laws-by-state/">see the rules</a></> : ''})</>}</dd></>}
       <dt>Bulk shares</dt><dd>{farm.bulk_shares ? 'Sells quarter, half or whole animals' : 'Not offered or not stated'}</dd>
       {farm.sales_channels?.length > 0 && <><dt>Ways to buy</dt><dd>{farm.sales_channels.map((c) => CHANNELS[c] ?? c).join(', ')}</dd></>}
       {farm.farmers_markets?.length > 0 && <><dt>Farmers markets</dt><dd>{farm.farmers_markets.join(', ')}</dd></>}

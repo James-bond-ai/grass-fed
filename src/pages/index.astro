@@ -1,6 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
 import TileMap from '../components/TileMap.astro';
+import Icon from '../components/Icon.astro';
+import { BROWSE } from '../data/browse.mjs';
 import { getCollection } from 'astro:content';
 import { STATES } from '../data/states.mjs';
 import { loadPublishedFarms, farmsByState } from '../data/farms.mjs';
@@ -10,6 +12,7 @@ const farms = loadPublishedFarms();
 const byState = farmsByState(farms);
 const counts = Object.fromEntries(Object.entries(byState).map(([k, v]) => [k, v.length]));
 const statesWithFarms = STATES.filter((s) => counts[s.abbr]).length;
+const browseCounts = Object.fromEntries(BROWSE.map((b) => [b.slug, farms.filter((f) => (f.species ?? []).some((s) => b.species.includes(s))).length]));
 const latestCheck = farms.map((f) => f.last_verified_at).sort().at(-1);
 const articles = (await getCollection('articles'))
   .sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime())
@@ -26,18 +29,19 @@ const jsonLd = {
   <section class="hero">
     <div>
       <h1>Grass-fed meat and dairy, from farms we've actually checked.</h1>
-      <p class="lede">Search US farms that sell beef, lamb, bison and milk raised on pasture. Each listing shows what the farm says about how its animals are fed, which certifications we confirmed, and the date we last checked.</p>
+      <p class="lede">Find US farms selling beef, lamb, bison, pork and milk raised on pasture. See how each farm feeds its animals, which certifications we confirmed, where it delivers, and the date we last checked.</p>
       <form class="state-jump" action="/farms/" method="get" id="state-jump">
-        <label for="state-select">Find farms in</label>
+        <label for="state-select">Where do you live?</label>
         <div class="row">
           <select id="state-select" name="state" required>
-            <option value="">Choose a state</option>
+            <option value="">Choose your state</option>
             {STATES.slice().sort((a, b) => a.name.localeCompare(b.name)).map((s) => (
               <option value={s.slug}>{s.name}{counts[s.abbr] ? ` (${counts[s.abbr]})` : ''}</option>
             ))}
           </select>
-          <button class="btn" type="submit">Show farms</button>
+          <button class="btn" type="submit">Find farms near me</button>
         </div>
+        <p class="small muted">Shows farms in your state, plus farms elsewhere that ship to you.</p>
       </form>
     </div>
     <div class="hero-stamp-wrap" aria-hidden="true">
@@ -46,6 +50,16 @@ const jsonLd = {
         <small>{latestCheck ? fmtDate(latestCheck) : 'every listing'}</small>
       </span>
     </div>
+  </section>
+  <img class="art-band hero-art" src="/art/pasture.svg" alt="" width="1200" height="380" />
+
+  <section>
+    <h2>What are you looking for?</h2>
+    <ul class="species-row">
+      {BROWSE.map((b) => (
+        <li><a href={b.slug === 'dairy' ? '/dairy/' : `/browse/${b.slug}/`}><Icon name={b.icon} size={44} />{b.label}<small>{browseCounts[b.slug]} {browseCounts[b.slug] === 1 ? 'farm' : 'farms'}</small></a></li>
+      ))}
+    </ul>
   </section>
 
   <section>
@@ -87,6 +101,7 @@ const jsonLd = {
 </script>
 
 <style>
+  .hero-art { margin-top: -0.5rem; max-height: 300px; object-fit: cover; object-position: bottom; }
   .hero { display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: center; padding-bottom: 1rem; }
   .hero h1 { max-width: 17ch; font-size: clamp(2.3rem, 6vw, 4rem); }
   .hero-stamp-wrap { padding: 1rem 2rem 0 0; }

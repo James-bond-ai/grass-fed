@@ -36,6 +36,18 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "King County",
+      "Pierce County",
+      "Thurston County",
+      "Lewis County"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://sasquatchfamilyfarms.com/contact/"
+  },
   "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/toledo-1/pork-1/sasquatch-family-farms/",

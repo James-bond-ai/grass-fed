@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import FarmRow from '../../components/FarmRow.astro';
+import Filters from '../../components/Filters.astro';
+import { STATES, INDEX_THRESHOLD, sellsDairy, servesState } from '../../data/states.mjs';
+import { loadPublishedFarms } from '../../data/farms.mjs';
+
+export function getStaticPaths() {
+  const all = loadPublishedFarms().filter(sellsDairy);
+  return STATES.filter((s) => all.some((f) => f.state === s.abbr)).map((s) => ({ params: { state: s.slug }, props: { st: s, all } }));
+}
+const { st, all } = Astro.props;
+const farms = all.filter((f) => f.state === st.abbr);
+const shipIn = all.filter((f) => f.state !== st.abbr && servesState(f, st.abbr));
+const title = `Grass-fed dairy farms in ${st.name}`;
+---
+<Base title={title} description={`${farms.length} verified ${st.name} farms selling grass-fed or pasture-based milk, cheese, butter or yogurt from their own herds.`} noindex={farms.length < INDEX_THRESHOLD}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/dairy/">Dairy</a> / {st.name}</nav>
+  <h1>{title}</h1>
+  <p class="lede">{farms.length} verified {farms.length === 1 ? 'farm' : 'farms'} in {st.name} selling dairy from their own herds. <a href={`/farms/${st.slug}/`}>All {st.name} farms</a></p>
+  <p class="muted small">Whether raw milk can be sold, and how, depends on {st.name} law. Confirm with the farm and the state agriculture department.</p>
+  <Filters listId="dairy" total={farms.length} mode="dairy" />
+  <ul class="farm-list" id="dairy">{farms.map((f) => <FarmRow farm={f} showState={false} />)}</ul>
+  {shipIn.length > 0 && (
+    <>
+      <h2>Dairy farms elsewhere that ship to {st.name}</h2>
+      <ul class="farm-list">{shipIn.map((f) => <FarmRow farm={f} />)}</ul>
+    </>
+  )}
+</Base>

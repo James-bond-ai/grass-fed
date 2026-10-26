@@ -43,6 +43,20 @@
     "Milwaukie Farmers Market"
   ],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Within 10 miles of the farm (Mulino, OR)",
+      "Portland area"
+    ],
+    "local_radius_miles": 10,
+    "ships_to": [],
+    "pickup_locations": [
+      "Oregon City Farmers Market",
+      "PSU Farmers Market",
+      "Milwaukie Farmers Market"
+    ],
+    "source_url": "https://campfirefarms.com/policies/shipping-policy"
+  },
   "ordering_url": "https://campfirefarms.com/collections/all",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/mulino/pork-1/campfire-farms/",

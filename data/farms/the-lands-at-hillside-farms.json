@@ -27,6 +27,14 @@
   "sales_channels": ["on-farm-store"],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.hillsidefarms.org/mercantile"
+  },
+  "dairy_products": ["milk", "ice-cream"],
   "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/shavertown/dairy-1/the-lands-at-hillside-farms/",

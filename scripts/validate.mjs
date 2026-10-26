@@ -72,11 +72,23 @@ function checkFarm(file, f, { candidate = false } = {}) {
       const ch = f.sales_channels ?? [];
       if (st === 'nationwide' && !ch.includes('ships-nationwide')) err(file, 'delivery.ships_to is "nationwide" but sales_channels lacks ships-nationwide');
       if (ch.includes('ships-nationwide') && st !== undefined && st !== 'nationwide') err(file, 'sales_channels has ships-nationwide but delivery.ships_to is not "nationwide"');
+      if (ch.includes('ships-regional') && !(Array.isArray(st) && st.length)) warn(file, 'ships-regional channel but no states in delivery.ships_to');
       for (const k of ['local_areas', 'pickup_locations']) if (dv[k] !== undefined && !Array.isArray(dv[k])) err(file, `delivery.${k} must be a list`);
       if (dv.local_radius_miles != null && !(typeof dv.local_radius_miles === 'number' && dv.local_radius_miles > 0 && dv.local_radius_miles < 1000)) err(file, 'delivery.local_radius_miles must be a number of miles or null');
       if (dv.source_url && !isUrl(dv.source_url)) err(file, 'delivery.source_url must be a full URL');
     }
   } else if (!candidate && f.listing_status === 'published') warn(file, 'no delivery details yet');
+
+  // Photos: only the farm's own photos, stored in the repo, with a record of permission
+  for (const [i, ph] of (f.photos ?? []).entries()) {
+    const n = `photos[${i}]`;
+    if (!ph?.src?.startsWith(`/farm-photos/${slug}/`)) err(file, `${n}.src must be a file under /farm-photos/${slug}/`);
+    else if (!fs.existsSync(path.join(ROOT, 'public', ph.src))) err(file, `${n}.src file not found in public${ph.src}`);
+    if (!ph?.alt || ph.alt.length < 10) err(file, `${n}.alt must describe the photo`);
+    if (!ph?.credit) err(file, `${n}.credit is required`);
+    const pm = ph?.permission ?? {};
+    if (!pm.granted_by || !DATE.test(pm.date ?? '') || !pm.record_url) err(file, `${n}.permission needs granted_by, date (YYYY-MM-DD) and record_url (the submission or message granting permission)`);
+  }
 
   // Dairy
   if (f.dairy_products !== undefined) {
@@ -163,6 +175,12 @@ function checkArticle(file) {
   if (!Array.isArray(fm.sources) || fm.sources.length === 0) err(file, 'at least one source is required');
   else fm.sources.forEach((s, i) => { if (!s?.title || !isUrl(s?.url)) err(file, `source ${i + 1} needs a title and full URL`); });
 
+  if (fm.image) {
+    const h = hostOf(fm.image.src);
+    if (!['images.unsplash.com', 'images.pexels.com'].includes(h)) err(file, 'image.src must be from images.unsplash.com or images.pexels.com (free licensed stock); never use photos from farm or news sites');
+    if (!fm.image.credit || !isUrl(fm.image.credit_url)) err(file, 'image needs credit (photographer name) and credit_url (the photo page)');
+    if (!fm.image.alt || fm.image.alt.length < 10) err(file, 'image needs descriptive alt text');
+  }
   const text = `${m[1]}\n${body}`;
   if (EM_DASH.test(text)) err(file, 'contains an em dash; use a comma, colon, or period instead');
   const lines = body.split('\n');

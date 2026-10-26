@@ -28,10 +28,18 @@
   "certifications": [],
   "sales_channels": [
     "on-farm-store",
-    "retail"
+    "retail",
+    "ships-nationwide"
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://hickorynutgap.com/policies/shipping-policy"
+  },
   "ordering_url": "https://hickorynutgap.com/collections",
   "data_source": "web-search",
   "source_url": "https://hickorynutgap.com/",

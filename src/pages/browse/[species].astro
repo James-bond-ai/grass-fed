@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import FarmRow from '../../components/FarmRow.astro';
+import Filters from '../../components/Filters.astro';
+import Icon from '../../components/Icon.astro';
+import { BROWSE } from '../../data/browse.mjs';
+import { STATES } from '../../data/states.mjs';
+import { loadPublishedFarms } from '../../data/farms.mjs';
+
+export function getStaticPaths() {
+  return BROWSE.filter((b) => b.slug !== 'dairy').map((b) => ({ params: { species: b.slug }, props: { b } }));
+}
+const { b } = Astro.props;
+const farms = loadPublishedFarms().filter((f) => (f.species ?? []).some((s) => b.species.includes(s)));
+const nStates = new Set(farms.map((f) => f.state)).size;
+---
+<Base title={b.title} description={`${farms.length} verified US farms selling ${b.noun} raised on pasture. Filter by grass-finished, organic, delivery and shipping.`} noindex={farms.length < 5}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / {b.label}</nav>
+  <div class="browse-head"><Icon name={b.icon} size={56} /><h1>{b.title}</h1></div>
+  <p class="lede">{farms.length} verified {farms.length === 1 ? 'farm' : 'farms'} in {nStates} {nStates === 1 ? 'state' : 'states'} selling {b.noun}. {b.note}</p>
+  <Filters listId="browse" total={farms.length} />
+  <ul class="farm-list" id="browse">{farms.map((f) => <FarmRow farm={f} />)}</ul>
+</Base>
+<style>
+  .browse-head { display: flex; align-items: center; gap: 1rem; }
+  .browse-head h1 { margin: 0; }
+</style>

@@ -26,6 +26,14 @@
   "sales_channels": [],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.banderagrassland.com/"
+  },
+  "dairy_products": [],
   "ordering_url": "",
   "data_source": "web-search",
   "source_url": "https://theshelbyreport.com/tag/bandera-grassland/",

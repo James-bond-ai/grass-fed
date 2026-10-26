@@ -34,6 +34,13 @@
   ],
   "farmers_markets": [],
   "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://alluvialfarms.com/collections/shop-all-products"
+  },
   "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/everson/pork-1/alluvial-farms/",

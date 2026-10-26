@@ -43,6 +43,12 @@ const jsonLd = [
     <p class="muted small">
       By the grassfed.food editors. Updated {fmtDate(d.updated)}{d.updated.getTime() !== d.published.getTime() && <>, first published {fmtDate(d.published)}</>}.
     </p>
+    {d.image && (
+      <figure class="lead-image">
+        <img src={d.image.src} alt={d.image.alt} width="1200" height="675" />
+        <figcaption>Photo: <a href={d.image.credit_url} rel="nofollow">{d.image.credit}</a></figcaption>
+      </figure>
+    )}
     {AFFILIATES_ENABLED && d.affiliate && (
       <p class="disclosure"><strong>We earn commissions on some links in this article.</strong> If you buy through a link marked "paid link," we may be paid by the seller at no extra cost to you. Sellers can't pay for placement or influence what we write. <a href="/disclosure/">How we make money</a></p>
     )}

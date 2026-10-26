@@ -31,6 +31,18 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "North Coast Food Web, Astoria, OR",
+      "Food Roots, Tillamook, OR",
+      "Wilder Land and Sea, Portland, OR",
+      "Wild Natural Food Store, Manzanita, OR"
+    ],
+    "source_url": "https://nehalemriverranch.com/find-us/"
+  },
   "ordering_url": "https://app.barn2door.com/nehalemriverranch/all",
   "data_source": "web-search",
   "source_url": "https://nehalemriverranch.com/",

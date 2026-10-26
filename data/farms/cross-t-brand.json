@@ -36,6 +36,16 @@
     "Fulshear Farmers' Market"
   ],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Fulshear Farmers' Market (Saturday pickup)"
+    ],
+    "source_url": "https://waypointfarm.grazecart.com/locations?type=market"
+  },
+  "dairy_products": [],
   "ordering_url": "https://waypointfarm.grazecart.com",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/southwest/cross-t-brand-hallettsville-tx/",

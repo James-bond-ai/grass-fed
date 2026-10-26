@@ -34,6 +34,16 @@
   ],
   "farmers_markets": [],
   "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "High Country Food Hub, Wednesdays",
+      "Satellite pickups in Banner Elk, West Jefferson and Blowing Rock"
+    ],
+    "source_url": "https://www.atgfarm.com/csa"
+  },
   "ordering_url": "https://www.atgfarm.com/csa",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/zionville/beef-1/against-the-grain-farm/",
