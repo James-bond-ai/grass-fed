@@ -6,7 +6,7 @@ One entry per review, newest first: date, file, decision (published or returned)
 - Trigger: Patterson Ranch was labeled "partial grass diet" when its site sells both grass-finished and grain-finished beef. Fixed to `both`.
 - Method: every farm website crawled (up to 9 pages each, 163 of 164 captured; Malheur River by WebFetch), then reviewed by auditor agents that had not built the listings, then corrected by separate agents that re-checked each finding against the site before applying it.
 - Result before correction: 12 accurate (7%), 106 minor errors (65%), 46 major errors (28%).
-- Feeding labels changed: 33. Understated (grass-finished shown weaker): 20. Overstated or missing a grain-finished line: 8 (Arrowhead, Silo Springs, Tennessee Grass Fed, Falling Sun to `both`; Five Marys and Knowlan to grain-finished; Apple Valley and Sublime Organics to partial; Lifted Hearts to pasture-raised). Grain-finished farms that also sell grass-finished: 2 (Blackwater Pastures, Central Florida Beef to `both`).
+- Feeding labels changed: 33. Understated (shown weaker than the farm states): 22. Overstated or missing a grain-finished line: 9 (Arrowhead, Silo Springs, Tennessee Grass Fed, Falling Sun to `both`; Five Marys and Knowlan to grain-finished; Apple Valley and Sublime Organics to partial; Lifted Hearts to pasture-raised). Grain-finished farms that also sell grass-finished: 2 (Blackwater Pastures, Central Florida Beef to `both`).
 - Availability added (listing kept, status shown): 13 farms sold out, paused or on a waitlist.
 - Products from other farms moved out of the farm's own products into a "From other farms" note: 51 farms.
 - Unpublished: none. Every feeding claim was found on the farm's own site.
