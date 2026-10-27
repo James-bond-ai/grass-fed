@@ -1,0 +1,405 @@
+{
+ "_note": "Farms checked by hand against the USDA Organic Integrity snapshot. The matcher still auto-confirms exact matches but will not re-list these as possible matches.",
+ "reviewed": {
+  "7-star-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "against-the-grain-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "apple-valley-creamery": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "bean-hollow-grassfed": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "bear-meadows-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "black-dog-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "blackwater-pastures": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "blue-bear-farm-and-cattle-co": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "blue-ledge-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "blue-mountain-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "blue-pepper-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "bn-acres": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "canal-junction-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "canyon-of-the-ancients-guest-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "canyon-valley-provisions": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "cedar-mountain-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "central-florida-beef": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "clover-farms-of-florida": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "creekside-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "cross-t-brand": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "deep-roots-meat": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "delhi-sustainable-farms": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "eagles-wing-natural-bison": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "fantello-farmstead-creamery": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "farmer-daves": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "five-marys-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "fort-mccoy-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "glenview-acres": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "green-dirt-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "green-vista-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "greenacres-foundation": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "harmon-creek-farms": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "hickory-nut-gap": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "hidden-springs-creamery": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "holy-cow-beef": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "jasper-hill-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "kelley-country-creamery": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "kriemhild-dairy": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "larkin-valley-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "legacy-lamb": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "locust-point-cattle-company": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "lohof-grass-finished-beef": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "malheur-river-meats": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "marble-creek-farms": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "markegard-family-grass-fed": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "montana-brooks-beef": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "montana-ranchers-beef-company": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "morris-grassfed": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "nehalem-river-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "north-44-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "north-country-creamery": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "old-ford-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "paicines-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "painted-goat-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "parker-county-beef-company": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "pastured-life-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "patterson-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "pigeon-river-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "primal-pastures": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "rainbow-meadow-farms": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "richardson-farms": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "richardson-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "rocky-river-farms": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "rossotti-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "sequatchie-cove-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "sugar-house-creamery": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "sweet-grass-dairy-ga": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "sweet-grass-dairy": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "tennessee-grass-fed": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "the-high-lonesome-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "the-lands-at-hillside-farms": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "the-makers-meadow": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "uplands-cheese": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "valley-ridge-farms": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "valley-vision-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "vermont-shepherd": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "white-angus-ranch": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "white-clover-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "white-oak-pastures": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "wild-grown-farm": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  }
+ }
+}

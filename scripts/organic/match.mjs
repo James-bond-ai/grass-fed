@@ -17,6 +17,8 @@ const args = process.argv.slice(2);
 const dry = args.includes('--dry-run');
 const src = args.find((a) => a.endsWith('.json')) ?? path.join(ROOT, 'data/organic/us-operations.json');
 const data = JSON.parse(fs.readFileSync(src, 'utf8'));
+const reviewedPath = path.join(ROOT, 'data/organic/reviewed.json');
+const reviewed = fs.existsSync(reviewedPath) ? JSON.parse(fs.readFileSync(reviewedPath, 'utf8')).reviewed ?? {} : {};
 
 const STATE_NAMES = {
   alabama: 'AL', alaska: 'AK', arizona: 'AZ', arkansas: 'AR', california: 'CA', colorado: 'CO', connecticut: 'CT', delaware: 'DE', 'district of columbia': 'DC', florida: 'FL', georgia: 'GA', hawaii: 'HI', idaho: 'ID', illinois: 'IL', indiana: 'IN', iowa: 'IA', kansas: 'KS', kentucky: 'KY', louisiana: 'LA', maine: 'ME', maryland: 'MD', massachusetts: 'MA', michigan: 'MI', minnesota: 'MN', mississippi: 'MS', missouri: 'MO', montana: 'MT', nebraska: 'NE', nevada: 'NV', 'new hampshire': 'NH', 'new jersey': 'NJ', 'new mexico': 'NM', 'new york': 'NY', 'north carolina': 'NC', 'north dakota': 'ND', ohio: 'OH', oklahoma: 'OK', oregon: 'OR', pennsylvania: 'PA', 'rhode island': 'RI', 'south carolina': 'SC', 'south dakota': 'SD', tennessee: 'TN', texas: 'TX', utah: 'UT', vermont: 'VT', virginia: 'VA', washington: 'WA', 'west virginia': 'WV', wisconsin: 'WI', wyoming: 'WY',
@@ -76,11 +78,10 @@ for (const f of fs.readdirSync(farmsDir).filter((n) => n.endsWith('.json'))) {
     }
     continue;
   }
-  // Possible matches: shared distinctive word in the same state, or same city.
-  const words = distinct;
-  const near = (exact.length ? exact : ops.filter((o) => certified(o.status) && o.names.some((n) => words.some((w) => n.split(' ').includes(w)))))
-    .filter((o) => !farm.city || !o.city || o.city.toLowerCase() === farm.city.toLowerCase() || words.length)
-    .slice(0, 5);
+  // Possible matches need a same-name record that failed the livestock check, or a record in the
+  // same town sharing a distinctive name word. Farms already reviewed by hand are not re-listed.
+  if (reviewed[farm.slug]) continue;
+  const near = exact.length ? exact : ops.filter((o) => sameCity(o) && o.names.some((n) => distinct.some((w) => n.split(' ').includes(w)))).slice(0, 5);
   if (near.length) possible.push({ farm: farm.farm_name, slug: farm.slug, state: farm.state, city: farm.city, near: near.map((o) => `${o.name} (${o.city || '?'}; operation ${o.status}; livestock ${o.livestock || 'not certified'}; ${o.certifier})`) });
 }
 
