@@ -12,11 +12,14 @@
     "https://www.instagram.com/sugarhousecreamery"
   ],
   "species": [
-    "dairy-cow"
+    "dairy-cow",
+    "beef"
   ],
   "products": [
     "raw milk",
-    "farmstead cheese"
+    "farmstead cheese",
+    "veal",
+    "beef"
   ],
   "feeding_claim": {
     "category": "percentage",
@@ -25,7 +28,9 @@
   },
   "certifications": [],
   "sales_channels": [
-    "on-farm-store"
+    "on-farm-store",
+    "retail",
+    "restaurants"
   ],
   "farmers_markets": [],
   "bulk_shares": false,
@@ -43,8 +48,9 @@
   "ordering_url": "",
   "data_source": "state-program",
   "source_url": "https://agriculture.ny.gov/dairy/raw-milk-permit-holders",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "18 Sugar House Way, Upper Jay, NY 12987"
+  "address": "18 Sugar House Way, Upper Jay, NY 12987",
+  "resold_note": "The farm store also sells meats, eggs, vegetables and bread from other local farms and makers."
 }

@@ -21,7 +21,8 @@
   ],
   "products": [
     "beef cuts",
-    "lamb",
+    "bulk beef bundles (1/8, 1/4, 1/2)",
+    "lamb (including half and whole lamb bundles)",
     "chicken",
     "turkey",
     "pork"
@@ -40,12 +41,10 @@
     "restaurants"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [
-      "Dayton",
-      "Columbus",
-      "Cincinnati"
+      "Ohio"
     ],
     "local_radius_miles": null,
     "ships_to": [],
@@ -56,7 +55,8 @@
   "ordering_url": "https://themakersmeadow.com/store",
   "data_source": "web-search",
   "source_url": "https://themakersmeadow.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Also sells wild-caught Alaskan seafood and pet food."
 }

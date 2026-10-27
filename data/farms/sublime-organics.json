@@ -8,23 +8,25 @@
   "address": "7908 Boedigheimer Road SE, Sublimity, OR 97385",
   "address_public": true,
   "website": "https://www.sublimeorganicsllc.com/",
-  "phone": "",
+  "phone": "907-306-4342",
   "social_urls": [
     "https://www.instagram.com/sublimeorganics/",
     "https://www.facebook.com/sublimeorganicsllc"
   ],
   "species": [
-    "lamb"
+    "lamb",
+    "goat",
+    "poultry"
   ],
   "products": [
     "lamb",
-    "whole lamb",
-    "half lamb"
+    "goat",
+    "Muscovy duck"
   ],
   "feeding_claim": {
-    "category": "pastured",
-    "verbatim": "Lambs are raised on pasture grass.",
-    "source_url": "https://www.sublimeorganicsllc.com/"
+    "category": "percentage",
+    "verbatim": "Our USDA Certified Organic and organically raised livestock graze side-by-side on USDA Certified Organic pasture grass and are fed USDA Certified Organic hay and GMO-free grains.",
+    "source_url": "https://www.sublimeorganicsllc.com/our-products"
   },
   "certifications": [
     {
@@ -34,11 +36,11 @@
     }
   ],
   "sales_channels": [
-    "on-farm-store",
-    "farm-pickup"
+    "farm-pickup",
+    "online-order"
   ],
   "farmers_markets": [],
-  "bulk_shares": true,
+  "bulk_shares": false,
   "delivery": {
     "local_areas": [],
     "local_radius_miles": null,
@@ -49,7 +51,7 @@
   "ordering_url": "https://www.sublimeorganicsllc.com/order-online",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/sublimity/goat-1/sublime-organics-llc/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

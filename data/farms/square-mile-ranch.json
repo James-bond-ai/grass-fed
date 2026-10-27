@@ -7,7 +7,7 @@
   "zip": "",
   "address_public": false,
   "website": "https://www.squaremileranch.com/",
-  "phone": "",
+  "phone": "(805) 798-3314",
   "social_urls": [],
   "species": [
     "beef",
@@ -21,8 +21,7 @@
     "heritage pork",
     "lamb",
     "chicken",
-    "duck",
-    "tallow"
+    "duck"
   ],
   "feeding_claim": {
     "category": "grass-finished",
@@ -31,6 +30,7 @@
   },
   "certifications": [],
   "sales_channels": [
+    "farm-pickup",
     "local-delivery"
   ],
   "farmers_markets": [],
@@ -40,21 +40,22 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
+      "the Ranch in Lostine, OR",
       "Portland, OR",
       "Walla Walla, WA",
       "Tri-Cities, WA",
       "Spokane, WA",
-      "Seattle, WA",
+      "Seattle, WA (annual)",
       "Boise, ID",
-      "Ketchum, ID",
-      "Ojai, CA (yearly trip)"
+      "Ketchum, ID (annual)",
+      "Ojai, CA (annual)"
     ],
     "source_url": "https://www.squaremileranch.com/where-we-deliver"
   },
   "ordering_url": "https://www.squaremileranch.com/main-shop",
   "data_source": "web-search",
   "source_url": "https://www.squaremileranch.com/main-shop/grass-fed-finished-beef",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

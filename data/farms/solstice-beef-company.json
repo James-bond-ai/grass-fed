@@ -2,7 +2,7 @@
   "id": "solstice-beef-company",
   "slug": "solstice-beef-company",
   "farm_name": "Solstice Beef Company",
-  "city": "Gordonsville",
+  "city": "Louisa",
   "state": "VA",
   "zip": "",
   "address_public": false,
@@ -13,9 +13,10 @@
     "beef"
   ],
   "products": [
-    "beef shares",
+    "beef shares (1/16 to 1/2)",
     "bulk ground beef",
-    "beef sticks"
+    "beef sticks (shipped nationwide)",
+    "beef bologna"
   ],
   "feeding_claim": {
     "category": "grass-finished",
@@ -24,6 +25,7 @@
   },
   "certifications": [],
   "sales_channels": [
+    "farm-pickup",
     "ships-nationwide"
   ],
   "farmers_markets": [],
@@ -40,7 +42,7 @@
   "ordering_url": "https://solsticebeef.com/pages/shop",
   "data_source": "web-search",
   "source_url": "https://www.vabeef.org/beef-home/how-to-buy-beef/virginia-beef-directory",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

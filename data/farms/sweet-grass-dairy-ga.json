@@ -40,7 +40,7 @@
   "ordering_url": "https://www.goldbelly.com/restaurants/sweet-grass-dairy",
   "data_source": "web-search",
   "source_url": "https://sweetgrassdairy.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

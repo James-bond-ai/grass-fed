@@ -10,22 +10,23 @@
   "phone": "(615) 347-5454",
   "social_urls": [],
   "species": [
-    "beef"
+    "beef",
+    "poultry"
   ],
   "products": [
-    "steaks",
-    "ground beef",
-    "roasts",
-    "soup bones",
-    "bulk beef"
+    "grass-finished beef",
+    "grain-finished beef",
+    "whole and half beef",
+    "chicken"
   ],
   "feeding_claim": {
-    "category": "grass-finished",
-    "verbatim": "nor is grain ever a part of our grass fed and finished beef's diet.",
-    "source_url": "https://tennesseegrassfed.com/pages/about-us"
+    "category": "both",
+    "verbatim": "1/2 Grain Finished Bulk Beef",
+    "source_url": "https://tennesseegrassfed.com/"
   },
   "certifications": [],
   "sales_channels": [
+    "on-farm-store",
     "local-delivery"
   ],
   "farmers_markets": [],
@@ -44,8 +45,9 @@
   "ordering_url": "https://tennesseegrassfed.com/pages/delivery-and-pick-up-options",
   "data_source": "state-program",
   "source_url": "https://picktnproducts.org/picktn-producers/picktn-listing.2726.html",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "335 Williams Rd, Clarksville, TN 37043"
+  "address": "335 Williams Rd, Clarksville, TN 37043",
+  "resold_note": "Also sells pork it describes as carried, plus lamb, goat and seafood it does not say it raises."
 }

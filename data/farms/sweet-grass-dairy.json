@@ -21,12 +21,14 @@
     "dairy-cow"
   ],
   "products": [
-    "beef cuts",
-    "meat bundles",
-    "pork",
+    "beef cuts and bundles",
+    "half and quarter beef",
+    "pork and half hogs",
     "chicken",
     "eggs",
-    "raw milk herdshare"
+    "A2A2 herdshare milk",
+    "raw butter",
+    "cheese"
   ],
   "feeding_claim": {
     "category": "grass-finished",
@@ -45,31 +47,59 @@
   ],
   "sales_channels": [
     "on-farm-store",
-    "local-delivery"
+    "farm-pickup",
+    "local-delivery",
+    "ships-regional",
+    "online-order"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [
       "Columbus and Central Ohio"
     ],
     "local_radius_miles": null,
-    "ships_to": [],
+    "ships_to": [
+      "AL",
+      "CT",
+      "DE",
+      "FL",
+      "GA",
+      "IL",
+      "IN",
+      "KY",
+      "ME",
+      "MD",
+      "MA",
+      "MI",
+      "MS",
+      "NH",
+      "NJ",
+      "NY",
+      "NC",
+      "OH",
+      "PA",
+      "RI",
+      "SC",
+      "TN",
+      "VT",
+      "VA",
+      "WV",
+      "WI"
+    ],
     "pickup_locations": [],
     "source_url": "https://www.sweetgrassdairyofohio.com/front-door-delivery"
   },
   "dairy_products": [
     "raw-milk",
-    "milk",
     "butter",
-    "cheese",
-    "yogurt",
-    "kefir"
+    "cheese"
   ],
   "ordering_url": "https://shop.sweetgrassdairyofohio.com/store/grass-fed-beef",
   "data_source": "web-search",
   "source_url": "https://www.sweetgrassdairyofohio.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "The farm store also carries locally made goods from other producers."
 }
