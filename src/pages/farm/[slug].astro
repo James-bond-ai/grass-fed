@@ -55,7 +55,8 @@ const species = (farm.species ?? []).map((s) => SPECIES[s] ?? s);
 const r = reach(farm);
 const rawGuide = (await getCollection('articles')).some((a) => a.id === 'raw-milk-laws-by-state');
 const shipsList = [...r.shipsTo].map((a) => STATE_BY_ABBR[a]?.name ?? a);
-const hasReach = r.nationwide || shipsList.length || r.localAreas.length || r.radius || r.pickup.length;
+const shipsUnstated = !r.nationwide && !shipsList.length && (farm.sales_channels ?? []).includes('ships-regional');
+const hasReach = r.nationwide || shipsList.length || shipsUnstated || r.localAreas.length || r.radius || r.pickup.length;
 const photos = (farm.photos ?? []).filter((p) => p.permission);
 const icons = BROWSE.filter((b) => (farm.species ?? []).some((x) => b.species.includes(x)));
 const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.length ? ` sells ${species.slice(0, 3).join(', ').toLowerCase()}` : ''}. Feeding claims, certifications and how to buy, last checked ${fmtDate(farm.last_verified_at)}.`;
@@ -112,7 +113,7 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
         <dl>
           {r.localAreas.length > 0 && <><dt>Delivers to</dt><dd>{r.localAreas.join('; ')}</dd></>}
           {r.radius && <><dt>Delivery range</dt><dd>Within about {r.radius} miles of the farm</dd></>}
-          <dt>Ships to</dt><dd>{r.nationwide ? 'Anywhere in the continental US' : shipsList.length ? shipsList.join(', ') : 'Does not ship, or not stated'}</dd>
+          <dt>Ships to</dt><dd>{r.nationwide ? 'Anywhere in the continental US' : shipsList.length ? shipsList.join(', ') : shipsUnstated ? "Ships, but the farm's website doesn't say which states. Ask the farm." : 'Does not ship, or not stated'}</dd>
           {r.pickup.length > 0 && <><dt>Pickup</dt><dd>{r.pickup.join('; ')}</dd></>}
         </dl>
         {farm.delivery?.source_url && <p class="small muted" style="margin:0.75rem 0 0">From the farm's <a href={farm.delivery.source_url} rel="nofollow">delivery information</a>. Delivery areas and fees change; check with the farm.</p>}

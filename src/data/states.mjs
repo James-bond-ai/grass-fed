@@ -88,7 +88,7 @@ export const CHANNELS = {
   'farmers-market': 'Farmers market',
   'local-delivery': 'Local delivery',
   'ships-nationwide': 'Ships nationwide',
-  'ships-regional': 'Ships to nearby states',
+  'ships-regional': 'Ships to some states',
   'online-order': 'Online ordering',
   retail: 'Sold in stores',
   restaurants: 'Sold to restaurants',

@@ -72,7 +72,7 @@ function checkFarm(file, f, { candidate = false } = {}) {
       const ch = f.sales_channels ?? [];
       if (st === 'nationwide' && !ch.includes('ships-nationwide')) err(file, 'delivery.ships_to is "nationwide" but sales_channels lacks ships-nationwide');
       if (ch.includes('ships-nationwide') && st !== undefined && st !== 'nationwide') err(file, 'sales_channels has ships-nationwide but delivery.ships_to is not "nationwide"');
-      if (ch.includes('ships-regional') && !(Array.isArray(st) && st.length)) warn(file, 'ships-regional channel but no states in delivery.ships_to');
+      if (ch.includes('ships-regional') && !(Array.isArray(st) && st.length)) { if (!/ship/i.test(f.notes ?? '')) warn(file, 'ships-regional with no states: add a note saying the site names no shipping area'); };
       for (const k of ['local_areas', 'pickup_locations']) if (dv[k] !== undefined && !Array.isArray(dv[k])) err(file, `delivery.${k} must be a list`);
       if (dv.local_radius_miles != null && !(typeof dv.local_radius_miles === 'number' && dv.local_radius_miles > 0 && dv.local_radius_miles < 1000)) err(file, 'delivery.local_radius_miles must be a number of miles or null');
       if (dv.source_url && !isUrl(dv.source_url)) err(file, 'delivery.source_url must be a full URL');

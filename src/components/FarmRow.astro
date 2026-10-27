@@ -15,7 +15,7 @@ const ch = farm.sales_channels ?? [];
 const delivers = ch.includes('local-delivery') || r.localAreas.length > 0 || !!r.radius;
 const ships = r.nationwide || r.shipsTo.size > 0 || ch.includes('ships-regional');
 const pickup = ch.some((c) => ['on-farm-store', 'farm-pickup'].includes(c));
-const shipLabel = r.nationwide ? 'Ships nationwide' : r.shipsTo.size ? `Ships to ${r.shipsTo.size} ${r.shipsTo.size === 1 ? 'state' : 'states'}` : ships ? 'Ships regionally' : '';
+const shipLabel = r.nationwide ? 'Ships nationwide' : r.shipsTo.size ? `Ships to ${r.shipsTo.size} ${r.shipsTo.size === 1 ? 'state' : 'states'}` : ships ? 'Ships (area not listed)' : '';
 ---
 <li class="farm-row"
   data-species={(farm.species ?? []).join(' ')}
