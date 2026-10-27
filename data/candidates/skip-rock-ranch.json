@@ -1,0 +1,44 @@
+{
+  "id": "skip-rock-ranch",
+  "slug": "skip-rock-ranch",
+  "farm_name": "Skip Rock Ranch",
+  "city": "Burnet",
+  "state": "TX",
+  "zip": "78611",
+  "address_public": false,
+  "website": "https://skiprockranch.com/",
+  "phone": "(512) 771-0616",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "primal ground beef with organ",
+    "whole, half and quarter steers"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our herd is exclusively grass fed with no added hormones, antibiotics, or steroids.",
+    "source_url": "https://skiprockranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Pickup from the butcher"
+    ],
+    "source_url": "https://skiprockranch.com/faqs"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://skiprockranch.com/"
+}

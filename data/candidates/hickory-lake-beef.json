@@ -1,0 +1,44 @@
+{
+  "id": "hickory-lake-beef",
+  "slug": "hickory-lake-beef",
+  "farm_name": "Hickory Lake Beef",
+  "city": "Marion",
+  "state": "TX",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.hickorylakebeef.com/",
+  "phone": "210-381-5307",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef by the cut",
+    "bulk beef",
+    "broth bones",
+    "organs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "our cattle are never fed corn or grains of any kind.",
+    "source_url": "https://www.hickorylakebeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.hickorylakebeef.com/to-order"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.hickorylakebeef.com/to-order",
+  "data_source": "web-search",
+  "source_url": "https://www.hickorylakebeef.com/"
+}

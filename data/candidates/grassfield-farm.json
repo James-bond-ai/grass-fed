@@ -1,0 +1,47 @@
+{
+  "id": "grassfield-farm",
+  "slug": "grassfield-farm",
+  "farm_name": "Grassfield Farm",
+  "city": "Hondo",
+  "state": "TX",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.grassfieldfarm.com/",
+  "phone": "(830) 741-1006",
+  "social_urls": [
+    "https://www.facebook.com/GrassFieldFarms"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "grass-fed beef",
+    "quarter, half and whole beef",
+    "pork",
+    "pastured eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Certified AWA Grass Fed and Finished Beef",
+    "source_url": "https://www.grassfieldfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": ""
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.grassfieldfarm.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.grassfieldfarm.com/"
+}

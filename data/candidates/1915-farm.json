@@ -1,0 +1,58 @@
+{
+  "id": "1915-farm",
+  "slug": "1915-farm",
+  "farm_name": "1915 Farm",
+  "city": "Meyersville",
+  "state": "TX",
+  "zip": "",
+  "address_public": false,
+  "website": "https://1915farm.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.instagram.com/1915_farm/",
+    "https://www.facebook.com/1915Farm/"
+  ],
+  "species": [
+    "beef",
+    "poultry",
+    "pork"
+  ],
+  "products": [
+    "grass-fed beef",
+    "pasture-raised chicken",
+    "heritage pork",
+    "charcuterie",
+    "half and whole beef",
+    "half and whole hogs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our grass-fed beef, chicken, and heritage breed pork is raised here in Texas and on pasture.",
+    "source_url": "https://1915farm.com/pages/about-us"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Houston",
+      "Dallas",
+      "Austin",
+      "San Antonio",
+      "Corpus Christi"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://1915farm.com/pages/shipping-1"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://1915farm.com/collections/shop-all",
+  "data_source": "web-search",
+  "source_url": "https://1915farm.com/"
+}

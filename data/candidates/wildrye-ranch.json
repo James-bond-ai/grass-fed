@@ -1,0 +1,45 @@
+{
+  "id": "wildrye-ranch",
+  "slug": "wildrye-ranch",
+  "farm_name": "Wildrye Ranch",
+  "city": "Yorktown",
+  "state": "TX",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.wildryetx.com/",
+  "phone": "(512) 809-7751",
+  "social_urls": [
+    "https://instagram.com/wildryetx"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef boxes",
+    "steaks",
+    "roasts",
+    "ground beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "all our cattle consume only native grasses and foraged plants",
+    "source_url": "https://www.wildryetx.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": ""
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.wildryetx.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.wildryetx.com/"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "parker-creek-ranch",
+  "slug": "parker-creek-ranch",
+  "farm_name": "Parker Creek Ranch",
+  "city": "D'Hanis",
+  "state": "TX",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.parkercreekranch.com/",
+  "phone": "(830) 426-9232",
+  "social_urls": [
+    "https://www.facebook.com/ParkerCreekRanch"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle never receive grains, grain by-products, or animal by-products.",
+    "source_url": "https://www.parkercreekranch.com/beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Primo Processing, Hondo"
+    ],
+    "source_url": "https://www.parkercreekranch.com/beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.parkercreekranch.com/beef",
+  "data_source": "web-search",
+  "source_url": "https://www.parkercreekranch.com/"
+}

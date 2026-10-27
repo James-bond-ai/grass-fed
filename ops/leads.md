@@ -39,7 +39,12 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Peaceful Pastures; Rocky Glade Farm; Claybrook Farms, Covington; Nashville Cattle Co., Shelbyville; West Tennessee has no listings
 
 ## TX
-- DMD Ranch, Paige (bison); Jolie Vue; Lightsey; Yonder Way; Dewberry Hills; Mill-King (dairy); East Texas, Houston and South Texas have no listings
+- DMD Ranch, Paige (bison), DMD-Ranch.com: fetch blocked 2026-10-27
+- Jolie Vue Farms (jolievuefarms.com), Dewberry Hills Farm, Mill-King Market & Creamery (dairy): fetch blocked 2026-10-27
+- Lightsey Farms; Yonder Way Farm, Fayetteville: no farm website found in search
+- W & R Farms and Ranches (wegrowbeef.com): site returned an error
+- Texas Grassfed Farms (texasgrassfedfarms.com), Half a Calf (halfacalf.com), The Provision House: unchecked, may be resellers rather than farms
+- East Texas has no listings
 
 ## VA
 - Leaping Waters Farm (blocks fetching); Lakota Ranch (may be AGA certified); Keenbell Farm; Border Springs Farm; Buffalo Creek Beef
