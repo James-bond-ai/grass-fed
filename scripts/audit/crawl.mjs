@@ -57,14 +57,23 @@ for (const farm of farms) {
   const out = { slug: farm.slug, website: farm.website, pages: {}, skipped: [], errors: [] };
   const queue = [farm.website, farm.feeding_claim?.source_url, farm.delivery?.source_url, farm.ordering_url].filter(Boolean);
   const seen = new Set();
-  let host;
+  let host, retriedHost = false;
   try { host = new URL(farm.website).hostname.replace(/^www\./, ''); } catch { out.errors.push('bad website url'); }
   while (queue.length && Object.keys(out.pages).length < MAX_PAGES && Date.now() - started < FARM_BUDGET_MS) {
     const url = queue.shift().split('#')[0];
     if (seen.has(url)) continue; seen.add(url);
     try {
       if (!(await allowed(ctx, url))) { out.skipped.push(`${url} (robots.txt)`); continue; }
-      const resp = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+      const before = page.url();
+      let resp = null;
+      try {
+        resp = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+      } catch (e) {
+        // Slow sites often have their text on screen long before DOMContentLoaded fires: keep what
+        // loaded, unless the navigation never got off the previous page.
+        if (!/Timeout/.test(String(e)) || page.url() === before) throw e;
+        out.errors.push(`${url}: slow to load, saved what had rendered`);
+      }
       await page.waitForTimeout(1500);
       const text = (await page.innerText('body').catch(() => '')).replace(/\n{3,}/g, '\n\n').slice(0, MAX_CHARS);
       out.pages[page.url()] = { status: resp?.status() ?? 0, title: await page.title().catch(() => ''), text };
@@ -77,7 +86,14 @@ for (const farm of farms) {
           } catch {}
         }
       }
-    } catch (e) { out.errors.push(`${url}: ${String(e).slice(0, 150)}`); }
+    } catch (e) {
+      out.errors.push(`${url}: ${String(e).slice(0, 150)}`);
+      // The listed host can fail at the TLS or DNS level while the www or bare variant works.
+      if (!retriedHost && /ERR_SSL|ERR_NAME_NOT_RESOLVED|ERR_CONNECTION/.test(String(e))) {
+        retriedHost = true;
+        try { const alt = new URL(url); alt.hostname = alt.hostname.startsWith('www.') ? alt.hostname.slice(4) : 'www.' + alt.hostname; queue.unshift(alt.href); } catch {}
+      }
+    }
   }
   if (Date.now() - started >= FARM_BUDGET_MS) out.errors.push('time budget reached');
   fs.writeFileSync(path.join('crawl', `${farm.slug}.json`), JSON.stringify(out, null, 1));

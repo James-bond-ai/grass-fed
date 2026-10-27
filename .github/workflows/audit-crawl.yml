@@ -32,7 +32,8 @@ jobs:
 
   publish:
     needs: crawl
-    if: always()
+    # Only main publishes, so a test run from a branch never replaces the audit's crawl.
+    if: always() && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
