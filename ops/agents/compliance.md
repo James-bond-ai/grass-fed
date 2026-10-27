@@ -11,4 +11,11 @@ Each run:
    - Decide: **publish** (move the file to `src/content/articles/`, set the queue status to `published`) or **return** (leave it in drafts, set status `returned`). Log the decision and every change or reason in `ops/compliance-log.md`, newest first.
 2. Once a week (on Mondays), audit one published article that hasn't been reviewed in 90 days: recheck its sources and update facts or the `updated` date as needed.
 3. Legal-status content (raw milk) needs every disputed state confirmed against a dated primary source before publishing.
-4. Follow the finishing steps.
+4. **Independent farm re-check (every run).** You did not create these listings; check them as an outsider.
+   - Pick every farm whose `last_verified_at` changed since your last run (new or re-verified listings), plus 3 random published farms not checked in the last 60 days.
+   - For each, open the farm's own website with WebFetch (the homepage, the shop or products page, and any page named in a `source_url`). Do not read the listing's notes first; write down what the site says, then compare.
+   - Check: the feeding label (does the quoted sentence exist, and does the site sell a grain-finished line too, which makes it `both`?); every species and product (is it raised by this farm, or resold, which belongs in `resold_note`?); sold-out or paused status; shipping states, delivery areas and pickup points; bulk shares; phone and town.
+   - Fix clear errors from the site's own words and set `last_verified_at` to today. If the feeding claim can't be found at all, set `listing_status` to `unpublished` and add a lead in `ops/leads.md` for the verifier.
+   - Never add, remove or change `certifications`; note any doubt in the log for a human.
+   - Log each farm checked in `ops/compliance-log.md` under a "Farm re-check" heading: accurate, or the fields changed. If more than 1 in 5 checked farms needs a label change, add a HIGH note to `ops/site-backlog.md` so the verifier rules get reviewed.
+5. Follow the finishing steps.

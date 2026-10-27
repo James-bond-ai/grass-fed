@@ -2,6 +2,20 @@
 
 One entry per review, newest first: date, file, decision (published or returned), and reasons.
 
+## 2026-10-27: Independent accuracy audit of all 164 published farms
+- Trigger: Patterson Ranch was labeled "partial grass diet" when its site sells both grass-finished and grain-finished beef. Fixed to `both`.
+- Method: every farm website crawled (up to 9 pages each, 163 of 164 captured; Malheur River by WebFetch), then reviewed by auditor agents that had not built the listings, then corrected by separate agents that re-checked each finding against the site before applying it.
+- Result before correction: 12 accurate (7%), 106 minor errors (65%), 46 major errors (28%).
+- Feeding labels changed: 33. Understated (grass-finished shown weaker): 20. Overstated or missing a grain-finished line: 8 (Arrowhead, Silo Springs, Tennessee Grass Fed, Falling Sun to `both`; Five Marys and Knowlan to grain-finished; Apple Valley and Sublime Organics to partial; Lifted Hearts to pasture-raised). Grain-finished farms that also sell grass-finished: 2 (Blackwater Pastures, Central Florida Beef to `both`).
+- Availability added (listing kept, status shown): 13 farms sold out, paused or on a waitlist.
+- Products from other farms moved out of the farm's own products into a "From other farms" note: 51 farms.
+- Unpublished: none. Every feeding claim was found on the farm's own site.
+- Shipping with no named area: now shown as "Ships (area not listed)" instead of dropped or guessed (7 farms).
+- Certification doubts for a human to check (certifications not changed): AGA claimed on the sites of Cowgirl Meat Co, Prier Farms (AGA #0389), White Clover Farm, Lazy A Ranch and Flying B Bar Ranch but not in our listing; High Lonesome Ranch claims Audubon; Hillside Farms describes AWA as a goal.
+- Towns to confirm: Okeechobee Farms, The High Lonesome Ranch (De Beque), Rainbow Meadow Farms (now Greene County).
+- Falling Sun Ranch ordering moves to beyondthepasture.com on 2026-10-31; update the link after that date.
+- Process changes: accuracy rules added to `listing-rules.md`; compliance now re-checks every new or re-verified listing plus 3 random farms each run.
+
 ## 2026-10-27
 - raw-milk-laws-by-state: published. Held items cleared: NC Session Law 2026-11 (S401, signed June 22, 2026) full text has no raw milk, herdshare or pet milk provision, so NC herdshares and pet milk are unchanged; FDA and CDC pages re-fetched and match (added Campylobacter to the FDA list). Disputed states confirmed against primary sources: Virginia (2VAC5-490-75, effective 2007, bars sale or trade of raw milk for people, silent on herdshares), Wyoming (2027 working draft 27LSO-0046 quotes current W.S. 11-49-103; director's June 2026 statement kept as reported), Wisconsin (DATCP raw milk page, undated, checked today). All 50 table rows cross-checked against the FTCLDF map (updated July 30, 2026). Changes: Oklahoma note corrected (KGOU and Senate release say sales must be on the farm; removed unsupported "off-farm sales need a permit" and the unverified 100 gallon figure); Missouri "delivery also allowed" replaced with farm-to-consumer only (not on FTCLDF); NC note rewritten around the 2026 Farm Act; Wyoming note now describes the 2027 draft bill accurately; NCSL 40-bill figure attributed to the AP; dropped Montana herdshare clause from the table (not in the state FAQ). Swapped unused WHQR and Cowboy State Daily sources for NCGA, Virginia code, Wyoming draft and KGOU. Trimmed to about 1,800 words plus table. No banned claims, em dashes or long quotes found. Dates set to 2026-10-27.
 
