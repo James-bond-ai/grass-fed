@@ -18,8 +18,8 @@
   ],
   "feeding_claim": {
     "category": "both",
-    "verbatim": "continues to produce Hereford and Angus cross cattle on grass and grain without added hormones or antibiotics.",
-    "source_url": "https://pattersonranch.net/"
+    "verbatim": "All of our beef is pasture raised and grass fed. When you are ready to make your choice of beef, you can choose from grass finished or grain finished beef.",
+    "source_url": "https://pattersonranch.net/our-beef/"
   },
   "certifications": [],
   "sales_channels": [
@@ -45,5 +45,5 @@
   "last_verified_at": "2026-10-27",
   "verification_method": "manual",
   "listing_status": "published",
-  "notes": "2026-10-27: corrected from \"partial grass diet\" after an editor checked the farm website: the ranch offers grass-finished or grain-finished beef depending on what the customer wants."
+  "notes": "2026-10-27: corrected from \"partial grass diet\". The farm's Our Beef page says buyers choose grass-finished or grain-finished; the original listing quoted only the homepage."
 }
