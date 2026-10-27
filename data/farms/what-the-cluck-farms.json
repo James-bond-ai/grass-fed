@@ -7,7 +7,7 @@
   "zip": "",
   "address_public": false,
   "website": "https://www.whatthecluck.farm/",
-  "phone": "",
+  "phone": "210-764-9779",
   "social_urls": [
     "https://www.instagram.com/whatthecluckfarmstx/",
     "https://www.facebook.com/wtcfarmsjewett/"
@@ -15,13 +15,15 @@
   "species": [
     "poultry",
     "pork",
-    "beef"
+    "beef",
+    "eggs"
   ],
   "products": [
     "chicken",
     "turkey",
     "pork",
-    "beef"
+    "Dexter beef",
+    "eggs"
   ],
   "feeding_claim": {
     "category": "pastured",
@@ -31,17 +33,20 @@
   "certifications": [],
   "sales_channels": [
     "online-order",
-    "local-delivery"
+    "local-delivery",
+    "farm-pickup"
   ],
   "farmers_markets": [],
   "bulk_shares": false,
   "delivery": {
     "local_areas": [
-      "Houston"
+      "Greater Houston: Houston, Spring, Katy, Cypress, Tomball, The Woodlands, Humble, Pearland, Sugar Land, Pasadena, Missouri City, Richmond (Saturdays, order by Friday 6pm)"
     ],
     "local_radius_miles": null,
     "ships_to": [],
-    "pickup_locations": [],
+    "pickup_locations": [
+      "Farm pickup in Jewett, TX, by appointment"
+    ],
     "source_url": "https://store.whatthecluck.farm/pages/houston-delivery"
   },
   "dairy_products": [],
@@ -49,6 +54,7 @@
   "data_source": "web-search",
   "source_url": "https://www.whatthecluck.farm/",
   "last_verified_at": "2026-10-27",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Also sells Partner Produced Angus beef raised by another farm."
 }

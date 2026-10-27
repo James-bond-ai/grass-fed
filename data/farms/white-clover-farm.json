@@ -18,7 +18,8 @@
     "quarter beef",
     "half beef",
     "whole beef",
-    "ground beef"
+    "ground beef (25 lb minimum package)",
+    "organ meats on request"
   ],
   "feeding_claim": {
     "category": "grass-finished",
@@ -44,7 +45,13 @@
   "ordering_url": "https://www.whitecloverfarmohio.com/buy-now",
   "data_source": "web-search",
   "source_url": "https://www.whitecloverfarmohio.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "availability": {
+    "status": "sold-out",
+    "note": "2026 processing dates for quarter, half and whole beef are sold out; contact the farm about beef.",
+    "checked_on": "2026-10-27",
+    "source_url": "https://www.whitecloverfarmohio.com/buy-now"
+  }
 }

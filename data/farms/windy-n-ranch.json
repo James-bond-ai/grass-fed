@@ -70,6 +70,7 @@
       "AK"
     ],
     "pickup_locations": [
+      "Ranch pickup, 3650 Passmore Rd, Ellensburg (twice monthly)",
       "Bellevue drop site (twice monthly)",
       "Farmers markets by arrangement"
     ],
@@ -78,8 +79,8 @@
   "ordering_url": "https://app.barn2door.com/windyncustombutcher/all",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/ellensburg/beef-1/windy-n-ranch/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "3650 Passmore Rd, Ellensburg, WA 98926"
 }

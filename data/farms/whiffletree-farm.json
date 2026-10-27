@@ -12,24 +12,31 @@
   "social_urls": [],
   "species": [
     "beef",
+    "pork",
     "poultry",
     "eggs"
   ],
   "products": [
     "beef",
+    "whole and partial cow",
+    "pastured pork cuts and sausage",
+    "whole and partial pig",
     "chicken",
     "turkey",
     "eggs",
-    "whole and half cow"
+    "chicken bone broth",
+    "pet food"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "100% grass-fed beef",
-    "source_url": "https://whiffletreefarmva.com/farmingpractices"
+    "category": "grass-finished",
+    "verbatim": "A sampling of our most popular pasture raised and grass-fed and grass-finished items.",
+    "source_url": "https://whiffletreefarmva.com/store/chickens"
   },
   "certifications": [],
   "sales_channels": [
     "on-farm-store",
+    "online-order",
+    "farm-pickup",
     "local-delivery"
   ],
   "farmers_markets": [],
@@ -64,7 +71,8 @@
       "Vint Hill",
       "Woodbridge",
       "Winchester",
-      "Processor pickup for whole or half animals"
+      "Curbside pickup at the farm store for online orders (Mondays)",
+      "Processor pickup for whole or partial cow or pig"
     ],
     "source_url": "https://whiffletreefarmva.com/neighborhood-delivery"
   },
@@ -72,7 +80,8 @@
   "ordering_url": "https://whiffletreefarmva.com/store/beef",
   "data_source": "web-search",
   "source_url": "https://whiffletreefarmva.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "The store also sells items from partner producers, such as Farmstead Ferments kimchi, Wild for Salmon smoked salmon, cheeses and other groceries."
 }

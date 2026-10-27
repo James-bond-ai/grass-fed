@@ -5,8 +5,7 @@
   "city": "Redmond",
   "state": "OR",
   "zip": "97756",
-  "address": "4255 Northwest Coyner Avenue, Redmond, OR 97756",
-  "address_public": true,
+  "address_public": false,
   "website": "https://www.wildgrownfarm.com/",
   "phone": "503-209-9873",
   "social_urls": [
@@ -42,7 +41,16 @@
   "ordering_url": "https://www.wildgrownfarm.com/shop-poultry",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/redmond-1/chicken-1/wild-grown-farm/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "On-farm pickup in Redmond on Tuesdays for orders placed by Sunday 8pm (farm visits by appointment only)"
+    ],
+    "source_url": "https://www.wildgrownfarm.com/shop-poultry"
+  }
 }

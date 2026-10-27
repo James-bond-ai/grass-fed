@@ -36,9 +36,12 @@
   "certifications": [],
   "sales_channels": [
     "farm-pickup",
-    "local-delivery"
+    "local-delivery",
+    "farmers-market"
   ],
-  "farmers_markets": [],
+  "farmers_markets": [
+    "Van Buren Farmers Market (April through October)"
+  ],
   "bulk_shares": true,
   "delivery": {
     "local_areas": [],
@@ -56,7 +59,7 @@
   "ordering_url": "",
   "data_source": "web-search",
   "source_url": "https://mofb.org/missouri-meat-producers/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

@@ -19,11 +19,13 @@
   ],
   "products": [
     "grass-fed beef",
+    "1/8, 1/4 and 1/2 cow shares",
     "lamb",
     "goat",
     "pork",
     "chicken",
     "turkey",
+    "rabbit",
     "bone broth",
     "sausage",
     "tallow"
@@ -36,12 +38,15 @@
   "certifications": [],
   "sales_channels": [
     "on-farm-store",
-    "ships-nationwide"
+    "ships-nationwide",
+    "local-delivery"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
-    "local_areas": [],
+    "local_areas": [
+      "Courier delivery to select Metro-Atlanta cities"
+    ],
     "local_radius_miles": null,
     "ships_to": "nationwide",
     "pickup_locations": [],
@@ -50,7 +55,8 @@
   "ordering_url": "https://whiteoakpastures.com/collections/grassfed-beef",
   "data_source": "web-search",
   "source_url": "https://whiteoakpastures.com/pages/about-us",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Also sells sustainably sourced seafood and Iberico pork, which the site does not describe as raised on the farm."
 }

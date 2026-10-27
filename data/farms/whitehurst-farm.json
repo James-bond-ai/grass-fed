@@ -15,23 +15,22 @@
   ],
   "species": [
     "beef",
-    "lamb",
     "poultry",
     "pork",
     "eggs"
   ],
   "products": [
-    "grass-fed beef",
-    "lamb",
+    "grass-fed and finished beef",
     "pastured chicken",
     "turkey",
-    "pork sausage",
-    "eggs"
+    "pastured pork",
+    "eggs",
+    "seasonal organic produce"
   ],
   "feeding_claim": {
-    "category": "pastured",
-    "verbatim": "Pasture-raised meats, organic produce, and eggs from our farm in Brenham, TX",
-    "source_url": "https://whitehurstfarm.com/"
+    "category": "grass-finished",
+    "verbatim": "Grass-Fed and Finished Beef & Lamb",
+    "source_url": "https://whitehurstfarm.com/pages/how-to-order"
   },
   "certifications": [],
   "sales_channels": [
@@ -49,7 +48,9 @@
     ],
     "local_radius_miles": null,
     "ships_to": [],
-    "pickup_locations": [],
+    "pickup_locations": [
+      "Self-serve farm pickup, 6580 FM 332, Brenham: Saturday 8am to 6pm (order by Wednesday) or Wednesday 8am to 6pm (order by Saturday)"
+    ],
     "source_url": "https://whitehurstfarm.com/pages/how-to-order"
   },
   "dairy_products": [],
@@ -57,6 +58,7 @@
   "data_source": "web-search",
   "source_url": "https://whitehurstfarm.com/",
   "last_verified_at": "2026-10-27",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Lamb and some seasonal and artisan items come from partner farms; the farm says it raises chickens, turkeys, pigs and cattle."
 }

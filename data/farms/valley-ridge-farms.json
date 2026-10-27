@@ -40,8 +40,9 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
-      "Processing facility (bulk beef)",
-      "River City Farmers Market, Marietta (Saturdays, mid-May through mid-September)"
+      "On-farm pickup at 33088 County Road 15, Lower Salem (ground beef and soup bones, call to arrange)",
+      "Processing facility (bulk half or whole beef)",
+      "River City Farmers Market, Marietta (Saturdays 8 to 12, mid-May through mid-September)"
     ],
     "source_url": "https://www.valleyridgefarms.com/buying.html"
   },
@@ -49,7 +50,7 @@
   "ordering_url": "https://www.valleyridgefarms.com/buying.html",
   "data_source": "web-search",
   "source_url": "https://www.valleyridgefarms.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

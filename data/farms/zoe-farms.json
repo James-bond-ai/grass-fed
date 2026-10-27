@@ -21,9 +21,11 @@
   "products": [
     "beef cuts",
     "ground beef",
+    "1/8 beef bundle",
     "chicken",
     "turkey",
     "pork",
+    "half pig",
     "eggs"
   ],
   "feeding_claim": {
@@ -39,19 +41,17 @@
     "ships-regional"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [
-      "Cleveland",
-      "Columbus",
-      "Toledo",
-      "Cincinnati"
+      "All of Ohio (next-day home delivery, ships Tuesday and Wednesday)"
     ],
     "local_radius_miles": null,
     "ships_to": [
       "OH"
     ],
     "pickup_locations": [
+      "On-farm store pickup, Canton",
       "Nine food hub pickup points across Northeast Ohio"
     ],
     "source_url": "https://zoefarms.com/"
@@ -60,7 +60,8 @@
   "ordering_url": "https://zoefarms.com/navigation/store",
   "data_source": "web-search",
   "source_url": "https://zoefarms.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "The farm store and food hubs also sell milk, cheese and other dairy that the site does not describe as produced on the farm."
 }

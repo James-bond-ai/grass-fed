@@ -14,7 +14,9 @@
   ],
   "products": [
     "Pleasant Ridge Reserve cheese",
-    "Rush Creek Reserve cheese"
+    "Extra-Aged Pleasant Ridge Reserve cheese",
+    "Rush Creek Reserve cheese (seasonal)",
+    "cheese gift boxes"
   ],
   "feeding_claim": {
     "category": "grass-fed",
@@ -31,8 +33,8 @@
   "ordering_url": "https://uplandscheese.com/shop",
   "data_source": "web-search",
   "source_url": "https://uplandscheese.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "5023 State Rd 23, Dodgeville, WI 53533",
   "delivery": {
