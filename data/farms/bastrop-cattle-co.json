@@ -22,9 +22,9 @@
     "ground beef"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "We raise the cattle on grass, we butcher at a local family-owned facility, then deliver it to you.",
-    "source_url": "https://www.bastropcattlecompany.com/the-cj-ranch"
+    "category": "grass-finished",
+    "verbatim": "No corn or grain feeding ever. Our herd only eats the natural foliage on our Texas pastures.",
+    "source_url": "https://www.bastropcattlecompany.com/"
   },
   "certifications": [],
   "sales_channels": [
@@ -56,6 +56,7 @@
   "data_source": "web-search",
   "source_url": "https://www.bastropcattlecompany.com/",
   "last_verified_at": "2026-10-27",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "verification_method": "manual",
+  "listing_status": "published",
+  "notes": "Free UPS shipping in Texas for boxes and quarters; halves and wholes ship in Texas for $1.20/lb, and outside Texas by custom quote."
 }

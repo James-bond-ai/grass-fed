@@ -10,8 +10,17 @@
   "website": "https://www.bear-meadows-farm.com/",
   "phone": "814-404-9902",
   "social_urls": [],
-  "species": ["dairy-cow", "beef", "eggs"],
-  "products": ["raw milk", "cheese", "eggs", "ground beef"],
+  "species": [
+    "dairy-cow",
+    "beef",
+    "eggs"
+  ],
+  "products": [
+    "raw milk",
+    "cheese",
+    "eggs",
+    "ground beef"
+  ],
   "feeding_claim": {
     "category": "grass-fed",
     "verbatim": "Our cows are grass-fed.",
@@ -24,7 +33,9 @@
       "verified_on": "2026-10-26"
     }
   ],
-  "sales_channels": ["on-farm-store"],
+  "sales_channels": [
+    "on-farm-store"
+  ],
   "farmers_markets": [],
   "bulk_shares": false,
   "delivery": {
@@ -34,11 +45,14 @@
     "pickup_locations": [],
     "source_url": "https://www.bear-meadows-farm.com/"
   },
-  "dairy_products": ["raw-milk", "cheese"],
+  "dairy_products": [
+    "raw-milk",
+    "cheese"
+  ],
   "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/boalsburg/dairy-1/bear-meadows-farm/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

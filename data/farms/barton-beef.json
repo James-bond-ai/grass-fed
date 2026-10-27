@@ -40,7 +40,7 @@
   "ordering_url": "https://www.bartonbeef.com/order/",
   "data_source": "web-search",
   "source_url": "https://www.clickorlando.com/news/local/2023/12/04/mooo-ve-over-store-bought-steaks-how-you-can-buy-beef-directly-from-the-pasture/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

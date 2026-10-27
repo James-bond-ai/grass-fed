@@ -30,7 +30,9 @@
     }
   ],
   "sales_channels": [
-    "on-farm-store"
+    "on-farm-store",
+    "online-order",
+    "farm-pickup"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
@@ -38,14 +40,17 @@
     "local_areas": [],
     "local_radius_miles": null,
     "ships_to": [],
-    "pickup_locations": [],
+    "pickup_locations": [
+      "Farmstand, 6825 Goodwin Rd, Everson (open daily dawn to dusk)"
+    ],
     "source_url": "https://alluvialfarms.com/collections/shop-all-products"
   },
-  "ordering_url": "",
+  "ordering_url": "https://alluvialfarms.com/collections/shop-all-products",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/everson/pork-1/alluvial-farms/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "6825 Goodwin Road, Everson, WA 98247"
+  "address": "6825 Goodwin Road, Everson, WA 98247",
+  "notes": "Pork is local pickup only; only pet treats and skincare ship."
 }

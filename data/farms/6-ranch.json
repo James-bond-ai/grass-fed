@@ -21,11 +21,12 @@
   ],
   "feeding_claim": {
     "category": "grass-fed",
-    "verbatim": "Six generations of family have worked 6 Ranch, raising 100% grass-fed Corriente beef in pristine Wallowa County, OR.",
+    "verbatim": "Raising 100% grass-fed Corriente beef, and caring for a six-generation family mission in motion",
     "source_url": "https://6ranch.com/"
   },
   "certifications": [],
   "sales_channels": [
+    "on-farm-store",
     "ships-nationwide",
     "retail"
   ],
@@ -35,13 +36,15 @@
     "local_areas": [],
     "local_radius_miles": null,
     "ships_to": "nationwide",
-    "pickup_locations": [],
+    "pickup_locations": [
+      "Liza Jane's Farmstand, 87161 Hwy 82, Enterprise (honor-system farmstand, always open)"
+    ],
     "source_url": "https://6ranch.com/ordering-shipping"
   },
   "ordering_url": "https://6ranch.com/",
   "data_source": "web-search",
   "source_url": "https://6ranch.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

@@ -10,12 +10,23 @@
   "website": "https://applevalleycreamery.com/",
   "phone": "717-528-4520",
   "social_urls": [],
-  "species": ["dairy-cow", "beef", "pork", "poultry", "eggs"],
-  "products": ["raw milk", "pasteurized milk", "butter", "cream", "yogurt", "cheese", "eggs", "beef", "pork", "chicken"],
+  "species": [
+    "dairy-cow",
+    "beef"
+  ],
+  "products": [
+    "raw milk",
+    "pasteurized milk",
+    "chocolate milk",
+    "butter",
+    "half and half",
+    "heavy cream",
+    "beef"
+  ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "Our cows are not given the rBST hormone injection and are grass-fed.",
-    "source_url": "https://applevalleycreamery.com/milkAVC"
+    "category": "percentage",
+    "verbatim": "Over 90% of our cows' diet comes from grass and non-GMO crops grown on our farm.",
+    "source_url": "https://applevalleycreamery.com/faq"
   },
   "certifications": [
     {
@@ -24,21 +35,33 @@
       "verified_on": "2026-10-26"
     }
   ],
-  "sales_channels": ["on-farm-store", "local-delivery", "retail"],
+  "sales_channels": [
+    "on-farm-store",
+    "local-delivery",
+    "retail"
+  ],
   "farmers_markets": [],
   "bulk_shares": false,
   "delivery": {
-    "local_areas": ["South Central Pennsylvania"],
+    "local_areas": [
+      "South Central Pennsylvania"
+    ],
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [],
     "source_url": "https://applevalleycreamery.com/faq"
   },
-  "dairy_products": ["milk", "raw-milk", "butter", "cream", "yogurt", "cheese"],
+  "dairy_products": [
+    "milk",
+    "raw-milk",
+    "butter",
+    "cream"
+  ],
   "ordering_url": "https://applevalleycreamery.com/summary.php?go=products&cat=84",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/pennsylvania/east-berlin/cheese-1/apple-valley-creamery-llc/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Also sells yogurt, cheese, pork, chicken, eggs and other goods from other farms and businesses."
 }

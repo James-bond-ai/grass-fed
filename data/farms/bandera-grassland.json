@@ -13,14 +13,13 @@
     "beef"
   ],
   "products": [
-    "grassfed Texas Longhorn beef",
-    "bulk beef",
-    "individual cuts"
+    "grassfed Texas Longhorn beef shares (whole, side, quarter, eighth)",
+    "organ meats"
   ],
   "feeding_claim": {
     "category": "grass-finished",
-    "verbatim": "Grassfed birth to harvest.",
-    "source_url": "https://www.banderagrassland.com/"
+    "verbatim": "We follow the American Grassfed Association standards from birth to harvest.",
+    "source_url": "https://www.banderagrassland.com/grassland.html"
   },
   "certifications": [],
   "sales_channels": [
@@ -42,6 +41,12 @@
   "data_source": "web-search",
   "source_url": "https://theshelbyreport.com/tag/bandera-grassland/",
   "last_verified_at": "2026-10-27",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "verification_method": "manual",
+  "listing_status": "published",
+  "availability": {
+    "status": "sold-out",
+    "note": "All 2026 beef is reserved; reservations by email are open for spring/summer 2027 delivery.",
+    "checked_on": "2026-10-27",
+    "source_url": "https://www.banderagrassland.com/retail.html"
+  }
 }

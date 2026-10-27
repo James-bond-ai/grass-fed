@@ -18,7 +18,10 @@
     "ground beef",
     "roasts",
     "beef jerky",
-    "dog food and treats"
+    "beef sausages",
+    "hot dogs",
+    "case sales",
+    "quarter sides"
   ],
   "feeding_claim": {
     "category": "grass-finished",
@@ -34,14 +37,24 @@
   ],
   "sales_channels": [
     "on-farm-store",
-    "farmers-market"
+    "farmers-market",
+    "online-order"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
-  "ordering_url": "",
+  "bulk_shares": true,
+  "ordering_url": "https://www.baldwinbeef.com/beef-products-1",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/yanceyville/beef-1/baldwin-family-farms/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "The farm store also sells local pork and chicken from other producers, and dog food made for Seven Hills Food Co. and partner farms.",
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.baldwinbeef.com/"
+  },
+  "notes": "Site says meat is also shipped but does not name a shipping area, and names no farmers markets."
 }
