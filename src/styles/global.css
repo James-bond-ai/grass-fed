@@ -226,3 +226,6 @@ a.tile:hover { outline: 2px solid var(--hay); outline-offset: 1px; }
 .glance span { font-size: 0.98rem; }
 .glance a.none b { font-size: 1.25rem; color: var(--ink-soft); padding: 0.35rem 0 0.2rem; }
 .section-count { font-family: var(--body); font-weight: 500; font-size: 0.6em; color: var(--ink-soft); margin-left: 0.4em; }
+
+.avail { margin: 0.35rem 0 0; font-size: 0.9rem; color: #6d4f0b; background: var(--hay-tint); display: inline-block; padding: 0.15em 0.6em; border-radius: var(--radius-sm); }
+.avail-lg { font-size: 1rem; display: block; max-width: 60ch; padding: 0.5em 0.8em; margin-top: 0.75rem; }

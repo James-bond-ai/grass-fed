@@ -67,6 +67,7 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
       <h1>{farm.farm_name}</h1>
       <p class="lede">{farm.city}, {st.name}</p>
       <FeedingLabel farm={farm} size="lg" showNote />
+      {farm.availability && farm.availability.status !== 'available' && <p class="avail avail-lg"><strong>Availability:</strong> {farm.availability.note}{farm.availability.checked_on && <> (checked {fmtDate(farm.availability.checked_on)})</>}</p>}
       {icons.length > 0 && <ul class="farm-icons" aria-label="Sells">{icons.map((b) => <li title={b.label}><Icon name={b.icon} size={34} /><span>{b.label}</span></li>)}</ul>}
     </div>
     <Stamp date={farm.last_verified_at} />
@@ -124,6 +125,7 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
     <dl class="facts">
       {species.length > 0 && <><dt>Animals</dt><dd>{species.join(', ')}</dd></>}
       {farm.products?.length > 0 && <><dt>Products</dt><dd>{farm.products.join(', ')}</dd></>}
+      {farm.resold_note && <><dt>From other farms</dt><dd>{farm.resold_note}</dd></>}
       {farm.dairy_products?.length > 0 && <><dt>Dairy</dt><dd>{farm.dairy_products.map((d) => DAIRY_PRODUCTS[d] ?? d).join(', ')}{farm.dairy_products.includes('raw-milk') && <> (raw milk is legal to sell only in some states{rawGuide ? <>; <a href="/guides/raw-milk-laws-by-state/">see the rules</a></> : ''})</>}</dd></>}
       <dt>Bulk shares</dt><dd>{farm.bulk_shares ? 'Sells quarter, half or whole animals' : 'Not offered or not stated'}</dd>
       {farm.sales_channels?.length > 0 && <><dt>Ways to buy</dt><dd>{farm.sales_channels.map((c) => CHANNELS[c] ?? c).join(', ')}</dd></>}

@@ -35,6 +35,15 @@ Open the farm's own website with WebFetch. Every listing must be confirmed again
 
 If a farm fails (site down, no direct sales, no grass or pasture language, not in the US), do not list it. Write `data/rejected/{slug}.json` containing `{ "slug", "farm_name", "state", "website", "reason", "checked_on" }` so nobody re-adds it.
 
+## Accuracy rules (added after the October 2026 audit)
+
+The audit found that most errors came from reading one page. Before writing or rechecking any listing:
+- Read the homepage, about or story page, every shop, order or product page, the FAQ, and any shipping, delivery or pickup page. Product names often carry the finishing claim ("Grass-Fed & Finished Beef", "Grain-Finished Half").
+- Pick the feeding category from the whole site. If the farm sells both a grass-finished and a grain-finished product, the category is `both`. Quote the sentence that supports the category, not a sentence about a side product.
+- Only list animals and products the farm raises itself. Things it buys in from other farms go in `resold_note` as one plain sentence, for example "Also sells pork from Golden Bear Farm and cheese from other creameries."
+- If the farm is sold out, waitlisted or paused, keep it listed and set `availability` (status `sold-out`, `waitlist` or `paused`, a plain `note`, `checked_on`). If it no longer sells to the public at all, unpublish it.
+- Record bulk shares, farmers markets, pickup points, shipping states and the phone number whenever the site gives them.
+
 ## File format
 
 One file per farm: `data/farms/{slug}.json`. The slug is the farm name in lowercase with hyphens (add the state abbreviation at the end only if needed to make it unique). Check `data/farms/` and `data/rejected/` first to avoid duplicates.

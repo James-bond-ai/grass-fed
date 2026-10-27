@@ -90,6 +90,15 @@ function checkFarm(file, f, { candidate = false } = {}) {
     if (!pm.granted_by || !DATE.test(pm.date ?? '') || !pm.record_url) err(file, `${n}.permission needs granted_by, date (YYYY-MM-DD) and record_url (the submission or message granting permission)`);
   }
 
+  // Availability and resold products
+  if (f.availability !== undefined) {
+    const av = f.availability;
+    if (!['available', 'sold-out', 'paused', 'waitlist'].includes(av?.status)) err(file, 'availability.status must be available, sold-out, paused or waitlist');
+    if (av?.status !== 'available' && !av?.note) err(file, 'availability.note is required, in plain words, for example "Sold out for 2026; reservations open for 2027"');
+    if (av?.checked_on && !DATE.test(av.checked_on)) err(file, 'availability.checked_on must be YYYY-MM-DD');
+  }
+  if (f.resold_note !== undefined && (typeof f.resold_note !== 'string' || f.resold_note.length > 240)) err(file, 'resold_note must be a short sentence (240 characters or fewer)');
+
   // Dairy
   if (f.dairy_products !== undefined) {
     if (!Array.isArray(f.dairy_products)) err(file, 'dairy_products must be a list');

@@ -33,6 +33,7 @@ const shipLabel = r.nationwide ? 'Ships nationwide' : r.shipsTo.size ? `Ships to
     <h3><a href={`/farm/${farm.slug}/`}>{farm.farm_name}</a></h3>
     <p class="where">{shipsFrom ? <><span class="from">Ships from {st?.name}</span> ({farm.city})</> : <>{farm.city}{showState && st ? `, ${st.name}` : ''}</>}</p>
     <FeedingLabel farm={farm} />
+    {farm.availability && farm.availability.status !== 'available' && <p class="avail">{farm.availability.note}</p>}
     <ul class="tags">
       {organic && <li class="tag organic" title={organicDairyOnly ? 'Dairy products certified organic' : 'Livestock certified organic'}>{organicDairyOnly ? 'Organic dairy products' : 'USDA Organic'}</li>}
       {organicPasture && <li class="tag pasture" title="The farm's pasture is certified organic; its animals are not">Organic pasture</li>}
