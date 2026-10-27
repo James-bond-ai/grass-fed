@@ -14,27 +14,28 @@
   ],
   "products": [
     "beef cuts",
-    "mixed bulk packs",
-    "quarters",
-    "halves"
+    "50 lb mixed packs",
+    "mixed quarters",
+    "custom quarters and halves (fall only)"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
+    "category": "grass-finished",
     "verbatim": "Grass fed finished beef in the SW Driftless region of Wisconsin.",
     "source_url": "https://www.catesfamilyfarm.com/"
   },
   "certifications": [],
   "sales_channels": [
     "farm-pickup",
-    "local-delivery"
+    "local-delivery",
+    "retail"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
   "ordering_url": "https://www.catesfamilyfarm.com/enjoy-our-beef",
   "data_source": "web-search",
   "source_url": "https://www.farmprogress.com/livestock/consumer-demand-for-cates-family-farm-beef-skyrockets",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "5992 County Highway T, Spring Green, WI 53588",
   "delivery": {

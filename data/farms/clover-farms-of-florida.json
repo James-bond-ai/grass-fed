@@ -32,9 +32,14 @@
     "farm-pickup",
     "farmers-market",
     "retail",
+    "online-order",
     "ships-regional"
   ],
-  "farmers_markets": [],
+  "farmers_markets": [
+    "Atlantic Beach Farmers Market (Sundays)",
+    "Murray Hill Farmers Market at Fishweir Brewing (Wednesdays)",
+    "St. Augustine Amphitheatre Market (Saturdays)"
+  ],
   "bulk_shares": true,
   "delivery": {
     "local_areas": [],
@@ -54,10 +59,11 @@
     "source_url": "https://cloverfarmsfl.com/pages/areas-served"
   },
   "dairy_products": [],
-  "ordering_url": "",
+  "ordering_url": "https://cloverfarmsfl.com/",
   "data_source": "web-search",
   "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Some beef and eggs come from partner farms in Florida and Georgia that the farm says raise animals the same way; eggs are pickup only."
 }

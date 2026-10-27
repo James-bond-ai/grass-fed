@@ -21,7 +21,6 @@
     "farmstead cheese",
     "yogurt",
     "beef",
-    "veal",
     "pork"
   ],
   "feeding_claim": {
@@ -67,7 +66,8 @@
       "HolmGoods CSA: Solid Ground Farm, Kingston",
       "HolmGoods CSA: Hilltop Hanover Farm, Yorktown Heights",
       "HolmGoods CSA: Village Grocery & Refillery, Kingston",
-      "HolmGoods CSA: Q Farms, Sharon, CT"
+      "HolmGoods CSA: Q Farms, Sharon, CT",
+      "HolmGoods CSA: Village of Red Hook"
     ],
     "source_url": "https://www.chaseholmfarm.com/holmgoods"
   },
@@ -79,8 +79,8 @@
   "ordering_url": "",
   "data_source": "state-program",
   "source_url": "https://agriculture.ny.gov/dairy/raw-milk-permit-holders",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "115 Chase Road, Pine Plains, NY"
 }

@@ -14,8 +14,11 @@
     "pork"
   ],
   "products": [
-    "beef",
-    "pork"
+    "eighth, quarter, half and whole grass-finished beef",
+    "beef bundles",
+    "half pig",
+    "beef and pork combo packs",
+    "tallow products"
   ],
   "feeding_claim": {
     "category": "grass-finished",
@@ -27,7 +30,7 @@
     "ships-nationwide"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [],
     "local_radius_miles": null,
@@ -39,7 +42,8 @@
   "ordering_url": "https://cowgirlmeatco.com/collections/all",
   "data_source": "web-search",
   "source_url": "https://abundantmontana.com/amt-lister/cowgirl-meat-co/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Also sells bison, lamb and wild Alaskan salmon from partner producers; pigs are bought as piglets from a Townsend, MT family and raised on the ranch."
 }

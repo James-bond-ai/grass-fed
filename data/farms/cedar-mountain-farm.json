@@ -48,8 +48,9 @@
   "ordering_url": "https://www.cedarmountainfarm.org/shop",
   "data_source": "web-search",
   "source_url": "https://cobbhillcheese.com/about",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "25A Linden Rd, Hartland, VT 05048"
+  "address": "25A Linden Rd, Hartland, VT 05048",
+  "resold_note": "The shop page also mentions cheese; the farm's milk is made into Cobb Hill Cheese by a separate cheesemaker."
 }

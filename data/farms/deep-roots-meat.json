@@ -24,20 +24,25 @@
     "beef",
     "pork",
     "lamb",
+    "goat",
     "chicken",
     "eggs",
-    "half and whole animals"
+    "custom harvest beef, pork, lamb and goat"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "The cattle only got grass and forages, and were supplemented with hay and baleage when needed.",
-    "source_url": "https://deeprootsmeat.com/about/"
+    "category": "grass-finished",
+    "verbatim": "Our cattle are NOT fed any grain or animal by-products.",
+    "source_url": "https://deeprootsmeat.com/products/"
   },
   "certifications": [],
   "sales_channels": [
-    "farm-pickup"
+    "farm-pickup",
+    "online-order",
+    "farmers-market"
   ],
-  "farmers_markets": [],
+  "farmers_markets": [
+    "Brevard County Farmers Market, Melbourne (second Thursday monthly)"
+  ],
   "bulk_shares": true,
   "delivery": {
     "local_areas": [],
@@ -58,7 +63,7 @@
   "ordering_url": "https://app.barn2door.com/deeprootsmeat/all",
   "data_source": "web-search",
   "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

@@ -18,13 +18,13 @@
     "grass-fed and finished beef by special order"
   ],
   "feeding_claim": {
-    "category": "grain-finished",
-    "verbatim": "We finish the last 90-120 days with grain while continuing to graze.",
+    "category": "both",
+    "verbatim": "We also do 100% Grassfed and Finished beef special order and try to keep some available in the shop.",
     "source_url": "https://centralfloridabeef.com/"
   },
   "certifications": [],
   "sales_channels": [
-    "on-farm-store",
+    "retail",
     "local-delivery"
   ],
   "farmers_markets": [],
@@ -36,7 +36,7 @@
     "local_radius_miles": 50,
     "ships_to": [],
     "pickup_locations": [
-      "Greens and Goodness, Inverness"
+      "Central Florida Beef store, 605 E Jefferson St, Brooksville (processed beef shares)"
     ],
     "source_url": "https://centralfloridabeef.com/"
   },
@@ -44,8 +44,9 @@
   "ordering_url": "",
   "data_source": "web-search",
   "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "605 E Jefferson St, Brooksville, FL 34601"
+  "address": "605 E Jefferson St, Brooksville, FL 34601",
+  "resold_note": "Also sells chicken and pork in build-a-box bundles; the site does not say these are raised on the ranch."
 }

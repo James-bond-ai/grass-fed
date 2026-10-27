@@ -10,29 +10,60 @@
   "website": "https://www.cosmicwheelcreamery.com/",
   "phone": "715-268-9311",
   "social_urls": [],
-  "species": ["dairy-cow", "beef", "pork"],
-  "products": ["aged raw milk natural rind cheeses", "feta", "fresh cheese curds", "quark", "soft-ripened cheese", "whole milk ricotta", "grass-fed beef", "pastured pork"],
+  "species": [
+    "dairy-cow",
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "aged raw milk natural rind cheeses",
+    "feta",
+    "fresh cheese curds",
+    "quark",
+    "soft-ripened cheese",
+    "whole milk ricotta",
+    "beef soup bones",
+    "35 lb pastured pork packs"
+  ],
   "feeding_claim": {
     "category": "grass-fed",
     "verbatim": "Our cows are milked seasonally and are 100% grass fed.",
     "source_url": "https://www.cosmicwheelcreamery.com/"
   },
   "certifications": [],
-  "sales_channels": ["on-farm-store", "online-order", "farmers-market", "csa", "retail", "restaurants"],
-  "farmers_markets": ["St. Croix Falls Farmers Market", "Mill City Farmers Market", "MidCity Farmers Market"],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order",
+    "local-delivery",
+    "farmers-market",
+    "csa",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [
+    "St. Croix Falls Farmers Market",
+    "Mill City Farmers Market",
+    "MidCity Farmers Market"
+  ],
   "bulk_shares": false,
   "delivery": {
     "local_areas": [],
     "local_radius_miles": null,
     "ships_to": [],
-    "pickup_locations": ["Foxtail Farm Winter CSA", "Threshing Table Farm CSA"],
+    "pickup_locations": [
+      "Foxtail Farm Winter CSA",
+      "Threshing Table Farm CSA"
+    ],
     "source_url": "https://www.cosmicwheelcreamery.com/"
   },
-  "dairy_products": ["cheese"],
+  "dairy_products": [
+    "cheese"
+  ],
   "ordering_url": "https://turnip-rock.localline.ca/",
   "data_source": "web-search",
   "source_url": "https://millcityfarmersmarket.org/micro-creameries",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

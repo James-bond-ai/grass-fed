@@ -13,8 +13,9 @@
     "beef"
   ],
   "products": [
-    "bulk beef quarters",
-    "ground beef in bulk"
+    "80 lb quarter beef bundles",
+    "80 lb ground beef bundles (when available)",
+    "live cattle (bulls, heifers)"
   ],
   "feeding_claim": {
     "category": "grass-finished",
@@ -23,6 +24,7 @@
   },
   "certifications": [],
   "sales_channels": [
+    "farm-pickup",
     "local-delivery"
   ],
   "farmers_markets": [],
@@ -39,7 +41,7 @@
   "ordering_url": "https://www.chaguanasblackangus.com/product/",
   "data_source": "web-search",
   "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

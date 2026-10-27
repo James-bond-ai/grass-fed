@@ -13,9 +13,10 @@
     "dairy-goat"
   ],
   "products": [
-    "goat cheese",
-    "chevre",
     "drinkable goat yogurt",
+    "chevre",
+    "cabecou",
+    "crescenza",
     "goat milk soap"
   ],
   "feeding_claim": {
@@ -52,10 +53,10 @@
     "yogurt",
     "cheese"
   ],
-  "ordering_url": "https://creeksidefarmathens.com/shop/",
+  "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/ohio/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

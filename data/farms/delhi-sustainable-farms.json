@@ -12,30 +12,27 @@
   "social_urls": [],
   "species": [
     "beef",
-    "poultry",
-    "pork",
-    "lamb"
+    "poultry"
   ],
   "products": [
-    "beef",
-    "chicken",
-    "pork",
-    "lamb",
+    "beef cuts",
+    "whole, half and quarter beef",
+    "pasture-raised chicken",
     "subscription boxes"
   ],
   "feeding_claim": {
     "category": "grass-finished",
-    "verbatim": "We raise 100% grass-fed grass-finished beef.",
+    "verbatim": "Throughout the summer months we switch the pastures to sorghum-sudan grass, which provides an even higher protein content for finishing the beef.",
     "source_url": "https://www.delhisustainablefarms.com/grass-fed-beef"
   },
   "certifications": [],
   "sales_channels": [
     "farm-pickup",
     "local-delivery",
-    "ships-regional"
+    "online-order"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [
       "Cuba",
@@ -52,7 +49,8 @@
   "ordering_url": "https://www.delhisustainablefarms.com/shop-products",
   "data_source": "web-search",
   "source_url": "https://mofb.org/missouri-meat-producers/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Also sells pork the site calls locally raised, and eggs; the site does not say these come from this farm."
 }

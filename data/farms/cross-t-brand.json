@@ -30,7 +30,8 @@
     }
   ],
   "sales_channels": [
-    "farmers-market"
+    "farmers-market",
+    "online-order"
   ],
   "farmers_markets": [
     "Fulshear Farmers' Market"
@@ -49,7 +50,7 @@
   "ordering_url": "https://waypointfarm.grazecart.com",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/southwest/cross-t-brand-hallettsville-tx/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

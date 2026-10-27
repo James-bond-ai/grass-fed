@@ -14,13 +14,16 @@
   ],
   "species": [
     "dairy-goat",
+    "goat",
     "pork"
   ],
   "products": [
     "goat cheese",
     "kefir",
-    "sausage",
-    "whey-fed pork"
+    "goat meat (chevon)",
+    "goat merguez",
+    "pork cuts",
+    "farm made sausage"
   ],
   "feeding_claim": {
     "category": "pastured",
@@ -40,7 +43,8 @@
   "sales_channels": [
     "on-farm-store",
     "online-order",
-    "local-delivery"
+    "local-delivery",
+    "retail"
   ],
   "farmers_markets": [],
   "bulk_shares": false,
@@ -64,8 +68,8 @@
   "ordering_url": "https://doesleap.com/shop",
   "data_source": "web-search",
   "source_url": "https://realorganicproject.org/directory/does-leap",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "1703 Route 108 South, East Fairfield, VT 05448"
 }

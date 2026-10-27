@@ -13,20 +13,23 @@
     "beef"
   ],
   "products": [
-    "grass-fed beef"
+    "individual cuts",
+    "sampler bundles",
+    "quarter, half and whole beef"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "Our cattle live a natural life on beautiful pastures, and are 100% grass-fed.",
-    "source_url": "https://carhanfarm.com/"
+    "category": "grass-finished",
+    "verbatim": "Our calves are born and spend their entire life on our pastures, with rotational grazing and supplemented in the winter with hay we produce on the farm.",
+    "source_url": "https://carhanfarm.com/products/"
   },
   "certifications": [],
   "sales_channels": [
-    "restaurants",
-    "online-order"
+    "farm-pickup",
+    "online-order",
+    "restaurants"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [],
     "local_radius_miles": null,
@@ -37,7 +40,7 @@
   "ordering_url": "https://app.barn2door.com/3v875/all",
   "data_source": "web-search",
   "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }
