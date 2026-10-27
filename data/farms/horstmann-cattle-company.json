@@ -24,10 +24,13 @@
   },
   "certifications": [],
   "sales_channels": [
-    "local-delivery"
+    "local-delivery",
+    "farmers-market"
   ],
-  "farmers_markets": [],
-  "bulk_shares": false,
+  "farmers_markets": [
+    "Tower Grove Farmers Market, St. Louis (Saturday pickup of Show Me Pastures orders)"
+  ],
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [
       "St. Louis"
@@ -35,13 +38,14 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [],
-    "source_url": "https://horstmanncattleco.com/pages/faqs"
+    "source_url": "https://horstmanncattleco.com/collections/all"
   },
   "dairy_products": [],
-  "ordering_url": "https://horstmanncattleco.com/collections/all",
+  "ordering_url": "https://showmepastures.com/",
   "data_source": "web-search",
   "source_url": "https://mofb.org/missouri-meat-producers/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "notes": "Since its partnership with Show Me Pastures, the farm no longer takes orders on its own site; its beef is ordered through Show Me Pastures for Tuesday St. Louis home delivery or Saturday pickup at Tower Grove Farmers Market."
 }

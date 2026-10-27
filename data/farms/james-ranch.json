@@ -16,7 +16,7 @@
   ],
   "products": [
     "beef cuts",
-    "half and whole beef",
+    "split half, half and whole beef (July to November)",
     "raw milk cheese",
     "eggs"
   ],
@@ -34,7 +34,8 @@
   ],
   "sales_channels": [
     "on-farm-store",
-    "retail"
+    "retail",
+    "restaurants"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
@@ -51,8 +52,8 @@
   "ordering_url": "https://www.jamesranch.net/beef",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/colorado/durango/cheese-1/james-ranch-artisan-cheese/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "33846 US-550, Durango, CO 81301"
 }

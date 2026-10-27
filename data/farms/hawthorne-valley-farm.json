@@ -71,6 +71,7 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
+      "CSA pickup: Hawthorne Valley Farm, 327 County Route 21C, Ghent (Thursday)",
       "CSA pickup: Inwood (Isham Park)",
       "CSA pickup: Riverdale Neighborhood House",
       "CSA pickup: Garden City (Cathedral of Incarnation)",
@@ -87,8 +88,9 @@
   "ordering_url": "https://store.hawthornevalley.org",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/new-york/ghent/beef-1/hawthorne-valley-farm-store/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "327 County Route 21C, Ghent, NY 12075"
+  "address": "327 County Route 21C, Ghent, NY 12075",
+  "resold_note": "Yogurt is made with milk from the farm's own cows plus milk from a few local dairies."
 }

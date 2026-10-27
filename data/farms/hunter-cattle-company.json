@@ -16,7 +16,8 @@
   "species": [
     "beef",
     "pork",
-    "poultry"
+    "poultry",
+    "eggs"
   ],
   "products": [
     "grass-fed beef",
@@ -24,7 +25,8 @@
     "chicken",
     "beef snacks",
     "bone broth",
-    "sausage"
+    "sausage",
+    "eggs (farm store pickup only)"
   ],
   "feeding_claim": {
     "category": "grass-finished",
@@ -34,10 +36,14 @@
   "certifications": [],
   "sales_channels": [
     "on-farm-store",
-    "retail",
-    "restaurants"
+    "online-order",
+    "farmers-market",
+    "retail"
   ],
-  "farmers_markets": [],
+  "farmers_markets": [
+    "Statesboro Farmers' Market (Saturday pickup of online pre-orders)",
+    "Savannah Farmer's Market (Saturday pickup of online pre-orders)"
+  ],
   "bulk_shares": true,
   "delivery": {
     "local_areas": [
@@ -49,29 +55,30 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
-      "Jacksonville, FL: The Avenues Mall, 1st and 3rd Tuesday",
+      "Jacksonville, FL: The Avenues Mall, 1st and 3rd Tuesday ($300 minimum)",
       "Statesboro Farmers' Market, Saturdays",
       "Metter Visitor Center, Thursdays ($200 minimum)",
-      "Pooler, GA: Piggly Wiggly, 2nd and 4th Wednesday",
-      "Port Wentworth, GA: Food Lion, 2nd and 4th Wednesday",
-      "Savannah, GA: Forsyth Park or Bass Pro, 2nd and 4th Wednesday",
+      "Pooler, GA: Piggly Wiggly, 2nd and 4th Wednesday ($200 minimum)",
+      "Port Wentworth, GA: Food Lion, 2nd and 4th Wednesday ($200 minimum)",
+      "Savannah, GA: Forsyth Park or Bass Pro, 2nd and 4th Wednesday ($200 minimum)",
       "Savannah Farmer's Market, Saturdays",
       "Macon area, monthly Thursday ($400 minimum)",
-      "Forest Park, GA: Race Trac, 3rd Thursday",
-      "Atlanta, GA: Whole Foods Market, 77 W Paces Ferry Rd NW, 1st Thursday",
-      "St. Simons/Brunswick, GA: monthly meet up",
-      "Mount Pleasant, SC: Whole Foods, 2nd and 4th Wednesday",
-      "Charleston, SC: West Ashley Whole Foods, 2nd and 4th Wednesday",
-      "Columbia, SC: Wednesday meet up",
-      "Bluffton, SC: Lowes, 2nd and 4th Wednesday",
-      "Hilton Head, SC: Java Burrito, 2nd and 4th Wednesday"
+      "Forest Park, GA: Race Trac, 3rd Thursday ($300 minimum)",
+      "Atlanta, GA: Whole Foods Market, 77 W Paces Ferry Rd NW, 1st Thursday ($300 minimum)",
+      "St. Simons/Brunswick, GA: monthly meet up, date TBD ($200 minimum)",
+      "Mount Pleasant, SC: Whole Foods, 2nd and 4th Wednesday ($200 minimum)",
+      "Charleston, SC: West Ashley Whole Foods, 2nd and 4th Wednesday ($200 minimum)",
+      "Columbia, SC: Wednesday meet up at Boca Grande Burritos, date TBD ($200 minimum)",
+      "Bluffton, SC: Lowes, 2nd and 4th Wednesday ($200 minimum)",
+      "Hilton Head, SC: Java Burrito, 2nd and 4th Wednesday ($200 minimum)"
     ],
     "source_url": "https://huntercattle.com/buy-grassfed-beef-locations/"
   },
   "ordering_url": "https://huntercattle.com/shop-hunter-cattle/",
   "data_source": "web-search",
   "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Some cattle and other animals come from partner farms that follow the same grass-fed and pasture protocols."
 }
