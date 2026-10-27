@@ -55,6 +55,16 @@ const jsonLd = {
     </div>
   </section>
   <img class="art-band hero-art" src="/art/pasture.svg" alt="" width="1200" height="380" />
+  <section class="why" aria-labelledby="why-title">
+    <h2 id="why-title">Why grassfed.food exists</h2>
+    <p class="why-lede">Buying grass-fed meat and dairy straight from a farm should be simple. Too often it isn't: labels blur grass-fed and grass-finished, directories are out of date, and it's hard to tell which farms are actually certified.</p>
+    <dl class="why-grid">
+      <div><dt>Who it's for</dt><dd>Home cooks, families buying a quarter or half of beef, and anyone who wants to know how their food was raised.</dd></div>
+      <div><dt>What we do</dt><dd>Check every farm against its own website, confirm certifications at the source, and date every listing.</dd></div>
+      <div><dt>What we won't do</dt><dd>Take money from farms or brands for placement, or make health claims.</dd></div>
+    </dl>
+    <p class="why-more"><a href="/about/">Read more about grassfed.food</a></p>
+  </section>
   <FeedingKey />
 
   <section>
@@ -106,6 +116,14 @@ const jsonLd = {
 
 <style>
   .hero { position: relative; z-index: 1; }
+  .why { margin: 0 0 2rem; }
+  .why h2 { margin-top: 0.5rem; }
+  .why-lede { max-width: 62ch; font-size: 1.1rem; }
+  .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem 2rem; margin: 1.25rem 0 0.75rem; }
+  .why-grid div { border-top: 3px solid var(--pasture); padding-top: 0.6rem; }
+  .why-grid dt { font-family: var(--display); font-weight: 700; font-size: 1.15rem; color: var(--pasture-deep); margin-bottom: 0.3rem; }
+  .why-grid dd { margin: 0; color: var(--ink-soft); }
+  .why-more { margin: 0.25rem 0 0; }
   .hero-art { position: relative; z-index: 0; pointer-events: none; margin-top: clamp(-150px, -11vw, -40px); }
   .hero { display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: center; padding-bottom: 1rem; }
   .hero h1 { max-width: 17ch; font-size: clamp(2.3rem, 6vw, 4rem); }

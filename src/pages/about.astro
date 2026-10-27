@@ -1,14 +1,33 @@
 ---
 import Page from '../layouts/Page.astro';
 ---
-<Page title="About grassfed.food" crumb="About" description="grassfed.food is a dated, verified directory of US farms selling grass-fed meat and dairy, with plain guides to labels and buying.">
-  <p class="lede">grassfed.food helps you buy grass-fed meat and dairy directly from the farms that raise it.</p>
-  <p>Finding a grass-fed farm should be simple, but existing directories make it hard to tell which farms finish their animals on grass, which are certified, and whether a listing is still current. We built grassfed.food to fix those three things: filters for the claims that matter, certifications checked at the source, and a date on every listing.</p>
-  <p>Our guides cover what labels mean, how to buy a quarter or half of a steer, and how delivery services compare, with sources for every claim.</p>
+<Page title="About grassfed.food" crumb="About" description="Why grassfed.food exists, who it's for, and what it's trying to do: clear labels, verified and dated farm listings, and no paid placement.">
+  <p class="lede">grassfed.food helps you find and buy grass-fed and pasture-raised meat and dairy directly from the US farms that raise it, and understand exactly what you're buying.</p>
+
+  <h2>Who it's for</h2>
   <ul>
-    <li><a href="/methodology/">How we verify farms and write guides</a></li>
-    <li><a href="/disclosure/">How we make money</a></li>
-    <li><a href="/list-your-farm/">List your farm</a></li>
-    <li><a href="/corrections/">Report a correction</a></li>
+    <li><strong>Shoppers who want to buy direct from a farm</strong>, whether a few steaks, a dozen eggs or a share of a steer.</li>
+    <li><strong>People new to grass-fed food</strong> who want plain answers about labels, certifications and buying in bulk.</li>
+    <li><strong>Small farms that sell direct</strong> and want buyers to find them. <a href="/list-your-farm/">Listing is free.</a></li>
   </ul>
+
+  <h2>What we're trying to do</h2>
+  <ol class="goals">
+    <li><strong>Make the labels clear.</strong> Grass-fed and grass-finished are different claims, and so are organic pasture and organic meat. Every listing shows exactly which applies. <a href="/guides/grass-fed-vs-grass-finished/">Grass-fed vs grass-finished</a></li>
+    <li><strong>Be right, and show our work.</strong> Every farm is checked against its own website and every certification against the certifier's records. Each listing shows the date we last checked.</li>
+    <li><strong>Stay current.</strong> Listings are rechecked on a schedule, and anything we can't confirm comes down.</li>
+    <li><strong>Stay independent.</strong> Farms and brands can't pay to be listed, ranked or reviewed.</li>
+    <li><strong>Help farms reach buyers</strong>, especially small ones without the budget to advertise.</li>
+  </ol>
+
+  <h2>How the site is run</h2>
+  <p>Farm research, verification and guide drafting are done with AI tools working to written rules, and every listing and guide is checked against its sources before it's published. Our <a href="/methodology/">methodology</a> explains each check, and you can <a href="/corrections/">report a correction</a> if we get something wrong.</p>
+
+  <h2>How it's paid for</h2>
+  <p>Right now it isn't: there are no ads, paid links or sponsors. If we add advertising later, it will be clearly separated from our content, and <a href="/disclosure/">our disclosure page</a> will say so first.</p>
 </Page>
+<style>
+  .goals { padding-left: 1.3rem; }
+  .goals li { margin-bottom: 0.7rem; padding-left: 0.3rem; }
+  .goals li::marker { font-family: var(--display); font-weight: 700; color: var(--hay); }
+</style>
