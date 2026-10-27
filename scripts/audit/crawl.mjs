@@ -16,25 +16,35 @@ const farms = fs.readdirSync('data/farms').filter((f) => f.endsWith('.json')).so
   .filter((_, i) => i % SHARDS === SHARD);
 fs.mkdirSync('crawl', { recursive: true });
 
+// robots.txt: standard longest-match rule with * and $ wildcards; Allow beats Disallow on ties.
 const robotsCache = {};
+const toRe = (p) => new RegExp('^' + p.replace(/[.+?^{}()|[\]\\]/g, '\\$&').replace(/\*/g, '.*').replace(/\\\$$/, '$'));
 async function allowed(ctx, url) {
   const u = new URL(url);
   if (!(u.origin in robotsCache)) {
-    let rules = [];
+    const groups = []; let cur = null, lastWasAgent = false;
     try {
       const r = await ctx.request.get(`${u.origin}/robots.txt`, { timeout: 15000 });
       if (r.ok()) {
-        let applies = false;
-        for (const line of (await r.text()).split('\n')) {
-          const [k, ...v] = line.split(':'); const val = v.join(':').trim(); const key = k.trim().toLowerCase();
-          if (key === 'user-agent') applies = val === '*' || /grassfed/i.test(val);
-          else if (key === 'disallow' && applies && val) rules.push(val);
+        for (const raw of (await r.text()).split('\n')) {
+          const line = raw.replace(/#.*$/, '').trim(); if (!line) continue;
+          const i = line.indexOf(':'); if (i < 0) continue;
+          const key = line.slice(0, i).trim().toLowerCase(), val = line.slice(i + 1).trim();
+          if (key === 'user-agent') { if (!lastWasAgent) { cur = { agents: [], rules: [] }; groups.push(cur); } cur.agents.push(val.toLowerCase()); lastWasAgent = true; }
+          else { lastWasAgent = false; if (cur && (key === 'allow' || key === 'disallow') && val) cur.rules.push({ allow: key === 'allow', path: val }); }
         }
       }
     } catch {}
-    robotsCache[u.origin] = rules;
+    const mine = groups.filter((g) => g.agents.some((a) => a.includes('grassfed')));
+    const star = groups.filter((g) => g.agents.includes('*'));
+    robotsCache[u.origin] = (mine.length ? mine : star).flatMap((g) => g.rules);
   }
-  return !robotsCache[u.origin].some((d) => u.pathname.startsWith(d.replace(/\*.*$/, '')));
+  const target = u.pathname + u.search;
+  let best = null;
+  for (const r of robotsCache[u.origin]) {
+    if (toRe(r.path).test(target) && (!best || r.path.length > best.path.length || (r.path.length === best.path.length && r.allow))) best = r;
+  }
+  return !best || best.allow;
 }
 
 const browser = await chromium.launch();
