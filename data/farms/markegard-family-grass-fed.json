@@ -28,17 +28,23 @@
   },
   "certifications": [],
   "sales_channels": [
-    "local-delivery"
+    "local-delivery",
+    "online-order",
+    "farmers-market",
+    "farm-pickup",
+    "csa"
   ],
-  "farmers_markets": [],
+  "farmers_markets": [
+    "CSM Farmers Market, San Mateo (Saturdays)",
+    "Sunnyvale Farmers Market, Murphy Ave (Saturdays)",
+    "Palo Alto Farmers Market, California Ave (Sundays)",
+    "Campbell Farmers Market, E. Campbell Ave (Sundays)"
+  ],
   "bulk_shares": false,
   "delivery": {
     "local_areas": [
-      "Half Moon Bay",
-      "La Honda",
-      "San Gregorio",
-      "Pescadero",
-      "San Mateo County"
+      "Half Moon Bay, La Honda, San Gregorio, Pescadero (weekly, $50 minimum)",
+      "San Mateo County (bi-weekly, $250 minimum)"
     ],
     "local_radius_miles": null,
     "ships_to": [],
@@ -66,8 +72,8 @@
   "ordering_url": "https://www.markegardfamily.com/what-we-offer",
   "data_source": "web-search",
   "source_url": "https://www.markegardfamily.com",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "20080 Cabrillo Hwy S, Half Moon Bay, CA 94019"
 }

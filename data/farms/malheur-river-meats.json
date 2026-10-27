@@ -28,9 +28,9 @@
     "eggs"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "Our grass fed / pasture raised animals nutritional needs are met by following Mother Nature's seasonal growth cycles.",
-    "source_url": "https://www.malheurrivermeats.com/about-us"
+    "category": "grass-finished",
+    "verbatim": "Grass Finished",
+    "source_url": "https://www.malheurrivermeats.com/"
   },
   "certifications": [
     {
@@ -41,14 +41,24 @@
   ],
   "sales_channels": [
     "retail",
-    "restaurants"
+    "restaurants",
+    "local-delivery"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
   "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/vale/eggs-1/malheur-river-meats/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "delivery": {
+    "local_areas": [
+      "Treasure Valley (free delivery)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.malheurrivermeats.com/our-animals"
+  }
 }

@@ -10,19 +10,17 @@
   "phone": "423-401-5024",
   "social_urls": [],
   "species": [
-    "lamb",
     "pork",
     "eggs"
   ],
   "products": [
-    "lamb",
     "whole or half pork",
     "eggs"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "Lifted Hearts Farm offers local grass fed lamb, pastured pork, pastured rabbit and free range eggs.",
-    "source_url": "https://www.liftedheartsfarm.com"
+    "category": "pastured",
+    "verbatim": "Pastured Pork Half Price listed is for the weight of the live animal.",
+    "source_url": "https://www.liftedheartsfarm.com/product-page/pork-half"
   },
   "certifications": [],
   "sales_channels": [
@@ -33,8 +31,8 @@
   "ordering_url": "https://www.liftedheartsfarm.com/category/all-products",
   "data_source": "state-program",
   "source_url": "https://www.picktnproducts.org/picktn-producers/picktn-listing.26286.html",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "750 Lilac Ln, Pikeville, TN 37367"
 }
