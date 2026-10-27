@@ -42,10 +42,16 @@
     }
   ],
   "sales_channels": [
+    "online-order",
     "local-delivery",
-    "farm-pickup"
+    "farm-pickup",
+    "farmers-market",
+    "retail"
   ],
-  "farmers_markets": [],
+  "farmers_markets": [
+    "Bend Farmers Market (Wednesdays, May to October)",
+    "Northwest Crossing Farmers Market (Saturdays, June to September)"
+  ],
   "bulk_shares": true,
   "delivery": {
     "local_areas": [
@@ -58,13 +64,15 @@
     ],
     "local_radius_miles": null,
     "ships_to": [],
-    "pickup_locations": [],
+    "pickup_locations": [
+      "Pickup spots in Redmond and Sisters (for customers outside the delivery zone)"
+    ],
     "source_url": "https://north44farm.com/pages/local-delivery-info"
   },
-  "ordering_url": "",
+  "ordering_url": "https://north44farm.com/",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/bend/beef-1/north-44-farm/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

@@ -16,13 +16,15 @@
     "beef"
   ],
   "products": [
+    "100% grass-finished freezer beef",
+    "F1 Wagyu-Angus freezer beef (quarter minimum; finishing feed not stated)",
     "dry-aged beef",
-    "American Wagyu beef"
+    "beef fat"
   ],
   "feeding_claim": {
-    "category": "pastured",
-    "verbatim": "Our family has been raising high quality, pasture-based beef in Western Colorado for nearly 50 years.",
-    "source_url": "https://www.nickandamysfarm.com/"
+    "category": "grass-finished",
+    "verbatim": "100 % Grass Finished Freezer Beef",
+    "source_url": "https://www.nickandamysfarm.com/shop"
   },
   "certifications": [],
   "sales_channels": [
@@ -30,12 +32,20 @@
     "local-delivery"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "ordering_url": "https://www.nickandamysfarm.com/shop",
   "data_source": "web-search",
   "source_url": "https://www.cobeef.com/local-beef-directory",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "6234 County Road 226, New Castle, CO"
+  "address": "6234 County Road 226, New Castle, CO",
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.nickandamysfarm.com/"
+  },
+  "notes": "Ranch pickup and delivery offered; the site does not name a delivery area. The Wagyu-Angus line is described only as carefully finished."
 }

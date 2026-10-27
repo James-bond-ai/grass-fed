@@ -13,6 +13,7 @@
     "dairy-cow",
     "beef",
     "pork",
+    "poultry",
     "eggs"
   ],
   "products": [
@@ -20,7 +21,8 @@
     "raw milk",
     "beef",
     "pork",
-    "eggs"
+    "eggs",
+    "Thanksgiving turkeys (pre-order)"
   ],
   "feeding_claim": {
     "category": "pastured",
@@ -30,29 +32,29 @@
   "certifications": [],
   "sales_channels": [
     "on-farm-store",
-    "local-delivery",
-    "retail"
+    "farmers-market",
+    "retail",
+    "restaurants"
   ],
   "farmers_markets": [],
   "bulk_shares": false,
   "delivery": {
-    "local_areas": [
-      "Southampton to Montauk"
-    ],
+    "local_areas": [],
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [],
-    "source_url": "https://mecoxdirect.com"
+    "source_url": "https://www.mecoxbaydairy.com/where-to-buy"
   },
   "dairy_products": [
     "raw-milk",
     "cheese"
   ],
-  "ordering_url": "https://mecoxdirect.com",
+  "ordering_url": "https://www.mecoxbaydairy.com/turkey-orders-2026",
   "data_source": "state-program",
   "source_url": "https://agriculture.ny.gov/dairy/raw-milk-permit-holders",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "855 Mecox Road, Bridgehampton, NY 11932"
+  "address": "855 Mecox Road, Bridgehampton, NY 11932",
+  "notes": "Mecox Direct home delivery (Southampton to Montauk) is on pause; the site points buyers to farmers markets and the farm store. Market names appear only on an interactive map."
 }

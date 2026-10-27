@@ -16,21 +16,24 @@
   "products": [
     "beef",
     "heritage pork",
-    "beef jerky"
+    "beef jerky",
+    "beef and pork shares",
+    "farm honey"
   ],
   "feeding_claim": {
     "category": "grass-finished",
-    "verbatim": "\"Grass-fed/finished\" means our cattle eat the diet of the grasses and legumes (pasture and grass silage cut on-farm) that cattle evolved to consume.",
+    "verbatim": "“Grass-fed/finished” means our cattle eat the diet of the grasses and legumes (pasture and grass silage cut on-farm) that cattle evolved to consume.",
     "source_url": "https://nehalemriverranch.com/"
   },
   "certifications": [],
   "sales_channels": [
+    "online-order",
     "on-farm-store",
     "retail",
     "restaurants"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [],
     "local_radius_miles": null,
@@ -46,7 +49,8 @@
   "ordering_url": "https://app.barn2door.com/nehalemriverranch/all",
   "data_source": "web-search",
   "source_url": "https://nehalemriverranch.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Online store also sells eggs from Sunbeam Farms and pasture-raised cheese from other producers."
 }

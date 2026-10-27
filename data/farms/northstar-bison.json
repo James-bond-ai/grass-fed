@@ -20,21 +20,22 @@
   ],
   "feeding_claim": {
     "category": "grass-finished",
-    "verbatim": "100% Grass Fed & Finished, Field Harvested",
-    "source_url": "https://northstarbison.com/"
+    "verbatim": "Our bison are raised on pasture, 100% grass-fed and finished, and cared for in a way that respects their natural design.",
+    "source_url": "https://northstarbison.com/collections/bison-ground-patties"
   },
   "certifications": [],
   "sales_channels": [
-    "retail",
-    "ships-nationwide"
+    "online-order",
+    "ships-nationwide",
+    "farm-pickup"
   ],
   "farmers_markets": [],
-  "bulk_shares": true,
+  "bulk_shares": false,
   "ordering_url": "https://northstarbison.com/collections/all",
   "data_source": "web-search",
   "source_url": "https://northstarbison.com/pages/ranch-tours-map",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "delivery": {
     "local_areas": [],
@@ -44,5 +45,6 @@
       "Northstar Bison Distribution, 222 Birch Ave, Cameron, WI"
     ],
     "source_url": "https://northstarbison.com/policies/shipping-policy"
-  }
+  },
+  "resold_note": "Online store also sells beef, elk, pork, poultry, fish and dairy; the site does not say which of these Northstar raises."
 }

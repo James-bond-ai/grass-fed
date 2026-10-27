@@ -9,16 +9,37 @@
   "address": "202 W Old Towne Rd, Westby, WI 54667",
   "website": "https://www.nordiccreamery.com/",
   "phone": "608-634-3276",
-  "social_urls": ["https://www.facebook.com/NordicCreamery/"],
-  "species": ["dairy-cow", "dairy-goat", "beef"],
-  "products": ["cheddar", "goat cheese", "sheep milk cheese", "cultured butter", "flavored butters", "goat butter", "gift boxes", "grass-fed beef"],
+  "social_urls": [
+    "https://www.facebook.com/NordicCreamery/"
+  ],
+  "species": [
+    "dairy-cow",
+    "dairy-goat",
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "cheddar",
+    "goat cheese",
+    "cultured butter",
+    "flavored butters",
+    "goat butter",
+    "gift boxes",
+    "grass-fed beef",
+    "buttermilk-fed pork"
+  ],
   "feeding_claim": {
-    "category": "pastured",
+    "category": "grass-fed",
     "verbatim": "Our stock is grass feed in open pastures during the summer and feed a mostly grass hay diet during the winter.",
     "source_url": "https://www.nordiccreamery.com/about.php"
   },
   "certifications": [],
-  "sales_channels": ["on-farm-store", "online-order", "ships-nationwide", "retail"],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "ships-nationwide",
+    "retail"
+  ],
   "farmers_markets": [],
   "bulk_shares": false,
   "delivery": {
@@ -28,11 +49,15 @@
     "pickup_locations": [],
     "source_url": "https://www.nordiccreamery.com/"
   },
-  "dairy_products": ["cheese", "butter"],
+  "dairy_products": [
+    "cheese",
+    "butter"
+  ],
   "ordering_url": "https://www.nordiccreamery.com/categories.php",
   "data_source": "web-search",
   "source_url": "https://www.travelwisconsin.com/food-drink/wisconsin-cheese/nordic-creamery",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Some cheeses, including all sheep milk cheeses, are made with milk from Amish Wisconsin dairy farms; the store also sells Amish candies and jams."
 }

@@ -7,7 +7,7 @@
   "zip": "",
   "address_public": false,
   "website": "https://www.mccaffertyranch.com",
-  "phone": "",
+  "phone": "406-899-5129",
   "social_urls": [],
   "species": [
     "beef",
@@ -33,16 +33,17 @@
   },
   "certifications": [],
   "sales_channels": [
-    "ships-regional"
+    "online-order",
+    "farm-pickup",
+    "retail",
+    "restaurants"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
   "delivery": {
     "local_areas": [],
     "local_radius_miles": null,
-    "ships_to": [
-      "MT"
-    ],
+    "ships_to": [],
     "pickup_locations": [
       "Pickup time and location arranged after processing"
     ],
@@ -52,7 +53,8 @@
   "ordering_url": "https://www.mccaffertyranch.com/bulk-beef",
   "data_source": "web-search",
   "source_url": "https://abundantmontana.com/amt-lister/mccafferty-ranch-beef/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "notes": "Ships orders from the online store, but the site does not name the area it ships to. Single cuts are also sold at Central Avenue Meats (Great Falls), Daniels Gourmet Meats (Bozeman) and Roadhouse Diner (Great Falls). Bulk beef orders placed now are filled in early 2027."
 }

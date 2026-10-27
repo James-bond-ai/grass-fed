@@ -2,12 +2,12 @@
   "id": "old-ford-farm",
   "slug": "old-ford-farm",
   "farm_name": "Old Ford Farm",
-  "city": "New Paltz",
+  "city": "Gardiner",
   "state": "NY",
   "zip": "12561",
   "address_public": true,
   "website": "https://www.oldfordfarm.com/",
-  "phone": "",
+  "phone": "845-248-0956",
   "social_urls": [],
   "species": [
     "dairy-cow",
@@ -45,8 +45,10 @@
   "ordering_url": "",
   "data_source": "state-program",
   "source_url": "https://agriculture.ny.gov/dairy/raw-milk-permit-holders",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "1359 Old Ford Rd, New Paltz, NY 12561"
+  "address": "1359 Old Ford Rd, New Paltz, NY 12561",
+  "resold_note": "Farm store also sells beef from Autumn's Harvest Farm and Full Moon Farm, pork from Northaven Pastures, and yogurt, cheese and butter from other dairies.",
+  "notes": "Farm is in Gardiner, NY; the farm address carries a New Paltz postal address. Second phone: Joe, 845-220-7819."
 }

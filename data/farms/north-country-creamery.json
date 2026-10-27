@@ -65,8 +65,8 @@
   "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/new-york/keeseville/cheese-1/north-country-creamery/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "931 Mace Chasm Road, Keeseville, NY 12944"
 }

@@ -10,19 +10,15 @@
   "phone": "970-963-1644",
   "social_urls": [],
   "species": [
-    "beef",
-    "pork",
-    "poultry"
+    "beef"
   ],
   "products": [
     "beef cuts",
-    "whole and half beef",
-    "pork",
-    "whole turkey"
+    "whole and half beef"
   ],
   "feeding_claim": {
     "category": "grain-finished",
-    "verbatim": "We finish them on our unique mixture of homegrown grasses and grains.",
+    "verbatim": "They come home happy and healthy in the fall and we finish them on our unique mixture of homegrown grasses and grains.",
     "source_url": "https://nieslanikbeef.com/cattle"
   },
   "certifications": [],
@@ -46,8 +42,9 @@
   "ordering_url": "https://nieslanikbeef.com/shop-all-products",
   "data_source": "web-search",
   "source_url": "https://www.cobeef.com/local-beef-directory",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "761 Ranch View Drive, Carbondale, CO 81623"
+  "address": "761 Ranch View Drive, Carbondale, CO 81623",
+  "resold_note": "Also sells pork and whole turkeys; the site does not say whether the family raises them."
 }
