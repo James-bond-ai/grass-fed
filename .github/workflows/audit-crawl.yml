@@ -1,0 +1,33 @@
+name: Audit crawl
+
+# Saves the full text of each published farm's website for an independent accuracy audit.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/audit/crawl.mjs', '.github/workflows/audit-crawl.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm i --no-save playwright@1 && npx playwright install --with-deps chromium
+      - run: node scripts/audit/crawl.mjs
+      - name: Publish to the audit-crawl branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mv crawl /tmp/crawl
+          git switch --orphan audit-crawl-tmp
+          git rm -rf --quiet . || true
+          rm -rf node_modules
+          cp -r /tmp/crawl/. .
+          git add -A && git commit -q -m "Farm website crawl $(date -u +%F)"
+          git push -f origin HEAD:audit-crawl
