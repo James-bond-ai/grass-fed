@@ -22,16 +22,17 @@ const finished = farms.filter((f) => f.feeding_claim?.category === 'grass-finish
 const fedOnly = farms.filter((f) => f.feeding_claim?.category === 'grass-fed').length;
 const certified = farms.filter((f) => (f.certifications ?? []).length).length;
 const bulk = farms.filter((f) => f.bulk_shares).length;
-const ships = farms.filter((f) => (f.sales_channels ?? []).includes('ships-nationwide')).length;
 const latest = farms.map((f) => f.last_verified_at).sort().at(-1);
 const speciesCount: Record<string, number> = {};
 for (const f of farms) for (const s of f.species ?? []) speciesCount[s] = (speciesCount[s] ?? 0) + 1;
 const topSpecies = Object.entries(speciesCount).sort((a, b) => b[1] - a[1]).slice(0, 4);
 
-const title = `Grass-fed beef and dairy farms in ${st.name}`;
+const sN = shipIn.length;
+const plural = (k: number, w: string) => `${k} ${w}${k === 1 ? '' : 's'}`;
+const title = n ? `Grass-fed farms in ${st.name}` : `Grass-fed farms that ship to ${st.name}`;
 const description = n
-  ? `${n} verified ${st.name} farms selling grass-fed meat and dairy. Filter by grass-finished, certification, bulk shares and shipping. Last checked ${latest ? fmtDate(latest) : ''}.`
-  : `Grass-fed meat and dairy farms in ${st.name}. We are verifying farms in this state now; check back soon or list your farm.`;
+  ? `${plural(n, 'verified farm')} based in ${st.name}, plus ${sN} in other states that ship here. Filter by grass-finished, organic, delivery and shipping.`
+  : `No ${st.name}-based farms are listed yet. ${plural(sN, 'grass-fed farm')} in other states ship to ${st.name}. Filter by grass-finished, organic and what they sell.`;
 const jsonLd = [
   {
     '@context': 'https://schema.org',
@@ -55,42 +56,44 @@ const jsonLd = [
 <Base title={title} description={description} noindex={!indexable} jsonLd={jsonLd}>
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/farms/">Farms</a> / {st.name}</nav>
   <h1>{title}</h1>
-  {n > 0 ? (
-    <>
-      <p class="lede">
-        {n} verified {n === 1 ? 'farm' : 'farms'} in {st.name}
-        {topSpecies.length > 0 && <> selling {topSpecies.map(([k]) => (SPECIES[k] ?? k).toLowerCase()).join(', ')}</>}.
-        {latest && <> Last checked {fmtDate(latest)}.</>}
+  <div class="glance" aria-label={`Farms for ${st.name} at a glance`}>
+    {n > 0
+      ? <a href="#based"><b>{n}</b><span>{n === 1 ? 'farm is' : 'farms are'} <strong>based in {st.name}</strong>. Your best bet for farm pickup, local delivery and bulk shares.</span></a>
+      : <a href="/list-your-farm/" class="none"><b>None listed yet</b><span>No farms <strong>based in {st.name}</strong> have been verified yet. Raise grass-fed animals here? List your farm.</span></a>}
+    <a href="#ships-here"><b>{sN}</b><span>{sN === 1 ? 'farm' : 'farms'} in <strong>other states ship to {st.name}</strong>. Usually ordered online and shipped frozen.</span></a>
+  </div>
+  <FeedingKey />
+  {n > 0 && (
+    <section id="based">
+      <h2>Farms based in {st.name}<span class="section-count">{n}</span></h2>
+      <p class="muted">
+        {topSpecies.length > 0 && <>Selling {topSpecies.map(([k]) => (SPECIES[k] ?? k).toLowerCase()).join(', ')}. </>}
+        {latest && <>Last checked {fmtDate(latest)}.</>}
       </p>
-      <dl class="state-facts">
+      <dl class="state-facts" aria-label={`About the farms based in ${st.name}`}>
         <div><dt>Grass-fed and grass-finished</dt><dd>{finished}</dd></div>
         <div><dt>Grass-fed, finishing not stated</dt><dd>{fedOnly}</dd></div>
         <div><dt>Third-party certified</dt><dd>{certified}</dd></div>
         <div><dt>Sell quarter or half shares</dt><dd>{bulk}</dd></div>
-        <div><dt>Ship nationwide</dt><dd>{ships}</dd></div>
         <div><dt>Sell dairy</dt><dd>{dairyN}</dd></div>
         {organicN > 0 && <div><dt>USDA Organic</dt><dd>{organicN}</dd></div>}
       </dl>
-      <FeedingKey />
       <Filters listId="farms" total={n} />
       <ul class="farm-list" id="farms">
         {farms.map((f) => <FarmRow farm={f} showState={false} />)}
       </ul>
-    </>
-  ) : (
-    <div class="empty">
-      <p><strong>We haven't verified any {st.name} farms yet.</strong></p>
-      <p>We add farms every week, starting with the states where we find the most certified producers. If you raise grass-fed animals in {st.name}, <a href="/list-your-farm/">list your farm</a> and we'll check it first.</p>
-      <p><a href="/farms/">Browse other states</a></p>
-    </div>
-  )}
-  {shipIn.length > 0 && (
-    <section id="ships-here">
-      <h2>Farms in other states that ship to {st.name}</h2>
-      <p class="muted">These farms say they ship to {st.name} or anywhere in the continental US. Check shipping costs and timing with each farm.</p>
-      <Filters listId="ship-in" total={shipIn.length} />
-      <ul class="farm-list" id="ship-in">{shipIn.map((f) => <FarmRow farm={f} />)}</ul>
     </section>
+  )}
+  {sN > 0 && (
+    <section id="ships-here">
+      <h2>Farms in other states that ship to {st.name}<span class="section-count">{sN}</span></h2>
+      <p class="muted">{n > 0 ? '' : `None of these farms are in ${st.name}. `}Each one says it ships to {st.name}, either to listed states or anywhere in the continental US. Orders usually arrive frozen by mail; check shipping costs and timing with each farm.</p>
+      <Filters listId="ship-in" total={sN} />
+      <ul class="farm-list" id="ship-in">{shipIn.map((f) => <FarmRow farm={f} shipsFrom />)}</ul>
+    </section>
+  )}
+  {n === 0 && (
+    <p class="empty" style="margin-top:2rem">We add farms every week. If you raise grass-fed animals in {st.name}, <a href="/list-your-farm/">list your farm</a> and we'll check it first.</p>
   )}
   {dairyN > 0 && <p><a href={`/dairy/${st.slug}/`}>Grass-fed dairy farms in {st.name}</a></p>}
   <p class="small muted" style="margin-top:2rem">Feeding descriptions are in each farm's own words, from its website. Certifications are shown only when we found the farm in the certifier's own listing. <a href="/methodology/">How we verify</a></p>

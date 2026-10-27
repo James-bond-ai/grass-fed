@@ -24,7 +24,7 @@ const title = `Grass-fed dairy farms in ${st.name}`;
   {shipIn.length > 0 && (
     <>
       <h2>Dairy farms elsewhere that ship to {st.name}</h2>
-      <ul class="farm-list">{shipIn.map((f) => <FarmRow farm={f} />)}</ul>
+      <ul class="farm-list">{shipIn.map((f) => <FarmRow farm={f} shipsFrom />)}</ul>
     </>
   )}
 </Base>

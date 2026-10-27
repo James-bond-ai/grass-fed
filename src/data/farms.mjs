@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { STATES, servesState } from './states.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 export const FARMS_DIR = path.join(ROOT, 'data', 'farms');
@@ -24,4 +25,19 @@ export function farmsByState(farms) {
   const out = {};
   for (const f of farms) (out[f.state] ??= []).push(f);
   return out;
+}
+
+// For every state: how many published farms are based there, and how many farms
+// in other states say they ship there. Used by the map, state lists and drop-downs.
+export function stateCoverage() {
+  const all = loadPublishedFarms();
+  const nationwide = all.filter((f) => f.delivery?.ships_to === 'nationwide' || (f.sales_channels ?? []).includes('ships-nationwide')).length;
+  const out = {};
+  for (const s of STATES) {
+    out[s.abbr] = {
+      based: all.filter((f) => f.state === s.abbr).length,
+      shipIn: all.filter((f) => f.state !== s.abbr && servesState(f, s.abbr)).length,
+    };
+  }
+  return { byState: out, nationwide, total: all.length };
 }

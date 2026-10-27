@@ -208,3 +208,21 @@ a.tile:hover { outline: 2px solid var(--hay); outline-offset: 1px; }
 .feed-key li .feed-part:first-child { border-radius: var(--radius-sm) 0 0 var(--radius-sm); }
 .feed-key-more { margin: 0.6rem 0 0; font-size: 0.92rem; }
 .feed-key.compact { padding: 0.7rem 0.9rem; }
+
+/* Map: states with no farms based there yet */
+.tile.l0 { background: transparent; border-style: dashed; color: var(--ink-soft); }
+.map-legend i.key-l0 { background: transparent; border-style: dashed; }
+.map-caption { max-width: 62ch; margin: 0 0 1rem; color: var(--ink-soft); }
+.map-caption strong { color: var(--ink); }
+
+/* Out-of-state farm rows */
+.where .from { font-weight: 600; color: var(--ink); }
+
+/* State page at-a-glance */
+.glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.75rem; margin: 1.25rem 0 0.5rem; }
+.glance a { display: block; padding: 0.9rem 1.1rem; border: 1px solid var(--rule); border-radius: var(--radius-md); background: #fff; text-decoration: none; color: var(--ink); }
+.glance a:hover { border-color: var(--pasture); }
+.glance b { display: block; font-family: var(--display); font-size: 2rem; line-height: 1.1; color: var(--pasture-deep); }
+.glance span { font-size: 0.98rem; }
+.glance a.none b { font-size: 1.25rem; color: var(--ink-soft); padding: 0.35rem 0 0.2rem; }
+.section-count { font-family: var(--body); font-weight: 500; font-size: 0.6em; color: var(--ink-soft); margin-left: 0.4em; }

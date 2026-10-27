@@ -1,24 +1,33 @@
 ---
 import { STATES } from '../data/states.mjs';
-interface Props { counts: Record<string, number> }
-const { counts } = Astro.props;
-const level = (n: number) => (n === 0 ? '' : n < 5 ? 'l1' : n < 15 ? 'l2' : n < 40 ? 'l3' : 'l4');
+import { stateCoverage } from '../data/farms.mjs';
+const { byState, nationwide } = stateCoverage();
+const level = (n: number) => (n === 0 ? 'l0' : n < 5 ? 'l1' : n < 15 ? 'l2' : n < 40 ? 'l3' : 'l4');
+const plural = (n: number, w: string) => `${n} ${w}${n === 1 ? '' : 's'}`;
 ---
-<div class="tilemap" role="list" aria-label="Verified farms by state">
+<p class="map-caption">
+  <strong>The number on each state is how many farms are based there.</strong>
+  Farms in other states also ship to you: {nationwide} ship anywhere in the continental US.
+  Choose a state to see both.
+</p>
+<div class="tilemap" role="list" aria-label="Farms based in each state">
   {STATES.map((s) => {
-    const n = counts[s.abbr] ?? 0;
+    const { based, shipIn } = byState[s.abbr];
+    const label = based
+      ? `${s.name}: ${plural(based, 'farm')} based here, plus ${shipIn} in other states that ship here`
+      : `${s.name}: no farms based here yet; ${plural(shipIn, 'farm')} in other states ship here`;
     return (
-      <a role="listitem" class={`tile ${level(n)}`} href={`/farms/${s.slug}/`}
+      <a role="listitem" class={`tile ${level(based)}`} href={`/farms/${s.slug}/`}
         style={`grid-column:${s.col + 1};grid-row:${s.row + 1}`}
-        aria-label={`${s.name}: ${n} verified ${n === 1 ? 'farm' : 'farms'}`}>
-        <b>{s.abbr}</b><small>{n}</small>
+        aria-label={label} title={label}>
+        <b>{s.abbr}</b>{based > 0 && <small>{based}</small>}
       </a>
     );
   })}
 </div>
 <p class="map-legend" aria-hidden="true">
-  <span><i></i>None yet</span>
-  <span><i style="background:#e3ecd0"></i>1 to 4</span>
+  <span><i class="key-l0"></i>No farms based here yet (farms elsewhere still ship here)</span>
+  <span><i style="background:#e3ecd0"></i>1 to 4 based here</span>
   <span><i style="background:#b9d08d"></i>5 to 14</span>
   <span><i style="background:#6f9a52"></i>15 to 39</span>
   <span><i style="background:#2f5d3a"></i>40 or more</span>

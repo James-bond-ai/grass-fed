@@ -2,8 +2,8 @@
 import Stamp from './Stamp.astro';
 import FeedingLabel from './FeedingLabel.astro';
 import { STATE_BY_ABBR, SPECIES, CERTIFICATIONS, DAIRY_PRODUCTS, isOrganic, hasOrganicPasture, sellsDairy, reach, feedingLabel } from '../data/states.mjs';
-interface Props { farm: any; showState?: boolean }
-const { farm, showState = true } = Astro.props;
+interface Props { farm: any; showState?: boolean; shipsFrom?: boolean }
+const { farm, showState = true, shipsFrom = false } = Astro.props;
 const st = STATE_BY_ABBR[farm.state];
 const certs = (farm.certifications ?? []).filter((c) => CERTIFICATIONS[c.program] && !c.program.startsWith('usda-organic'));
 const organicDairyOnly = !(farm.certifications ?? []).some((c) => c.program === 'usda-organic') && (farm.certifications ?? []).some((c) => c.program === 'usda-organic-dairy');
@@ -31,7 +31,7 @@ const shipLabel = r.nationwide ? 'Ships nationwide' : r.shipsTo.size ? `Ships to
   data-pickup={pickup ? '1' : '0'}>
   <div>
     <h3><a href={`/farm/${farm.slug}/`}>{farm.farm_name}</a></h3>
-    <p class="where">{farm.city}{showState && st ? `, ${st.name}` : ''}</p>
+    <p class="where">{shipsFrom ? <><span class="from">Ships from {st?.name}</span> ({farm.city})</> : <>{farm.city}{showState && st ? `, ${st.name}` : ''}</>}</p>
     <FeedingLabel farm={farm} />
     <ul class="tags">
       {organic && <li class="tag organic" title={organicDairyOnly ? 'Dairy products certified organic' : 'Livestock certified organic'}>{organicDairyOnly ? 'Organic dairy products' : 'USDA Organic'}</li>}

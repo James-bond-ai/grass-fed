@@ -2,27 +2,29 @@
 import Base from '../../layouts/Base.astro';
 import TileMap from '../../components/TileMap.astro';
 import { STATES, INDEX_THRESHOLD } from '../../data/states.mjs';
-import { loadPublishedFarms, farmsByState } from '../../data/farms.mjs';
+import { loadPublishedFarms, farmsByState, stateCoverage } from '../../data/farms.mjs';
 
 const byState = farmsByState(loadPublishedFarms());
 const counts = Object.fromEntries(Object.entries(byState).map(([k, v]) => [k, v.length]));
 const sorted = STATES.slice().sort((a, b) => a.name.localeCompare(b.name));
 const total = Object.values(counts).reduce((a, b) => a + b, 0);
+const cov = stateCoverage().byState;
 ---
 <Base title="Grass-fed farms by state" description="Browse verified US farms selling grass-fed beef, lamb, bison, pork and dairy, state by state, with certifications and last-checked dates.">
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Farms</nav>
   <h1>Grass-fed farms by state</h1>
-  <p class="lede">{total} verified {total === 1 ? 'farm' : 'farms'} so far. Pick a state to see its farms and filter by what you want to buy.</p>
-  <TileMap counts={counts} />
+  <p class="lede">{total} verified {total === 1 ? 'farm' : 'farms'} so far. Pick your state to see farms based there and farms elsewhere that ship to you.</p>
+  <TileMap />
   <h2>All states</h2>
   <ul class="state-index">
     {sorted.map((s) => (
-      <li><a href={`/farms/${s.slug}/`}>{s.name}</a> <span class="muted">{counts[s.abbr] ?? 0}</span></li>
+      <li><a href={`/farms/${s.slug}/`}>{s.name}</a> <span class="muted small">{cov[s.abbr].based ? `${cov[s.abbr].based} based here, ${cov[s.abbr].shipIn} ship here` : `none based here yet, ${cov[s.abbr].shipIn} ship here`}</span></li>
     ))}
   </ul>
-  <p class="small muted">State guides with fewer than {INDEX_THRESHOLD} verified farms are still being built. You can browse them, and we add farms every week.</p>
+  <p class="small muted">"Based here" counts farms located in the state. "Ship here" counts farms in other states that say they ship to it. We add farms every week.</p>
 </Base>
 <style>
   .state-index { columns: 3 200px; padding: 0; list-style: none; }
-  .state-index li { padding: 0.25rem 0; break-inside: avoid; }
+  .state-index li { padding: 0.3rem 0; break-inside: avoid; }
+  .state-index .small { display: block; }
 </style>
