@@ -1,0 +1,17 @@
+{
+ "slug": "canal-junction-farm",
+ "website": "https://canaljunctionfarm.com/",
+ "pages": {
+  "https://canaljunctionfarm.com/store/verify-local?redirect=https://canaljunctionfarm.com/store": {
+   "status": 200,
+   "title": "Store - Canal Junction Farm",
+   "text": "See what products are available in your area\nStart Shopping\nAlready have an account? Sign in here.\nFarm website & online store provided by GrazeCart"
+  }
+ },
+ "skipped": [],
+ "errors": [
+  "https://canaljunctionfarm.com/: TimeoutError: page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://canaljunctionfarm.com/\", waiting until \"domcontentloaded\"\n",
+  "https://canaljunctionfarm.com/our-farm: TimeoutError: page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://canaljunctionfarm.com/our-farm\", waiting until \"domcontentload",
+  "https://canaljunctionfarm.com/pickup: TimeoutError: page.goto: Timeout 20000ms exceeded.\nCall log:\n  - navigating to \"https://canaljunctionfarm.com/pickup\", waiting until \"domcontentloaded"
+ ]
+}

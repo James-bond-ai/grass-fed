@@ -1,0 +1,10 @@
+{
+ "slug": "malheur-river-meats",
+ "website": "https://www.malheurrivermeats.com/",
+ "pages": {},
+ "skipped": [],
+ "errors": [
+  "https://www.malheurrivermeats.com/: Error: page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://www.malheurrivermeats.com/\nCall log:\n  - navigating to \"https://www.malheurrivermeat",
+  "https://www.malheurrivermeats.com/about-us: Error: page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://www.malheurrivermeats.com/about-us\nCall log:\n  - navigating to \"https://www.malheurr"
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "slug": "oxbow-cattle-company",
+ "website": "https://www.oxbowcattleco.com",
+ "pages": {
+  "https://www.oxbowcattleco.com/": {
+   "status": 403,
+   "title": "Just a moment...",
+   "text": "www.oxbowcattleco.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a51324bc2962fab5\nPerformance and Security by Cloudflare\nPrivacy"
+  },
+  "https://www.oxbowcattleco.com/faqs/": {
+   "status": 403,
+   "title": "Just a moment...",
+   "text": "www.oxbowcattleco.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a51324c62e76fab5\nPerformance and Security by Cloudflare\nPrivacy"
+  },
+  "https://www.oxbowcattleco.com/shop/": {
+   "status": 403,
+   "title": "Just a moment...",
+   "text": "www.oxbowcattleco.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a51324cfeb38fab5\nPerformance and Security by Cloudflare\nPrivacy"
+  },
+  "https://www.oxbowcattleco.com/farm-to-market/": {
+   "status": 403,
+   "title": "Just a moment...",
+   "text": "www.oxbowcattleco.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a51324d9bf89fab5\nPerformance and Security by Cloudflare\nPrivacy"
+  },
+  "https://www.oxbowcattleco.com/our-story/": {
+   "status": 403,
+   "title": "Just a moment...",
+   "text": "www.oxbowcattleco.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a51324e38bcafab5\nPerformance and Security by Cloudflare\nPrivacy"
+  }
+ },
+ "skipped": [],
+ "errors": []
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "sugar-house-creamery",
+ "website": "https://www.sugarhousecreamery.com/",
+ "pages": {
+  "https://www.sugarhousecreamery.com/": {
+   "status": 200,
+   "title": "Sugar House Creamery",
+   "text": "ENTER"
+  },
+  "https://www.sugarhousecreamery.com/milk": {
+   "status": 200,
+   "title": "MILK — Sugar House Creamery",
+   "text": "ABOUT\nMILK\nCHEESE\nFARM STORE\nSTAY\nGALLERY\nCONTACT\n\nThe story of our milk is really the story of our cows and our land. We milk a herd of Brown Swiss, Jersey, and Montbeliardes. Our cows eat fresh grass every day during the pasture season, which here in the Adirondacks is roughly May to November. During the winter, our cows eat hay and non-gmo grain. Our cows make delicious, sweet milk, all of which is turned into cheese!\n\n18 Sugar House Way, Upper Jay NY\n\n \n \n\nPHOTOS GENEROUSLY PROVIDED BY LISA GODFREY"
+  },
+  "https://www.sugarhousecreamery.com/farm-store": {
+   "status": 200,
+   "title": "FARM STORE — Sugar House Creamery",
+   "text": "ABOUT\nMILK\nCHEESE\nFARM STORE\nSTAY\nGALLERY\nCONTACT\nFARM STORE\n\nOur farm store is open Wednesday, Saturday, and Sunday from 10 am to 6 pm. Find it stocked with our farmstead cheese, raw milk, veal & beef alongside other products from local farms and makers including meats, eggs, vegetables, and bread.\n\nFARM FRIENDS & COLLABORATORS\n\nMace Chasm Farm / Blue Pepper Farm / Juniper Hill Farm / North Country Creamery / Reber Rock Farm / Wayward Goose Farm / Wild Work Farm / Mona Dubay / Small Town Cultures / Crown Point Bakery / KZ Farm / The Hub on the Hill / Black Rooster Maple / Gold Bar Butter \n\n18 Sugar House Way, Upper Jay NY\n\n \n \n\nPHOTOS GENEROUSLY PROVIDED BY LISA GODFREY"
+  }
+ },
+ "skipped": [],
+ "errors": []
+}
