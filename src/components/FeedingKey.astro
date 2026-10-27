@@ -1,0 +1,13 @@
+---
+interface Props { compact?: boolean }
+const { compact = false } = Astro.props;
+---
+<aside class={`feed-key ${compact ? 'compact' : ''}`} aria-label="What the feeding labels mean">
+  <p class="feed-key-title"><strong>Grass-fed is not the same as grass-finished.</strong> Many grass-fed cattle get grain in their last months. Every farm here shows both:</p>
+  <ul>
+    <li><span class="feed-part yes"><b aria-hidden="true">✓</b>Grass-fed</span><span class="feed-part yes"><b aria-hidden="true">✓</b>Grass-finished</span> Grass and forage for life</li>
+    <li><span class="feed-part yes"><b aria-hidden="true">✓</b>Grass-fed</span><span class="feed-part maybe"><b aria-hidden="true">?</b>Finishing not stated</span> Ask the farm</li>
+    <li><span class="feed-part yes"><b aria-hidden="true">✓</b>Grass-fed</span><span class="feed-part no"><b aria-hidden="true">✕</b>Grain-finished</span> Grain before harvest</li>
+  </ul>
+  <p class="feed-key-more"><a href="/guides/grass-fed-vs-grass-finished/">Grass-fed vs grass-finished, explained</a></p>
+</aside>

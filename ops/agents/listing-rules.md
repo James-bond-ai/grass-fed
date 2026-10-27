@@ -22,6 +22,7 @@ Open the farm's own website with WebFetch. Every listing must be confirmed again
 3. Feeding claim: copy the single most specific sentence (or shorter phrase) where the farm describes feeding, exactly as written, 300 characters or fewer, and record the URL of the page it came from. Then set `category`:
    - `grass-finished`: the farm explicitly says grass-finished, grass-fed and finished, 100% grass-fed for life, or no grain ever.
    - `grass-fed`: says grass-fed but not how animals are finished.
+   - `both`: sells grass-finished meat and also grain-finished (separate lines, or the buyer chooses).
    - `grain-finished`: says grain is fed before harvest.
    - `percentage`: describes a mixed or percentage diet.
    - `pastured`: describes pasture access without a grass-only diet (typical for pork, poultry, eggs).

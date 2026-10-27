@@ -186,3 +186,25 @@ a.tile:hover { outline: 2px solid var(--hay); outline-offset: 1px; }
 .reach dd { margin: 0; }
 
 .tag.pasture { background: #fff; border-color: #b9cf98; color: var(--pasture-deep); }
+
+/* Feeding label: grass-fed and grass-finished shown side by side */
+.feed { margin: 0.45rem 0 0; }
+.feed-pill { display: inline-flex; flex-wrap: wrap; border-radius: var(--radius-sm); overflow: hidden; border: 1px solid var(--rule); }
+.feed-part { display: inline-flex; align-items: center; gap: 0.3em; padding: 0.18em 0.6em; font-size: 0.84rem; font-weight: 600; line-height: 1.4; }
+.feed-part + .feed-part { border-left: 1px solid rgba(0,0,0,0.12); }
+.feed-part b { font-weight: 700; }
+.feed-part.yes { background: var(--pasture); color: #fff; }
+.feed-part.maybe { background: var(--hay-tint); color: #6d4f0b; }
+.feed-part.no { background: #f4e7e2; color: var(--alert); }
+.feed-part.neutral { background: var(--paper-2); color: var(--ink); }
+.feed-lg .feed-part { font-size: 1rem; padding: 0.35em 0.8em; }
+.feed-note { margin: 0.5rem 0 0; font-size: 0.95rem; color: var(--ink-soft); max-width: 60ch; }
+.feed-key { border: 1px solid var(--rule); border-left: 4px solid var(--pasture); background: #fff; border-radius: var(--radius-md); padding: 0.9rem 1.1rem; margin: 1.25rem 0 1.5rem; }
+.feed-key-title { margin: 0 0 0.6rem; }
+.feed-key ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.45rem; }
+.feed-key li { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; font-size: 0.92rem; color: var(--ink-soft); }
+.feed-key li .feed-part { border: 1px solid var(--rule); border-radius: var(--radius-sm); }
+.feed-key li .feed-part + .feed-part { margin-left: -0.5rem; border-left: 0; border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+.feed-key li .feed-part:first-child { border-radius: var(--radius-sm) 0 0 var(--radius-sm); }
+.feed-key-more { margin: 0.6rem 0 0; font-size: 0.92rem; }
+.feed-key.compact { padding: 0.7rem 0.9rem; }

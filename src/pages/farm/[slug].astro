@@ -7,6 +7,7 @@ import { loadPublishedFarms } from '../../data/farms.mjs';
 import { fmtDate } from '../../data/format.mjs';
 import { getCollection } from 'astro:content';
 import Icon from '../../components/Icon.astro';
+import FeedingLabel from '../../components/FeedingLabel.astro';
 import { BROWSE } from '../../data/browse.mjs';
 
 export function getStaticPaths() {
@@ -65,6 +66,7 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
     <div>
       <h1>{farm.farm_name}</h1>
       <p class="lede">{farm.city}, {st.name}</p>
+      <FeedingLabel farm={farm} size="lg" showNote />
       {icons.length > 0 && <ul class="farm-icons" aria-label="Sells">{icons.map((b) => <li title={b.label}><Icon name={b.icon} size={34} /><span>{b.label}</span></li>)}</ul>}
     </div>
     <Stamp date={farm.last_verified_at} />

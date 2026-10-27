@@ -15,6 +15,7 @@ const path = Astro.url.pathname;
 const nav = [
   { href: '/farms/', label: 'Find a farm' },
   { href: '/dairy/', label: 'Dairy' },
+  { href: '/guides/grass-fed-vs-grass-finished/', label: 'Grass-fed vs finished' },
   { href: '/guides/', label: 'Guides' },
   { href: '/certifications/', label: 'Certifications' },
   { href: '/methodology/', label: 'How we verify' },
@@ -59,7 +60,7 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
         <a class="brand" href="/">grassfed<span>.</span>food</a>
         <nav class="nav" aria-label="Main">
           {nav.map((n) => (
-            <a href={n.href} aria-current={path.startsWith(n.href) ? 'page' : undefined}>{n.label}</a>
+            <a href={n.href} aria-current={path === n.href || (n.href === '/guides/' ? path.startsWith('/guides/') && path !== '/guides/grass-fed-vs-grass-finished/' : path.startsWith(n.href)) ? 'page' : undefined}>{n.label}</a>
           ))}
         </nav>
       </div>

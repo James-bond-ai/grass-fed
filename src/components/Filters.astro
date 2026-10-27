@@ -24,8 +24,16 @@ const { listId, total, mode = 'all' } = Astro.props;
       </select>
     </div>
   )}
+  <div class="field">
+    <label for={`${listId}-feed`}>{mode === 'dairy' ? 'Herd feeding' : 'Feeding'}</label>
+    <select id={`${listId}-feed`} name="feed">
+      <option value="">All farms</option>
+      {mode === 'dairy'
+        ? <option value="gf">Grass-fed herds only</option>
+        : <><option value="gff">Grass-finished available</option><option value="any">Any grass-fed</option></>}
+    </select>
+  </div>
   <div class="checks">
-    <label><input type="checkbox" name="finish" /> Grass-finished</label>
     {anyOrganic && <label><input type="checkbox" name="organic" /> USDA Organic</label>}
     <label><input type="checkbox" name="certified" /> Grass-fed or welfare certified</label>
     {mode !== 'dairy' && <label><input type="checkbox" name="dairy" /> Sells dairy</label>}
@@ -51,7 +59,7 @@ const { listId, total, mode = 'all' } = Astro.props;
         const ok =
           (!species || (d.species ?? '').split(' ').includes(species)) &&
           (!product || (d.dairyProducts ?? '').split(' ').includes(product)) &&
-          (!f.get('finish') || d.finish === 'grass-finished') &&
+          (!f.get('feed') || (f.get('feed') === 'gff' ? ['gff', 'both'].includes(d.feed ?? '') : f.get('feed') === 'gf' ? ['gf', 'gff'].includes(d.feed ?? '') : ['gff', 'both', 'gf', 'grain'].includes(d.feed ?? ''))) &&
           (!f.get('organic') || d.organic === '1') &&
           (!f.get('certified') || d.certified === '1') &&
           (!f.get('dairy') || d.dairy === '1') &&

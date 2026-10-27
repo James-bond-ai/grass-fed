@@ -20,7 +20,7 @@
     "pork"
   ],
   "feeding_claim": {
-    "category": "grass-finished",
+    "category": "both",
     "verbatim": "Grass Fed/Grass Finished",
     "source_url": "https://www.slashjbeef.com/shop"
   },

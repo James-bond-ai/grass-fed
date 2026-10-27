@@ -1,0 +1,15 @@
+---
+import { feedingLabel } from '../data/states.mjs';
+interface Props { farm: any; size?: 'sm' | 'lg'; showNote?: boolean }
+const { farm, size = 'sm', showNote = false } = Astro.props;
+const l = feedingLabel(farm);
+const mark = (ok: boolean | null | string) => (ok === true ? '✓' : ok === false ? '✕' : ok === 'n' ? '' : '?');
+---
+<div class={`feed feed-${size}`}>
+  <span class={`feed-pill lvl-${l.level}`} title={l.note}>
+    {l.parts.map((p) => (
+      <span class={`feed-part ${p.ok === true ? 'yes' : p.ok === false ? 'no' : p.ok === 'n' ? 'neutral' : 'maybe'}`}>{mark(p.ok) && <b aria-hidden="true">{mark(p.ok)}</b>}{p.text}</span>
+    ))}
+  </span>
+  {showNote && <p class="feed-note">{l.note} <a href="/guides/grass-fed-vs-grass-finished/">What these terms mean</a></p>}
+</div>

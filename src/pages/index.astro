@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import TileMap from '../components/TileMap.astro';
 import Icon from '../components/Icon.astro';
+import FeedingKey from '../components/FeedingKey.astro';
 import { BROWSE } from '../data/browse.mjs';
 import { getCollection } from 'astro:content';
 import { STATES } from '../data/states.mjs';
@@ -52,6 +53,7 @@ const jsonLd = {
     </div>
   </section>
   <img class="art-band hero-art" src="/art/pasture.svg" alt="" width="1200" height="380" />
+  <FeedingKey />
 
   <section>
     <h2>What are you looking for?</h2>

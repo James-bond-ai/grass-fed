@@ -75,6 +75,7 @@ export const FEEDING = {
   'grass-finished': 'Grass-fed and grass-finished',
   'grass-fed': 'Grass-fed (finishing not stated)',
   'grain-finished': 'Grass-fed, grain-finished',
+  both: 'Sells both grass-finished and grain-finished',
   percentage: 'Partial grass diet',
   pastured: 'Pasture-raised',
   unknown: 'Not stated',
@@ -133,4 +134,26 @@ export function reach(f) {
 export function servesState(f, abbr) {
   const r = reach(f);
   return f.state === abbr || r.nationwide || r.shipsTo.has(abbr);
+}
+
+// Plain-language feeding label for a farm, split into what it says about grass feeding and
+// about finishing (the last months before harvest). Dairy-only farms have no finishing stage.
+export function feedingLabel(f) {
+  const cat = f.feeding_claim?.category ?? 'unknown';
+  const dairyOnly = (f.species ?? []).length > 0 && (f.species ?? []).every((s) => s.startsWith('dairy-'));
+  if (dairyOnly) {
+    if (cat === 'grass-finished' || cat === 'grass-fed') return { level: 'gf', parts: [{ text: 'Grass-fed herd', ok: true }], note: 'The farm says its milking animals are fed on grass. Finishing applies to meat animals, not dairy herds.' };
+    if (cat === 'percentage' || cat === 'grain-finished') return { level: 'partial', parts: [{ text: 'Partial grass diet', ok: 'n' }], note: 'The farm says its herd eats grass along with some grain or other feed.' };
+    if (cat === 'pastured') return { level: 'pastured', parts: [{ text: 'Pasture-based herd', ok: 'n' }], note: 'The farm says its herd grazes on pasture but does not say the diet is grass only.' };
+    return { level: 'unknown', parts: [{ text: 'Feeding not stated', ok: null }], note: "The farm's website doesn't describe how its animals are fed." };
+  }
+  switch (cat) {
+    case 'grass-finished': return { level: 'gff', parts: [{ text: 'Grass-fed', ok: true }, { text: 'Grass-finished', ok: true }], note: 'The farm says its animals eat grass and forage their whole lives, including the final months before harvest.' };
+    case 'grass-fed': return { level: 'gf', parts: [{ text: 'Grass-fed', ok: true }, { text: 'Finishing not stated', ok: null }], note: "The farm says grass-fed but doesn't say how animals are fed in the final months. Ask whether they are grass-finished." };
+    case 'both': return { level: 'both', parts: [{ text: 'Grass-fed', ok: true }, { text: 'Grass-finished available', ok: true }], note: 'The farm sells grass-finished beef and also sells grain-finished beef. Ask for grass-finished when you order.' };
+    case 'grain-finished': return { level: 'grain', parts: [{ text: 'Grass-fed', ok: true }, { text: 'Grain-finished', ok: false }], note: 'The farm says its animals graze but are fed grain before harvest.' };
+    case 'percentage': return { level: 'partial', parts: [{ text: 'Partial grass diet', ok: 'n' }], note: 'The farm describes a mixed diet of grass plus grain or other feed.' };
+    case 'pastured': return { level: 'pastured', parts: [{ text: 'Pasture-raised', ok: 'n' }, { text: 'Not labeled grass-fed', ok: false }], note: 'The animals live on pasture, but the farm does not say their diet is grass only. Typical for pork and poultry, which also eat grain.' };
+    default: return { level: 'unknown', parts: [{ text: 'Feeding not stated', ok: null }], note: "The farm's website doesn't describe how its animals are fed. Ask before you buy." };
+  }
 }
