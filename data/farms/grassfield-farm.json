@@ -24,8 +24,8 @@
   ],
   "feeding_claim": {
     "category": "grass-finished",
-    "verbatim": "100% Certified AWA Grass Fed and Finished Beef",
-    "source_url": "https://www.grassfieldfarm.com/"
+    "verbatim": "Our cattle graze on a variety of grasses from start to finish and we never use antibiotics, hormones or grain.",
+    "source_url": "https://www.grassfieldfarm.com/about"
   },
   "certifications": [],
   "sales_channels": [
@@ -43,5 +43,9 @@
   "dairy_products": [],
   "ordering_url": "https://www.grassfieldfarm.com/shop",
   "data_source": "web-search",
-  "source_url": "https://www.grassfieldfarm.com/"
+  "source_url": "https://www.grassfieldfarm.com/",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "auto",
+  "listing_status": "unpublished",
+  "notes": "Unpublished 2026-10-27: shop says all meat is sold out for 2026, restocking March 2027, and the site does not say how orders are picked up, delivered or shipped. Recheck in March 2027."
 }

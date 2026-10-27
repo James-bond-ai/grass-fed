@@ -16,15 +16,13 @@
     "beef",
     "lamb",
     "pork",
-    "poultry",
-    "eggs"
+    "poultry"
   ],
   "products": [
     "beef cuts",
     "lamb",
     "pork",
     "chicken",
-    "eggs",
     "meat box subscriptions"
   ],
   "feeding_claim": {
@@ -59,5 +57,8 @@
   "dairy_products": [],
   "ordering_url": "https://www.buckcreekmeat.com/bythecut",
   "data_source": "web-search",
-  "source_url": "https://www.buckcreekmeat.com/"
+  "source_url": "https://www.buckcreekmeat.com/",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "auto",
+  "listing_status": "published"
 }

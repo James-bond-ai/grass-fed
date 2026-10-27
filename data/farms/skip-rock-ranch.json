@@ -19,8 +19,8 @@
   ],
   "feeding_claim": {
     "category": "grass-fed",
-    "verbatim": "Our herd is exclusively grass fed with no added hormones, antibiotics, or steroids.",
-    "source_url": "https://skiprockranch.com/"
+    "verbatim": "I can tell you our steers are raised on grass and are always hormone, antibiotic, and steroid free.",
+    "source_url": "https://skiprockranch.com/faqs"
   },
   "certifications": [],
   "sales_channels": [
@@ -40,5 +40,8 @@
   "dairy_products": [],
   "ordering_url": "",
   "data_source": "web-search",
-  "source_url": "https://skiprockranch.com/"
+  "source_url": "https://skiprockranch.com/",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "auto",
+  "listing_status": "published"
 }

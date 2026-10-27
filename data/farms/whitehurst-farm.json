@@ -55,5 +55,8 @@
   "dairy_products": [],
   "ordering_url": "https://whitehurstfarm.com/collections",
   "data_source": "web-search",
-  "source_url": "https://whitehurstfarm.com/"
+  "source_url": "https://whitehurstfarm.com/",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "auto",
+  "listing_status": "published"
 }

@@ -47,5 +47,8 @@
   "dairy_products": [],
   "ordering_url": "https://lazyatexas.com/shop/",
   "data_source": "web-search",
-  "source_url": "https://lazyatexas.com/"
+  "source_url": "https://lazyatexas.com/",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "auto",
+  "listing_status": "published"
 }

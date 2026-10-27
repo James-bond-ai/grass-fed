@@ -15,7 +15,8 @@
     "beef"
   ],
   "products": [
-    "half and whole beef"
+    "half and whole beef",
+    "beef boxes"
   ],
   "feeding_claim": {
     "category": "grass-finished",
@@ -24,21 +25,28 @@
   },
   "certifications": [],
   "sales_channels": [
-    "online-order"
+    "online-order",
+    "local-delivery"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
   "delivery": {
-    "local_areas": [],
+    "local_areas": [
+      "Greater San Antonio area",
+      "Boerne"
+    ],
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
       "Primo Processing, Hondo"
     ],
-    "source_url": "https://www.parkercreekranch.com/beef"
+    "source_url": "https://www.parkercreekranch.com/"
   },
   "dairy_products": [],
   "ordering_url": "https://www.parkercreekranch.com/beef",
   "data_source": "web-search",
-  "source_url": "https://www.parkercreekranch.com/"
+  "source_url": "https://www.parkercreekranch.com/",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "auto",
+  "listing_status": "published"
 }

@@ -47,5 +47,8 @@
   "dairy_products": [],
   "ordering_url": "https://store.whatthecluck.farm/",
   "data_source": "web-search",
-  "source_url": "https://www.whatthecluck.farm/"
+  "source_url": "https://www.whatthecluck.farm/",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "auto",
+  "listing_status": "published"
 }

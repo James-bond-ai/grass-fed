@@ -23,21 +23,25 @@
     "source_url": "https://www.banderagrassland.com/"
   },
   "certifications": [],
-  "sales_channels": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
   "farmers_markets": [],
   "bulk_shares": true,
   "delivery": {
-    "local_areas": [],
+    "local_areas": [
+      "Austin and San Antonio areas and points in-between"
+    ],
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [],
-    "source_url": "https://www.banderagrassland.com/"
+    "source_url": "https://www.banderagrassland.com/retail.html"
   },
   "dairy_products": [],
   "ordering_url": "",
   "data_source": "web-search",
   "source_url": "https://theshelbyreport.com/tag/bandera-grassland/",
-  "last_verified_at": "2026-10-26",
+  "last_verified_at": "2026-10-27",
   "verification_method": "auto",
-  "listing_status": "unpublished"
+  "listing_status": "published"
 }

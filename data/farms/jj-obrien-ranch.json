@@ -42,5 +42,8 @@
   "dairy_products": [],
   "ordering_url": "https://jjobrienranch.com/grassfed-beef",
   "data_source": "web-search",
-  "source_url": "https://jjobrienranch.com/"
+  "source_url": "https://jjobrienranch.com/",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "auto",
+  "listing_status": "published"
 }

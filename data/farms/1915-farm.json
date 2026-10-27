@@ -49,10 +49,13 @@
     "local_radius_miles": null,
     "ships_to": "nationwide",
     "pickup_locations": [],
-    "source_url": "https://1915farm.com/pages/shipping-1"
+    "source_url": "https://1915farm.com/pages/shipping"
   },
   "dairy_products": [],
   "ordering_url": "https://1915farm.com/collections/shop-all",
   "data_source": "web-search",
-  "source_url": "https://1915farm.com/"
+  "source_url": "https://1915farm.com/",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "auto",
+  "listing_status": "published"
 }

@@ -46,7 +46,8 @@
   "ordering_url": "https://www.carmanranch.com/",
   "data_source": "web-search",
   "source_url": "https://www.carmanranch.com/",
-  "last_verified_at": "2026-10-26",
+  "last_verified_at": "2026-10-27",
   "verification_method": "auto",
-  "listing_status": "unpublished"
+  "listing_status": "unpublished",
+  "notes": "Unpublished 2026-10-27: about page says most beef sold on the website comes from a producer group of partner ranches; only the Cow Share is from the family ranch in Wallowa. Needs manual review against the own-animals rule."
 }

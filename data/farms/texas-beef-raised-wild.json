@@ -50,5 +50,8 @@
   "dairy_products": [],
   "ordering_url": "https://shop.raisedwildtexas.com/products-list",
   "data_source": "web-search",
-  "source_url": "https://www.raisedwildtexas.com/"
+  "source_url": "https://www.raisedwildtexas.com/",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "auto",
+  "listing_status": "published"
 }

@@ -2,7 +2,7 @@
   "id": "sedleys-grassfed-beef",
   "slug": "sedleys-grassfed-beef",
   "farm_name": "Sedley's Grassfed Beef",
-  "city": "Gonzales County",
+  "city": "Leesville",
   "state": "TX",
   "zip": "",
   "address_public": false,
@@ -23,9 +23,9 @@
     "whole, half and quarter calf"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "Here at Sedley's Grassfed Beef, our animals graze on fresh, organic grass",
-    "source_url": "https://sedleysgrassfedbeef.com/"
+    "category": "grass-finished",
+    "verbatim": "high quality grass raised and finished beef directly to your table",
+    "source_url": "https://sedleysgrassfedbeef.com/pages/about"
   },
   "certifications": [],
   "sales_channels": [
@@ -61,5 +61,8 @@
   "dairy_products": [],
   "ordering_url": "https://sedleysgrassfedbeef.com/collections/all-products",
   "data_source": "web-search",
-  "source_url": "https://sedleysgrassfedbeef.com/"
+  "source_url": "https://sedleysgrassfedbeef.com/",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "auto",
+  "listing_status": "published"
 }

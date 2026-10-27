@@ -63,9 +63,9 @@
   "ordering_url": "https://www.kriemhilddairy.com/online-store.html",
   "data_source": "web-search",
   "source_url": "https://www.kriemhilddairy.com/",
-  "last_verified_at": "2026-10-26",
+  "last_verified_at": "2026-10-27",
   "verification_method": "auto",
   "listing_status": "unpublished",
   "address": "1093 State Route 12B, Hamilton, NY 13346",
-  "notes": "Unpublished 2026-10-26: creamery may buy milk from more than one farm; confirm it milks its own herd."
+  "notes": "Unpublished 2026-10-26: creamery may buy milk from more than one farm; confirm it milks its own herd. 2026-10-27: About page could not be loaded (redirect loop); still unchecked."
 }
