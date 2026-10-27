@@ -10,19 +10,19 @@
   "phone": "",
   "social_urls": [],
   "species": [
-    "pork",
-    "lamb"
+    "pork"
   ],
   "products": [
     "Berkshire pork cuts",
     "sausage",
     "bacon",
-    "lamb (pre-order)"
+    "pork sample boxes",
+    "monthly pork subscription"
   ],
   "feeding_claim": {
     "category": "pastured",
-    "verbatim": "raising pasture-fed pigs and lambs for our community",
-    "source_url": "https://www.sasquatchfamilyfarms.com/about-us"
+    "verbatim": "They are fed nutritionist approved hog food supplemented with lots and lots of fruits and veggies.",
+    "source_url": "https://sasquatchfamilyfarms.com/"
   },
   "certifications": [
     {
@@ -32,7 +32,8 @@
     }
   ],
   "sales_channels": [
-    "online-order"
+    "online-order",
+    "local-delivery"
   ],
   "farmers_markets": [],
   "bulk_shares": false,
@@ -48,10 +49,11 @@
     "pickup_locations": [],
     "source_url": "https://sasquatchfamilyfarms.com/contact/"
   },
-  "ordering_url": "",
+  "ordering_url": "https://app.barn2door.com/sasquatchfamilyfarms/all",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/toledo-1/pork-1/sasquatch-family-farms/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Lamb sold on the store is bought from FFA students at the NW Junior Livestock Show, and beef is sourced from other local farms."
 }

@@ -16,7 +16,9 @@
   "products": [
     "whole, half and quarter beef",
     "beef boxes",
-    "whole and half lamb"
+    "beef cuts (ground beef, steaks, roasts, organs)",
+    "whole and half lamb",
+    "lamb cuts"
   ],
   "feeding_claim": {
     "category": "grass-finished",
@@ -36,7 +38,8 @@
     }
   ],
   "sales_channels": [
-    "csa"
+    "farm-pickup",
+    "restaurants"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
@@ -45,7 +48,7 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
-      "Sonoma Meat Company processor, Santa Rosa"
+      "At the processor the buyer chooses (the ranch works with several in Northern California, including Sonoma Meat Company, Santa Rosa)"
     ],
     "source_url": "https://richardsonranches.com/beef-lamb-operation/"
   },
@@ -53,7 +56,7 @@
   "ordering_url": "https://richardsonranches.com/beef-lamb-operation/",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/california/annapolis-1/beef-1/richardson-ranch/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

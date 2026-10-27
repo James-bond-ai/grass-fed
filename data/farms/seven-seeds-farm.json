@@ -4,25 +4,29 @@
   "farm_name": "Seven Seeds Farm",
   "city": "Spring Green",
   "state": "WI",
-  "zip": "",
-  "address_public": false,
+  "zip": "53588",
+  "address_public": true,
   "website": "https://www.sevenseedsorganicfarm.com",
-  "phone": "",
+  "phone": "(608) 225-2892",
   "social_urls": [],
   "species": [
     "beef",
     "pork",
-    "poultry"
+    "poultry",
+    "eggs"
   ],
   "products": [
     "beef",
     "pork",
-    "chicken"
+    "chicken",
+    "eggs",
+    "whole, half and quarter beef",
+    "whole and half pigs"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "Organic and grassfed beef, pork and chicken raised in Wisconsin on our regenerative farm.",
-    "source_url": "https://www.sevenseedsorganicfarm.com"
+    "category": "grass-finished",
+    "verbatim": "That's why we are certified organic, certified 100% grass-fed, and Animal Welfare Approved.",
+    "source_url": "https://www.sevenseedsorganicfarm.com/about"
   },
   "certifications": [
     {
@@ -45,14 +49,32 @@
     }
   ],
   "sales_channels": [
-    "ships-regional"
+    "on-farm-store",
+    "online-order",
+    "local-delivery",
+    "retail",
+    "restaurants"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
-  "ordering_url": "",
+  "bulk_shares": true,
+  "ordering_url": "https://www.sevenseedsorganicfarm.com/s/shop",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/category/beef-1/united-states/wisconsin",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "address": "5079 County Road Z, Spring Green, WI 53588",
+  "delivery": {
+    "local_areas": [
+      "Madison",
+      "Spring Green",
+      "Platteville and surrounding areas"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Bulk orders: pickup at the butcher or the farm"
+    ],
+    "source_url": "https://www.sevenseedsorganicfarm.com/buy"
+  }
 }

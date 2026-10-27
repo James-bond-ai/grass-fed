@@ -10,10 +10,14 @@
   "phone": "",
   "social_urls": [],
   "species": [
-    "dairy-goat"
+    "dairy-goat",
+    "eggs"
   ],
   "products": [
-    "artisanal goat cheese"
+    "artisanal goat cheese",
+    "raw goat milk",
+    "eggs",
+    "maple syrup"
   ],
   "feeding_claim": {
     "category": "pastured",
@@ -23,7 +27,9 @@
   "certifications": [],
   "sales_channels": [
     "on-farm-store",
-    "farmers-market"
+    "farmers-market",
+    "retail",
+    "restaurants"
   ],
   "farmers_markets": [
     "Stowe Farmers Market (Sundays, May to October)",
@@ -41,13 +47,14 @@
     "source_url": "https://www.sagefarmgoatdairy.com/read-me"
   },
   "dairy_products": [
-    "cheese"
+    "cheese",
+    "raw-milk"
   ],
   "ordering_url": "",
   "data_source": "web-search",
   "source_url": "https://www.sagefarmgoatdairy.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "2346 West Hill Rd, Stowe, VT"
 }

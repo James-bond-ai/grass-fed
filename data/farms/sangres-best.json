@@ -13,19 +13,20 @@
     "beef"
   ],
   "products": [
-    "quarter, half and whole beef",
-    "beef boxes",
-    "bones, fat and organs"
+    "quarter, half, whole and eighth beef (2026 sold out)",
+    "ground burger boxes",
+    "roast and ground beef combo box",
+    "specialty boxes (oxtail, brisket)"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "Your Beef will be eating a HUGE variety of grasses, forbs, sedges and herbs (over 60 different kinds, we literally counted).",
+    "category": "grass-finished",
+    "verbatim": "Premium Grass-Finished Beef since 1995",
     "source_url": "https://www.sangresbest.com/"
   },
   "certifications": [],
   "sales_channels": [
-    "local-delivery",
-    "ships-regional"
+    "online-order",
+    "local-delivery"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
@@ -52,7 +53,13 @@
   "ordering_url": "https://www.sangresbest.com/collections/bulk-beef",
   "data_source": "web-search",
   "source_url": "https://www.cobeef.com/local-beef-directory",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "availability": {
+    "status": "sold-out",
+    "note": "Whole, half, quarter and eighth beef are sold out for 2026; some ground beef, roast combo and specialty boxes are still available.",
+    "checked_on": "2026-10-27",
+    "source_url": "https://www.sangresbest.com/collections/bulk-beef"
+  }
 }

@@ -7,7 +7,7 @@
   "zip": "37374",
   "address_public": true,
   "website": "https://www.sequatchiecovefarm.com",
-  "phone": "",
+  "phone": "(423) 802-0516",
   "social_urls": [],
   "species": [
     "beef",
@@ -20,13 +20,13 @@
     "beef",
     "heritage pork",
     "chicken",
-    "lamb",
+    "lamb (including half lamb)",
     "eggs"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "By raising our South Poll and Angus cattle on a natural diet of grass",
-    "source_url": "https://www.sequatchiecovefarm.com/grass-fed-beef"
+    "category": "grass-finished",
+    "verbatim": "Get Our Grass-Fed & Finished Beef",
+    "source_url": "https://sequatchiecovefarm.com/grass-fed-beef/"
   },
   "certifications": [],
   "sales_channels": [
@@ -39,23 +39,25 @@
   "farmers_markets": [
     "Main Street Farmers Market (Chattanooga)"
   ],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [
-      "Chattanooga area"
+      "Within 50 miles of Chattanooga"
     ],
-    "local_radius_miles": null,
+    "local_radius_miles": 50,
     "ships_to": [],
     "pickup_locations": [
-      "Main Street Farmers Market, Chattanooga"
+      "Farm Trading Post, 320 Dixon Cove Rd, Sequatchie (Saturdays 9am to noon Central, year round)",
+      "Main Street Farmers Market, Chattanooga (Wednesdays)"
     ],
-    "source_url": "https://www.sequatchiecovefarm.com"
+    "source_url": "https://app.barn2door.com/sequatchiecovefarm/all"
   },
-  "ordering_url": "",
+  "ordering_url": "https://app.barn2door.com/sequatchiecovefarm/all",
   "data_source": "web-search",
   "source_url": "https://www.sequatchiecovefarm.com",
   "last_verified_at": "2026-10-27",
-  "verification_method": "auto",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "320 Dixon Cove Rd, Sequatchie, TN 37374"
+  "address": "320 Dixon Cove Rd, Sequatchie, TN 37374",
+  "resold_note": "Beef and pork supply is supplemented by Manderley Farms in Pikeville, TN, and the online store also sells cheese and honey from other producers."
 }

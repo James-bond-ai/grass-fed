@@ -11,38 +11,46 @@
   "phone": "(678) 852-9880",
   "social_urls": [],
   "species": [
-    "beef"
+    "beef",
+    "poultry"
   ],
   "products": [
     "beef cuts",
-    "half cows",
-    "monthly beef subscription"
+    "whole, half and quarter beef",
+    "monthly beef subscription",
+    "whole pasture-raised chickens",
+    "grain-fed prime half cow (Silo & Stone Reserve, currently sold out)"
   ],
   "feeding_claim": {
-    "category": "grass-finished",
-    "verbatim": "We never confine them to cramped feedlots or feed them grains.",
-    "source_url": "https://www.silospringsranch.com/"
+    "category": "both",
+    "verbatim": "Our cattle are on a 100% grass-fed and grass-finished diet.",
+    "source_url": "https://www.silospringsranch.com/aboutus"
   },
   "certifications": [],
   "sales_channels": [
     "on-farm-store",
+    "online-order",
     "farmers-market"
   ],
-  "farmers_markets": [],
+  "farmers_markets": [
+    "Perry Farmers' Market (Saturdays)"
+  ],
   "bulk_shares": true,
   "delivery": {
     "local_areas": [],
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
-      "Perry Farmers' Market, 801 Main Street, Perry, GA, Saturdays"
+      "Perry Farmers' Market, 801 Main Street, Perry, GA, Saturdays",
+      "Silo Springs Ranch General Store, 113 US-341, Culloden (Wed to Fri 2pm to 6pm, Sat 10am to 6pm); bulk beef is picked up here"
     ],
     "source_url": "https://www.silospringsranch.com/findus"
   },
   "ordering_url": "https://www.silospringsranch.com/store",
   "data_source": "web-search",
   "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "The general store also carries pork, lamb, eggs, cheese, honey and other local goods; the site does not say the ranch raises the pork, lamb or eggs."
 }
