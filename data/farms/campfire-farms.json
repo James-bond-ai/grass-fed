@@ -19,6 +19,7 @@
     "chicken",
     "duck",
     "meat boxes",
+    "quarter and half hog boxes",
     "smoked pork snack sticks"
   ],
   "feeding_claim": {
@@ -35,22 +36,31 @@
   ],
   "sales_channels": [
     "farmers-market",
-    "retail"
+    "retail",
+    "online-order",
+    "farm-pickup",
+    "local-delivery",
+    "ships-regional"
   ],
   "farmers_markets": [
     "Oregon City Farmers Market",
     "PSU Farmers Market",
     "Milwaukie Farmers Market"
   ],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [
       "Within 10 miles of the farm (Mulino, OR)",
       "Portland area"
     ],
     "local_radius_miles": 10,
-    "ships_to": [],
+    "ships_to": [
+      "WA",
+      "OR",
+      "CA"
+    ],
     "pickup_locations": [
+      "On-farm pickup, 18232 S Valley Vista Road, Mulino",
       "Oregon City Farmers Market",
       "PSU Farmers Market",
       "Milwaukie Farmers Market"
@@ -60,7 +70,8 @@
   "ordering_url": "https://campfirefarms.com/collections/all",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/mulino/pork-1/campfire-farms/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Less than 10% of what it sells comes from Campfire Incubator Program farms that raise animals to its guidelines."
 }

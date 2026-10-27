@@ -23,22 +23,25 @@
     "beef shares"
   ],
   "feeding_claim": {
-    "category": "grain-finished",
-    "verbatim": "Enhanced Flavor Profile: Rich, buttery taste from grain diet.",
+    "category": "both",
+    "verbatim": "100% Grass Finished OR Free Choice Grain Finished Beef",
     "source_url": "https://blackwater-pastures.com/"
   },
   "certifications": [],
   "sales_channels": [
     "farmers-market",
-    "ships-regional"
+    "ships-regional",
+    "online-order",
+    "local-delivery"
   ],
   "farmers_markets": [
     "Decatur Market",
     "East Atlanta Village Market",
     "Vinings Jubilee Farmers Market",
     "Piedmont Green Market",
+    "SaltAir Farmer's Market",
     "Grant Park Market",
-    "Avondale Estates Farmers Market"
+    "Brookhaven Farmers Market"
   ],
   "bulk_shares": true,
   "delivery": {
@@ -65,14 +68,15 @@
       "Piedmont Green Market, Atlanta, GA",
       "SaltAir Farmer's Market, Port St. Joe, FL",
       "Grant Park Market, Atlanta, GA",
-      "Avondale Estates Farmers Market, Avondale Estates, GA"
+      "Brookhaven Farmers Market, Brookhaven, GA",
+      "Scheduled Atlanta pickup locations for online orders (order at least 24 hours ahead)"
     ],
     "source_url": "https://blackwater-pastures.com/pages/shipping-policy"
   },
   "ordering_url": "https://blackwater-pastures.com/collections/all",
   "data_source": "web-search",
   "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

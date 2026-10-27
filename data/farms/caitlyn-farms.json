@@ -4,10 +4,10 @@
   "farm_name": "Caitlyn Farms",
   "city": "Mill Spring",
   "state": "NC",
-  "zip": "",
-  "address_public": false,
+  "zip": "28756",
+  "address_public": true,
   "website": "https://beefandbobwhites.com",
-  "phone": "",
+  "phone": "(828) 894-0648",
   "social_urls": [],
   "species": [
     "beef"
@@ -42,6 +42,7 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
+      "On-farm pickup by appointment, 1507 Toney Road, Mill Spring",
       "Hendersonville Farmers Market, Saturdays May to October",
       "Candler, pickup by appointment"
     ],
@@ -50,7 +51,8 @@
   "ordering_url": "https://beefandbobwhites.com/buy-beef",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/mill-spring/beef-1/caitlyn-farms-sustainably-raised-beef/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "address": "1507 Toney Road, Mill Spring, NC 28756"
 }

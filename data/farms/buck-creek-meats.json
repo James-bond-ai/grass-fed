@@ -48,10 +48,10 @@
       "Austin"
     ],
     "local_radius_miles": null,
-    "ships_to": [
-      "TX"
+    "ships_to": [],
+    "pickup_locations": [
+      "Local pickup by appointment, Paducah, TX (call 806-683-2590)"
     ],
-    "pickup_locations": [],
     "source_url": "https://www.buckcreekmeat.com/"
   },
   "dairy_products": [],
@@ -59,6 +59,8 @@
   "data_source": "web-search",
   "source_url": "https://www.buckcreekmeat.com/",
   "last_verified_at": "2026-10-27",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Some of its beef, lamb, pork and chicken comes from like-minded partner farms rather than only its own farm.",
+  "notes": "Ships frozen to most states; Texas is the main shipping area, extra cost applies outside Texas, and some distant destinations may not be served. Ships to \"most states\" per its site, without naming them; not shown as nationwide. Ask the farm."
 }

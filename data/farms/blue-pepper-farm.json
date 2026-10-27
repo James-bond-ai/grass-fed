@@ -37,7 +37,8 @@
   ],
   "sales_channels": [
     "farmers-market",
-    "retail"
+    "retail",
+    "farm-pickup"
   ],
   "farmers_markets": [
     "Keene Valley Farmers Market"
@@ -47,8 +48,10 @@
     "local_areas": [],
     "local_radius_miles": null,
     "ships_to": [],
-    "pickup_locations": [],
-    "source_url": "https://www.bluepepperfarm.com/yogurt"
+    "pickup_locations": [
+      "On the farm in Jay, NY (by appointment)"
+    ],
+    "source_url": "https://www.bluepepperfarm.com/about"
   },
   "dairy_products": [
     "yogurt"
@@ -56,7 +59,7 @@
   "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/new-york/jay/dairy-1/blue-pepper-farm/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

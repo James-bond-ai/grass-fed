@@ -14,9 +14,7 @@
   ],
   "products": [
     "fresh chevre",
-    "aged goat cheese",
-    "bloomy rind cheese",
-    "blue cheese"
+    "aged goat cheese"
   ],
   "feeding_claim": {
     "category": "pastured",
@@ -50,8 +48,9 @@
   "ordering_url": "https://blueledgefarm.com/store.html",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/vermont/leicester/cheese-1/blue-ledge-farm/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "2001 Old Jerusalem Rd, Salisbury, VT 05769"
+  "address": "2001 Old Jerusalem Rd, Salisbury, VT 05769",
+  "resold_note": "Its cow's milk cheeses (including the blue and bloomy rind cheeses) use milk bought from a neighboring farm, and the store also sells honey, marmalade and dried fruit."
 }
