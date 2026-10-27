@@ -184,3 +184,5 @@ a.tile:hover { outline: 2px solid var(--hay); outline-offset: 1px; }
 .reach dl { margin: 0; display: grid; grid-template-columns: minmax(120px, max-content) 1fr; gap: 0.5rem 1.25rem; }
 .reach dt { font-weight: 600; color: var(--pasture-deep); }
 .reach dd { margin: 0; }
+
+.tag.pasture { background: #fff; border-color: #b9cf98; color: var(--pasture-deep); }

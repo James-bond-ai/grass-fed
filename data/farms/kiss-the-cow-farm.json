@@ -33,7 +33,7 @@
       "program": "usda-organic",
       "cert_id": "4210012023",
       "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
-      "evidence_note": "Found as \"Kiss the Cow, LLC DBA Kiss the Cow Creamery; Kiss the Cow Farm\" (Barnard, VT) with status Certified in the USDA Organic Integrity snapshot of 2026-10-01.",
+      "evidence_note": "Matched to USDA record \"Kiss the Cow, LLC DBA Kiss the Cow Creamery; Kiss the Cow Farm\" (Barnard, VT), livestock certified, in the Organic Integrity snapshot of 2026-10-01.",
       "verified_on": "2026-10-26"
     }
   ],

@@ -98,7 +98,9 @@ export const CERTIFICATIONS = {
   'agw-grassfed': { name: 'Certified Grassfed by AGW', short: 'AGW Certified Grassfed', url: 'https://agreenerworld.org/' },
   awa: { name: 'Animal Welfare Approved by AGW', short: 'Animal Welfare Approved', url: 'https://agreenerworld.org/' },
   opt: { name: 'OPT Certified Grass-Fed Organic', short: 'OPT Grass-Fed Organic', url: 'https://certification.oeffa.org/organic-grass-fed/' },
-  'usda-organic': { name: 'USDA Organic', short: 'USDA Organic', url: 'https://organic.ams.usda.gov/integrity/' },
+  'usda-organic': { name: 'USDA Organic livestock', short: 'USDA Organic', url: 'https://organic.ams.usda.gov/integrity/' },
+  'usda-organic-dairy': { name: 'USDA Organic dairy products', short: 'Organic dairy products', url: 'https://organic.ams.usda.gov/integrity/' },
+  'usda-organic-pasture': { name: 'Certified organic pasture', short: 'Organic pasture', url: 'https://organic.ams.usda.gov/integrity/' },
 };
 
 export const DAIRY_PRODUCTS = {
@@ -113,7 +115,10 @@ export const DAIRY_PRODUCTS = {
   'ice-cream': 'Ice cream',
 };
 
-export const isOrganic = (f) => (f.certifications ?? []).some((c) => c.program === 'usda-organic' || c.program === 'opt');
+// Food that can be sold as organic: certified livestock, certified dairy products, or OPT (which requires USDA Organic).
+export const isOrganic = (f) => (f.certifications ?? []).some((c) => ['usda-organic', 'usda-organic-dairy', 'opt'].includes(c.program));
+// Land certified organic, animals not: shown as a separate, weaker label.
+export const hasOrganicPasture = (f) => !isOrganic(f) && (f.certifications ?? []).some((c) => c.program === 'usda-organic-pasture');
 export const sellsDairy = (f) => (f.species ?? []).some((s) => s.startsWith('dairy-'));
 
 // Where a farm's products can reach. Returns { nationwide, shipsTo:Set, localAreas[], radius, pickup[] }.

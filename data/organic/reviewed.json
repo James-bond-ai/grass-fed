@@ -1,5 +1,5 @@
 {
- "_note": "Farms checked by hand against the USDA Organic Integrity snapshot. The matcher still auto-confirms exact matches but will not re-list these as possible matches.",
+ "_note": "Farms checked by hand against the USDA Organic Integrity snapshot. usda_record links a farm to its confirmed USDA operation so the matcher can label exactly what that operation is certified for. Farms listed here are never re-listed as possible matches.",
  "reviewed": {
   "7-star-ranch": {
    "decision": "no",
@@ -9,7 +9,8 @@
   "against-the-grain-farm": {
    "decision": "no",
    "date": "2026-10-26",
-   "snapshot": "2026-10-01"
+   "snapshot": "2026-10-01",
+   "usda_record": "2580002736"
   },
   "apple-valley-creamery": {
    "decision": "no",
@@ -189,7 +190,8 @@
   "kriemhild-dairy": {
    "decision": "no",
    "date": "2026-10-26",
-   "snapshot": "2026-10-01"
+   "snapshot": "2026-10-01",
+   "usda_record": "8210005103"
   },
   "larkin-valley-ranch": {
    "decision": "no",
@@ -264,7 +266,8 @@
   "paicines-ranch": {
    "decision": "no",
    "date": "2026-10-26",
-   "snapshot": "2026-10-01"
+   "snapshot": "2026-10-01",
+   "usda_record": "5561000502"
   },
   "painted-goat-farm": {
    "decision": "no",
@@ -319,7 +322,8 @@
   "rossotti-ranch": {
    "decision": "no",
    "date": "2026-10-26",
-   "snapshot": "2026-10-01"
+   "snapshot": "2026-10-01",
+   "usda_record": "7360000038"
   },
   "sequatchie-cove-farm": {
    "decision": "no",
@@ -339,7 +343,8 @@
   "sweet-grass-dairy": {
    "decision": "no",
    "date": "2026-10-26",
-   "snapshot": "2026-10-01"
+   "snapshot": "2026-10-01",
+   "usda_record": "1600003001"
   },
   "tennessee-grass-fed": {
    "decision": "no",
@@ -394,7 +399,8 @@
   "white-oak-pastures": {
    "decision": "no",
    "date": "2026-10-26",
-   "snapshot": "2026-10-01"
+   "snapshot": "2026-10-01",
+   "usda_record": "1581042318"
   },
   "wild-grown-farm": {
    "decision": "no",

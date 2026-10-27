@@ -28,7 +28,7 @@
       "program": "usda-organic",
       "cert_id": "9950000060",
       "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
-      "evidence_note": "Found as \"Harmony Valley Farm, LLC\" (Viroqua, WI) with status Certified in the USDA Organic Integrity snapshot of 2026-10-01.",
+      "evidence_note": "Matched to USDA record \"Harmony Valley Farm, LLC\" (Viroqua, WI), livestock certified, in the Organic Integrity snapshot of 2026-10-01.",
       "verified_on": "2026-10-26"
     }
   ],

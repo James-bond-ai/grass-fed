@@ -26,7 +26,16 @@
     "verbatim": "100% Grassfed and finished",
     "source_url": "https://www.paicinesranch.com/"
   },
-  "certifications": [],
+  "certifications": [
+    {
+      "body": "CCOF Certification Services, LLC",
+      "program": "usda-organic-pasture",
+      "cert_id": "5561000502",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Doodlebug Ranches, LLC dba Paicines Ranch\" (Paicines, CA), pasture or hay certified; livestock not certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-10-27"
+    }
+  ],
   "sales_channels": [
     "farm-pickup",
     "local-delivery"

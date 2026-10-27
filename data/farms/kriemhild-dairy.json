@@ -25,7 +25,20 @@
     "verbatim": "Using high quality milk from these grass fed cattle, our products are made in small batches daily.",
     "source_url": "https://www.kriemhilddairy.com/about-us.html"
   },
-  "certifications": [],
+  "certifications": [
+    {
+      "body": "Pennsylvania Certified Organic",
+      "program": "usda-organic-dairy",
+      "cert_id": "8210005103",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Kriemhild Dairy Farms LLC.\" (Hamilton, NY), dairy products certified (butter, milk); livestock not certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "products": [
+        "butter",
+        "milk"
+      ],
+      "verified_on": "2026-10-27"
+    }
+  ],
   "sales_channels": [
     "on-farm-store",
     "farmers-market",

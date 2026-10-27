@@ -1,10 +1,12 @@
 ---
 import Stamp from './Stamp.astro';
-import { STATE_BY_ABBR, SPECIES, CERTIFICATIONS, DAIRY_PRODUCTS, isOrganic, sellsDairy, reach } from '../data/states.mjs';
+import { STATE_BY_ABBR, SPECIES, CERTIFICATIONS, DAIRY_PRODUCTS, isOrganic, hasOrganicPasture, sellsDairy, reach } from '../data/states.mjs';
 interface Props { farm: any; showState?: boolean }
 const { farm, showState = true } = Astro.props;
 const st = STATE_BY_ABBR[farm.state];
-const certs = (farm.certifications ?? []).filter((c) => CERTIFICATIONS[c.program] && c.program !== 'usda-organic');
+const certs = (farm.certifications ?? []).filter((c) => CERTIFICATIONS[c.program] && !c.program.startsWith('usda-organic'));
+const organicDairyOnly = !(farm.certifications ?? []).some((c) => c.program === 'usda-organic') && (farm.certifications ?? []).some((c) => c.program === 'usda-organic-dairy');
+const organicPasture = hasOrganicPasture(farm);
 const organic = isOrganic(farm);
 const dairy = sellsDairy(farm);
 const r = reach(farm);
@@ -30,7 +32,8 @@ const shipLabel = r.nationwide ? 'Ships nationwide' : r.shipsTo.size ? `Ships to
     <p class="where">{farm.city}{showState && st ? `, ${st.name}` : ''}</p>
     <ul class="tags">
       {farm.feeding_claim?.category === 'grass-finished' && <li class="tag finish">Grass-finished</li>}
-      {organic && <li class="tag organic">Organic</li>}
+      {organic && <li class="tag organic" title={organicDairyOnly ? 'Dairy products certified organic' : 'Livestock certified organic'}>{organicDairyOnly ? 'Organic dairy products' : 'USDA Organic'}</li>}
+      {organicPasture && <li class="tag pasture" title="The farm's pasture is certified organic; its animals are not">Organic pasture</li>}
       {certs.map((c) => <li class="tag cert">{CERTIFICATIONS[c.program].short}</li>)}
       {(farm.species ?? []).filter((s) => !s.startsWith('dairy-')).slice(0, 4).map((s) => <li class="tag">{SPECIES[s] ?? s}</li>)}
       {dairy && <li class="tag dairy">{(farm.dairy_products ?? []).length ? (farm.dairy_products).slice(0, 3).map((d) => DAIRY_PRODUCTS[d] ?? d).join(', ') : 'Dairy'}</li>}
