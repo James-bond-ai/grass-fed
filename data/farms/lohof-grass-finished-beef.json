@@ -41,9 +41,14 @@
     }
   ],
   "sales_channels": [
-    "local-delivery"
+    "local-delivery",
+    "farmers-market",
+    "farm-pickup"
   ],
-  "farmers_markets": [],
+  "farmers_markets": [
+    "Sheridan Farmers Market (Sheridan, WY)",
+    "Yellowstone Valley Farmers Market (Billings, MT)"
+  ],
   "bulk_shares": true,
   "delivery": {
     "local_areas": [
@@ -57,7 +62,8 @@
     "pickup_locations": [
       "Sheridan Farmers Market, Sheridan, WY",
       "Yellowstone Valley Farmers Market, Billings, MT",
-      "Arranged group pickup time and place"
+      "Arranged group pickup time and place",
+      "At the ranch near Otter, MT (call ahead)"
     ],
     "source_url": "https://lohofgrassfinishedbeef.com/more-info/"
   },
@@ -65,7 +71,7 @@
   "ordering_url": "https://lohofgrassfinishedbeef.com/products/",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/montana/otter/beef-1/lohof-grass-finished-beef/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

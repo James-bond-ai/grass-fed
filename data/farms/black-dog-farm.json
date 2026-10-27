@@ -42,7 +42,10 @@
     "farmers-market",
     "local-delivery",
     "ships-regional",
-    "csa"
+    "csa",
+    "online-order",
+    "retail",
+    "restaurants"
   ],
   "farmers_markets": [
     "Bozeman Winter Farmers Market",
@@ -63,10 +66,7 @@
       "MT"
     ],
     "pickup_locations": [
-      "Bozeman Winter Farmers Market (October through May)",
-      "Bozeman Farmers Market (Tuesday evenings, June through September)",
-      "Gallatin Valley Farmers Market (Saturday mornings, June through September)",
-      "Yellowstone Valley Food Hub drop points, Billings area"
+      "On-farm pickup, Livingston (choose a time slot at checkout, no minimum)"
     ],
     "source_url": "https://blackdogfarmmt.com/pages/how-to-purchase"
   },
@@ -74,7 +74,7 @@
   "ordering_url": "https://blackdogfarmmt.com/pages/how-to-purchase",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/montana/livingston/chicken-1/black-dog-farm/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

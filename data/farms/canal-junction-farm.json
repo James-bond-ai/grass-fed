@@ -39,7 +39,8 @@
   "certifications": [],
   "sales_channels": [
     "on-farm-store",
-    "farm-pickup"
+    "farm-pickup",
+    "online-order"
   ],
   "farmers_markets": [],
   "bulk_shares": false,
@@ -67,7 +68,8 @@
   "ordering_url": "https://canaljunctionfarm.com/store",
   "data_source": "web-search",
   "source_url": "https://canaljunctionfarm.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "notes": "Raw milk, raw cream and raw butter are sold only to herdshare members (buy-in fee required); raw milk cheese is open to all customers. No shipping."
 }

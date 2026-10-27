@@ -13,7 +13,8 @@
     "https://www.instagram.com/lazyaranchtx/"
   ],
   "species": [
-    "beef"
+    "beef",
+    "eggs"
   ],
   "products": [
     "Akaushi beef",
@@ -21,11 +22,12 @@
     "steaks",
     "organ meats",
     "bones",
-    "beef packages"
+    "beef packages",
+    "free-range eggs"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "In addition to pasture grass, our cows eat baled hay from our ranch and alfalfa from Nebraska.",
+    "category": "grass-finished",
+    "verbatim": "Find certified grass-finished beef at Lazy A Ranch in Bellville, Texas",
     "source_url": "https://lazyatexas.com/"
   },
   "certifications": [],
@@ -40,15 +42,16 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
-      "Saint Nicholas School, Houston"
+      "Saint Nicholas School, Houston",
+      "Lazy A Ranch, Bellville"
     ],
     "source_url": "https://lazyatexas.com/"
   },
   "dairy_products": [],
-  "ordering_url": "https://lazyatexas.com/shop/",
+  "ordering_url": "https://app.barn2door.com/lazyatexas/all",
   "data_source": "web-search",
   "source_url": "https://lazyatexas.com/",
   "last_verified_at": "2026-10-27",
-  "verification_method": "auto",
+  "verification_method": "manual",
   "listing_status": "published"
 }

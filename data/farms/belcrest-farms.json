@@ -15,7 +15,9 @@
   ],
   "products": [
     "dry-aged beef",
-    "pork"
+    "pork",
+    "beef sticks, hot dogs and brats",
+    "beef shares"
   ],
   "feeding_claim": {
     "category": "grain-finished",
@@ -25,16 +27,15 @@
   "certifications": [],
   "sales_channels": [
     "local-delivery",
-    "ships-regional"
+    "ships-nationwide",
+    "online-order"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [],
     "local_radius_miles": null,
-    "ships_to": [
-      "MT"
-    ],
+    "ships_to": "nationwide",
     "pickup_locations": [],
     "source_url": "https://www.belcrestfarms.com/faqs-4"
   },
@@ -42,7 +43,7 @@
   "ordering_url": "https://belcrestfarms.shop",
   "data_source": "web-search",
   "source_url": "https://abundantmontana.com/amt-lister/belcrest-farms/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

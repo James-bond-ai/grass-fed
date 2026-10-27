@@ -14,9 +14,7 @@
   ],
   "products": [
     "beef by the cut",
-    "bulk beef",
-    "broth bones",
-    "organs"
+    "bulk beef"
   ],
   "feeding_claim": {
     "category": "grass-finished",
@@ -31,7 +29,9 @@
   "farmers_markets": [],
   "bulk_shares": true,
   "delivery": {
-    "local_areas": [],
+    "local_areas": [
+      "San Antonio, TX and surrounding areas"
+    ],
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [],
@@ -42,6 +42,6 @@
   "data_source": "web-search",
   "source_url": "https://www.hickorylakebeef.com/",
   "last_verified_at": "2026-10-27",
-  "verification_method": "auto",
+  "verification_method": "manual",
   "listing_status": "published"
 }

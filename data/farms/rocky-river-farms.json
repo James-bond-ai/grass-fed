@@ -40,7 +40,8 @@
   "ordering_url": "https://app.barn2door.com/rockyriverfarmsnc/all",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/north-carolina/monroe/beef-1/rocky-river-farms-llc/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Also sells cheese curds, pimento cheese, Greek oils and vinegars and elderberry syrup made elsewhere, and says it sometimes sources from partner farms when demand exceeds its own supply."
 }

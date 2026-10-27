@@ -44,6 +44,6 @@
   "data_source": "web-search",
   "source_url": "https://jjobrienranch.com/",
   "last_verified_at": "2026-10-27",
-  "verification_method": "auto",
+  "verification_method": "manual",
   "listing_status": "published"
 }

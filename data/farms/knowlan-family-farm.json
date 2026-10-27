@@ -13,20 +13,24 @@
     "https://www.facebook.com/KnowlanFamilyFarm/"
   ],
   "species": [
-    "beef"
+    "beef",
+    "lamb"
   ],
   "products": [
+    "beef cuts and packs",
     "quarter beef",
-    "side of beef"
+    "side of beef",
+    "lamb (periodic)"
   ],
   "feeding_claim": {
-    "category": "grass-finished",
-    "verbatim": "Knowlan Family Farm's cattle are raised and finished on grass with no antibiotic and no hormones.",
-    "source_url": "https://knowlanfamilyfarm.com/beef"
+    "category": "grain-finished",
+    "verbatim": "Depending on the quality of the grass at the time of processing, our steers may be finished for 45 days on a combination of grass, hay, soybean hulls and/or a small amount of cracked corn.",
+    "source_url": "https://knowlanfamilyfarm.com/s/KFF-Beef-Quarters-and-Sides-2021.pdf"
   },
   "certifications": [],
   "sales_channels": [
-    "on-farm-store"
+    "on-farm-store",
+    "online-order"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
@@ -35,13 +39,13 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [],
-    "source_url": "https://knowlanfamilyfarm.com/beef"
+    "source_url": "https://knowlanfamilyfarm.com/meat"
   },
   "dairy_products": [],
-  "ordering_url": "",
+  "ordering_url": "https://knowlanfamilyfarm.square.site",
   "data_source": "web-search",
   "source_url": "https://mofb.org/missouri-meat-producers/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

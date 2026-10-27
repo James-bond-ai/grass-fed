@@ -34,22 +34,25 @@
     "farm-pickup",
     "local-delivery",
     "ships-regional",
-    "retail"
+    "retail",
+    "online-order"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
   "delivery": {
-    "local_areas": [],
+    "local_areas": [
+      "Lubbock (weekly delivery)"
+    ],
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [],
-    "source_url": "https://canyonvalleyprovisions.com/"
+    "source_url": "https://canyonvalleyprovisions.com/pages/contact"
   },
   "dairy_products": [],
   "ordering_url": "https://canyonvalleyprovisions.com/collections/beef-shares",
   "data_source": "web-search",
   "source_url": "https://kfyo.com/ixp/190/p/buying-grass-fed-beef-lubbock/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

@@ -40,16 +40,20 @@
     }
   ],
   "sales_channels": [
+    "online-order",
     "farm-pickup",
     "farmers-market"
   ],
-  "farmers_markets": [],
+  "farmers_markets": [
+    "Alachua County Farmers Market"
+  ],
   "bulk_shares": true,
   "delivery": {
     "local_areas": [],
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
+      "The farm in Live Oak (by appointment)",
       "AWA processor (at harvest, for bulk shares)",
       "Meat Up locations around the state",
       "Alachua County Farmers Market"
@@ -60,7 +64,7 @@
   "ordering_url": "https://sampson-family-farm.localline.ca/100-grass-fed-and-finished-beef-and-lamb",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/florida/live-oak/beef-1/sampson-family-farms/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

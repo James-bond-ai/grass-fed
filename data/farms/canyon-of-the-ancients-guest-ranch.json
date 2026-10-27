@@ -7,7 +7,7 @@
   "zip": "81321",
   "address_public": true,
   "website": "https://canyonoftheancients.com/",
-  "phone": "(970) 565-4288",
+  "phone": "(970) 432-4790",
   "social_urls": [],
   "species": [
     "beef",
@@ -42,8 +42,8 @@
   "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/colorado/cortez/beef-1/canyon-of-the-ancients-guest-ranch/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "7950 County Rd G, Cortez, CO 81321"
 }

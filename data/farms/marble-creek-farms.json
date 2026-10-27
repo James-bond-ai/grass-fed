@@ -17,10 +17,9 @@
   "products": [
     "beef cuts",
     "bulk beef",
-    "beef boxes",
+    "beef membership boxes",
     "pasture-raised chicken",
-    "eggs",
-    "tallow products"
+    "eggs"
   ],
   "feeding_claim": {
     "category": "both",
@@ -29,14 +28,12 @@
   },
   "certifications": [],
   "sales_channels": [
-    "local-delivery"
+    "online-order"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
   "delivery": {
-    "local_areas": [
-      "near Atlanta and Northeast Georgia"
-    ],
+    "local_areas": [],
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [],
@@ -45,7 +42,7 @@
   "ordering_url": "https://marblecreekfarms.com/store",
   "data_source": "web-search",
   "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

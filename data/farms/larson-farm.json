@@ -17,10 +17,8 @@
   "products": [
     "raw milk",
     "pasteurized cream-top milk",
-    "butter",
-    "yogurt",
-    "skyr",
-    "cream",
+    "sweet-cream and cultured butter",
+    "plain and maple yogurt",
     "gelato"
   ],
   "feeding_claim": {
@@ -64,14 +62,13 @@
     "milk",
     "butter",
     "yogurt",
-    "cream",
     "ice-cream"
   ],
   "ordering_url": "https://www.larsonfarmvt.com/raw-milk-csa",
   "data_source": "web-search",
   "source_url": "https://www.nofavt.org/larson-farm-llc-0",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "69 South St, Wells, VT 05774"
+  "address": "661 South Street, Wells, VT 05774"
 }

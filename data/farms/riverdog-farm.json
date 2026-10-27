@@ -11,11 +11,15 @@
   "social_urls": [],
   "species": [
     "poultry",
-    "pork"
+    "pork",
+    "eggs"
   ],
   "products": [
-    "chicken",
-    "pork"
+    "pork cuts",
+    "sausages",
+    "smoked holiday hams",
+    "pork shares",
+    "eggs (CSA add-on)"
   ],
   "feeding_claim": {
     "category": "pastured",
@@ -35,10 +39,17 @@
   "sales_channels": [
     "csa",
     "farmers-market",
+    "online-order",
     "retail",
     "restaurants"
   ],
-  "farmers_markets": [],
+  "farmers_markets": [
+    "South Berkeley Farmers' Market (Tuesdays)",
+    "North Berkeley Farmers' Market (Thursdays)",
+    "Downtown Berkeley Farmers' Market (Saturdays)",
+    "Sacramento Farmers' Market, W St and 8th St (Sundays)",
+    "Winters Farmers' Market (Sundays)"
+  ],
   "bulk_shares": false,
   "delivery": {
     "local_areas": [],
@@ -46,7 +57,7 @@
     "ships_to": [],
     "pickup_locations": [
       "CSA pickup sites in Napa, Lake, Solano, Yolo, Sacramento, Alameda and Contra Costa counties and San Francisco",
-      "Farmers markets in Berkeley and Sacramento"
+      "Online pre-orders picked up at the farm's markets in Berkeley, Winters and Sacramento"
     ],
     "source_url": "https://www.riverdogfarm.com/csa"
   },
@@ -54,8 +65,8 @@
   "ordering_url": "https://gofarmhand.com/shop/riverdog-farm",
   "data_source": "web-search",
   "source_url": "https://www.riverdogfarm.com",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "7587 Road 49, Guinda, CA 95637"
 }

@@ -46,7 +46,7 @@
   ],
   "sales_channels": [
     "farm-pickup",
-    "local-delivery"
+    "online-order"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
@@ -55,6 +55,7 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
+      "Farm pickup, 568 Lewis Road, Cairo, GA (not for half or whole beef)",
       "The Prepared Table - Kitchen Shop, Tallahassee, FL",
       "Sowega Meat Company, Colquitt, GA (half or whole beef only)"
     ],
@@ -63,7 +64,7 @@
   "ordering_url": "https://www.bluebeargrassfed.com/shop.php",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/georgia/cairo/beef-1/blue-bear-farm-cattle-co/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

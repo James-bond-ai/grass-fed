@@ -27,6 +27,7 @@
   "sales_channels": [
     "on-farm-store",
     "farm-pickup",
+    "online-order",
     "ships-regional"
   ],
   "farmers_markets": [],
@@ -63,7 +64,8 @@
   "ordering_url": "https://littlespringscattleco.com/collections/all",
   "data_source": "web-search",
   "source_url": "https://www.georgiacattlemen.org/programs-and-resources/buy-local-beef",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "The farm store also sells pork, lamb, chicken and eggs it describes as coming from its farm and local neighbors, plus goods from other brands."
 }
