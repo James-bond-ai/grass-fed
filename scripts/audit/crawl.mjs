@@ -8,9 +8,12 @@ import path from 'node:path';
 const UA = 'Mozilla/5.0 (compatible; grassfed.food-verifier/1.0; +https://grassfed.food/methodology/)';
 const KEY = /about|story|our-?farm|practice|how-we|grass|feed|raise|shop|store|order|product|beef|lamb|bison|pork|dairy|milk|cheese|faq|question|ship|deliver|pickup|pick-up|location|market|where|buy|bulk|share|quarter|half|whole|cut|price|csa|subscription/i;
 const MAX_PAGES = 9, MAX_CHARS = 40000;
-const farms = fs.readdirSync('data/farms').filter((f) => f.endsWith('.json'))
+const SHARD = Number(process.env.SHARD ?? 0), SHARDS = Number(process.env.SHARDS ?? 1);
+const FARM_BUDGET_MS = 100000;
+const farms = fs.readdirSync('data/farms').filter((f) => f.endsWith('.json')).sort()
   .map((f) => JSON.parse(fs.readFileSync(path.join('data/farms', f), 'utf8')))
-  .filter((f) => f.listing_status === 'published');
+  .filter((f) => f.listing_status === 'published')
+  .filter((_, i) => i % SHARDS === SHARD);
 fs.mkdirSync('crawl', { recursive: true });
 
 const robotsCache = {};
@@ -35,22 +38,24 @@ async function allowed(ctx, url) {
 }
 
 const browser = await chromium.launch();
-const ctx = await browser.newContext({ userAgent: UA });
-const page = await ctx.newPage();
 const summary = [];
 for (const farm of farms) {
+  const ctx = await browser.newContext({ userAgent: UA });
+  const page = await ctx.newPage();
+  page.setDefaultTimeout(20000);
+  const started = Date.now();
   const out = { slug: farm.slug, website: farm.website, pages: {}, skipped: [], errors: [] };
   const queue = [farm.website, farm.feeding_claim?.source_url, farm.delivery?.source_url, farm.ordering_url].filter(Boolean);
   const seen = new Set();
   let host;
   try { host = new URL(farm.website).hostname.replace(/^www\./, ''); } catch { out.errors.push('bad website url'); }
-  while (queue.length && Object.keys(out.pages).length < MAX_PAGES) {
+  while (queue.length && Object.keys(out.pages).length < MAX_PAGES && Date.now() - started < FARM_BUDGET_MS) {
     const url = queue.shift().split('#')[0];
     if (seen.has(url)) continue; seen.add(url);
     try {
       if (!(await allowed(ctx, url))) { out.skipped.push(`${url} (robots.txt)`); continue; }
-      const resp = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-      await page.waitForTimeout(2500);
+      const resp = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+      await page.waitForTimeout(1500);
       const text = (await page.innerText('body').catch(() => '')).replace(/\n{3,}/g, '\n\n').slice(0, MAX_CHARS);
       out.pages[page.url()] = { status: resp?.status() ?? 0, title: await page.title().catch(() => ''), text };
       if (Object.keys(out.pages).length === 1 || url === farm.website) {
@@ -64,9 +69,11 @@ for (const farm of farms) {
       }
     } catch (e) { out.errors.push(`${url}: ${String(e).slice(0, 150)}`); }
   }
+  if (Date.now() - started >= FARM_BUDGET_MS) out.errors.push('time budget reached');
   fs.writeFileSync(path.join('crawl', `${farm.slug}.json`), JSON.stringify(out, null, 1));
+  await ctx.close().catch(() => {});
   summary.push({ slug: farm.slug, pages: Object.keys(out.pages).length, skipped: out.skipped.length, errors: out.errors.length });
   console.log(farm.slug, Object.keys(out.pages).length, 'pages', out.skipped.length ? `${out.skipped.length} robots-skipped` : '', out.errors.length ? `${out.errors.length} errors` : '');
 }
-fs.writeFileSync(path.join('crawl', '_summary.json'), JSON.stringify(summary, null, 1));
+fs.writeFileSync(path.join('crawl', `_summary-${SHARD}.json`), JSON.stringify(summary, null, 1));
 await browser.close();

@@ -13,21 +13,37 @@ permissions:
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: npm i --no-save playwright@1 && npx playwright install --with-deps chromium
       - run: node scripts/audit/crawl.mjs
+        env: { SHARD: '${{ matrix.shard }}', SHARDS: '8' }
+        timeout-minutes: 38
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: { name: 'crawl-${{ matrix.shard }}', path: crawl, if-no-files-found: ignore }
+
+  publish:
+    needs: crawl
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: /tmp/parts, pattern: 'crawl-*', merge-multiple: true }
       - name: Publish to the audit-crawl branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          mv crawl /tmp/crawl
           git switch --orphan audit-crawl-tmp
           git rm -rf --quiet . || true
-          rm -rf node_modules
-          cp -r /tmp/crawl/. .
+          cp -r /tmp/parts/. .
           git add -A && git commit -q -m "Farm website crawl $(date -u +%F)"
           git push -f origin HEAD:audit-crawl
