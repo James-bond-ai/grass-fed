@@ -19,7 +19,8 @@
     "raw milk cheeses",
     "cultured butter",
     "A2/A2 Jersey raw milk",
-    "ricotta"
+    "ricotta",
+    "tomme"
   ],
   "feeding_claim": {
     "category": "pastured",
@@ -34,13 +35,10 @@
     }
   ],
   "sales_channels": [
-    "farmers-market",
-    "retail"
+    "retail",
+    "online-order"
   ],
-  "farmers_markets": [
-    "University District Farmers Market",
-    "Ballard Farmers Market"
-  ],
+  "farmers_markets": [],
   "bulk_shares": false,
   "delivery": {
     "local_areas": [],
@@ -57,8 +55,8 @@
   "ordering_url": "https://fantellocreamery.com/shop",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/washington/enumclaw/cheese-1/fantello-farmstead-creamery/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "39719 236th Ave SE, Enumclaw, WA 98022"
 }

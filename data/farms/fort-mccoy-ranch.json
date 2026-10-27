@@ -26,10 +26,11 @@
   },
   "certifications": [],
   "sales_channels": [
+    "online-order",
     "ships-regional"
   ],
   "farmers_markets": [],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [],
     "local_radius_miles": null,
@@ -41,8 +42,9 @@
   "ordering_url": "https://fortmccoyranch.com/collections/100-grass-fed-beef",
   "data_source": "web-search",
   "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "19798 NE Highway 315, Fort McCoy, FL 32134"
+  "address": "19798 NE Highway 315, Fort McCoy, FL 32134",
+  "notes": "Ships to communities in the southeastern United States; the website does not name states."
 }

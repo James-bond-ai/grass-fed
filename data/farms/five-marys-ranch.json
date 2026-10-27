@@ -7,7 +7,7 @@
   "zip": "",
   "address_public": false,
   "website": "https://fivemarys.com",
-  "phone": "",
+  "phone": "530-468-4001",
   "social_urls": [],
   "species": [
     "beef",
@@ -21,13 +21,15 @@
     "beef tallow"
   ],
   "feeding_claim": {
-    "category": "pastured",
-    "verbatim": "spend their days on our green pastures and hills rich in minerals with plenty of sunshine",
-    "source_url": "https://fivemarys.com/"
+    "category": "grain-finished",
+    "verbatim": "We wanted a grass-fed lifestyle with a barley finish and a 28-day dry-age.",
+    "source_url": "https://fivemarys.com/marys-story"
   },
   "certifications": [],
   "sales_channels": [
-    "ships-nationwide"
+    "ships-nationwide",
+    "on-farm-store",
+    "online-order"
   ],
   "farmers_markets": [],
   "bulk_shares": false,
@@ -44,7 +46,7 @@
   "ordering_url": "https://fivemarysmeats.com",
   "data_source": "web-search",
   "source_url": "https://fivemarys.com",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

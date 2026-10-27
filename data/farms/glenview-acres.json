@@ -25,8 +25,8 @@
   ],
   "feeding_claim": {
     "category": "grass-finished",
-    "verbatim": "No, our beef is 100% grass-fed from start to finish.",
-    "source_url": "https://www.glenviewacres.com/beef"
+    "verbatim": "Our beef is 100% grass-fed from start to finish. No grain ever!",
+    "source_url": "https://www.glenviewacres.com/"
   },
   "certifications": [],
   "sales_channels": [
@@ -47,7 +47,13 @@
   "ordering_url": "https://www.glenviewacres.com/beef",
   "data_source": "web-search",
   "source_url": "https://www.glenviewacres.com/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "availability": {
+    "status": "sold-out",
+    "note": "All 2026 beef and hog deposits are sold out.",
+    "checked_on": "2026-10-27",
+    "source_url": "https://www.glenviewacres.com/beef"
+  }
 }

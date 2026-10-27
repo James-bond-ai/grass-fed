@@ -12,14 +12,12 @@
   "species": [
     "beef",
     "poultry",
-    "pork",
     "eggs"
   ],
   "products": [
     "beef cuts",
     "chicken",
     "turkey",
-    "pork",
     "eggs"
   ],
   "feeding_claim": {
@@ -29,15 +27,17 @@
   },
   "certifications": [],
   "sales_channels": [
-    "on-farm-store"
+    "on-farm-store",
+    "online-order",
+    "local-delivery"
   ],
   "farmers_markets": [],
   "bulk_shares": false,
   "ordering_url": "https://grasswayorganics.grazecart.com/store",
   "data_source": "web-search",
   "source_url": "https://www.grasswayorganics.com",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "W2716 Friemoth Road, East Troy, WI 53120",
   "delivery": {
@@ -56,5 +56,6 @@
       "Madison Area (Fridays)"
     ],
     "source_url": "https://grasswayorganics.grazecart.com/homepage-3"
-  }
+  },
+  "resold_note": "Also sells pork raised at Golden Bear Farm in Kiel, WI, plus honey and cheese from other local producers."
 }

@@ -36,7 +36,11 @@
     "farmers-market",
     "retail"
   ],
-  "farmers_markets": [],
+  "farmers_markets": [
+    "Portland Farmers Market (Saturdays)",
+    "Montavilla Market (Sundays)",
+    "Beaverton Farmers Market (Saturdays)"
+  ],
   "bulk_shares": false,
   "delivery": {
     "local_areas": [],
@@ -49,10 +53,10 @@
     "cheese",
     "ice-cream"
   ],
-  "ordering_url": "https://fragafarm.com/collections/all",
+  "ordering_url": "",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/oregon/gales-creek/dairy-1/fraga-farmstead-creamery/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

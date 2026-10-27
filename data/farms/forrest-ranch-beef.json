@@ -27,7 +27,8 @@
   "certifications": [],
   "sales_channels": [
     "online-order",
-    "local-delivery"
+    "local-delivery",
+    "ships-regional"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
@@ -37,7 +38,9 @@
       "within 60 miles (all other orders)"
     ],
     "local_radius_miles": 100,
-    "ships_to": [],
+    "ships_to": [
+      "TX"
+    ],
     "pickup_locations": [
       "Amarillo (monthly drop point)",
       "Plainview (monthly drop point)",
@@ -47,13 +50,14 @@
       "Abilene (monthly drop point)",
       "Dallas/Ft. Worth (monthly drop point)"
     ],
-    "source_url": "https://forrestranchbeef.com/policies/shipping-policy"
+    "source_url": "https://forrestranchbeef.com/collections/bulk-beef"
   },
   "dairy_products": [],
   "ordering_url": "https://forrestranchbeef.com/collections/bulk-beef/eighth",
   "data_source": "web-search",
   "source_url": "https://kfyo.com/ixp/190/p/buying-grass-fed-beef-lubbock/",
   "last_verified_at": "2026-10-27",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "verification_method": "manual",
+  "listing_status": "published",
+  "resold_note": "Also sells pork raised by neighbors at LA Farms."
 }
