@@ -47,47 +47,74 @@ async function allowed(ctx, url) {
   return !best || best.allow;
 }
 
-const browser = await chromium.launch();
-const summary = [];
-for (const farm of farms) {
+// A page whose scripts lock up the tab can stall Playwright calls with no timeout of their own
+// (evaluate, title), so every URL gets a hard deadline; on expiry the tab is thrown away.
+const URL_DEADLINE_MS = 40000;
+function deadline(p, ms) {
+  let timer;
+  p.catch(() => {}); // the abandoned work may still fail later; that must not crash the run
+  const expiry = new Promise((_, rej) => { timer = setTimeout(() => rej(new Error(`hard deadline ${ms / 1000}s exceeded`)), ms); });
+  return Promise.race([p, expiry]).finally(() => clearTimeout(timer));
+}
+
+let browser = await chromium.launch();
+async function freshPage() {
+  if (!browser.isConnected()) browser = await chromium.launch();
   const ctx = await browser.newContext({ userAgent: UA });
   const page = await ctx.newPage();
   page.setDefaultTimeout(20000);
+  return { ctx, page };
+}
+
+const summary = [];
+for (const farm of farms) {
+  let { ctx, page } = await freshPage();
   const started = Date.now();
   const out = { slug: farm.slug, website: farm.website, pages: {}, skipped: [], errors: [] };
   const queue = [farm.website, farm.feeding_claim?.source_url, farm.delivery?.source_url, farm.ordering_url].filter(Boolean);
   const seen = new Set();
   let host, retriedHost = false;
   try { host = new URL(farm.website).hostname.replace(/^www\./, ''); } catch { out.errors.push('bad website url'); }
+
+  async function visit(url) {
+    if (!(await allowed(ctx, url))) { out.skipped.push(`${url} (robots.txt)`); return; }
+    const before = page.url();
+    let resp = null;
+    try {
+      resp = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
+    } catch (e) {
+      // Slow sites often have their text on screen long before DOMContentLoaded fires: keep what
+      // loaded, unless the navigation never got off the previous page.
+      if (!/Timeout/.test(String(e)) || page.url() === before) throw e;
+      out.errors.push(`${url}: slow to load, saved what had rendered`);
+    }
+    await page.waitForTimeout(1500);
+    const text = (await page.innerText('body').catch(() => '')).replace(/\n{3,}/g, '\n\n').slice(0, MAX_CHARS);
+    out.pages[page.url()] = { status: resp?.status() ?? 0, title: await page.title().catch(() => ''), text };
+    if (Object.keys(out.pages).length === 1 || url === farm.website) {
+      const links = await page.$$eval('a[href]', (as) => as.map((a) => [a.href, (a.innerText || '').trim()])).catch(() => []);
+      for (const [href, label] of links) {
+        try {
+          const h = new URL(href); const hh = h.hostname.replace(/^www\./, '');
+          if ((hh === host || hh.endsWith('.' + host) || /barn2door|square\.site|shopify|farmmatch|localline|grazecart/.test(hh)) && (KEY.test(h.pathname) || KEY.test(label)) && !/\.(jpg|png|pdf|zip)$/i.test(h.pathname)) queue.push(h.href);
+        } catch {}
+      }
+    }
+  }
+
   while (queue.length && Object.keys(out.pages).length < MAX_PAGES && Date.now() - started < FARM_BUDGET_MS) {
     const url = queue.shift().split('#')[0];
     if (seen.has(url)) continue; seen.add(url);
     try {
-      if (!(await allowed(ctx, url))) { out.skipped.push(`${url} (robots.txt)`); continue; }
-      const before = page.url();
-      let resp = null;
-      try {
-        resp = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 20000 });
-      } catch (e) {
-        // Slow sites often have their text on screen long before DOMContentLoaded fires: keep what
-        // loaded, unless the navigation never got off the previous page.
-        if (!/Timeout/.test(String(e)) || page.url() === before) throw e;
-        out.errors.push(`${url}: slow to load, saved what had rendered`);
-      }
-      await page.waitForTimeout(1500);
-      const text = (await page.innerText('body').catch(() => '')).replace(/\n{3,}/g, '\n\n').slice(0, MAX_CHARS);
-      out.pages[page.url()] = { status: resp?.status() ?? 0, title: await page.title().catch(() => ''), text };
-      if (Object.keys(out.pages).length === 1 || url === farm.website) {
-        const links = await page.$$eval('a[href]', (as) => as.map((a) => [a.href, (a.innerText || '').trim()])).catch(() => []);
-        for (const [href, label] of links) {
-          try {
-            const h = new URL(href); const hh = h.hostname.replace(/^www\./, '');
-            if ((hh === host || hh.endsWith('.' + host) || /barn2door|square\.site|shopify|farmmatch|localline|grazecart/.test(hh)) && (KEY.test(h.pathname) || KEY.test(label)) && !/\.(jpg|png|pdf|zip)$/i.test(h.pathname)) queue.push(h.href);
-          } catch {}
-        }
-      }
+      await deadline(visit(url), URL_DEADLINE_MS);
     } catch (e) {
       out.errors.push(`${url}: ${String(e).slice(0, 150)}`);
+      if (/hard deadline/.test(String(e))) {
+        // Close without waiting: a locked-up tab can stall a graceful close too.
+        ctx.close().catch(() => {});
+        try { ({ ctx, page } = await freshPage()); } catch (e2) { out.errors.push(`browser restart failed: ${String(e2).slice(0, 150)}`); break; }
+        continue;
+      }
       // The listed host can fail at the TLS or DNS level while the www or bare variant works.
       if (!retriedHost && /ERR_SSL|ERR_NAME_NOT_RESOLVED|ERR_CONNECTION/.test(String(e))) {
         retriedHost = true;
@@ -97,9 +124,9 @@ for (const farm of farms) {
   }
   if (Date.now() - started >= FARM_BUDGET_MS) out.errors.push('time budget reached');
   fs.writeFileSync(path.join('crawl', `${farm.slug}.json`), JSON.stringify(out, null, 1));
-  await ctx.close().catch(() => {});
+  await deadline(ctx.close(), 10000).catch(() => {});
   summary.push({ slug: farm.slug, pages: Object.keys(out.pages).length, skipped: out.skipped.length, errors: out.errors.length });
   console.log(farm.slug, Object.keys(out.pages).length, 'pages', out.skipped.length ? `${out.skipped.length} robots-skipped` : '', out.errors.length ? `${out.errors.length} errors` : '');
 }
 fs.writeFileSync(path.join('crawl', `_summary-${SHARD}.json`), JSON.stringify(summary, null, 1));
-await browser.close();
+await deadline(browser.close(), 15000).catch(() => {});
