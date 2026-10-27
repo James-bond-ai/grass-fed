@@ -13,25 +13,27 @@
     "beef",
     "pork",
     "poultry",
-    "eggs",
-    "dairy-cow"
+    "eggs"
   ],
   "products": [
     "grass-fed beef",
     "forest-raised pork",
     "pasture-raised chicken",
+    "pasture-raised duck",
     "eggs",
     "turkey",
-    "A2 dairy"
+    "A2 dairy",
+    "bones and broth"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "Cows should only eat grass and natural forage every day.",
-    "source_url": "https://www.pasturedlife.com/our-farming-principles"
+    "category": "grass-finished",
+    "verbatim": "As eluded to above, our herbivores DO NOT CONSUME GRAIN; However, omnivores like pigs and chickens do.",
+    "source_url": "https://pasturedlife.com/our-farming-principles"
   },
   "certifications": [],
   "sales_channels": [
-    "local-delivery",
+    "online-order",
+    "farm-pickup",
     "farmers-market"
   ],
   "farmers_markets": [],
@@ -40,17 +42,26 @@
     "local_areas": [],
     "local_radius_miles": null,
     "ships_to": [],
-    "pickup_locations": [],
-    "source_url": "https://www.pasturedlife.com/"
+    "pickup_locations": [
+      "On-farm pickup, O'Brien (Mon, Wed, Fri, Sat 11:30 am to 4 pm)",
+      "Gainesville",
+      "Jacksonville (several drop points)",
+      "Ocala",
+      "Orlando",
+      "Ponte Vedra Beach",
+      "St. Augustine",
+      "St. Johns",
+      "Wildwood",
+      "Winter Garden/Oakland"
+    ],
+    "source_url": "https://pasturedlife.com/locations"
   },
-  "dairy_products": [
-    "raw-milk"
-  ],
-  "ordering_url": "https://www.pasturedlife.com/store/grass-fed-beef",
+  "dairy_products": [],
+  "ordering_url": "https://pasturedlife.com/navigation/store",
   "data_source": "web-search",
   "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
   "address": "6944 210th Place, O'Brien, FL 32071"
 }

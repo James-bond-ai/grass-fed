@@ -16,8 +16,8 @@
     "beef"
   ],
   "products": [
-    "quarter beef",
-    "ground beef",
+    "quarter, half and whole beef",
+    "ground beef packages",
     "live steers"
   ],
   "feeding_claim": {
@@ -42,7 +42,7 @@
   "ordering_url": "https://www.prierfarms.com/products-and-pricing/",
   "data_source": "web-search",
   "source_url": "https://mofb.org/missouri-meat-producers/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }

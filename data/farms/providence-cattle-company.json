@@ -24,6 +24,8 @@
   },
   "certifications": [],
   "sales_channels": [
+    "online-order",
+    "local-delivery",
     "retail",
     "restaurants",
     "ships-regional"
@@ -31,17 +33,22 @@
   "farmers_markets": [],
   "bulk_shares": true,
   "delivery": {
-    "local_areas": [],
+    "local_areas": [
+      "Tampa Bay Area (fees apply outside)"
+    ],
     "local_radius_miles": null,
     "ships_to": [],
-    "pickup_locations": [],
-    "source_url": "https://providencecattle.com/shop-grass-fed-beef/"
+    "pickup_locations": [
+      "Tampa area pickup"
+    ],
+    "source_url": "https://providencecattle.com/product/steer/"
   },
   "dairy_products": [],
   "ordering_url": "https://providencecattle.com/shop-grass-fed-beef/",
   "data_source": "web-search",
   "source_url": "https://floridafarmfinder.com/pages/fl-grass-finish-producers",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "notes": "Ships; the website does not name a shipping area."
 }

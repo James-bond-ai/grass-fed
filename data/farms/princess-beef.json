@@ -28,8 +28,7 @@
     }
   ],
   "sales_channels": [
-    "farm-pickup",
-    "local-delivery"
+    "farm-pickup"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
@@ -38,6 +37,7 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
+      "Houseweart Ranch, Rogers Mesa, Hotchkiss (one scheduled pickup date)",
       "Montrose (one scheduled pickup date)",
       "Grand Junction (one scheduled pickup date)",
       "Denver/Colorado Springs (one scheduled pickup date)"
@@ -47,7 +47,13 @@
   "ordering_url": "https://princessbeef.com/?page_id=428",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/colorado/hotchkiss/beef-1/princess-beef/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
-  "listing_status": "published"
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
+  "listing_status": "published",
+  "availability": {
+    "status": "sold-out",
+    "note": "Sold out for 2026; email the ranch to get next year's mailing.",
+    "checked_on": "2026-10-27",
+    "source_url": "https://princessbeef.com/"
+  }
 }

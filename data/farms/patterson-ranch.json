@@ -14,7 +14,9 @@
   ],
   "products": [
     "beef cuts",
-    "ground beef"
+    "ground beef",
+    "beef boxes",
+    "quarter, half and whole beef"
   ],
   "feeding_claim": {
     "category": "both",
@@ -23,18 +25,19 @@
   },
   "certifications": [],
   "sales_channels": [
+    "online-order",
     "farmers-market"
   ],
   "farmers_markets": [
-    "Wolforth farmers market"
+    "Wolfforth Farmers Market (Saturdays 10 to 2, year round)"
   ],
-  "bulk_shares": false,
+  "bulk_shares": true,
   "delivery": {
     "local_areas": [],
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
-      "Wolforth Farmers Market"
+      "Wolfforth Farmers Market"
     ],
     "source_url": "https://pattersonranch.net/order/"
   },

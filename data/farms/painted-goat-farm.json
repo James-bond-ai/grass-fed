@@ -27,7 +27,9 @@
     "farmers-market",
     "csa",
     "online-order",
-    "retail"
+    "retail",
+    "restaurants",
+    "ships-regional"
   ],
   "farmers_markets": [
     "Cooperstown Farmers' Market",
@@ -41,18 +43,19 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
-      "Goat cheese CSA pickup, Westchester County"
+      "Goat cheese CSA pickup, Westchester County (site says it may not run this year)"
     ],
     "source_url": "https://www.paintedgoat.com/cheese.html"
   },
   "dairy_products": [
     "cheese"
   ],
-  "ordering_url": "",
+  "ordering_url": "https://painted-goat-farm-llc.square.site/",
   "data_source": "certifier",
   "source_url": "https://agreenerworld.org/agw-listings/united-states/new-york/hastings-on-hudson/cheese-1/hastings-on-hudson-farmers-market/",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published",
-  "address": "371 Mittedorf Road, Garrattsville, NY 13342"
+  "address": "371 Mittedorf Road, Garrattsville, NY 13342",
+  "notes": "Ships; the website does not name a shipping area."
 }

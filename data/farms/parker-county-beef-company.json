@@ -27,8 +27,8 @@
   },
   "certifications": [],
   "sales_channels": [
-    "farmers-market",
-    "retail",
+    "online-order",
+    "farm-pickup",
     "ships-nationwide"
   ],
   "farmers_markets": [],
@@ -37,14 +37,16 @@
     "local_areas": [],
     "local_radius_miles": null,
     "ships_to": "nationwide",
-    "pickup_locations": [],
+    "pickup_locations": [
+      "Parker County Beef Company store, 1705 N FM 51, Springtown"
+    ],
     "source_url": "https://burtnettfarmingandranching.grazecart.com/faqs"
   },
   "dairy_products": [],
   "ordering_url": "https://burtnettfarmingandranching.grazecart.com/store",
   "data_source": "web-search",
   "source_url": "https://burtnettfarmingandranching.grazecart.com/blog",
-  "last_verified_at": "2026-10-26",
-  "verification_method": "auto",
+  "last_verified_at": "2026-10-27",
+  "verification_method": "manual",
   "listing_status": "published"
 }
