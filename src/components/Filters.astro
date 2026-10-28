@@ -3,7 +3,7 @@ import { SPECIES, DAIRY_PRODUCTS, isOrganic } from '../data/states.mjs';
 import { loadPublishedFarms } from '../data/farms.mjs';
 // Show the organic filter only once at least one farm has a confirmed organic certification.
 const anyOrganic = loadPublishedFarms().some(isOrganic);
-interface Props { listId: string; total: number; mode?: 'all' | 'dairy' }
+interface Props { listId: string; total: number; mode?: 'all' | 'dairy' | 'bulk' }
 const { listId, total, mode = 'all' } = Astro.props;
 ---
 <form class="filters" data-filter-for={listId} aria-label="Filter farms">
@@ -15,7 +15,7 @@ const { listId, total, mode = 'all' } = Astro.props;
         {Object.entries(DAIRY_PRODUCTS).map(([k, v]) => <option value={k}>{v}</option>)}
       </select>
     </div>
-  ) : (
+  ) : mode === 'bulk' ? null : (
     <div class="field">
       <label for={`${listId}-species`}>What you want to buy</label>
       <select id={`${listId}-species`} name="species">
@@ -36,8 +36,8 @@ const { listId, total, mode = 'all' } = Astro.props;
   <div class="checks">
     {anyOrganic && <label><input type="checkbox" name="organic" /> USDA Organic</label>}
     <label><input type="checkbox" name="certified" /> Grass-fed or welfare certified</label>
-    {mode !== 'dairy' && <label><input type="checkbox" name="dairy" /> Sells dairy</label>}
-    {mode !== 'dairy' && <label><input type="checkbox" name="bulk" /> Quarter or half shares</label>}
+    {mode === 'all' && <label><input type="checkbox" name="dairy" /> Sells dairy</label>}
+    {mode === 'all' && <label><input type="checkbox" name="bulk" /> Quarter or half shares</label>}
     <label><input type="checkbox" name="delivers" /> Delivers or ships</label>
     <label><input type="checkbox" name="pickup" /> Farm pickup or store</label>
   </div>

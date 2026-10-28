@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import FarmRow from '../../components/FarmRow.astro';
+import Filters from '../../components/Filters.astro';
+import Icon from '../../components/Icon.astro';
+import FeedingKey from '../../components/FeedingKey.astro';
+import { loadBulkBeefFarms, bulkBeefStates, bulkIndexable, BULK_GUIDE } from '../../data/bulk.mjs';
+
+const farms = loadBulkBeefFarms();
+const states = bulkBeefStates(farms).sort((a, b) => a.st.name.localeCompare(b.st.name));
+---
+<Base title="Buy a quarter or half cow: bulk grass-fed beef by state" description={`${farms.length} verified US farms selling grass-fed beef by the quarter, half or whole animal, listed by state with feeding claims, pickup and delivery.`} noindex={!bulkIndexable(farms.length)}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Bulk beef</nav>
+  <div class="bulk-head"><Icon name="beef" size={56} /><h1>Bulk grass-fed beef by state</h1></div>
+  <p class="lede">Farms that sell beef by the quarter, half or whole animal. {farms.length} verified so far{states.length ? ` in ${states.length} ${states.length === 1 ? 'state' : 'states'}` : ''}. Buying a share costs less per pound than buying cuts, but you need freezer space and some planning. <a href={BULK_GUIDE}>How to buy a quarter cow</a></p>
+  {states.length > 0 && (
+    <p class="state-pills">{states.map(({ st, farms: sf }) => <a href={`/bulk-beef/${st.slug}/`}>{st.name} <span>{sf.length}</span></a>)}</p>
+  )}
+  {farms.length ? (
+    <>
+      <FeedingKey />
+      <Filters listId="bulk" total={farms.length} mode="bulk" />
+      <ul class="farm-list" id="bulk">{farms.map((f) => <FarmRow farm={f} />)}</ul>
+    </>
+  ) : (
+    <p class="empty">We're verifying farms that sell bulk beef now. <a href="/list-your-farm/">Sell quarter or half shares? List your farm.</a></p>
+  )}
+</Base>
+<style>
+  .bulk-head { display: flex; align-items: center; gap: 1rem; }
+  .bulk-head h1 { margin: 0; }
+  .state-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .state-pills a { border: 1px solid var(--rule); border-radius: 999px; padding: 0.3em 0.9em; text-decoration: none; color: var(--pasture-deep); background: #fff; }
+  .state-pills a:hover { border-color: var(--pasture); }
+  .state-pills span { color: var(--ink-soft); font-size: 0.85em; margin-left: 0.25em; }
+</style>

@@ -1,0 +1,66 @@
+---
+import Base from '../../layouts/Base.astro';
+import FarmRow from '../../components/FarmRow.astro';
+import Filters from '../../components/Filters.astro';
+import FeedingKey from '../../components/FeedingKey.astro';
+import { loadBulkBeefFarms, bulkBeefStates, bulkShipIn, bulkIndexable, BULK_GUIDE } from '../../data/bulk.mjs';
+import { fmtDate } from '../../data/format.mjs';
+
+export function getStaticPaths() {
+  const all = loadBulkBeefFarms();
+  return bulkBeefStates(all).map(({ st, farms }) => ({ params: { state: st.slug }, props: { st, farms, all } }));
+}
+const { st, farms, all } = Astro.props;
+const n = farms.length;
+const shipIn = bulkShipIn(all, st.abbr);
+const finished = farms.filter((f) => ['grass-finished', 'both'].includes(f.feeding_claim?.category)).length;
+const pickup = farms.filter((f) => (f.sales_channels ?? []).some((c) => ['on-farm-store', 'farm-pickup'].includes(c))).length;
+const latest = farms.map((f) => f.last_verified_at).sort().at(-1);
+const title = `Buy a quarter or half cow in ${st.name}`;
+const description = `${n} verified ${st.name} ${n === 1 ? 'farm sells' : 'farms sell'} grass-fed beef by the quarter, half or whole animal. See feeding claims, pickup and delivery, and how bulk beef buying works.`;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://grassfed.food/' },
+      { '@type': 'ListItem', position: 2, name: 'Bulk beef', item: 'https://grassfed.food/bulk-beef/' },
+      { '@type': 'ListItem', position: 3, name: st.name, item: `https://grassfed.food/bulk-beef/${st.slug}/` },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: title,
+    itemListElement: farms.map((f, i) => ({ '@type': 'ListItem', position: i + 1, url: `https://grassfed.food/farm/${f.slug}/`, name: f.farm_name })),
+  },
+];
+---
+<Base title={title} description={description} noindex={!bulkIndexable(n)} jsonLd={jsonLd}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/bulk-beef/">Bulk beef</a> / {st.name}</nav>
+  <h1>{title}</h1>
+  <p class="lede">{n} verified {n === 1 ? 'farm' : 'farms'} based in {st.name} {n === 1 ? 'sells' : 'sell'} beef by the quarter, half or whole animal. Buying in bulk usually means a deposit, a cut sheet and a pickup date. <a href={BULK_GUIDE}>How to buy a quarter cow</a></p>
+  <dl class="state-facts" aria-label={`About bulk beef farms in ${st.name}`}>
+    <div><dt>Sell bulk beef</dt><dd>{n}</dd></div>
+    <div><dt>Grass-finished available</dt><dd>{finished}</dd></div>
+    <div><dt>Farm pickup or store</dt><dd>{pickup}</dd></div>
+  </dl>
+  <FeedingKey />
+  <Filters listId="bulk" total={n} mode="bulk" />
+  <ul class="farm-list" id="bulk">{farms.map((f) => <FarmRow farm={f} showState={false} />)}</ul>
+  {latest && <p class="small muted">Last checked {fmtDate(latest)}. Share sizes, prices and waitlists change often, so confirm with the farm before you send a deposit.</p>}
+  {shipIn.length > 0 && (
+    <section id="ships-here">
+      <h2>Bulk beef farms elsewhere that ship to {st.name}<span class="section-count">{shipIn.length}</span></h2>
+      <p class="muted">These farms sell bulk shares and say they ship to {st.name}. Many ship only boxes or individual cuts, so ask whether a quarter or half can be shipped.</p>
+      <ul class="farm-list">{shipIn.map((f) => <FarmRow farm={f} shipsFrom />)}</ul>
+    </section>
+  )}
+  <p style="margin-top:2rem"><a href={`/farms/${st.slug}/`}>All grass-fed farms in {st.name}</a> · <a href="/bulk-beef/">Bulk beef in other states</a></p>
+</Base>
+<style>
+  .state-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+  .state-facts div { border-top: 3px solid var(--clover); padding-top: 0.5rem; }
+  .state-facts dt { font-size: 0.9rem; color: var(--ink-soft); }
+  .state-facts dd { margin: 0; font-family: var(--display); font-weight: 700; font-size: 2rem; color: var(--pasture-deep); }
+</style>

@@ -6,6 +6,7 @@ import FeedingKey from '../../components/FeedingKey.astro';
 import { STATES, INDEX_THRESHOLD, SPECIES, servesState, isOrganic, sellsDairy } from '../../data/states.mjs';
 import { loadPublishedFarms, farmsByState } from '../../data/farms.mjs';
 import { fmtDate } from '../../data/format.mjs';
+import { sellsBulkBeef } from '../../data/bulk.mjs';
 
 export function getStaticPaths() {
   return STATES.map((s) => ({ params: { state: s.slug }, props: { st: s } }));
@@ -22,6 +23,7 @@ const finished = farms.filter((f) => f.feeding_claim?.category === 'grass-finish
 const fedOnly = farms.filter((f) => f.feeding_claim?.category === 'grass-fed').length;
 const certified = farms.filter((f) => (f.certifications ?? []).length).length;
 const bulk = farms.filter((f) => f.bulk_shares).length;
+const bulkBeefN = farms.filter(sellsBulkBeef).length;
 const latest = farms.map((f) => f.last_verified_at).sort().at(-1);
 const speciesCount: Record<string, number> = {};
 for (const f of farms) for (const s of f.species ?? []) speciesCount[s] = (speciesCount[s] ?? 0) + 1;
@@ -96,6 +98,7 @@ const jsonLd = [
     <p class="empty" style="margin-top:2rem">We add farms every week. If you raise grass-fed animals in {st.name}, <a href="/list-your-farm/">list your farm</a> and we'll check it first.</p>
   )}
   {dairyN > 0 && <p><a href={`/dairy/${st.slug}/`}>Grass-fed dairy farms in {st.name}</a></p>}
+  {bulkBeefN > 0 && <p><a href={`/bulk-beef/${st.slug}/`}>Buy a quarter or half cow in {st.name}</a></p>}
   <p class="small muted" style="margin-top:2rem">Feeding descriptions are in each farm's own words, from its website. Certifications are shown only when we found the farm in the certifier's own listing. <a href="/methodology/">How we verify</a></p>
 </Base>
 <style>
