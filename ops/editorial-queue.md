@@ -11,7 +11,7 @@ Statuses: queued, drafting, in-review, returned, published.
 | 3 | grass-fed-certifications-compared | Grass-fed certifications compared: AGA, AGW, OPT and USDA Organic | guide | published | Comparison table. Primary sources only. |
 | 4 | how-to-vet-a-grass-fed-farm | How to vet a local grass-fed farm: 12 questions to ask | guide | published | Practical. Link to /farms/. |
 | 5 | raw-milk-laws-by-state | Raw milk laws by state, and how herdshares work | guide | published | Cite Farm-to-Consumer Legal Defense Fund map and NCSL with dates. Include a "not legal advice" line. No health claims either way. Published 2026-10-27 after NC Farm Act check. |
-| 6 | best-grass-fed-beef-delivery | Best grass-fed beef delivery services, compared by price per pound | best | queued | Research-based. Table: price per lb (date checked), grass-finished yes/no as stated, certification. |
+| 6 | best-grass-fed-beef-delivery | Best grass-fed beef delivery services, compared by price per pound | best | in-review | Research-based. Table: price per lb (date checked), grass-finished yes/no as stated, certification. |
 | 7 | quarter-vs-half-vs-whole-cow | Quarter vs half vs whole cow: which share size fits your household | guide | queued | |
 | 8 | is-grass-fed-beef-worth-it | Is grass-fed beef worth the price? | guide | queued | Include omega-3 numbers WITH absolute amounts and context. |
 | 9 | butcherbox-grass-fed-review | ButcherBox grass-fed beef: what you get and what it costs | review | queued | Only the 100% grass-fed line is in scope. |
