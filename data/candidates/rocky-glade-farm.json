@@ -1,0 +1,52 @@
+{
+  "id": "rocky-glade-farm",
+  "slug": "rocky-glade-farm",
+  "farm_name": "Rocky Glade Farm",
+  "city": "Eagleville",
+  "state": "TN",
+  "zip": "",
+  "address_public": false,
+  "website": "https://rockygladefarm.com/",
+  "phone": "615-274-3496",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "eggs"
+  ],
+  "products": [
+    "grass-fed beef",
+    "free-range eggs",
+    "vegetables"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "ZERO grain fed on our farm! So you can be assured that your beef is fully grass-fed and grass-finished.",
+    "source_url": "https://rockygladefarm.com/grass-fed-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order",
+    "csa"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "On-farm pickup Tuesday afternoons, Eagleville"
+    ],
+    "source_url": "https://rockygladefarm.com/contact-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://rockygladefarm.com/order-for-farm-pickup",
+  "data_source": "web-search",
+  "source_url": "https://www.covecreekfarm.com/farms-near-nashville-with-grass-fed-grass-finished-beef/",
+  "availability": {
+    "status": "sold-out",
+    "note": "Beef sold out for the 2026 season; eggs and produce still offered.",
+    "checked_on": "2026-10-28"
+  }
+}

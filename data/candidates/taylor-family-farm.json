@@ -1,0 +1,57 @@
+{
+  "id": "taylor-family-farm",
+  "slug": "taylor-family-farm",
+  "farm_name": "Taylor Family Farm",
+  "city": "Ethridge",
+  "state": "TN",
+  "zip": "",
+  "address_public": false,
+  "website": "https://taylorfamilyfarmtn.com/",
+  "phone": "(931) 424-5089",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "patties",
+    "steaks",
+    "roasts",
+    "short ribs",
+    "stew meat",
+    "organ meats",
+    "bones"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our cattle are raised on spacious farms where they graze on lush, natural grasses",
+    "source_url": "https://taylorfamilyfarmtn.com/store/grass-fed-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Nashville area (Thursdays)",
+      "Columbia area (Tuesdays)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Walgreens, Port Royal Rd., Spring Hill (Thursday)",
+      "Stoney Creek Farm, Franklin (Thursday)",
+      "Well Health & Chiropractic, Hermitage (Thursday)",
+      "Glendale Farm, Columbia (Tuesday)"
+    ],
+    "source_url": "https://taylorfamilyfarmtn.com/store/grass-fed-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://taylorfamilyfarmtn.com/store/",
+  "data_source": "web-search",
+  "source_url": "https://www.covecreekfarm.com/farms-near-nashville-with-grass-fed-grass-finished-beef/"
+}

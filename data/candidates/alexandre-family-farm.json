@@ -1,0 +1,71 @@
+{
+  "id": "alexandre-family-farm",
+  "slug": "alexandre-family-farm",
+  "farm_name": "Alexandre Family Farm",
+  "city": "Crescent City",
+  "state": "CA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://alexandrefamilyfarm.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/alexandrefamilyfarm"
+  ],
+  "species": [
+    "dairy-cow",
+    "eggs"
+  ],
+  "products": [
+    "milk",
+    "cream",
+    "yogurt",
+    "kefir",
+    "sour cream",
+    "cheddar",
+    "butter",
+    "pasture-raised eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "The fat content of our 100% Grass-fed products changes naturally with the seasons.",
+    "source_url": "https://alexandrefamilyfarm.com/pages/grass-fed-seasonal-milkfat-content"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "on-farm-store",
+    "online-order",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Alemany, San Francisco (Sunday)",
+    "Clement St., San Francisco (Sunday)",
+    "Ferry Building, San Francisco (Saturday)",
+    "Grand Lake, Oakland (Saturday)",
+    "Temescal, Oakland (Sunday)",
+    "Livermore Downtown (Sunday)",
+    "Downtown Palo Alto (Saturday)",
+    "San Ramon (Saturday)",
+    "South Berkeley (Tuesday)",
+    "Modesto Certified (Saturday and Thursday)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": ""
+  },
+  "dairy_products": [
+    "milk",
+    "cream",
+    "yogurt",
+    "kefir",
+    "cheese",
+    "butter"
+  ],
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://www.ccof.org/ccofmember/alexandre-family-farm"
+}

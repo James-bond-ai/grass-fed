@@ -1,0 +1,53 @@
+{
+  "id": "bates-grass-fed-beef",
+  "slug": "bates-grass-fed-beef",
+  "farm_name": "Bates Grass-Fed Beef",
+  "city": "California Hot Springs",
+  "state": "CA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.batesgrassfedbeef.com/",
+  "phone": "661-548-6561",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole and half beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass fed and grass finished",
+    "source_url": "https://www.batesgrassfedbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Bakersfield",
+      "Los Angeles",
+      "Porterville",
+      "Tulare County"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Exeter Meat Market, Exeter",
+      "Bakersfield Meats, Bakersfield"
+    ],
+    "source_url": "https://www.batesgrassfedbeef.com/order"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.batesgrassfedbeef.com/order",
+  "data_source": "web-search",
+  "source_url": "https://www.batesgrassfedbeef.com/",
+  "availability": {
+    "status": "waitlist",
+    "note": "Whole and half orders taken by wait list; reservations open for Spring 2027.",
+    "checked_on": "2026-10-28"
+  }
+}

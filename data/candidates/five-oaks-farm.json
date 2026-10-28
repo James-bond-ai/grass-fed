@@ -1,0 +1,44 @@
+{
+  "id": "five-oaks-farm",
+  "slug": "five-oaks-farm",
+  "farm_name": "Five Oaks Farm",
+  "city": "Shelbyville",
+  "state": "TN",
+  "zip": "",
+  "address_public": false,
+  "website": "https://fiveoaksfarmtn.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/FiveOaksFarm",
+    "https://www.instagram.com/fiveoaksfarmtn/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "individual cuts",
+    "quarter, half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "We have our steers on pasture and feeding grain from weaning until the kill date.",
+    "source_url": "https://fiveoaksfarmtn.com/faqs/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": ""
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/fiveoaksfarmtn/all",
+  "data_source": "web-search",
+  "source_url": "https://fiveoaksfarmtn.com/"
+}

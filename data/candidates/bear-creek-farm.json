@@ -1,0 +1,51 @@
+{
+  "id": "bear-creek-farm",
+  "slug": "bear-creek-farm",
+  "farm_name": "Bear Creek Farm",
+  "city": "Thompsons Station",
+  "state": "TN",
+  "zip": "",
+  "address_public": false,
+  "website": "https://bearcreekbeef.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/bearcreekbeef/",
+    "https://www.instagram.com/bearcreekfarm/"
+  ],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "steaks",
+    "pork chops",
+    "beef and pork cuts"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "a sustainable grass-fed, grain-finished cattle and hog farm",
+    "source_url": "https://bearcreekbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Franklin Farmers Market, Franklin (Saturday)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm store, Thompsons Station Rd West, Thompsons Station (Wednesday 2 to 5 pm)"
+    ],
+    "source_url": "https://bearcreekbeef.com/faq/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://bearcreekbeef.com/"
+}

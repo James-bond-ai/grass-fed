@@ -1,0 +1,46 @@
+{
+  "id": "holding-ranch",
+  "slug": "holding-ranch",
+  "farm_name": "Holding Ranch",
+  "city": "Montague",
+  "state": "CA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.holdingranch.com/",
+  "phone": "(925) 997-1072",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "beef",
+    "lamb"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "wholly raised on grass, never receiving any supplements, antibiotics, corn or other feeds that are unnatural to ruminant animals",
+    "source_url": "https://www.holdingranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "San Mateo farmers market",
+    "Walnut Creek farmers market",
+    "Menlo Park farmers market"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.holdingranch.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/west/holding-ranch-lake-city-ca/"
+}

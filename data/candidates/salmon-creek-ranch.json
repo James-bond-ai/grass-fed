@@ -1,0 +1,53 @@
+{
+  "id": "salmon-creek-ranch",
+  "slug": "salmon-creek-ranch",
+  "farm_name": "Salmon Creek Ranch",
+  "city": "Bodega",
+  "state": "CA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.salmoncreekranch.com/",
+  "phone": "707-775-9604",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "roasts",
+    "quarter, half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "raised the natural way, without grain, antibiotics, GMO's or added hormones",
+    "source_url": "https://www.salmoncreekranch.com/Beef/Beef.html"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "local-delivery",
+    "ships-nationwide",
+    "online-order"
+  ],
+  "farmers_markets": [
+    "Santa Rosa Certified Farmers Market, Luther Burbank Center (Saturday)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "San Francisco and some other Bay Area locations (sometimes)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Sonoma County local pickup for whole, half and quarter orders"
+    ],
+    "source_url": "https://www.salmoncreekranch.com/Beef/Beef.html"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://salmoncreekranch.square.site",
+  "data_source": "web-search",
+  "source_url": "https://www.salmoncreekranch.com/Beef/Beef.html"
+}

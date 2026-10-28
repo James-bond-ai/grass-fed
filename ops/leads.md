@@ -3,11 +3,11 @@
 Named farms found but not yet checked, by state. Scout takes these first and removes the ones it resolves.
 
 ## CA
-- Holding Ranch, Cedarville: AGW certified; order page blocked automated fetching
-- Prather Ranch; Toluma Farms; Humboldt Grassfed Beef; Llano Seco (blocked fetching); Chileno Valley Ranch (blocked fetching); Alexandre Family Farm (dairy)
+- Llano Seco, Chico (llanoseco.com blocks fetching)
+- California Beef Council directory, grass-fed ranches not yet checked: Arbuckle Cattle Co., Mokelumne Hill; Family Friendly Farms, Grass Valley; Full Circle Ranches, Petaluma; Koopmann Family Beef, Sunol; Marin Coast Ranch, Tomales; McLane Family Farms, Yreka; Muelrath Ranch, Penngrove; Summerfield Cattle Company, Vacaville; Tara Firma Farms, Petaluma; Yolo Land and Cattle, Woodland; Hornitos Beef; Springville Beef; Avenales Ranch, Santa Margarita; Twisselman Ranch; Sloan Ranch Beef, Santa Paula; Reed Valley Ranch, Hemet; Diamond B Ranch, Santa Ysabel
 
 ## CO
-- Bamber Ranch; Buck Up Buttercup Ranch; Lazy K's Ranch; Guthrie Cattle Company (Colorado Beef Council directory)
+- Buck Up Buttercup Ranch; Lazy K's Ranch; Guthrie Cattle Company (Colorado Beef Council directory)
 
 ## FL
 - Grove Ladder; Nature's Hand; Sunset Ranch of Escambia; E & C Cattle Ranch; JS2 Cattle; Our Ancestor's Food
@@ -36,7 +36,9 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Western PA, Bucks and Chester counties and the northern tier have no listings
 
 ## TN
-- Peaceful Pastures; Rocky Glade Farm; Claybrook Farms, Covington; Nashville Cattle Co., Shelbyville; West Tennessee has no listings
+- Peaceful Pastures, Hickman: business listings show it as closed; own site not checked
+- Claybrook Farms, Covington (claybrookfarmsmeats.com blocks fetching); Nashville Cattle Co., Shelbyville: no farm website found in search; West Tennessee has no listings
+- From a Nashville-area farm roundup, not yet checked: Cove Creek Farm, Tracy City; Solace Farm Homestead, Coalmont; Dayspring Farm, Altamont; Bowers Farm, Ethridge; Rolling Hills Farm, Duck River; Field of Dreams Farm, Watertown; Jolly Barnyard, Nashville; Gourmet Pasture Beef, Springfield
 
 ## TX
 - DMD Ranch, Paige (bison), DMD-Ranch.com: fetch blocked 2026-10-27

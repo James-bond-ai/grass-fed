@@ -1,0 +1,62 @@
+{
+  "id": "toluma-farms",
+  "slug": "toluma-farms",
+  "farm_name": "Toluma Farms & Tomales Farmstead Creamery",
+  "city": "Tomales",
+  "state": "CA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.tolumafarms.org/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "dairy-goat",
+    "dairy-sheep"
+  ],
+  "products": [
+    "goat and sheep milk cheese"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our cheeses are produced with milk from our Animal Welfare Approved animals raised on MOCA-certified organic pastures.",
+    "source_url": "https://www.tolumafarms.org/cheese"
+  },
+  "certifications": [
+    {
+      "body": "A Greener World",
+      "program": "awa",
+      "cert_id": "",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/california/petaluma/cheese-1/tomales-farmstead-creamery/",
+      "evidence_note": "AGW listing for Tomales Farmstead Creamery shows Certified For: Animal Welfare.",
+      "verified_on": "2026-10-28"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Grand Lake Farmers Market, Oakland (Saturday)",
+    "Clement Street Farmers Market, San Francisco (Sunday)",
+    "Ferry Plaza Farmers Market, San Francisco (Saturday)",
+    "Marin Country Mart Farmers Market, Larkspur (Saturday)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Honor-system farm shop at the front gate, Tomales"
+    ],
+    "source_url": "https://www.tolumafarms.org/cheese"
+  },
+  "dairy_products": [
+    "cheese"
+  ],
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/california/petaluma/cheese-1/tomales-farmstead-creamery/",
+  "resold_note": "Some cheeses also use Jersey cow milk bought from a neighboring family farm."
+}

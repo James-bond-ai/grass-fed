@@ -1,0 +1,58 @@
+{
+  "id": "prather-ranch",
+  "slug": "prather-ranch",
+  "farm_name": "Prather Ranch",
+  "city": "Macdoel",
+  "state": "CA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://pratherranch.com/",
+  "phone": "(530) 336-6667",
+  "social_urls": [
+    "https://www.facebook.com/pratherranch",
+    "https://www.instagram.com/pratherranch/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "combo boxes",
+    "quarter beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "The cattle are finished on a diet of chopped forage, barley, and rice bran.",
+    "source_url": "https://pratherranch.com/our-practice/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [
+    "Willow Glen Farmers Market, San Jose (Saturday)",
+    "Danville Farmers Market, Danville (Saturday, alternating with San Ramon)",
+    "San Ramon Farmers Market, San Ramon (Saturday, alternating with Danville)",
+    "Marin Farmers Market, San Rafael (Sunday)",
+    "Evergreen Farmers Market, San Jose (Wednesday)",
+    "Campbell Farmers Market, Campbell (Sunday)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Sacramento and north of Sacramento, including Southern Oregon"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://pratherranch.com/where-to-buy/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://pratherranch.com/order-form/",
+  "data_source": "state-program",
+  "source_url": "https://www.calbeef.org/resources/california-local-beef-directory"
+}

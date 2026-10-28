@@ -1,0 +1,60 @@
+{
+  "id": "whitaker-farms",
+  "slug": "whitaker-farms",
+  "farm_name": "Whitaker Farms",
+  "city": "Gallatin",
+  "state": "TN",
+  "zip": "",
+  "address_public": false,
+  "website": "https://whitakerfarmstn.com/",
+  "phone": "615-200-8280",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "grass-fed beef",
+    "bulk beef",
+    "pastured pork",
+    "pastured chicken",
+    "pastured turkey",
+    "eggs",
+    "meat bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "100% of the diet of our grass-fed animals consists of freshly grazed pasture and stored grasses (hay or grass silage.)",
+    "source_url": "https://whitakerfarmstn.com/protocols"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Nashville",
+      "Atlanta",
+      "Louisville",
+      "Birmingham",
+      "Memphis"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Saturday farm pickup, Gallatin (on hold until 10/1/2026)"
+    ],
+    "source_url": "https://whitakerfarmstn.com/home-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://whitakerfarmstn.com/store",
+  "data_source": "web-search",
+  "source_url": "https://www.covecreekfarm.com/farms-near-nashville-with-grass-fed-grass-finished-beef/",
+  "resold_note": "Also sells wild seafood it does not raise."
+}

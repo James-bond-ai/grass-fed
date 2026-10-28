@@ -1,0 +1,43 @@
+{
+  "id": "bamber-ranch",
+  "slug": "bamber-ranch",
+  "farm_name": "Bamber Ranch",
+  "city": "Lamar",
+  "state": "CO",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.bamberranch.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef boxes",
+    "individual cuts",
+    "ground beef",
+    "bulk beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Grass-Fed & Sunflower-Finished",
+    "source_url": "https://www.bamberranch.com/beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": ""
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/bamberranch/all",
+  "data_source": "state-program",
+  "source_url": "https://www.cobeef.com/cooking/local-beef-directory"
+}

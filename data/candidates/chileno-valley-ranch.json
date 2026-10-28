@@ -1,0 +1,44 @@
+{
+  "id": "chileno-valley-ranch",
+  "slug": "chileno-valley-ranch",
+  "farm_name": "Chileno Valley Ranch (Mike and Sally Gale Beef Ranch)",
+  "city": "Petaluma",
+  "state": "CA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.mikeandsallygalebeefranch.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/chilenovalley"
+  ],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "split-quarter, half and whole beef",
+    "lamb"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We raise our beef naturally, on grass (not corn), without antibiotics, hormones, or grain.",
+    "source_url": "https://www.mikeandsallygalebeefranch.com/beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.mikeandsallygalebeefranch.com/beef/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.mikeandsallygalebeefranch.com/beef/",
+  "data_source": "web-search",
+  "source_url": "https://www.mikeandsallygalebeefranch.com/"
+}
