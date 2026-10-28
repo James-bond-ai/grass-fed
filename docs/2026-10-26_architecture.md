@@ -133,7 +133,6 @@ Full editorial queue (20 articles) and site structure are in `docs/research/`.
 | Revenue timeline | Low | No revenue until a premium ad network approves the site; new domains typically take 6 to 12 months to earn meaningful search traffic |
 
 ## Design system (October 2026 redesign)
-- Home page hero: a React Three Fiber scene (`src/three/`), mounted by `src/components/Hero.astro` only on desktops that pass a capability check (no reduced motion, 4+ CPU cores, WebGL2, not a touch device, no Data Saver). Everyone else sees the still poster in `public/art/pasture-hero-*`. three.js never loads on other pages or on phones.
-- To refresh the poster after changing the scene, open `/#force-3d` at 1600x900 and capture the hero.
-- Liquid glass: `.glass` in `global.css` gives frosted glass everywhere. `src/lib/liquid-glass.js` adds edge refraction on Chromium to any element with `data-glass`, using the refraction model from liquid-glass-js (MIT, see `src/lib/LICENSE-liquid-glass-js.txt`).
+- Home page hero: a still image of a pasture scene (`public/art/pasture-hero-*`, WebP with a JPEG fallback, preloaded). It was rendered from a React Three Fiber scene; the live 3D version was removed on 2026-10-27 because it slowed the site.
+- Glass: `.glass` in `global.css` is frosted CSS (backdrop blur). The SVG refraction layer based on liquid-glass-js was removed for the same reason.
 - Fonts are self-hosted (Fraunces for headings, Public Sans for text). Feeding-label colours are unchanged and must stay solid, not translucent.

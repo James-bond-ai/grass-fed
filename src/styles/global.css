@@ -33,7 +33,6 @@ body {
     radial-gradient(900px 520px at -10% 30%, rgba(207,222,174,0.45), transparent 62%),
     radial-gradient(800px 500px at 100% 85%, rgba(243,230,196,0.55), transparent 60%),
     var(--paper);
-  background-attachment: fixed;
   color: var(--ink);
   font: 400 1.0625rem/1.6 var(--body);
 }
@@ -240,8 +239,8 @@ a.tile:hover { outline: 2px solid var(--hay); outline-offset: 1px; }
 
 /* ------------------------------------------------------------------
    Redesign, October 2026: liquid glass and the 3D pasture hero.
-   Glass is frosted CSS everywhere; on Chromium, src/lib/liquid-glass.js
-   adds real edge refraction (ported from liquid-glass-js).
+   Glass is frosted CSS (backdrop blur). The SVG refraction layer and the
+   live 3D scene were removed for speed.
    ------------------------------------------------------------------ */
 h1, h2, h3 { font-variation-settings: 'SOFT' 50, 'WONK' 0; letter-spacing: -0.015em; }
 h1 { font-weight: 650; }
@@ -250,8 +249,8 @@ h2 { font-weight: 600; }
 .glass {
   position: relative;
   background: linear-gradient(140deg, rgba(255,255,255,0.62), rgba(255,255,255,0.30));
-  -webkit-backdrop-filter: blur(18px) saturate(170%);
-  backdrop-filter: blur(18px) saturate(170%);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
   border: 1px solid rgba(255,255,255,0.65);
   box-shadow:
     inset 0 1px 0 rgba(255,255,255,0.95),
@@ -266,11 +265,9 @@ h2 { font-weight: 600; }
   background: linear-gradient(170deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0) 38%);
   mix-blend-mode: soft-light;
 }
-.glass.lg-on { background: linear-gradient(140deg, rgba(255,255,255,0.50), rgba(255,255,255,0.20)); }
 .glass-strong { background: linear-gradient(140deg, rgba(255,255,255,0.74), rgba(255,255,255,0.46)); }
-.glass-strong.lg-on { background: linear-gradient(140deg, rgba(255,255,255,0.66), rgba(255,255,255,0.40)); }
 @media (prefers-reduced-transparency: reduce) {
-  .glass, .glass.lg-on, .glass-strong, .glass-strong.lg-on { background: rgba(250,252,247,0.97); }
+  .glass, .glass-strong { background: rgba(250,252,247,0.97); }
 }
 
 /* Header: sticky glass bar */
@@ -280,7 +277,10 @@ h2 { font-weight: 600; }
   border-radius: 0;
   background: linear-gradient(180deg, rgba(246,248,242,0.78), rgba(246,248,242,0.58));
   box-shadow: inset 0 -1px 0 rgba(31,64,41,0.08), 0 6px 24px rgba(24,48,30,0.06);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
+.site-header.glass::before { display: none; }
 .site-header .wrap { min-height: var(--header-h); padding-block: 10px; }
 .brand { font-weight: 700; font-size: 1.5rem; font-variation-settings: 'SOFT' 100, 'WONK' 1; }
 .nav { gap: 0.25rem; }
@@ -314,11 +314,8 @@ select, input[type='text'], input[type='search'] { border-radius: 12px; }
 /* 3D pasture hero */
 .hero3d { position: relative; margin-top: calc(-1 * var(--header-h) - 1px); min-height: clamp(560px, 86vh, 780px); display: flex; align-items: center; overflow: hidden; isolation: isolate; }
 .hero3d-stage { position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, #a9c8d8 0%, #efe2bd 52%, #7f9d45 53%, #4f7a32 100%); }
-.hero3d-poster, .hero3d-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
+.hero3d-poster { position: absolute; inset: 0; width: 100%; height: 100%; }
 .hero3d-poster { object-fit: cover; object-position: 50% 60%; }
-.hero3d-canvas { opacity: 0; transition: opacity 900ms ease; }
-.hero3d-canvas.is-live { opacity: 1; }
-.hero3d-canvas canvas { display: block; }
 .hero3d-stage::after { content: ''; position: absolute; inset: auto 0 0 0; height: 90px; background: linear-gradient(180deg, rgba(246,248,242,0), var(--paper)); pointer-events: none; }
 .hero3d-inner { position: relative; width: 100%; display: grid; grid-template-columns: minmax(0, 640px) 1fr; align-items: center; gap: 2rem; padding-top: calc(var(--header-h) + 28px); padding-bottom: 72px; }
 .hero-panel { border-radius: var(--radius-lg); padding: clamp(22px, 3.2vw, 40px); }

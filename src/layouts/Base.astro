@@ -42,6 +42,7 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="grassfed.food" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {Astro.slots.has('hero') && <link rel="preload" as="image" href="/art/pasture-hero-1600.webp" imagesrcset="/art/pasture-hero-1600.webp 1600w, /art/pasture-hero-900.webp 900w" imagesizes="100vw" type="image/webp" fetchpriority="high" />}
     {ld.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
     {GA_MEASUREMENT_ID && (
       <>
@@ -57,7 +58,7 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
   </head>
   <body class={Astro.slots.has('hero') ? 'has-hero' : undefined}>
     <a class="visually-hidden" href="#main">Skip to content</a>
-    <header class="site-header glass" data-glass data-glass-blur="8">
+    <header class="site-header glass">
       <div class="wrap">
         <a class="brand" href="/">grassfed<span>.</span>food</a>
         <nav class="nav" aria-label="Main">
@@ -104,9 +105,5 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
         <p class="small" style="margin-top:1.5rem">Farm details are reported by farms and checked by us; confirm products and prices with the farm before you buy.</p>
       </div>
     </footer>
-    <script>
-      import { initLiquidGlass } from '../lib/liquid-glass.js';
-      initLiquidGlass();
-    </script>
   </body>
 </html>
