@@ -42,7 +42,7 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="grassfed.food" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    {Astro.slots.has('hero') && <link rel="preload" as="image" href="/art/pasture-hero-1600.webp" imagesrcset="/art/pasture-hero-1600.webp 1600w, /art/pasture-hero-900.webp 900w" imagesizes="100vw" type="image/webp" fetchpriority="high" />}
+    {Astro.slots.has('hero') && <link rel="preload" as="image" href="/art/pasture-hero-1600.webp" imagesrcset="/art/pasture-hero-1600.webp 1600w, /art/pasture-hero-1100.webp 1100w, /art/pasture-hero-700.webp 700w" imagesizes="100vw" type="image/webp" fetchpriority="high" />}
     {ld.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
     {GA_MEASUREMENT_ID && (
       <>
