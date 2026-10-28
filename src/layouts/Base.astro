@@ -3,6 +3,9 @@ import '@fontsource-variable/fraunces/opsz.css';
 import '@fontsource-variable/public-sans/wght.css';
 import '../styles/global.css';
 import { GA_MEASUREMENT_ID } from '../data/site.mjs';
+import { topRated } from '../data/ratings.mjs';
+import { loadPublishedFarms } from '../data/farms.mjs';
+const hasTop = topRated(loadPublishedFarms(), 1).length > 0;
 
 interface Props {
   title: string;
@@ -78,6 +81,7 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
           <div>
             <ul>
               <li><a href="/farms/">Find a farm</a></li>
+              {hasTop && <li><a href="/top-rated/">Highest-rated farms</a></li>}
               <li><a href="/guides/">Guides</a></li>
               <li><a href="/certifications/">Certifications</a></li>
             </ul>

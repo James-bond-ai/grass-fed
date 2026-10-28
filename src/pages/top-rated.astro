@@ -1,0 +1,48 @@
+---
+import Base from '../layouts/Base.astro';
+import FarmRow from '../components/FarmRow.astro';
+import { loadPublishedFarms } from '../data/farms.mjs';
+import { topRated, TOP_MIN_REVIEWS } from '../data/ratings.mjs';
+
+const farms = loadPublishedFarms();
+const top = topRated(farms, 10);
+const title = 'Highest-rated grass-fed farms in the US';
+const jsonLd = top.length
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: title,
+      itemListElement: top.map((t, i) => ({ '@type': 'ListItem', position: i + 1, url: `https://grassfed.food/farm/${t.farm.slug}/`, name: t.farm.farm_name })),
+    }
+  : undefined;
+---
+<Base title={title} description={`The ${top.length || 10} grass-fed farms in our directory with the best Google rating, counting only farms with more than ${TOP_MIN_REVIEWS} reviews.`} noindex={top.length < 3} jsonLd={jsonLd}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Highest rated</nav>
+  <h1>{top.length >= 10 ? 'Top 10 highest-rated' : 'Highest-rated'} grass-fed farms nationwide</h1>
+  <p class="lede">Ranked by each farm's Google rating. To make the list a farm needs more than {TOP_MIN_REVIEWS} Google reviews, so a handful of five-star reviews can't put it at the top.</p>
+  {top.length > 0 ? (
+    <ol class="farm-list top-list">
+      {top.map((t, i) => (
+        <li class="top-item"><span class="top-rank" aria-hidden="true">{i + 1}</span><ul class="top-inner"><FarmRow farm={t.farm} showState /></ul></li>
+      ))}
+    </ol>
+  ) : (
+    <p class="empty">No farm in the directory has more than {TOP_MIN_REVIEWS} confirmed Google reviews yet. We refresh ratings every week, so check back soon.</p>
+  )}
+  {top.length > 0 && top.length < 10 && <p class="muted">Only {top.length} {top.length === 1 ? 'farm meets' : 'farms meet'} the {TOP_MIN_REVIEWS}-review rule so far. The list grows as more farms qualify.</p>}
+  <h2>How this list works</h2>
+  <ul class="prose">
+    <li>Ratings and review counts come from Google Maps and are refreshed weekly. Each farm's rating links to its reviews.</li>
+    <li>Ties go to the farm with more reviews.</li>
+    <li>We match each farm to its Google listing by name and location, and a reviewer confirms the match before a rating appears. Farms we couldn't match with confidence show no rating.</li>
+    <li>A star rating reflects customers' experience buying from the farm. It says nothing about how the animals are fed; check each farm's feeding label for that.</li>
+    <li>Farms don't pay to appear here or to rank higher.</li>
+  </ul>
+</Base>
+<style>
+  .top-list { list-style: none; padding: 0; }
+  .top-item { display: grid; grid-template-columns: 3rem 1fr; align-items: start; border-bottom: 1px solid var(--rule); }
+  .top-rank { font-family: var(--display); font-weight: 700; font-size: 2rem; color: var(--hay); padding-top: 0.9rem; }
+  .top-inner { list-style: none; padding: 0; margin: 0; }
+  .top-inner .farm-row { border-bottom: 0; }
+</style>

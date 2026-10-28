@@ -2,7 +2,7 @@
 
 Rules: `ops/agents/_common.md`, `ops/agents/listing-rules.md`.
 
-Each run, in this order, until you have handled about 25 farms or hit a web limit:
+You run once a week (Sunday). Each run, in this order, until you have handled about 100 farms or hit a web limit:
 
 1. **Candidates.** For each file in `data/candidates/`: open the farm's own website and confirm every rule in listing-rules.md. If it passes, set `listing_status: "published"`, `last_verified_at` to today, `verification_method: "auto"`, move it to `data/farms/`. If it fails, write `data/rejected/{slug}.json` with the reason and delete the candidate.
 2. **Held listings.** Farms in `data/farms/` with `listing_status: "unpublished"` have a `notes` field saying what to check. Check it; publish (and remove the note) only if the concern is resolved; otherwise leave it and update the note with today's finding.

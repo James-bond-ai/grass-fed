@@ -9,6 +9,8 @@ import { getCollection } from 'astro:content';
 import { STATES } from '../data/states.mjs';
 import { loadPublishedFarms, farmsByState } from '../data/farms.mjs';
 import { fmtDate } from '../data/format.mjs';
+import { topRated, TOP_MIN_REVIEWS } from '../data/ratings.mjs';
+import GoogleRating from '../components/GoogleRating.astro';
 
 const farms = loadPublishedFarms();
 const byState = farmsByState(farms);
@@ -19,6 +21,8 @@ const latestCheck = farms.map((f) => f.last_verified_at).sort().at(-1);
 const articles = (await getCollection('articles'))
   .sort((a, b) => b.data.updated.getTime() - a.data.updated.getTime())
   .slice(0, 6);
+
+const top3 = topRated(farms, 3);
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -49,6 +53,19 @@ const jsonLd = {
       ))}
     </ul>
   </section>
+
+  {top3.length > 0 && (
+    <section>
+      <h2>Highest-rated farms</h2>
+      <p class="muted">Best Google ratings among farms with more than {TOP_MIN_REVIEWS} reviews.</p>
+      <ol class="top3">
+        {top3.map((t) => (
+          <li><a href={`/farm/${t.farm.slug}/`}>{t.farm.farm_name}</a><span class="muted small">{t.farm.city}, {t.farm.state}</span><GoogleRating slug={t.farm.slug} /></li>
+        ))}
+      </ol>
+      <p><a href="/top-rated/">See the top 10</a></p>
+    </section>
+  )}
 
   <section>
     <h2>Farms by state</h2>
@@ -88,6 +105,10 @@ const jsonLd = {
   .why-grid dt { font-family: var(--display); font-weight: 700; font-size: 1.15rem; color: var(--pasture-deep); margin-bottom: 0.3rem; }
   .why-grid dd { margin: 0; color: var(--ink-soft); }
   .why-more { margin: 0.25rem 0 0; }
+  .top3 { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); counter-reset: r; }
+  .top3 li { counter-increment: r; padding: 1rem 1.1rem; border-radius: var(--radius-md); background: rgba(255,255,255,0.72); border: 1px solid rgba(31,64,41,0.12); display: flex; flex-direction: column; gap: 0.2rem; }
+  .top3 li::before { content: counter(r); font-family: var(--display); font-weight: 700; font-size: 1.6rem; color: var(--hay); line-height: 1; }
+  .top3 a { font-family: var(--display); font-weight: 600; font-size: 1.2rem; color: var(--pasture-deep); text-decoration: none; }
   .steps { padding-left: 1.3rem; }
   .steps li { margin-bottom: 0.7rem; padding-left: 0.3rem; }
   .steps li::marker { font-family: var(--display); font-weight: 700; color: var(--hay); }

@@ -242,6 +242,19 @@ if (explicit.length || explicitJson.length) {
   }
   mdFiles('src/content/articles').forEach(checkArticle);
   if (args.includes('--drafts')) mdFiles('src/content/drafts').forEach(checkArticle);
+
+  // Google ratings: only the weekly job and the Compliance agent edit this file.
+  const rf = path.join(ROOT, 'data/ratings/google.json');
+  if (fs.existsSync(rf)) {
+    let r = {};
+    try { r = JSON.parse(fs.readFileSync(rf, 'utf8')); } catch (e) { err(rf, `invalid JSON: ${e.message}`); }
+    for (const [slug, v] of Object.entries(r)) {
+      if (!['none', 'pending', 'confirmed', 'rejected'].includes(v.status)) err(rf, `${slug}: status must be none, pending, confirmed or rejected`);
+      if (['pending', 'confirmed'].includes(v.status) && !v.place_id) err(rf, `${slug}: ${v.status} needs place_id`);
+      if (v.rating != null && (typeof v.rating !== 'number' || v.rating < 1 || v.rating > 5)) err(rf, `${slug}: rating must be 1 to 5`);
+      if (v.status === 'confirmed' && !v.confirmed_note) err(rf, `${slug}: confirmed needs confirmed_note saying why the place is this farm`);
+    }
+  }
 }
 
 for (const w of warnings) console.log(`warning  ${w}`);

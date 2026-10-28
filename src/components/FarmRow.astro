@@ -1,4 +1,5 @@
 ---
+import GoogleRating from './GoogleRating.astro';
 import Stamp from './Stamp.astro';
 import FeedingLabel from './FeedingLabel.astro';
 import { STATE_BY_ABBR, SPECIES, CERTIFICATIONS, DAIRY_PRODUCTS, isOrganic, hasOrganicPasture, sellsDairy, reach, feedingLabel } from '../data/states.mjs';
@@ -33,6 +34,7 @@ const shipLabel = r.nationwide ? 'Ships nationwide' : r.shipsTo.size ? `Ships to
     <h3><a href={`/farm/${farm.slug}/`}>{farm.farm_name}</a></h3>
     <p class="where">{shipsFrom ? <><span class="from">Ships from {st?.name}</span> ({farm.city})</> : <>{farm.city}{showState && st ? `, ${st.name}` : ''}</>}</p>
     <FeedingLabel farm={farm} />
+    <GoogleRating slug={farm.slug} />
     {farm.availability && farm.availability.status !== 'available' && <p class="avail">{farm.availability.note}</p>}
     <ul class="tags">
       {organic && <li class="tag organic" title={organicDairyOnly ? 'Dairy products certified organic' : 'Livestock certified organic'}>{organicDairyOnly ? 'Organic dairy products' : 'USDA Organic'}</li>}

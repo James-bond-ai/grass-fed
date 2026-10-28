@@ -377,3 +377,11 @@ select, input[type='text'], input[type='search'] { border-radius: 12px; }
 }
 main { padding-top: clamp(24px, 3.5vw, 44px); }
 .has-hero main { padding-top: 8px; }
+
+/* Google rating */
+.grating { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.15rem 0.45rem; margin: 0.4rem 0 0; font-size: 0.9rem; color: var(--ink-soft); }
+.grating strong { color: var(--ink); }
+.grating-stars { position: relative; display: inline-block; color: #d6d2c4; letter-spacing: 1px; line-height: 1; }
+.grating-stars::before { content: '★★★★★'; position: absolute; inset: 0; width: var(--pct); overflow: hidden; color: #c98a00; }
+.grating-src { font-size: 0.85em; }
+.grating-lg { font-size: 1rem; margin-top: 0.6rem; }

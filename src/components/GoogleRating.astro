@@ -1,0 +1,18 @@
+---
+// Star rating from Google, with the attribution Google's terms require.
+import { googleRating } from '../data/ratings.mjs';
+import { fmtDate } from '../data/format.mjs';
+interface Props { slug: string; size?: 'sm' | 'lg' }
+const { slug, size = 'sm' } = Astro.props;
+const g = googleRating(slug);
+const fmt = (n: number) => n.toLocaleString('en-US');
+---
+{g && (
+  <p class={`grating grating-${size}`}>
+    <span class="grating-stars" aria-hidden="true" style={`--pct:${(g.rating / 5) * 100}%`}>★★★★★</span>
+    <strong>{g.rating.toFixed(1)}</strong>
+    <a href={g.url} rel="nofollow noopener" target="_blank">{`${fmt(g.count)} ${g.count === 1 ? 'review' : 'reviews'}`}</a>
+    <span class="grating-src">on Google Maps{size === 'lg' && <>, as of {fmtDate(g.fetched_at)}</>}</span>
+    <span class="visually-hidden">Rated {g.rating.toFixed(1)} out of 5 on Google Maps from {fmt(g.count)} reviews.</span>
+  </p>
+)}
