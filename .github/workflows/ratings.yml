@@ -4,9 +4,9 @@ name: Google ratings refresh
 # Monday Compliance runs. Needs the GOOGLE_PLACES_API_KEY repository secret;
 # without it the job does nothing. scripts/ratings/google.mjs keeps usage
 # inside Google's free monthly allowance.
+# Tabled 2026-10-27: schedule switched off until a Google API key exists.
+# To restore, add back:  schedule: [{ cron: '23 14 * * 6' }]
 on:
-  schedule:
-    - cron: '23 14 * * 6'
   workflow_dispatch:
 
 permissions:

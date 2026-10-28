@@ -10,3 +10,5 @@ The Builder agent takes the first item marked `todo`, completes it, and marks it
 | 4 | Add raw milk legal status to /dairy/{state}/ pages from a dated, cited data file, once the raw milk guide is published | todo |
 | 5 | ZIP or city search on the home page using farm lat/lng where available | todo |
 | 6 | Open Graph image for sharing, generated at build time | todo |
+
+- TABLED (2026-10-27, Harry): Google ratings and the top 10 highest-rated page. Code is built and dormant: `scripts/ratings/google.mjs`, `.github/workflows/ratings.yml` (schedule off), `src/data/ratings.mjs`, `src/pages/top-rated.astro`. Needs a Google Places API key with billing on file, which Harry chose not to set up for now. Agents: do not work on this.
