@@ -1,0 +1,78 @@
+---
+// Home page hero: a live 3D pasture (React Three Fiber) behind a liquid glass
+// panel. The 3D scene loads only on capable desktops, after the page is
+// interactive; everyone else sees the still poster, which is the same scene.
+import { STATES } from '../data/states.mjs';
+import { stateCoverage } from '../data/farms.mjs';
+import { fmtDate } from '../data/format.mjs';
+interface Props { latestCheck?: string }
+const { latestCheck } = Astro.props;
+const cov = stateCoverage().byState;
+---
+<section class="hero3d" aria-labelledby="hero-title">
+  <div class="hero3d-stage" aria-hidden="true">
+    <picture>
+      <source srcset="/art/pasture-hero-1600.webp 1600w, /art/pasture-hero-900.webp 900w" sizes="100vw" type="image/webp" />
+      <img class="hero3d-poster" src="/art/pasture-hero-1600.jpg" alt="" width="1600" height="836" fetchpriority="high" decoding="async" />
+    </picture>
+    <div id="pasture3d" class="hero3d-canvas"></div>
+  </div>
+  <div class="wrap hero3d-inner">
+    <div class="hero-panel glass glass-strong" data-glass data-glass-blur="12">
+      <h1 id="hero-title">Grass-fed meat and dairy, from farms we've actually checked.</h1>
+      <p class="hero-lede">Find US farms selling beef, lamb, bison, pork and milk raised on pasture. See how each farm feeds its animals, which certifications we confirmed, where it delivers, and the date we last checked.</p>
+      <form class="state-jump" action="/farms/" method="get" id="state-jump">
+        <label for="state-select">Where do you live?</label>
+        <div class="row">
+          <select id="state-select" name="state" required class="glass-field">
+            <option value="">Choose your state</option>
+            {STATES.slice().sort((a, b) => a.name.localeCompare(b.name)).map((s) => (
+              <option value={s.slug}>{s.name}: {cov[s.abbr].based ? `${cov[s.abbr].based} based here` : 'none based here yet'}, {cov[s.abbr].shipIn} ship here</option>
+            ))}
+          </select>
+          <button class="btn btn-liquid" type="submit">Find farms near me</button>
+        </div>
+        <p class="hint">You'll see farms based in your state and farms in other states that ship to you.</p>
+      </form>
+    </div>
+    <div class="hero-coin glass" data-glass data-glass-blur="6" aria-label={`Every listing verified. Latest check ${latestCheck ? fmtDate(latestCheck) : ''}`}>
+      <b>Verified</b>
+      <small>{latestCheck ? fmtDate(latestCheck) : 'every listing'}</small>
+    </div>
+  </div>
+</section>
+
+<script>
+  const form = document.getElementById('state-jump') as HTMLFormElement | null;
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const v = (form.elements.namedItem('state') as HTMLSelectElement).value;
+    if (v) location.href = `/farms/${v}/`;
+  });
+
+  // Decide whether this device should run the 3D scene.
+  function capable() {
+    if (location.hash === '#force-3d') return true; // used to render the poster image
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return false;
+    if (innerWidth < 900 || matchMedia('(pointer: coarse)').matches) return false;
+    const nav = navigator as Navigator & { connection?: { saveData?: boolean }; deviceMemory?: number };
+    if (nav.connection?.saveData) return false;
+    if ((nav.hardwareConcurrency ?? 4) < 4) return false;
+    if (nav.deviceMemory !== undefined && nav.deviceMemory < 4) return false;
+    try {
+      const c = document.createElement('canvas');
+      if (!c.getContext('webgl2')) return false;
+    } catch { return false; }
+    return true;
+  }
+
+  const host = document.getElementById('pasture3d');
+  if (host && capable()) {
+    const start = () => import('../three/mount.jsx').then(({ mount }) => {
+      mount(host, { low: (navigator.hardwareConcurrency ?? 8) < 8 });
+    });
+    const idle = (cb: () => void) => ('requestIdleCallback' in window ? (window as any).requestIdleCallback(cb, { timeout: 2500 }) : setTimeout(cb, 1200));
+    if (document.readyState === 'complete') idle(start);
+    else addEventListener('load', () => idle(start), { once: true });
+  }
+</script>

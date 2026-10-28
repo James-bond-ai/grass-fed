@@ -1,4 +1,6 @@
 ---
+import '@fontsource-variable/fraunces/opsz.css';
+import '@fontsource-variable/public-sans/wght.css';
 import '../styles/global.css';
 import { GA_MEASUREMENT_ID } from '../data/site.mjs';
 
@@ -37,9 +39,6 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="grassfed.food" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=Zilla+Slab:wght@500;600;700&display=swap" rel="stylesheet" />
     {ld.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}
     {GA_MEASUREMENT_ID && (
       <>
@@ -53,9 +52,9 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
       </>
     )}
   </head>
-  <body>
+  <body class={Astro.slots.has('hero') ? 'has-hero' : undefined}>
     <a class="visually-hidden" href="#main">Skip to content</a>
-    <header class="site-header">
+    <header class="site-header glass" data-glass data-glass-blur="8">
       <div class="wrap">
         <a class="brand" href="/">grassfed<span>.</span>food</a>
         <nav class="nav" aria-label="Main">
@@ -65,6 +64,7 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
         </nav>
       </div>
     </header>
+    <slot name="hero" />
     <main id="main" class="wrap">
       <slot />
     </main>
@@ -100,5 +100,9 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
         <p class="small" style="margin-top:1.5rem">Farm details are reported by farms and checked by us; confirm products and prices with the farm before you buy.</p>
       </div>
     </footer>
+    <script>
+      import { initLiquidGlass } from '../lib/liquid-glass.js';
+      initLiquidGlass();
+    </script>
   </body>
 </html>

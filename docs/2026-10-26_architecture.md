@@ -131,3 +131,9 @@ Full editorial queue (20 articles) and site structure are in `docs/research/`.
 | AGA and AGW listing reuse | Medium | Facts are not copyrightable, but permission requests to both certifiers are recommended |
 | Scheduled task usage | Medium | Six agents on these cadences run about 25 sessions a week against Harry's Claude plan limits |
 | Revenue timeline | Low | No revenue until a premium ad network approves the site; new domains typically take 6 to 12 months to earn meaningful search traffic |
+
+## Design system (October 2026 redesign)
+- Home page hero: a React Three Fiber scene (`src/three/`), mounted by `src/components/Hero.astro` only on desktops that pass a capability check (no reduced motion, 4+ CPU cores, WebGL2, not a touch device, no Data Saver). Everyone else sees the still poster in `public/art/pasture-hero-*`. three.js never loads on other pages or on phones.
+- To refresh the poster after changing the scene, open `/#force-3d` at 1600x900 and capture the hero.
+- Liquid glass: `.glass` in `global.css` gives frosted glass everywhere. `src/lib/liquid-glass.js` adds edge refraction on Chromium to any element with `data-glass`, using the refraction model from liquid-glass-js (MIT, see `src/lib/LICENSE-liquid-glass-js.txt`).
+- Fonts are self-hosted (Fraunces for headings, Public Sans for text). Feeding-label colours are unchanged and must stay solid, not translucent.
