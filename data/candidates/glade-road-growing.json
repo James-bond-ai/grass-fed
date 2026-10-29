@@ -1,0 +1,56 @@
+{
+  "id": "glade-road-growing",
+  "slug": "glade-road-growing",
+  "farm_name": "Glade Road Growing",
+  "city": "Blacksburg",
+  "state": "VA",
+  "zip": "24060",
+  "address_public": false,
+  "website": "https://gladeroadgrowing.com/",
+  "phone": "540-808-0672",
+  "social_urls": [],
+  "species": [
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "pastured Berkshire pork",
+    "Freedom Ranger chickens",
+    "duck",
+    "heritage turkeys",
+    "chicken eggs",
+    "duck eggs",
+    "winter meat share",
+    "egg share",
+    "vegetables"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "All our poultry are raised right here, free-range outdoors on pasture and supplemented with certified organic non-GMO feed.",
+    "source_url": "https://gladeroadgrowing.com/product/egg-shares/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "csa"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm stand and 24/7 self-serve kiosk at the farm, Blacksburg",
+      "Winter meat share pickups first Tuesday of each month, November to February, at the farm"
+    ],
+    "source_url": "https://gladeroadgrowing.com/product/meat-shares/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://gladeroadgrowing.com/product-category/online-farm-stand/",
+  "resold_note": "Also sells grass-fed and grass-finished beef raised by Hoof Hearted Farm in Blacksburg.",
+  "data_source": "web-search",
+  "source_url": "https://gladeroadgrowing.com/product-category/online-farm-stand/beef/"
+}

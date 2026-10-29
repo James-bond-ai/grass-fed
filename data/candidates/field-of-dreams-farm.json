@@ -1,0 +1,47 @@
+{
+  "id": "field-of-dreams-farm",
+  "slug": "field-of-dreams-farm",
+  "farm_name": "Field of Dreams Farm",
+  "city": "Watertown",
+  "state": "TN",
+  "zip": "37184",
+  "address_public": false,
+  "website": "https://fieldofdreamsfarmtn.com/",
+  "phone": "615-598-0886",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["quarter, half and whole beef", "sixth of a beef", "pork cuts", "half and whole pigs", "chicken", "duck", "turkey", "eggs", "pet food"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "it's 100% grass fed / finished and free of antibiotics and vaccinations.",
+    "source_url": "https://fieldofdreamsfarmtn.com/?page_id=72"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "online-order", "local-delivery", "restaurants"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Murfreesboro", "Franklin", "Nashville", "Hermitage", "Mt. Juliet"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Health for Life Chiropractic, Murfreesboro (every other Tuesday 11 to 11:30 am)",
+      "Castle Dental / Sprouts parking lot, Franklin (every other Tuesday 12 to 12:30 pm)",
+      "Barefoot Republic Community Center parking lot, Nashville (every other Tuesday 1 to 1:30 pm)",
+      "Well Health & Chiropractic, Hermitage (every other Tuesday 2:15 to 2:45 pm)",
+      "Wright Farms Clubhouse, Mt. Juliet (every other Tuesday 3 to 3:30 pm)",
+      "Farm store, Watertown (Monday to Saturday)"
+    ],
+    "source_url": "https://fieldofdreamsfarmtn.com/?page_id=153"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://fieldofdreamsfarmtn.com/?page_id=374",
+  "data_source": "state-program",
+  "source_url": "https://www.picktnproducts.org/picktn-producers/picktn-listing.3789.html",
+  "resold_note": "Also sells raw honey from a neighboring farm and seafood caught by the owners' daughter.",
+  "availability": {
+    "status": "waitlist",
+    "note": "Bulk beef shows out of stock online; deposits taken for November through March processing.",
+    "checked_on": "2026-10-29"
+  }
+}

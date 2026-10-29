@@ -1,0 +1,72 @@
+{
+  "id": "full-quiver-farm",
+  "slug": "full-quiver-farm",
+  "farm_name": "Full Quiver Farm",
+  "city": "Suffolk",
+  "state": "VA",
+  "zip": "23434",
+  "address_public": false,
+  "website": "https://www.fullquiverfarm.com/",
+  "phone": "757-539-5324",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs",
+    "dairy-cow"
+  ],
+  "products": [
+    "grass-fed beef cuts",
+    "grass-fed beef bundles",
+    "ground beef",
+    "beef meat sticks",
+    "pork",
+    "sausage",
+    "bacon",
+    "pasture-raised chicken",
+    "eggs",
+    "raw milk cow shares",
+    "produce"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass fed & grass finished beef - Pasture Raised",
+    "source_url": "https://www.fullquiverfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [
+    "Shore Drive Farm Market, Virginia Beach",
+    "Old Beach Farmer's Market, Virginia Beach",
+    "Friday Farmer's Market, Chesapeake"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Norfolk",
+      "Peninsula",
+      "Chesapeake",
+      "Portsmouth",
+      "Suffolk",
+      "Virginia Beach"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm stand at the farm, Suffolk, Fridays and Saturdays"
+    ],
+    "source_url": "https://www.fullquiverfarm.com/wp/store/"
+  },
+  "dairy_products": [
+    "raw-milk"
+  ],
+  "ordering_url": "https://www.fullquiverfarm.com/wp/store/",
+  "data_source": "web-search",
+  "source_url": "https://www.fullquiverfarm.com/"
+}

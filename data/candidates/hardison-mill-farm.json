@@ -1,0 +1,39 @@
+{
+  "id": "hardison-mill-farm",
+  "slug": "hardison-mill-farm",
+  "farm_name": "Hardison Mill Farm",
+  "city": "Columbia",
+  "state": "TN",
+  "zip": "38401",
+  "address_public": false,
+  "website": "https://www.hardisonmill.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry"],
+  "products": ["beef shares", "hog shares", "whole chickens"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass-fed and grass-finished beef",
+    "source_url": "https://store.joeyandrory.com/products/beef-share-1"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Scheduled pickup at the farm, Columbia"],
+    "source_url": "https://store.joeyandrory.com/products/beef-share-1"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://store.joeyandrory.com/products/beef-share-1",
+  "data_source": "web-search",
+  "source_url": "https://www.hardisonmill.com/",
+  "availability": {
+    "status": "paused",
+    "note": "Beef share deposit page still loads but lists 2024 and 2025 seasons, and the store's beef collection shows no products. Farm says it sells meat from time to time.",
+    "checked_on": "2026-10-29"
+  }
+}

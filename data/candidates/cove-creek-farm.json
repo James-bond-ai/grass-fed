@@ -1,0 +1,34 @@
+{
+  "id": "cove-creek-farm",
+  "slug": "cove-creek-farm",
+  "farm_name": "Cove Creek Farm",
+  "city": "Monteagle",
+  "state": "TN",
+  "zip": "37356",
+  "address_public": false,
+  "website": "https://www.covecreekfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef", "pork", "eggs"],
+  "products": ["ground beef", "beef grilling and family packages", "beef bones", "quarter beef", "pork packages", "pork sausage", "eggs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "The beef is grassfed and grass finished.",
+    "source_url": "https://www.covecreekfarm.com/buy-a-box/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "csa", "local-delivery", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.covecreekfarm.com/csa/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.covecreekfarm.com/shop/",
+  "data_source": "state-program",
+  "source_url": "https://www.picktnproducts.org/picktn-producers/picktn-listing.17626.html"
+}

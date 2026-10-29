@@ -1,0 +1,37 @@
+{
+  "id": "dayspring-farm-pig-mountain",
+  "slug": "dayspring-farm-pig-mountain",
+  "farm_name": "Dayspring Farm + Pig Mountain",
+  "city": "Altamont",
+  "state": "TN",
+  "zip": "37301",
+  "address_public": false,
+  "website": "http://www.dayspringfarmtn.com/",
+  "phone": "(615) 400-6998",
+  "social_urls": ["https://www.facebook.com/Dayspring-Farm-1375449786076095/"],
+  "species": ["beef", "pork"],
+  "products": ["grass-fed beef cuts", "pasture-raised pork cuts", "garden produce", "soap"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "We take pride in our all-natural, grass-fed, pasture-raised system.",
+    "source_url": "http://www.dayspringfarmtn.com/grassfed-beef"
+  },
+  "certifications": [],
+  "sales_channels": ["farmers-market", "farm-pickup", "online-order"],
+  "farmers_markets": [
+    "Main Street Farmers Market, Chattanooga (Wednesday 4 to 6 pm Eastern)",
+    "South Cumberland Online Farmer's Market, Sewanee (order online Friday to Monday, pickup Tuesday afternoon)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["On-farm sales by appointment, Altamont", "South Cumberland Online Farmer's Market pickup, Sewanee (Tuesday afternoon)"],
+    "source_url": "http://www.dayspringfarmtn.com/how-to-buy"
+  },
+  "dairy_products": [],
+  "ordering_url": "http://www.dayspringfarmtn.com/how-to-buy",
+  "data_source": "state-program",
+  "source_url": "https://www.picktnproducts.org/picktn-producers/picktn-listing.9996.html"
+}

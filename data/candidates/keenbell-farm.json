@@ -1,0 +1,57 @@
+{
+  "id": "keenbell-farm",
+  "slug": "keenbell-farm",
+  "farm_name": "Keenbell Farm",
+  "city": "Rockville",
+  "state": "VA",
+  "zip": "23146",
+  "address_public": false,
+  "website": "https://keenbellfarm.com/",
+  "phone": "804-767-0530",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "grass-fed beef",
+    "pastured pork",
+    "pastured poultry",
+    "turkey",
+    "pastured eggs",
+    "specialty grains"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "100% Grass-Fed BEEF",
+    "source_url": "https://keenbellfarm.com/store"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm pickup at scheduled times, Rockville"
+    ],
+    "source_url": "https://keenbellfarm.com/ways-to-buy"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://keenbellfarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://www.pubs.ext.vt.edu/SPES/SPES-216/SPES-216.html",
+  "availability": {
+    "status": "sold-out",
+    "note": "Online store shows all items sold out except 2026 Thanksgiving turkey reservations; farm points to social media for in-store availability.",
+    "checked_on": "2026-10-29"
+  }
+}

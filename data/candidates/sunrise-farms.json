@@ -1,0 +1,66 @@
+{
+  "id": "sunrise-farms",
+  "slug": "sunrise-farms",
+  "farm_name": "Sunrise Farms",
+  "city": "Stuarts Draft",
+  "state": "VA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://sunrisefarm.net/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "grass-finished beef cuts",
+    "ground beef",
+    "pork",
+    "pastured chicken",
+    "turkey",
+    "brown eggs",
+    "honey"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass-finished, our pastured beef contains no added hormones and no preservatives.",
+    "source_url": "https://sunrisefarm.net/all-natural-meat/storefront-pick-up-meat/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Lexington",
+      "Harrisonburg",
+      "Charlottesville",
+      "Roanoke",
+      "Richmond",
+      "Christiansburg",
+      "Winchester",
+      "Fredericksburg",
+      "Williamsburg",
+      "Virginia Beach",
+      "Loudoun",
+      "Northern Virginia",
+      "DC"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm meat store at the farm entrance, Stuarts Draft (self-serve Saturdays)"
+    ],
+    "source_url": "https://sunrisefarm.net/local-meat-delivery/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://sunrisefarm.net/order-meats-grocery/",
+  "data_source": "web-search",
+  "source_url": "https://www.virginialandcan.org/local-resources/Sunrise-Farms-Inc/37326"
+}

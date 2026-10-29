@@ -1,0 +1,42 @@
+{
+  "id": "lakota-ranch",
+  "slug": "lakota-ranch",
+  "farm_name": "Lakota Ranch",
+  "city": "Remington",
+  "state": "VA",
+  "zip": "22734",
+  "address_public": false,
+  "website": "https://www.lakotaranchva.com/",
+  "phone": "540-848-5298",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "Devon beef cuts"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "100% Grassfed Devon Beef",
+    "source_url": "https://www.lakotaranchva.com/retail-devon-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": ""
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://visitculpeperva.com/?p=47555"
+}

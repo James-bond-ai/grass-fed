@@ -36,9 +36,17 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Western PA, Bucks and Chester counties and the northern tier have no listings
 
 ## TN
-- Peaceful Pastures, Hickman: business listings show it as closed; own site not checked
-- Claybrook Farms, Covington (claybrookfarmsmeats.com blocks fetching); Nashville Cattle Co., Shelbyville: no farm website found in search; West Tennessee has no listings
-- From a Nashville-area farm roundup, not yet checked: Cove Creek Farm, Tracy City; Solace Farm Homestead, Coalmont; Dayspring Farm, Altamont; Bowers Farm, Ethridge; Rolling Hills Farm, Duck River; Field of Dreams Farm, Watertown; Jolly Barnyard, Nashville; Gourmet Pasture Beef, Springfield
+- Claybrook Farms, Covington (claybrookfarmsmeats.com blocks fetching); Nashville Cattle Co., Shelbyville: no farm website found in search
+- Cub Creek Pastures, Wildersville (cubcreekpastures.com blocks fetching, robots)
+- Gourmet Pasture Beef, Springfield (gourmetpasturebeef.com did not resolve 2026-10-29; reject if still dead)
+- Rolling Hills Farm, Duck River: no farm website found (rollinghillsfarm.com is an unrelated venue)
+- Head Family Farms, Cedar Hill: Facebook only; Heads Farm, Cedar Hill (Pick TN listing 3808), may be the same farm
+- Quail Run Farm, Chattanooga (quailrunfarmtn.com): sells beef, pork, eggs and shares, but own site has no clear grass-fed feeding sentence yet
+- Lawrence County directory leads, unchecked: Diamond F Cattle Co (diamondfcattleco.com), Healing Homestead (healinghomestead.us, lamb), Flowers Creamery (flowerscreamery.com, beef and dairy)
+- Loan Oak Farm, Lewisburg; Wild Cat Ranch, McEwen: no website found
+
+## KY
+- Jolly Barnyard (jollybarnyard.com) moved from Nashville TN to Lewisburg KY in 2020; beef "grass fed and grass finished" per its FAQ, but how to buy is unclear (FAQ points to Porter Road butcher)
 
 ## TX
 - DMD Ranch, Paige (bison), DMD-Ranch.com: fetch blocked 2026-10-27
@@ -49,7 +57,17 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - East Texas has no listings
 
 ## VA
-- Leaping Waters Farm (blocks fetching); Lakota Ranch (may be AGA certified); Keenbell Farm; Border Springs Farm; Buffalo Creek Beef
+- Leaping Waters Farm, Alleghany Springs (leapingwatersfarm.com: blocks fetching, no search results 2026-10-29)
+- Border Springs Farm, Patrick Springs (borderspringsfarm.com redirect loop 2026-10-29)
+- Buffalo Creek Beef, Lexington (Potter family, Cattlemen's Market): no own website found; third parties say grass-fed, grain-finished
+- Smith Family Pastures, Floyd (smithfamilypastures.com blocks fetching except contact page)
+- Bradley Family Farm, Suffolk (bradleyfamilyfarmva.com): pastured pork, beef, eggs; homepage only, needs a feeding sentence
+- Broadview Ranch, Lexington; Via-Tality Farms, Quinton; Currituck Farm, Earlysville: no own website found (Virginia LandCan / visitor listings)
+- Monte Vista Farm, Stanardsville (montevistafarm.com?): grass-fed, grain-finished beef and lamb; unchecked
+- Hoof Hearted Farm, Blacksburg: raises the beef sold by Glade Road Growing; unchecked
+- Aleman Ward farm, Northern Neck (alemanward.com): beef and goats; unchecked
+- Dutch Hollow Cattle Company; ABC Beef (Virginia LandCan listings, no town or website)
+- More leads: Virginia Beef Council directory (vabeef.org)
 
 ## VT
 - Consider Bardwell, Twig Farm, Sweet Rowen Farmstead (blocked fetching); Woodcock Farm (timed out)

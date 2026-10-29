@@ -1,0 +1,35 @@
+{
+  "id": "kld-farm",
+  "slug": "kld-farm",
+  "farm_name": "KLD Farm",
+  "city": "Ashland City",
+  "state": "TN",
+  "zip": "37015",
+  "address_public": false,
+  "website": "https://kldfarm.com/",
+  "phone": "615-480-4835",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["steaks", "roasts", "ground beef", "beef organ meats and bones", "half beef"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "My cattle are grass-fed and grain-finished.",
+    "source_url": "https://kldfarm.com/buy-beef/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["On-farm pickup by appointment, Ashland City (closed Sundays)"],
+    "source_url": "https://kldfarm.com/buy-beef/"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells pork from Detweiler Meats, chicken from Miller Poultry and eggs from Kentucky Farm Fresh.",
+  "ordering_url": "https://kldfarm.com/buy-beef/",
+  "data_source": "state-program",
+  "source_url": "https://www.picktnproducts.org/picktn-producers/picktn-listing.3548.html"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "bowers-farm",
+  "slug": "bowers-farm",
+  "farm_name": "Bowers Farm",
+  "city": "Ethridge",
+  "state": "TN",
+  "zip": "38456",
+  "address_public": false,
+  "website": "https://www.bowersfarmtn.com/",
+  "phone": "931-762-2847",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "grass-fed beef cuts",
+    "ground beef",
+    "bone broth",
+    "beef tallow",
+    "pastured pork cuts",
+    "sausage",
+    "bacon",
+    "lard",
+    "free-range eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "The Red Devon Cattle are completely grass fed and grass finished.",
+    "source_url": "https://www.bowersfarmtn.com/index.html"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market",
+    "local-delivery",
+    "retail"
+  ],
+  "farmers_markets": [
+    "The Farm Market Day, Summertown (second Saturday)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Lawrenceburg area (scheduled delivery)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Spring Hill, Lowe's parking lot, third Saturday at 11am",
+      "The Farm Market Day, Summertown, second Saturday 9am to 2pm"
+    ],
+    "source_url": "https://www.bowersfarmtn.com/index.html"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "state-program",
+  "source_url": "https://lawrence.tennessee.edu/wp-content/uploads/sites/116/2024/07/Pick-Law-Co-Printed-Directory-2024-with-boy.pdf"
+}

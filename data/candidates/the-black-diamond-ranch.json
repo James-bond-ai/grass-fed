@@ -1,0 +1,55 @@
+{
+  "id": "the-black-diamond-ranch",
+  "slug": "the-black-diamond-ranch",
+  "farm_name": "The Black Diamond Ranch",
+  "city": "New Castle",
+  "state": "VA",
+  "zip": "24127",
+  "address_public": false,
+  "website": "https://www.theblackdiamondranch.com/",
+  "phone": "540-765-9755",
+  "social_urls": [
+    "https://www.facebook.com/p/The-Black-Diamond-Ranch-100063457005436/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter beef pack",
+    "half beef pack",
+    "whole beef pack",
+    "sampler pack",
+    "family pack",
+    "individual cuts"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "To deliver the best meat products possible, we make sure that our herd is solely grass-fed and finished.",
+    "source_url": "https://www.theblackdiamondranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Blacksburg area",
+      "Roanoke area"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Super Val-U, Newport",
+      "The Emporium, New Castle"
+    ],
+    "source_url": "https://www.theblackdiamondranch.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.theblackdiamondranch.com/beef-products",
+  "data_source": "web-search",
+  "source_url": "https://www.theblackdiamondranch.com/"
+}
