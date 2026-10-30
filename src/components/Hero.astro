@@ -1,12 +1,21 @@
 ---
-// Home page hero: a still pasture image (rendered from the October 2026 3D
-// scene) behind a glass panel. The live 3D version was removed for speed.
+// Home page hero: a still pasture image behind the farm matcher. Three quick
+// questions (where, what, how) rank verified farms in the browser and show the
+// best matches beside the form, each with a direct link to order from the farm.
+// Farm data comes from /match.json (src/data/match.mjs), fetched on first use.
 import { STATES } from '../data/states.mjs';
-import { stateCoverage } from '../data/farms.mjs';
+import { BROWSE } from '../data/browse.mjs';
 import { fmtDate } from '../data/format.mjs';
+import Icon from './Icon.astro';
 interface Props { latestCheck?: string }
 const { latestCheck } = Astro.props;
-const cov = stateCoverage().byState;
+const states = STATES.slice().sort((a, b) => a.name.localeCompare(b.name));
+const HOW = [
+  { v: 'any', label: 'Any way' },
+  { v: 'ship', label: 'Shipped to my door' },
+  { v: 'local', label: 'Pickup or local delivery' },
+  { v: 'bulk', label: 'A quarter or half share' },
+];
 ---
 <section class="hero3d" aria-labelledby="hero-title">
   <div class="hero3d-stage" aria-hidden="true">
@@ -18,33 +27,320 @@ const cov = stateCoverage().byState;
   <div class="wrap hero3d-inner">
     <div class="hero-panel glass glass-strong">
       <h1 id="hero-title">Grass-fed meat and dairy, from farms we've actually checked.</h1>
-      <p class="hero-lede">Find US farms selling beef, lamb, bison, pork and milk raised on pasture. See how each farm feeds its animals, which certifications we confirmed, where it delivers, and the date we last checked.</p>
-      <form class="state-jump" action="/farms/" method="get" id="state-jump">
-        <label for="state-select">Where do you live?</label>
-        <div class="row">
-          <select id="state-select" name="state" required class="glass-field">
+      <p class="hero-lede">Answer three questions and we'll match you with verified farms that can get food to you, best fit first.</p>
+      <form class="matcher" action="/farms/" method="get" id="matcher" novalidate>
+        <fieldset class="m-step">
+          <legend><span class="m-num" aria-hidden="true">1</span>Where do you live?</legend>
+          <select id="m-state" name="state" required class="glass-field" aria-describedby="m-state-err">
             <option value="">Choose your state</option>
-            {STATES.slice().sort((a, b) => a.name.localeCompare(b.name)).map((s) => (
-              <option value={s.slug}>{s.name}: {cov[s.abbr].based ? `${cov[s.abbr].based} based here` : 'none based here yet'}, {cov[s.abbr].shipIn} ship here</option>
-            ))}
+            {states.map((s) => <option value={s.slug} data-abbr={s.abbr}>{s.name}</option>)}
           </select>
-          <button class="btn btn-liquid" type="submit">Find farms near me</button>
-        </div>
-        <p class="hint">You'll see farms based in your state and farms in other states that ship to you.</p>
+          <p class="m-err" id="m-state-err" hidden>Choose your state to see farms that can reach you.</p>
+        </fieldset>
+        <fieldset class="m-step">
+          <legend><span class="m-num" aria-hidden="true">2</span>What do you want? <small>Pick any</small></legend>
+          <div class="chips">
+            {BROWSE.map((b) => (
+              <label class="chip"><input type="checkbox" name="want" value={b.slug} /><Icon name={b.icon} size={22} />{b.label}</label>
+            ))}
+          </div>
+        </fieldset>
+        <fieldset class="m-step">
+          <legend><span class="m-num" aria-hidden="true">3</span>How do you want to get it?</legend>
+          <div class="chips">
+            {HOW.map((h, i) => (
+              <label class="chip"><input type="radio" name="how" value={h.v} checked={i === 0} />{h.label}</label>
+            ))}
+          </div>
+          <label class="m-gff"><input type="checkbox" name="gff" value="1" /> Only grass-finished<span class="m-gff-dairy" hidden> (dairy herds count when grass-fed)</span></label>
+        </fieldset>
+        <button class="btn btn-liquid m-go" type="submit">Find my farms</button>
       </form>
     </div>
-    <div class="hero-coin glass" aria-label={`Every listing verified. Latest check ${latestCheck ? fmtDate(latestCheck) : ''}`}>
-      <b>Verified</b>
-      <small>{latestCheck ? fmtDate(latestCheck) : 'every listing'}</small>
+    <div class="hero-side">
+      <div class="hero-coin glass" aria-label={`Every listing verified. Latest check ${latestCheck ? fmtDate(latestCheck) : ''}`}>
+        <b>Verified</b>
+        <small>{latestCheck ? fmtDate(latestCheck) : 'every listing'}</small>
+      </div>
+      <section class="matches glass glass-strong" id="matches" hidden aria-labelledby="matches-title" tabindex="-1">
+        <h2 id="matches-title">Your best matches</h2>
+        <p class="m-count" aria-live="polite"></p>
+        <ol class="m-list"></ol>
+        <div class="m-empty" hidden>
+          <p>No farm fits all three answers yet. Try <button type="button" class="m-link" data-reset="how">any way to buy</button>{' '}or <button type="button" class="m-link" data-reset="want">any product</button>.</p>
+        </div>
+        <p class="m-foot"><a class="m-all" href="/farms/">See every farm for your state</a></p>
+      </section>
     </div>
   </div>
 </section>
 
 <script>
-  const form = document.getElementById('state-jump') as HTMLFormElement | null;
-  form?.addEventListener('submit', (e) => {
-    e.preventDefault();
-    const v = (form.elements.namedItem('state') as HTMLSelectElement).value;
-    if (v) location.href = `/farms/${v}/`;
-  });
+  type Farm = {
+    s: string; n: string; c: string; st: string; sp: string[]; fl: string; fp: [string, boolean | null | string][];
+    dy: number; ce: string; bk: number; pk: number; dl: number; nw: number; to: string[]; rg: number; o: string; w: string; av: string;
+  };
+  const SPECIES: Record<string, string[]> = {
+    beef: ['beef'], dairy: ['dairy-cow', 'dairy-goat', 'dairy-sheep'], lamb: ['lamb', 'goat'],
+    bison: ['bison'], pork: ['pork'], poultry: ['poultry', 'eggs'],
+  };
+  const FEED_SCORE: Record<string, number> = { gff: 20, both: 14, gf: 10, partial: 4, pastured: 4 };
+  const SHOW = 4;
+  const KEY = 'gf-matcher';
+
+  const form = document.getElementById('matcher') as HTMLFormElement | null;
+  const panel = document.getElementById('matches');
+  if (form && panel) {
+    const select = form.elements.namedItem('state') as HTMLSelectElement;
+    const err = document.getElementById('m-state-err')!;
+    const go = form.querySelector<HTMLButtonElement>('.m-go')!;
+    const list = panel.querySelector<HTMLOListElement>('.m-list')!;
+    const count = panel.querySelector<HTMLElement>('.m-count')!;
+    const empty = panel.querySelector<HTMLElement>('.m-empty')!;
+    const all = panel.querySelector<HTMLAnchorElement>('.m-all')!;
+    const dairyNote = form.querySelector<HTMLElement>('.m-gff-dairy')!;
+    const gtag = (...a: unknown[]) => (window as any).gtag?.(...a);
+    let farms: Farm[] | null = null;
+    let loading: Promise<Farm[]> | null = null;
+    let logTimer: number | undefined;
+    let lastCount = 0;
+
+    const load = () => (loading ??= fetch('/match.json')
+      .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.json(); })
+      .then((d: Farm[]) => (farms = d))
+      .catch((e) => { loading = null; throw e; }));
+    const esc = (t: string) => t.replace(/[&<>"']/g, (ch) => `&#${ch.charCodeAt(0)};`);
+
+    const read = () => {
+      const f = new FormData(form);
+      const opt = select.selectedOptions[0];
+      return {
+        slug: select.value,
+        abbr: opt?.dataset.abbr ?? '',
+        name: select.value ? opt.textContent!.trim() : '',
+        want: f.getAll('want') as string[],
+        how: (f.get('how') as string) || 'any',
+        gff: f.get('gff') === '1',
+      };
+    };
+    type Q = ReturnType<typeof read>;
+
+    // Can a shopper in q.abbr get food from this farm the way they asked?
+    const fits = (f: Farm, q: Q) => {
+      const home = f.st === q.abbr;
+      const shipsHere = f.nw === 1 || f.to.includes(q.abbr);
+      if (q.how === 'ship' && !(shipsHere || (home && (f.dl || f.rg)))) return false;
+      if (q.how === 'local' && !(home && (f.pk || f.dl))) return false;
+      if (q.how === 'bulk' && !(f.bk && (home || shipsHere))) return false;
+      if (q.how === 'any' && !(home || shipsHere)) return false;
+      if (q.want.length && !q.want.some((w) => f.sp.some((s) => SPECIES[w]?.includes(s)))) return false;
+      if (q.gff && !(['gff', 'both'].includes(f.fl) || (f.dy && f.fl === 'gf'))) return false;
+      return true;
+    };
+    const score = (f: Farm, q: Q) => {
+      let s = 0;
+      if (f.st === q.abbr) s += q.how === 'local' || q.how === 'bulk' ? 40 : 25;
+      s += FEED_SCORE[f.fl] ?? 0;
+      if (f.ce) s += 8;
+      if (q.want.length) s += 3 * q.want.filter((w) => f.sp.some((x) => SPECIES[w]?.includes(x))).length;
+      if (f.o) s += 3;
+      if (f.av) s -= 18;
+      return s;
+    };
+    const reasons = (f: Farm, q: Q) => {
+      const out: string[] = [];
+      const home = f.st === q.abbr;
+      if (home) out.push(`Based in ${q.name}`);
+      else out.push(f.nw ? 'Ships nationwide' : `Ships to ${q.name}`);
+      if (q.how === 'local' || (q.how === 'any' && home)) {
+        if (f.pk) out.push('Farm pickup');
+        if (f.dl) out.push('Local delivery');
+      }
+      if (q.how === 'ship' && home && f.dl) out.push('Local delivery');
+      if (f.bk && (q.how === 'bulk' || q.want.includes('beef'))) out.push('Quarter or half shares');
+      if (f.ce) out.push(f.ce);
+      return out.slice(0, 3);
+    };
+    const pill = (f: Farm) => {
+      const part = ([text, ok]: [string, boolean | null | string]) => {
+        const cls = ok === true ? 'yes' : ok === false ? 'no' : ok === 'n' ? 'neutral' : 'maybe';
+        const mark = ok === true ? '✓' : ok === false ? '✕' : ok === 'n' ? '' : '?';
+        return `<span class="feed-part ${cls}">${mark ? `<b aria-hidden="true">${mark}</b>` : ''}${esc(text)}</span>`;
+      };
+      return `<div class="feed feed-sm"><span class="feed-pill lvl-${esc(f.fl)}">${f.fp.map(part).join('')}</span></div>`;
+    };
+    const card = (f: Farm, q: Q, i: number) => {
+      const where = f.st === q.abbr ? `${f.c}, ${f.st}` : `Ships from ${f.c}, ${f.st}`;
+      const href = f.o || f.w;
+      return `<li class="m-card">
+        <a class="m-name" href="/farm/${esc(f.s)}/" data-rank="${i + 1}">${esc(f.n)}</a>
+        <span class="m-where">${esc(where)}</span>
+        ${pill(f)}
+        <ul class="m-why">${reasons(f, q).map((r) => `<li>${esc(r)}</li>`).join('')}</ul>
+        ${f.av ? `<p class="avail">${esc(f.av)}</p>` : ''}
+        <div class="m-actions">
+          <a class="btn m-shop" href="${esc(href)}" target="_blank" rel="nofollow noopener" data-farm="${esc(f.s)}" data-rank="${i + 1}">${f.o ? 'Order from the farm' : "Visit the farm's site"}<span class="visually-hidden"> (${esc(f.n)}, opens in a new tab)</span></a>
+          <a class="m-more" href="/farm/${esc(f.s)}/" data-rank="${i + 1}">Details<span class="visually-hidden"> for ${esc(f.n)}</span></a>
+        </div>
+      </li>`;
+    };
+
+    const save = (q: Q) => {
+      const p = new URLSearchParams();
+      if (q.slug) p.set('state', q.slug);
+      if (q.want.length) p.set('want', q.want.join(','));
+      if (q.how !== 'any') p.set('how', q.how);
+      if (q.gff) p.set('gff', '1');
+      const qs = p.toString();
+      history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+      try { localStorage.setItem(KEY, qs); } catch {}
+    };
+    const restore = () => {
+      let qs = location.search.slice(1);
+      if (!new URLSearchParams(qs).get('state')) { try { qs = localStorage.getItem(KEY) ?? ''; } catch { qs = ''; } }
+      const p = new URLSearchParams(qs);
+      const st = p.get('state');
+      if (!st || ![...select.options].some((o) => o.value === st)) return false;
+      select.value = st;
+      const want = (p.get('want') ?? '').split(',');
+      form.querySelectorAll<HTMLInputElement>('input[name="want"]').forEach((i) => (i.checked = want.includes(i.value)));
+      const how = p.get('how') ?? 'any';
+      form.querySelectorAll<HTMLInputElement>('input[name="how"]').forEach((i) => (i.checked = i.value === how));
+      (form.elements.namedItem('gff') as HTMLInputElement).checked = p.get('gff') === '1';
+      return true;
+    };
+
+    // Returns false if the farm data could not be loaded.
+    const render = async (log = true) => {
+      const q = read();
+      dairyNote.hidden = !q.want.includes('dairy');
+      if (!q.slug) {
+        panel.hidden = true;
+        document.body.classList.remove('has-matches');
+        go.textContent = 'Find my farms';
+        return true;
+      }
+      err.hidden = true;
+      select.removeAttribute('aria-invalid');
+      let data: Farm[];
+      try { data = farms ?? (await load()); } catch { return false; }
+      const ranked = data.filter((f) => fits(f, q))
+        .map((f) => ({ f, s: score(f, q) }))
+        .sort((a, b) => b.s - a.s || a.f.n.localeCompare(b.f.n));
+      const n = ranked.length;
+      lastCount = n;
+      panel.hidden = false;
+      document.body.classList.add('has-matches');
+      list.innerHTML = ranked.slice(0, SHOW).map((x, i) => card(x.f, q, i)).join('');
+      empty.hidden = n > 0;
+      count.textContent = n === 0
+        ? `No matches for ${q.name} yet.`
+        : `${n} ${n === 1 ? 'farm matches' : 'farms match'} for ${q.name}.${n > SHOW ? ` The best ${SHOW} are first.` : ''}`;
+      all.href = `/farms/${q.slug}/`;
+      all.textContent = `See every farm for ${q.name}`;
+      go.textContent = n ? `Show my ${n} ${n === 1 ? 'match' : 'matches'}` : 'Find my farms';
+      save(q);
+      clearTimeout(logTimer);
+      if (log) logTimer = window.setTimeout(() => gtag('event', 'farm_match', { state: q.abbr, want: q.want.join(',') || 'any', how: q.how, grass_finished: q.gff, results: n }), 1500);
+      return true;
+    };
+
+    form.addEventListener('change', () => { render(); });
+    const warm = () => { load().catch(() => {}); };
+    form.addEventListener('pointerdown', warm, { once: true });
+    form.addEventListener('focusin', warm, { once: true });
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!select.value) {
+        err.hidden = false;
+        select.setAttribute('aria-invalid', 'true');
+        select.focus();
+        return;
+      }
+      // Without the farm data, fall back to the state page.
+      if (!(await render())) { location.href = `/farms/${select.value}/`; return; }
+      const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      panel.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+      panel.focus({ preventScroll: true });
+      gtag('event', 'farm_match_submit', { state: read().abbr, results: lastCount });
+    });
+    panel.addEventListener('click', (e) => {
+      const t = e.target as HTMLElement;
+      const reset = t.closest<HTMLElement>('[data-reset]')?.dataset.reset;
+      if (reset === 'how') form.querySelector<HTMLInputElement>('input[name="how"][value="any"]')!.checked = true;
+      if (reset === 'want') form.querySelectorAll<HTMLInputElement>('input[name="want"]').forEach((i) => (i.checked = false));
+      if (reset) { render(); return; }
+      const a = t.closest<HTMLAnchorElement>('a[data-rank]');
+      if (!a) return;
+      const shop = a.classList.contains('m-shop');
+      gtag('event', shop ? 'farm_match_order_click' : 'farm_match_details_click', { farm: a.dataset.farm ?? a.pathname.split('/')[2], rank: Number(a.dataset.rank) });
+    });
+
+    if (restore()) render(false);
+  }
 </script>
+
+<style>
+  .matcher { display: grid; gap: 1rem; }
+  .m-step { border: 0; padding: 0; margin: 0; min-width: 0; }
+  .m-step legend { display: flex; align-items: center; gap: 0.5rem; padding: 0; margin-bottom: 0.5rem; font-weight: 600; color: var(--pasture-deep); }
+  .m-step legend small { font-weight: 400; color: var(--ink-soft); font-size: 0.85rem; }
+  .m-num { display: inline-grid; place-items: center; width: 1.55rem; height: 1.55rem; border-radius: 50%; background: var(--pasture); color: #fff; font: 700 0.85rem var(--body); flex: none; }
+  .m-step select { width: 100%; }
+  .m-err { margin: 0.4rem 0 0; color: var(--alert); font-size: 0.9rem; font-weight: 500; }
+  .chips { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+  .chip { position: relative; display: inline-flex; align-items: center; gap: 0.4rem; min-height: 40px; padding: 0.35rem 0.9rem; border-radius: 999px; background: rgba(255,255,255,0.82); border: 1px solid rgba(31,64,41,0.18); color: var(--ink); font-weight: 500; font-size: 0.95rem; cursor: pointer; user-select: none; transition: background-color 140ms ease, border-color 140ms ease, color 140ms ease; }
+  .chip:hover { border-color: var(--pasture); }
+  .chip input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+  .chip :global(.icon) { width: 22px; height: 22px; }
+  .chip:has(input:checked) { background: var(--pasture); border-color: var(--pasture-deep); color: #fff; }
+  .chip:has(input:checked) :global(.icon) { color: #fff; }
+  .chip:has(input:focus-visible) { outline: 3px solid var(--hay); outline-offset: 2px; }
+  .m-gff { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 0.45rem; margin-top: 0.6rem; font-size: 0.95rem; font-weight: 500; min-height: 32px; }
+  .m-gff input { width: 18px; height: 18px; accent-color: var(--pasture); }
+  .m-gff-dairy { font-weight: 400; color: var(--ink-soft); font-size: 0.88rem; }
+  .m-go { justify-self: start; font-size: 1.05rem; padding-inline: 1.6em; }
+
+  .hero-side { display: flex; flex-direction: column; justify-content: flex-end; align-self: stretch; min-width: 0; }
+  .hero-side .hero-coin { align-self: flex-end; }
+  :global(.has-matches) .hero-side .hero-coin { display: none; }
+  :global(.has-matches) .hero-side { justify-content: flex-start; }
+  .matches { border-radius: var(--radius-lg); padding: clamp(18px, 2.4vw, 26px); align-self: stretch; scroll-margin-top: calc(var(--header-h) + 12px); }
+  .matches:focus { outline: none; }
+  .matches h2 { margin: 0 0 0.2rem; font-size: 1.5rem; }
+  .m-count { margin: 0 0 0.9rem; color: var(--ink-soft); font-size: 0.95rem; }
+  .m-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.6rem; counter-reset: m; }
+  .m-list :global(.m-card) { counter-increment: m; position: relative; display: grid; gap: 0.15rem; padding: 0.8rem 0.9rem 0.85rem 2.6rem; border-radius: var(--radius-md); background: rgba(255,255,255,0.9); border: 1px solid rgba(31,64,41,0.12); }
+  .m-list :global(.m-card)::before { content: counter(m); position: absolute; left: 0.85rem; top: 0.7rem; font: 700 1.35rem/1 var(--display); color: var(--hay); }
+  .m-list :global(.m-name) { font: 600 1.12rem/1.25 var(--display); color: var(--pasture-deep); text-decoration: none; }
+  .m-list :global(.m-name:hover) { text-decoration: underline; }
+  .m-list :global(.m-where) { font-size: 0.88rem; color: var(--ink-soft); }
+  .m-list :global(.feed) { margin: 0.3rem 0 0.1rem; }
+  .m-list :global(.m-why) { list-style: none; padding: 0; margin: 0.2rem 0 0; display: flex; flex-wrap: wrap; gap: 0.15rem 0.9rem; font-size: 0.86rem; color: var(--pasture-deep); }
+  .m-list :global(.m-why li)::before { content: '✓ '; font-weight: 700; color: var(--pasture); }
+  .m-list :global(.avail) { justify-self: start; font-size: 0.82rem; margin-top: 0.3rem; }
+  .m-list :global(.m-actions) { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 1rem; margin-top: 0.55rem; }
+  .m-list :global(.m-shop) { min-height: 38px; padding: 0.45em 1.1em; font-size: 0.92rem; }
+  .m-list :global(.m-shop)::after { content: ' ↗'; }
+  .m-list :global(.m-more) { font-size: 0.92rem; font-weight: 500; }
+  .m-empty p { margin: 0 0 0.5rem; }
+  .m-link { background: none; border: 0; padding: 0; font: inherit; color: var(--sky); text-decoration: underline; text-underline-offset: 0.18em; cursor: pointer; }
+  .m-foot { margin: 0.9rem 0 0; font-weight: 600; }
+
+  /* The farm matcher makes the panel taller than the old one-field form, so the headline is a little smaller. */
+  .hero-panel h1 { font-size: clamp(2rem, 3.9vw, 3.05rem); max-width: 17ch; }
+  .hero-panel .hero-lede { margin-bottom: 1.1rem; }
+
+  /* Below this width the side column is too narrow for match cards: stack them under the form. */
+  @media (max-width: 1080px) {
+    .hero3d-inner { grid-template-columns: minmax(0, 1fr); }
+    .hero-panel { max-width: 720px; }
+    .hero-side { display: block; }
+    .hero-side .hero-coin { display: none; }
+    .m-list { grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .matches:not([hidden]) { animation: m-in 380ms cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes m-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  }
+</style>

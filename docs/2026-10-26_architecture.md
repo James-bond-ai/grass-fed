@@ -133,6 +133,7 @@ Full editorial queue (20 articles) and site structure are in `docs/research/`.
 | Revenue timeline | Low | No revenue until a premium ad network approves the site; new domains typically take 6 to 12 months to earn meaningful search traffic |
 
 ## Design system (October 2026 redesign)
+- Home page farm matcher (2026-10-30): the hero form asks where you live, what you want and how you want to get it, then ranks farms in the browser from `/match.json` (built by `src/data/match.mjs`) and shows the best four beside the form, each with a link to order from the farm. Choices are kept in the URL and in the visitor's own browser.
 - Home page hero: a still image of a pasture scene (`public/art/pasture-hero-*`, WebP with a JPEG fallback, preloaded). It was rendered from a React Three Fiber scene; the live 3D version was removed on 2026-10-27 because it slowed the site.
 - Glass: `.glass` in `global.css` is frosted CSS (backdrop blur). The SVG refraction layer based on liquid-glass-js was removed for the same reason.
 - Fonts are self-hosted (Fraunces for headings, Public Sans for text). Feeding-label colours are unchanged and must stay solid, not translucent.
