@@ -1,0 +1,54 @@
+{
+  "id": "harris-homeplace-farm",
+  "slug": "harris-homeplace-farm",
+  "farm_name": "Harris Homeplace Farm",
+  "city": "Snow Camp",
+  "state": "NC",
+  "zip": "27349",
+  "address_public": false,
+  "website": "https://harrishomeplacefarm.com/",
+  "phone": "919-704-6932",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "lamb"
+  ],
+  "products": [
+    "grass-fed beef",
+    "woodland-raised pork",
+    "pasture-raised chicken",
+    "grass-fed lamb",
+    "bulk packages"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Grass-fed and finished beef full of omega-3s.",
+    "source_url": "https://harrishomeplacefarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Cary",
+      "Sanford",
+      "Southern Pines",
+      "Farm pickup Saturdays 11 to 12, Snow Camp"
+    ],
+    "source_url": "https://harrishomeplacefarm.com/how-it-works"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://harrishomeplacefarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://harrishomeplacefarm.com/"
+}

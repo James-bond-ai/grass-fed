@@ -22,8 +22,13 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Lifeline Farm, Victor (blocks fetching); Flathead, Bitterroot, Helena, Great Falls and eastern Montana have no listings
 
 ## NC
-- Swayback Branch Family Farm, Littleton: AGW Certified Grassfed; site returned only metadata
-- Braeburn Farm; Fickle Creek Farm; Coon Rock Farm; Brasstown Beef; Carolina Bison; Celebrity Dairy
+- Swayback Branch Family Farm, Littleton: AGW Certified Grassfed (AGW NC pork listing page 2)
+- Swayback Branch Family Farm site moved to swayback-branch-family-farm.square.site (fetch not permitted 2026-10-30)
+- Coon Rock Farm, Hillsborough (coonrockfarm.com blocks fetching, robots)
+- Fairway Farms, Goldston (fairwayfarmsnc.com: fetch error 2026-10-30; meta says 100% grass-finished Angus shares)
+- Braeburn Farm, Alamance County: no own website found 2026-10-30
+- Brasstown Beef (likely wholesale brand); Carolina Bison; Celebrity Dairy: no own website found yet
+- Unchecked: Terrace Ridge Farm (terraceridgefarm.com); Smithview Farm (smithviewfarm.com)
 
 ## NY
 - Raw milk permit holders not yet checked (sites blocked fetching): Essex Farm, Remembrance Farm, Byebrook, Side Hill Acres, Hoofprint, 3-Corner Field Farm, Stone Thistle, Asgaard Farm, Edgwick Farm
@@ -61,13 +66,14 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Border Springs Farm, Patrick Springs (borderspringsfarm.com redirect loop 2026-10-29)
 - Buffalo Creek Beef, Lexington (Potter family, Cattlemen's Market): no own website found; third parties say grass-fed, grain-finished
 - Smith Family Pastures, Floyd (smithfamilypastures.com blocks fetching except contact page)
-- Bradley Family Farm, Suffolk (bradleyfamilyfarmva.com): pastured pork, beef, eggs; homepage only, needs a feeding sentence
 - Broadview Ranch, Lexington; Via-Tality Farms, Quinton; Currituck Farm, Earlysville: no own website found (Virginia LandCan / visitor listings)
-- Monte Vista Farm, Stanardsville (montevistafarm.com?): grass-fed, grain-finished beef and lamb; unchecked
+- Monte Vista Farm, Stanardsville: no own website found 2026-10-30 (Virginia LandCan listing only)
 - Hoof Hearted Farm, Blacksburg: raises the beef sold by Glade Road Growing; unchecked
-- Aleman Ward farm, Northern Neck (alemanward.com): beef and goats; unchecked
+- Aleman Ward farm, Northern Neck (alemanward.com): beef and goats; no search results 2026-10-30
 - Dutch Hollow Cattle Company; ABC Beef (Virginia LandCan listings, no town or website)
 - More leads: Virginia Beef Council directory (vabeef.org)
+- Springdale Farms, Woodstock (springdalefamilyfarms.com): grass-fed beef and pastured poultry, but no finishing detail and a photo of grain feeding; check products page
+- J&L Green Farm, Edinburg (jlgreenfarm.com): fetch error 2026-10-30
 
 ## VT
 - Consider Bardwell, Twig Farm, Sweet Rowen Farmstead (blocked fetching); Woodcock Farm (timed out)

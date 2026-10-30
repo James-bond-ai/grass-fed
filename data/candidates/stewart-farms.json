@@ -1,0 +1,43 @@
+{
+  "id": "stewart-farms",
+  "slug": "stewart-farms",
+  "farm_name": "Stewart Farms",
+  "city": "Stedman",
+  "state": "NC",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.stewartfarmsbeef.com/",
+  "phone": "910-874-5930",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "whole, half, quarter and eighth cow shares",
+    "whole hog share"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Stock your freezer with our grass-fed half cow.",
+    "source_url": "https://www.stewartfarmsbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": 100,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.stewartfarmsbeef.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.stewartfarmsbeef.com/",
+  "data_source": "web-search",
+  "source_url": "https://www.stewartfarmsbeef.com/"
+}

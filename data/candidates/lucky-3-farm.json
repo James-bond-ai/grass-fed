@@ -1,0 +1,46 @@
+{
+  "id": "lucky-3-farm",
+  "slug": "lucky-3-farm",
+  "farm_name": "Lucky 3 Farm",
+  "city": "Louisburg",
+  "state": "NC",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.lucky3farm.com/",
+  "phone": "919-795-2028",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "half cow",
+    "$500 beef packages"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle eat grass. And only grass. That's 100% grass fed & finished.",
+    "source_url": "https://www.lucky3farm.com/our-meats"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.lucky3farm.com/halfwholepigs"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.lucky3farm.com/halfwholepigs",
+  "availability": {
+    "status": "available",
+    "note": "Half cows offered; whole cow orders paused until further notice",
+    "checked_on": "2026-10-30"
+  },
+  "data_source": "web-search",
+  "source_url": "https://www.lucky3farm.com/"
+}

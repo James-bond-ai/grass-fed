@@ -1,0 +1,45 @@
+{
+  "id": "oak-cattle-farms",
+  "slug": "oak-cattle-farms",
+  "farm_name": "Oak Cattle Farms",
+  "city": "Ayden",
+  "state": "NC",
+  "zip": "28513",
+  "address_public": false,
+  "website": "https://oakcattlefarms.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "Angus beef cuts",
+    "Wagyu beef cuts",
+    "variety boxes",
+    "quarter and half cow"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "We offer a choice between grass and grain finished beef.",
+    "source_url": "https://oakcattlefarms.com/faqs/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": 100,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://oakcattlefarms.com/faqs/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/oakcattlefarms/all",
+  "data_source": "web-search",
+  "source_url": "https://oakcattlefarms.com/"
+}

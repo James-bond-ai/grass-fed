@@ -1,0 +1,61 @@
+{
+  "id": "fickle-creek-farm",
+  "slug": "fickle-creek-farm",
+  "farm_name": "Fickle Creek Farm",
+  "city": "Pittsboro",
+  "state": "NC",
+  "zip": "",
+  "address_public": false,
+  "website": "https://ficklecreekfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef",
+    "lamb",
+    "pork",
+    "chicken",
+    "seasonal turkeys",
+    "eggs",
+    "monthly meat CSA box",
+    "vegetables"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Grass-Fed and Grass Finished on Pesticide-Free Pastures",
+    "source_url": "https://www.ficklecreekfarm.com/products"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market",
+    "csa",
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [
+    "Chapel Hill Farmers Market, 201 S Estes Dr, 1st and 3rd Saturdays",
+    "Durham Farmers Market, 501 Foster St, Saturdays",
+    "Morrisville Farmers Market, 260 Town Hall Dr, 2nd and 4th Saturdays"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Self-serve pickup at the farm, next day after ordering"
+    ],
+    "source_url": "https://ficklecreekfarm.com/visit/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/ficklecreekfarm/all",
+  "data_source": "web-search",
+  "source_url": "https://ficklecreekfarm.com/"
+}

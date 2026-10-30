@@ -1,0 +1,61 @@
+{
+  "id": "cathis-farm",
+  "slug": "cathis-farm",
+  "farm_name": "CATHIS Farm",
+  "city": "Lillington",
+  "state": "NC",
+  "zip": "27546",
+  "address_public": false,
+  "website": "https://cathisfarm.com/",
+  "phone": "910-502-0348",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "grass-fed beef",
+    "forest-raised pork",
+    "pastured chicken",
+    "Thanksgiving turkeys",
+    "meat bundles",
+    "half cow"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "our cows are 100% grassfed, raised entirely on pasture with no grain.",
+    "source_url": "https://cathisfarm.com/cathis-farm-faq"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Raleigh",
+      "Durham",
+      "Pinehurst",
+      "Pittsboro",
+      "Southern Pines",
+      "Holly Springs",
+      "Fuquay Varina",
+      "Apex",
+      "Morrisville"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm pickup, pre-orders only, Sundays 1 to 3 PM"
+    ],
+    "source_url": "https://cathisfarm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://cathisfarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://cathisfarm.com/"
+}

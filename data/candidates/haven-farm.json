@@ -1,0 +1,61 @@
+{
+  "id": "haven-farm",
+  "slug": "haven-farm",
+  "farm_name": "Haven Farm",
+  "city": "Chapel Hill",
+  "state": "NC",
+  "zip": "27516",
+  "address_public": false,
+  "website": "https://havenfarmnc.com/",
+  "phone": "919-236-3561",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "grass-fed beef",
+    "forest-raised pork",
+    "chicken",
+    "duck",
+    "monthly meat CSA",
+    "whole, half, quarter and eighth cow"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass-fed and finished, as cows were intended to be.",
+    "source_url": "https://havenfarmnc.com/pages/about-our-food"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "csa",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Chapel Hill",
+      "Durham",
+      "Carrboro",
+      "Hillsborough",
+      "Pittsboro",
+      "Cary",
+      "Apex",
+      "Raleigh"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Elk Local Foods, Apex"
+    ],
+    "source_url": "https://havenfarmnc.com/pages/meat-boxes-buy-variety-in-bulk-at-the-best-price"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://havenfarmnc.com/collections/100-grass-fed-beef",
+  "data_source": "web-search",
+  "source_url": "https://havenfarmnc.com/collections/100-grass-fed-beef"
+}

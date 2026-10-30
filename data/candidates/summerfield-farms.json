@@ -1,0 +1,48 @@
+{
+  "id": "summerfield-farms",
+  "slug": "summerfield-farms",
+  "farm_name": "Summerfield Farms",
+  "city": "Summerfield",
+  "state": "NC",
+  "zip": "27358",
+  "address_public": false,
+  "website": "https://summerfieldfarms.com/",
+  "phone": "336-643-2006",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "grass-fed beef cuts",
+    "whole, half and quarter beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "They are raised on mother's milk and grasses only, with no added hormones, antibiotics or steroids.",
+    "source_url": "https://summerfieldfarms.com/grass-fed-beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order",
+    "ships-nationwide",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "The Market farm store, Summerfield"
+    ],
+    "source_url": "https://summerfieldfarms.com/atlanta-grass-fed-beef/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://summerfieldfarms.com/grass-fed-beef/beef-bulk-orders/",
+  "data_source": "web-search",
+  "source_url": "https://summerfieldfarms.com/grass-fed-beef/"
+}
