@@ -1,0 +1,200 @@
+---
+import Base from '../../layouts/Base.astro';
+import FarmRow from '../../components/FarmRow.astro';
+import Filters from '../../components/Filters.astro';
+import FeedingKey from '../../components/FeedingKey.astro';
+import CertGrid from '../../components/CertGrid.astro';
+import { STATES } from '../../data/states.mjs';
+import { loadPublishedFarms } from '../../data/farms.mjs';
+import { fmtDate } from '../../data/format.mjs';
+import { certPrograms, certFarms, certTagClass, certSourceName, certIndexable, isOrganicProgram, CERT_GUIDE } from '../../data/certs.mjs';
+
+export function getStaticPaths() {
+  return certPrograms().map(({ program, cert, page, farms }) => ({ params: { program }, props: { program, cert, page, farms } }));
+}
+const { program, cert, page, farms } = Astro.props;
+const all = loadPublishedFarms();
+const n = farms.length;
+const listId = 'cert-farms';
+const plural = (k: number, w: string) => `${k} ${w}${k === 1 ? '' : 's'}`;
+
+// Farms grouped by the state they're based in, states in alphabetical order.
+const byState = STATES.map((st) => ({ st, farms: farms.filter((f: any) => f.state === st.abbr) }))
+  .filter((x) => x.farms.length > 0)
+  .sort((a, b) => a.st.name.localeCompare(b.st.name));
+
+// Most recent date we confirmed this certification for any listed farm.
+const latest = farms
+  .flatMap((f: any) => (f.certifications ?? []).filter((c: any) => c.program === program).map((c: any) => c.verified_on))
+  .filter(Boolean)
+  .sort()
+  .at(-1);
+
+const related = page.related.map((p: string) => ({ program: p, n: certFarms(p, all).length }));
+const source = certSourceName(program);
+const title = page.h1;
+const description = n
+  ? `${n} verified ${n === 1 ? page.one : page.many} in ${plural(byState.length, 'state')}, each confirmed in ${source}. What the label guarantees and what it doesn't, with feeding, delivery and pickup for every farm.`
+  : `What ${cert.name} guarantees and what it doesn't. We haven't confirmed any ${page.many} yet.`;
+const url = `https://grassfed.food/certifications/${program}/`;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://grassfed.food/' },
+      { '@type': 'ListItem', position: 2, name: 'Certifications', item: 'https://grassfed.food/certifications/' },
+      { '@type': 'ListItem', position: 3, name: cert.short, item: url },
+    ],
+  },
+  ...(n
+    ? [{
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: title,
+        itemListElement: byState.flatMap(({ farms: sf }) => sf).map((f: any, i: number) => ({ '@type': 'ListItem', position: i + 1, url: `https://grassfed.food/farm/${f.slug}/`, name: f.farm_name })),
+      }]
+    : []),
+];
+---
+<Base title={title} description={description} noindex={!certIndexable(n)} jsonLd={jsonLd}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/certifications/">Certifications</a> / {cert.short}</nav>
+
+  <header class={`cert-head kind-${certTagClass(program)}`}>
+    <p class="cert-badge"><span class={`tag ${certTagClass(program)}`}>{cert.short}</span></p>
+    <h1>{title}</h1>
+    <p class="lede">{page.lede}</p>
+    {page.warning && <p class="cert-warning" role="note"><strong>{page.warning}</strong></p>}
+    <dl class="cert-facts" aria-label={`${cert.short} farms at a glance`}>
+      <div><dt>Certified farms</dt><dd>{n}</dd></div>
+      {n > 0 && <div><dt>States</dt><dd>{byState.length}</dd></div>}
+      {latest && <div><dt>Last confirmed</dt><dd class="date">{fmtDate(latest)}</dd></div>}
+    </dl>
+    <p class="small cert-links">
+      <a href={CERT_GUIDE}>Compare every label side by side</a>
+      <span aria-hidden="true"> · </span>
+      <a href="/certifications/">All certifications explained</a>
+      <span aria-hidden="true"> · </span>
+      <a href={cert.url} rel="nofollow">{isOrganicProgram(program) ? 'USDA Organic Integrity Database' : 'Certifier website'}</a>
+    </p>
+  </header>
+
+  <section class="cert-promise" aria-labelledby="promise-h">
+    <h2 id="promise-h">What this label guarantees, and what it doesn't</h2>
+    <div class="promise-cols">
+      <div class="gives">
+        <h3>Guarantees</h3>
+        <ul>{page.gives.map((t: string) => <li><b aria-hidden="true">✓</b><span>{t}</span></li>)}</ul>
+      </div>
+      {page.lacks.length > 0 && (
+        <div class="lacks">
+          <h3>Doesn't guarantee</h3>
+          <ul>{page.lacks.map((t: string) => <li><b aria-hidden="true">!</b><span>{t}</span></li>)}</ul>
+        </div>
+      )}
+    </div>
+    <p class="small muted">Condensed from our summary of the published standards. <a href={`/certifications/#${page.section}`}>Read the full explanation</a></p>
+  </section>
+
+  {n > 0 ? (
+    <section id="farms" aria-labelledby="farms-h">
+      <h2 id="farms-h">{n === 1 ? `The ${page.one}` : `All ${n} ${page.many}`}<span class="section-count">{plural(byState.length, 'state')}</span></h2>
+      <p class="muted">We list a certification only when we found the farm in {source}. Each farm page shows the date we confirmed it, with a link to the listing.</p>
+      {byState.length > 1 && (
+        <nav class="state-jump" aria-label="Jump to a state">
+          <ul>{byState.map(({ st, farms: sf }) => <li data-jump={st.slug}><a href={`#in-${st.slug}`}>{st.name} <span>{sf.length}</span></a></li>)}</ul>
+        </nav>
+      )}
+      <FeedingKey />
+      <Filters listId={listId} total={n} />
+      <div id={listId} class="cert-list" data-program={program}>
+        {byState.map(({ st, farms: sf }) => (
+          <section class="state-group" id={`in-${st.slug}`} data-state={st.slug} aria-labelledby={`h-${st.slug}`}>
+            <h2 id={`h-${st.slug}`}>{st.name}<span class="section-count">{sf.length}</span></h2>
+            <ul class="farm-list">{sf.map((f: any) => <FarmRow farm={f} showState={false} />)}</ul>
+            <p class="small state-more"><a href={`/farms/${st.slug}/`}>All grass-fed farms in {st.name}</a></p>
+          </section>
+        ))}
+      </div>
+    </section>
+  ) : (
+    <p class="empty">We haven't confirmed any {page.many} yet. We add a certification only after finding the farm in {source}. Hold this certification? <a href="/list-your-farm/">List your farm</a> and we'll check it.</p>
+  )}
+
+  {related.length > 0 && (
+    <section class="cert-related" aria-labelledby="related-h">
+      <h2 id="related-h">Related labels</h2>
+      <CertGrid items={related} label="Related certifications" compact />
+    </section>
+  )}
+
+  <p class="small muted" style="margin-top:2rem">Feeding descriptions are in each farm's own words, from its website. Certifications can change, so check the date on each farm page before you rely on one. <a href="/methodology/">How we verify</a></p>
+</Base>
+
+<script>
+  declare const gtag: (...args: unknown[]) => void;
+  // Hide state groups (and their jump links) when filters leave them empty,
+  // and record which certified farms visitors open.
+  const list = document.getElementById('cert-farms');
+  const form = document.querySelector<HTMLFormElement>('form[data-filter-for="cert-farms"]');
+  if (list) {
+    const program = list.dataset.program ?? '';
+    const sync = () => {
+      for (const group of list.querySelectorAll<HTMLElement>('.state-group')) {
+        const empty = !group.querySelector('.farm-row:not([hidden])');
+        group.hidden = empty;
+        const jump = document.querySelector<HTMLElement>(`[data-jump="${group.dataset.state}"]`);
+        if (jump) jump.hidden = empty;
+      }
+    };
+    // Filters updates the rows in its own change handler; run after it.
+    form?.addEventListener('change', () => window.setTimeout(sync, 0));
+    list.addEventListener('click', (e) => {
+      const a = (e.target as HTMLElement).closest<HTMLAnchorElement>('.farm-row h3 a');
+      if (!a) return;
+      const farm = a.pathname.split('/')[2] ?? '';
+      if (typeof gtag === 'function') gtag('event', 'cert_page_farm_click', { program, farm });
+    });
+  }
+</script>
+
+<style>
+  .cert-head {
+    position: relative; border-radius: var(--radius-lg); padding: clamp(18px, 3.5vw, 32px);
+    background: rgba(255,255,255,0.72); border: 1px solid rgba(31,64,41,0.12);
+    border-top: 6px solid var(--hay); margin-bottom: 1.5rem;
+  }
+  .cert-head.kind-organic, .cert-head.kind-pasture { border-top-color: var(--pasture); }
+  .cert-head h1 { margin-bottom: 0.35em; overflow-wrap: break-word; }
+  .cert-head .lede { margin-bottom: 0.75rem; }
+  .cert-badge { margin: 0 0 0.75rem; }
+  .cert-badge .tag { font-size: 1rem; font-weight: 700; padding: 0.35em 1em; letter-spacing: 0.01em; }
+  .cert-warning { margin: 0 0 0.75rem; padding: 0.6rem 0.9rem; border-left: 4px solid var(--alert); background: #f4e7e2; color: var(--alert); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; max-width: 62ch; }
+  .cert-facts { display: flex; flex-wrap: wrap; gap: 0.75rem 2rem; margin: 1rem 0 0.75rem; }
+  .cert-facts div { border-top: 3px solid var(--clover); padding-top: 0.4rem; min-width: 110px; }
+  .cert-facts dt { font-size: 0.9rem; color: var(--ink-soft); }
+  .cert-facts dd { margin: 0; font-family: var(--display); font-weight: 700; font-size: 2rem; line-height: 1.15; color: var(--pasture-deep); }
+  .cert-facts dd.date { font-size: 1.15rem; padding-top: 0.45rem; }
+  .cert-links { margin: 0; }
+
+  .cert-promise h2 { margin-top: 1.2em; }
+  .promise-cols { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); margin-bottom: 0.75rem; }
+  .promise-cols > div { border: 1px solid rgba(31,64,41,0.12); border-radius: var(--radius-md); background: rgba(255,255,255,0.72); padding: 0.9rem 1.1rem; }
+  .promise-cols h3 { margin: 0 0 0.5rem; font-size: 1.1rem; }
+  .promise-cols ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.55rem; }
+  .promise-cols li { display: grid; grid-template-columns: 1.5rem 1fr; gap: 0.5rem; align-items: start; line-height: 1.5; }
+  .promise-cols li b { display: inline-flex; align-items: center; justify-content: center; width: 1.5rem; height: 1.5rem; border-radius: 999px; font-size: 0.85rem; margin-top: 0.05rem; }
+  .gives li b { background: var(--pasture); color: #fff; }
+  .promise-cols > .lacks { border-left: 4px solid var(--hay); }
+  .lacks li b { background: var(--hay-tint); color: #6d4f0b; }
+
+  .state-jump ul { list-style: none; padding: 0; margin: 0.75rem 0 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .state-jump a { display: inline-block; border: 1px solid var(--rule); border-radius: 999px; padding: 0.3em 0.9em; text-decoration: none; color: var(--pasture-deep); background: #fff; }
+  .state-jump a:hover { border-color: var(--pasture); }
+  .state-jump span { color: var(--ink-soft); font-size: 0.85em; margin-left: 0.25em; }
+
+  .state-group { scroll-margin-top: calc(var(--header-h) + 16px); }
+  .state-group h2 { margin: 1.6rem 0 0.5rem; font-size: 1.35rem; }
+  .state-more { margin: 0.6rem 0 0; }
+  .cert-related h2 { margin-top: 2em; }
+</style>

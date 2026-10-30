@@ -1,28 +1,45 @@
 ---
 import Page from '../../layouts/Page.astro';
+import CertGrid from '../../components/CertGrid.astro';
+import { certPrograms, certPath, certButtonText, CERT_GUIDE } from '../../data/certs.mjs';
+const programs = certPrograms();
+const count = Object.fromEntries(programs.map((p) => [p.program, p.farms.length]));
+// One "See the farms" button per program that has at least one confirmed farm.
+const see = (keys: string[]) => keys.filter((k) => (count[k] ?? 0) > 0).map((k) => ({ href: certPath(k), text: certButtonText(k, count[k]) }));
 ---
 <Page title="Grass-fed certifications explained" crumb="Certifications" description="What AGA, Certified Grassfed by AGW, OPT Grass-Fed Organic, Animal Welfare Approved and USDA Organic each require, and what a plain grass-fed label means.">
   <p class="lede">"Grass-fed" on a label can mean very different things. Third-party certifications set written standards and send inspectors to check them. Here is what each one requires, in brief.</p>
 
-  <h2>American Grassfed Association (AGA)</h2>
+  <h2 class="glance-h">Farms we've confirmed, by certification</h2>
+  <CertGrid items={programs.map((p) => ({ program: p.program, n: p.farms.length }))} label="Certified farms by program" />
+  <p class="small muted">Each count is farms we found in the certifier's own listing or the USDA Organic Integrity Database. A farm can hold more than one. <a href={CERT_GUIDE}>Compare every label side by side</a></p>
+
+  <h2 id="aga">American Grassfed Association (AGA)</h2>
   <p>Covers beef, bison, goat, lamb and sheep, plus dairy cattle and pastured pork under separate standards. Ruminants eat only forage from birth to harvest, with no grain; hay and silage are allowed when pasture is short. Animals can't be confined except briefly for handling or emergencies, never receive added hormones, and must be born and raised in the US. An animal that needs antibiotics is treated and then removed from the program. Independent inspectors audit farms at least every 15 months.</p>
+  {see(['aga']).map((b) => <p class="see"><a class="btn" href={b.href}>{b.text}</a></p>)}
   <p class="small"><a href="https://www.americangrassfed.org/about-us/our-standards/" rel="nofollow">AGA standards</a></p>
 
-  <h2>Certified Grassfed by AGW</h2>
+  <h2 id="agw-grassfed">Certified Grassfed by AGW</h2>
   <p>An add-on to Animal Welfare Approved, so farms must meet both. Covers beef and dairy cattle, bison, sheep and goats; poultry isn't eligible. Animals eat grass and forage for life, apart from milk before weaning. Grain is not allowed, with a limited exception during declared drought. Farms keep records from birth to slaughter and are audited by A Greener World.</p>
+  {see(['agw-grassfed']).map((b) => <p class="see"><a class="btn" href={b.href}>{b.text}</a></p>)}
   <p class="small"><a href="https://agreenerworld.org/wp-content/uploads/2024/09/Certified-Grassfed-Standards-2024-v1.pdf" rel="nofollow">AGW Certified Grassfed standards (2024)</a></p>
 
-  <h2>OPT Certified Grass-Fed Organic</h2>
+  <h2 id="opt">OPT Certified Grass-Fed Organic</h2>
   <p>Launched in 2019 by Organic Valley and Maple Hill, and common on grass-fed milk. Farms must first be USDA Organic. The diet is forage-based with no grain, animals graze at least 150 days a year, and grazing makes up a larger share of the diet than the organic rule alone requires. The slaughter or processing plant must also be certified. Accredited organic certifiers inspect alongside the annual organic inspection.</p>
+  {see(['opt']).map((b) => <p class="see"><a class="btn" href={b.href}>{b.text}</a></p>)}
   <p class="small"><a href="https://certification.oeffa.org/organic-grass-fed/" rel="nofollow">OPT program overview (OEFFA)</a></p>
 
-  <h2>Animal Welfare Approved by AGW</h2>
+  <h2 id="awa">Animal Welfare Approved by AGW</h2>
   <p>A welfare certification, not a grass-fed one. It requires continuous access to pasture or range, a pasture management plan, and slaughter at an audited plant, but it doesn't by itself prohibit grain. Look for the separate Certified Grassfed by AGW mark if grass-only feeding matters to you.</p>
+  {see(['awa']).map((b) => <p class="see"><a class="btn" href={b.href}>{b.text}</a></p>)}
   <p class="small"><a href="https://agreenerworld.org/" rel="nofollow">A Greener World</a></p>
 
-  <h2>USDA Organic</h2>
+  <h2 id="usda-organic">USDA Organic</h2>
   <p>Requires organic feed and, for ruminants, at least 120 days a year on pasture with at least 30 percent of their diet from grazing, averaged over the grazing season. The grazing minimum doesn't apply during the final finishing period, and organic rules don't ban grain, so organic alone does not mean grass-fed or grass-finished.</p>
-  <p>A farm can also be certified for its land without its animals. On our farm pages, "Organic pasture" means the pasture or hay is certified organic but the animals are not, so the meat and milk can't be sold as organic. "Organic dairy products" means the milk, butter or cheese itself is certified. <a href="/methodology/">How we confirm organic</a></p>
+  <p id="organic-labels">A farm can also be certified for its land without its animals. On our farm pages, "Organic pasture" means the pasture or hay is certified organic but the animals are not, so the meat and milk can't be sold as organic. "Organic dairy products" means the milk, butter or cheese itself is certified. <a href="/methodology/">How we confirm organic</a></p>
+  {see(['usda-organic', 'usda-organic-dairy', 'usda-organic-pasture']).length > 0 && (
+    <p class="see">{see(['usda-organic', 'usda-organic-dairy', 'usda-organic-pasture']).map((b, i) => <a class={i === 0 ? 'btn' : 'btn secondary'} href={b.href}>{b.text}</a>)}</p>
+  )}
   <p class="small"><a href="https://organic.ams.usda.gov/integrity/" rel="nofollow">USDA Organic Integrity Database</a></p>
 
   <h2>A plain "grass fed" label</h2>
@@ -30,3 +47,10 @@ import Page from '../../layouts/Page.astro';
   <p>A farm without certification may still raise animals entirely on grass. On our farm pages we quote exactly what each farm says and show a certification only when we found the farm in the certifier's own listing.</p>
   <p class="small"><a href="https://www.fsis.usda.gov/guidelines/2024-0006" rel="nofollow">FSIS animal-raising claims guideline (2024)</a><br /><a href="https://sustainableagriculture.net/blog/fsis-grassfed-update-label-claim/" rel="nofollow">NSAC on the 2019 label update</a></p>
 </Page>
+<style>
+  .glance-h { font-size: clamp(1.2rem, 2.4vw, 1.45rem); margin: 1.5rem 0 0; }
+  .see { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0.25rem 0 1rem; }
+  .see .btn { text-align: center; max-width: 100%; }
+  .see .btn.secondary { color: var(--pasture-deep); }
+  #aga, #agw-grassfed, #opt, #awa, #usda-organic, #organic-labels { scroll-margin-top: calc(var(--header-h) + 16px); }
+</style>

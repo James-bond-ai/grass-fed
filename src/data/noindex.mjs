@@ -1,9 +1,10 @@
 // Paths that must stay out of the sitemap and carry a noindex tag:
-// state, dairy and bulk beef pages below the farm threshold.
+// state, dairy, bulk beef and certification pages below the farm threshold.
 import { STATES, INDEX_THRESHOLD, sellsDairy } from './states.mjs';
 import { loadPublishedFarms, farmsByState } from './farms.mjs';
 import { topRated } from './ratings.mjs';
 import { loadBulkBeefFarms, bulkBeefStates } from './bulk.mjs';
+import { certPrograms, certIndexable } from './certs.mjs';
 
 export function noindexPaths() {
   const byState = farmsByState(loadPublishedFarms());
@@ -19,6 +20,7 @@ export function noindexPaths() {
   const bulk = loadBulkBeefFarms();
   for (const { st, farms } of bulkBeefStates(bulk)) if (farms.length < INDEX_THRESHOLD) paths.push(`/bulk-beef/${st.slug}/`);
   if (bulk.length < INDEX_THRESHOLD) paths.push('/bulk-beef/');
+  for (const { program, farms } of certPrograms()) if (!certIndexable(farms.length)) paths.push(`/certifications/${program}/`);
   if (topRated(loadPublishedFarms(), 3).length < 3) paths.push('/top-rated/');
   return paths;
 }
