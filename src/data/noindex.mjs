@@ -10,6 +10,7 @@ export function noindexPaths() {
   const paths = STATES.filter((s) => (byState[s.abbr]?.length ?? 0) < INDEX_THRESHOLD).map(
     (s) => `/farms/${s.slug}/`
   );
+  paths.push('/shortlist/'); // a visitor's own saved farms, never indexed
   const dairy = farmsByState(loadPublishedFarms().filter(sellsDairy));
   for (const s of STATES) {
     const k = dairy[s.abbr]?.length ?? 0;

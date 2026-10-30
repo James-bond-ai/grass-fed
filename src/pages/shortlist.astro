@@ -1,0 +1,462 @@
+---
+import Base from '../layouts/Base.astro';
+import { STATES } from '../data/states.mjs';
+const stateNames = Object.fromEntries(STATES.map((s) => [s.abbr, s.name]));
+---
+<Base title="Your shortlist" description="The farms you saved on grassfed.food, side by side: feeding, certifications, ways to buy, shipping and when we last checked each one." noindex>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / Your shortlist</nav>
+  <h1 id="sl-title" tabindex="-1">Your shortlist</h1>
+  <p class="lede" id="sl-lede">Save farms as you browse and they wait here, side by side, so you can compare them and decide. Your list stays in this browser; we never see it.</p>
+
+  <noscript>
+    <p class="empty">The shortlist needs JavaScript turned on to remember farms. You can still <a href="/farms/">browse every farm by state</a>.</p>
+  </noscript>
+
+  <div id="sl-app" hidden>
+    <div class="sl-shared" hidden>
+      <p class="sl-shared-text"></p>
+      <div class="sl-actions">
+        <button type="button" class="btn sl-keep">Save these to my shortlist</button>
+        <a class="sl-mine" href="/shortlist/">Go to my own shortlist</a>
+      </div>
+    </div>
+
+    <div class="sl-toolbar" hidden>
+      <p class="sl-count"></p>
+      <div class="sl-actions">
+        <button type="button" class="btn secondary sl-share">Copy link to this shortlist</button>
+        <button type="button" class="sl-link-btn sl-clear">Clear all</button>
+      </div>
+      <div class="sl-confirm" role="group" aria-labelledby="sl-confirm-q" hidden>
+        <p id="sl-confirm-q"></p>
+        <div class="sl-actions">
+          <button type="button" class="btn sl-clear-yes">Yes, clear my list</button>
+          <button type="button" class="btn secondary sl-clear-no">Keep them</button>
+        </div>
+      </div>
+      <div class="sl-copy" hidden>
+        <label for="sl-copy-url">Copy this link and send it to anyone you're deciding with:</label>
+        <input id="sl-copy-url" type="text" readonly />
+      </div>
+    </div>
+
+    <p class="sl-status" role="status"></p>
+
+    <div class="sl-empty empty" hidden>
+      <p class="sl-empty-text"></p>
+      <p class="sl-empty-cta"><a class="btn" href="/farms/">Find a farm</a></p>
+    </div>
+
+    <div class="sl-results" hidden>
+      <div class="sl-table-wrap" tabindex="0" role="region" aria-label="Saved farms compared side by side">
+        <table class="sl-table">
+          <caption class="visually-hidden">Saved farms compared side by side</caption>
+          <thead></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <ol class="sl-cards"></ol>
+      <p class="small muted sl-note">Farm details are reported by farms and checked by us. Confirm products, prices and delivery with the farm before you buy.</p>
+    </div>
+  </div>
+
+  <script type="application/json" id="sl-states" set:html={JSON.stringify(stateNames)} />
+</Base>
+
+<script>
+  import { storageWorks, readSaved, writeSaved, cleanSlugs, track, plural, MAX } from '../scripts/shortlist';
+
+  type Part = { text: string; ok: boolean | null | string };
+  type Farm = {
+    slug: string; name: string; city: string; state: string; bulk: boolean; verified: string;
+    website: string; ordering_url: string; feed: { level: string; parts: Part[] };
+    cert_labels: string[]; ways: string[];
+    ships: { nationwide: boolean; states: string[]; regional: boolean };
+    local_delivery: string; availability: string;
+  };
+
+  const app = document.getElementById('sl-app');
+  if (app) {
+    const $ = <T extends HTMLElement>(sel: string) => app.querySelector<T>(sel)!;
+    const title = document.getElementById('sl-title')!;
+    const lede = document.getElementById('sl-lede')!;
+    const shared = $('.sl-shared');
+    const sharedText = $('.sl-shared-text');
+    const keep = $<HTMLButtonElement>('.sl-keep');
+    const mine = $<HTMLAnchorElement>('.sl-mine');
+    const toolbar = $('.sl-toolbar');
+    const count = $('.sl-count');
+    const shareBtn = $<HTMLButtonElement>('.sl-share');
+    const clearBtn = $<HTMLButtonElement>('.sl-clear');
+    const confirmBox = $('.sl-confirm');
+    const confirmQ = $('#sl-confirm-q');
+    const copyBox = $('.sl-copy');
+    const copyUrl = $<HTMLInputElement>('#sl-copy-url');
+    const status = $('.sl-status');
+    const empty = $('.sl-empty');
+    const emptyText = $('.sl-empty-text');
+    const results = $('.sl-results');
+    const table = $<HTMLTableElement>('.sl-table');
+    const cards = $<HTMLOListElement>('.sl-cards');
+
+    let names: Record<string, string> = {};
+    try { names = JSON.parse(document.getElementById('sl-states')?.textContent ?? '{}'); } catch {}
+    const canSave = storageWorks();
+    const esc = (t: string) => String(t ?? '').replace(/[&<>"']/g, (ch) => `&#${ch.charCodeAt(0)};`);
+
+    // ---------- How each fact reads ----------
+    const feedPill = (f: Farm) => {
+      const part = (p: Part) => {
+        const cls = p.ok === true ? 'yes' : p.ok === false ? 'no' : p.ok === 'n' ? 'neutral' : 'maybe';
+        const mark = p.ok === true ? '✓' : p.ok === false ? '✕' : p.ok === 'n' ? '' : '?';
+        return `<span class="feed-part ${cls}">${mark ? `<b aria-hidden="true">${mark}</b>` : ''}${esc(p.text)}</span>`;
+      };
+      return `<div class="feed feed-sm"><span class="feed-pill lvl-${esc(f.feed.level)}">${f.feed.parts.map(part).join('')}</span></div>`;
+    };
+    const certs = (f: Farm) => f.cert_labels.length
+      ? `<ul class="tags">${f.cert_labels.map((c) => `<li class="tag cert">${esc(c)}</li>`).join('')}</ul>`
+      : '<span class="sl-none">None listed</span>';
+    const ways = (f: Farm) => f.ways.length
+      ? `<ul class="sl-list">${f.ways.map((w) => `<li>${esc(w)}</li>`).join('')}</ul>`
+      : '<span class="sl-none">Not listed</span>';
+    const shipping = (f: Farm) => {
+      const s = f.ships;
+      let line = '<span class="sl-none">No shipping listed</span>';
+      if (s.nationwide) line = '<strong>Ships nationwide</strong>';
+      else if (s.states.length) {
+        const list = s.states.length <= 4 ? s.states.map((a) => names[a] ?? a).join(', ') : s.states.join(', ');
+        line = `<strong>Ships to ${plural(s.states.length, 'state', 'states')}</strong><br><span class="sl-sub">${esc(list)}</span>`;
+      } else if (s.regional) line = '<strong>Ships to some states</strong><br><span class="sl-sub">Ask the farm which ones</span>';
+      const local = f.local_delivery ? `<p class="sl-local"><strong>Local delivery:</strong> ${esc(f.local_delivery)}</p>` : '';
+      return line + local;
+    };
+    const bulk = (f: Farm) => f.bulk ? '<strong>Yes</strong>' : '<span class="sl-none">Not listed</span>';
+    const verified = (f: Farm) => {
+      if (!f.verified) return '<span class="sl-none">Not recorded</span>';
+      const d = new Date(`${f.verified}T12:00:00Z`);
+      const when = d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+      const stale = (Date.now() - d.getTime()) / 86400000 > 180;
+      return `${esc(when)}${stale ? '<br><span class="sl-stale">Due for recheck</span>' : ''}`;
+    };
+    const where = (f: Farm) => `${esc(f.city)}, ${esc(names[f.state] ?? f.state)}`;
+    const avail = (f: Farm) => f.availability ? `<p class="avail">${esc(f.availability)}</p>` : '';
+    const actions = (f: Farm) => {
+      const href = f.ordering_url || f.website;
+      const order = href
+        ? `<a class="btn sl-order" href="${esc(href)}" target="_blank" rel="nofollow noopener" data-farm="${esc(f.slug)}">${f.ordering_url ? 'Order' : 'Visit site'}<span class="visually-hidden">: ${esc(f.name)}, opens in a new tab</span></a>`
+        : '';
+      return `${order}<a class="btn secondary sl-details" href="/farm/${esc(f.slug)}/">Details<span class="visually-hidden"> for ${esc(f.name)}</span></a>`;
+    };
+    const removeBtn = (f: Farm, mode: string) => mode === 'own'
+      ? `<button type="button" class="sl-remove" data-slug="${esc(f.slug)}"><span aria-hidden="true">✕</span> Remove<span class="visually-hidden"> ${esc(f.name)}</span></button>`
+      : '';
+
+    const ROWS: [string, (f: Farm) => string][] = [
+      ['Feeding', feedPill],
+      ['Certifications', certs],
+      ['Ways to buy', ways],
+      ['Shipping and delivery', shipping],
+      ['Bulk shares', bulk],
+      ['Last verified', verified],
+    ];
+
+    const draw = (farms: Farm[], mode: string) => {
+      table.style.minWidth = `${170 + farms.length * 220}px`;
+      table.tHead!.innerHTML = `<tr><td class="sl-corner"></td>${farms.map((f) => `<th scope="col">
+        <a class="sl-name" href="/farm/${esc(f.slug)}/">${esc(f.name)}</a>
+        <span class="sl-where">${where(f)}</span>${avail(f)}${removeBtn(f, mode)}</th>`).join('')}</tr>`;
+      table.tBodies[0].innerHTML = ROWS.map(([label, fn]) =>
+        `<tr><th scope="row">${label}</th>${farms.map((f) => `<td>${fn(f)}</td>`).join('')}</tr>`).join('')
+        + `<tr class="sl-act-row"><th scope="row"><span class="visually-hidden">Next step</span></th>${farms.map((f) => `<td><div class="sl-btns">${actions(f)}</div></td>`).join('')}</tr>`;
+      cards.innerHTML = farms.map((f) => `<li class="sl-card">
+        <div class="sl-card-head">
+          <div><h2><a href="/farm/${esc(f.slug)}/">${esc(f.name)}</a></h2><p class="sl-where">${where(f)}</p></div>
+          ${removeBtn(f, mode)}
+        </div>
+        ${avail(f)}
+        <dl>${ROWS.map(([label, fn]) => `<dt>${label}</dt><dd>${fn(f)}</dd>`).join('')}</dl>
+        <div class="sl-btns">${actions(f)}</div>
+      </li>`).join('');
+    };
+
+    // ---------- State ----------
+    let data: Map<string, Farm> | null = null;
+    let loading: Promise<void> | null = null;
+    const get = (s: string) => data?.get(s);
+    const isFarm = (f: Farm | undefined): f is Farm => !!f;
+    let mode: 'own' | 'shared' = 'own';
+    let sharedSlugs: string[] = [];
+    let viewed = false;
+
+    const param = new URLSearchParams(location.search).get('farms');
+    if (param) {
+      sharedSlugs = cleanSlugs(param.split(','));
+      if (sharedSlugs.length) mode = 'shared';
+    }
+
+    const showEmpty = (html: string) => {
+      results.hidden = true;
+      toolbar.hidden = true;
+      empty.hidden = false;
+      emptyText.innerHTML = html;
+    };
+
+    // Draws the current list and returns how many farms it shows.
+    const render = () => {
+      confirmBox.hidden = true;
+      copyBox.hidden = true;
+      if (mode === 'shared') {
+        const farms = sharedSlugs.map(get).filter(isFarm);
+        const mineNow = canSave ? readSaved() : [];
+        const missing = farms.filter((f) => !mineNow.includes(f.slug));
+        title.textContent = 'A shared shortlist';
+        lede.textContent = 'Someone sent you these farms to compare. Look them over side by side, then save the ones you like.';
+        shared.hidden = false;
+        toolbar.hidden = true;
+        sharedText.textContent = !farms.length
+          ? ''
+          : !canSave
+            ? 'Your browser is blocking saved data for this site, so these farms can only be viewed here, not saved.'
+            : missing.length
+              ? `${plural(farms.length, 'farm was', 'farms were')} shared with you.${missing.length < farms.length ? ` ${farms.length - missing.length} ${farms.length - missing.length === 1 ? 'is' : 'are'} already on your shortlist.` : ''}`
+              : 'All of these farms are already on your shortlist.';
+        keep.hidden = !canSave || missing.length === 0;
+        mine.hidden = !canSave;
+        if (!farms.length) {
+          shared.hidden = true;
+          showEmpty('The farms in this link are no longer listed in our directory. Find others by state, or start your own shortlist.');
+          return 0;
+        }
+        empty.hidden = true;
+        results.hidden = false;
+        draw(farms, 'shared');
+        return farms.length;
+      }
+
+      title.textContent = 'Your shortlist';
+      lede.textContent = 'Save farms as you browse and they wait here, side by side, so you can compare them and decide. Your list stays in this browser; we never see it.';
+      shared.hidden = true;
+      if (!canSave) {
+        showEmpty("Your browser is blocking saved data for this site, which private browsing often does, so it can't keep a shortlist. Shared shortlist links still open here.");
+        return 0;
+      }
+      const saved = readSaved();
+      const farms = saved.map(get).filter(isFarm);
+      // Drop farms that have left the directory so the count stays honest.
+      if (data && farms.length < saved.length) {
+        const gone = saved.length - farms.length;
+        writeSaved(farms.map((f) => f.slug));
+        status.textContent = `${plural(gone, 'farm you saved is', 'farms you saved are')} no longer listed in our directory, so we took ${gone === 1 ? 'it' : 'them'} off your list.`;
+      }
+      if (!farms.length) {
+        showEmpty('No farms saved yet. Tap <strong>Save</strong> on any farm in the directory and it will wait here, ready to compare with the others.');
+        return 0;
+      }
+      empty.hidden = true;
+      toolbar.hidden = false;
+      results.hidden = false;
+      count.textContent = farms.length === 1
+        ? '1 saved farm. Save one or two more to compare them side by side.'
+        : `${farms.length} saved farms, side by side.`;
+      draw(farms, 'own');
+      return farms.length;
+    };
+
+    const visible = (el: Element) => (el as HTMLElement).offsetParent !== null;
+    const focusAfterRemove = (index: number) => {
+      const btns = [...app.querySelectorAll<HTMLButtonElement>('.sl-remove')].filter(visible);
+      (btns[Math.min(index, btns.length - 1)] ?? title).focus();
+    };
+
+    // ---------- Actions ----------
+    app.addEventListener('click', (e) => {
+      const t = e.target as HTMLElement;
+      const rm = t.closest<HTMLButtonElement>('.sl-remove');
+      if (rm) {
+        const slug = rm.dataset.slug!;
+        const all = [...app.querySelectorAll<HTMLButtonElement>('.sl-remove')].filter(visible);
+        const index = all.indexOf(rm);
+        const name = data?.get(slug)?.name ?? 'That farm';
+        const next = readSaved().filter((s) => s !== slug);
+        if (!writeSaved(next)) { status.textContent = "Your browser didn't let us change the list. Please try again."; return; }
+        track('shortlist_remove', { farm: slug, count: next.length });
+        render();
+        status.textContent = `Removed ${name}. ${plural(next.length, 'farm', 'farms')} left on your shortlist.`;
+        focusAfterRemove(Math.max(index, 0));
+        return;
+      }
+      const order = t.closest<HTMLAnchorElement>('a.sl-order');
+      if (order) track('shortlist_order_click', { farm: order.dataset.farm, mode });
+    });
+
+    clearBtn.addEventListener('click', () => {
+      const n = readSaved().length;
+      confirmQ.textContent = `Remove all ${plural(n, 'farm', 'farms')} from your shortlist? This can't be undone.`;
+      copyBox.hidden = true;
+      confirmBox.hidden = false;
+      $<HTMLButtonElement>('.sl-clear-no').focus();
+    });
+    $('.sl-clear-no').addEventListener('click', () => { confirmBox.hidden = true; clearBtn.focus(); });
+    $('.sl-clear-yes').addEventListener('click', () => {
+      const n = readSaved().length;
+      if (!writeSaved([])) { status.textContent = "Your browser didn't let us change the list. Please try again."; return; }
+      track('shortlist_remove', { farm: 'all', count: 0, removed: n });
+      render();
+      status.textContent = 'Your shortlist is cleared.';
+      title.focus();
+    });
+
+    shareBtn.addEventListener('click', async () => {
+      const slugs = readSaved().filter((s) => data?.has(s));
+      if (!slugs.length) return;
+      const url = `${location.origin}/shortlist/?farms=${slugs.join(',')}`;
+      confirmBox.hidden = true;
+      track('shortlist_share', { count: slugs.length });
+      try {
+        await navigator.clipboard.writeText(url);
+        copyBox.hidden = true;
+        status.textContent = 'Link copied. Send it to anyone you are deciding with and they will see these same farms.';
+      } catch {
+        copyUrl.value = url;
+        copyBox.hidden = false;
+        copyUrl.focus();
+        copyUrl.select();
+        status.textContent = 'Copy the link below to share this shortlist.';
+      }
+    });
+
+    keep.addEventListener('click', () => {
+      const saved = readSaved();
+      const add = sharedSlugs.filter((s) => data?.has(s) && !saved.includes(s));
+      const room = Math.max(0, MAX - saved.length);
+      const added = add.slice(0, room);
+      if (!writeSaved([...saved, ...added])) { status.textContent = "Your browser didn't let us save these. Please try again."; return; }
+      for (const s of added) track('shortlist_add', { farm: s, source: 'shared_link' });
+      mode = 'own';
+      history.replaceState(null, '', '/shortlist/');
+      render();
+      status.textContent = added.length < add.length
+        ? `Saved ${added.length} of ${add.length}. Your shortlist holds up to ${MAX} farms.`
+        : `Saved ${plural(added.length, 'farm', 'farms')} to your shortlist.`;
+      title.focus();
+    });
+
+    // ---------- Load ----------
+    // Farm details are fetched only when there is something to show.
+    const needsData = () => mode === 'shared' || (canSave && readSaved().length > 0);
+    const show = async () => {
+      if (needsData() && !data) {
+        status.textContent = 'Loading your farms.';
+        try {
+          await (loading ??= fetch('/farms.json')
+            .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.json(); })
+            .then((list: Farm[]) => { data = new Map(list.map((f) => [f.slug, f])); }));
+        } catch {
+          loading = null;
+          status.textContent = '';
+          showEmpty("We couldn't load the farm details just now. Check your connection and refresh the page.");
+          return;
+        }
+        status.textContent = '';
+      }
+      const n = render();
+      if (!viewed) track('shortlist_view', { count: n, mode });
+      viewed = true;
+    };
+
+    // Another tab changed the list, or the visitor came back to this page.
+    const refresh = () => { if (mode === 'own') show(); };
+    window.addEventListener('storage', (e) => { if (e.key === null || e.key === 'gf-shortlist') refresh(); });
+    window.addEventListener('pageshow', (e) => { if (e.persisted) refresh(); });
+
+    app.hidden = false;
+    show();
+  }
+</script>
+
+<style>
+  #sl-app [hidden] { display: none !important; }
+  #sl-title:focus { outline: none; }
+  #sl-title:focus-visible { outline: 3px solid var(--hay); outline-offset: 4px; }
+  .sl-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem 1rem; }
+  .sl-shared, .sl-confirm, .sl-copy {
+    margin: 1.25rem 0; padding: 1rem 1.2rem; border-radius: var(--radius-md);
+    background: rgba(255,255,255,0.78); border: 1px solid rgba(31,64,41,0.14); border-left: 4px solid var(--pasture);
+  }
+  .sl-shared p, .sl-confirm p { margin: 0 0 0.75rem; font-weight: 600; }
+  .sl-confirm { border-left-color: var(--alert); }
+  .sl-copy label { display: block; margin-bottom: 0.4rem; }
+  .sl-copy input { width: 100%; }
+  .sl-toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.75rem 1.5rem; margin: 1.5rem 0 0.5rem; }
+  .sl-toolbar > .sl-confirm, .sl-toolbar > .sl-copy { flex-basis: 100%; margin: 0; }
+  .sl-count { margin: 0; font-weight: 600; }
+  .sl-link-btn {
+    background: none; border: 0; padding: 0.5rem 0.25rem; min-height: 44px; cursor: pointer;
+    font: 500 1rem var(--body); color: var(--alert); text-decoration: underline; text-underline-offset: 0.18em;
+  }
+  .sl-status { min-height: 1.6em; margin: 0.5rem 0 1rem; color: var(--ink-soft); }
+  .sl-status:empty { margin: 0; min-height: 0; }
+  .sl-empty p { margin: 0 0 0.9rem; max-width: 56ch; }
+  .sl-empty .sl-empty-cta { margin: 0; }
+
+  /* Desktop: one column per farm */
+  .sl-table-wrap { overflow-x: auto; border: 1px solid rgba(31,64,41,0.14); border-radius: var(--radius-md); background: rgba(255,255,255,0.8); }
+  .sl-table-wrap:focus-visible { outline: 3px solid var(--hay); outline-offset: 2px; }
+  .sl-table { width: 100%; border-collapse: separate; border-spacing: 0; table-layout: fixed; font-size: 0.95rem; }
+  .sl-table :global(th), .sl-table :global(td) { text-align: left; vertical-align: top; padding: 0.85rem 1rem; border-bottom: 1px solid var(--rule); }
+  .sl-table :global(tr:last-child > *) { border-bottom: 0; }
+  .sl-table :global(tbody th), .sl-table :global(.sl-corner) {
+    position: sticky; left: 0; z-index: 1; width: 170px;
+    background: #f8faf4; color: var(--pasture-deep); font-weight: 600; border-right: 1px solid var(--rule);
+  }
+  .sl-table :global(thead th) { background: var(--paper-2); }
+  .sl-table :global(.sl-name) { display: block; font-family: var(--display); font-size: 1.2rem; font-weight: 600; line-height: 1.2; color: var(--pasture-deep); text-decoration: none; }
+  .sl-table :global(.sl-name:hover) { text-decoration: underline; }
+  .sl-table :global(.avail) { font-size: 0.85rem; font-weight: 400; }
+  .sl-table :global(.sl-act-row td) { background: rgba(237,241,229,0.5); }
+  :global(.sl-where) { display: block; margin: 0.2rem 0 0; font-size: 0.9rem; font-weight: 400; color: var(--ink-soft); }
+  :global(.sl-none) { color: var(--ink-soft); }
+  :global(.sl-sub) { font-size: 0.88rem; color: var(--ink-soft); }
+  :global(.sl-stale) { font-size: 0.88rem; font-weight: 600; color: var(--alert); }
+  :global(.sl-local) { margin: 0.5rem 0 0; font-size: 0.9rem; }
+  :global(.sl-list) { margin: 0; padding-left: 1.1rem; }
+  :global(.sl-list li) { margin-bottom: 0.15rem; }
+  .sl-results :global(.tags) { margin: 0; }
+  .sl-results :global(.feed) { margin: 0; }
+  :global(.sl-btns) { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  :global(.sl-btns .btn) { padding: 0.55em 1.1em; font-size: 0.95rem; }
+  :global(.sl-remove) {
+    display: inline-flex; align-items: center; gap: 0.35rem; margin-top: 0.5rem; min-height: 36px; padding: 0.25rem 0.8rem;
+    font: 500 0.85rem var(--body); color: var(--ink-soft); cursor: pointer;
+    background: rgba(255,255,255,0.8); border: 1px solid var(--rule); border-radius: 999px;
+  }
+  :global(.sl-remove:hover) { color: var(--alert); border-color: var(--alert); }
+  .sl-note { margin-top: 1rem; }
+
+  /* Phones: one card per farm */
+  .sl-cards { display: none; list-style: none; padding: 0; margin: 0; gap: 1rem; }
+  :global(.sl-card) {
+    padding: 1rem 1.1rem 1.1rem; border-radius: var(--radius-md);
+    background: rgba(255,255,255,0.85); border: 1px solid rgba(31,64,41,0.14);
+  }
+  :global(.sl-card-head) { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; }
+  :global(.sl-card-head > div) { min-width: 0; }
+  :global(.sl-card h2) { margin: 0; font-size: 1.25rem; overflow-wrap: anywhere; }
+  :global(.sl-card h2 a) { color: var(--pasture-deep); text-decoration: none; }
+  :global(.sl-card .sl-remove) { margin-top: 0; flex: none; }
+  :global(.sl-card dl) { display: grid; grid-template-columns: minmax(88px, 32%) minmax(0, 1fr); gap: 0.7rem 0.9rem; margin: 0.9rem 0 1rem; font-size: 0.95rem; }
+  :global(.sl-card dt) { font-weight: 600; color: var(--pasture-deep); }
+  :global(.sl-card dd) { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+
+  @media (max-width: 760px) {
+    .sl-table-wrap { display: none; }
+    .sl-cards { display: grid; }
+  }
+  @media (max-width: 380px) {
+    :global(.sl-card dl) { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; }
+    :global(.sl-card dd) { margin-bottom: 0.55rem; }
+  }
+  @media print {
+    .sl-toolbar, .sl-shared, :global(.sl-remove) { display: none; }
+  }
+</style>
