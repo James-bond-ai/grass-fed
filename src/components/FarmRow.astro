@@ -47,5 +47,114 @@ const shipLabel = r.nationwide ? 'Ships nationwide' : r.shipsTo.size ? `Ships to
       {shipLabel && <li class="tag ship">{shipLabel}</li>}
     </ul>
   </div>
-  <Stamp date={farm.last_verified_at} />
+  <div class="fr-side">
+    <Stamp date={farm.last_verified_at} />
+    <button type="button" class="sl-save" data-slug={farm.slug} aria-pressed="false" hidden>
+      <svg class="sl-heart" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" /></svg>
+      <span class="sl-text">Save</span><span class="visually-hidden"> {farm.farm_name} to your shortlist</span>
+    </button>
+  </div>
 </li>
+
+<script>
+  import { storageWorks, readSaved, writeSaved, onChange, track, MAX, plural, HEART } from '../scripts/shortlist';
+
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('.sl-save')];
+  // The Save buttons stay hidden unless this browser can remember the list.
+  if (buttons.length && storageWorks() && !document.querySelector('.sl-pill')) {
+    const live = document.createElement('p');
+    live.className = 'visually-hidden';
+    live.setAttribute('aria-live', 'polite');
+    document.body.append(live);
+
+    const pill = document.createElement('a');
+    pill.className = 'sl-pill';
+    pill.href = '/shortlist/';
+    pill.hidden = true;
+    pill.innerHTML = `${HEART}<span>Shortlist <span class="sl-n"></span></span><span class="visually-hidden">: compare your saved farms</span>`;
+    document.body.append(pill);
+    const count = pill.querySelector<HTMLElement>('.sl-n')!;
+
+    const sync = () => {
+      const saved = readSaved();
+      for (const b of buttons) {
+        const on = saved.includes(b.dataset.slug!);
+        b.setAttribute('aria-pressed', String(on));
+        b.querySelector('.sl-text')!.textContent = on ? 'Saved' : 'Save';
+      }
+      count.textContent = `(${saved.length})`;
+      pill.hidden = saved.length === 0;
+      document.body.classList.toggle('has-sl-pill', saved.length > 0);
+    };
+
+    for (const b of buttons) {
+      b.hidden = false;
+      b.addEventListener('click', () => {
+        const slug = b.dataset.slug!;
+        const saved = readSaved();
+        const on = saved.includes(slug);
+        if (!on && saved.length >= MAX) {
+          live.textContent = `Your shortlist is full at ${MAX} farms. Remove one before adding another.`;
+          return;
+        }
+        const next = on ? saved.filter((s) => s !== slug) : [...saved, slug];
+        if (!writeSaved(next)) {
+          live.textContent = "Your browser didn't let us save that. Please try again.";
+          return;
+        }
+        live.textContent = on
+          ? `Removed from your shortlist. ${plural(next.length, 'farm', 'farms')} saved.`
+          : `Saved to your shortlist. ${plural(next.length, 'farm', 'farms')} saved.`;
+        track(on ? 'shortlist_remove' : 'shortlist_add', { farm: slug, count: next.length });
+        if (!on && matchMedia('(prefers-reduced-motion: no-preference)').matches) {
+          pill.classList.remove('sl-bump');
+          void pill.offsetWidth;
+          pill.classList.add('sl-bump');
+        }
+      });
+    }
+    sync();
+    onChange(sync);
+  }
+</script>
+
+<style>
+  .fr-side { display: flex; flex-direction: column; align-items: flex-end; gap: 0.7rem; }
+  .sl-save {
+    display: inline-flex; align-items: center; gap: 0.4rem; min-height: 40px; padding: 0.35rem 0.95rem;
+    font: 600 0.9rem var(--body); color: var(--pasture-deep); cursor: pointer;
+    background: rgba(255,255,255,0.75); border: 1.5px solid rgba(31,64,41,0.22); border-radius: 999px;
+    transition: background-color 140ms ease, border-color 140ms ease;
+  }
+  .sl-save[hidden] { display: none; }
+  .sl-save:hover { border-color: var(--pasture); background: #fff; }
+  .sl-save :global(svg) { flex: none; fill: none; stroke: currentColor; stroke-width: 2; stroke-linejoin: round; }
+  .sl-save[aria-pressed='true'] { background: var(--clover); border-color: #9fb977; }
+  .sl-save[aria-pressed='true'] :global(svg) { fill: var(--alert); stroke: var(--alert); }
+  @media (max-width: 560px) {
+    .fr-side { flex-direction: row; align-items: center; flex-wrap: wrap; gap: 0.75rem 1rem; }
+  }
+
+  :global(.sl-pill) {
+    position: fixed; z-index: 40;
+    right: calc(16px + env(safe-area-inset-right, 0px));
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    display: inline-flex; align-items: center; gap: 0.45rem; min-height: 48px; padding: 0.6rem 1.2rem;
+    border-radius: 999px; text-decoration: none; font: 600 1rem var(--body); color: #fff;
+    background: linear-gradient(180deg, #3b7346 0%, var(--pasture) 55%, var(--pasture-deep) 100%);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.4), 0 8px 22px rgba(24,48,30,0.30);
+  }
+  :global(.sl-pill[hidden]) { display: none; }
+  :global(.sl-pill:hover) { color: #fff; filter: saturate(1.15); }
+  :global(.sl-pill svg) { flex: none; fill: #fff; stroke: #fff; stroke-width: 2; stroke-linejoin: round; }
+  :global(.sl-pill:focus-visible) { outline: 3px solid var(--hay); outline-offset: 3px; }
+  /* Room under the footer so the pill never covers the last links on the page. */
+  :global(body.has-sl-pill .site-footer) { padding-bottom: calc(96px + env(safe-area-inset-bottom, 0px)); }
+  @media (prefers-reduced-motion: no-preference) {
+    :global(.sl-pill) { animation: sl-in 260ms cubic-bezier(.2,.8,.2,1) both; }
+    :global(.sl-pill.sl-bump) { animation: sl-bump 380ms cubic-bezier(.2,.9,.3,1.4); }
+  }
+  @keyframes sl-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+  @keyframes sl-bump { 0% { transform: scale(1); } 40% { transform: scale(1.1); } 100% { transform: scale(1); } }
+  @media print { :global(.sl-pill) { display: none; } .sl-save { display: none; } }
+</style>
