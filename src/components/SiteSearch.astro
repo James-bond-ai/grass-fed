@@ -1,0 +1,356 @@
+---
+// Site-wide search dialog, opened by the header button (SearchButton.astro), "/" or
+// Ctrl/Cmd+K. Farms, states and guides come from /search.json (src/pages/search.json.ts),
+// fetched the first time the dialog opens; ranking lives in src/data/search.mjs.
+// Without JavaScript the dialog never opens and the header button links to /farms/.
+---
+<dialog id="site-search" class="ss" aria-labelledby="ss-title">
+  <div class="ss-panel">
+    <h2 id="ss-title" class="visually-hidden">Search grassfed.food</h2>
+    <div class="ss-bar">
+      <svg class="ss-bar-icon" width="20" height="20" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2" />
+        <path d="M15.5 15.5 21 21" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" />
+      </svg>
+      <label for="ss-input" class="visually-hidden">Search farms, towns, states and guides</label>
+      <input
+        id="ss-input"
+        class="ss-input"
+        type="search"
+        role="combobox"
+        aria-expanded="true"
+        aria-controls="ss-list"
+        aria-autocomplete="list"
+        aria-describedby="ss-help"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+        enterkeyhint="go"
+        placeholder="Farm, town, state, or food like lamb"
+      />
+      <button type="button" class="ss-close" aria-label="Close search"><span class="ss-close-touch">Close</span><kbd class="ss-close-key">Esc</kbd></button>
+    </div>
+    <p id="ss-help" class="visually-hidden">Results appear as you type. Use the up and down arrow keys to move through them and Enter to open one.</p>
+    <p class="ss-msg" hidden></p>
+    <div id="ss-list" class="ss-list" role="listbox" aria-label="Search results"></div>
+    <p class="ss-status visually-hidden" role="status" aria-live="polite"></p>
+    <p class="ss-foot" aria-hidden="true"><span><kbd>↑</kbd><kbd>↓</kbd> to move</span><span><kbd>Enter</kbd> to open</span><span><kbd>/</kbd> opens search on any page</span></p>
+  </div>
+</dialog>
+
+<script>
+  import { prepare, search } from '../data/search.mjs';
+
+  type Item = { type: string; slug: string; name?: string; city?: string; st?: string; label?: string; abbr?: string; n?: number; title?: string };
+  type Group = { type: string; label: string; items: Item[]; total: number };
+
+  const QUICK = [
+    { href: '/farms/', main: 'Find a farm', sub: 'Every verified farm, by state' },
+    { href: '/bulk-beef/', main: 'Bulk beef', sub: 'A quarter, half or whole animal, by state' },
+    { href: '/dairy/', main: 'Dairy', sub: 'Milk, cheese and butter from the farm' },
+    { href: '/guides/grass-fed-vs-grass-finished/', main: 'Grass-fed vs grass-finished', sub: 'Guide: what the labels mean' },
+  ];
+
+  const dlg = document.getElementById('site-search') as HTMLDialogElement | null;
+  if (dlg && typeof dlg.showModal === 'function') {
+    const input = dlg.querySelector<HTMLInputElement>('#ss-input')!;
+    const list = dlg.querySelector<HTMLElement>('#ss-list')!;
+    const msg = dlg.querySelector<HTMLElement>('.ss-msg')!;
+    const status = dlg.querySelector<HTMLElement>('.ss-status')!;
+    const closeBtn = dlg.querySelector<HTMLButtonElement>('.ss-close')!;
+    const gtag = (...a: unknown[]) => { const g = (window as any).gtag; if (typeof g === 'function') g(...a); };
+
+    let data: ReturnType<typeof prepare> | null = null;
+    let loading: Promise<unknown> | null = null;
+    let failed = false;
+    let active = -1;
+    let returnTo: HTMLElement | null = null;
+    let logTimer: number | undefined;
+    let statusTimer: number | undefined;
+    let lastLogged = '';
+    let pending: { q: string; n: number } | null = null;
+
+    const esc = (t: unknown) => String(t ?? '').replace(/[&<>"']/g, (ch) => `&#${ch.charCodeAt(0)};`);
+
+    const load = () => (loading ??= fetch('/search.json')
+      .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.json(); })
+      .then((d) => { data = prepare(d); failed = false; })
+      .catch(() => { failed = true; loading = null; })
+      .then(() => { if (dlg.open) render(); }));
+
+    const option = (href: string, type: string, target: string, main: string, sub: string) =>
+      `<a role="option" class="ss-opt" href="${esc(href)}" tabindex="-1" aria-selected="false" data-type="${esc(type)}" data-target="${esc(target)}">` +
+      `<span class="ss-opt-main">${esc(main)}</span>${sub ? `<span class="ss-opt-sub">${esc(sub)}</span>` : ''}</a>`;
+
+    const itemHtml = (it: Item) => {
+      if (it.type === 'farm') {
+        const where = [it.city, it.st].filter(Boolean).join(', ');
+        return option(`/farm/${it.slug}/`, 'farm', it.slug, it.name!, [where, it.label].filter(Boolean).join(' · '));
+      }
+      if (it.type === 'state') {
+        const sub = it.n ? `${it.n} verified ${it.n === 1 ? 'farm' : 'farms'} based here` : 'No farms based here yet. See farms that ship in';
+        return option(`/farms/${it.slug}/`, 'state', it.slug, it.name!, sub);
+      }
+      return option(`/guides/${it.slug}/`, 'guide', it.slug, it.title!, 'Guide');
+    };
+
+    const groupHtml = (id: string, label: string, body: string, count = '') =>
+      `<div class="ss-group" role="group" aria-labelledby="ss-gh-${id}">` +
+      `<div class="ss-gh" id="ss-gh-${id}" aria-hidden="true">${esc(label)}${count ? `<span class="ss-gh-count">${esc(count)}</span>` : ''}</div>${body}</div>`;
+
+    // Fill the list and number its options for aria-activedescendant.
+    const paint = (html: string) => {
+      list.innerHTML = html;
+      list.querySelectorAll('[role="option"]').forEach((o, k) => { o.id = `ss-opt-${k}`; });
+    };
+
+    const quickHtml = () => groupHtml('quick', 'Quick links', QUICK.map((l) => option(l.href, 'link', l.href, l.main, l.sub)).join(''));
+
+    const setActive = (i: number, scroll = true) => {
+      const opts = list.querySelectorAll<HTMLAnchorElement>('[role="option"]');
+      opts.forEach((o, k) => { const on = k === i; o.setAttribute('aria-selected', String(on)); o.classList.toggle('is-active', on); });
+      active = i >= 0 && i < opts.length ? i : -1;
+      if (active >= 0) {
+        const o = opts[active];
+        input.setAttribute('aria-activedescendant', o.id);
+        if (scroll) o.scrollIntoView({ block: 'nearest' });
+      } else input.removeAttribute('aria-activedescendant');
+    };
+
+    const say = (text: string) => {
+      clearTimeout(statusTimer);
+      statusTimer = window.setTimeout(() => { status.textContent = text; }, 450);
+    };
+    const showMsg = (html: string) => { msg.innerHTML = html; msg.hidden = !html; };
+
+    const sendLog = () => {
+      clearTimeout(logTimer);
+      if (pending && pending.q !== lastLogged) {
+        gtag('event', 'site_search', { query_length: pending.q.length, results: pending.n });
+        lastLogged = pending.q;
+      }
+      pending = null;
+    };
+
+    function render() {
+      const raw = input.value.trim();
+      if (!raw) {
+        paint(quickHtml());
+        showMsg('');
+        setActive(-1);
+        say('');
+        return;
+      }
+      if (!data) {
+        paint(failed ? quickHtml() : '');
+        setActive(-1);
+        showMsg(failed
+          ? 'Search could not load just now. Check your connection and try again, or use the quick links.'
+          : 'Loading farms…');
+        if (failed) say('Search could not load.');
+        else load();
+        return;
+      }
+      const res = search(data, raw) as { query: string; groups: Group[]; total: number };
+      const html = res.groups.map((g) => {
+        const shown = g.items.length;
+        const body = g.items.map((it) => itemHtml(it)).join('');
+        return groupHtml(g.type, g.label, body, g.total > shown ? `${shown} of ${g.total}` : '');
+      }).join('');
+      if (res.total) {
+        paint(html);
+        showMsg('');
+      } else {
+        paint(groupHtml('none', 'Try instead', option('/farms/', 'link', '/farms/', 'Browse every farm by state', 'See all verified farms on the map')));
+        showMsg(`No matches for “${esc(raw)}”. Try a farm name, a town, a state, or a food like beef or raw milk.`);
+      }
+      setActive(res.total ? 0 : -1);
+
+      const parts = res.groups.map((g) => `${g.total} ${g.total === 1 ? g.label.toLowerCase().replace(/s$/, '') : g.label.toLowerCase()}`);
+      say(res.total ? `${parts.join(', ')} found.` : 'No matches.');
+
+      clearTimeout(logTimer);
+      pending = { q: raw, n: res.total };
+      logTimer = window.setTimeout(sendLog, 1200);
+    }
+
+    const open = (method: string) => {
+      if (dlg.open) { input.focus(); input.select(); return; }
+      const a = document.activeElement;
+      returnTo = a instanceof HTMLElement && a !== document.body ? a : null;
+      dlg.showModal();
+      document.documentElement.classList.add('ss-open');
+      input.focus();
+      input.select();
+      render();
+      load();
+      gtag('event', 'site_search_open', { method });
+    };
+
+    dlg.addEventListener('close', () => {
+      document.documentElement.classList.remove('ss-open');
+      sendLog();
+      if (returnTo?.isConnected) returnTo.focus();
+      returnTo = null;
+    });
+    closeBtn.addEventListener('click', () => dlg.close());
+
+    // Close on a click on the backdrop (the dialog box itself, outside the panel).
+    let downOnBackdrop = false;
+    dlg.addEventListener('pointerdown', (e) => { downOnBackdrop = e.target === dlg; });
+    dlg.addEventListener('click', (e) => { if (e.target === dlg && downOnBackdrop) dlg.close(); downOnBackdrop = false; });
+
+    dlg.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !e.isComposing) { e.preventDefault(); dlg.close(); }
+    });
+
+    input.addEventListener('input', render);
+    input.addEventListener('keydown', (e) => {
+      if (e.isComposing) return;
+      const n = list.querySelectorAll('[role="option"]').length;
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (!n) return;
+        const d = e.key === 'ArrowDown' ? 1 : -1;
+        setActive(active < 0 ? (d > 0 ? 0 : n - 1) : (active + d + n) % n);
+      } else if (e.key === 'Enter') {
+        const o = list.querySelectorAll<HTMLAnchorElement>('[role="option"]')[active];
+        if (o) { e.preventDefault(); o.click(); }
+      }
+    });
+
+    list.addEventListener('mousemove', (e) => {
+      const o = (e.target as HTMLElement).closest<HTMLAnchorElement>('[role="option"]');
+      if (!o) return;
+      const i = [...list.querySelectorAll('[role="option"]')].indexOf(o);
+      if (i !== active) setActive(i, false);
+    });
+    list.addEventListener('click', (e) => {
+      const o = (e.target as HTMLElement).closest<HTMLAnchorElement>('[role="option"]');
+      if (!o) return;
+      sendLog();
+      gtag('event', 'site_search_select', { type: o.dataset.type, target: o.dataset.target });
+    });
+
+    // Header buttons: links to /farms/ until now, buttons that open the dialog from here on.
+    document.querySelectorAll<HTMLAnchorElement>('[data-site-search]').forEach((t) => {
+      t.setAttribute('role', 'button');
+      t.setAttribute('aria-haspopup', 'dialog');
+      t.setAttribute('aria-controls', 'site-search');
+      t.setAttribute('aria-keyshortcuts', '/ Control+K Meta+K');
+      t.dataset.ready = '';
+      t.addEventListener('click', (e) => {
+        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        e.preventDefault();
+        open('button');
+      });
+      t.addEventListener('keydown', (e) => {
+        if (e.key === ' ') { e.preventDefault(); open('button'); }
+      });
+    });
+
+    const typing = (t: EventTarget | null) => {
+      if (!(t instanceof HTMLElement)) return false;
+      if (t.isContentEditable || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT') return true;
+      return t.tagName === 'INPUT' && !['checkbox', 'radio', 'button', 'submit', 'reset', 'range', 'color', 'file', 'image'].includes((t as HTMLInputElement).type);
+    };
+    document.addEventListener('keydown', (e) => {
+      if (e.defaultPrevented || e.isComposing) return;
+      const slash = e.key === '/' && !e.ctrlKey && !e.metaKey && !e.altKey;
+      const cmdK = (e.key === 'k' || e.key === 'K') && (e.ctrlKey || e.metaKey) && !e.altKey && !e.shiftKey;
+      if (!slash && !cmdK) return;
+      if (dlg.open) {
+        if (cmdK) { e.preventDefault(); input.focus(); input.select(); }
+        return;
+      }
+      if (typing(e.target)) return;
+      e.preventDefault();
+      open('keyboard');
+    });
+  }
+</script>
+
+<style>
+  .ss {
+    width: min(640px, calc(100% - 24px)); max-width: none;
+    max-height: none; margin: max(12px, 9vh) auto auto;
+    padding: 0; border: 0; background: transparent; color: var(--ink); overflow: visible;
+  }
+  .ss::backdrop { background: rgba(28,42,34,0.42); }
+  .ss-panel {
+    display: flex; flex-direction: column;
+    max-height: min(620px, calc(100vh - max(12px, 9vh) - 16px));
+    max-height: min(620px, calc(100dvh - max(12px, 9vh) - 16px));
+    background: var(--paper); border: 1px solid rgba(31,64,41,0.14); border-radius: var(--radius-md);
+    box-shadow: 0 24px 60px rgba(24,48,30,0.28), 0 4px 12px rgba(24,48,30,0.12);
+    overflow: hidden;
+  }
+  .ss-bar {
+    display: flex; align-items: center; gap: 0.6rem; flex: none;
+    padding: 0.55rem 0.6rem 0.55rem 1rem; border-bottom: 1px solid var(--rule);
+    background: rgba(255,255,255,0.75);
+  }
+  .ss-bar:focus-within { box-shadow: inset 0 -2px 0 var(--hay); }
+  .ss-bar-icon { flex: none; color: var(--pasture); }
+  .ss-input {
+    flex: 1; min-width: 0; height: 44px; padding: 0; border: 0; background: transparent;
+    font: 400 1.0625rem/1.2 var(--body); color: var(--ink);
+  }
+  .ss-input:focus, .ss-input:focus-visible { outline: none; }
+  .ss-input::placeholder { color: #6b7a70; }
+  .ss-input::-webkit-search-cancel-button { cursor: pointer; }
+  .ss-close {
+    flex: none; min-height: 36px; padding: 0 0.7rem; border-radius: 999px;
+    border: 1px solid rgba(31,64,41,0.18); background: #fff; color: var(--ink-soft);
+    font: 500 0.85rem/1 var(--body); cursor: pointer;
+  }
+  .ss-close:hover { color: var(--pasture-deep); border-color: rgba(47,93,58,0.45); }
+  .ss-close-key { font: inherit; }
+  .ss-close-touch { display: none; }
+  @media (hover: none), (pointer: coarse) {
+    .ss-close-touch { display: inline; }
+    .ss-close-key { display: none; }
+    .ss-foot { display: none; }
+  }
+
+  .ss-list { flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 0.35rem 0.5rem 0.6rem; }
+  .ss-list:empty { display: none; }
+  .ss-list :global(.ss-group + .ss-group) { margin-top: 0.35rem; }
+  .ss-list :global(.ss-gh) {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 1rem;
+    padding: 0.6rem 0.6rem 0.3rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--ink-soft);
+  }
+  .ss-list :global(.ss-gh-count) { font-weight: 500; letter-spacing: 0; text-transform: none; font-size: 0.82rem; }
+  .ss-list :global(.ss-opt) {
+    display: block; padding: 0.55rem 0.7rem; border-radius: 10px; text-decoration: none; color: var(--ink);
+    box-shadow: inset 3px 0 0 transparent;
+  }
+  .ss-list :global(.ss-opt.is-active) { background: rgba(47,93,58,0.10); box-shadow: inset 3px 0 0 var(--pasture); }
+  .ss-list :global(.ss-opt-main) { display: block; font-weight: 600; color: var(--pasture-deep); line-height: 1.3; overflow-wrap: anywhere; }
+  .ss-list :global(.ss-opt-sub) { display: block; margin-top: 0.1rem; font-size: 0.88rem; color: var(--ink-soft); line-height: 1.35; overflow-wrap: anywhere; }
+
+  .ss-msg { margin: 0; padding: 0.9rem 1.1rem; color: var(--ink-soft); font-size: 0.95rem; flex: none; }
+  .ss-msg:not([hidden]) + .ss-list { padding-top: 0; }
+  .ss-foot {
+    display: flex; flex-wrap: wrap; gap: 0.4rem 1.1rem; margin: 0; padding: 0.55rem 1rem; flex: none;
+    border-top: 1px solid var(--rule); font-size: 0.8rem; color: var(--ink-soft); background: rgba(255,255,255,0.55);
+  }
+  .ss-foot kbd {
+    display: inline-block; min-width: 1.4em; padding: 0.1em 0.35em; margin-right: 0.2em; border-radius: 4px;
+    border: 1px solid var(--rule); background: #fff; font: 600 0.92em/1.2 var(--body); text-align: center; color: var(--ink);
+  }
+
+  :global(html.ss-open) { overflow: hidden; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .ss[open] .ss-panel { animation: ss-in 160ms cubic-bezier(.2,.8,.2,1); }
+    .ss[open]::backdrop { animation: ss-fade 160ms ease; }
+    @keyframes ss-in { from { opacity: 0; transform: translateY(-8px) scale(0.985); } to { opacity: 1; transform: none; } }
+    @keyframes ss-fade { from { opacity: 0; } to { opacity: 1; } }
+  }
+  @media (max-width: 560px) {
+    .ss { margin-top: 12px; }
+    .ss-panel { max-height: calc(100vh - 24px); max-height: calc(100dvh - 24px); }
+  }
+</style>
