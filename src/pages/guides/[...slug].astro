@@ -52,7 +52,7 @@ const jsonLd = [
   },
 ];
 ---
-<Base title={d.title} description={d.description} jsonLd={jsonLd}>
+<Base title={d.title} description={d.description} jsonLd={jsonLd} ogImage={`/og/guide/${article.id}.png`}>
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/guides/">Guides</a></nav>
   <div class="read-progress" aria-hidden="true" hidden><span class="read-progress-bar"></span></div>
   <article class="guide" data-guide={article.id}>

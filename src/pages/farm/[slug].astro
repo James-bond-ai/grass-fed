@@ -63,7 +63,7 @@ const photos = (farm.photos ?? []).filter((p) => p.permission);
 const icons = BROWSE.filter((b) => (farm.species ?? []).some((x) => b.species.includes(x)));
 const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.length ? ` sells ${species.slice(0, 3).join(', ').toLowerCase()}` : ''}. Feeding claims, certifications and how to buy, last checked ${fmtDate(farm.last_verified_at)}.`;
 ---
-<Base title={`${farm.farm_name}, ${farm.city}, ${st.abbr}`} description={description.slice(0, 165)} jsonLd={jsonLd}>
+<Base title={`${farm.farm_name}, ${farm.city}, ${st.abbr}`} description={description.slice(0, 165)} jsonLd={jsonLd} ogImage={`/og/farm/${farm.slug}.png`}>
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/farms/">Farms</a> / <a href={`/farms/${st.slug}/`}>{st.name}</a> / {farm.farm_name}</nav>
   <div class="head">
     <div>
