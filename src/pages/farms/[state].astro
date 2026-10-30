@@ -3,6 +3,8 @@ import Base from '../../layouts/Base.astro';
 import FarmRow from '../../components/FarmRow.astro';
 import Filters from '../../components/Filters.astro';
 import FeedingKey from '../../components/FeedingKey.astro';
+import StatePicks from '../../components/StatePicks.astro';
+import { CERTIFICATIONS, feedingLabel } from '../../data/states.mjs';
 import { STATES, INDEX_THRESHOLD, SPECIES, servesState, isOrganic, sellsDairy } from '../../data/states.mjs';
 import { loadPublishedFarms, farmsByState } from '../../data/farms.mjs';
 import { fmtDate } from '../../data/format.mjs';
@@ -29,6 +31,27 @@ const speciesCount: Record<string, number> = {};
 for (const f of farms) for (const s of f.species ?? []) speciesCount[s] = (speciesCount[s] ?? 0) + 1;
 const topSpecies = Object.entries(speciesCount).sort((a, b) => b[1] - a[1]).slice(0, 4);
 
+// Orders for the sort control on the based-in-state list, worked out here so the
+// browser only re-orders rows. The page itself still renders A to Z, so without
+// JavaScript the list is unchanged.
+const FEED_SORT: Record<string, number> = { gff: 5, both: 4, gf: 3, partial: 2, pastured: 2, grain: 1 };
+const byName = (a: any, b: any) => a.farm_name.localeCompare(b.farm_name);
+const sortKey = (f: any) => [
+  !f.availability || f.availability.status === 'available' ? 1 : 0,
+  FEED_SORT[feedingLabel(f).level] ?? 0,
+  (f.certifications ?? []).some((c: any) => CERTIFICATIONS[c.program] && c.program !== 'usda-organic-pasture') ? 1 : 0,
+  f.ordering_url ? 1 : 0,
+];
+const bestFirst = (a: any, b: any) => {
+  const x = sortKey(a), y = sortKey(b);
+  for (let i = 0; i < x.length; i++) if (x[i] !== y[i]) return y[i] - x[i];
+  return byName(a, b);
+};
+const sortOrders = {
+  best: farms.slice().sort(bestFirst).map((f) => f.slug),
+  az: farms.slice().sort(byName).map((f) => f.slug),
+  recent: farms.slice().sort((a, b) => (b.last_verified_at ?? '').localeCompare(a.last_verified_at ?? '') || byName(a, b)).map((f) => f.slug),
+};
 const sN = shipIn.length;
 const plural = (k: number, w: string) => `${k} ${w}${k === 1 ? '' : 's'}`;
 const title = n ? `Grass-fed farms in ${st.name}` : `Grass-fed farms that ship to ${st.name}`;
@@ -64,6 +87,7 @@ const jsonLd = [
       : <a href="/list-your-farm/" class="none"><b>None listed yet</b><span>No farms <strong>based in {st.name}</strong> have been verified yet. Raise grass-fed animals here? List your farm.</span></a>}
     <a href="#ships-here"><b>{sN}</b><span>{sN === 1 ? 'farm' : 'farms'} in <strong>other states ship to {st.name}</strong>. Usually ordered online and shipped frozen.</span></a>
   </div>
+  <StatePicks st={st} based={farms} shipIn={shipIn} />
   <FeedingKey />
   {n > 0 && (
     <section id="based">
@@ -81,6 +105,16 @@ const jsonLd = [
         {organicN > 0 && <div><dt>USDA Organic</dt><dd>{organicN}</dd></div>}
       </dl>
       <Filters listId="farms" total={n} />
+      <div class="sort-bar" data-sort-for="farms" data-state={st.abbr} hidden>
+        <label for="farms-sort">Sort by</label>
+        <select id="farms-sort">
+          <option value="best" selected>Best match first</option>
+          <option value="az">A to Z</option>
+          <option value="recent">Recently verified</option>
+        </select>
+        <span class="visually-hidden" aria-live="polite" data-sort-status></span>
+      </div>
+      <script type="application/json" id="farms-sort-orders" set:html={JSON.stringify(sortOrders).replace(/</g, '\\u003c')} />
       <ul class="farm-list" id="farms">
         {farms.map((f) => <FarmRow farm={f} showState={false} />)}
       </ul>
@@ -101,9 +135,51 @@ const jsonLd = [
   {bulkBeefN > 0 && <p><a href={`/bulk-beef/${st.slug}/`}>Buy a quarter or half cow in {st.name}</a></p>}
   <p class="small muted" style="margin-top:2rem">Feeding descriptions are in each farm's own words, from its website. Certifications are shown only when we found the farm in the certifier's own listing. <a href="/methodology/">How we verify</a></p>
 </Base>
+<script>
+  // Sort control for the based-in-state list. Re-orders the existing rows, so the
+  // filters keep working on the same elements; hidden rows stay hidden.
+  const bar = document.querySelector<HTMLElement>('.sort-bar[data-sort-for]');
+  const list = bar ? document.getElementById(bar.dataset.sortFor!) : null;
+  const data = document.getElementById('farms-sort-orders');
+  const select = bar?.querySelector<HTMLSelectElement>('select');
+  if (bar && list && data && select) {
+    let orders: Record<string, string[]> = {};
+    try { orders = JSON.parse(data.textContent || '{}'); } catch { orders = {}; }
+    const status = bar.querySelector<HTMLElement>('[data-sort-status]');
+    const slugOf = (row: HTMLElement) => row.querySelector<HTMLAnchorElement>('h3 a[href^="/farm/"]')?.getAttribute('href')?.split('/')[2] ?? '';
+    const apply = (sort: string) => {
+      const order = orders[sort];
+      if (!Array.isArray(order)) return false;
+      const rows = [...list.querySelectorAll<HTMLElement>(':scope > li.farm-row')];
+      const bySlug = new Map(rows.map((r) => [slugOf(r), r]));
+      const frag = document.createDocumentFragment();
+      for (const slug of order) {
+        const row = bySlug.get(slug);
+        if (row) { frag.append(row); bySlug.delete(slug); }
+      }
+      // Any row the order does not know about keeps its place at the end.
+      for (const row of rows) if (bySlug.get(slugOf(row)) === row) frag.append(row);
+      list.append(frag);
+      return true;
+    };
+    if (apply(select.value)) {
+      bar.hidden = false;
+      select.addEventListener('change', () => {
+        if (!apply(select.value)) return;
+        if (status) status.textContent = `List sorted: ${select.selectedOptions[0]?.textContent?.trim() ?? ''}.`;
+        const g = (window as any).gtag;
+        if (typeof g === 'function') g('event', 'state_sort', { state: bar.dataset.state, sort: select.value });
+      });
+    }
+  }
+</script>
 <style>
   .state-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin: 1.5rem 0 0; }
   .state-facts div { border-top: 3px solid var(--clover); padding-top: 0.5rem; }
   .state-facts dt { font-size: 0.9rem; color: var(--ink-soft); }
   .state-facts dd { margin: 0; font-family: var(--display); font-weight: 700; font-size: 2rem; color: var(--pasture-deep); }
+  .sort-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 0.4rem 0.6rem; margin: -0.25rem 0 0.75rem; }
+  .sort-bar[hidden] { display: none; }
+  .sort-bar label { font-weight: 600; font-size: 0.95rem; }
+  .sort-bar select { min-height: 40px; max-width: 100%; }
 </style>

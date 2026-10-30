@@ -1,0 +1,193 @@
+---
+// "Quick picks" band for a state page: up to three use cases, each answered by
+// exactly one farm chosen by fixed rules on listing data. No farm pays for placement.
+// Used only by src/pages/farms/[state].astro.
+import FeedingLabel from './FeedingLabel.astro';
+import { STATE_BY_ABBR, CERTIFICATIONS, reach, feedingLabel } from '../data/states.mjs';
+import { fmtDate, daysSince, FRESH_DAYS } from '../data/format.mjs';
+interface Props { st: { abbr: string; name: string; slug: string }; based: any[]; shipIn: any[] }
+const { st, based, shipIn } = Astro.props;
+
+const GRASSFED_CERTS = ['aga', 'agw-grassfed', 'opt'];
+const PICKUP = ['on-farm-store', 'farm-pickup'];
+
+// Certifications we confirmed in the certifier's listing. Organic pasture is left out:
+// the land is certified, the animals are not.
+const certsOf = (f: any) => (f.certifications ?? []).filter((c: any) => CERTIFICATIONS[c.program] && c.program !== 'usda-organic-pasture');
+const grassCert = (f: any) => certsOf(f).find((c: any) => GRASSFED_CERTS.includes(c.program));
+const anyCert = (f: any) => grassCert(f) ?? certsOf(f)[0];
+// 2 for a grass-fed certification, 1 for a welfare or organic one, 0 for none.
+const certRank = (f: any) => (grassCert(f) ? 2 : certsOf(f).length ? 1 : 0);
+const dairyOnly = (f: any) => (f.species ?? []).length > 0 && (f.species ?? []).every((s: string) => s.startsWith('dairy-'));
+// Grass-finished first. A dairy herd described as grass-fed counts as the top level, as in the home page matcher.
+const feedRank = (f: any) => {
+  const lvl = feedingLabel(f).level;
+  if (lvl === 'gff' || (lvl === 'gf' && dairyOnly(f))) return 3;
+  if (lvl === 'both') return 2;
+  if (lvl === 'gf') return 1;
+  return 0;
+};
+// "Ships nationwide" on a farm's site usually means the continental US, so for Alaska and
+// Hawaii a pick needs the state named in the farm's own shipping list.
+const offMainland = ['AK', 'HI'].includes(st.abbr);
+const shipsHere = (f: any) => { const r = reach(f); return r.shipsTo.has(st.abbr) || (r.nationwide && !offMainland); };
+const ordersOnline = (f: any) => !!f.ordering_url || (f.sales_channels ?? []).includes('online-order');
+// Every pick must claim grass feeding, be taking orders as far as we know, and have a fresh check.
+const eligible = (f: any) =>
+  feedRank(f) > 0 &&
+  (!f.availability || f.availability.status === 'available') &&
+  !!f.last_verified_at && daysSince(f.last_verified_at) <= FRESH_DAYS;
+
+type Key = (f: any) => number | string;
+// Sort by each key in turn, highest first; ties end on farm name A to Z.
+const best = (pool: any[], keys: Key[], used: Set<string>) =>
+  pool
+    .filter((f) => eligible(f) && !used.has(f.slug))
+    .sort((a, b) => {
+      for (const k of keys) {
+        const x = k(a), y = k(b);
+        if (x !== y) return x > y ? -1 : 1;
+      }
+      return a.farm_name.localeCompare(b.farm_name);
+    })[0];
+
+const home = based.length > 0;
+const pool = home ? based : shipIn.filter(shipsHere);
+const used = new Set<string>();
+const verified = (f: any) => f.last_verified_at ?? '';
+
+const tickCert = (f: any) => { const c = anyCert(f); return c ? CERTIFICATIONS[c.program].short : ''; };
+const tickShip = (f: any) => (reach(f).shipsTo.has(st.abbr) ? `Ships to ${st.name}` : reach(f).nationwide ? 'Ships nationwide' : '');
+const tickLocal = (f: any) => {
+  if (f.state !== st.abbr) return '';
+  const r = reach(f);
+  const ch = f.sales_channels ?? [];
+  if (ch.some((c: string) => PICKUP.includes(c)) || r.pickup.length > 0) return 'Farm pickup';
+  if (ch.includes('local-delivery') || r.localAreas.length > 0 || !!r.radius) return 'Local delivery';
+  return '';
+};
+const tickChecked = (f: any) => `Listing checked ${fmtDate(f.last_verified_at)}`;
+
+const picks: { key: string; title: string; farm: any; why: string[] }[] = [];
+const add = (key: string, title: string | ((f: any) => string), farm: any, why: (f: any) => string[]) => {
+  if (!farm) return;
+  used.add(farm.slug);
+  const ticks = why(farm).filter(Boolean);
+  // Always 2 or 3 ticks: the listing check date fills in when the farm has fewer facts to show.
+  const list = [...ticks.slice(0, 2), tickChecked(farm)];
+  if (ticks.length >= 3) list[2] = ticks[2];
+  picks.push({ key, title: typeof title === 'function' ? title(farm) : title, farm, why: list });
+};
+
+add(
+  'bulk',
+  'Best for a quarter or half share',
+  best(pool.filter((f) => f.bulk_shares), [feedRank, certRank, verified], used),
+  (f) => ['Sells quarter or half shares', tickCert(f), tickLocal(f) || tickShip(f)],
+);
+add(
+  'certified',
+  (f) => (grassCert(f) ? 'Certified grass-fed' : 'Third-party certified'),
+  best(pool.filter((f) => certRank(f) > 0), [certRank, feedRank, verified], used),
+  (f) => [tickCert(f), "Confirmed in the certifier's own listing", tickLocal(f) || tickShip(f)],
+);
+add(
+  'ships',
+  'Shipped to your door',
+  best([...based, ...shipIn].filter(shipsHere), [feedRank, certRank, (f) => (f.ordering_url ? 1 : 0), verified], used),
+  (f) => [tickShip(f), ordersOnline(f) ? 'Orders online' : '', tickCert(f)],
+);
+
+const where = (f: any) => {
+  const name = STATE_BY_ABBR[f.state]?.name ?? f.state;
+  return f.state === st.abbr ? `${f.city}, ${name}` : `Ships from ${f.city}, ${name}`;
+};
+const scope = home ? `based in ${st.name}` : `in other states that ship to ${st.name}`;
+---
+{picks.length > 0 && (
+  <section class="picks" id="quick-picks" aria-labelledby="picks-title" data-state={st.abbr}>
+    <h2 id="picks-title">Quick picks for {st.name}</h2>
+    <ul class="pick-list">
+      {picks.map((p) => {
+        const shop = p.farm.ordering_url || p.farm.website;
+        return (
+          <li class="pick" data-pick={p.key}>
+            <h3>{p.title}</h3>
+            <p class="pick-name">{p.farm.farm_name}</p>
+            <p class="pick-where">{where(p.farm)}</p>
+            <FeedingLabel farm={p.farm} />
+            <ul class="pick-why">{p.why.map((w) => <li>{w}</li>)}</ul>
+            <div class="pick-actions">
+              {shop && (
+                <a class="btn pick-order" href={shop} target="_blank" rel="nofollow noopener" data-pick={p.key} data-farm={p.farm.slug}>
+                  {p.farm.ordering_url ? 'Order from the farm' : "Visit the farm's site"}<span class="visually-hidden"> ({p.farm.farm_name}, opens in a new tab)</span>
+                </a>
+              )}
+              <a class="btn secondary pick-details" href={`/farm/${p.farm.slug}/`} data-pick={p.key} data-farm={p.farm.slug}>
+                Details<span class="visually-hidden"> for {p.farm.farm_name}</span>
+              </a>
+            </div>
+          </li>
+        );
+      })}
+    </ul>
+    <p class="pick-note small">
+      Picked automatically from our <a href="/methodology/">verified listing data</a>. No farm pays for placement.
+    </p>
+    <details class="pick-rules small">
+      <summary>How these are picked</summary>
+      <ul>
+        <li>We look only at farms {scope} whose own website says their animals are grass-fed, that we checked in the last {Math.round(FRESH_DAYS / 30)} months, and that are not marked sold out or paused.</li>
+        <li><strong>Quarter or half share:</strong> farms that sell bulk shares. Grass-finished first, then third-party certified, then the most recently checked.{!home && ' Ask a farm in another state whether its bulk shares ship.'}</li>
+        <li><strong>Certified:</strong> farms with a certification we found in the certifier's own listing. Grass-fed certifications come before welfare or organic ones, then grass-finished, then the most recently checked.</li>
+        <li><strong>Shipped to your door:</strong> any farm that {offMainland ? `names ${st.name} in its shipping area` : `says it ships nationwide or to ${st.name}`}. Grass-finished first, then certified, then farms with an online order page, then the most recently checked.</li>
+        <li>Each farm appears only once. If no farm fits a use case, we leave it out.</li>
+      </ul>
+    </details>
+  </section>
+)}
+
+<script>
+  const band = document.getElementById('quick-picks');
+  if (band) {
+    band.addEventListener('click', (e) => {
+      const a = (e.target as HTMLElement).closest<HTMLAnchorElement>('a[data-pick]');
+      if (!a) return;
+      const g = (window as any).gtag;
+      if (typeof g !== 'function') return;
+      g('event', a.classList.contains('pick-order') ? 'state_pick_order_click' : 'state_pick_details_click', {
+        state: band.dataset.state,
+        pick: a.dataset.pick,
+        farm: a.dataset.farm,
+      });
+    });
+  }
+</script>
+
+<style>
+  .picks { margin: 1.75rem 0 0.5rem; }
+  .picks h2 { margin: 0 0 0.85rem; }
+  .pick-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.85rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); }
+  .pick {
+    display: flex; flex-direction: column; min-width: 0;
+    padding: 1rem 1.1rem 1.1rem; border-radius: var(--radius-md);
+    background: rgba(255,255,255,0.78); border: 1px solid rgba(31,64,41,0.14); border-top: 4px solid var(--pasture);
+    box-shadow: inset 0 1px 0 #fff, 0 6px 20px rgba(24,48,30,0.06);
+  }
+  .pick h3 { margin: 0 0 0.55rem; font: 600 0.82rem/1.3 var(--body); letter-spacing: 0.06em; text-transform: uppercase; color: var(--pasture); }
+  .pick-name { margin: 0; font: 600 1.25rem/1.25 var(--display); color: var(--pasture-deep); overflow-wrap: anywhere; }
+  .pick-where { margin: 0.15rem 0 0; font-size: 0.92rem; color: var(--ink-soft); }
+  .pick-why { list-style: none; padding: 0; margin: 0.7rem 0 0; display: grid; gap: 0.25rem; font-size: 0.92rem; color: var(--pasture-deep); }
+  .pick-why li { padding-left: 1.3em; text-indent: -1.3em; }
+  .pick-why li::before { content: '✓'; display: inline-block; width: 1.3em; text-indent: 0; font-weight: 700; color: var(--pasture); }
+  .pick-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: auto; padding-top: 0.95rem; }
+  .pick-actions .btn { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 0.5em 1.05em; font-size: 0.95rem; flex: 1 1 auto; text-align: center; }
+  .pick-order::after { content: ' ↗'; white-space: pre; }
+  .pick-note { margin: 0.85rem 0 0; color: var(--ink-soft); }
+  .pick-rules { margin: 0.35rem 0 0; color: var(--ink-soft); }
+  .pick-rules summary { cursor: pointer; color: var(--sky); text-decoration: underline; text-underline-offset: 0.18em; padding: 0.3rem 0; }
+  .pick-rules ul { margin: 0.5rem 0 0; padding-left: 1.2rem; display: grid; gap: 0.3rem; max-width: var(--measure); }
+  @media (prefers-reduced-transparency: reduce) {
+    .pick { background: #fff; box-shadow: none; }
+  }
+</style>
