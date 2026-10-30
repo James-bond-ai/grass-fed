@@ -1,0 +1,90 @@
+---
+// Example farm listing for the "List your farm" page. It is built from the same
+// farm data model and helpers as FarmRow, with an obviously fictional farm, so a
+// farmer sees the feeding label, tags and Verified stamp their listing would get.
+// Used only by src/pages/list-your-farm.astro.
+import FeedingLabel from './FeedingLabel.astro';
+import Stamp from './Stamp.astro';
+import { SPECIES, CERTIFICATIONS, FEEDING, reach } from '../data/states.mjs';
+import { fmtDate } from '../data/format.mjs';
+
+const today = new Date().toISOString().slice(0, 10);
+const example = {
+  farm_name: 'Your Farm Name',
+  city: 'Your Town',
+  species: ['beef', 'pork', 'eggs'],
+  feeding_claim: {
+    category: 'grass-finished',
+    verbatim: 'Our cattle graze pasture and eat hay from birth to harvest. No grain, ever.',
+  },
+  certifications: [{ program: 'aga' }],
+  sales_channels: ['farm-pickup', 'local-delivery', 'ships-regional'],
+  bulk_shares: true,
+  delivery: { ships_to: ['AA', 'BB', 'CC'], local_areas: [], local_radius_miles: null },
+  last_verified_at: today,
+};
+const r = reach(example);
+const certs = example.certifications.filter((c) => CERTIFICATIONS[c.program]);
+const shipLabel = r.nationwide ? 'Ships nationwide' : r.shipsTo.size ? `Ships to ${r.shipsTo.size} states` : '';
+---
+<div class="lp">
+  <figure class="lp-card">
+    <figcaption class="lp-badge">Example listing</figcaption>
+    <ul class="farm-list lp-list">
+      <li class="farm-row">
+        <div>
+          <h3 class="lp-name">{example.farm_name}<span class="pin" aria-hidden="true">1</span></h3>
+          <p class="where">{example.city}, Your State</p>
+          <div class="lp-inline"><FeedingLabel farm={example} /><span class="pin" aria-hidden="true">2</span></div>
+          <ul class="tags">
+            {certs.map((c) => <li class="tag cert">{CERTIFICATIONS[c.program].short}</li>)}
+            {example.species.map((s) => <li class="tag">{SPECIES[s]}</li>)}
+            {example.bulk_shares && <li class="tag">Bulk shares</li>}
+            <li class="tag ship">Local delivery</li>
+            {shipLabel && <li class="tag ship">{shipLabel}</li>}
+            <li class="lp-pin-li" aria-hidden="true"><span class="pin">3</span></li>
+          </ul>
+        </div>
+        <div class="lp-stamp"><Stamp date={example.last_verified_at} /><span class="pin" aria-hidden="true">4</span></div>
+      </li>
+    </ul>
+    <div class="lp-quote">
+      <p class="lp-quote-head">On your farm's own page<span class="pin" aria-hidden="true">5</span></p>
+      <p class="claim">{example.feeding_claim.verbatim}</p>
+      <p class="small muted">How the farm describes it on its website, as of {fmtDate(today)}. Our summary: {FEEDING[example.feeding_claim.category]}.</p>
+    </div>
+  </figure>
+  <ol class="lp-key">
+    <li><strong>Your farm name and town.</strong> Each listing links to its own page with how to buy, where you deliver, and a link to your website.</li>
+    <li><strong>A feeding label.</strong> Grass-fed and grass-finished are shown as separate claims, based on how your website describes feeding.</li>
+    <li><strong>Tags shoppers can filter by:</strong> what you sell, certifications we confirmed, bulk shares, and pickup, delivery or shipping.</li>
+    <li><strong>The Verified stamp,</strong> dated the last time we checked your listing against your website.</li>
+    <li><strong>Your own words.</strong> We quote how your website describes feeding and link to the page where it says so.</li>
+  </ol>
+</div>
+
+<style>
+  .lp { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 1.5rem 2.5rem; align-items: start; margin-top: 1.25rem; }
+  .lp-card { position: relative; margin: 0; padding: 1.6rem 1.25rem 1.1rem; border-radius: var(--radius-lg); background: rgba(255,255,255,0.86); border: 1px solid rgba(31,64,41,0.12); box-shadow: 0 10px 30px rgba(24,48,30,0.10); min-width: 0; }
+  .lp-badge { position: absolute; top: -0.8rem; left: 1.1rem; padding: 0.2em 0.8em; border-radius: 999px; background: var(--hay-tint); border: 1px dashed var(--hay); color: #6d4f0b; font-size: 0.82rem; font-weight: 700; letter-spacing: 0.02em; }
+  .lp-list { border-top: 0; }
+  .lp-list .farm-row { border-bottom: 1px dashed var(--rule); padding-top: 0.4rem; }
+  .lp-name { color: var(--pasture-deep); display: flex; align-items: center; flex-wrap: wrap; gap: 0.3rem; }
+  .lp-inline { display: flex; align-items: center; flex-wrap: wrap; gap: 0.4rem; }
+  .lp-inline .pin { margin-top: 0.45rem; }
+  .lp-pin-li { display: inline-flex; align-items: center; }
+  .lp-stamp { display: flex; align-items: center; gap: 0.4rem; }
+  .lp-quote { padding-top: 0.9rem; }
+  .lp-quote-head { display: flex; align-items: center; gap: 0.4rem; margin: 0 0 0.35rem; font-weight: 600; color: var(--pasture-deep); font-size: 0.95rem; }
+  .lp-quote .claim { font-size: 1.05rem; }
+  .lp-quote .small { margin: 0.4rem 0 0; }
+  .pin, .lp-key li::before { display: inline-grid; place-items: center; flex: none; width: 1.35rem; height: 1.35rem; border-radius: 50%; background: #7a5609; color: #fff; font: 700 0.75rem/1 var(--body); }
+  .pin { margin-left: 0.15rem; }
+  .lp-key { list-style: none; counter-reset: k; padding: 0; margin: 0; display: grid; gap: 0.85rem; }
+  .lp-key li { counter-increment: k; display: grid; grid-template-columns: 1.35rem 1fr; gap: 0.7rem; align-items: start; line-height: 1.55; }
+  .lp-key li::before { content: counter(k); margin-top: 0.15rem; }
+  .lp-key strong { color: var(--pasture-deep); }
+  @media (max-width: 860px) {
+    .lp { grid-template-columns: minmax(0, 1fr); }
+  }
+</style>
