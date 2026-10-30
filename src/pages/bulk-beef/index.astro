@@ -4,6 +4,7 @@ import FarmRow from '../../components/FarmRow.astro';
 import Filters from '../../components/Filters.astro';
 import Icon from '../../components/Icon.astro';
 import FeedingKey from '../../components/FeedingKey.astro';
+import BulkPlanner from '../../components/BulkPlanner.astro';
 import { loadBulkBeefFarms, bulkBeefStates, bulkIndexable, BULK_GUIDE } from '../../data/bulk.mjs';
 
 const farms = loadBulkBeefFarms();
@@ -16,11 +17,14 @@ const states = bulkBeefStates(farms).sort((a, b) => a.st.name.localeCompare(b.st
   {states.length > 0 && (
     <p class="state-pills">{states.map(({ st, farms: sf }) => <a href={`/bulk-beef/${st.slug}/`}>{st.name} <span>{sf.length}</span></a>)}</p>
   )}
+  <BulkPlanner count={farms.length} target="bulk-farms" />
   {farms.length ? (
     <>
       <FeedingKey />
-      <Filters listId="bulk" total={farms.length} mode="bulk" />
-      <ul class="farm-list" id="bulk">{farms.map((f) => <FarmRow farm={f} />)}</ul>
+      <div id="bulk-farms" class="bulk-farms">
+        <Filters listId="bulk" total={farms.length} mode="bulk" />
+        <ul class="farm-list" id="bulk">{farms.map((f) => <FarmRow farm={f} />)}</ul>
+      </div>
     </>
   ) : (
     <p class="empty">We're verifying farms that sell bulk beef now. <a href="/list-your-farm/">Sell quarter or half shares? List your farm.</a></p>
@@ -32,5 +36,6 @@ const states = bulkBeefStates(farms).sort((a, b) => a.st.name.localeCompare(b.st
   .state-pills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
   .state-pills a { border: 1px solid var(--rule); border-radius: 999px; padding: 0.3em 0.9em; text-decoration: none; color: var(--pasture-deep); background: #fff; }
   .state-pills a:hover { border-color: var(--pasture); }
+  .bulk-farms { scroll-margin-top: calc(var(--header-h) + 12px); }
   .state-pills span { color: var(--ink-soft); font-size: 0.85em; margin-left: 0.25em; }
 </style>

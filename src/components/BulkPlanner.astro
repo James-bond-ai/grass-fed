@@ -1,0 +1,353 @@
+---
+// "Quarter, half or whole: what will I get?" planner for the bulk beef pages.
+// Every figure comes from the quarter cow guide via bulk-planner.mjs. Prices
+// are never ours: the cost result appears only from numbers the visitor types.
+import {
+  SHARES, SHARE_KEYS, HOUSEHOLD, YIELD, YIELD_BONELESS, STORAGE_MONTHS, GROUND_MONTHS, MN_QUARTER_CU_FT,
+  estimate, paceToFinish, freezerBlocks, fmtRange,
+} from './bulk-planner.mjs';
+import { BULK_GUIDE } from '../data/bulk.mjs';
+
+interface Props {
+  /** Farms on this page that sell bulk shares. The CTA is left out when 0. */
+  count: number;
+  /** State name for the CTA, on state pages. */
+  stateName?: string;
+  /** Id of the farm list section the CTA scrolls to. */
+  target?: string;
+}
+const { count, stateName, target = 'bulk-farms' } = Astro.props;
+
+const start = estimate('quarter');
+const pace = paceToFinish(start, HOUSEHOLD.start);
+const blocks = freezerBlocks(start.freezer);
+const pct = (r: number[]) => `${Math.round(r[0] * 100)} to ${Math.round(r[1] * 100)} percent`;
+const months = `${STORAGE_MONTHS[0]} to ${STORAGE_MONTHS[1]} months`;
+const cta = `${count} ${count === 1 ? 'farm sells' : 'farms sell'} quarter or half shares${stateName ? ` in ${stateName}` : ''}`;
+---
+<section class="planner" aria-labelledby="planner-title" data-planner data-state={stateName ?? ''}>
+  <div class="pl-head">
+    <h2 id="planner-title">Quarter, half or whole: what will I get?</h2>
+    <p class="pl-intro">See how much beef a share really is, how much freezer it needs and how long it lasts your household.</p>
+  </div>
+
+  <noscript>
+    <style is:inline>.pl-live { display: none !important; }</style>
+    <div class="table-scroll">
+      <table class="pl-table">
+        <caption>Typical estimates by share size, bone-in cuts</caption>
+        <thead>
+          <tr><th scope="col">Share</th><th scope="col">Hanging weight</th><th scope="col">Take-home beef</th><th scope="col">Freezer space</th></tr>
+        </thead>
+        <tbody>
+          {SHARE_KEYS.map((k) => {
+            const e = estimate(k);
+            return <tr><th scope="row">{e.label}</th><td>{fmtRange(e.hanging)} lb</td><td>{fmtRange(e.takeHome)} lb</td><td>{fmtRange(e.freezer, 1)} cu ft</td></tr>;
+          })}
+        </tbody>
+      </table>
+    </div>
+    <p class="pl-sub">To finish a share within the {months} that frozen beef keeps, plan on eating it steadily: a quarter is about {fmtRange(pace, 1)} lb per person a week for a household of {HOUSEHOLD.start}.</p>
+  </noscript>
+
+  <div class="pl-live">
+    <form class="pl-form" id="planner-form" aria-label="Plan a beef share">
+      <fieldset class="pl-field">
+        <legend>Share size</legend>
+        <div class="seg">
+          {SHARE_KEYS.map((k) => (
+            <label class="seg-opt">
+              <input type="radio" name="share" value={k} checked={k === 'quarter'} />
+              <span>{SHARES[k].label}</span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <div class="pl-field">
+        <label for="pl-household">People in your household</label>
+        <div class="stepper">
+          <button type="button" data-step="-1" aria-label="One fewer person" aria-controls="pl-household">&minus;</button>
+          <input id="pl-household" name="household" type="number" inputmode="numeric" min={HOUSEHOLD.min} max={HOUSEHOLD.max} step="1" value={HOUSEHOLD.start} />
+          <button type="button" data-step="1" aria-label="One more person" aria-controls="pl-household">+</button>
+        </div>
+      </div>
+
+      <div class="pl-field">
+        <label for="pl-price">Farm price per lb of hanging weight <span class="opt">optional</span></label>
+        <div class="money"><span aria-hidden="true">$</span><input id="pl-price" name="price" type="text" inputmode="decimal" autocomplete="off" aria-describedby="pl-price-hint" /></div>
+        <p class="pl-hint" id="pl-price-hint">Use the farm's own price. We show a cost only when you enter one.</p>
+      </div>
+
+      <details class="pl-more">
+        <summary>Add butcher costs or how much you eat</summary>
+        <div class="pl-more-body">
+          <div class="pl-field">
+            <label for="pl-processing">Processing per lb of hanging weight</label>
+            <div class="money"><span aria-hidden="true">$</span><input id="pl-processing" name="processing" type="text" inputmode="decimal" autocomplete="off" /></div>
+          </div>
+          <div class="pl-field">
+            <label for="pl-fee">Slaughter fee for the whole animal</label>
+            <div class="money"><span aria-hidden="true">$</span><input id="pl-fee" name="fee" type="text" inputmode="decimal" autocomplete="off" aria-describedby="pl-fee-hint" /></div>
+            <p class="pl-hint" id="pl-fee-hint">We split it by your share size.</p>
+          </div>
+          <div class="pl-field">
+            <label for="pl-weekly">Beef each person eats a week</label>
+            <div class="money unit"><input id="pl-weekly" name="weekly" type="text" inputmode="decimal" autocomplete="off" /><span aria-hidden="true">lb</span></div>
+          </div>
+        </div>
+      </details>
+    </form>
+
+    <div class="pl-results">
+      <dl class="pl-stats">
+        <div class="stat">
+          <dt>Hanging weight</dt>
+          <dd class="big"><b data-out="hanging">{fmtRange(start.hanging)}</b> lb</dd>
+          <dd class="note">What farms usually charge by</dd>
+        </div>
+        <div class="stat lead">
+          <dt>Beef you take home</dt>
+          <dd class="big"><b data-out="take">{fmtRange(start.takeHome)}</b> lb</dd>
+          <dd class="note">Cut, wrapped, bone-in</dd>
+        </div>
+        <div class="stat freezer">
+          <dt>Freezer space</dt>
+          <dd class="big"><b data-out="freezer">{fmtRange(start.freezer, 1)}</b> cu ft</dd>
+          <dd class="viz" aria-hidden="true">
+            <span class="chest"><span class="blocks" data-out="blocks">{blocks.map((b, i) => <i style={`--s:${b.solid};--u:${b.upTo};--i:${i}`}></i>)}</span></span>
+            <span class="key"><span><span class="sw lo"></span> low end</span><span><span class="sw up"></span> high end</span><span>Each block is 1 cu ft</span></span>
+          </dd>
+        </div>
+        <div class="stat household">
+          <dt data-out="household-title">For {HOUSEHOLD.start} people</dt>
+          <dd class="big"><b data-out="household-big">{fmtRange(pace, 1)}</b> <span data-out="household-unit">lb a week each</span></dd>
+          <dd class="note" data-out="household-note">Finishes it in the {months} frozen beef keeps</dd>
+        </div>
+        <div class="stat cost" data-out="cost" hidden>
+          <dt>Estimated cost</dt>
+          <dd class="big"><b data-out="total"></b></dd>
+          <dd class="note"><strong data-out="perlb"></strong> per lb you take home</dd>
+          <dd class="note" data-out="cost-note"></dd>
+        </div>
+      </dl>
+      <p class="visually-hidden" aria-live="polite" data-out="summary"></p>
+    </div>
+  </div>
+
+  <p class="pl-caveats">
+    Estimates, not quotes: your animal can land outside these ranges. Bone-in cuts return about {pct(YIELD)} of hanging weight, boneless about {pct(YIELD_BONELESS)}. Minnesota Extension suggests more room than this math, at least {MN_QUARTER_CU_FT.chest} cu ft in a chest freezer or {MN_QUARTER_CU_FT.upright} in an upright for a quarter. Ground beef keeps {GROUND_MONTHS[0]} to {GROUND_MONTHS[1]} months, so eat it first. <a href={BULK_GUIDE}>Figures from our quarter cow guide</a>.
+  </p>
+
+  {count > 0 && (
+    <p class="pl-cta-row"><a class="btn pl-cta" href={`#${target}`} data-planner-cta>{cta} <span aria-hidden="true">&darr;</span></a></p>
+  )}
+</section>
+
+<script>
+  import {
+    estimate, estimateCost, paceToFinish, monthsToEat, freezerBlocks, clampHousehold, toPositive,
+    fmtRange, fmtMoneyRange, fmtCentsRange, HOUSEHOLD, STORAGE_MONTHS,
+  } from './bulk-planner.mjs';
+
+  const root = document.querySelector<HTMLElement>('[data-planner]');
+  const form = document.getElementById('planner-form') as HTMLFormElement | null;
+  if (root && form) {
+    const gtag = (...a: unknown[]) => { const g = (window as any).gtag; if (typeof g === 'function') g(...a); };
+    const out = (k: string) => root.querySelector<HTMLElement>(`[data-out="${k}"]`)!;
+    const household = form.elements.namedItem('household') as HTMLInputElement;
+    const steps = form.querySelectorAll<HTMLButtonElement>('[data-step]');
+    const months = `${STORAGE_MONTHS[0]} to ${STORAGE_MONTHS[1]} months`;
+    const field = (name: string) => (form.elements.namedItem(name) as HTMLInputElement).value;
+    const fmtMonths = (r: number[]) => fmtRange(r, Math.max(...r) < 2 ? 1 : 0);
+    let lastShare = 'quarter';
+    let logTimer: number | undefined;
+    let lastLogged = '';
+
+    const read = () => ({
+      share: (new FormData(form).get('share') as string) || 'quarter',
+      household: clampHousehold(household.value === '' ? HOUSEHOLD.start : household.value),
+      price: field('price'),
+      processing: field('processing'),
+      fee: field('fee'),
+      weekly: field('weekly'),
+    });
+
+    const render = () => {
+      const q = read();
+      const est = estimate(q.share);
+      out('hanging').textContent = fmtRange(est.hanging);
+      out('take').textContent = fmtRange(est.takeHome);
+      out('freezer').textContent = fmtRange(est.freezer, 1);
+      if (est.share !== lastShare) {
+        lastShare = est.share;
+        out('blocks').innerHTML = freezerBlocks(est.freezer)
+          .map((b, i) => `<i style="--s:${b.solid};--u:${b.upTo};--i:${i}"></i>`).join('');
+      }
+
+      const people = `${q.household} ${q.household === 1 ? 'person' : 'people'}`;
+      out('household-title').textContent = `For ${people}`;
+      const mo = monthsToEat(est, q.household, q.weekly);
+      const pace = paceToFinish(est, q.household);
+      let householdSay: string;
+      if (mo) {
+        const w = toPositive(q.weekly)!;
+        out('household-big').textContent = fmtMonths(mo);
+        out('household-unit').textContent = 'months';
+        const long = Math.max(...mo) > STORAGE_MONTHS[1];
+        out('household-note').textContent = `At ${fmtRange([w, w], 2)} lb a week each.${long ? ` Longer than the ${months} frozen beef keeps, so a smaller share may suit you better.` : ''}`;
+        householdSay = `It lasts ${people} about ${fmtMonths(mo)} months.`;
+      } else {
+        out('household-big').textContent = fmtRange(pace, 1);
+        out('household-unit').textContent = q.household === 1 ? 'lb a week' : 'lb a week each';
+        out('household-note').textContent = `Finishes it in the ${months} frozen beef keeps`;
+        householdSay = `${people} would eat about ${fmtRange(pace, 1)} pounds a week ${q.household === 1 ? '' : 'each '}to finish it in ${months}.`;
+      }
+
+      const cost = estimateCost(est, { price: q.price, processing: q.processing, slaughterFee: q.fee });
+      const costBox = out('cost');
+      let costSay = '';
+      if (cost) {
+        out('total').textContent = fmtMoneyRange(cost.total);
+        out('perlb').textContent = fmtCentsRange(cost.perTakeHomeLb);
+        const missing = [!cost.includesProcessing && 'processing', !cost.includesSlaughter && 'the slaughter fee'].filter(Boolean);
+        out('cost-note').textContent = missing.length
+          ? `Add ${missing.join(' and ')} if the farm price leaves ${missing.length > 1 ? 'them' : 'it'} out.`
+          : 'Includes your processing and slaughter fee.';
+        costBox.hidden = false;
+        costSay = ` Estimated cost ${fmtMoneyRange(cost.total)}, or ${fmtCentsRange(cost.perTakeHomeLb)} per pound you take home.`;
+      } else {
+        costBox.hidden = true;
+      }
+
+      out('summary').textContent = `${est.label}: about ${fmtRange(est.takeHome)} pounds of beef, needing ${fmtRange(est.freezer, 1)} cubic feet of freezer. ${householdSay}${costSay}`;
+      for (const b of steps) {
+        const d = Number(b.dataset.step);
+        b.disabled = d < 0 ? q.household <= HOUSEHOLD.min : q.household >= HOUSEHOLD.max;
+      }
+      return { q, hasPrice: !!cost };
+    };
+
+    const update = () => {
+      const { q, hasPrice } = render();
+      window.clearTimeout(logTimer);
+      const key = `${q.share}|${q.household}|${hasPrice}`;
+      logTimer = window.setTimeout(() => {
+        if (key === lastLogged) return;
+        lastLogged = key;
+        gtag('event', 'bulk_planner_use', { share: q.share, household: q.household, has_price: hasPrice });
+      }, 1500);
+    };
+
+    form.addEventListener('input', update);
+    form.addEventListener('change', (e) => {
+      if (e.target === household) household.value = String(clampHousehold(household.value === '' ? HOUSEHOLD.start : household.value));
+      update();
+    });
+    form.addEventListener('submit', (e) => e.preventDefault());
+    for (const b of steps) {
+      b.addEventListener('click', () => {
+        household.value = String(clampHousehold(Number(household.value || HOUSEHOLD.start) + Number(b.dataset.step)));
+        update();
+      });
+    }
+    root.querySelector('[data-planner-cta]')?.addEventListener('click', () => {
+      gtag('event', 'bulk_planner_cta_click', { share: read().share, state: root.dataset.state || 'all' });
+    });
+    render();
+  }
+</script>
+
+<style>
+  .planner {
+    margin: 1.75rem 0 2rem; padding: clamp(16px, 3vw, 30px); border-radius: var(--radius-lg);
+    background: rgba(255,255,255,0.74); border: 1px solid rgba(31,64,41,0.12);
+    box-shadow: inset 0 1px 0 #fff, 0 8px 24px rgba(24,48,30,0.06);
+  }
+  .pl-head h2 { margin: 0 0 0.3rem; }
+  .pl-intro { color: var(--ink-soft); margin: 0 0 1.1rem; max-width: 60ch; }
+
+  .pl-live { display: grid; gap: 1.25rem 2rem; grid-template-columns: minmax(0, 1fr); }
+  @media (min-width: 880px) { .pl-live { grid-template-columns: minmax(260px, 330px) minmax(0, 1fr); align-items: start; } }
+
+  .pl-form { display: grid; gap: 1rem; min-width: 0; }
+  .pl-field { border: 0; padding: 0; margin: 0; min-width: 0; display: grid; gap: 0.35rem; }
+  .pl-field legend, .pl-field > label { font-weight: 600; color: var(--pasture-deep); padding: 0; margin-bottom: 0.35rem; }
+  .pl-field > label { margin-bottom: 0; }
+  .opt { font-weight: 400; color: var(--ink-soft); font-size: 0.85rem; }
+  .pl-hint { margin: 0; font-size: 0.85rem; color: var(--ink-soft); }
+
+  .seg { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 4px; gap: 4px; border-radius: 999px; background: var(--paper-2); border: 1px solid rgba(31,64,41,0.14); }
+  .seg-opt { position: relative; display: block; }
+  .seg-opt input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; margin: 0; cursor: pointer; }
+  .seg-opt span { display: flex; align-items: center; justify-content: center; min-height: 44px; padding: 0 0.5rem; border-radius: 999px; font-weight: 600; color: var(--pasture-deep); transition: background-color 140ms ease, color 140ms ease; }
+  .seg-opt:hover span { background: rgba(255,255,255,0.8); }
+  .seg-opt input:checked + span { background: var(--pasture); color: #fff; box-shadow: inset 0 1px 0 rgba(255,255,255,0.35), 0 2px 6px rgba(31,64,41,0.2); }
+  .seg-opt input:focus-visible + span { outline: 3px solid var(--hay); outline-offset: 2px; }
+
+  .stepper { display: inline-flex; align-items: center; gap: 0.4rem; }
+  .stepper button { width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid var(--pasture); background: #fff; color: var(--pasture-deep); font: 600 1.35rem/1 var(--body); cursor: pointer; }
+  .stepper button:hover:not(:disabled) { background: var(--paper-2); }
+  .stepper button:disabled { opacity: 0.4; cursor: default; }
+  .stepper input { width: 4.2rem; text-align: center; font: 600 1.15rem var(--body); }
+
+  .money { display: flex; align-items: center; gap: 0.4rem; max-width: 13rem; }
+  .money span { font-weight: 600; color: var(--ink-soft); }
+  .pl-form input[type='number'], .money input {
+    font: inherit; color: var(--ink); background: #fff; border: 1.5px solid var(--rule);
+    border-radius: 12px; padding: 0.5em 0.7em; min-height: 44px; width: 100%; min-width: 0;
+  }
+  .pl-form input[type='number'] { width: 4.2rem; padding-inline: 0.3em; }
+  .pl-form input:focus { border-color: var(--pasture); }
+
+  .pl-more summary { cursor: pointer; font-weight: 600; color: var(--sky); min-height: 32px; display: flex; align-items: center; }
+  .pl-more-body { display: grid; gap: 0.9rem; padding: 0.75rem 0 0 0.9rem; border-left: 3px solid var(--clover); margin-top: 0.4rem; }
+
+  .pl-results { min-width: 0; container-type: inline-size; }
+  .pl-stats { display: grid; gap: 0.6rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0; }
+  .stat { display: flex; flex-direction: column; gap: 0.15rem; padding: 0.75rem 0.8rem; border-radius: var(--radius-md); background: #fff; border: 1px solid rgba(31,64,41,0.12); min-width: 0; }
+  .stat[hidden] { display: none; }
+  .stat dt { font-size: 0.88rem; font-weight: 600; color: var(--ink-soft); }
+  .stat dd { margin: 0; }
+  .stat .big { font-weight: 600; color: var(--pasture-deep); line-height: 1.1; }
+  .stat .big b { font: 700 clamp(1.25rem, 5vw, 2.3rem)/1.05 var(--display); font-size: clamp(1.25rem, 7cqi, 2.3rem); font-variation-settings: 'SOFT' 100, 'WONK' 0; letter-spacing: -0.01em; }
+  .stat .note { font-size: 0.85rem; color: var(--ink-soft); }
+  .stat .note strong { color: var(--ink); }
+  .stat.lead { background: var(--clover); border-color: #b5c98a; }
+  .stat.lead dt, .stat.lead .note { color: var(--pasture-deep); }
+  .stat.freezer, .stat.household, .stat.cost { grid-column: 1 / -1; }
+  @media (min-width: 600px) { .stat.freezer, .stat.household { grid-column: auto; } }
+  .stat.cost { background: var(--hay-tint); border-color: #e2cf96; }
+  .stat.cost .big { color: #6d4f0b; }
+
+  .viz { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 0.5rem 1rem; margin-top: 0.4rem; }
+  .chest { display: inline-block; padding: 6px; border: 2px solid var(--pasture-deep); border-top-width: 6px; border-radius: 6px 6px 10px 10px; background: var(--paper); }
+  .blocks { display: grid; grid-template-columns: repeat(8, 1.35rem); gap: 3px; }
+  .blocks :global(i) {
+    display: block; width: 1.35rem; height: 1.35rem; border-radius: 3px; border: 1px solid rgba(31,64,41,0.25);
+    background: linear-gradient(to top,
+      var(--pasture) calc(var(--s) * 100%),
+      var(--clover) calc(var(--s) * 100%) calc(var(--u) * 100%),
+      #fff calc(var(--u) * 100%));
+  }
+  .key { font-size: 0.8rem; color: var(--ink-soft); display: flex; flex-direction: column; gap: 0.15rem; }
+  .key > span { display: inline-flex; align-items: center; gap: 0.35rem; }
+  .sw { display: inline-block; width: 0.8rem; height: 0.8rem; border-radius: 2px; border: 1px solid rgba(31,64,41,0.25); }
+  .sw.lo { background: var(--pasture); }
+  .sw.up { background: var(--clover); }
+
+  .pl-caveats { font-size: 0.88rem; color: var(--ink-soft); margin: 1.1rem 0 0; max-width: 75ch; }
+  .pl-cta-row { margin: 1rem 0 0; }
+  .pl-cta { white-space: normal; text-align: center; }
+
+  .pl-table { border-collapse: collapse; width: 100%; font-size: 0.95rem; background: #fff; border-radius: var(--radius-md); }
+  .pl-table caption { text-align: left; font-weight: 600; color: var(--pasture-deep); padding-bottom: 0.4rem; }
+  .pl-table th, .pl-table td { text-align: left; padding: 0.5em 0.75em; border-bottom: 1px solid var(--rule); }
+  .pl-table thead th { color: var(--pasture-deep); font-size: 0.88rem; }
+  .pl-sub { margin: 0.75rem 0 0; color: var(--ink-soft); font-size: 0.95rem; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .blocks :global(i) { animation: pl-pop 260ms cubic-bezier(.2,.9,.3,1.2) both; animation-delay: calc(var(--i) * 22ms); }
+    @keyframes pl-pop { from { opacity: 0; transform: scale(0.6); } to { opacity: 1; transform: none; } }
+  }
+</style>
