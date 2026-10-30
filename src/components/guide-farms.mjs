@@ -2,7 +2,7 @@
 // Each guide id maps to the farms a reader of that guide is most likely to want,
 // the hub page that lists them, and the page to open for a chosen state.
 // Guides without an entry here fall back to DEFAULT_SET (every published farm).
-import { STATES, CERTIFICATIONS, sellsDairy } from '../data/states.mjs';
+import { STATES, CERTIFICATIONS, SPECIES, sellsDairy } from '../data/states.mjs';
 import { loadPublishedFarms, stateCoverage } from '../data/farms.mjs';
 import { sellsBulkBeef } from '../data/bulk.mjs';
 
@@ -14,6 +14,11 @@ const rawMilk = (f) => (f.dairy_products ?? []).includes('raw-milk');
 const FINISH_RANK = { 'grass-finished': 0, both: 1, 'grass-fed': 2 };
 
 const farmsState = (s) => `/farms/${s.slug}/`;
+// State page links can carry filter presets (read by Filters.astro), e.g. ?feed=gff.
+const withParams = (url, params) => {
+  const q = new URLSearchParams(params ?? {}).toString();
+  return q ? `${url}?${q}` : url;
+};
 
 const DEFAULT_SET = {
   filter: () => true,
@@ -25,6 +30,9 @@ const DEFAULT_SET = {
   count: (n) => `${n} verified ${plural(n, 'farm is', 'farms are')} listed, each checked against the farm's own website.`,
   compact: (n) => `${n} verified ${plural(n, 'farm is', 'farms are')} listed on grassfed.food, each checked against the farm's own website.`,
   note: 'Pick your state to see farms based there and farms elsewhere that ship to you.',
+  // Offer a "What you want to buy" choice next to the state picker; it opens the state
+  // page with that species filter set. Off for hubs whose pages have no species filter.
+  speciesPick: true,
 };
 
 const SETS = {
@@ -34,6 +42,7 @@ const SETS = {
     hubCta: 'Browse bulk beef farms',
     stateUrl: (s) => `/bulk-beef/${s.slug}/`,
     stateGroup: 'Bulk beef farms based there',
+    speciesPick: false,
     title: 'Find a farm that sells quarter and half shares',
     count: (n) => `${n} verified ${plural(n, 'farm sells', 'farms sell')} beef by the quarter, half or whole animal.`,
     compact: (n) => `Ready to order? ${n} verified ${plural(n, 'farm sells', 'farms sell')} beef by the quarter, half or whole animal.`,
@@ -46,6 +55,7 @@ const SETS = {
     hubCta: 'Browse dairy farms',
     stateUrl: (s) => `/dairy/${s.slug}/`,
     stateGroup: 'Dairy farms based there',
+    speciesPick: false,
     title: 'Find a dairy farm near you',
     count: (n, farms) => {
       const raw = farms.filter(rawMilk).length;
@@ -61,10 +71,11 @@ const SETS = {
     hubCta: 'Browse farms by state',
     stateUrl: farmsState,
     stateGroup: 'Grass-finished farms based there',
+    params: { feed: 'gff' },
     title: 'Find farms that say they grass-finish',
     count: (n) => `${n} verified ${plural(n, 'farm says its', 'farms say their')} animals are grass-fed and grass-finished. Each farm page quotes the farm's own words.`,
     compact: (n) => `${n} verified ${plural(n, 'farm says its', 'farms say their')} animals are grass-fed and grass-finished.`,
-    note: 'On any state page, set Feeding to "Grass-finished available" to narrow the list.',
+    note: 'State pages open with Feeding set to "Grass-finished available". Clear it to see every farm.',
   },
   'grass-fed-certifications-compared': {
     filter: hasCert,
@@ -129,11 +140,19 @@ export function guideFarmSet(id) {
   const other = [];
   for (const s of STATES.slice().sort((a, b) => a.name.localeCompare(b.name))) {
     const k = farmsBased(farms, s.abbr);
-    if (k > 0) primary.push({ name: s.name, label: `${s.name} (${k})`, url: cfg.stateUrl(s) });
-    else if (cov[s.abbr].based + cov[s.abbr].shipIn > 0) other.push({ name: s.name, label: s.name, url: farmsState(s) });
+    if (k > 0) primary.push({ name: s.name, label: `${s.name} (${k})`, url: withParams(cfg.stateUrl(s), cfg.params) });
+    else if (cov[s.abbr].based + cov[s.abbr].shipIn > 0) other.push({ name: s.name, label: s.name, url: withParams(farmsState(s), cfg.params) });
   }
+  // Species this guide's farms sell, most common first, for the "What you want to buy" choice.
+  const speciesCount = {};
+  for (const f of farms) for (const k of new Set(f.species ?? [])) if (SPECIES[k]) speciesCount[k] = (speciesCount[k] ?? 0) + 1;
+  const order = Object.keys(SPECIES);
+  const species = cfg.speciesPick === false ? [] : Object.entries(speciesCount)
+    .sort((a, b) => b[1] - a[1] || order.indexOf(a[0]) - order.indexOf(b[0]))
+    .map(([value, k]) => ({ value, label: `${SPECIES[value]} (${k})` }));
   const out = {
     n,
+    species: species.length > 1 ? species : [],
     farms,
     title: cfg.title,
     count: cfg.count(n, farms),

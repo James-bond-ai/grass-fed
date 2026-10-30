@@ -232,19 +232,27 @@ const jsonLd = [
 
     // State picker: go straight to that state's farms. Without JavaScript the form opens the hub page.
     const form = root.querySelector<HTMLFormElement>('form[data-guide-picker]');
-    const select = form?.querySelector('select');
+    const select = form?.querySelector<HTMLSelectElement>('select:not([data-guide-species])');
+    const speciesSelect = form?.querySelector<HTMLSelectElement>('select[data-guide-species]');
     const msg = form?.querySelector<HTMLElement>('.gfm-msg');
     if (form && select) {
       select.addEventListener('change', () => { if (msg) msg.textContent = ''; });
       form.addEventListener('submit', (e) => {
         e.preventDefault();
-        const to = select.value;
+        let to = select.value;
         if (!to.startsWith('/')) {
           if (msg) msg.textContent = 'Choose a state first.';
           select.focus();
           return;
         }
-        send('guide_cta_click', { guide, target: to });
+        // The state page's filters read ?species= and open with it set.
+        const species = speciesSelect?.value ?? '';
+        if (species) {
+          const url = new URL(to, location.origin);
+          url.searchParams.set('species', species);
+          to = url.pathname + url.search;
+        }
+        send('guide_cta_click', { guide, target: to, ...(species ? { species } : {}) });
         window.location.href = to;
       });
     }

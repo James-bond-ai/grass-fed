@@ -1,0 +1,75 @@
+---
+// Farm count per species for a state page list. Each count is a link that sets the
+// list's "What you want to buy" filter. Without JavaScript the links still jump to the list.
+import { SPECIES } from '../data/states.mjs';
+
+interface Props { farms: any[]; listId: string; anchor: string; label: string }
+const { farms, listId, anchor, label } = Astro.props;
+const order = Object.keys(SPECIES);
+const counts: Record<string, number> = {};
+for (const f of farms) for (const s of new Set<string>(f.species ?? [])) if (SPECIES[s as keyof typeof SPECIES]) counts[s] = (counts[s] ?? 0) + 1;
+const rows = Object.entries(counts).sort((a, b) => b[1] - a[1] || order.indexOf(a[0]) - order.indexOf(b[0]));
+const farmsWord = (k: number) => `${k} ${k === 1 ? 'farm' : 'farms'}`;
+---
+{rows.length > 1 && (
+  <nav class="species-counts" aria-label={label} data-species-for={listId}>
+    <p class="species-counts-label">{label}</p>
+    <ul>
+      <li><a href={`#${anchor}`} data-species="" aria-current="true" aria-label={`Everything: ${farmsWord(farms.length)}`}>Everything <b>{farms.length}</b></a></li>
+      {rows.map(([k, c]) => (
+        <li><a href={`?species=${k}#${anchor}`} data-species={k} aria-label={`${SPECIES[k as keyof typeof SPECIES]}: ${farmsWord(c)}`}>{SPECIES[k as keyof typeof SPECIES]}{" "}<b>{c}</b></a></li>
+      ))}
+    </ul>
+  </nav>
+)}
+<script>
+  for (const nav of document.querySelectorAll<HTMLElement>('nav[data-species-for]')) {
+    const id = nav.dataset.speciesFor!;
+    const form = document.querySelector<HTMLFormElement>(`form[data-filter-for="${id}"]`);
+    const select = form?.elements.namedItem('species');
+    if (!form || !(select instanceof HTMLSelectElement)) continue;
+    const links = [...nav.querySelectorAll<HTMLAnchorElement>('a[data-species]')];
+    const sync = () => {
+      for (const a of links) {
+        if (a.dataset.species === select.value) a.setAttribute('aria-current', 'true');
+        else a.removeAttribute('aria-current');
+      }
+    };
+    sync();
+    form.addEventListener('change', sync);
+    form.addEventListener('filters:preset', sync);
+    nav.addEventListener('click', (e) => {
+      const a = (e.target as Element | null)?.closest?.<HTMLAnchorElement>('a[data-species]');
+      if (!a || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      e.preventDefault();
+      const species = a.dataset.species ?? '';
+      select.value = species;
+      select.dispatchEvent(new Event('change', { bubbles: true }));
+      const url = new URL(location.href);
+      if (species) url.searchParams.set('species', species); else url.searchParams.delete('species');
+      url.hash = '';
+      history.replaceState(null, '', url);
+      const g = (window as any).gtag;
+      if (typeof g === 'function') g('event', 'state_species_filter', { species: species || 'all', list: id });
+      const target = document.getElementById(id);
+      if (target && target.getBoundingClientRect().top > window.innerHeight * 0.6) {
+        const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        form.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+      }
+    });
+  }
+</script>
+<style>
+  .species-counts { margin: 1.25rem 0 0; }
+  .species-counts-label { margin: 0 0 0.45rem; font-weight: 600; color: var(--pasture-deep); }
+  .species-counts ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.45rem; }
+  .species-counts a {
+    display: inline-flex; align-items: center; gap: 0.45em; min-height: 40px; padding: 0.3em 0.85em;
+    border-radius: 999px; border: 1px solid var(--rule); background: #fff;
+    color: var(--ink); text-decoration: none; font-size: 0.95rem;
+  }
+  .species-counts a b { font-family: var(--display); font-weight: 700; color: var(--pasture-deep); }
+  .species-counts a:hover { border-color: #b5c98a; background: var(--paper-2); }
+  .species-counts a[aria-current] { background: var(--clover); border-color: #b5c98a; color: var(--pasture-deep); }
+  .species-counts a:focus-visible { outline: 3px solid var(--sky); outline-offset: 2px; }
+</style>

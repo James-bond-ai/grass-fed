@@ -70,6 +70,15 @@ const tags = (f: any): { text: string; cls: string }[] => {
             </optgroup>
           )}
         </select>
+        {set.species.length > 0 && (
+          <>
+            <label class="visually-hidden" for="gfm-species">What you want to buy</label>
+            <select id="gfm-species" class="glass-field" data-guide-species>
+              <option value="">Anything they sell</option>
+              {set.species.map((o: any) => <option value={o.value}>{o.label}</option>)}
+            </select>
+          </>
+        )}
         <button class="btn" type="submit">Show farms</button>
       </div>
       <p class="gfm-msg" id="gfm-state-msg" aria-live="polite"></p>

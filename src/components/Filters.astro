@@ -74,5 +74,24 @@ const { listId, total, mode = 'all' } = Astro.props;
         : `${shown} ${shown === 1 ? 'farm' : 'farms'}`;
     };
     form.addEventListener('change', apply);
+
+    // Presets from the address, so other pages (guides, the species counts on state pages)
+    // can link straight to a filtered list: ?species=beef, ?feed=gff, ?certified=1.
+    // Only known option values and checkboxes set to 1 are applied; anything else is ignored.
+    let preset = false;
+    for (const [k, v] of new URLSearchParams(location.search)) {
+      const el = form.elements.namedItem(k);
+      if (el instanceof HTMLSelectElement && v && [...el.options].some((o) => o.value === v)) {
+        el.value = v;
+        preset = true;
+      } else if (el instanceof HTMLInputElement && el.type === 'checkbox' && v === '1') {
+        el.checked = true;
+        preset = true;
+      }
+    }
+    if (preset) {
+      apply();
+      form.dispatchEvent(new CustomEvent('filters:preset'));
+    }
   }
 </script>

@@ -4,6 +4,7 @@ import FarmRow from '../../components/FarmRow.astro';
 import Filters from '../../components/Filters.astro';
 import FeedingKey from '../../components/FeedingKey.astro';
 import StatePicks from '../../components/StatePicks.astro';
+import SpeciesCounts from '../../components/SpeciesCounts.astro';
 import { CERTIFICATIONS, feedingLabel } from '../../data/states.mjs';
 import { STATES, INDEX_THRESHOLD, SPECIES, servesState, isOrganic, sellsDairy } from '../../data/states.mjs';
 import { loadPublishedFarms, farmsByState } from '../../data/farms.mjs';
@@ -93,7 +94,7 @@ const jsonLd = [
     <section id="based">
       <h2>Farms based in {st.name}<span class="section-count">{n}</span></h2>
       <p class="muted">
-        {topSpecies.length > 0 && <>Selling {topSpecies.map(([k]) => (SPECIES[k] ?? k).toLowerCase()).join(', ')}. </>}
+        {topSpecies.length === 1 && <>Selling {topSpecies.map(([k]) => (SPECIES[k] ?? k).toLowerCase()).join(', ')}. </>}
         {latest && <>Last checked {fmtDate(latest)}.</>}
       </p>
       <dl class="state-facts" aria-label={`About the farms based in ${st.name}`}>
@@ -104,6 +105,7 @@ const jsonLd = [
         <div><dt>Sell dairy</dt><dd>{dairyN}</dd></div>
         {organicN > 0 && <div><dt>USDA Organic</dt><dd>{organicN}</dd></div>}
       </dl>
+      <SpeciesCounts farms={farms} listId="farms" anchor="based" label={`What farms based in ${st.name} sell`} />
       <Filters listId="farms" total={n} />
       <div class="sort-bar" data-sort-for="farms" data-state={st.abbr} hidden>
         <label for="farms-sort">Sort by</label>
@@ -124,6 +126,7 @@ const jsonLd = [
     <section id="ships-here">
       <h2>Farms in other states that ship to {st.name}<span class="section-count">{sN}</span></h2>
       <p class="muted">{n > 0 ? '' : `None of these farms are in ${st.name}. `}Each one says it ships to {st.name}, either to listed states or anywhere in the continental US. Orders usually arrive frozen by mail; check shipping costs and timing with each farm.</p>
+      {n === 0 && <SpeciesCounts farms={shipIn} listId="ship-in" anchor="ships-here" label={`What farms shipping to ${st.name} sell`} />}
       <Filters listId="ship-in" total={sN} />
       <ul class="farm-list" id="ship-in">{shipIn.map((f) => <FarmRow farm={f} shipsFrom />)}</ul>
     </section>
