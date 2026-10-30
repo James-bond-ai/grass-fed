@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import FarmRow from '../../components/FarmRow.astro';
 import Filters from '../../components/Filters.astro';
 import FeedingKey from '../../components/FeedingKey.astro';
+import BulkPlanner from '../../components/BulkPlanner.astro';
 import { loadBulkBeefFarms, bulkBeefStates, bulkShipIn, bulkIndexable, BULK_GUIDE } from '../../data/bulk.mjs';
 import { fmtDate } from '../../data/format.mjs';
 
@@ -45,9 +46,12 @@ const jsonLd = [
     <div><dt>Grass-finished available</dt><dd>{finished}</dd></div>
     <div><dt>Farm pickup or store</dt><dd>{pickup}</dd></div>
   </dl>
+  <BulkPlanner count={n} stateName={st.name} target="bulk-farms" />
   <FeedingKey />
-  <Filters listId="bulk" total={n} mode="bulk" />
-  <ul class="farm-list" id="bulk">{farms.map((f) => <FarmRow farm={f} showState={false} />)}</ul>
+  <div id="bulk-farms" class="bulk-farms">
+    <Filters listId="bulk" total={n} mode="bulk" />
+    <ul class="farm-list" id="bulk">{farms.map((f) => <FarmRow farm={f} showState={false} />)}</ul>
+  </div>
   {latest && <p class="small muted">Last checked {fmtDate(latest)}. Share sizes, prices and waitlists change often, so confirm with the farm before you send a deposit.</p>}
   {shipIn.length > 0 && (
     <section id="ships-here">
@@ -62,5 +66,6 @@ const jsonLd = [
   .state-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
   .state-facts div { border-top: 3px solid var(--clover); padding-top: 0.5rem; }
   .state-facts dt { font-size: 0.9rem; color: var(--ink-soft); }
+  .bulk-farms { scroll-margin-top: calc(var(--header-h) + 12px); }
   .state-facts dd { margin: 0; font-family: var(--display); font-weight: 700; font-size: 2rem; color: var(--pasture-deep); }
 </style>
