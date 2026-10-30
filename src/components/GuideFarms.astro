@@ -1,0 +1,127 @@
+---
+// "Put this guide to work": hands a guide reader to the farms the guide is about.
+// variant "full" ends the article; "compact" is the short inline band placed mid-article.
+import FeedingLabel from './FeedingLabel.astro';
+import { STATE_BY_ABBR, CERTIFICATIONS, DAIRY_PRODUCTS } from '../data/states.mjs';
+import { fmtDate, daysSince, FRESH_DAYS } from '../data/format.mjs';
+import { guideFarmSet } from './guide-farms.mjs';
+
+interface Props { guide: string; variant?: 'full' | 'compact' }
+const { guide, variant = 'full' } = Astro.props;
+const set = guideFarmSet(guide);
+
+const where = (f: any) => [f.city, STATE_BY_ABBR[f.state]?.abbr ?? f.state].filter(Boolean).join(', ');
+const tags = (f: any): { text: string; cls: string }[] => {
+  if (set.detail === 'certs') {
+    const names = (f.certifications ?? []).map((c: any) => CERTIFICATIONS[c.program]?.short).filter(Boolean);
+    return [...new Set<string>(names)].map((text) => ({ text, cls: 'cert' }));
+  }
+  if (set.detail === 'dairy') {
+    const p: string[] = f.dairy_products ?? [];
+    const ordered = [...p.filter((x) => x === 'raw-milk'), ...p.filter((x) => x !== 'raw-milk')];
+    return ordered.filter((x) => DAIRY_PRODUCTS[x as keyof typeof DAIRY_PRODUCTS]).slice(0, 3)
+      .map((x) => ({ text: DAIRY_PRODUCTS[x as keyof typeof DAIRY_PRODUCTS], cls: 'dairy' }));
+  }
+  return [];
+};
+---
+{variant === 'compact' ? (
+  <div class="gfm-inline" data-guide-inline>
+    <p class="gfm-eyebrow">Put this guide to work</p>
+    <p class="gfm-inline-text">{set.compact}</p>
+    <p class="gfm-inline-actions">
+      <a class="btn" href={set.hub} data-guide-cta>{set.hubCta}</a>
+      <a href="#guide-farms" data-guide-cta>Find farms in your state</a>
+    </p>
+  </div>
+) : (
+  <section class="gfm" id="guide-farms" aria-labelledby="guide-farms-title">
+    <p class="gfm-eyebrow">Put this guide to work</p>
+    <h2 id="guide-farms-title">{set.title}</h2>
+    <p class="gfm-count">{set.count}</p>
+    {set.examples.length > 0 && (
+      <ul class="gfm-examples" aria-label="A few of these farms">
+        {set.examples.map((f: any) => (
+          <li class="gfm-card">
+            <a class="gfm-name" href={`/farm/${f.slug}/`} data-guide-cta>{f.farm_name}</a>
+            <span class="gfm-where">{where(f)}</span>
+            <FeedingLabel farm={f} />
+            {tags(f).length > 0 && (
+              <ul class="tags">{tags(f).map((t) => <li class={`tag ${t.cls}`}>{t.text}</li>)}</ul>
+            )}
+            {f.last_verified_at && (
+              <span class="gfm-checked">{`${daysSince(f.last_verified_at) > FRESH_DAYS ? 'Last checked' : 'Verified'} ${fmtDate(f.last_verified_at)}`}</span>
+            )}
+          </li>
+        ))}
+      </ul>
+    )}
+    <form class="gfm-picker" action={set.hub} method="get" data-guide-picker>
+      <label for="gfm-state">Jump to farms in your state</label>
+      <div class="gfm-row">
+        <select id="gfm-state" class="glass-field" aria-describedby="gfm-state-msg">
+          <option value="">Choose a state</option>
+          <optgroup label={set.stateGroup}>
+            {set.primary.map((o) => <option value={o.url}>{o.label}</option>)}
+          </optgroup>
+          {set.other.length > 0 && (
+            <optgroup label="Other states">
+              {set.other.map((o) => <option value={o.url}>{o.label}</option>)}
+            </optgroup>
+          )}
+        </select>
+        <button class="btn" type="submit">Show farms</button>
+      </div>
+      <p class="gfm-msg" id="gfm-state-msg" aria-live="polite"></p>
+    </form>
+    <p class="gfm-note">{set.note}</p>
+    <p class="gfm-hub"><a class="btn secondary" href={set.hub} data-guide-cta>{set.hubCta}</a></p>
+  </section>
+)}
+<style>
+  .gfm-eyebrow {
+    margin: 0 0 0.4rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.09em;
+    text-transform: uppercase; color: #7a5609;
+  }
+  .gfm {
+    margin: 3rem 0 2.5rem; padding: clamp(18px, 3.5vw, 34px);
+    border-radius: var(--radius-lg); border: 1px solid rgba(31,64,41,0.12);
+    background: linear-gradient(160deg, rgba(255,255,255,0.92), rgba(237,241,229,0.88));
+    box-shadow: inset 0 1px 0 #fff, 0 10px 30px rgba(24,48,30,0.08);
+  }
+  .gfm h2 { margin-top: 0; }
+  .gfm-count { font-size: 1.08rem; max-width: 60ch; }
+  .gfm-examples {
+    list-style: none; padding: 0; margin: 1.25rem 0 1.5rem;
+    display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  }
+  .gfm-card {
+    display: flex; flex-direction: column; align-items: flex-start; gap: 0.2rem; min-width: 0;
+    padding: 0.9rem 1rem; border-radius: var(--radius-md); background: #fff;
+    border: 1px solid rgba(31,64,41,0.12);
+  }
+  .gfm-name {
+    font-family: var(--display); font-weight: 600; font-size: 1.12rem; line-height: 1.2;
+    color: var(--pasture-deep); text-decoration: none; overflow-wrap: anywhere;
+  }
+  .gfm-name:hover { text-decoration: underline; }
+  .gfm-where { font-size: 0.9rem; color: var(--ink-soft); }
+  .gfm-card .tags { margin-top: 0.4rem; }
+  .gfm-checked { margin-top: auto; padding-top: 0.5rem; font-size: 0.8rem; color: var(--ink-soft); }
+  .gfm-picker { margin: 0 0 0.75rem; }
+  .gfm-picker label { display: block; margin-bottom: 0.35rem; font-weight: 600; color: var(--pasture-deep); }
+  .gfm-row { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .gfm-row select { flex: 1 1 14rem; min-width: 0; max-width: 100%; }
+  .gfm-msg { margin: 0.4rem 0 0; min-height: 1.2em; font-size: 0.9rem; color: var(--alert); }
+  .gfm-msg:empty { min-height: 0; margin: 0; }
+  .gfm-note { font-size: 0.92rem; color: var(--ink-soft); max-width: 60ch; }
+  .gfm-hub { margin: 0; }
+
+  .gfm-inline {
+    margin: 2.25rem 0; padding: 1rem 1.25rem; border-radius: var(--radius-md);
+    border: 1px solid rgba(31,64,41,0.12); border-left: 4px solid var(--hay);
+    background: rgba(255,255,255,0.78);
+  }
+  .gfm-inline-text { margin: 0 0 0.75rem; font-family: var(--display); font-size: 1.15rem; line-height: 1.35; color: var(--pasture-deep); }
+  .gfm-inline-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 1.25rem; margin: 0; }
+</style>
