@@ -25,6 +25,8 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
+/* The hidden attribute always wins. Without this, a class that sets display (such as .farm-row's grid) keeps filtered-out rows on screen. */
+[hidden] { display: none !important; }
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
