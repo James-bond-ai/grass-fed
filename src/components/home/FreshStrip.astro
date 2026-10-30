@@ -1,0 +1,146 @@
+---
+// "Freshly verified": the most recently checked farms as a row of compact
+// cards. The row scrolls sideways with snap points; touch scrolling works on
+// phones and prev/next buttons appear on wider screens once the script runs.
+import Stamp from '../Stamp.astro';
+import FeedingLabel from '../FeedingLabel.astro';
+import { STATE_BY_ABBR } from '../../data/states.mjs';
+import { freshlyVerified } from './home-stats.mjs';
+interface Props { farms: any[] }
+const { farms } = Astro.props;
+const picks = freshlyVerified(farms, 10);
+---
+{picks.length > 0 && (
+  <section class="fresh" aria-labelledby="fresh-title">
+    <div class="fresh-head">
+      <div>
+        <h2 id="fresh-title">Freshly verified</h2>
+        <p class="muted fresh-lede">Farms we checked most recently against their own websites.</p>
+      </div>
+      <div class="fresh-nav" hidden>
+        <button type="button" class="fresh-btn" data-dir="-1" aria-controls="fresh-list" aria-label="Previous farms">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button type="button" class="fresh-btn" data-dir="1" aria-controls="fresh-list" aria-label="Next farms">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+    <ol class="fresh-list" id="fresh-list" aria-label="Recently verified farms">
+      {picks.map((f, i) => (
+        <li class="fresh-card">
+          <Stamp date={f.last_verified_at} class="fresh-stamp" />
+          <h3><a href={`/farm/${f.slug}/`} data-farm={f.slug} data-pos={i + 1}>{f.farm_name}</a></h3>
+          <p class="fresh-where">{[f.city, STATE_BY_ABBR[f.state]?.name ?? f.state].filter(Boolean).join(', ')}</p>
+          <FeedingLabel farm={f} />
+        </li>
+      ))}
+    </ol>
+    <p class="fresh-more"><a href="/farms/">Browse every farm</a></p>
+  </section>
+)}
+
+<script>
+  const root = document.querySelector<HTMLElement>('.fresh');
+  const list = root?.querySelector<HTMLElement>('.fresh-list');
+  if (root && list) {
+    const nav = root.querySelector<HTMLElement>('.fresh-nav')!;
+    const prev = nav.querySelector<HTMLButtonElement>('[data-dir="-1"]')!;
+    const next = nav.querySelector<HTMLButtonElement>('[data-dir="1"]')!;
+    const gtag = (...a: unknown[]) => { const g = (window as any).gtag; if (typeof g === 'function') g(...a); };
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    const update = () => {
+      const max = list.scrollWidth - list.clientWidth;
+      const overflow = max > 4;
+      nav.hidden = !overflow;
+      prev.disabled = list.scrollLeft <= 4;
+      next.disabled = list.scrollLeft >= max - 4;
+    };
+
+    const page = (dir: number) => {
+      const card = list.querySelector<HTMLElement>('.fresh-card');
+      const gap = parseFloat(getComputedStyle(list).columnGap) || 0;
+      const w = card ? card.offsetWidth + gap : list.clientWidth;
+      const per = Math.max(1, Math.floor((list.clientWidth + gap) / w));
+      list.scrollBy({ left: dir * per * w, behavior: reduce ? 'auto' : 'smooth' });
+    };
+    prev.addEventListener('click', () => page(-1));
+    next.addEventListener('click', () => page(1));
+
+    let logged = false;
+    let raf = 0;
+    list.addEventListener('scroll', () => {
+      if (!logged && list.scrollLeft > 8) {
+        logged = true;
+        gtag('event', 'home_fresh_scroll');
+      }
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(update);
+    }, { passive: true });
+
+    list.addEventListener('click', (e) => {
+      const a = (e.target as HTMLElement).closest<HTMLAnchorElement>('a[data-farm]');
+      if (a) gtag('event', 'home_fresh_farm_click', { farm: a.dataset.farm, position: Number(a.dataset.pos) });
+    });
+
+    if ('ResizeObserver' in window) new ResizeObserver(update).observe(list);
+    else addEventListener('resize', update);
+    update();
+  }
+</script>
+
+<style>
+  .fresh { margin: 0 0 1rem; min-width: 0; }
+  .fresh-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; }
+  .fresh-head h2 { margin: 0 0 0.2rem; }
+  .fresh-lede { margin: 0; }
+  .fresh-nav { display: flex; gap: 0.5rem; flex: none; }
+  .fresh-nav[hidden] { display: none; }
+  .fresh-btn {
+    display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 50%;
+    border: 1px solid rgba(31,64,41,0.2); background: rgba(255,255,255,0.85); color: var(--pasture-deep);
+    cursor: pointer; transition: background-color 140ms ease, border-color 140ms ease, opacity 140ms ease;
+  }
+  .fresh-btn:hover:not(:disabled) { border-color: var(--pasture); background: #fff; }
+  .fresh-btn:disabled { opacity: 0.4; cursor: default; }
+  /* Touch screens scroll the row directly; the buttons are for mouse and keyboard on wider screens. */
+  @media (max-width: 760px), (hover: none) {
+    .fresh-nav { display: none; }
+  }
+
+  .fresh-list {
+    list-style: none; margin: 1rem calc(-1 * var(--gutter)) 0; padding: 0.35rem var(--gutter) 1rem;
+    display: grid; grid-auto-flow: column; grid-auto-columns: minmax(232px, 78%); gap: 0.85rem;
+    overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory;
+    scroll-padding-inline: var(--gutter); scrollbar-width: thin; scrollbar-color: rgba(31,64,41,0.3) transparent;
+  }
+  @media (min-width: 560px) { .fresh-list { grid-auto-columns: minmax(240px, 44%); } }
+  @media (min-width: 900px) {
+    .fresh-list { grid-auto-columns: calc((100% - 3 * 0.85rem) / 4); }
+  }
+  @media (prefers-reduced-motion: no-preference) { .fresh-list { scroll-behavior: smooth; } }
+
+  .fresh-card {
+    position: relative; scroll-snap-align: start; min-width: 0;
+    display: flex; flex-direction: column; gap: 0.15rem;
+    padding: 1rem 1rem 1.05rem; border-radius: var(--radius-md);
+    background: rgba(255,255,255,0.82); border: 1px solid rgba(31,64,41,0.12);
+    transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+  }
+  .fresh-card:hover { border-color: var(--pasture); box-shadow: 0 10px 24px rgba(24,48,30,0.10); }
+  @media (prefers-reduced-motion: no-preference) { .fresh-card:hover { transform: translateY(-2px); } }
+  .fresh-card:focus-within { border-color: var(--pasture); }
+  .fresh-card h3 { margin: 0.55rem 0 0; font-size: 1.12rem; line-height: 1.25; }
+  .fresh-card h3 a { color: var(--pasture-deep); text-decoration: none; }
+  /* The whole card is the link target; the name stays the accessible link text. */
+  .fresh-card h3 a::after { content: ''; position: absolute; inset: 0; border-radius: inherit; }
+  .fresh-card h3 a:hover { text-decoration: underline; }
+  .fresh-card h3 a:focus-visible { outline: none; }
+  .fresh-card h3 a:focus-visible::after { outline: 3px solid var(--hay); outline-offset: 2px; }
+  .fresh-where { margin: 0; font-size: 0.9rem; color: var(--ink-soft); }
+  .fresh-card :global(.feed) { margin-top: auto; padding-top: 0.55rem; }
+  .fresh-card :global(.feed-part) { font-size: 0.78rem; }
+  .fresh-card :global(.fresh-stamp) { align-self: flex-start; font-size: 0.74rem; margin-left: 2px; }
+  .fresh-more { margin: 0.25rem 0 0; font-weight: 600; }
+</style>

@@ -1,0 +1,122 @@
+---
+// Home page proof band: four large figures computed from the farm data at
+// build time. The numbers are in the HTML; a small script counts them up once
+// they scroll into view, unless the visitor prefers reduced motion.
+import { fmtDate } from '../../data/format.mjs';
+import { reach } from '../../data/states.mjs';
+import { proofStats } from './home-stats.mjs';
+interface Props { farms: any[] }
+const { farms } = Astro.props;
+const s = proofStats(farms);
+const fmt = (n: number) => n.toLocaleString('en-US');
+const nationwide = farms.filter((f) => reach(f).nationwide).length;
+const plural = (n: number, one: string, many: string) => (n === 1 ? one : many);
+const items = [
+  { n: s.total, label: `verified ${plural(s.total, 'farm', 'farms')}`, sub: "Each one checked against the farm's own website" },
+  { n: s.states, label: `${plural(s.states, 'state', 'states')} with farms`, sub: nationwide > 0 ? `${fmt(nationwide)} ${plural(nationwide, 'farm ships', 'farms ship')} nationwide` : 'Choose a state on the map below' },
+  {
+    n: s.fresh,
+    label: `${plural(s.fresh, 'listing', 'listings')} checked in the last ${s.windowDays} days`,
+    sub: s.latest ? `Latest check ${fmtDate(s.latest)}` : 'Every listing shows its date',
+  },
+  { n: s.finishedOrCertified, label: 'grass-finished or certified', sub: 'Farms that say grass-finished, or hold a third-party certification we confirmed' },
+];
+---
+{s.total > 0 && (
+  <section class="proof" aria-labelledby="proof-title">
+    <h2 id="proof-title" class="proof-title">
+      <svg class="proof-seal" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M12 2.5l2.4 1.8 3 .1.9 2.8 2.4 1.8-.9 2.8.9 2.8-2.4 1.8-.9 2.8-3 .1L12 21.5l-2.4-1.8-3-.1-.9-2.8-2.4-1.8.9-2.8-.9-2.8 2.4-1.8.9-2.8 3-.1z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8.3 12.2l2.5 2.4 4.9-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Every listing checked, dated and kept current
+    </h2>
+    <ul class="proof-grid">
+      {items.map((it) => (
+        <li>
+          <span class="proof-num" data-count={it.n} style={`--digits:${fmt(it.n).length}`} aria-hidden="true">{fmt(it.n)}</span>
+          <span class="proof-label"><span class="visually-hidden">{fmt(it.n)}</span>{' '}{it.label}</span>
+          <span class="proof-sub">{it.sub}</span>
+        </li>
+      ))}
+    </ul>
+    <p class="proof-more"><a href="/methodology/">How we verify a farm</a></p>
+  </section>
+)}
+
+<script>
+  const nums = Array.from(document.querySelectorAll<HTMLElement>('.proof-num[data-count]'));
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (nums.length && !reduce && 'IntersectionObserver' in window) {
+    const fmt = (n: number) => n.toLocaleString('en-US');
+    const run = (el: HTMLElement) => {
+      const to = Number(el.dataset.count) || 0;
+      const ms = 1100 + Math.min(to, 400);
+      const t0 = performance.now();
+      const step = (t: number) => {
+        const p = Math.min(1, (t - t0) / ms);
+        const eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = fmt(Math.round(to * eased));
+        if (p < 1) requestAnimationFrame(step);
+        else el.classList.add('done');
+      };
+      requestAnimationFrame(step);
+    };
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) {
+        if (!e.isIntersecting) continue;
+        io.unobserve(e.target);
+        run(e.target as HTMLElement);
+      }
+    }, { threshold: 0.5 });
+    for (const el of nums) {
+      el.textContent = '0';
+      io.observe(el);
+    }
+  }
+</script>
+
+<style>
+  .proof {
+    position: relative; overflow: hidden; isolation: isolate;
+    margin: 0.5rem 0 2.5rem; padding: clamp(22px, 4vw, 40px) clamp(18px, 4vw, 44px);
+    border-radius: var(--radius-lg); color: #fff;
+    background:
+      radial-gradient(600px 260px at 100% 0%, rgba(207,222,174,0.18), transparent 70%),
+      radial-gradient(500px 240px at 0% 100%, rgba(168,122,20,0.22), transparent 70%),
+      linear-gradient(150deg, var(--pasture) 0%, var(--pasture-deep) 100%);
+    box-shadow: 0 14px 34px rgba(24,48,30,0.20);
+  }
+  .proof::after {
+    /* faint furrow lines, like a field seen from above */
+    content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none; opacity: 0.08;
+    background: repeating-linear-gradient(115deg, #fff 0 1px, transparent 1px 22px);
+  }
+  .proof-title {
+    display: flex; align-items: center; gap: 0.5rem; margin: 0 0 1.4rem;
+    font-size: clamp(1.1rem, 2.2vw, 1.35rem); color: var(--hay-tint); font-weight: 600;
+  }
+  .proof-seal { flex: none; color: var(--hay-tint); }
+  .proof-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.4rem 1rem; }
+  .proof-grid li { display: flex; flex-direction: column; gap: 0.2rem; min-width: 0; padding-left: 0.85rem; border-left: 2px solid rgba(243,230,196,0.45); }
+  .proof-num {
+    display: inline-block; min-width: calc(var(--digits, 3) * 0.62em);
+    font: 700 clamp(2.5rem, 7.5vw, 4.3rem)/1 var(--display); font-variant-numeric: tabular-nums lining-nums;
+    font-variation-settings: 'SOFT' 100, 'WONK' 0; letter-spacing: -0.02em; color: var(--hay-tint);
+  }
+  .proof-label { font-weight: 700; font-size: clamp(0.98rem, 1.6vw, 1.08rem); line-height: 1.25; color: #fff; }
+  .proof-sub { font-size: 0.86rem; line-height: 1.4; color: rgba(255,255,255,0.82); }
+  .proof-more { margin: 1.4rem 0 0; font-weight: 600; }
+  .proof-more a { color: #fff; text-decoration-color: rgba(243,230,196,0.7); }
+  .proof-more a::after { content: ' \2192'; }
+  .proof :focus-visible { outline-color: var(--hay-tint); }
+  @media (min-width: 820px) {
+    .proof-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  }
+  @media (max-width: 380px) {
+    .proof-grid { gap: 1.2rem 0.75rem; }
+    .proof-grid li { padding-left: 0.6rem; }
+    .proof-sub { font-size: 0.8rem; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .proof-num.done { animation: proof-pop 420ms cubic-bezier(.2,.9,.3,1.3) both; }
+    @keyframes proof-pop { 0% { transform: scale(1); } 45% { transform: scale(1.06); } 100% { transform: scale(1); } }
+  }
+</style>
