@@ -11,7 +11,8 @@ export function ageInDays(date, now = Date.now()) {
 }
 
 // The farm holds at least one certification we track (confirmed with the certifier).
-export const isCertified = (f) => (f.certifications ?? []).some((c) => CERTIFICATIONS[c.program]);
+// Organic pasture certifies the land, not the animals, so it does not count here.
+export const isCertified = (f) => (f.certifications ?? []).some((c) => CERTIFICATIONS[c.program] && c.program !== 'usda-organic-pasture');
 // The farm says its animals are grass-fed and grass-finished.
 export const saysGrassFinished = (f) => f.feeding_claim?.category === 'grass-finished';
 
