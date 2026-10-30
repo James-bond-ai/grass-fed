@@ -12,8 +12,12 @@ interface Props {
   description: string;
   noindex?: boolean;
   jsonLd?: object | object[];
+  /** Site-relative path of the 1200x630 share image, e.g. /og/farm/{slug}.png. Defaults to the site card. */
+  ogImage?: string;
 }
-const { title, description, noindex = false, jsonLd } = Astro.props;
+const { title, description, noindex = false, jsonLd, ogImage } = Astro.props;
+const ogImageUrl = new URL(ogImage ?? '/og/default.png', Astro.site).href;
+const ogImageAlt = ogImage ? `${title}, on grassfed.food` : "grassfed.food: grass-fed meat and dairy from farms we've actually checked";
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const fullTitle = title === 'grassfed.food' ? title : `${title} | grassfed.food`;
 const path = Astro.url.pathname;
@@ -41,6 +45,16 @@ const ld = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
     <meta property="og:url" content={canonical} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="grassfed.food" />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={ogImageAlt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+    <meta name="twitter:image:alt" content={ogImageAlt} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     {Astro.slots.has('hero') && <link rel="preload" as="image" href="/art/pasture-hero-1600.webp" imagesrcset="/art/pasture-hero-1600.webp 1600w, /art/pasture-hero-1100.webp 1100w, /art/pasture-hero-700.webp 700w" imagesizes="100vw" type="image/webp" fetchpriority="high" />}
     {ld.map((obj) => <script type="application/ld+json" set:html={JSON.stringify(obj)} />)}

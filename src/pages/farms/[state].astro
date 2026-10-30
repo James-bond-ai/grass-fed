@@ -55,7 +55,7 @@ const jsonLd = [
     : []),
 ];
 ---
-<Base title={title} description={description} noindex={!indexable} jsonLd={jsonLd}>
+<Base title={title} description={description} noindex={!indexable} jsonLd={jsonLd} ogImage={`/og/state/${st.slug}.png`}>
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/farms/">Farms</a> / {st.name}</nav>
   <h1>{title}</h1>
   <div class="glance" aria-label={`Farms for ${st.name} at a glance`}>
