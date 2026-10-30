@@ -1,0 +1,173 @@
+---
+// "How to buy" action card for a farm profile, plus a sticky Order bar on phones.
+// Everything shown here comes from the farm's own listing data.
+import { CERTIFICATIONS, feedingLabel } from '../data/states.mjs';
+import { fmtDate } from '../data/format.mjs';
+
+interface Props {
+  farm: any;
+  // Output of reach(farm), and the ship-to facts the page already works out from it.
+  r: { nationwide: boolean; shipsTo: Set<string>; localAreas: string[]; radius: number | null; pickup: string[] };
+  shipsList: string[];
+  shipsUnstated: boolean;
+  certs: { program: string }[];
+  tel: string | null;
+  host: (u: string) => string;
+}
+const { farm, r, shipsList, shipsUnstated, certs, tel, host } = Astro.props;
+
+const orderUrl: string = farm.ordering_url || farm.website;
+const norm = (u: string) => u.replace(/^https?:\/\/(www\.)?/, '').replace(/\/+$/, '').toLowerCase();
+// Only offer a separate website button when it goes somewhere the Order button doesn't.
+const showSite = !!farm.website && norm(farm.website) !== norm(orderUrl);
+
+const ch: string[] = farm.sales_channels ?? [];
+const reachParts: string[] = [];
+if (r.nationwide) reachParts.push('Ships nationwide');
+else if (shipsList.length) reachParts.push(shipsList.length <= 2 ? `Ships to ${shipsList.join(' and ')}` : `Ships to ${shipsList.length} states`);
+else if (shipsUnstated) reachParts.push('Ships to some states');
+if (r.localAreas.length || r.radius || ch.includes('local-delivery')) reachParts.push('Local delivery');
+if (ch.includes('farm-pickup') || ch.includes('on-farm-store')) reachParts.push('Farm pickup');
+else if (r.pickup.length) reachParts.push('Pickup spots');
+if (!reachParts.length && ((farm.farmers_markets ?? []).length || ch.includes('farmers-market'))) reachParts.push('Farmers markets');
+
+const fl = feedingLabel(farm);
+const feeding = fl.parts.map((p, i) => (i === 0 ? p.text : p.text.charAt(0).toLowerCase() + p.text.slice(1))).join(', ');
+const certNames = certs.map((c) => CERTIFICATIONS[c.program as keyof typeof CERTIFICATIONS]?.short).filter(Boolean);
+
+const av = farm.availability && farm.availability.status !== 'available' ? farm.availability : null;
+const STATUS: Record<string, string> = { 'sold-out': 'Sold out right now', waitlist: 'Waitlist', paused: 'Orders paused' };
+const avLabel = av ? STATUS[av.status] ?? 'Limited availability' : '';
+---
+<section class="buy" id="how-to-buy" aria-labelledby="buy-title" data-buy data-farm={farm.slug}>
+  <div class="buy-main">
+    <h2 id="buy-title">How to buy from {farm.farm_name}</h2>
+    {av && (
+      <p class="buy-avail"><strong>{avLabel}.</strong> {av.note}{av.checked_on && <> (checked {fmtDate(av.checked_on)})</>}</p>
+    )}
+    <div class="buy-actions">
+      <a class="btn buy-order" href={orderUrl} target="_blank" rel="nofollow noopener" data-ga="farm_order_click" data-placement="card">
+        Order from the farm <span aria-hidden="true">↗</span><span class="visually-hidden"> (opens {host(orderUrl)} in a new tab)</span>
+      </a>
+      {(tel || showSite) && (
+        <div class="buy-more">
+          {tel && (
+            <a class="btn secondary" href={`tel:${tel}`} data-ga="farm_call_click" data-placement="card">
+              <span>Call</span> <span class="buy-num">{farm.phone}</span>
+            </a>
+          )}
+          {showSite && (
+            <a class="btn secondary" href={farm.website} target="_blank" rel="nofollow noopener" data-ga="farm_website_click" data-placement="card">
+              Visit website<span class="visually-hidden"> (opens {host(farm.website)} in a new tab)</span>
+            </a>
+          )}
+        </div>
+      )}
+    </div>
+    <p class="buy-dest">You buy directly from the farm on {host(orderUrl)}. We don't take a cut. <a href="/disclosure/">How we make money</a></p>
+  </div>
+  <dl class="buy-glance">
+    <div><dt>How it reaches you</dt><dd>{reachParts.length ? reachParts.join(', ') : 'Not stated; ask the farm'}</dd></div>
+    <div><dt>Bulk shares</dt><dd>{farm.bulk_shares ? 'Yes: quarter, half or whole' : 'Not offered or not stated'}</dd></div>
+    <div><dt>Certified</dt><dd>{certNames.length ? certNames.join(', ') : 'No certification found'}</dd></div>
+    <div><dt>Feeding</dt><dd>{feeding}</dd></div>
+  </dl>
+</section>
+
+<div class="order-bar" data-order-bar>
+  <div class="ob-text">
+    <span class="ob-name">{farm.farm_name}</span>
+    {av && <span class="ob-avail">{avLabel}</span>}
+  </div>
+  <a class="btn ob-order" href={orderUrl} target="_blank" rel="nofollow noopener" data-ga="farm_order_click" data-placement="sticky">
+    Order <span aria-hidden="true">↗</span><span class="visually-hidden"> from {farm.farm_name} (opens {host(orderUrl)} in a new tab)</span>
+  </a>
+</div>
+
+<script>
+  const card = document.querySelector<HTMLElement>('[data-buy]');
+  const bar = document.querySelector<HTMLElement>('[data-order-bar]');
+  const farm = card?.dataset.farm ?? '';
+
+  document.addEventListener('click', (e) => {
+    const a = (e.target as HTMLElement).closest<HTMLElement>('[data-ga]');
+    if (!a || !(card?.contains(a) || bar?.contains(a))) return;
+    const gtag = (window as any).gtag;
+    if (typeof gtag === 'function') gtag('event', a.dataset.ga, { farm, placement: a.dataset.placement });
+  });
+
+  if (card && bar && 'IntersectionObserver' in window) {
+    let past = false;
+    const set = (on: boolean) => {
+      bar.classList.toggle('is-on', on);
+      document.body.classList.toggle('order-bar-on', on);
+    };
+    new IntersectionObserver(([e]) => {
+      // Show the bar only after the card has scrolled up and out of view.
+      past = !e.isIntersecting && e.boundingClientRect.top < 0;
+      if (!past && bar.contains(document.activeElement)) (card.querySelector('.buy-order') as HTMLElement | null)?.focus({ preventScroll: true });
+      set(past);
+    }).observe(card);
+  }
+</script>
+
+<style>
+  .buy {
+    display: grid; gap: 1.1rem 2rem; margin: 1.75rem 0 0.5rem; padding: clamp(18px, 3vw, 28px);
+    border-radius: var(--radius-lg); background: rgba(255,255,255,0.86); border: 1px solid rgba(31,64,41,0.14);
+    box-shadow: inset 0 1px 0 #fff, 0 10px 28px rgba(24,48,30,0.08); border-top: 4px solid var(--pasture);
+    scroll-margin-top: calc(var(--header-h) + 12px);
+  }
+  .buy h2 { margin: 0 0 0.6rem; font-size: clamp(1.35rem, 2.6vw, 1.7rem); overflow-wrap: anywhere; }
+  .buy-avail { margin: 0 0 0.9rem; padding: 0.55em 0.8em; border-radius: var(--radius-sm); background: var(--hay-tint); color: #6d4f0b; font-size: 0.97rem; border-left: 3px solid var(--hay); }
+  .buy-avail strong { color: #5a4108; }
+  .buy-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: stretch; }
+  .buy-actions .btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.35em; min-height: 48px; text-align: center; }
+  .buy-order { font-size: 1.08rem; padding-inline: 1.5em; flex: 1 1 100%; }
+  .buy-more { display: flex; flex-wrap: wrap; gap: 0.6rem; flex: 1 1 100%; }
+  .buy-more .btn { flex: 1 1 auto; background: rgba(255,255,255,0.7); }
+  .buy-more .btn:hover { background: var(--clover); }
+  .buy-num { font-weight: 500; white-space: nowrap; }
+  .buy-dest { margin: 0.7rem 0 0; font-size: 0.88rem; color: var(--ink-soft); overflow-wrap: anywhere; }
+
+  .buy-glance { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; margin: 0; align-content: start; border-top: 1px solid var(--rule); }
+  .buy-glance div { padding: 0.65rem 0.75rem 0.65rem 0; border-bottom: 1px solid var(--rule); min-width: 0; }
+  .buy-glance div:nth-child(odd) { padding-right: 0.9rem; }
+  .buy-glance div:nth-child(even) { padding-left: 0.9rem; border-left: 1px solid var(--rule); }
+  .buy-glance dt { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: var(--ink-soft); }
+  .buy-glance dd { margin: 0.15rem 0 0; font-weight: 600; color: var(--pasture-deep); line-height: 1.35; font-size: 0.97rem; overflow-wrap: anywhere; }
+
+  @media (min-width: 560px) {
+    .buy-order { flex: 0 1 auto; }
+    .buy-more { flex: 0 1 auto; }
+    .buy-more .btn { flex: 0 1 auto; }
+  }
+  @media (min-width: 860px) {
+    .buy { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); align-items: center; }
+    .buy-glance { border-top: 0; border-left: 1px solid var(--rule); padding-left: 1.6rem; }
+    .buy-glance div:nth-last-child(-n+2) { border-bottom: 0; }
+  }
+
+  /* Sticky Order bar: phones only, shown by the script once the card is scrolled past. */
+  .order-bar { display: none; }
+  @media (max-width: 720px) {
+    .order-bar {
+      display: flex; align-items: center; gap: 0.75rem;
+      position: fixed; left: 0; right: 0; bottom: 0; z-index: 40;
+      padding: 0.6rem var(--gutter) calc(0.6rem + env(safe-area-inset-bottom, 0px));
+      background: rgba(246,248,242,0.97); border-top: 1px solid var(--rule);
+      box-shadow: 0 -6px 20px rgba(24,48,30,0.10);
+      transform: translateY(110%); visibility: hidden;
+      transition: transform 220ms ease, visibility 0s linear 220ms;
+    }
+    .order-bar.is-on { transform: none; visibility: visible; transition: transform 220ms ease, visibility 0s; }
+    :global(body.order-bar-on) { padding-bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px)); }
+  }
+  @media (max-width: 720px) and (prefers-reduced-motion: reduce) {
+    .order-bar, .order-bar.is-on { transition: none; }
+  }
+  .ob-text { display: flex; flex-direction: column; min-width: 0; flex: 1; line-height: 1.2; }
+  .ob-name { font: 600 1.02rem/1.25 var(--display); color: var(--pasture-deep); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ob-avail { font-size: 0.8rem; color: #6d4f0b; font-weight: 600; }
+  .ob-order { flex: none; display: inline-flex; align-items: center; gap: 0.35em; min-height: 48px; padding-inline: 1.4em; }
+</style>

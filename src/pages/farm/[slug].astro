@@ -10,6 +10,7 @@ import Icon from '../../components/Icon.astro';
 import FeedingLabel from '../../components/FeedingLabel.astro';
 import GoogleRating from '../../components/GoogleRating.astro';
 import { BROWSE } from '../../data/browse.mjs';
+import FarmOrderPanel from '../../components/FarmOrderPanel.astro';
 
 export function getStaticPaths() {
   const all = loadPublishedFarms();
@@ -70,11 +71,12 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
       <p class="lede">{farm.city}, {st.name}</p>
       <FeedingLabel farm={farm} size="lg" showNote />
       <GoogleRating slug={farm.slug} size="lg" />
-      {farm.availability && farm.availability.status !== 'available' && <p class="avail avail-lg"><strong>Availability:</strong> {farm.availability.note}{farm.availability.checked_on && <> (checked {fmtDate(farm.availability.checked_on)})</>}</p>}
       {icons.length > 0 && <ul class="farm-icons" aria-label="Sells">{icons.map((b) => <li title={b.label}><Icon name={b.icon} size={34} /><span>{b.label}</span></li>)}</ul>}
     </div>
     <Stamp date={farm.last_verified_at} />
   </div>
+
+  <FarmOrderPanel farm={farm} r={r} shipsList={shipsList} shipsUnstated={shipsUnstated} certs={certs} tel={farm.phone ? telDigits(farm.phone) : null} host={host} />
 
   {photos.length > 0 && (
     <div class="farm-photos">
