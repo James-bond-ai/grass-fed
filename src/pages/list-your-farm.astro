@@ -1,14 +1,430 @@
 ---
-import Page from '../layouts/Page.astro';
-const formUrl = 'https://github.com/James-bond-ai/grass-fed/issues/new?template=list-your-farm.yml';
+// Landing page for farms that want to be listed. Live counts come from the
+// published farm data at build time. The pre-check form opens the existing
+// GitHub issue form (.github/ISSUE_TEMPLATE/list-your-farm.yml) in a new tab,
+// with the answers filled in through GitHub's issue-form URL query parameters.
+// Nothing typed here is stored.
+import Base from '../layouts/Base.astro';
+import ListingPreview from '../components/ListingPreview.astro';
+import { STATES, SPECIES, CHANNELS, CERTIFICATIONS } from '../data/states.mjs';
+import { loadPublishedFarms, stateCoverage } from '../data/farms.mjs';
+import { daysSince, FRESH_DAYS } from '../data/format.mjs';
+
+const REPO_NEW_ISSUE = 'https://github.com/James-bond-ai/grass-fed/issues/new';
+const TEMPLATE = 'list-your-farm.yml';
+const blankUrl = `${REPO_NEW_ISSUE}?template=${TEMPLATE}`;
+
+// Live proof, counted from the current listings.
+const farms = loadPublishedFarms();
+const verified = farms.filter((f) => f.last_verified_at && daysSince(f.last_verified_at) <= FRESH_DAYS).length;
+const statesWithFarms = new Set(farms.map((f) => f.state)).size;
+const cov = stateCoverage();
+const fifty = STATES.filter((s) => s.abbr !== 'DC');
+const avgShipIn = Math.round(fifty.reduce((n, s) => n + (cov.byState[s.abbr]?.shipIn ?? 0), 0) / fifty.length);
+
+const states = STATES.slice().sort((a, b) => a.name.localeCompare(b.name));
+
+// Our species keys mapped to the option labels used by the GitHub form's "What you sell" checkboxes.
+const SPECIES_TO_TEMPLATE: Record<string, string> = {
+  beef: 'Beef',
+  bison: 'Bison',
+  lamb: 'Lamb or goat',
+  goat: 'Lamb or goat',
+  pork: 'Pork',
+  poultry: 'Poultry or eggs',
+  eggs: 'Poultry or eggs',
+  'dairy-cow': 'Dairy',
+  'dairy-goat': 'Dairy',
+  'dairy-sheep': 'Dairy',
+};
+const TEMPLATE_SPECIES_ORDER = ['Beef', 'Bison', 'Lamb or goat', 'Pork', 'Poultry or eggs', 'Dairy'];
+
+const steps = [
+  { t: 'Tell us about your farm', d: 'Answer a few questions below. We open our listing form with your answers already filled in, so you only check them and send.' },
+  { t: 'We check your website', d: 'We confirm what you sell, how people can buy, and how you describe your feeding, and we look up each certification in the certifier\'s public listing. We review submissions in the order they arrive, usually within a week.' },
+  { t: 'Your listing goes up', d: 'Once everything checks out, your farm appears in the directory with a dated Verified stamp. We recheck listings regularly to keep them current.' },
+];
 ---
-<Page title="List your farm" description="Add your grass-fed farm to grassfed.food for free. Tell us about your farm and we'll verify it against your website.">
-  <p class="lede">Listing is free, and we never charge farms for placement.</p>
-  <h2>Who we list</h2>
-  <p>US farms and ranches that sell grass-fed or pasture-raised meat, eggs or dairy directly to the public: from the farm, at markets, through a CSA or meat share, or by shipping.</p>
-  <h2>What we need</h2>
-  <p>A website (or a public farm page) that says what you sell, how people can buy, and how your animals are fed. We quote your own wording about feeding, so make sure it's on your site. If you're certified, we'll confirm it in your certifier's public listing.</p>
-  <h2>How to apply</h2>
-  <p><a class="btn" href={formUrl}>Submit your farm</a></p>
-  <p class="small muted">The form opens on GitHub, where our directory is maintained, and needs a free GitHub account. We review submissions in the order they arrive, usually within a week.</p>
-</Page>
+<Base title="List your farm" description="Add your grass-fed farm to grassfed.food for free. Tell us about your farm and we'll verify it against your website.">
+  <section class="hero3d lf-hero" slot="hero" aria-labelledby="lf-title">
+    <div class="hero3d-stage" aria-hidden="true">
+      <picture>
+        <source srcset="/art/pasture-hero-1600.webp 1600w, /art/pasture-hero-1100.webp 1100w, /art/pasture-hero-700.webp 700w" sizes="100vw" type="image/webp" />
+        <img class="hero3d-poster" src="/art/pasture-hero-1600.jpg" alt="" width="1600" height="836" fetchpriority="high" sizes="100vw" />
+      </picture>
+    </div>
+    <div class="wrap hero3d-inner">
+      <div class="hero-panel glass glass-strong">
+        <p class="lf-eyebrow">For farms and ranches</p>
+        <h1 id="lf-title">Help buyers find your farm.</h1>
+        <p class="lf-promise">Free. No placement fees, ever.</p>
+        <p class="hero-lede">We list US farms that sell grass-fed and pasture-raised meat, eggs and dairy direct to the public, each one checked against the farm's own website.</p>
+        <div class="lf-ctas">
+          <a class="btn" href="#apply">Start your listing</a>
+          <a class="btn secondary" href="#preview">See an example listing</a>
+        </div>
+        <p class="lf-fine">Farms can't pay to be listed or to rank higher.</p>
+      </div>
+      <aside class="lf-proof glass glass-strong" aria-labelledby="lf-proof-title">
+        <h2 id="lf-proof-title">The directory today</h2>
+        <dl>
+          <div><dt>{verified}</dt><dd>verified farms listed</dd></div>
+          <div><dt>{statesWithFarms}</dt><dd>states with listed farms</dd></div>
+          <div><dt>{avgShipIn}</dt><dd>farms from other states ship into the average state</dd></div>
+        </dl>
+        <p class="lf-proof-note">Counted from our current listings.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="lf-section" id="preview" aria-labelledby="preview-title">
+    <h2 id="preview-title">What your listing looks like</h2>
+    <p class="lede">This is an example built the same way as every farm on the site. Yours shows your own name, town, feeding and tags.</p>
+    <ListingPreview />
+  </section>
+
+  <section class="lf-section" aria-labelledby="fit-title">
+    <h2 id="fit-title">Is your farm a fit?</h2>
+    <div class="lf-fit">
+      <div class="lf-fit-card">
+        <h3>Who we list</h3>
+        <p>US farms and ranches that sell grass-fed or pasture-raised meat, eggs or dairy directly to the public: from the farm, at markets, through a CSA or meat share, or by shipping.</p>
+      </div>
+      <div class="lf-fit-card">
+        <h3>What we need</h3>
+        <p>A website (or a public farm page) that says what you sell, how people can buy, and how your animals are fed. We quote your own wording about feeding, so make sure it's on your site. If you're certified, we'll confirm it in your certifier's public listing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="lf-section" aria-labelledby="how-title">
+    <h2 id="how-title">How it works</h2>
+    <ol class="lf-steps">
+      {steps.map((s) => (
+        <li><h3>{s.t}</h3><p>{s.d}</p></li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="lf-section lf-apply" id="apply" aria-labelledby="apply-title">
+    <h2 id="apply-title">Start your listing</h2>
+    <p class="lede">Answer these and we'll open our listing form on GitHub with your answers filled in. Nothing you type here is saved.</p>
+    <div class="lf-apply-grid">
+      <form class="lf-form glass glass-strong" id="lf-form" action={REPO_NEW_ISSUE} method="get" target="_blank"
+        data-template={TEMPLATE} data-map={JSON.stringify(SPECIES_TO_TEMPLATE)} data-order={JSON.stringify(TEMPLATE_SPECIES_ORDER)}>
+        <input type="hidden" name="template" value={TEMPLATE} />
+
+        <div class="lf-field">
+          <label for="lf-name">Farm name</label>
+          <input id="lf-name" name="farm_name" type="text" required autocomplete="organization" maxlength="120" aria-describedby="lf-name-err" />
+          <p class="lf-err" id="lf-name-err" hidden>Enter your farm's name.</p>
+        </div>
+
+        <div class="lf-field">
+          <label for="lf-web">Farm website</label>
+          <input id="lf-web" name="website" type="text" inputmode="url" autocomplete="url" spellcheck="false" required
+            placeholder="https://" pattern="(https?:\/\/)?[^\s\/]+\.[^\s]+" aria-describedby="lf-web-hint lf-web-err" />
+          <p class="lf-hint" id="lf-web-hint">We verify your listing against this site, so it needs to say what you sell and how your animals are fed.</p>
+          <p class="lf-err" id="lf-web-err" hidden>Enter your website's address, for example https://yourfarm.com.</p>
+        </div>
+
+        <div class="lf-row">
+          <div class="lf-field">
+            <label for="lf-town">Town <span class="lf-opt">(optional)</span></label>
+            <input id="lf-town" type="text" autocomplete="address-level2" maxlength="80" />
+          </div>
+          <div class="lf-field">
+            <label for="lf-state">State</label>
+            <select id="lf-state" name="location" required aria-describedby="lf-state-err">
+              <option value="">Choose your state</option>
+              {states.map((s) => <option value={s.name} data-abbr={s.abbr}>{s.name}</option>)}
+            </select>
+            <p class="lf-err" id="lf-state-err" hidden>Choose the state your farm is in.</p>
+          </div>
+        </div>
+
+        <fieldset class="lf-group">
+          <legend>What you sell <small>Pick any</small></legend>
+          <div class="lf-chips">
+            {Object.entries(SPECIES).map(([k, label]) => (
+              <label class="lf-chip"><input type="checkbox" data-group="species" value={k} />{label}</label>
+            ))}
+          </div>
+        </fieldset>
+
+        <fieldset class="lf-group">
+          <legend>How people buy from you <small>Pick any</small></legend>
+          <div class="lf-chips">
+            {Object.entries(CHANNELS).map(([k, label]) => (
+              <label class="lf-chip"><input type="checkbox" data-group="channels" value={k} />{label}</label>
+            ))}
+          </div>
+        </fieldset>
+
+        <div class="lf-field">
+          <label for="lf-feed">How you describe your feeding</label>
+          <textarea id="lf-feed" name="feeding" rows="3" maxlength="600" aria-describedby="lf-feed-hint"></textarea>
+          <p class="lf-hint" id="lf-feed-hint">Use the same words as your website. We quote your website, not this box, so the two need to match.</p>
+        </div>
+
+        <fieldset class="lf-group">
+          <legend>Certifications <small>Only if you hold them</small></legend>
+          <div class="lf-chips">
+            {Object.entries(CERTIFICATIONS).map(([k, c]) => (
+              <label class="lf-chip"><input type="checkbox" data-group="certs" value={k} data-name={c.name} />{c.name}</label>
+            ))}
+          </div>
+        </fieldset>
+
+        <button class="btn lf-go" type="submit">Open my pre-filled form<span class="visually-hidden"> on GitHub, in a new tab</span></button>
+        <p class="lf-note small muted">The form opens on GitHub, where our directory is maintained, and needs a free GitHub account. Prefer to start from scratch? <a class="lf-blank" href={blankUrl} target="_blank" rel="noopener">Open the blank form</a>.</p>
+
+        <div class="lf-done" id="lf-done" aria-live="polite" tabindex="-1" hidden></div>
+      </form>
+
+      <aside class="lf-check" aria-labelledby="lf-check-title">
+        <h3 id="lf-check-title">What we'll look for on your website</h3>
+        <ul>
+          <li>Your farm's name, on a live site.</li>
+          <li>What you sell<span class="lf-pick" data-for="species"></span>.</li>
+          <li>How people can buy<span class="lf-pick" data-for="channels"></span>.</li>
+          <li>How your animals are fed, in words we can quote.</li>
+          <li>Each certification you hold, which we confirm in the certifier's public listing<span class="lf-pick" data-for="certs"></span>.</li>
+        </ul>
+        <p class="small muted">If any of these is missing from your site, adding it first gets your listing up sooner.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="lf-section lf-faq" aria-labelledby="faq-title">
+    <h2 id="faq-title">Questions farms ask</h2>
+    <details>
+      <summary>What does it cost?</summary>
+      <p>Nothing. Listing is free, and farms can't pay to be listed, verified or ranked. The directory contains no paid placements. <a href="/disclosure/">How we make money</a></p>
+    </details>
+    <details>
+      <summary>How long does review take?</summary>
+      <p>We review submissions in the order they arrive, usually within a week.</p>
+    </details>
+    <details>
+      <summary>What do you quote on my listing?</summary>
+      <p>How your website describes your feeding, in your own words, with a link to the page where it says so. We record facts and link to sources, and we don't copy descriptions or photos from other directories. <a href="/methodology/">How we verify</a></p>
+    </details>
+    <details>
+      <summary>Do I need to be certified?</summary>
+      <p>No. If you are, we look your farm up in the certifier's public listing and show the certification only when we find it there.</p>
+    </details>
+    <details>
+      <summary>Why does the form open on GitHub?</summary>
+      <p>Our directory is maintained on GitHub, so that's where submissions arrive. You'll need a free GitHub account to send the form.</p>
+    </details>
+    <details>
+      <summary>What if my details change?</summary>
+      <p>Tell us through our <a href="/corrections/">corrections form</a>. Farms can ask us to update or remove their own listing there, and we check every report against the source.</p>
+    </details>
+  </section>
+</Base>
+
+<script>
+  const form = document.getElementById('lf-form') as HTMLFormElement | null;
+  if (form) {
+    const gtag = (...a: unknown[]) => { const g = (window as any).gtag; if (typeof g === 'function') g(...a); };
+    const action = form.getAttribute('action')!;
+    const template = form.dataset.template!;
+    const speciesMap: Record<string, string> = JSON.parse(form.dataset.map || '{}');
+    const speciesOrder: string[] = JSON.parse(form.dataset.order || '[]');
+    const name = form.querySelector<HTMLInputElement>('#lf-name')!;
+    const web = form.querySelector<HTMLInputElement>('#lf-web')!;
+    const town = form.querySelector<HTMLInputElement>('#lf-town')!;
+    const state = form.querySelector<HTMLSelectElement>('#lf-state')!;
+    const feed = form.querySelector<HTMLTextAreaElement>('#lf-feed')!;
+    const done = document.getElementById('lf-done')!;
+    form.noValidate = true;
+
+    const checked = (group: string) => [...form.querySelectorAll<HTMLInputElement>(`input[data-group="${group}"]:checked`)];
+    const labelOf = (i: HTMLInputElement) => (i.closest('label')?.textContent ?? '').trim();
+    const esc = (t: string) => t.replace(/[&<>"']/g, (ch) => `&#${ch.charCodeAt(0)};`);
+
+    // Accepts "yourfarm.com" or a full address; returns a normalised https URL or null.
+    const toUrl = (raw: string) => {
+      const v = raw.trim();
+      if (!v || /\s/.test(v)) return null;
+      try {
+        const u = new URL(/^[a-z][a-z0-9+.-]*:\/\//i.test(v) ? v : `https://${v}`);
+        if (!['http:', 'https:'].includes(u.protocol) || u.username || u.password) return null;
+        if (!/^[^.]+(\.[^.]+)+$/.test(u.hostname) || u.hostname.endsWith('.')) return null;
+        return u.href;
+      } catch { return null; }
+    };
+
+    const setErr = (el: HTMLElement, id: string, bad: boolean) => {
+      document.getElementById(id)!.hidden = !bad;
+      if (bad) el.setAttribute('aria-invalid', 'true'); else el.removeAttribute('aria-invalid');
+    };
+
+    // Live "what we'll look for" checklist.
+    const picks = document.querySelectorAll<HTMLElement>('.lf-pick');
+    const refresh = () => {
+      picks.forEach((p) => {
+        const names = checked(p.dataset.for!).map(labelOf);
+        p.textContent = names.length ? `: ${names.join(', ')}` : '';
+      });
+    };
+
+    let started = false;
+    const start = () => { if (!started) { started = true; gtag('event', 'list_farm_form_start'); } };
+    form.addEventListener('input', start);
+    form.addEventListener('change', () => { start(); refresh(); });
+
+    const buildUrl = (website: string) => {
+      const stateName = state.value;
+      const loc = town.value.trim() ? `${town.value.trim()}, ${stateName}` : stateName;
+      const species = [...new Set(checked('species').map((i) => speciesMap[i.value]).filter(Boolean))]
+        .sort((a, b) => speciesOrder.indexOf(a) - speciesOrder.indexOf(b));
+      const certs = checked('certs').map((i) => i.dataset.name ?? '').filter(Boolean);
+      const params: [string, string][] = [
+        ['template', template],
+        ['title', `Farm listing: ${name.value.trim()}`],
+        ['farm_name', name.value.trim()],
+        ['website', website],
+        ['location', loc],
+      ];
+      if (species.length) params.push(['species', species.join(',')]);
+      if (feed.value.trim()) params.push(['feeding', feed.value.trim()]);
+      if (certs.length) params.push(['certifications', certs.join(', ')]);
+      return { url: `${action}?${params.map(([k, v]) => `${k}=${encodeURIComponent(v)}`).join('&')}`, species };
+    };
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const website = toUrl(web.value);
+      const badName = !name.value.trim();
+      const badWeb = !website;
+      const badState = !state.value;
+      setErr(name, 'lf-name-err', badName);
+      setErr(web, 'lf-web-err', badWeb);
+      setErr(state, 'lf-state-err', badState);
+      const first = badName ? name : badWeb ? web : badState ? state : null;
+      if (first) { done.hidden = true; first.focus(); return; }
+      web.value = website!;
+
+      const { url, species } = buildUrl(website!);
+      gtag('event', 'list_farm_form_submit', { state: state.selectedOptions[0]?.dataset.abbr ?? '', species_count: checked('species').length });
+      window.open(url, '_blank', 'noopener');
+
+      const tick = species.length ? `Tick what you sell if it isn't already ticked: ${species.join(', ')}.` : 'Tick what you sell.';
+      done.innerHTML = `<p class="lf-done-title">Your form is open in a new tab.</p>
+        <ol>
+          <li>Check that your answers came through.</li>
+          <li>${esc(tick)}</li>
+          <li>Add photos if you like, then tick the confirmation box.</li>
+          <li>Press <strong>Create</strong> (on some screens, <strong>Submit new issue</strong>) to send it to us.</li>
+        </ol>
+        <p class="small">Didn't open? <a href="${esc(url)}" target="_blank" rel="noopener">Open your pre-filled form</a>.</p>`;
+      done.hidden = false;
+      done.focus({ preventScroll: false });
+    });
+
+    document.querySelectorAll<HTMLAnchorElement>('.lf-blank').forEach((a) =>
+      a.addEventListener('click', () => gtag('event', 'list_farm_blank_form_click')));
+  }
+</script>
+
+<style>
+  /* Hero */
+  .lf-eyebrow { margin: 0 0 0.5rem; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #7a5609; }
+  .lf-hero .hero-panel h1 { max-width: 14ch; }
+  .lf-promise { margin: 0 0 0.9rem; font: 600 clamp(1.25rem, 2.4vw, 1.6rem)/1.2 var(--display); color: var(--pasture); }
+  .lf-ctas { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .lf-fine { margin: 0.9rem 0 0; font-size: 0.9rem; color: var(--ink-soft); }
+  .lf-proof { align-self: end; justify-self: end; width: min(100%, 340px); border-radius: var(--radius-lg); padding: clamp(18px, 2.4vw, 26px); }
+  .lf-proof h2 { margin: 0 0 0.75rem; font-size: 1.1rem; color: var(--pasture-deep); }
+  .lf-proof dl { margin: 0; display: grid; gap: 0.75rem; }
+  .lf-proof dl div { display: grid; grid-template-columns: 4.2rem 1fr; gap: 0.75rem; align-items: center; }
+  .lf-proof dt { font: 700 2.1rem/1 var(--display); color: var(--pasture-deep); text-align: right; font-variant-numeric: tabular-nums; }
+  .lf-proof dd { margin: 0; font-size: 0.95rem; line-height: 1.35; color: var(--ink); }
+  .lf-proof-note { margin: 0.85rem 0 0; font-size: 0.82rem; color: var(--ink-soft); }
+  @media (max-width: 860px) {
+    .lf-proof { justify-self: stretch; width: 100%; }
+    .lf-proof dl { grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
+  }
+
+  /* Sections */
+  .lf-section { margin-top: clamp(2.5rem, 6vw, 4.5rem); scroll-margin-top: calc(var(--header-h) + 16px); }
+  .lf-section > h2 { margin-top: 0; }
+  .lf-fit { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1rem; }
+  .lf-fit-card { padding: 1.1rem 1.25rem; border-radius: var(--radius-md); background: rgba(255,255,255,0.72); border: 1px solid rgba(31,64,41,0.12); border-top: 3px solid var(--pasture); }
+  .lf-fit-card h3 { margin: 0 0 0.4rem; }
+  .lf-fit-card p { margin: 0; line-height: 1.65; }
+
+  /* Timeline */
+  .lf-steps { list-style: none; counter-reset: st; padding: 0; margin: 1.25rem 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; }
+  .lf-steps li { counter-increment: st; position: relative; }
+  .lf-steps li::before { content: counter(st); display: grid; place-items: center; width: 2.4rem; height: 2.4rem; border-radius: 50%; background: var(--pasture); color: #fff; font: 700 1.1rem/1 var(--display); margin-bottom: 0.75rem; }
+  .lf-steps li:not(:last-child)::after { content: ''; position: absolute; top: calc(1.2rem - 1px); left: 3rem; right: -0.9rem; height: 2px; background: var(--clover); }
+  .lf-steps h3 { margin: 0 0 0.35rem; font-size: 1.15rem; }
+  .lf-steps p { margin: 0; color: var(--ink-soft); line-height: 1.6; }
+  @media (max-width: 760px) {
+    .lf-steps { grid-template-columns: minmax(0, 1fr); gap: 1.25rem; }
+    .lf-steps li { display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); column-gap: 1rem; }
+    .lf-steps li::before { grid-row: 1 / span 2; margin: 0; }
+    .lf-steps li:not(:last-child)::after { top: 3rem; bottom: -0.65rem; left: calc(1.2rem - 1px); right: auto; width: 2px; height: auto; }
+  }
+
+  /* Form */
+  .lf-apply-grid { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 1.5rem 2rem; align-items: start; margin-top: 1rem; }
+  .lf-form { border-radius: var(--radius-lg); padding: clamp(18px, 3vw, 32px); display: grid; gap: 1.15rem; min-width: 0; }
+  .lf-field { display: flex; flex-direction: column; gap: 0.3rem; min-width: 0; }
+  .lf-field label, .lf-group legend { font-weight: 600; color: var(--pasture-deep); }
+  .lf-opt { font-weight: 400; color: var(--ink-soft); font-size: 0.88rem; }
+  .lf-form input[type='text'], .lf-form select, .lf-form textarea { width: 100%; font: inherit; color: var(--ink); background: #fff; border: 1.5px solid var(--rule); border-radius: 12px; padding: 0.5em 0.7em; min-height: 44px; }
+  .lf-form textarea { resize: vertical; line-height: 1.5; }
+  .lf-form [aria-invalid='true'] { border-color: var(--alert); }
+  .lf-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 1rem; }
+  .lf-hint { margin: 0; font-size: 0.88rem; color: var(--ink-soft); }
+  .lf-err { margin: 0; font-size: 0.9rem; font-weight: 500; color: var(--alert); }
+  .lf-group { border: 0; padding: 0; margin: 0; min-width: 0; }
+  .lf-group legend { padding: 0; margin-bottom: 0.5rem; }
+  .lf-group legend small { font-weight: 400; color: var(--ink-soft); font-size: 0.85rem; margin-left: 0.3rem; }
+  .lf-chips { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+  .lf-chip { position: relative; display: inline-flex; align-items: center; min-height: 40px; padding: 0.35rem 0.9rem; border-radius: 999px; background: rgba(255,255,255,0.9); border: 1px solid rgba(31,64,41,0.18); color: var(--ink); font-weight: 500; font-size: 0.95rem; line-height: 1.25; cursor: pointer; user-select: none; transition: background-color 140ms ease, border-color 140ms ease, color 140ms ease; }
+  .lf-chip:hover { border-color: var(--pasture); }
+  .lf-chip input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; margin: 0; cursor: pointer; }
+  .lf-chip:has(input:checked) { background: var(--pasture); border-color: var(--pasture-deep); color: #fff; }
+  .lf-chip:has(input:checked)::before { content: '✓'; margin-right: 0.35rem; font-weight: 700; }
+  .lf-chip:has(input:focus-visible) { outline: 3px solid var(--hay); outline-offset: 2px; }
+  .lf-go { justify-self: start; font-size: 1.05rem; padding-inline: 1.6em; }
+  .lf-note { margin: -0.4rem 0 0; }
+  .lf-done { padding: 1rem 1.1rem; border-radius: var(--radius-md); background: #fff; border: 1px solid var(--clover); border-left: 4px solid var(--pasture); }
+  .lf-done:focus { outline: none; }
+  .lf-done :global(.lf-done-title) { margin: 0 0 0.4rem; font-weight: 700; color: var(--pasture-deep); }
+  .lf-done :global(ol) { margin: 0 0 0.5rem; padding-left: 1.3rem; }
+  .lf-done :global(li) { margin-bottom: 0.2rem; }
+  .lf-done :global(p.small) { margin: 0; }
+
+  .lf-check { padding: 1.1rem 1.25rem; border-radius: var(--radius-md); background: rgba(255,255,255,0.72); border: 1px solid rgba(31,64,41,0.12); border-left: 4px solid var(--hay); }
+  .lf-check h3 { margin: 0 0 0.6rem; font-size: 1.1rem; }
+  .lf-check ul { list-style: none; padding: 0; margin: 0 0 0.75rem; display: grid; gap: 0.5rem; }
+  .lf-check li { position: relative; padding-left: 1.5rem; line-height: 1.5; }
+  .lf-check li::before { content: '✓'; position: absolute; left: 0; font-weight: 700; color: var(--pasture); }
+  .lf-pick { font-weight: 600; color: var(--pasture-deep); }
+  .lf-check p { margin: 0; }
+  @media (max-width: 860px) {
+    .lf-apply-grid { grid-template-columns: minmax(0, 1fr); }
+  }
+
+  /* FAQ */
+  .lf-faq { max-width: var(--measure); }
+  .lf-faq details { border-bottom: 1px solid var(--rule); }
+  .lf-faq details:first-of-type { border-top: 1px solid var(--rule); }
+  .lf-faq summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 0.9rem 0.1rem; font: 600 1.1rem/1.3 var(--display); color: var(--pasture-deep); min-height: 44px; }
+  .lf-faq summary::-webkit-details-marker { display: none; }
+  .lf-faq summary::after { content: '+'; flex: none; font: 600 1.4rem/1 var(--body); color: var(--hay); }
+  .lf-faq details[open] summary::after { content: '\2212'; }
+  .lf-faq details p { margin: 0 0 1rem; line-height: 1.7; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .lf-proof { animation: lf-rise 700ms cubic-bezier(.2,.8,.2,1) 150ms both; }
+    @keyframes lf-rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  }
+</style>
