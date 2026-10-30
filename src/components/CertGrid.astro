@@ -1,0 +1,40 @@
+---
+// At-a-glance cards for certification programs: badge, farm count and what the label means.
+// A card with farms links to its certification page; one without links to its explanation.
+import { CERTIFICATIONS } from '../data/states.mjs';
+import { CERT_PAGES, certTagClass, certPath } from '../data/certs.mjs';
+interface Props { items: { program: string; n: number }[]; label: string; compact?: boolean }
+const { items, label, compact = false } = Astro.props;
+---
+<ul class={`cert-grid ${compact ? 'compact' : ''}`} aria-label={label}>
+  {items.map(({ program, n }) => (
+    <li>
+      <a href={n > 0 ? certPath(program) : `/certifications/#${CERT_PAGES[program].section}`} class={n > 0 ? undefined : 'none'}>
+        <span class={`tag ${certTagClass(program)}`}>{CERTIFICATIONS[program].short}</span>
+        {n > 0
+          ? <b>{n}<small> {n === 1 ? 'farm' : 'farms'}</small></b>
+          : <b class="zero">None confirmed yet</b>}
+        <span class="what">{CERT_PAGES[program].tagline}</span>
+      </a>
+    </li>
+  ))}
+</ul>
+<style>
+  .cert-grid { list-style: none; padding: 0; margin: 1.25rem 0 1.5rem; display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 190px), 1fr)); }
+  .cert-grid a {
+    display: flex; flex-direction: column; align-items: flex-start; gap: 0.35rem; height: 100%;
+    padding: 0.85rem 1rem; border: 1px solid rgba(31,64,41,0.12); border-radius: var(--radius-md);
+    background: rgba(255,255,255,0.72); text-decoration: none; color: var(--ink);
+  }
+  .cert-grid a:hover { border-color: var(--pasture); background: rgba(255,255,255,0.92); }
+  .cert-grid .tag { font-weight: 600; }
+  .cert-grid b { font-family: var(--display); font-size: 2rem; line-height: 1.05; color: var(--pasture-deep); }
+  .cert-grid b small { font-family: var(--body); font-size: 0.95rem; font-weight: 500; color: var(--ink-soft); }
+  .cert-grid b.zero { font-size: 1.1rem; color: var(--ink-soft); padding: 0.4rem 0 0.15rem; }
+  .cert-grid .what { font-size: 0.9rem; color: var(--ink-soft); line-height: 1.35; }
+  .cert-grid a.none { background: transparent; border-style: dashed; }
+  .cert-grid.compact b { font-size: 1.6rem; }
+  @media (prefers-reduced-motion: no-preference) {
+    .cert-grid a { transition: border-color 160ms ease, background-color 160ms ease; }
+  }
+</style>
