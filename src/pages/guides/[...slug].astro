@@ -1,4 +1,5 @@
 ---
+import GuideFarms from '../../components/GuideFarms.astro';
 import Base from '../../layouts/Base.astro';
 import { getCollection, render } from 'astro:content';
 import { fmtDate } from '../../data/format.mjs';
@@ -9,9 +10,24 @@ export async function getStaticPaths() {
   return articles.map((a) => ({ params: { slug: a.id }, props: { article: a } }));
 }
 const { article } = Astro.props;
-const { Content } = await render(article);
+const { Content, headings } = await render(article);
 const d = article.data;
 const isComparison = d.kind !== 'guide';
+// Reading time from the article's own words (link addresses skipped), at about 230 words a minute.
+const words = (article.body ?? '')
+  .replace(/\]\([^)]*\)/g, ']')
+  .replace(/https?:\/\/\S+/g, ' ')
+  .match(/[A-Za-z0-9][A-Za-z0-9'.-]*/g)?.length ?? 0;
+const minutes = Math.max(1, Math.round(words / 230));
+// Table of contents: the article's h2 headings (Astro gives each an id), then the farm module and sources.
+const sections = headings.filter((h) => h.depth === 2).map((h) => ({ id: h.slug, text: h.text }));
+const toc = [
+  ...sections,
+  { id: 'guide-farms', text: 'Find farms near you', cta: true },
+  { id: 'guide-sources', text: 'Sources' },
+];
+// Long guides also get a compact farm band after the middle section, placed by the script below.
+const inlineCta = sections.length >= 5 && minutes >= 6;
 const url = `https://grassfed.food/guides/${article.id}/`;
 const jsonLd = [
   {
@@ -38,31 +54,280 @@ const jsonLd = [
 ---
 <Base title={d.title} description={d.description} jsonLd={jsonLd}>
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/guides/">Guides</a></nav>
-  <article class="prose">
-    <h1>{d.title}</h1>
-    <p class="muted small">
-      By the grassfed.food editors. Updated {fmtDate(d.updated)}{d.updated.getTime() !== d.published.getTime() && <>, first published {fmtDate(d.published)}</>}.
-    </p>
-    {d.image && (
-      <figure class="lead-image">
-        <img src={d.image.src} alt={d.image.alt} width="1200" height="675" />
-        <figcaption>Photo: <a href={d.image.credit_url} rel="nofollow">{d.image.credit}</a></figcaption>
-      </figure>
+  <div class="read-progress" aria-hidden="true" hidden><span class="read-progress-bar"></span></div>
+  <article class="guide" data-guide={article.id}>
+    <header class="guide-head prose">
+      <h1>{d.title}</h1>
+      <p class="guide-meta muted small">
+        By the grassfed.food editors. Updated <time datetime={d.updated.toISOString().slice(0, 10)}>{fmtDate(d.updated)}</time>{d.updated.getTime() !== d.published.getTime() && <>, first published {fmtDate(d.published)}</>}.
+        <span class="read-time">{minutes} min read</span>
+      </p>
+      {sections.length > 0 && (
+        <details class="toc-mobile">
+          <summary><span>In this guide</span><span class="toc-count">{sections.length} sections</span></summary>
+          <nav aria-label="In this guide">
+            <ol class="toc-list">
+              {toc.map((t) => <li class={t.cta ? 'toc-cta' : undefined}><a href={`#${t.id}`} data-toc={t.id}>{t.text}</a></li>)}
+            </ol>
+          </nav>
+        </details>
+      )}
+      {d.image && (
+        <figure class="lead-image">
+          <img src={d.image.src} alt={d.image.alt} width="1200" height="675" />
+          <figcaption>Photo: <a href={d.image.credit_url} rel="nofollow">{d.image.credit}</a></figcaption>
+        </figure>
+      )}
+      {AFFILIATES_ENABLED && d.affiliate && (
+        <p class="disclosure"><strong>We earn commissions on some links in this article.</strong> If you buy through a link marked "paid link," we may be paid by the seller at no extra cost to you. Sellers can't pay for placement or influence what we write. <a href="/disclosure/">How we make money</a></p>
+      )}
+      {isComparison && (
+        <p class="disclosure method-note">This comparison is based on each company's published information: prices, sourcing statements, and third-party certifications. We have not taste-tested these products. <a href="/methodology/">Our method</a></p>
+      )}
+    </header>
+    {sections.length > 0 && (
+      <aside class="guide-rail">
+        <nav class="toc-rail" aria-label="In this guide">
+          <p class="toc-title">In this guide <span class="toc-time">{minutes} min</span></p>
+          <ol class="toc-list">
+            {toc.map((t) => <li class={t.cta ? 'toc-cta' : undefined}><a href={`#${t.id}`} data-toc={t.id}>{t.text}</a></li>)}
+          </ol>
+        </nav>
+      </aside>
     )}
-    {AFFILIATES_ENABLED && d.affiliate && (
-      <p class="disclosure"><strong>We earn commissions on some links in this article.</strong> If you buy through a link marked "paid link," we may be paid by the seller at no extra cost to you. Sellers can't pay for placement or influence what we write. <a href="/disclosure/">How we make money</a></p>
-    )}
-    {isComparison && (
-      <p class="disclosure method-note">This comparison is based on each company's published information: prices, sourcing statements, and third-party certifications. We have not taste-tested these products. <a href="/methodology/">Our method</a></p>
-    )}
-    <Content />
-    <h2>Sources</h2>
-    <ol class="small">
-      {d.sources.map((s) => <li><a href={s.url} rel="nofollow">{s.title}</a></li>)}
-    </ol>
-    <p class="small muted">Spotted an error? <a href="/corrections/">Report a correction</a>.</p>
+    <div class="guide-main prose">
+      <div class="guide-body" id="guide-body">
+        <Content />
+      </div>
+      <GuideFarms guide={article.id} />
+      <section class="guide-sources" id="guide-sources" aria-labelledby="guide-sources-title">
+        <h2 id="guide-sources-title">Sources</h2>
+        <ol class="small">
+          {d.sources.map((s) => <li><a href={s.url} rel="nofollow">{s.title}</a></li>)}
+        </ol>
+      </section>
+      <p class="small muted">Spotted an error? <a href="/corrections/">Report a correction</a>.</p>
+    </div>
   </article>
+  {inlineCta && <template id="guide-inline-cta"><GuideFarms guide={article.id} variant="compact" /></template>}
 </Base>
+<script>
+  const root = document.querySelector<HTMLElement>('.guide[data-guide]');
+  const body = document.getElementById('guide-body');
+  if (root && body) {
+    const guide = root.dataset.guide ?? '';
+    const send = (name: string, params: Record<string, unknown>) => {
+      const g = (window as any).gtag;
+      if (typeof g === 'function') g('event', name, params);
+    };
+    const reduceMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const header = document.querySelector<HTMLElement>('.site-header');
+    const byHash = (hash: string) => {
+      if (hash.length < 2) return null;
+      try { return document.getElementById(decodeURIComponent(hash.slice(1))); } catch { return null; }
+    };
+
+    // Compact farm band after the middle section of long guides. The article
+    // markdown is left alone: the band waits in a <template> and is placed here.
+    const tpl = document.getElementById('guide-inline-cta') as HTMLTemplateElement | null;
+    if (tpl) {
+      const h2s = Array.from(body.children).filter((el) => el.tagName === 'H2');
+      const at = h2s[Math.floor(h2s.length / 2)];
+      if (h2s.length >= 5 && at) {
+        body.insertBefore(tpl.content.cloneNode(true), at);
+        // A visitor who arrived on a link to a later section keeps their place.
+        const target = byHash(location.hash);
+        if (target && (target === at || at.compareDocumentPosition(target) & Node.DOCUMENT_POSITION_FOLLOWING)) target.scrollIntoView({ block: 'start' });
+      }
+    }
+
+    // Header height, so the progress bar and jumped-to headings sit just below it.
+    let headerSticky = 0;
+    const measure = () => {
+      headerSticky = header && getComputedStyle(header).position === 'sticky' ? header.offsetHeight : 0;
+      if (headerSticky) root.style.setProperty('--guide-top', `${headerSticky + 3}px`);
+      else root.style.removeProperty('--guide-top');
+    };
+    measure();
+
+    // Reading progress through the article text, plus a one-time 75 percent event.
+    const bar = document.querySelector<HTMLElement>('.read-progress');
+    const fill = bar?.querySelector<HTMLElement>('.read-progress-bar') ?? null;
+    let read75 = false;
+    let ticking = false;
+    const update = () => {
+      ticking = false;
+      const top = header ? Math.max(0, header.getBoundingClientRect().bottom) : 0;
+      const r = body.getBoundingClientRect();
+      const span = r.height - (window.innerHeight - top);
+      const p = span <= 0 ? (r.bottom <= window.innerHeight ? 1 : 0) : Math.min(1, Math.max(0, (top - r.top) / span));
+      if (bar && fill) {
+        bar.style.transform = `translateY(${Math.round(top)}px)`;
+        fill.style.transform = `scaleX(${p.toFixed(4)})`;
+      }
+      if (!read75 && p >= 0.75) {
+        read75 = true;
+        send('guide_read_75', { guide });
+      }
+    };
+    const onScroll = () => {
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(update);
+      }
+    };
+    if (bar) bar.hidden = false;
+    update();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', () => { measure(); onScroll(); });
+
+    // Current section: the last target whose top has passed 30 percent of the viewport.
+    const links = Array.from(root.querySelectorAll<HTMLAnchorElement>('a[data-toc]'));
+    const ids = [...new Set(links.map((a) => a.dataset.toc ?? ''))];
+    const targets = ids.map((id) => document.getElementById(id)).filter((el): el is HTMLElement => el !== null);
+    const rail = root.querySelector<HTMLElement>('.toc-rail');
+    let current = '';
+    const pick = () => {
+      const line = window.innerHeight * 0.3;
+      let id = '';
+      for (const t of targets) {
+        if (t.getBoundingClientRect().top <= line) id = t.id;
+        else break;
+      }
+      if (id === current) return;
+      current = id;
+      for (const a of links) {
+        if (a.dataset.toc === id) a.setAttribute('aria-current', 'location');
+        else a.removeAttribute('aria-current');
+      }
+      const active = rail?.querySelector<HTMLElement>('a[aria-current]');
+      if (rail && active && rail.scrollHeight > rail.clientHeight) {
+        rail.scrollTop = Math.max(0, active.offsetTop - rail.clientHeight / 2);
+      }
+    };
+    if ('IntersectionObserver' in window && targets.length) {
+      const io = new IntersectionObserver(pick, { rootMargin: '0px 0px -70% 0px' });
+      for (const t of targets) io.observe(t);
+    }
+
+    // In-page links: smooth scroll (instant with reduced motion), move focus, record the click.
+    root.addEventListener('click', (e) => {
+      const a = (e.target as Element | null)?.closest?.('a');
+      if (!a) return;
+      const href = a.getAttribute('href') ?? '';
+      if (a.dataset.toc) send('guide_toc_click', { guide, section: a.dataset.toc });
+      else if (a.hasAttribute('data-guide-cta')) send('guide_cta_click', { guide, target: href.startsWith('#') ? href : a.pathname });
+      if (!href.startsWith('#')) return;
+      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      const el = byHash(href);
+      if (!el) return;
+      e.preventDefault();
+      // Close the phone contents panel first so the page does not shift mid-scroll.
+      a.closest('details')?.removeAttribute('open');
+      el.scrollIntoView({ behavior: reduceMotion() ? 'auto' : 'smooth', block: 'start' });
+      history.pushState(null, '', href);
+      if (!el.hasAttribute('tabindex')) el.setAttribute('tabindex', '-1');
+      el.focus({ preventScroll: true });
+    });
+
+    // State picker: go straight to that state's farms. Without JavaScript the form opens the hub page.
+    const form = root.querySelector<HTMLFormElement>('form[data-guide-picker]');
+    const select = form?.querySelector('select');
+    const msg = form?.querySelector<HTMLElement>('.gfm-msg');
+    if (form && select) {
+      select.addEventListener('change', () => { if (msg) msg.textContent = ''; });
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const to = select.value;
+        if (!to.startsWith('/')) {
+          if (msg) msg.textContent = 'Choose a state first.';
+          select.focus();
+          return;
+        }
+        send('guide_cta_click', { guide, target: to });
+        window.location.href = to;
+      });
+    }
+  }
+</script>
 <style>
   .method-note { background: var(--paper-2); border-left-color: var(--pasture); }
+
+  /* Reading progress: a thin bar the script keeps just under the header. */
+  .read-progress { position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 49; pointer-events: none; }
+  .read-progress-bar {
+    display: block; height: 100%; transform-origin: 0 50%; transform: scaleX(0);
+    background: linear-gradient(90deg, var(--pasture), #6f9a52 60%, var(--hay));
+  }
+
+  .guide { --guide-top: 0px; }
+  .guide-head h1 { margin-bottom: 0.35em; }
+  .guide-meta { margin-bottom: 1.5rem; }
+  .read-time {
+    display: inline-block; margin-left: 0.25rem; padding: 0.05em 0.65em; border-radius: 999px;
+    background: rgba(255,255,255,0.75); border: 1px solid var(--rule); color: var(--ink); white-space: nowrap;
+  }
+
+  /* Contents: a collapsible panel on phones and tablets, a sticky rail on wide screens. */
+  .toc-list { list-style: none; margin: 0; padding: 0; }
+  .toc-list a {
+    display: block; padding: 0.55rem 0.75rem; border-left: 2px solid var(--rule);
+    color: var(--ink-soft); text-decoration: none; line-height: 1.35; font-size: 0.95rem;
+  }
+  .toc-list a:hover { color: var(--pasture-deep); border-left-color: #a3bf72; }
+  .toc-list a[aria-current] { color: var(--pasture-deep); border-left-color: var(--pasture); background: rgba(47,93,58,0.07); font-weight: 600; }
+  .toc-list .toc-cta a { margin-top: 0.4rem; border-left-color: var(--hay); color: #7a5609; font-weight: 600; }
+  .toc-list .toc-cta a[aria-current] { background: var(--hay-tint); }
+
+  .toc-mobile {
+    margin: 0 0 1.5rem; border-radius: var(--radius-md); border: 1px solid rgba(31,64,41,0.12);
+    background: rgba(255,255,255,0.78);
+  }
+  .toc-mobile summary {
+    display: flex; align-items: center; gap: 0.75rem; min-height: 48px; padding: 0.6rem 1rem;
+    cursor: pointer; list-style: none; font-weight: 600; color: var(--pasture-deep); border-radius: var(--radius-md);
+  }
+  .toc-mobile summary::-webkit-details-marker { display: none; }
+  .toc-mobile summary::after {
+    content: ''; flex: none; width: 0.5em; height: 0.5em; margin: 0 0.15rem 0.2em 0;
+    border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg);
+  }
+  .toc-mobile[open] summary::after { transform: rotate(-135deg); margin-bottom: -0.2em; }
+  .toc-count { margin-left: auto; font-weight: 400; font-size: 0.9rem; color: var(--ink-soft); }
+  .toc-mobile nav { padding: 0 0.75rem 0.85rem; }
+
+  .guide-rail { display: none; }
+  .toc-title { margin: 0 0 0.6rem; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: var(--pasture-deep); }
+  .toc-time { font-weight: 500; letter-spacing: 0; text-transform: none; color: var(--ink-soft); margin-left: 0.35rem; }
+
+  /* Headings land below the sticky header when jumped to. */
+  .guide-body :global(h2), .guide-body :global(h3), .guide :global(#guide-farms), .guide-sources {
+    scroll-margin-top: calc(var(--guide-top) + 1rem);
+  }
+  .guide-sources h2 { margin-top: 2rem; }
+
+  @media (min-width: 761px) {
+    .guide { --guide-top: calc(var(--header-h) + 3px); }
+  }
+  @media (min-width: 64rem) {
+    .guide {
+      display: grid; grid-template-columns: minmax(0, var(--measure)) 15rem;
+      grid-template-areas: 'head rail' 'main rail';
+      column-gap: clamp(2rem, 4vw, 4.5rem); justify-content: space-between; align-items: start;
+    }
+    .guide-head { grid-area: head; }
+    .guide-main { grid-area: main; min-width: 0; }
+    .guide-rail { grid-area: rail; align-self: stretch; display: block; }
+    .toc-rail {
+      position: sticky; top: calc(var(--guide-top) + 1.5rem);
+      max-height: calc(100vh - var(--guide-top) - 3rem); overflow-y: auto; overscroll-behavior: contain;
+      padding: 1rem 0.5rem 1rem 0.35rem;
+    }
+    .toc-rail .toc-list a { padding: 0.4rem 0.75rem; font-size: 0.92rem; }
+    .toc-mobile { display: none; }
+  }
+  /* Wide tables scroll sideways on phones instead of widening the page. */
+  @media (max-width: 40rem) {
+    .guide-body :global(table) { display: block; overflow-x: auto; }
+  }
 </style>
