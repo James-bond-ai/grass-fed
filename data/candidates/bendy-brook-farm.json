@@ -1,0 +1,51 @@
+{
+  "id": "bendy-brook-farm",
+  "slug": "bendy-brook-farm",
+  "farm_name": "Bendy Brook Farm",
+  "city": "Oley",
+  "state": "PA",
+  "zip": "19547",
+  "address_public": false,
+  "website": "https://www.bendybrookfarm.com/",
+  "phone": "610-698-1086",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "pork"
+  ],
+  "products": [
+    "beef quarters and halves",
+    "1/8 beef bundles",
+    "pastured chicken",
+    "turkey",
+    "pork bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass fed and grass finished on our chemical free property",
+    "source_url": "https://www.bendybrookfarm.com/what-we-have/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Southeast PA"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Covered Bridge Farmstand, 92 Covered Bridge Road, Oley"
+    ],
+    "source_url": "https://www.bendybrookfarm.com/where-to-buy/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.bendybrookfarm.com/order-form/",
+  "data_source": "web-search",
+  "source_url": "https://www.bendybrookfarm.com/"
+}

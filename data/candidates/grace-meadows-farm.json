@@ -1,0 +1,46 @@
+{
+  "id": "grace-meadows-farm",
+  "slug": "grace-meadows-farm",
+  "farm_name": "Grace Meadows Farm",
+  "city": "Uhrichsville",
+  "state": "OH",
+  "zip": "44683",
+  "address_public": false,
+  "website": "https://gracemeadowsfarm.org/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry"
+  ],
+  "products": [
+    "grass-finished beef",
+    "pasture-raised chicken"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "When you order from us, your beef is grass-finished on our pastures.",
+    "source_url": "https://gracemeadowsfarm.org/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Tuscarawas County"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://gracemeadowsfarm.org/contact/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/gracemeadowsfarm.org/all",
+  "data_source": "web-search",
+  "source_url": "https://gracemeadowsfarm.org/"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "black-swamp-cattle-company",
+  "slug": "black-swamp-cattle-company",
+  "farm_name": "Black Swamp Cattle Company",
+  "city": "Holland",
+  "state": "OH",
+  "zip": "43528",
+  "address_public": false,
+  "website": "https://blackswampcattle.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "beef bundles",
+    "half and whole beef",
+    "pastured chicken",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is grass fed and grass finished, they do not receive any grain and spend their entire lives on pasture.",
+    "source_url": "https://blackswampcattle.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Home delivery in select zip codes"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://blackswampcattle.com/locations"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://blackswampcattle.com/store",
+  "data_source": "web-search",
+  "source_url": "https://blackswampcattle.com/"
+}

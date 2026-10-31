@@ -1,0 +1,44 @@
+{
+  "id": "gavitt-family-grassfed-beef",
+  "slug": "gavitt-family-grassfed-beef",
+  "farm_name": "Gavitt Family Grassfed Beef",
+  "city": "Unityville",
+  "state": "PA",
+  "zip": "17774",
+  "address_public": false,
+  "website": "https://gavittgrassfedbeef.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef bundles",
+    "bulk ground beef",
+    "quarter, half and whole beef bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We are fully committed to 100% grass-fed and grass-finished beef",
+    "source_url": "https://gavittgrassfedbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Local pickup for bulk beef bundles"
+    ],
+    "source_url": "https://gavittgrassfedbeef.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://gavittgrassfedbeef.com/",
+  "data_source": "web-search",
+  "source_url": "https://www.nebpi.org/local-beef-directory/pennsylvania"
+}

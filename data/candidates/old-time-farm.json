@@ -1,0 +1,56 @@
+{
+  "id": "old-time-farm",
+  "slug": "old-time-farm",
+  "farm_name": "Old Time Farm",
+  "city": "Stoneboro",
+  "state": "PA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.oldtime.farm/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "beef bacon",
+    "broth bones",
+    "beef share bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "High quality grass, hay, & minerals naturally fatten healthy Old Time cattle - no grain needed.",
+    "source_url": "https://www.oldtime.farm/products/1-16th-beef-bundle"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "csa",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "City of Pittsburgh",
+      "North Hills suburbs",
+      "Cranberry Township",
+      "Butler County",
+      "Mercer County",
+      "Grove City"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Bloomfield Farmers Market, Pittsburgh"
+    ],
+    "source_url": "https://www.oldtime.farm/pages/where-to-find-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.oldtime.farm/collections/grass-fed-beef-delivery-pittsburgh",
+  "data_source": "web-search",
+  "source_url": "https://www.nebpi.org/local-beef-directory/pennsylvania",
+  "resold_note": "Its beef is also sold at Mort's Fresh & Local on Cochran Road."
+}

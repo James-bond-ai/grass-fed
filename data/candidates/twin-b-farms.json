@@ -1,0 +1,50 @@
+{
+  "id": "twin-b-farms",
+  "slug": "twin-b-farms",
+  "farm_name": "Twin B Farms",
+  "city": "Port Matilda",
+  "state": "PA",
+  "zip": "16870",
+  "address_public": false,
+  "website": "https://www.twinbfarms.com/",
+  "phone": "814-502-5656",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "quarter, half and whole beef",
+    "pork",
+    "pastured chicken",
+    "beef patties"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Gourmet, grass fed, whole beef patties from cattle born and raised on our farm.",
+    "source_url": "https://www.twinbfarms.com/find-us"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Boalsburg Farmers Market (Tuesdays)",
+    "North Atherton Farmers Market, State College (Saturdays)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Centre Markets pickup, Nittany Mall"
+    ],
+    "source_url": "https://www.twinbfarms.com/find-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.twinbfarms.com/beef",
+  "data_source": "web-search",
+  "source_url": "https://www.nebpi.org/local-beef-directory/pennsylvania"
+}

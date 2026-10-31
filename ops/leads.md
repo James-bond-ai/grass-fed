@@ -33,12 +33,19 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 ## NY
 - Raw milk permit holders not yet checked (sites blocked fetching): Essex Farm, Remembrance Farm, Byebrook, Side Hill Acres, Hoofprint, 3-Corner Field Farm, Stone Thistle, Asgaard Farm, Edgwick Farm
 
+## OH
+- Fred's Farm (fredsfarm.grazecart.com): grass-finished beef, site under maintenance 2026-10-31
+
 ## OR
 - Plaisance Ranch, Williams; Martin Family Ranch, Central Point; Lane Creek Reserve, Central Point; Uproot Meats, Ashland; Foley Peak Angus, Nehalem; Oreganic Beef Co.
 
 ## PA
-- Coulter Farms, Honey Grove: certified organic, "100% grassfed" per FreshFarm; check first
-- Western PA, Bucks and Chester counties and the northern tier have no listings
+- Barbour Grassfed Beef, Cogan Station (barbourgrassfedbeef.com): "No Grain", quarters and halves; our-beef page errored and no town on site 2026-10-31
+- WindSwept Angus, Ulster (windsweptgrassfed.com) and Skelton Farms, Edinboro (skeltonfarms.com): NEBPI directory, fetch not permitted 2026-10-31
+- Heritage Trail Farm, Prosperity (lindleybeef.org): grass-finished Red Devon beef, but sold only through The Old Road Farm, so no direct sales
+- Grazy Days Ranch, New Galilee; Walnut Hill Farm, Sharpsville; Penn Valley Meats, Millersburg: no own website found 2026-10-31
+- Coulter Farms candidate: site says it has produced grass-fed meat since 2001 but names no meat species; Verifier may check the Barn2Door shop
+- Bucks and Chester counties and the northern tier still have no listings
 
 ## TN
 - Claybrook Farms, Covington (claybrookfarmsmeats.com blocks fetching); Nashville Cattle Co., Shelbyville: no farm website found in search
@@ -49,6 +56,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Quail Run Farm, Chattanooga (quailrunfarmtn.com): sells beef, pork, eggs and shares, but own site has no clear grass-fed feeding sentence yet
 - Lawrence County directory leads, unchecked: Diamond F Cattle Co (diamondfcattleco.com), Healing Homestead (healinghomestead.us, lamb), Flowers Creamery (flowerscreamery.com, beef and dairy)
 - Loan Oak Farm, Lewisburg; Wild Cat Ranch, McEwen: no website found
+- Woolsey Overlook Farm, Greeneville (woolseyoverlookfarm.com): grass-fed, grain-finished Angus, beef shares; unchecked beyond products page
 
 ## KY
 - Jolly Barnyard (jollybarnyard.com) moved from Nashville TN to Lewisburg KY in 2020; beef "grass fed and grass finished" per its FAQ, but how to buy is unclear (FAQ points to Porter Road butcher)
@@ -74,6 +82,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - More leads: Virginia Beef Council directory (vabeef.org)
 - Springdale Farms, Woodstock (springdalefamilyfarms.com): grass-fed beef and pastured poultry, but no finishing detail and a photo of grain feeding; check products page
 - J&L Green Farm, Edinburg (jlgreenfarm.com): fetch error 2026-10-30
+- Chapel Creek Farms, Montvale (chapelcreek-farms.com): grass-finished beef, shares; unchecked
 
 ## VT
 - Consider Bardwell, Twig Farm, Sweet Rowen Farmstead (blocked fetching); Woodcock Farm (timed out)
