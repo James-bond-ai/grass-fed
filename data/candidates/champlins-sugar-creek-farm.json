@@ -1,0 +1,62 @@
+{
+  "id": "champlins-sugar-creek-farm",
+  "slug": "champlins-sugar-creek-farm",
+  "farm_name": "Champlin's Sugar Creek Farm",
+  "city": "Ferryville",
+  "state": "WI",
+  "zip": "54628",
+  "address_public": false,
+  "website": "https://champlinfarm.com/",
+  "phone": "608-780-0819",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter beef",
+    "beef bundles",
+    "steaks",
+    "roasts",
+    "ground beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "They are not fed any grain or grain by-products during their lifetime.",
+    "source_url": "https://champlinfarm.com/how-we-farm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery",
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Driftless region of Southwest Wisconsin, Northeast Iowa and Southeast Minnesota",
+      "La Crosse",
+      "Onalaska",
+      "Holmen",
+      "Winona",
+      "Lansing",
+      "Prairie du Chien"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Bulk beef pickup at Solar Meats, Soldiers Grove, WI",
+      "Cuts and bundles pickup at Coulee Region Business Center, La Crosse, WI"
+    ],
+    "source_url": "https://champlinfarm.com/beef-faq"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://champlinfarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://champlinfarm.com/",
+  "availability": {
+    "status": "sold-out",
+    "note": "Bulk beef sold out for 2026; 2027 reservations to open soon. Individual cuts still listed.",
+    "checked_on": "2026-11-01"
+  }
+}

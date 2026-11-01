@@ -16,7 +16,13 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Goshen Family Farm; Riverview Farms; Burge Organic Farms (all blocked fetching)
 
 ## MO
-- Grace's Grass Fed and Wells Family Farms (blocked fetching); Meadow Dance Ranch; Spring Creek Farms, Salem; 4J Cattle Farm; Stuart Farm; Effenheim Farm
+- Grace's Grass Fed and Wells Family Farms (blocked fetching)
+- Meadow Dance Ranch; Spring Creek Farms, Salem; 4J Cattle Farm; Stuart Farm; Effenheim Farm: no own website found in search 2026-11-01
+- Fed From The Farm, Sedalia (fedfromthefarm.com): grass-finished beef and lamb, but much of the meat comes from named partner farms; site does not say which products it raises itself
+- Primrose Farms (primrosebeef.com): grass-fed beef shares, but site gives no town or state
+- Ozark Prime Beef, Marble Hill (ozarkprimebeef.com): network of farms, beef grain-finished; may be a broker
+- Pleasant Ridge Farms, Pleasant Hill (pleasantridgefarms.net): beef "pasture-raised and grain-finished", pastured chicken; Barn2Door shop, no pickup or delivery details
+- Unchecked: Hickory Hill Pastures (Columbia Farmers Market vendor); Pierce Creek Cattle Company (piercecreekcattlecompany.com); 1984 Farms (1984farms.com)
 
 ## MT
 - Lifeline Farm, Victor (blocks fetching); Flathead, Bitterroot, Helena, Great Falls and eastern Montana have no listings
@@ -45,7 +51,8 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Heritage Trail Farm, Prosperity (lindleybeef.org): grass-finished Red Devon beef, but sold only through The Old Road Farm, so no direct sales
 - Grazy Days Ranch, New Galilee; Walnut Hill Farm, Sharpsville; Penn Valley Meats, Millersburg: no own website found 2026-10-31
 - Coulter Farms candidate: site says it has produced grass-fed meat since 2001 but names no meat species; Verifier may check the Barn2Door shop
-- Bucks and Chester counties and the northern tier still have no listings
+- Chester County and the northern tier still have no listings (Bucks now has Tussock Sedge Farm candidate)
+- Unchecked: Burns Sheep & Cattle Co (burnsangus.com); Berger Box (bergerbox.farm); Sugar Hill Farm (sugarhillfarmpa.com)
 
 ## TN
 - Claybrook Farms, Covington (claybrookfarmsmeats.com blocks fetching); Nashville Cattle Co., Shelbyville: no farm website found in search
@@ -91,4 +98,6 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Whitaker Grass-fed Beef, Ellensburg; American Alps Ranch, Marblemount; eastern Washington and the Olympic Peninsula have no listings
 
 ## WI
-- St. Isidore's Dairy, Osseo; LoveTree Farmstead, Grantsburg; Swiss Frau Farm, Mayville; Eckerman Sheep, Antigo; Dreamfarm, Cross Plains; Udder Brothers Creamery, Boscobel; Klemish Creamery, New Auburn; Ruegsegger Farms; Castle Rock Organic Farms
+- Morning Breeze Farm, Hortonville and Brand Acres Beef, Greenleaf: AGW Certified Grassfed beef, but no own website found 2026-11-01 (Facebook and AGW listing only)
+- Riemer Family Farm (riemerfamilyfarm.com redirects to riemerprovisions.com, fetch not permitted 2026-11-01)
+- St. Isidore's Dairy, Osseo (no own website found 2026-11-01); LoveTree Farmstead, Grantsburg; Swiss Frau Farm, Mayville; Eckerman Sheep, Antigo; Dreamfarm, Cross Plains; Udder Brothers Creamery, Boscobel; Klemish Creamery, New Auburn; Ruegsegger Farms; Castle Rock Organic Farms

@@ -1,0 +1,48 @@
+{
+  "id": "weber-pastures",
+  "slug": "weber-pastures",
+  "farm_name": "Weber Pastures",
+  "city": "Cottage Grove",
+  "state": "WI",
+  "zip": "53527",
+  "address_public": false,
+  "website": "https://www.weberpastures.net/",
+  "phone": "608-838-7590",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "quarter and half beef",
+    "half and whole pork",
+    "steaks",
+    "ground beef",
+    "whole chickens",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "We are 100% grass fed and raise only angus beef.",
+    "source_url": "https://www.weberpastures.net/grass-fed-beef.html"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.weberpastures.net/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.weberpastures.net/order-form.html",
+  "data_source": "web-search",
+  "source_url": "https://www.weberpastures.net/"
+}

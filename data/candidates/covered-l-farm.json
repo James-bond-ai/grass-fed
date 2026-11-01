@@ -1,0 +1,55 @@
+{
+  "id": "covered-l-farm",
+  "slug": "covered-l-farm",
+  "farm_name": "Covered-L Farm",
+  "city": "Columbia",
+  "state": "MO",
+  "zip": "",
+  "address_public": false,
+  "website": "https://coveredlfarm.com/",
+  "phone": "573-682-5536",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "frozen beef cuts",
+    "quarter, half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We never use antibiotics, hormones, insecticides, herbicides nor grain, of course.",
+    "source_url": "https://coveredlfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery",
+    "farm-pickup",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Columbia, MO",
+      "Mid-Missouri"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Wednesday delivery at Clovers Natural Market (East Broadway) and Clovers Forum, Columbia, MO",
+      "St. Louis meetups about every 45 days at Olympia (Manchester) and Gravois Bluffs (Fenton)",
+      "Halves and wholes at Swiss Meat or Central MO Meats"
+    ],
+    "source_url": "https://coveredlfarm.com/where-to-enjoy/buy-direct/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://coveredlfarm.com/",
+  "availability": {
+    "status": "waitlist",
+    "note": "New customers join a waitlist until supply matches demand.",
+    "checked_on": "2026-11-01"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "booth-family-farm",
+  "slug": "booth-family-farm",
+  "farm_name": "Booth Family Farm",
+  "city": "Delavan",
+  "state": "WI",
+  "zip": "53115",
+  "address_public": false,
+  "website": "https://boothfamilyfarmwi.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter, half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We are here to provide 100% grass-fed and grass-finished beef for your family.",
+    "source_url": "https://boothfamilyfarmwi.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Pickup at Sorg's (processor) after processing"
+    ],
+    "source_url": "https://boothfamilyfarmwi.com/from-our-farm-to-you"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://boothfamilyfarmwi.com/pricing-%26-availability",
+  "data_source": "web-search",
+  "source_url": "https://boothfamilyfarmwi.com/"
+}
