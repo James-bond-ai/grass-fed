@@ -13,11 +13,10 @@
     "dairy-cow"
   ],
   "products": [
-    "raw milk cheese",
-    "bloomy rind cheese",
-    "washed rind cheese",
-    "cheddar",
-    "blue cheese"
+    "Alpha Tolman",
+    "Bayley Hazen Blue",
+    "Whitney",
+    "Winnimere"
   ],
   "feeding_claim": {
     "category": "percentage",
@@ -45,9 +44,9 @@
   "ordering_url": "https://www.jasperhillfarm.com/shop",
   "data_source": "web-search",
   "source_url": "https://www.jasperhillfarm.com/",
-  "last_verified_at": "2026-10-27",
+  "last_verified_at": "2026-11-01",
   "verification_method": "auto",
-  "listing_status": "unpublished",
+  "listing_status": "published",
   "address": "884 Garvin Hill Rd, Greensboro, VT 05842",
-  "notes": "Unpublished 2026-10-26: makes many cheeses from partner farms' milk, so it may not meet the own-herd rule. Needs manual review. 2026-10-27: Creameries page says Alpha Tolman, Bayley Hazen Blue, Whitney and Winnimere use milk only from its own herd at Andersonville Farm; other cheeses mix own and partner milk. Listing could be limited to own-herd cheeses."
+  "resold_note": "Also sells cheeses made partly or wholly from partner farms' milk, such as Harbison, Willoughby and Eligo."
 }

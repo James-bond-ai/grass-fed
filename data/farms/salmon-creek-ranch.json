@@ -1,0 +1,71 @@
+{
+  "id": "salmon-creek-ranch",
+  "slug": "salmon-creek-ranch",
+  "farm_name": "Salmon Creek Ranch",
+  "city": "Bodega",
+  "state": "CA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.salmoncreekranch.com/",
+  "phone": "(707) 775-9604",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "goat",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "roasts",
+    "quarter and half beef",
+    "goat meat",
+    "holiday geese",
+    "duck eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "raised the natural way, without grain, antibiotics, GMO's or added hormones",
+    "source_url": "https://www.salmoncreekranch.com/Beef/Beef.html"
+  },
+  "certifications": [
+    {
+      "body": "CCOF Certification Services, LLC",
+      "program": "usda-organic",
+      "cert_id": "5561001305",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Salmon Creek Ranch\" (Bodega Bay, CA), livestock certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-11-01"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "local-delivery",
+    "ships-nationwide",
+    "online-order"
+  ],
+  "farmers_markets": [
+    "Santa Rosa Original Certified Farmers Market, Luther Burbank Center (2nd and 4th Saturdays)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "San Francisco and some other Bay Area locations (sometimes)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Sonoma County local pickup for whole, half and quarter orders"
+    ],
+    "source_url": "https://www.salmoncreekranch.com/Beef/Beef.html"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://salmoncreekranch.square.site",
+  "data_source": "web-search",
+  "source_url": "https://www.salmoncreekranch.com/Beef/Beef.html",
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

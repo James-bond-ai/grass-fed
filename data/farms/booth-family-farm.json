@@ -1,0 +1,47 @@
+{
+  "id": "booth-family-farm",
+  "slug": "booth-family-farm",
+  "farm_name": "Booth Family Farm",
+  "city": "Delavan",
+  "state": "WI",
+  "zip": "53115",
+  "address_public": true,
+  "website": "https://boothfamilyfarmwi.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter and half beef",
+    "whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is raised on our farm and is never introduced to grains at any age.",
+    "source_url": "https://boothfamilyfarmwi.com/grass-fed-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Sorg's (processor), about three weeks after processing"
+    ],
+    "source_url": "https://boothfamilyfarmwi.com/from-our-farm-to-you"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://boothfamilyfarmwi.com/pricing-%26-availability",
+  "data_source": "web-search",
+  "source_url": "https://boothfamilyfarmwi.com/",
+  "address": "N5181 Pinnow Road, Delavan, WI 53115",
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

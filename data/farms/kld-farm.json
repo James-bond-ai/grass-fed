@@ -1,0 +1,52 @@
+{
+  "id": "kld-farm",
+  "slug": "kld-farm",
+  "farm_name": "KLD Farm",
+  "city": "Ashland City",
+  "state": "TN",
+  "zip": "37015",
+  "address_public": true,
+  "website": "https://kldfarm.com/",
+  "phone": "615-480-4835",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "beef organ meats and bones",
+    "half, quarter and eighth beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "My cattle are grass-fed and grain-finished, and then dry-aged 14-18 days for superior quality and taste.",
+    "source_url": "https://kldfarm.com/buy-beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://kldfarm.com/buy-beef/"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells pork from Detweiler Farm, chicken from Miller Poultry and eggs from Kentucky Farm Fresh.",
+  "ordering_url": "https://kldfarm.com/buy-beef/",
+  "data_source": "state-program",
+  "source_url": "https://www.picktnproducts.org/picktn-producers/picktn-listing.3548.html",
+  "address": "1110 Turnipseed Rd., Ashland City, TN 37015",
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

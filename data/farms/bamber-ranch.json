@@ -1,0 +1,56 @@
+{
+  "id": "bamber-ranch",
+  "slug": "bamber-ranch",
+  "farm_name": "Bamber Ranch",
+  "city": "Lamar",
+  "state": "CO",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.bamberranch.com/",
+  "phone": "(303) 385-7349",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef boxes",
+    "individual cuts",
+    "ground beef",
+    "bulk beef"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Our quality Colorado beef is grass-fed and sunflower-finished.",
+    "source_url": "https://www.bamberranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farmers-market",
+    "restaurants",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Rebel Marketplace, Aurora (twice a month)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Denver",
+      "the Front Range"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.bamberranch.com/press-media"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/bamberranch/all",
+  "data_source": "state-program",
+  "source_url": "https://www.cobeef.com/cooking/local-beef-directory",
+  "notes": "Finished on sunflower meal, so categorized as a mixed diet. Ranch town not stated on site beyond a Lamar photo caption; Barn2Door store could not be opened to confirm fulfillment details.",
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

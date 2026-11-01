@@ -1,0 +1,54 @@
+{
+  "id": "summerfield-farms",
+  "slug": "summerfield-farms",
+  "farm_name": "Summerfield Farms",
+  "city": "Summerfield",
+  "state": "NC",
+  "zip": "27358",
+  "address_public": false,
+  "website": "https://summerfieldfarms.com/",
+  "phone": "(336) 643-2006",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "grass-fed beef cuts",
+    "beef boxes",
+    "whole, half and quarter beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass fed & grass finished beef means NO GRAIN EVER! Nope, not even in the winter.",
+    "source_url": "https://summerfieldfarms.com/grass-fed-beef/grass-finished-beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order",
+    "ships-nationwide",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Lowes Foods (retail)",
+      "Robinhood Integrative Health (retail)"
+    ],
+    "source_url": "https://summerfieldfarms.com/atlanta-grass-fed-beef/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://summerfieldfarms.com/grass-fed-beef/beef-bulk-orders/",
+  "data_source": "web-search",
+  "source_url": "https://summerfieldfarms.com/grass-fed-beef/",
+  "resold_note": "Its on-farm store, The Market, also carries produce, honey and other goods from other local vendors.",
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

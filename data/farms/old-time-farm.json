@@ -1,0 +1,66 @@
+{
+  "id": "old-time-farm",
+  "slug": "old-time-farm",
+  "farm_name": "Old Time Farm",
+  "city": "Stoneboro",
+  "state": "PA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.oldtime.farm/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "ground beef",
+    "beef bacon",
+    "broth bones",
+    "organ meats",
+    "beef share bundles",
+    "monthly beef share subscription"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "High quality grass, hay, & minerals naturally fatten healthy Old Time cattle - no grain needed.",
+    "source_url": "https://www.oldtime.farm/products/1-16th-beef-bundle"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "csa",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Pittsburgh",
+      "North Hills",
+      "Cranberry Township",
+      "Butler County",
+      "Grove City",
+      "Mercer County"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Mort's Fresh & Local, Cochran Road, Pittsburgh (retail)"
+    ],
+    "source_url": "https://www.oldtime.farm/pages/where-to-find-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.oldtime.farm/collections/grass-fed-beef-delivery-pittsburgh",
+  "data_source": "web-search",
+  "source_url": "https://www.nebpi.org/local-beef-directory/pennsylvania",
+  "availability": {
+    "status": "waitlist",
+    "note": "Monthly beef share subscription spots are limited with a waitlist; individual cuts still offered online.",
+    "checked_on": "2026-11-01"
+  },
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

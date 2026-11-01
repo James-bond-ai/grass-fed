@@ -1,0 +1,62 @@
+{
+  "id": "pittsburgher-highland-farm",
+  "slug": "pittsburgher-highland-farm",
+  "farm_name": "Pittsburgher Highland Farm",
+  "city": "Mt Pleasant",
+  "state": "PA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.pittsburgherhighlandfarm.com/",
+  "phone": "(412) 720-0675",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork"
+  ],
+  "products": [
+    "Highland beef cuts",
+    "lamb",
+    "pastured pork",
+    "tallow balm"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our assurance of 100% grass-fed beef and lamb means that our cattle and sheep are never fed grain.",
+    "source_url": "https://www.pittsburgherhighlandfarm.com/why-grassfed"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "farm-pickup",
+    "local-delivery",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Bloomfield Saturday Farmers Market, Pittsburgh (Saturdays, year-round)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "greater Pittsburgh area"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Shadyside",
+      "Wilkinsburg",
+      "Robinson Township",
+      "Bloomfield Saturday Farmers Market",
+      "Today's Organic Market, Oakmont (retail)",
+      "Dylamoto's, Hazelwood (retail)"
+    ],
+    "source_url": "https://www.pittsburgherhighlandfarm.com/buy"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.pittsburgherhighlandfarm.com/order-forms",
+  "data_source": "web-search",
+  "source_url": "https://visitpittsburgh.com/restaurants-culinary/farms-farmers-markets/pittsburgh-farm-fresh-meats",
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

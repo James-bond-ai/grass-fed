@@ -1,0 +1,78 @@
+{
+  "id": "full-quiver-farm",
+  "slug": "full-quiver-farm",
+  "farm_name": "Full Quiver Farm",
+  "city": "Suffolk",
+  "state": "VA",
+  "zip": "23434",
+  "address_public": false,
+  "website": "https://www.fullquiverfarm.com/",
+  "phone": "757-539-5324",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs",
+    "dairy-cow"
+  ],
+  "products": [
+    "grass-fed beef cuts",
+    "grass-fed beef bundles",
+    "grass-fed quarter cow",
+    "ground beef",
+    "beef meat sticks",
+    "pork",
+    "sausage",
+    "bacon",
+    "pasture-raised chicken",
+    "eggs",
+    "raw milk cow shares",
+    "produce"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass fed & grass finished beef - Pasture Raised",
+    "source_url": "https://www.fullquiverfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [
+    "Shore Drive Farm Market, Virginia Beach, Saturdays 9 to 12",
+    "Old Beach Farmer's Market, Virginia Beach, Saturdays 9 to 12",
+    "Friday Farmer's Market, Chesapeake, Fridays 10 to 2"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Norfolk",
+      "Peninsula",
+      "Chesapeake",
+      "Portsmouth",
+      "Suffolk",
+      "Virginia Beach"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm stand at the farm, Suffolk (Fridays 1 to 4, Saturdays 10 to 2)"
+    ],
+    "source_url": "https://www.fullquiverfarm.com/wp/store/"
+  },
+  "dairy_products": [
+    "raw-milk"
+  ],
+  "ordering_url": "https://www.fullquiverfarm.com/wp/store/",
+  "data_source": "web-search",
+  "source_url": "https://www.fullquiverfarm.com/",
+  "resold_note": "Also sells organic cheese made by Amish cheesemakers in Pennsylvania.",
+  "notes": "Raw milk is offered through cow shares with a waiting list; raw milk is legal only in some states.",
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "bar-x-cattle-company",
+  "slug": "bar-x-cattle-company",
+  "farm_name": "Bar X Cattle Company",
+  "city": "Macks Creek",
+  "state": "MO",
+  "zip": "65786",
+  "address_public": true,
+  "website": "https://barxcattlecompany.com/",
+  "phone": "(573) 216-8444",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter, half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "some of the best farm to fork, tasty, tender grass finished beef available.",
+    "source_url": "https://barxcattlecompany.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Missouri"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://barxcattlecompany.com/faq/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://barxcattlecompany.com/ordering-guide/",
+  "data_source": "web-search",
+  "source_url": "https://barxcattlecompany.com/",
+  "address": "615 Upper Prairie Hollow Rd, Macks Creek, MO 65786",
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

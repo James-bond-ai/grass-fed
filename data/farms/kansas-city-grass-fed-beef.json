@@ -1,0 +1,55 @@
+{
+  "id": "kansas-city-grass-fed-beef",
+  "slug": "kansas-city-grass-fed-beef",
+  "farm_name": "Kansas City Grass-Fed Beef",
+  "city": "Lawson",
+  "state": "MO",
+  "zip": "64062",
+  "address_public": false,
+  "website": "https://kcgrassfedbeef.com/",
+  "phone": "816-894-8484",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter, half and whole beef (deposit)",
+    "grass-fed hamburger box"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "They eat nothing but grass in our pastures.",
+    "source_url": "https://kcgrassfedbeef.com/our-grass-fed-beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Within 20 miles of downtown Kansas City"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "River Market, Kansas City"
+    ],
+    "source_url": "https://kcgrassfedbeef.com/grass-fed-beef-for-sale/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://kcgrassfedbeef.com/shop/",
+  "data_source": "web-search",
+  "source_url": "https://kcgrassfedbeef.com/shop/",
+  "availability": {
+    "status": "sold-out",
+    "note": "Quarter, half and whole beef shown as sold out; hamburger boxes still listed; email sign-up for the next beef.",
+    "checked_on": "2026-11-01"
+  },
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

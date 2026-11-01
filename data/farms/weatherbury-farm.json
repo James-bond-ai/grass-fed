@@ -1,0 +1,67 @@
+{
+  "id": "weatherbury-farm",
+  "slug": "weatherbury-farm",
+  "farm_name": "Weatherbury Farm",
+  "city": "Avella",
+  "state": "PA",
+  "zip": "15312",
+  "address_public": false,
+  "website": "https://weatherburyfarm.com/",
+  "phone": "724-587-3763",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "eggs"
+  ],
+  "products": [
+    "half and split quarter beef",
+    "ground beef",
+    "lamb",
+    "eggs",
+    "organic flours and grains"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Beef is 100% Grass Fed and Grass Finished. No grain is fed.",
+    "source_url": "https://weatherburyfarm.com/grass-fed-beef/"
+  },
+  "certifications": [
+    {
+      "body": "Pennsylvania Certified Organic",
+      "program": "usda-organic",
+      "cert_id": "8210003947",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Dale W. Tudor dba Weatherbury Farm\" (Avella, PA), livestock certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-11-01"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Monthly on-farm pickup, Avella (next and last of 2026: November 14)"
+    ],
+    "source_url": "https://weatherburyfarm.com/grass-fed-beef/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://weatherburyfarm.shop/",
+  "data_source": "web-search",
+  "source_url": "https://visitpittsburgh.com/restaurants-culinary/farms-farmers-markets/pittsburgh-farm-fresh-meats",
+  "availability": {
+    "status": "waitlist",
+    "note": "August and November 2026 beef and October 2026 lamb sold out; short waiting list open for beef.",
+    "checked_on": "2026-11-01",
+    "source_url": "https://weatherburyfarm.com/grass-fed-beef/"
+  },
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

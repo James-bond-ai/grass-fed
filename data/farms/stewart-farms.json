@@ -1,0 +1,46 @@
+{
+  "id": "stewart-farms",
+  "slug": "stewart-farms",
+  "farm_name": "Stewart Farms",
+  "city": "Stedman",
+  "state": "NC",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.stewartfarmsbeef.com/",
+  "phone": "910-874-5930",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole, half, quarter and eighth cow shares",
+    "beef bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Grass Fed Beef in a beef Order",
+    "source_url": "https://stewartfarmsbeef.com/beef-package-cuts"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": 100,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://stewartfarmsbeef.com/beef-package-cuts"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.stewartfarmsbeef.com/",
+  "data_source": "web-search",
+  "source_url": "https://www.stewartfarmsbeef.com/",
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "unpublished",
+  "notes": "Unpublished 2026-11-01: robots.txt blocked every page except /beef-package-cuts, so delivery radius (100 vs 60 miles), farm pickup, shipping, phone and town could not be confirmed. Also check whether the 'pasture raised pork bundles' (\"Now Carrying\") are from its own hogs before adding pork."
+}

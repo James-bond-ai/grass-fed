@@ -1,0 +1,58 @@
+{
+  "id": "bradley-family-farm",
+  "slug": "bradley-family-farm",
+  "farm_name": "Bradley Family Farm",
+  "city": "Suffolk",
+  "state": "VA",
+  "zip": "23434",
+  "address_public": false,
+  "website": "https://bradleyfamilyfarmva.com/",
+  "phone": "(757) 655-5758",
+  "social_urls": [],
+  "species": [
+    "pork",
+    "beef",
+    "eggs"
+  ],
+  "products": [
+    "Berkshire pork",
+    "whole hog",
+    "beef cuts",
+    "sausage",
+    "eggs",
+    "pickles",
+    "pecans",
+    "seasonal produce"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Stock your freezer with one of our pasture and woods raised Berkshire hogs.",
+    "source_url": "https://bradleyfamilyfarmva.com/whole-hog"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Hampton Roads area"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm pickup in Suffolk by appointment"
+    ],
+    "source_url": "https://bradleyfamilyfarmva.com/shop"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://bradleyfamilyfarmva.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://bradleyfamilyfarmva.com/",
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

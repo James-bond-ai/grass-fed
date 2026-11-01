@@ -1,0 +1,95 @@
+{
+  "id": "alexandre-family-farm",
+  "slug": "alexandre-family-farm",
+  "farm_name": "Alexandre Family Farm",
+  "city": "Crescent City",
+  "state": "CA",
+  "zip": "95531",
+  "address_public": true,
+  "website": "https://alexandrefamilyfarm.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/alexandrefamilyfarm"
+  ],
+  "species": [
+    "dairy-cow",
+    "eggs"
+  ],
+  "products": [
+    "milk",
+    "cream",
+    "half and half",
+    "yogurt",
+    "kefir",
+    "sour cream",
+    "cheddar",
+    "milk powder",
+    "pasture-raised eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our cows are grass-fed.",
+    "source_url": "https://alexandrefamilyfarm.com/pages/why-choose-alexandre"
+  },
+  "certifications": [
+    {
+      "body": "CCOF Certification Services, LLC",
+      "program": "usda-organic",
+      "cert_id": "5561000999",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Alexandre Family Farm dba Alexandre Kids Eggs\" (Crescent City, CA), livestock certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-11-01"
+    }
+  ],
+  "sales_channels": [
+    "farmers-market",
+    "on-farm-store",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Alemany, San Francisco (Sunday)",
+    "Clement St., San Francisco (Sunday)",
+    "Ferry Building, San Francisco (Saturday)",
+    "Mission Community Market, San Francisco (Thursday, March to November)",
+    "Outer Sunset, San Francisco (Saturday)",
+    "Stonestown, San Francisco (Sunday)",
+    "Discovery Bay (Sunday, June to October)",
+    "Grand Lake, Oakland (Saturday)",
+    "Livermore Downtown (Sunday)",
+    "Niles, Fremont (Saturday)",
+    "San Leandro at Bayfair (Saturday)",
+    "San Ramon (Saturday)",
+    "South Berkeley (Tuesday)",
+    "Temescal, Oakland (Sunday)",
+    "West Oakland (Sunday)",
+    "Downtown Palo Alto (Saturday)",
+    "Blossom Hill Oakridge, San Jose (Sunday)",
+    "Modesto Certified (Saturday and Thursday, April to November)",
+    "Turlock Certified (Saturday, May to October)",
+    "Webberstown, Stockton (Sunday)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm store, 7955 Bailey Road, Crescent City (open daily)"
+    ],
+    "source_url": "https://alexandrefamilyfarm.com/pages/community"
+  },
+  "dairy_products": [
+    "milk",
+    "cream",
+    "yogurt",
+    "kefir",
+    "cheese"
+  ],
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://www.ccof.org/ccofmember/alexandre-family-farm",
+  "address": "7955 Bailey Road, Crescent City, CA 95531",
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "hardison-mill-farm",
+  "slug": "hardison-mill-farm",
+  "farm_name": "Hardison Mill Farm",
+  "city": "Columbia",
+  "state": "TN",
+  "zip": "38401",
+  "address_public": false,
+  "website": "https://www.hardisonmill.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef shares",
+    "hog shares",
+    "whole chickens"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "GRASS-FED BEEF",
+    "source_url": "https://www.hardisonmill.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Scheduled pickup at the farm, Columbia"
+    ],
+    "source_url": "https://www.hardisonmill.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://store.hardisonmill.com/collections/meats/products/beef-share-1",
+  "data_source": "web-search",
+  "source_url": "https://www.hardisonmill.com/",
+  "availability": {
+    "status": "paused",
+    "note": "Farm says it sells meat to others only from time to time; no current season or buying process confirmed.",
+    "checked_on": "2026-11-01"
+  },
+  "last_verified_at": "2026-11-01",
+  "verification_method": "auto",
+  "listing_status": "unpublished",
+  "notes": "Unpublished 2026-11-01: The Homestead page says meat is sold only from time to time and the store page shows no meat; share deposit pages on store.hardisonmill.com could not be opened. Check whether beef, hog or chicken deposits are offered for a current season, and confirm the finishing wording."
+}
