@@ -22,10 +22,18 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Primrose Farms (primrosebeef.com): grass-fed beef shares, but site gives no town or state
 - Ozark Prime Beef, Marble Hill (ozarkprimebeef.com): network of farms, beef grain-finished; may be a broker
 - Pleasant Ridge Farms, Pleasant Hill (pleasantridgefarms.net): beef "pasture-raised and grain-finished", pastured chicken; Barn2Door shop, no pickup or delivery details
-- Unchecked: Hickory Hill Pastures (Columbia Farmers Market vendor); Pierce Creek Cattle Company (piercecreekcattlecompany.com); 1984 Farms (1984farms.com)
+- Hickory Hill Pastures, Boonville (hickoryhillpastures.com): pastured chicken, turkey, pork and eggs per Columbia Farmers Market page; own site fetch not permitted 2026-11-02
+- Pierce Creek Cattle Company (piercecreekcattlecompany.com): fetch not permitted 2026-11-02; press says it now runs a restaurant and market in St. Louis County and ships beef in metro St. Louis; confirm it still raises its own cattle
+- Price Family Farms, Troy (pricefamilyfarm.com): homepage says grass-fed, supplemented with grain; freezer beef via Barn2Door; other pages unchecked
+- Unchecked: David's Pasture (davidspasture.com, may be a multi-farm broker); Ozarks Fresh, Mansfield (ozarksfresh.com, may be a co-op); Grass-Fed Beef Kansas City (grassfedkc.com, check it is not the same as kcgrassfedbeef.com)
 
 ## MT
-- Lifeline Farm, Victor (blocks fetching); Flathead, Bitterroot, Helena, Great Falls and eastern Montana have no listings
+- XX Bar Farm & Ranch, Helena (doublexbar.com): grass-finished ground beef in a product title; only page titles returned 2026-11-02
+- Flying 7 Ranch, Big Timber (flying7ranch.com): ships continental US in winter; shop (flying-7-ranch.myshopify.com) blocked, feeding claim unchecked
+- Mitchell Farm, Columbia Falls (mitchellfarmmontana site): grass and hay fed beef shares, but site says only "contact us for pricing" with no way to buy named; mainly horse boarding
+- Crary Ranch, Choteau; Reilly Ranch Beef, Great Falls; Skalkaho Meat Company, Hamilton; Bullseye Ranch, Billings (yvfoodhub.com only); Rocking CG Ranch, Glendive (TikTok only): no own website found 2026-11-02
+- Unchecked (Abundant Montana directory): Herman Ranch; Montana Branded; Wickens Ranch; Grass Valley Farms; Foothill Farm, St Ignatius; 3G Beef; Beauty and the Beef; Love Montana Beef; Natural Pork and Beef of Montana, Fort Benton
+- Great Falls and eastern Montana still have no listings
 
 ## NC
 - Swayback Branch Family Farm, Littleton: AGW Certified Grassfed (AGW NC pork listing page 2)
@@ -43,7 +51,11 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Fred's Farm (fredsfarm.grazecart.com): grass-finished beef, site under maintenance 2026-10-31
 
 ## OR
-- Plaisance Ranch, Williams; Martin Family Ranch, Central Point; Lane Creek Reserve, Central Point; Uproot Meats, Ashland; Foley Peak Angus, Nehalem; Oreganic Beef Co.
+- Martin Family Ranch, Central Point: homepage says never fed grain; beef/prices and contact pages failed to load 2026-11-02, retry
+- Plaisance Ranch, Williams (winery): grass-finished beef with prices by cut, but no page says how to buy beef (checked 2026-11-02)
+- Foley Peak Angus, Nehalem: grass-fed half and whole beef, but no pickup or delivery stated and site dated 2018; may be inactive
+- Uproot Meats, Ashland (uprootmeats.com blocks fetching, robots); may be mainly a butcher
+- Oregon Pasture Network directory (oregonpasturenetwork.org), unchecked: Chintimini Ranch, Philomath (chintiminiranch.com, fetch not permitted); Deck Family Farm, Junction City (deckfamilyfarm.com, fetch not permitted, has raw milk); Black River Cattle Co, Eagle Creek (maybe blackrivercc.com); Shimanek Bridge Farm, Scio (Facebook only); Weathered Oak Farm; All Natural Meats; Birkeland Farm; 1890 Willamette Grass Fed Farm; Cast Iron Farm
 
 ## PA
 - Barbour Grassfed Beef, Cogan Station (barbourgrassfedbeef.com): "No Grain", quarters and halves; our-beef page errored and no town on site 2026-10-31

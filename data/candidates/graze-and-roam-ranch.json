@@ -1,0 +1,53 @@
+{
+  "id": "graze-and-roam-ranch",
+  "slug": "graze-and-roam-ranch",
+  "farm_name": "Graze & Roam Ranch",
+  "city": "Victor",
+  "state": "MT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://grazeandroamranchstore.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "British White beef cuts",
+    "ground beef",
+    "beef brats and dogs",
+    "organ meats and bones",
+    "pork cuts, bacon and sausage",
+    "whole pasture-raised chickens"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "No antibiotics. No grain. No rush.",
+    "source_url": "https://grazeandroamranchstore.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Missoula County",
+      "Ravalli County",
+      "Missoula to Darby"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://grazeandroamranchstore.com/products/pastured-chicken"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://grazeandroamranchstore.com/collections",
+  "data_source": "web-search",
+  "source_url": "https://abundantmontana.com/amt-lister/graze-roam-ranch/"
+}

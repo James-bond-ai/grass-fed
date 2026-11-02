@@ -1,0 +1,49 @@
+{
+  "id": "lifeline-farm",
+  "slug": "lifeline-farm",
+  "farm_name": "Lifeline Farm",
+  "city": "Victor",
+  "state": "MT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://lifelinefarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "dairy-cow"
+  ],
+  "products": [
+    "beef",
+    "whole and half sides of beef",
+    "cheddar, jack and mozzarella cheese from the farm's Brown Swiss cows"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our animals are field finished, primarily on our own pasture and hay.",
+    "source_url": "https://lifelinefarm.com/beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Clark Fork River Market, Missoula (May through October)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": ""
+  },
+  "dairy_products": [
+    "cheese"
+  ],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://abundantmontana.com/amt-lister/lifeline-farm/"
+}
