@@ -22,7 +22,7 @@
     "quarter beef",
     "pork packages",
     "pork sausage",
-    "chicken",
+    "chicken broth kit",
     "eggs",
     "monthly beef and pork share"
   ],
@@ -51,7 +51,7 @@
   "ordering_url": "https://www.covecreekfarm.com/shop/",
   "data_source": "state-program",
   "source_url": "https://www.picktnproducts.org/picktn-producers/picktn-listing.17626.html",
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

@@ -58,10 +58,10 @@
   "availability": {
     "status": "waitlist",
     "note": "August and November 2026 beef and October 2026 lamb sold out; short waiting list open for beef.",
-    "checked_on": "2026-11-01",
+    "checked_on": "2026-11-02",
     "source_url": "https://weatherburyfarm.com/grass-fed-beef/"
   },
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

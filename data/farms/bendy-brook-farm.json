@@ -12,7 +12,8 @@
   "species": [
     "beef",
     "poultry",
-    "pork"
+    "pork",
+    "eggs"
   ],
   "products": [
     "beef quarters and halves",
@@ -21,7 +22,8 @@
     "pastured chicken",
     "Thanksgiving and Christmas turkeys",
     "ground turkey",
-    "pork bundles"
+    "pork bundles",
+    "eggs"
   ],
   "feeding_claim": {
     "category": "grass-finished",
@@ -54,7 +56,7 @@
   "source_url": "https://www.bendybrookfarm.com/",
   "address": "310 Covered Bridge Road, Oley, PA 19547",
   "resold_note": "Also sells fermented foods made by Cottage Kitchen through its home delivery.",
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

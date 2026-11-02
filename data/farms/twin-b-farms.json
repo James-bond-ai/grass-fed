@@ -28,7 +28,8 @@
   "certifications": [],
   "sales_channels": [
     "farmers-market",
-    "online-order"
+    "online-order",
+    "local-delivery"
   ],
   "farmers_markets": [
     "Boalsburg Farmers Market (Tuesdays)",
@@ -42,7 +43,7 @@
     "local_radius_miles": null,
     "ships_to": [],
     "pickup_locations": [
-      "Centre Markets online order pickup, Nittany Mall Entrance B, State College, Saturdays 12 to 2pm",
+      "Centre Markets online order pickup, Ferguson Lions Club, 424 W. Pine Grove Road, Pine Grove Mills, Wednesdays 2:30 to 5pm",
       "Bulk beef picked up at the local butcher"
     ],
     "source_url": "https://www.twinbfarms.com/find-us"
@@ -51,7 +52,7 @@
   "ordering_url": "https://www.twinbfarms.com/beef",
   "data_source": "web-search",
   "source_url": "https://www.nebpi.org/local-beef-directory/pennsylvania",
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

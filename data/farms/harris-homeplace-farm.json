@@ -37,7 +37,7 @@
   "bulk_shares": true,
   "delivery": {
     "local_areas": [
-      "Home delivery across the Triangle, scheduled directly"
+      "Local home delivery, scheduled directly (area not named on site)"
     ],
     "local_radius_miles": null,
     "ships_to": [],
@@ -55,7 +55,7 @@
   "source_url": "https://harrishomeplacefarm.com/",
   "address": "1862 Moon Lindley Rd., Snow Camp, NC 27349",
   "resold_note": "Also sells lamb and mutton from Union Grove Farm near Chapel Hill.",
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

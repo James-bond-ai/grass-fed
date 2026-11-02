@@ -12,13 +12,14 @@
   "species": [
     "beef",
     "pork",
-    "poultry"
+    "poultry",
+    "eggs"
   ],
   "products": [
     "100% grass-fed and finished beef cuts",
     "forest-raised pork",
     "pasture-raised chicken",
-    "duck",
+    "occasional chicken and duck eggs",
     "monthly meat CSA boxes",
     "whole, half, quarter and eighth beef (deposit)"
   ],
@@ -66,7 +67,12 @@
   "ordering_url": "https://havenfarmnc.com/collections/all",
   "data_source": "web-search",
   "source_url": "https://havenfarmnc.com/collections/100-grass-fed-beef",
-  "last_verified_at": "2026-11-01",
+  "availability": {
+    "status": "sold-out",
+    "note": "Every item in the online store, including the whole, half and quarter beef and pork deposits, shows sold out; the homepage says whole, half and quarter beef and pork are coming soon.",
+    "checked_on": "2026-11-02"
+  },
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

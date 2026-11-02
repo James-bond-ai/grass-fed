@@ -47,9 +47,9 @@
   "availability": {
     "status": "sold-out",
     "note": "Quarter, half and whole beef shown as sold out; hamburger boxes still listed; email sign-up for the next beef.",
-    "checked_on": "2026-11-01"
+    "checked_on": "2026-11-02"
   },
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

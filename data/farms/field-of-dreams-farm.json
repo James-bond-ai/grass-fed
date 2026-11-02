@@ -28,7 +28,7 @@
   ],
   "feeding_claim": {
     "category": "grass-finished",
-    "verbatim": "it's 100% grass fed / finished and free of antibiotics and vaccinations.",
+    "verbatim": "it’s 100% grass fed / finished and free of antibiotics and vaccinations.",
     "source_url": "https://fieldofdreamsfarmtn.com/?page_id=72"
   },
   "certifications": [],
@@ -67,10 +67,10 @@
   "resold_note": "Also sells lamb from partner Verrelli Farms in Watertown, plus salmon and other items not raised on the farm.",
   "availability": {
     "status": "waitlist",
-    "note": "Bulk beef shows out of stock online; $100 deposits taken for November through March processing. Poultry, eggs and pork available.",
-    "checked_on": "2026-11-01"
+    "note": "Bulk beef shows out of stock online; the farm is taking deposits for November through March processing. Poultry, eggs and pork available.",
+    "checked_on": "2026-11-02"
   },
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

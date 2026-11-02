@@ -2,8 +2,8 @@
 title: "Quarter vs half vs whole cow: which share size fits your household"
 description: "How to pick a quarter, half or whole beef share: how much meat each gives, how fast you need to eat it, freezer space, upfront cost and splitting."
 kind: guide
-published: 2026-10-30
-updated: 2026-10-30
+published: 2026-11-02
+updated: 2026-11-02
 sources:
   - title: "USDA AMS Livestock, Poultry and Grain Market News: National Grass Fed Beef Report (Quarterly), 2026 Quarter 3, September 25, 2026"
     url: "https://ams-prod.azureedge.us/mnreports/lsmngfbeef.pdf"
@@ -44,7 +44,7 @@ Your animal may differ: larger cattle yield more, and boneless cuts or very lean
 
 Start with your own habits. For two to four weeks, write down the beef you buy and cook at home, in pounds. Multiply your weekly figure by 52 and compare it with the take-home column above.
 
-If you need a rough benchmark, the USDA Economic Research Service (ERS) estimated beef disappearance (supply minus exports and stocks, divided by population) at 59.7 retail pounds per person for 2024. That counts all beef, including restaurant meals and food that is never eaten, so it overstates what most people cook at home. By that measure alone, a quarter would be about two people's beef for a year, a half about four people's and a whole about eight. Treat that only as an upper bound.
+If you need a rough benchmark, the USDA Economic Research Service (ERS) estimated beef disappearance (a supply-based measure, not what people actually eat) at 59.7 retail pounds per person for 2024. That covers all beef, including restaurant meals and waste, so it overstates what most people cook at home. By that measure alone, a quarter would be about two people's beef for a year, a half about four people's and a whole about eight. Treat that only as an upper bound.
 
 ## Step 2: check how fast you will need to eat it
 
@@ -61,13 +61,13 @@ The math that catches people out: if a quarter holds 40 to 50 pounds of ground b
 - Ask the butcher to turn less of the carcass into ground beef and more into roasts and stew meat, which keep longer.
 - Plan to eat the ground beef first and the steaks and roasts later.
 
-Oklahoma State also suggests the reverse for heavy ground beef users: have cuts your family won't eat ground, or consider a forequarter, which has more of the cuts that usually go to ground beef and pot roast.
+Oklahoma State also suggests the reverse for heavy ground beef users: have cuts your family won't eat ground, or consider a forequarter, which has more less-tender cuts suited to pot roasts.
 
 ## Step 3: measure your freezer
 
 Oklahoma State Extension says to allow 1 cubic foot of freezer space for every 35 to 40 pounds of cut and wrapped beef, and more for oddly shaped packages. Minnesota Extension is more generous: it recommends at least 4.5 cubic feet in a chest freezer, or 5.5 cubic feet in an upright, for a 142 pound quarter.
 
-A few practical rules follow from that:
+Our own rules of thumb, based on those figures:
 
 - **The freezer above your fridge is usually not enough for a quarter.** NC State Extension says an average home refrigerator freezer holds about an eighth of a beef, roughly 50 to 60 pounds, and that a stand-alone freezer holds meat colder.
 - **A quarter fits a small chest freezer** of around 5 cubic feet, with room for other food if the animal is on the small side.
@@ -93,7 +93,7 @@ Using those averages and our estimated grass-finished hanging weights, here is r
 
 - **Quarter (160 lb hanging):** about $1,180, or about $9.80 to $10.50 per pound of take-home meat
 - **Half (320 lb hanging):** about $2,200, or about $9.20 to $9.90 per pound
-- **Whole (640 lb hanging):** about $4,490, or about $9.40 to $10.10 per pound
+- **Whole (640 lb hanging):** about $4,500, or about $9.40 to $10.10 per pound
 
 In this example, the half and whole come out a little cheaper per pound than the quarter, but the difference is small next to the cost of beef you throw away because it sat too long. If the farm takes a deposit when you reserve, ask how much it is and when the balance is due, since the final bill depends on the hanging weight.
 
@@ -109,7 +109,7 @@ Minnesota Extension puts the trade-off plainly: there are only so many steaks to
 
 ## Splitting a half or whole with others
 
-Buying a whole or half and dividing it among friends or family can get you the lower per-pound price without a freezer full of beef. Minnesota Extension describes splitting a whole animal among two or more households as economical. Before you commit, agree on:
+Buying a whole or half and dividing it among friends or family can get you the lower per-pound price without a freezer full of beef. Minnesota Extension notes that buyers often share a larger purchase to lower and spread the cost. Before you commit, agree on:
 
 1. **Who orders and pays.** One person usually places the order and pays the deposit. Agree how you will split the slaughter fee and processing.
 2. **The cut sheet.** Decide whether you will use one set of instructions or each take your own. If the beef is processed at a custom-exempt shop (where it is cut for the owners of the animal, not for sale), Oregon State University Extension says the share owners, not the farm, call the butcher with cutting instructions, and if the owners agree, one of them can make the call for everyone.

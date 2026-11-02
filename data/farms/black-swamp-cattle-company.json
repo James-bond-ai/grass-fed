@@ -29,7 +29,8 @@
   "certifications": [],
   "sales_channels": [
     "online-order",
-    "local-delivery"
+    "local-delivery",
+    "farm-pickup"
   ],
   "farmers_markets": [],
   "bulk_shares": true,
@@ -48,7 +49,12 @@
   "source_url": "https://blackswampcattle.com/",
   "address": "10221 West Bancroft Street, Holland, OH 43528",
   "notes": "On 2026-11-01 half and whole beef deposits were marked sold out; retail cuts still listed. Site says some cattle are bought in and grazed on the farm at least 6 months with no grain.",
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
-  "listing_status": "published"
+  "listing_status": "published",
+  "availability": {
+    "status": "sold-out",
+    "note": "Half and whole beef deposits and many retail beef cuts are marked sold out; some cuts, chicken and eggs are still listed.",
+    "checked_on": "2026-11-02"
+  }
 }

@@ -13,7 +13,6 @@
     "beef",
     "pork",
     "poultry",
-    "lamb",
     "eggs"
   ],
   "products": [
@@ -28,7 +27,6 @@
     "pastured pork",
     "chicken",
     "turkey",
-    "lamb",
     "pastured eggs",
     "family packs"
   ],
@@ -64,7 +62,7 @@
   "ordering_url": "https://taylorfamilyfarmtn.com/store/",
   "data_source": "web-search",
   "source_url": "https://www.covecreekfarm.com/farms-near-nashville-with-grass-fed-grass-finished-beef/",
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

@@ -56,10 +56,11 @@
   "source_url": "https://champlinfarm.com/",
   "availability": {
     "status": "sold-out",
-    "note": "Bulk beef sold out for 2026; 2027 dates and reservations coming soon. Individual cuts and small bundles in stock for La Crosse pickup.",
-    "checked_on": "2026-11-01"
+    "note": "Bulk beef sold out for 2026; 2027 dates and reservations coming soon. Beef bundles sold out. Individual cuts available for La Crosse pickup when in stock.",
+    "checked_on": "2026-11-02"
   },
-  "last_verified_at": "2026-11-01",
+  "resold_note": "Also sells conventional ground beef from a Hereford bull raised conventionally on another farm with some grain, kept separate from its grass-fed beef.",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

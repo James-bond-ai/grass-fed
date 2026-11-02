@@ -7,8 +7,6 @@ updated: 2026-11-02
 sources:
   - title: "USDA AMS Livestock, Poultry and Grain Market News: National Grass Fed Beef Report (Quarterly), 2026 Quarter 3, September 25, 2026"
     url: "https://www.ams.usda.gov/mnreports/lsmngfbeef.pdf"
-  - title: "IndexBox: USDA Grass Fed Beef Prices Q3 2026 (summary of the AMS quarterly report tables)"
-    url: "https://www.indexbox.io/blog/usda-national-grass-fed-beef-report-q3-2026-prices/"
   - title: "U.S. Bureau of Labor Statistics via FRED: Average Price, Ground Beef, 100% Beef, U.S. City Average (APU0000703112)"
     url: "https://fred.stlouisfed.org/data/APU0000703112"
   - title: "U.S. Bureau of Labor Statistics via FRED: Average Price, Ground Beef, Lean and Extra Lean, U.S. City Average (APU0000703113)"
@@ -45,9 +43,9 @@ USDA's Agricultural Marketing Service (AMS) surveys farms that sell grass-fed be
 | Strip steak | $26.42 a pound | Not tracked by BLS |
 | Share of an animal, price per pound of meat you take home | $11.90 (whole) to $13.47 (eighth) | Not applicable |
 
-The AMS figures above come from the report's price tables as summarized by IndexBox, because the tables in the AMS PDF did not come through as text when we opened it. Check the [current AMS report](https://www.ams.usda.gov/mnreports/lsmngfbeef.pdf) for the latest numbers, which come out each quarter.
+The AMS figures are averages across the farms surveyed, and individual farms ranged widely (regular ground beef ran from $7.00 to $16.15 a pound). AMS updates the report each quarter, so check the [current AMS report](https://www.ams.usda.gov/mnreports/lsmngfbeef.pdf) for the latest numbers.
 
-On ground beef, the most common purchase, the grass-fed premium works out to roughly $4 to $5 a pound, or about 60 percent. For a household that eats 2 pounds of ground beef a week, that is about $400 to $550 more a year. Prices also vary a lot by region and by farm, so always confirm with the farm before you budget.
+On ground beef, the most common purchase, the grass-fed premium works out to roughly $4.00 to $5.30 a pound, or about 60 percent. For a household that eats 2 pounds of ground beef a week, that is about $400 to $550 more a year. Prices also vary a lot by region and by farm, so always confirm with the farm before you budget.
 
 ## Why it costs more
 
@@ -81,7 +79,7 @@ In the Leheska study, omega-3 fats made up 0.88 percent of the fat in grass-fed 
 | Grass-fed ground beef | about 110 mg | Mostly ALA, some DPA |
 | Farmed Atlantic salmon | about 1,900 mg of EPA plus DHA alone | EPA and DHA |
 
-The salmon figure comes from USDA nutrient data as listed by University of Idaho Extension. Even the higher grass-fed number is a small fraction of what salmon gives you, and the beef's omega-3 is mostly ALA rather than EPA and DHA. In the Leheska data, EPA was barely present and DHA was below the level the lab could measure in both kinds of beef. For scale, the NIH Office of Dietary Supplements lists 1.1 grams of ALA a day for adult women and 1.6 grams for men. By our estimate, 100 grams of grass-fed ground beef supplies under a tenth of that.
+The salmon figure comes from USDA nutrient data as listed by University of Idaho Extension. Even the higher grass-fed number is a small fraction of what salmon gives you, and the beef's omega-3 is mostly ALA rather than EPA and DHA. In the Leheska data, EPA was barely present and DHA was reported only as a trace in both kinds of beef. For scale, the NIH Office of Dietary Supplements lists 1.1 grams of ALA a day for adult women and 1.6 grams for men. By our estimate, 100 grams of grass-fed ground beef supplies about a tenth of the amount for women and about 7 percent of the amount for men.
 
 The study authors themselves said the possible effects of these differences on human health cannot be judged without more research. So if omega-3 is your main reason for buying grass-fed beef, the premium buys you relatively little of it.
 
@@ -93,7 +91,7 @@ In plain terms: the word on the label is a starting point, not a guarantee. Aski
 
 ## What the extra money does not clearly buy
 
-**A smaller climate footprint.** Studies disagree, and many find the opposite. The Oklahoma State fact sheet reports that published estimates put grain-finished beef's carbon footprint per unit of beef 18.5 to 67.5 percent lower than grass-finished beef's, partly because grass-finished cattle live longer and give less meat. The same fact sheet notes that counting carbon stored in pasture soil could lower the grass-finished footprint by 42 percent in one cited study, and that grass-finished cattle eat forage people cannot eat. A West Coast study by Klopatek and colleagues found the conventional system had the lowest greenhouse gas footprint but the highest energy use, while a 20-month grass-fed system used the least water. The authors concluded no single system came out ahead on economics, meat quality and environment together. If land practices matter to you, ask the farm what it actually does rather than relying on "grass-fed" alone.
+**A smaller climate footprint.** Studies disagree, and many find the opposite. The Oklahoma State fact sheet reports that published estimates put grain-finished beef's carbon footprint per unit of beef 18.5 to 67.5 percent lower than grass-finished beef's, partly because grass-finished cattle live longer and give less meat. The same fact sheet notes that counting carbon taken up by pasture could lower the grass-finished footprint by 42 percent, and that grass-finished cattle eat forage people cannot eat. A West Coast study by Klopatek and colleagues found the conventional system had the lowest greenhouse gas footprint but the highest energy use, while a 20-month grass-fed system used the least water. The authors concluded no single system came out ahead on economics, meat quality and environment together. If land practices matter to you, ask the farm what it actually does rather than relying on "grass-fed" alone.
 
 **Better taste, guaranteed.** Flavor is personal. Grass-fed beef is leaner and its fat can taste different, and some people prefer grain-finished beef. If you are unsure, buy a pound of ground beef and a steak from one farm before committing to a large order.
 
@@ -103,7 +101,7 @@ In plain terms: the word on the label is a starting point, not a guarantee. Aski
 
 **Split a share.** If a quarter is too much meat, two households can split it. You still get the bulk price per pound.
 
-**Buy the cheaper cuts by the pound.** In the AMS data, regular ground beef averaged $10.78 a pound and chuck or shoulder roasts $12.84, compared with $26 to $41 for steaks. Mixing grass-fed ground beef and roasts with grocery beef for other meals is one way to keep the cost manageable.
+**Buy the cheaper cuts by the pound.** In the AMS data, regular ground beef averaged $10.78 a pound and chuck or shoulder roasts $12.84, compared with about $26 to $41 for strip, ribeye and filet mignon steaks. Mixing grass-fed ground beef and roasts with grocery beef for other meals is one way to keep the cost manageable.
 
 **Buy local.** Shipping adds cost to mail-order beef. A farm near you may sell for less and let you pick up. You can [search farms by state](/farms/) on our directory.
 

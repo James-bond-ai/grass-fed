@@ -51,10 +51,10 @@
   "availability": {
     "status": "sold-out",
     "note": "Online store shows everything sold out except 2026 Thanksgiving turkey reservations; farm store open Fridays and Saturdays, with stock posted on social media.",
-    "checked_on": "2026-11-01"
+    "checked_on": "2026-11-02"
   },
   "address": "18437 Vontay Rd., Rockville, VA 23146",
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

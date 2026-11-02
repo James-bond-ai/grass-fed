@@ -51,9 +51,9 @@
   "availability": {
     "status": "waitlist",
     "note": "New customers join a waitlist until supply matches demand.",
-    "checked_on": "2026-11-01"
+    "checked_on": "2026-11-02"
   },
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

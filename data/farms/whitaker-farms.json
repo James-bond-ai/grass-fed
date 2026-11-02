@@ -49,7 +49,7 @@
     "local_radius_miles": null,
     "ships_to": "nationwide",
     "pickup_locations": [
-      "Saturday farm pickup, Gallatin, 10am to 12pm (site says on hold; no dates posted)"
+      "Saturday farm pickup, Gallatin, 10am to 12pm (site notice says farm pickup is on hold until 10/1/2026; home delivery only meanwhile)"
     ],
     "source_url": "https://whitakerfarmstn.com/"
   },
@@ -58,7 +58,7 @@
   "data_source": "web-search",
   "source_url": "https://www.covecreekfarm.com/farms-near-nashville-with-grass-fed-grass-finished-beef/",
   "resold_note": "Also sells wild seafood it does not raise.",
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published",
   "notes": "2026-11-01: category set to both because the store lists a grain-fed beef box alongside grass-fed animals; store pages need a sign-in to confirm."

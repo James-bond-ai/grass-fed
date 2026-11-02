@@ -19,7 +19,7 @@
     "grass-fed beef cuts",
     "forest-raised pork",
     "sausage",
-    "half pig",
+    "whole hog",
     "pastured chicken",
     "Thanksgiving turkeys",
     "duck",
@@ -54,19 +54,36 @@
     ],
     "local_radius_miles": null,
     "ships_to": [
-      "NC"
+      "AL",
+      "AR",
+      "DE",
+      "FL",
+      "GA",
+      "IL",
+      "IN",
+      "KY",
+      "LA",
+      "MD",
+      "MS",
+      "NJ",
+      "NC",
+      "OH",
+      "PA",
+      "TN",
+      "VA",
+      "WV"
     ],
     "pickup_locations": [
       "Farm pickup, pre-orders only, Sundays 1 to 3 PM"
     ],
-    "source_url": "https://cathisfarm.com/cathis-farm-faq"
+    "source_url": "https://cathisfarm.com/pasture-raised-meat-home-delivery"
   },
   "dairy_products": [],
   "ordering_url": "https://cathisfarm.com/store",
   "data_source": "web-search",
   "source_url": "https://cathisfarm.com/",
   "resold_note": "Half and whole cow shares are raised by partner Randleman Farms and finished on a haylage and grain mix, not by CATHIS Farm.",
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

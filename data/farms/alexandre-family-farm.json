@@ -27,9 +27,9 @@
     "pasture-raised eggs"
   ],
   "feeding_claim": {
-    "category": "grass-fed",
-    "verbatim": "Our cows are grass-fed.",
-    "source_url": "https://alexandrefamilyfarm.com/pages/why-choose-alexandre"
+    "category": "both",
+    "verbatim": "This milk comes from cows that consume 80% of their diet from forage, and 20% from certified organic, non-GMO corn.",
+    "source_url": "https://alexandrefamilyfarm.com/products/a2-a2-organic-6-whole-milk"
   },
   "certifications": [
     {
@@ -66,7 +66,7 @@
     "Blossom Hill Oakridge, San Jose (Sunday)",
     "Modesto Certified (Saturday and Thursday, April to November)",
     "Turlock Certified (Saturday, May to October)",
-    "Webberstown, Stockton (Sunday)"
+    "Weberstown, Stockton (Sunday)"
   ],
   "bulk_shares": false,
   "delivery": {
@@ -89,7 +89,7 @@
   "data_source": "certifier",
   "source_url": "https://www.ccof.org/ccofmember/alexandre-family-farm",
   "address": "7955 Bailey Road, Crescent City, CA 95531",
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

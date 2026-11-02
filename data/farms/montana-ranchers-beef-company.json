@@ -40,13 +40,13 @@
   "ordering_url": "https://montanaranchersbeefco.com/shop/",
   "data_source": "web-search",
   "source_url": "https://abundantmontana.com/amt-lister/montana-ranchers-beef-company/",
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published",
   "availability": {
     "status": "sold-out",
     "note": "All beef shares and boxes are out of stock; the site says inventory is low and to keep checking back. Out of state shipping is offered on request.",
-    "checked_on": "2026-11-01",
+    "checked_on": "2026-11-02",
     "source_url": "https://montanaranchersbeefco.com/shop/"
   }
 }

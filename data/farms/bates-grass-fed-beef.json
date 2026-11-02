@@ -17,8 +17,8 @@
   ],
   "feeding_claim": {
     "category": "grass-finished",
-    "verbatim": "100% grass fed and grass finished",
-    "source_url": "https://www.batesgrassfedbeef.com/"
+    "verbatim": "They are 100% grass finished.",
+    "source_url": "https://www.batesgrassfedbeef.com/our-happy-cows"
   },
   "certifications": [],
   "sales_channels": [
@@ -49,9 +49,9 @@
   "availability": {
     "status": "waitlist",
     "note": "Whole and half shares taken by wait list; reservations open for Spring 2027.",
-    "checked_on": "2026-11-01"
+    "checked_on": "2026-11-02"
   },
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }

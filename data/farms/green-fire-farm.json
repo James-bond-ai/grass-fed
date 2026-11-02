@@ -31,7 +31,7 @@
   ],
   "feeding_claim": {
     "category": "grass-finished",
-    "verbatim": "The Cows--100% Grass Fed, Grass Finished.",
+    "verbatim": "The Cows--100% Grass Fed, Grass Finished",
     "source_url": "https://greenfirefarmllc.com/our-animals"
   },
   "certifications": [],
@@ -66,7 +66,7 @@
   "source_url": "https://greenfirefarmllc.com/",
   "address": "N5305 Ringhand Road, Monticello, WI 53570",
   "resold_note": "Also sells products from other local vendors, such as LuSa Organics soaps, Pembrook Syrup and Voegeli Farms.",
-  "last_verified_at": "2026-11-01",
+  "last_verified_at": "2026-11-02",
   "verification_method": "auto",
   "listing_status": "published"
 }
