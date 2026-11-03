@@ -1,0 +1,61 @@
+{
+  "id": "browning-beef",
+  "slug": "browning-beef",
+  "farm_name": "Browning Beef",
+  "city": "Spangle",
+  "state": "WA",
+  "zip": "99031",
+  "address_public": false,
+  "website": "https://browningbeef.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.instagram.com/browningbeefspokane/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "beef packages",
+    "ground beef",
+    "roasts",
+    "bones"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "The grass-fed diet with no hormones, no antibiotics, no grain, and minimal stress",
+    "source_url": "https://browningbeef.com/why/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "farmers-market",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [
+    "Fairwood Farmers Market, Mead (Tuesdays, May to October)",
+    "Liberty Lake Farmers Market (Saturdays, May to October)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "The Scale House Market at the Quarry (Wednesday)",
+      "NW Spokane, Crown Foods (Thursday)",
+      "Mead, Fairwood Farmers Market lot (Thursday)",
+      "South Hill, Spokane (Thursday)",
+      "Spokane Valley (Thursday)",
+      "Coeur d'Alene, ID (Thursday)",
+      "Freeman Store (Thursday)"
+    ],
+    "source_url": "https://www.browningbeef.com/contact"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/browningbeef/all",
+  "data_source": "web-search",
+  "source_url": "https://eatlocalfirst.org/listing/spangle/browning-beef-llc/",
+  "notes": "Order online by midnight Monday for weekly pickup stops. Also sold at The Scale House Market, Main Market Co-op and The Golden Gem Mercantile. No shipping mentioned."
+}

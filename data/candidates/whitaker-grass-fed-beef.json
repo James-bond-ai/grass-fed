@@ -1,0 +1,44 @@
+{
+  "id": "whitaker-grass-fed-beef",
+  "slug": "whitaker-grass-fed-beef",
+  "farm_name": "Whitaker Grass-fed Beef",
+  "city": "Ellensburg",
+  "state": "WA",
+  "zip": "98926",
+  "address_public": false,
+  "website": "https://whitakergrassfedbeef.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "eighth, quarter, half and whole beef shares",
+    "organ meats on request"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "The steers are raised in wide-open pastureland and finished on lush, irrigated pastures.",
+    "source_url": "https://whitakergrassfedbeef.com/?page_id=214"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "anywhere within Washington State"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://whitakergrassfedbeef.com/?page_id=215"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://whitakergrassfedbeef.com/?page_id=215",
+  "data_source": "web-search",
+  "source_url": "https://eatlocalfirst.org/listing/ellensburg/whitaker-grass-fed-beef/",
+  "notes": "Share prices include free delivery anywhere in Washington State; orders by email to the owner. Site says finished on pasture but does not say grass-finished or no grain, so category kept at grass-fed."
+}

@@ -1,0 +1,52 @@
+{
+  "id": "wickens-ranch",
+  "slug": "wickens-ranch",
+  "farm_name": "Wickens Ranch",
+  "city": "Winifred",
+  "state": "MT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://wickensranch.com/",
+  "phone": "(406) 209-8222",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "eighth, quarter and half beef",
+    "steaks",
+    "roasts",
+    "ground beef and brats",
+    "ribs and brisket",
+    "jerky and sausage",
+    "tallow, suet, bones and organs"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "we finish them for about 3 months on a unique ration",
+    "source_url": "https://wickensranch.com/pages/about-wickens-ranch"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Gallatin Valley"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Dermer Refrigeration, 6757 Lynx Ln, Bozeman (Tuesdays 3 to 5 pm)"
+    ],
+    "source_url": "https://wickensranch.com/pages/about-wickens-ranch"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://wickensranch.com/",
+  "data_source": "web-search",
+  "source_url": "https://abundantmontana.com/amt-lister/wickens-ranch/",
+  "notes": "Cattle graze range grass for 2 to 3 years, then are finished about 3 months on a ration with local barley, peas and lentils. Does not ship out of state. Shop also lists pork; site does not say who raises it."
+}

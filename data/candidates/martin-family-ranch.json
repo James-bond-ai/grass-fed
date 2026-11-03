@@ -1,0 +1,46 @@
+{
+  "id": "martin-family-ranch",
+  "slug": "martin-family-ranch",
+  "farm_name": "Martin Family Ranch",
+  "city": "Central Point",
+  "state": "OR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.martinfamilyranchoregon.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter, half and whole beef",
+    "ground beef shares"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our grass fed cattle are never fed any grain or antibiotics, and receive no hormones ever.",
+    "source_url": "https://www.martinfamilyranchoregon.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Rogue Valley"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Montgomery's Meats, 175 N. 1st Street, Central Point (processor)"
+    ],
+    "source_url": "https://www.martinfamilyranchoregon.com/our-beef-and-prices.html"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.martinfamilyranchoregon.com/our-beef-and-prices.html",
+  "data_source": "web-search",
+  "source_url": "https://oregonpasturenetwork.org/listing/martin-family-ranch/",
+  "notes": "Beef reserved by deposit (2026 prices on site) and picked up at the processor, Montgomery's Meats in Central Point. Site gives no delivery or shipping. Phone is only on the Oregon Pasture Network listing, so left out."
+}

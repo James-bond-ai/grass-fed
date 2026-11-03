@@ -1,0 +1,56 @@
+{
+  "id": "ramstead-ranch",
+  "slug": "ramstead-ranch",
+  "farm_name": "Ramstead Ranch",
+  "city": "Ione",
+  "state": "WA",
+  "zip": "99139",
+  "address_public": true,
+  "website": "https://ramsteadranch.com/",
+  "phone": "509-596-1203",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef cuts",
+    "ground beef",
+    "eighth and quarter beef packages",
+    "lamb",
+    "pasture-raised Berkshire pork",
+    "bacon",
+    "chicken",
+    "turkey",
+    "organs and broth bones",
+    "value boxes"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass-fed and grass-finished",
+    "source_url": "https://ramsteadranch.com/store/grass-fed-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://ramsteadranch.com/grassfed-meat-delivery-los-angeles-ca"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://ramsteadranch.com/store/grass-fed-beef",
+  "data_source": "web-search",
+  "source_url": "https://eatlocalfirst.org/listing/ione/ramstead-ranch/",
+  "address": "990 Dennis Rd., Ione, WA 99139",
+  "notes": "Ships everywhere in the continental US and to select towns in Alaska; on-farm pickup Tuesdays at the ranch. Store also lists bison, but the site does not say the ranch raises bison, so it is left out."
+}

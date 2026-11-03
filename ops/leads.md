@@ -28,11 +28,12 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Unchecked: David's Pasture (davidspasture.com, may be a multi-farm broker); Ozarks Fresh, Mansfield (ozarksfresh.com, may be a co-op); Grass-Fed Beef Kansas City (grassfedkc.com, check it is not the same as kcgrassfedbeef.com)
 
 ## MT
-- XX Bar Farm & Ranch, Helena (doublexbar.com): grass-finished ground beef in a product title; only page titles returned 2026-11-02
+- XX Bar Farm & Ranch, Helena (doublexbar.com): homepage says pasture-raised beef, pork and eggs, but no feeding detail or way to buy returned 2026-11-03
+- Spring Valley Ranch, Roberts (springvalleyranchmt.com): Highland beef "grass fed and finished", but shop lists only t-shirts and no way to buy beef (2026-11-03)
 - Flying 7 Ranch, Big Timber (flying7ranch.com): ships continental US in winter; shop (flying-7-ranch.myshopify.com) blocked, feeding claim unchecked
 - Mitchell Farm, Columbia Falls (mitchellfarmmontana site): grass and hay fed beef shares, but site says only "contact us for pricing" with no way to buy named; mainly horse boarding
 - Crary Ranch, Choteau; Reilly Ranch Beef, Great Falls; Skalkaho Meat Company, Hamilton; Bullseye Ranch, Billings (yvfoodhub.com only); Rocking CG Ranch, Glendive (TikTok only): no own website found 2026-11-02
-- Unchecked (Abundant Montana directory): Herman Ranch; Montana Branded; Wickens Ranch; Grass Valley Farms; Foothill Farm, St Ignatius; 3G Beef; Beauty and the Beef; Love Montana Beef; Natural Pork and Beef of Montana, Fort Benton
+- Unchecked (Abundant Montana directory): Herman Ranch; Montana Branded; Grass Valley Farms; Foothill Farm, St Ignatius; 3G Beef; Beauty and the Beef; Love Montana Beef; Natural Pork and Beef of Montana, Fort Benton
 - Great Falls and eastern Montana still have no listings
 
 ## NC
@@ -51,11 +52,13 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Fred's Farm (fredsfarm.grazecart.com): grass-finished beef, site under maintenance 2026-10-31
 
 ## OR
-- Martin Family Ranch, Central Point: homepage says never fed grain; beef/prices and contact pages failed to load 2026-11-02, retry
+- Yoder Cattle Co, Brownsville (yodercattleco.com): grain-finished, grass-finished on request; Barn2Door shop, no pickup or delivery stated; unchecked beyond homepage
+- 4Y Ranch, Salem (4yranch.com): grass-fed beef, robots blocks fetching 2026-11-03
+- Unchecked: Martson Farm Highland Cattle, Molalla (martsonfarm.com); Kenagy Family Farm (kenagyfamilyfarm.com); Ropp Family Farm (roppfamilyfarm.com)
 - Plaisance Ranch, Williams (winery): grass-finished beef with prices by cut, but no page says how to buy beef (checked 2026-11-02)
 - Foley Peak Angus, Nehalem: grass-fed half and whole beef, but no pickup or delivery stated and site dated 2018; may be inactive
 - Uproot Meats, Ashland (uprootmeats.com blocks fetching, robots); may be mainly a butcher
-- Oregon Pasture Network directory (oregonpasturenetwork.org), unchecked: Chintimini Ranch, Philomath (chintiminiranch.com, fetch not permitted); Deck Family Farm, Junction City (deckfamilyfarm.com, fetch not permitted, has raw milk); Black River Cattle Co, Eagle Creek (maybe blackrivercc.com); Shimanek Bridge Farm, Scio (Facebook only); Weathered Oak Farm; All Natural Meats; Birkeland Farm; 1890 Willamette Grass Fed Farm; Cast Iron Farm
+- Oregon Pasture Network directory (oregonpasturenetwork.org), unchecked: Chintimini Ranch, Philomath (chintiminiranch.com, fetch not permitted); Deck Family Farm, Junction City (deckfamilyfarm.com, fetch not permitted, has raw milk); Black River Cattle Co, Eagle Creek (maybe blackrivercc.com); Shimanek Bridge Farm, Scio (Facebook only); Weathered Oak Farm, Lebanon (weatheredoakfarm.com now shows Aspen View Farm); All Natural Meats; Birkeland Farm; 1890 Willamette Grass Fed Farm; Cast Iron Farm
 
 ## PA
 - Barbour Grassfed Beef, Cogan Station (barbourgrassfedbeef.com): "No Grain", quarters and halves; our-beef page errored and no town on site 2026-10-31
@@ -107,7 +110,10 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Consider Bardwell, Twig Farm, Sweet Rowen Farmstead (blocked fetching); Woodcock Farm (timed out)
 
 ## WA
-- Whitaker Grass-fed Beef, Ellensburg; American Alps Ranch, Marblemount; eastern Washington and the Olympic Peninsula have no listings
+- American Alps Ranch, Marblemount (americanalpsranch.com): robots blocks fetching 2026-11-03
+- Wagner Frontier Ranch, Moses Lake (wagnerfrontierranch.com): grass-raised, grain added 90 days before harvest; ships bulk beef to Alaska; contact page and other shipping unchecked
+- Short's Family Farm, Chimacum (shortsfamilyfarm.com): 100% grass-fed beef shares per Eat Local First; only a half beef deposit page surfaced in search
+- Eat Local First directory, unchecked: Oak Meadows Farm, Ferndale; Fair Cow's Path Farm, Blaine; Widnor Farms, Custer; River Run Farm, Sequim; The Farm & The Kitchen, Sequim; Withywindle Valley Farm, Olympia; Clark Farms; Basket Flat Ranch; Horseshoe Bend Ranch, Centerville; Casa Cano Farms, Valleyford; Meeks Ranches, Kittitas; Double Rafter Livestock, Ellensburg; NW Local Meats, Burlington (may be a butcher)
 
 ## WI
 - Morning Breeze Farm, Hortonville and Brand Acres Beef, Greenleaf: AGW Certified Grassfed beef, but no own website found 2026-11-01 (Facebook and AGW listing only)
