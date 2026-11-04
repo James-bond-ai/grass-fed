@@ -1,0 +1,46 @@
+{
+  "id": "hamners-farm",
+  "slug": "hamners-farm",
+  "farm_name": "Hamner's Farm",
+  "city": "Martin",
+  "state": "GA",
+  "zip": "30557",
+  "address_public": true,
+  "website": "https://www.hamnersfarm.com/",
+  "phone": "706-498-7449",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "ground beef",
+    "ribeye steak",
+    "forest-raised sausage",
+    "pork chops"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "100% Grass-Fed Beef, No Antibiotics or Hormones",
+    "source_url": "https://www.hamnersfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.hamnersfarm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.hamnersfarm.com/",
+  "address": "1800 Pleasant Hill Circle, Martin, GA 30557",
+  "notes": "Farm store open Saturdays 2 to 5 pm, other times by appointment. Does not sell online. Site is a single page and does not say how beef is finished."
+}

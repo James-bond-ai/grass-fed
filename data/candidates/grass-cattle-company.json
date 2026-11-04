@@ -1,0 +1,65 @@
+{
+  "id": "grass-cattle-company",
+  "slug": "grass-cattle-company",
+  "farm_name": "Grass Cattle Company",
+  "city": "Charlotte",
+  "state": "VT",
+  "zip": "05545",
+  "address_public": true,
+  "website": "https://www.grasscattlecompany.com/",
+  "phone": "802 363 4575",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "25 pound ranch mix boxes",
+    "custom cut sides of beef",
+    "subscriptions"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass and forage are the only feed source consumed for the lifetime of the animal",
+    "source_url": "https://www.grasscattlecompany.com/howweraisebeef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Burlington",
+      "Colchester",
+      "Williston",
+      "Essex",
+      "Shelburne",
+      "Hinesburg",
+      "Charlotte",
+      "Vergennes",
+      "Richmond",
+      "Jericho",
+      "St. George",
+      "Middlebury",
+      "Monkton",
+      "Starksboro",
+      "Bristol"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Hinesburg Farm Store, 2408 Shelburne Falls Rd, Hinesburg"
+    ],
+    "source_url": "https://www.grasscattlecompany.com/new-page-3"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.grasscattlecompany.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.nofavt.org/grass-cattle-company",
+  "address": "1677 Hinesburg Rd., Charlotte, VT 05545",
+  "notes": "Two self-serve farm stores (Charlotte and Hinesburg) open every day 8am to 8pm, card payments only. Free weekly local delivery to the listed towns. Pasture-raised chicken and eggs listed as coming back soon."
+}

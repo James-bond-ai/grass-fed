@@ -1,0 +1,63 @@
+{
+  "id": "truc-farm",
+  "slug": "truc-farm",
+  "farm_name": "TRUC Farm",
+  "city": "Culloden",
+  "state": "GA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://trucfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "slow-cooker cuts",
+    "half cow subscription box",
+    "half and whole beef shares"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass-fed and finished",
+    "source_url": "https://trucfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [
+    "Dunwoody",
+    "Sandy Springs",
+    "Alpharetta",
+    "Milton"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Alpharetta",
+      "Dunwoody",
+      "Roswell",
+      "Sandy Springs",
+      "Brookhaven",
+      "Johns Creek",
+      "Milton"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farmers markets in Dunwoody, Sandy Springs, Alpharetta and Milton/Crabapple"
+    ],
+    "source_url": "https://trucfarm.com/pages/copy-of-about-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://trucfarm.com/collections",
+  "data_source": "web-search",
+  "source_url": "https://grassfed-beef-site.pages.dev/suppliers/truc-farm/",
+  "resold_note": "Some beef comes from partner family farms the company evaluates.",
+  "notes": "Raised on the family farm in Culloden and sold in metro Atlanta. A September 18, 2026 notice says most deliveries are paused due to stock shortages, with farmers markets and existing orders prioritized. Not shipping."
+}

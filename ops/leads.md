@@ -10,10 +10,12 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Buck Up Buttercup Ranch; Lazy K's Ranch; Guthrie Cattle Company (Colorado Beef Council directory)
 
 ## FL
-- Grove Ladder; Nature's Hand; Sunset Ranch of Escambia; E & C Cattle Ranch; JS2 Cattle; Our Ancestor's Food
+- E & C Cattle Ranch; JS2 Cattle; Our Ancestor's Food
+- Nature's Hand Cattle Co., Westville; Sunset Ranch of Escambia: no own website found 2026-11-04
 
 ## GA
 - Goshen Family Farm; Riverview Farms; Burge Organic Farms (all blocked fetching)
+- Mountain Valley Farm & Store, Ellijay (grassfedgeorgia.com): grass-fed dry-aged beef, farm store; site redirect loop between http and https 2026-11-04
 
 ## MO
 - Grace's Grass Fed and Wells Family Farms (blocked fetching)
@@ -46,6 +48,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Unchecked: Terrace Ridge Farm (terraceridgefarm.com); Smithview Farm (smithviewfarm.com)
 
 ## NY
+- Unchecked Columbia County meat farms: Kinderhook Farm, Ghent (no own site surfaced in search 2026-11-04); Herondale Farm, Ancramdale; Sawkill Farm, Red Hook
 - Raw milk permit holders not yet checked (sites blocked fetching): Essex Farm, Remembrance Farm, Byebrook, Side Hill Acres, Hoofprint, 3-Corner Field Farm, Stone Thistle, Asgaard Farm, Edgwick Farm
 
 ## OH
@@ -107,13 +110,17 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Chapel Creek Farms, Montvale (chapelcreek-farms.com): grass-finished beef, shares; unchecked
 
 ## VT
+- Keith Farm Meats, Elmore (100% grass-fed beef, farm store): Facebook only, no own website 2026-11-04
+- North Hardwick Farm, Hardwick: beef per NOFA-VT, no own website found 2026-11-04
 - Consider Bardwell, Twig Farm, Sweet Rowen Farmstead (blocked fetching); Woodcock Farm (timed out)
 
 ## WA
 - American Alps Ranch, Marblemount (americanalpsranch.com): robots blocks fetching 2026-11-03
 - Wagner Frontier Ranch, Moses Lake (wagnerfrontierranch.com): grass-raised, grain added 90 days before harvest; ships bulk beef to Alaska; contact page and other shipping unchecked
-- Short's Family Farm, Chimacum (shortsfamilyfarm.com): 100% grass-fed beef shares per Eat Local First; only a half beef deposit page surfaced in search
-- Eat Local First directory, unchecked: Oak Meadows Farm, Ferndale; Fair Cow's Path Farm, Blaine; Widnor Farms, Custer; River Run Farm, Sequim; The Farm & The Kitchen, Sequim; Withywindle Valley Farm, Olympia; Clark Farms; Basket Flat Ranch; Horseshoe Bend Ranch, Centerville; Casa Cano Farms, Valleyford; Meeks Ranches, Kittitas; Double Rafter Livestock, Ellensburg; NW Local Meats, Burlington (may be a butcher)
+- Short's Family Farm, Chimacum (shortsfamilyfarm.com): 100% grass-fed beef shares per Eat Local First; domain search found no pages 2026-11-04
+- Oak Meadows Farm, Ferndale (oakmeadowsfarmllc.com): pasture-raised eggs and turkey; unchecked
+- Unchecked: Sno Valley Farms (snovalleyfarms.net); Rolling Acres Farm (rollingacresfarm.net)
+- Eat Local First directory, unchecked: Fair Cow's Path Farm, Blaine; Widnor Farms, Custer; River Run Farm, Sequim; The Farm & The Kitchen, Sequim; Clark Farms; Basket Flat Ranch; Horseshoe Bend Ranch, Centerville; Casa Cano Farms, Valleyford; Meeks Ranches, Kittitas; Double Rafter Livestock, Ellensburg; NW Local Meats, Burlington (may be a butcher)
 
 ## WI
 - Morning Breeze Farm, Hortonville and Brand Acres Beef, Greenleaf: AGW Certified Grassfed beef, but no own website found 2026-11-01 (Facebook and AGW listing only)

@@ -1,0 +1,52 @@
+{
+  "id": "withywindle-valley-farm",
+  "slug": "withywindle-valley-farm",
+  "farm_name": "Withywindle Valley Farm",
+  "city": "Olympia",
+  "state": "WA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.withywindlevalleyfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork"
+  ],
+  "products": [
+    "whole grass-fed Jersey beef",
+    "lamb",
+    "woodland-raised pork",
+    "whole pork reservations",
+    "sheepskins"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "grass-fed/finished lamb & beef",
+    "source_url": "https://www.withywindlevalleyfarm.com/about-us"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "between Chehalis and Seattle"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Butcher Boys (processor)"
+    ],
+    "source_url": "https://www.withywindlevalleyfarm.com/product-page/grass-fed-beef-whole"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.withywindlevalleyfarm.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://eatlocalfirst.org/listing/olympia/withywindle-valley-farm/",
+  "notes": "Whole beef, whole pork and fall lamb sold by reservation with deposit on a sliding scale; animals slaughtered on site. Farm pickup by appointment. Shop page failed to load 2026-11-04. Eggs listed by Eat Local First but not confirmed on own site."
+}
