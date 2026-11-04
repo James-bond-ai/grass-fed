@@ -7,7 +7,7 @@ The Builder agent takes the first item marked `todo`, completes it, and marks it
 | 1 | Bulk beef state pages at /bulk-beef/{state}/ listing farms with bulk_shares, indexed only at 5 or more such farms, linking to the quarter cow guide | done 2026-10-28 |
 | 2 | Certification pages at /certifications/{program}/ listing farms holding that certification, including USDA Organic | done 2026-10-30 |
 | 3 | Show farm count per species on state pages and link species filters from guides | done 2026-10-30 |
-| 4 | Add raw milk legal status to /dairy/{state}/ pages from a dated, cited data file, once the raw milk guide is published | todo |
+| 4 | Add raw milk legal status to /dairy/{state}/ pages from a dated, cited data file, once the raw milk guide is published | done 2026-11-04 |
 | 5 | ZIP or city search on the home page using farm lat/lng where available | todo |
 | 6 | Open Graph image for sharing, generated at build time | done 2026-10-30 |
 | 7 | Farm matcher in the home page hero: three questions (state, product, how to buy) rank farms in the browser from /match.json and show the best four with a link to order from each farm. Built from `src/components/Hero.astro` and `src/data/match.mjs`; GA4 events farm_match, farm_match_submit, farm_match_order_click, farm_match_details_click | done 2026-10-30 |

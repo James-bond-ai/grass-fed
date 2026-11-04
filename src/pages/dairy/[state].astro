@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import FarmRow from '../../components/FarmRow.astro';
 import Filters from '../../components/Filters.astro';
+import RawMilkStatus from '../../components/RawMilkStatus.astro';
 import { STATES, INDEX_THRESHOLD, sellsDairy, servesState } from '../../data/states.mjs';
 import { loadPublishedFarms } from '../../data/farms.mjs';
 
@@ -18,7 +19,7 @@ const title = `Grass-fed dairy farms in ${st.name}`;
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/dairy/">Dairy</a> / {st.name}</nav>
   <h1>{title}</h1>
   <p class="lede">{farms.length} verified {farms.length === 1 ? 'farm' : 'farms'} in {st.name} selling dairy from their own herds. <a href={`/farms/${st.slug}/`}>All {st.name} farms</a></p>
-  <p class="muted small">Whether raw milk can be sold, and how, depends on {st.name} law. Confirm with the farm and the state agriculture department.</p>
+  <RawMilkStatus abbr={st.abbr} name={st.name} />
   <Filters listId="dairy" total={farms.length} mode="dairy" />
   <ul class="farm-list" id="dairy">{farms.map((f) => <FarmRow farm={f} showState={false} />)}</ul>
   {shipIn.length > 0 && (

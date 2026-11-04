@@ -20,7 +20,7 @@ for (const f of dairy) for (const p of f.dairy_products ?? []) productCount[p] =
     <h1>Grass-fed dairy, straight from the farm</h1>
   </div>
   <p class="lede">Farms that milk their own cows, goats or sheep on pasture and sell milk, cheese, butter or yogurt to the public. {dairy.length} verified so far{states.length ? ` in ${states.length} ${states.length === 1 ? 'state' : 'states'}` : ''}.</p>
-  <p class="muted small">Grass-fed dairy has no federal definition, so check each farm's own description and any certification. Raw milk is legal to sell only in some states, and the rules differ widely.</p>
+  <p class="muted small">Grass-fed dairy has no federal definition, so check each farm's own description and any certification. Raw milk is legal to sell only in some states, and the rules differ widely: see <a href="/guides/raw-milk-laws-by-state/">raw milk laws by state</a>.</p>
   {states.length > 0 && (
     <p class="state-pills">{states.map((s) => <a href={`/dairy/${s.slug}/`}>{s.name} <span>{byState[s.abbr]}</span></a>)}</p>
   )}

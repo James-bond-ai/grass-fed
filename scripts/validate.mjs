@@ -11,7 +11,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { parse as parseYaml } from 'yaml';
 import { AFFILIATES_ENABLED } from '../src/data/site.mjs';
-import { STATE_BY_ABBR, SPECIES, FEEDING, CHANNELS, CERTIFICATIONS, DAIRY_PRODUCTS } from '../src/data/states.mjs';
+import { STATES, STATE_BY_ABBR, SPECIES, FEEDING, CHANNELS, CERTIFICATIONS, DAIRY_PRODUCTS } from '../src/data/states.mjs';
+import { RAW_MILK, RAW_MILK_SOURCES, RAW_MILK_CHECKED } from '../src/data/raw-milk.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const args = process.argv.slice(2);
@@ -242,6 +243,29 @@ if (explicit.length || explicitJson.length) {
   }
   mdFiles('src/content/articles').forEach(checkArticle);
   if (args.includes('--drafts')) mdFiles('src/content/drafts').forEach(checkArticle);
+
+  // Raw milk status data (Builder's file) must cover every state, cite known sources,
+  // and match the published guide's table word for word.
+  const rmFile = path.join(ROOT, 'src/data/raw-milk.mjs');
+  if (!DATE.test(RAW_MILK_CHECKED)) err(rmFile, 'RAW_MILK_CHECKED must be YYYY-MM-DD');
+  for (const [k, v] of Object.entries(RAW_MILK_SOURCES)) if (!isUrl(v.url) || !v.title) err(rmFile, `source ${k} needs a title and url`);
+  for (const s of STATES) {
+    const r = RAW_MILK[s.abbr];
+    if (!r) { err(rmFile, `no raw milk entry for ${s.abbr}`); continue; }
+    if (!r.category) err(rmFile, `${s.abbr}: missing category`);
+    if (!(r.sources ?? []).length) err(rmFile, `${s.abbr}: no sources`);
+    for (const k of r.sources ?? []) if (!RAW_MILK_SOURCES[k]) err(rmFile, `${s.abbr}: unknown source ${k}`);
+    if (EM_DASH.test(`${r.category} ${r.note}`)) err(rmFile, `${s.abbr}: em dash`);
+  }
+  const guide = path.join(ROOT, 'src/content/articles/raw-milk-laws-by-state.md');
+  if (fs.existsSync(guide)) {
+    const rows = [...fs.readFileSync(guide, 'utf8').matchAll(/^\| ([A-Z][^|]+?) \| ([^|]+?) \| ([^|]*?) ?\|$/gm)].filter((m) => m[1] !== 'State');
+    const byName = Object.fromEntries(STATES.map((s) => [s.name, s.abbr]));
+    for (const [, name, category, note] of rows) {
+      const r = RAW_MILK[byName[name]];
+      if (r && (r.category !== category.trim() || r.note !== note.trim())) warn(rmFile, `${name} differs from the raw milk guide table; Builder should update this file and RAW_MILK_CHECKED`);
+    }
+  }
 
   // Google ratings: only the weekly job and the Compliance agent edit this file.
   const rf = path.join(ROOT, 'data/ratings/google.json');

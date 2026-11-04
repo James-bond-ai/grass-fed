@@ -1,0 +1,37 @@
+---
+// Raw milk legal status box for /dairy/{state}/ pages. Data and wording come from
+// src/data/raw-milk.mjs, which mirrors the published raw milk guide.
+import { rawMilkFor, RAW_MILK_CHECKED, RAW_MILK_GUIDE, RAW_MILK_DISCLAIMER, RAW_MILK_INTERSTATE, RAW_MILK_SOURCES } from '../data/raw-milk.mjs';
+import { fmtDate } from '../data/format.mjs';
+interface Props { abbr: string; name: string }
+const { abbr, name } = Astro.props;
+const r = rawMilkFor(abbr);
+const sources = r ? [...r.sources, RAW_MILK_SOURCES['ecfr-1240-61']] : [];
+---
+{r ? (
+  <section class="raw-milk" aria-labelledby="raw-milk-h">
+    <p class="kicker">Raw milk law</p>
+    <h2 id="raw-milk-h">Raw milk in {name}: <span class="cat">{r.category}</span></h2>
+    {r.note && <p class="note">{r.note.replace(/\.?$/, '.')}</p>}
+    <p class="small">{RAW_MILK_INTERSTATE}{' '}A farm listed here may not sell raw milk at all; ask the farm.</p>
+    <p class="small"><strong>Checked {fmtDate(RAW_MILK_CHECKED)}.</strong>{' '}{RAW_MILK_DISCLAIMER}{' '}<a href={RAW_MILK_GUIDE}>Raw milk laws in all 50 states, and how herdshares work</a></p>
+    <details class="small">
+      <summary>Sources</summary>
+      <ul>{sources.map((s) => <li><a href={s.url} rel="nofollow noopener" target="_blank">{s.title}</a></li>)}</ul>
+    </details>
+  </section>
+) : (
+  <p class="muted small">Whether raw milk can be sold, and how, depends on {name} law. Confirm with the farm and the state agriculture department.{' '}<a href={RAW_MILK_GUIDE}>Raw milk laws by state</a></p>
+)}
+
+<style>
+  .raw-milk { background: var(--hay-tint); border: 1px solid #e2cf96; border-radius: var(--radius-md); padding: 1rem 1.25rem 0.5rem; margin: 1.25rem 0 1.75rem; max-width: var(--measure); }
+  .kicker { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--hay); margin: 0 0 0.25rem; }
+  h2 { font-size: 1.3rem; margin: 0 0 0.5rem; }
+  .cat { color: var(--ink); }
+  .note { margin-bottom: 0.6rem; }
+  .raw-milk p.small { color: var(--ink-soft); margin-bottom: 0.6rem; }
+  details { margin-bottom: 0.6rem; color: var(--ink-soft); }
+  summary { cursor: pointer; font-weight: 500; }
+  details ul { margin: 0.4rem 0 0; padding-left: 1.2rem; }
+</style>
