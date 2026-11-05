@@ -2,6 +2,9 @@
 
 Named farms found but not yet checked, by state. Scout takes these first and removes the ones it resolves.
 
+## AL
+- Acres Of Grace Cattle Company, north Alabama (acresofgracecattleco.com): grass fed, grain finished half and whole shares; town not stated and sold-out notice dated February 2026, 2026-11-05
+
 ## CA
 - Llano Seco, Chico (llanoseco.com blocks fetching)
 - California Beef Council directory, grass-fed ranches not yet checked: Arbuckle Cattle Co., Mokelumne Hill; Family Friendly Farms, Grass Valley; Full Circle Ranches, Petaluma; Koopmann Family Beef, Sunol; Marin Coast Ranch, Tomales; McLane Family Farms, Yreka; Muelrath Ranch, Penngrove; Summerfield Cattle Company, Vacaville; Tara Firma Farms, Petaluma; Yolo Land and Cattle, Woodland; Hornitos Beef; Springville Beef; Avenales Ranch, Santa Margarita; Twisselman Ranch; Sloan Ranch Beef, Santa Paula; Reed Valley Ranch, Hemet; Diamond B Ranch, Santa Ysabel
@@ -15,7 +18,11 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 
 ## GA
 - Goshen Family Farm; Riverview Farms; Burge Organic Farms (all blocked fetching)
-- Mountain Valley Farm & Store, Ellijay (grassfedgeorgia.com): grass-fed dry-aged beef, farm store; site redirect loop between http and https 2026-11-04
+- Mountain Valley Farm & Store, Ellijay (grassfedgeorgia.com): grass-fed dry-aged beef, farm store; site redirect loop between http and https 2026-11-04 and again 2026-11-05
+- Lily Hill Farm (lilyhillcattle.com): ships and local pickup, but says "grass and grain finished" and names no town; unchecked further 2026-11-05
+- Dyer Livestock Beef, Trenton (Beef Shop): grass-fed and grain finished, ships; only a squarespace preview domain, home and shop pages blocked 2026-11-05
+- Osborn Farms, Hiawassee: Facebook and Instagram only, no own website 2026-11-05
+- Verdant Beef, Burke County (verdantbeef.com): fetch blocked, directory info from 2021 2026-11-05
 
 ## MO
 - Grace's Grass Fed and Wells Family Farms (blocked fetching)
@@ -48,7 +55,8 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Unchecked: Terrace Ridge Farm (terraceridgefarm.com); Smithview Farm (smithviewfarm.com)
 
 ## NY
-- Unchecked Columbia County meat farms: Kinderhook Farm, Ghent (no own site surfaced in search 2026-11-04); Herondale Farm, Ancramdale; Sawkill Farm, Red Hook
+- Kinderhook Farm, Valatie/Ghent (kinderhookfarm.com, shop kinderhookfarm.square.site): 100% grassfed beef and lamb, meatshare; own site not surfaced by search and fetch blocked 2026-11-05
+- Spring Lake Farm, Delhi area (springlakefarmny.com): grass-fed beef and lamb per a 2010 article; fetch blocked 2026-11-05
 - Raw milk permit holders not yet checked (sites blocked fetching): Essex Farm, Remembrance Farm, Byebrook, Side Hill Acres, Hoofprint, 3-Corner Field Farm, Stone Thistle, Asgaard Farm, Edgwick Farm
 
 ## OH
@@ -113,6 +121,13 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Keith Farm Meats, Elmore (100% grass-fed beef, farm store): Facebook only, no own website 2026-11-04
 - North Hardwick Farm, Hardwick: beef per NOFA-VT, no own website found 2026-11-04
 - Consider Bardwell, Twig Farm, Sweet Rowen Farmstead (blocked fetching); Woodcock Farm (timed out)
+- Flying Dog Farm, Tunbridge (flyingdogfarmvt.com): 100% grass-fed beef and lamb, pastured pork; home page names no way to buy (mailing list only), contact page blocked by robots 2026-11-05
+- Pine Woods Farm, West Pawlet (pinewoodsfarm.com): robots blocks fetching 2026-11-05
+- Beaver Meadow Farm, Shrewsbury (beavermeadowfarmvt.com): grass-fed beef sides, quarters, boxes; site names no way to buy or contact 2026-11-05
+- Ancestral Farm, White River Junction (ancestralfarmvt.my.canva.site): 100% grass fed beef cuts sold by email order, no pickup or delivery stated 2026-11-05
+- Maple Wind Farm, Richmond (maplewindfarm.com): beef, pork, poultry, eggs, ships to Northeast; no feeding statement beyond Grass-fed Beef collection title on pages read 2026-11-05
+- MKVT Farm, Glover (mkvtfarm.com): mixed species, pork and lamb get grain, 2026 sold out except beef; beef page unread 2026-11-05
+- Smith Family Meats (smithfamilymeats.com), Stargrazer Farm (stargrazerfarm.com): unchecked 2026-11-05
 
 ## WA
 - American Alps Ranch, Marblemount (americanalpsranch.com): robots blocks fetching 2026-11-03

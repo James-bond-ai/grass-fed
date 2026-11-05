@@ -1,0 +1,62 @@
+{
+  "id": "the-bur-ger-farm",
+  "slug": "the-bur-ger-farm",
+  "farm_name": "The Bur-Ger Farm",
+  "city": "Benson",
+  "state": "VT",
+  "zip": "",
+  "address_public": true,
+  "address": "1077 Stage Rd, Benson, VT",
+  "website": "https://www.burgerfarmvt.com",
+  "phone": "802-779-8619",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "poultry"
+  ],
+  "products": [
+    "beef",
+    "pork",
+    "lamb",
+    "chicken",
+    "sausage",
+    "box specials"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "The Bur-Ger Farm (in Benson, Vermont) sells 100% grass fed beef, pasture-raised pork and pasture-raised lamb to New England areas along with farm-fresh chicken (VT only).",
+    "source_url": "https://www.burgerfarmvt.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "local-delivery",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Rutland Farmers Market",
+    "Bristol Farmers Market"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Rutland, VT area",
+      "Middlebury, VT area"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Otter Creek Fun Park, Danby, VT",
+      "Smokey House Center Farmstand, Danby, VT"
+    ],
+    "source_url": "https://www.burgerfarmvt.com/menu.html"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.burgerfarmvt.com/",
+  "notes": "On-farm sales Tuesday to Friday, call ahead. Delivery to the Rutland and Middlebury areas with a $100 minimum and 48 hours notice; site gives conflicting delivery days. Says it sells to New England areas but names no shipping. Category cautious grass-fed: 100% grass fed, finishing unstated."
+}
