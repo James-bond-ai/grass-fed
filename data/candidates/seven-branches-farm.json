@@ -1,0 +1,47 @@
+{
+  "id": "seven-branches-farm",
+  "slug": "seven-branches-farm",
+  "farm_name": "Seven Branches Farm",
+  "city": "Camp Hill",
+  "state": "AL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.sevenbranchesfarm.com",
+  "phone": "334-319-6077",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "grass-finished beef shares",
+    "grain-finished beef shares"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "After grazing on pasture, our grain-finished cattle enjoy a 90-day finishing process where we feed daily from locally-sourced grains.",
+    "source_url": "https://www.sevenbranchesfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.sevenbranchesfarm.com/store"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.sevenbranchesfarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://www.sevenbranchesfarm.com/",
+  "availability": {
+    "status": "sold-out",
+    "note": "Both beef share products marked sold out in the online store.",
+    "checked_on": "2026-11-06"
+  },
+  "notes": "Angus beef sold as quarter, half and whole shares in two lines: Grass Fed, Grass Finished and Grass Fed, Grain Finished, so category both. Grass-finished product page: \"Our grass-fed and grass-finished beef, proudly made on our family farm in Camp Hill, Alabama\". The quoted sentence was returned in two pieces by the fetch tool; Verifier should confirm exact wording. Farm address 3371 Jackson Rd, Camp Hill (Tallapoosa County, near Auburn) is on the site but left non-public. No pickup, delivery or shipping details; contact by email or phone."
+}

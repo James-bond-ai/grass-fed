@@ -1,0 +1,35 @@
+{
+  "id": "milligan-family-farms",
+  "slug": "milligan-family-farms",
+  "farm_name": "Milligan Family Farms",
+  "city": "Romulus",
+  "state": "AL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://milliganfamilyfarms.com",
+  "phone": "205-393-5900",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["beef cuts", "pork cuts", "chicken", "eggs", "produce"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "this allows us to give them daily attention and raise them on lush green grass.",
+    "source_url": "https://milliganfamilyfarms.com/products/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "farm-pickup", "local-delivery", "farmers-market"],
+  "farmers_markets": ["Northport Farmers Market (Saturday)", "Tuscaloosa Farmers Market (Saturday)"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Northport Farmers Market, Saturday 7 to 12", "Tuscaloosa Farmers Market, Saturday 7 to 12"],
+    "source_url": "https://milliganfamilyfarms.com/products/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/milliganfamilyfarms/all",
+  "data_source": "web-search",
+  "source_url": "https://milliganfamilyfarms.com/products/",
+  "notes": "Farm in Romulus (west Tuscaloosa County, near Northport); site title also says Buhl, AL. Beef raised on the owner's father's property in Samantha, AL; page heading is Grass-Fed Beef with no finishing stated. Whole, half or quarter beef and whole or half pork. Pigs on pasture and woods with non-GMO feed; chickens range in woods and grass with non-GMO feed. Farm pickup by appointment; site offers daily delivery for a small fee but names no area. Second phone 205-534-5288. Barn2Door store not read."
+}

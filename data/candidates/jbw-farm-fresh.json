@@ -1,0 +1,53 @@
+{
+  "id": "jbw-farm-fresh",
+  "slug": "jbw-farm-fresh",
+  "farm_name": "JBW Farm Fresh",
+  "city": "Dothan",
+  "state": "AL",
+  "zip": "36305",
+  "address_public": true,
+  "address": "677 Pilgrim Road, Dothan, AL 36305",
+  "website": "https://jbwfarmfresh.com",
+  "phone": "334-579-3770",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "goat",
+    "pork"
+  ],
+  "products": [
+    "grass-fed and finished beef",
+    "grass-fed and finished lamb",
+    "grass-fed and finished goat",
+    "pasture-raised pork",
+    "sausage",
+    "raw honey",
+    "tallow skincare"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We raise natural, grass-fed and grass-finished beef, sheep, and goat, along with pasture-raised pork.",
+    "source_url": "https://jbwfarmfresh.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Store at 8238 US-84 West, Dothan"
+    ],
+    "source_url": "https://jbwfarmfresh.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://jbwfarmfresh.com/",
+  "notes": "Meat is sold in-store only at two Dothan locations (677 Pilgrim Road and 8238 US-84 West), weekdays 9 to 5 and Saturday 9 to 2. Beef sold as half or whole cows and prepackaged cuts; pork as half or whole hogs. The online shop sells only tallow skincare. The store also stocks chicken, eggs, quail and quail eggs, but the site does not say they are raised on the farm, so poultry and eggs were left out of species. Site says animals are grain-free from conception to consumption. A footer image named marketatdothan2 hints at a Dothan farmers market but no market is stated. No delivery or shipping."
+}

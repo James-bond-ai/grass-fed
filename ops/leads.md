@@ -4,6 +4,15 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 
 ## AL
 - Acres Of Grace Cattle Company, north Alabama (acresofgracecattleco.com): grass fed, grain finished half and whole shares; town not stated and sold-out notice dated February 2026, 2026-11-05
+- Goose Pond Farm, Hartselle (raisedonpasture.com); Whitesell Farms, Cullman (whitesellfarms.com) and North Alabama Wagyu (northalabamawagyu.com): fetch blocked 2026-11-06
+- Five Sons Farm, Elkmont/Huntsville area (fivesonsfarm.net): grass-fed and grass-finished, but no products, way to buy or town yet 2026-11-06
+- Par5 Livestock (par5livestock.com), town unknown; Cottonwood Farm & Grocery, Florence (cottonwood-farm.com, may be a grocery): fetch blocked 2026-11-06
+- Unchecked north: Dennis Farms, Ranburne (dennis-farms.com); Farm 47, Henagar; Stegall Farms, Arab; Rapid River USDA Beef and Pork, Woodville (Huntsville Food Hub vendors, own sites not found); Southard Farms, Madison; Alleluia Acres Heritage Farm, Alabaster; Marble Creek Farmstead, Sylacauga (marblecreekfarmstead.com)
+- Bois d'Arc Farm (BDA Farm), Uniontown (bdafarm.com): grass-finished, but about page says it sells live cattle to local farms to finish; may not sell direct 2026-11-06
+- C-4 Cattle Co., Grand Bay (bombassbeef.com): fetch blocked; Krauss Beef, Baldwin County (kraussbeef.com), Wildberry Cattle Farm (wildberrycattlefarm.com), Laid Back Acres (laidbackacres.org): robots block fetching; Lillian Cattle Company, Lillian (lilliancattlecompany.com): site error 2026-11-06
+- 4M Cattle Farm (4mcattlefarm.com): no town or way to buy; 3D Cattle Co, Enterprise (3dcattleco.com): linked freezer beef site gives a Texas address and conflicting details 2026-11-06
+- Bama Beef sales directory (bamabeef.org): Cowpen Creek Farms, Robertsdale; J-M Cattle, Notasulga; Bigbee Beef, Gilbertown; Brushy Creek Cattle Co, Repton (fetch blocked 2026-11-06); CK Cattle, Hope Hull (ckcattle.com) and Wagyu of Alabama, Selma (wagyuofalabama.com) unchecked; Flying K Farm, Lapine, DHD Farms, Troy, Tim Tucker Farms, Uriah: no website
+- Drysdale Family Farms, Enterprise (chicken, eggs): Facebook only; Narrow Gap Farm, Brewton (narrowgapfarm.webs.com): unchecked
 
 ## CA
 - Llano Seco, Chico (llanoseco.com blocks fetching)
