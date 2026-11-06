@@ -3,6 +3,8 @@
 // questions (where, what, how) rank verified farms in the browser and show the
 // best matches beside the form, each with a direct link to order from the farm.
 // Farm data comes from /match.json (src/data/match.mjs), fetched on first use.
+// An optional ZIP or town (looked up in /geo/, see src/data/geo.mjs) fills in the
+// state and sorts nearby farms first, with a rough distance on each card.
 import { STATES } from '../data/states.mjs';
 import { BROWSE } from '../data/browse.mjs';
 import { fmtDate } from '../data/format.mjs';
@@ -31,11 +33,21 @@ const HOW = [
       <form class="matcher" action="/farms/" method="get" id="matcher" novalidate>
         <fieldset class="m-step">
           <legend><span class="m-num" aria-hidden="true">1</span>Where do you live?</legend>
-          <select id="m-state" name="state" required class="glass-field" aria-describedby="m-state-err">
-            <option value="">Choose your state</option>
-            {states.map((s) => <option value={s.slug} data-abbr={s.abbr}>{s.name}</option>)}
-          </select>
-          <p class="m-err" id="m-state-err" hidden>Choose your state to see farms that can reach you.</p>
+          <div class="m-where-row">
+            <label class="m-near">
+              <span class="visually-hidden">ZIP code or town, optional</span>
+              <input id="m-near" name="near" type="text" class="glass-field" placeholder="ZIP or town" autocomplete="postal-code" spellcheck="false" maxlength="60" aria-describedby="m-near-msg" />
+            </label>
+            <label class="m-state">
+              <span class="visually-hidden">State</span>
+              <select id="m-state" name="state" required class="glass-field" aria-describedby="m-state-err">
+                <option value="">Choose your state</option>
+                {states.map((s) => <option value={s.slug} data-abbr={s.abbr}>{s.name}</option>)}
+              </select>
+            </label>
+          </div>
+          <p class="m-near-msg" id="m-near-msg" aria-live="polite" hidden></p>
+          <p class="m-err" id="m-state-err" hidden>Choose your state, or enter your ZIP code, to see farms that can reach you.</p>
         </fieldset>
         <fieldset class="m-step">
           <legend><span class="m-num" aria-hidden="true">2</span>What do you want? <small>Pick any</small></legend>
@@ -79,7 +91,9 @@ const HOW = [
   type Farm = {
     s: string; n: string; c: string; st: string; sp: string[]; fl: string; fp: [string, boolean | null | string][];
     dy: number; ce: string; bk: number; pk: number; dl: number; nw: number; to: string[]; rg: number; o: string; w: string; av: string;
+    la: number | null; lo: number | null;
   };
+  type Near = { text: string; lat: number; lng: number; abbr: string; label: string; by: 'zip' | 'town' };
   const SPECIES: Record<string, string[]> = {
     beef: ['beef'], dairy: ['dairy-cow', 'dairy-goat', 'dairy-sheep'], lamb: ['lamb', 'goat'],
     bison: ['bison'], pork: ['pork'], poultry: ['poultry', 'eggs'],
@@ -87,6 +101,10 @@ const HOW = [
   const FEED_SCORE: Record<string, number> = { gff: 20, both: 14, gf: 10, partial: 4, pastured: 4 };
   const SHOW = 4;
   const KEY = 'gf-matcher';
+  // Farms with pickup or local delivery this close count as reachable even across a state line.
+  const NEAR_MI = 60;
+  // Beyond this distance a farm gets no nearness bonus.
+  const FAR_MI = 250;
 
   const form = document.getElementById('matcher') as HTMLFormElement | null;
   const panel = document.getElementById('matches');
@@ -104,6 +122,75 @@ const HOW = [
     let loading: Promise<Farm[]> | null = null;
     let logTimer: number | undefined;
     let lastCount = 0;
+    const nearInput = form.querySelector<HTMLInputElement>('#m-near')!;
+    const nearMsg = document.getElementById('m-near-msg')!;
+    let near: Near | null = null;
+    let nearTried = '';
+    const geoCache: Record<string, Promise<any>> = {};
+    const geo = (file: string) => (geoCache[file] ??= fetch(`/geo/${file}.json`)
+      .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.json(); })
+      .catch((e) => { delete geoCache[file]; throw e; }));
+    const optByAbbr = (abbr: string) => [...select.options].find((o) => o.dataset.abbr === abbr);
+    const stateFromText = (t: string) => {
+      const k = t.trim().toLowerCase().replace(/\./g, '');
+      return [...select.options].find((o) => o.dataset.abbr && (o.dataset.abbr.toLowerCase() === k || o.textContent!.trim().toLowerCase() === k))?.dataset.abbr ?? '';
+    };
+    // Same rules as cityKey in src/data/geo.mjs.
+    const cityKey = (t: string) => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/\bsaint\b/g, 'st').replace(/\bst\.?\s/g, 'st ').replace(/\bmount\b/g, 'mt').replace(/\bmt\.?\s/g, 'mt ')
+      .replace(/\bfort\b/g, 'ft').replace(/\bft\.?\s/g, 'ft ')
+      .replace(/[^a-z0-9]+/g, ' ').trim();
+    const say = (msg: string) => { nearMsg.textContent = msg; nearMsg.hidden = !msg; };
+    const miles = (f: Farm) => {
+      if (!near || f.la == null || f.lo == null) return null;
+      const r = Math.PI / 180;
+      const a = Math.sin(((f.la - near.lat) * r) / 2) ** 2 + Math.cos(near.lat * r) * Math.cos(f.la * r) * Math.sin(((f.lo - near.lng) * r) / 2) ** 2;
+      return 7918 * Math.asin(Math.sqrt(a));
+    };
+    const fmtMiles = (mi: number) => (mi < 10 ? 'under 10 miles away' : `about ${Math.round(mi / 5) * 5} miles away`);
+
+    // Turn the ZIP or town box into a location, and pick its state. Quietly does
+    // nothing when the box is empty or unchanged; says why when it can't find a place.
+    const resolveNear = async () => {
+      const text = nearInput.value.trim().replace(/\s+/g, ' ');
+      if (text === nearTried) return;
+      nearTried = text;
+      near = null;
+      say('');
+      if (!text) return;
+      try {
+        const zip = text.match(/^(\d{5})(?:-\d{4})?$/)?.[1];
+        if (zip) {
+          const z = (await geo(`zip/${zip[0]}`))[zip];
+          if (!z || !optByAbbr(z[2])) { say(`We couldn't find ZIP ${zip}. Check it, or choose your state.`); return; }
+          near = { text, lat: z[0], lng: z[1], abbr: z[2], label: zip, by: 'zip' };
+        } else if (/^\d+$/.test(text)) {
+          say('Enter a five-digit ZIP code, or a town and state.'); return;
+        } else {
+          let town = text, abbr = '';
+          const parts = text.split(',');
+          if (parts.length > 1) { abbr = stateFromText(parts.pop()!); town = parts.join(','); }
+          if (!abbr) {
+            const m = text.match(/^(.*\S)\s+([A-Za-z]{2})$/);
+            if (m && stateFromText(m[2])) { town = m[1]; abbr = stateFromText(m[2]); }
+          }
+          if (!abbr) abbr = select.selectedOptions[0]?.dataset.abbr ?? '';
+          if (!abbr) { say('Add your state, like "Bozeman, MT", or choose it below.'); nearTried = ''; return; }
+          const rows: [string, number, number][] = await geo(`city/${abbr}`);
+          const key = cityKey(town);
+          const hit = rows.find((r) => cityKey(r[0]) === key);
+          const name = optByAbbr(abbr)!.textContent!.trim();
+          if (!hit) { say(`We couldn't find ${town.trim()} in ${name}. Try your ZIP code.`); return; }
+          near = { text, lat: hit[1], lng: hit[2], abbr, label: `${hit[0]}, ${abbr}`, by: 'town' };
+        }
+        const opt = optByAbbr(near.abbr)!;
+        select.value = opt.value;
+        say(`Sorting farms by distance from ${near.label}.`);
+      } catch {
+        nearTried = '';
+        say("We couldn't look that up just now. Choose your state instead.");
+      }
+    };
 
     const load = () => (loading ??= fetch('/match.json')
       .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.json(); })
@@ -121,25 +208,36 @@ const HOW = [
         want: f.getAll('want') as string[],
         how: (f.get('how') as string) || 'any',
         gff: f.get('gff') === '1',
+        near: near && near.abbr === (opt?.dataset.abbr ?? '') ? near : null,
       };
     };
     type Q = ReturnType<typeof read>;
 
     // Can a shopper in q.abbr get food from this farm the way they asked?
+    // With a ZIP or town, a farm just over a state line with pickup or delivery counts too.
     const fits = (f: Farm, q: Q) => {
       const home = f.st === q.abbr;
       const shipsHere = f.nw === 1 || f.to.includes(q.abbr);
+      const mi = q.near ? miles(f) : null;
+      const close = home || (mi != null && mi <= NEAR_MI);
+      const nearby = !home && mi != null && mi <= NEAR_MI && (f.pk || f.dl);
       if (q.how === 'ship' && !(shipsHere || (home && (f.dl || f.rg)))) return false;
-      if (q.how === 'local' && !(home && (f.pk || f.dl))) return false;
-      if (q.how === 'bulk' && !(f.bk && (home || shipsHere))) return false;
-      if (q.how === 'any' && !(home || shipsHere)) return false;
+      if (q.how === 'local' && !(close && (f.pk || f.dl))) return false;
+      if (q.how === 'bulk' && !(f.bk && (home || shipsHere || nearby))) return false;
+      if (q.how === 'any' && !(home || shipsHere || nearby)) return false;
       if (q.want.length && !q.want.some((w) => f.sp.some((s) => SPECIES[w]?.includes(s)))) return false;
       if (q.gff && !(['gff', 'both'].includes(f.fl) || (f.dy && f.fl === 'gf'))) return false;
       return true;
     };
     const score = (f: Farm, q: Q) => {
       let s = 0;
-      if (f.st === q.abbr) s += q.how === 'local' || q.how === 'bulk' ? 40 : 25;
+      // Someone who gave a ZIP or town cares about nearness, so it weighs as much as for pickup.
+      const homeBonus = q.how === 'local' || q.how === 'bulk' || (q.near && q.how !== 'ship') ? 40 : 25;
+      const mi = q.near && q.how !== 'ship' ? miles(f) : null;
+      // With a location, nearness replaces the same-state bonus: close farms first, far in-state farms lose it.
+      // A farm with no known location keeps half the same-state bonus.
+      if (mi != null) s += homeBonus * Math.max(0, 1 - mi / FAR_MI);
+      else if (f.st === q.abbr) s += q.near && q.how !== 'ship' ? homeBonus / 2 : homeBonus;
       s += FEED_SCORE[f.fl] ?? 0;
       if (f.ce) s += 8;
       if (q.want.length) s += 3 * q.want.filter((w) => f.sp.some((x) => SPECIES[w]?.includes(x))).length;
@@ -150,9 +248,11 @@ const HOW = [
     const reasons = (f: Farm, q: Q) => {
       const out: string[] = [];
       const home = f.st === q.abbr;
+      const shipsHere = f.nw === 1 || f.to.includes(q.abbr);
       if (home) out.push(`Based in ${q.name}`);
+      else if (!shipsHere || q.how === 'local') out.push('Close to you');
       else out.push(f.nw ? 'Ships nationwide' : `Ships to ${q.name}`);
-      if (q.how === 'local' || (q.how === 'any' && home)) {
+      if (q.how === 'local' || ((q.how === 'any' || q.how === 'bulk') && !home && !shipsHere) || (q.how === 'any' && home)) {
         if (f.pk) out.push('Farm pickup');
         if (f.dl) out.push('Local delivery');
       }
@@ -170,7 +270,10 @@ const HOW = [
       return `<div class="feed feed-sm"><span class="feed-pill lvl-${esc(f.fl)}">${f.fp.map(part).join('')}</span></div>`;
     };
     const card = (f: Farm, q: Q, i: number) => {
-      const where = f.st === q.abbr ? `${f.c}, ${f.st}` : `Ships from ${f.c}, ${f.st}`;
+      const shipsHere = f.nw === 1 || f.to.includes(q.abbr);
+      const mi = q.near ? miles(f) : null;
+      const base = f.st === q.abbr || !shipsHere || q.how === 'local' ? `${f.c}, ${f.st}` : `Ships from ${f.c}, ${f.st}`;
+      const where = mi != null && mi <= FAR_MI ? `${base}, ${fmtMiles(mi)}` : base;
       const href = f.o || f.w;
       return `<li class="m-card">
         <a class="m-name" href="/farm/${esc(f.s)}/" data-rank="${i + 1}">${esc(f.n)}</a>
@@ -191,6 +294,7 @@ const HOW = [
       if (q.want.length) p.set('want', q.want.join(','));
       if (q.how !== 'any') p.set('how', q.how);
       if (q.gff) p.set('gff', '1');
+      if (q.near) p.set('near', q.near.text);
       const qs = p.toString();
       history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
       try { localStorage.setItem(KEY, qs); } catch {}
@@ -207,11 +311,13 @@ const HOW = [
       const how = p.get('how') ?? 'any';
       form.querySelectorAll<HTMLInputElement>('input[name="how"]').forEach((i) => (i.checked = i.value === how));
       (form.elements.namedItem('gff') as HTMLInputElement).checked = p.get('gff') === '1';
+      nearInput.value = (p.get('near') ?? '').slice(0, 60);
       return true;
     };
 
     // Returns false if the farm data could not be loaded.
     const render = async (log = true) => {
+      await resolveNear();
       const q = read();
       dairyNote.hidden = !q.want.includes('dairy');
       if (!q.slug) {
@@ -233,24 +339,34 @@ const HOW = [
       document.body.classList.add('has-matches');
       list.innerHTML = ranked.slice(0, SHOW).map((x, i) => card(x.f, q, i)).join('');
       empty.hidden = n > 0;
+      const place = q.near ? `near ${q.near.label}` : `for ${q.name}`;
       count.textContent = n === 0
-        ? `No matches for ${q.name} yet.`
-        : `${n} ${n === 1 ? 'farm matches' : 'farms match'} for ${q.name}.${n > SHOW ? ` The best ${SHOW} are first.` : ''}`;
+        ? `No matches ${place} yet.`
+        : `${n} ${n === 1 ? 'farm matches' : 'farms match'} ${place}.${n > SHOW ? ` The best ${SHOW} are first.` : ''}`;
       all.href = `/farms/${q.slug}/`;
       all.textContent = `See every farm for ${q.name}`;
       go.textContent = n ? `Show my ${n} ${n === 1 ? 'match' : 'matches'}` : 'Find my farms';
       save(q);
       clearTimeout(logTimer);
-      if (log) logTimer = window.setTimeout(() => gtag('event', 'farm_match', { state: q.abbr, want: q.want.join(',') || 'any', how: q.how, grass_finished: q.gff, results: n }), 1500);
+      if (log) logTimer = window.setTimeout(() => gtag('event', 'farm_match', { state: q.abbr, want: q.want.join(',') || 'any', how: q.how, grass_finished: q.gff, near: q.near?.by ?? 'none', results: n }), 1500);
       return true;
     };
 
-    form.addEventListener('change', () => { render(); });
+    form.addEventListener('change', (e) => {
+      // Picking a different state by hand drops a ZIP or town from another state.
+      if (e.target === select && near && near.abbr !== (select.selectedOptions[0]?.dataset.abbr ?? '')) {
+        nearInput.value = ''; nearTried = ''; near = null; say('');
+      }
+      // A town that wasn't found may be in the newly chosen state, so look again.
+      else if (e.target === select && !near) nearTried = '';
+      render();
+    });
     const warm = () => { load().catch(() => {}); };
     form.addEventListener('pointerdown', warm, { once: true });
     form.addEventListener('focusin', warm, { once: true });
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
+      await resolveNear();
       if (!select.value) {
         err.hidden = false;
         select.setAttribute('aria-invalid', 'true');
@@ -262,7 +378,7 @@ const HOW = [
       const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
       panel.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
       panel.focus({ preventScroll: true });
-      gtag('event', 'farm_match_submit', { state: read().abbr, results: lastCount });
+      gtag('event', 'farm_match_submit', { state: read().abbr, near: near?.by ?? 'none', results: lastCount });
     });
     panel.addEventListener('click', (e) => {
       const t = e.target as HTMLElement;
@@ -287,6 +403,13 @@ const HOW = [
   .m-step legend small { font-weight: 400; color: var(--ink-soft); font-size: 0.85rem; }
   .m-num { display: inline-grid; place-items: center; width: 1.55rem; height: 1.55rem; border-radius: 50%; background: var(--pasture); color: #fff; font: 700 0.85rem var(--body); flex: none; }
   .m-step select { width: 100%; }
+  .m-where-row { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 0.5rem; }
+  .m-where-row label { display: block; min-width: 0; }
+  .m-near input { width: 100%; min-height: 44px; padding: 0.5rem 0.85rem; font: inherit; color: var(--ink); }
+  .m-near input::placeholder { color: var(--ink-soft); opacity: 1; }
+  .m-near input:focus-visible { outline: 3px solid var(--hay); outline-offset: 2px; }
+  .m-near-msg { margin: 0.4rem 0 0; color: var(--pasture-deep); font-size: 0.9rem; }
+  @media (max-width: 420px) { .m-where-row { grid-template-columns: minmax(0, 1fr); } }
   .m-err { margin: 0.4rem 0 0; color: var(--alert); font-size: 0.9rem; font-weight: 500; }
   .chips { display: flex; flex-wrap: wrap; gap: 0.45rem; }
   .chip { position: relative; display: inline-flex; align-items: center; gap: 0.4rem; min-height: 40px; padding: 0.35rem 0.9rem; border-radius: 999px; background: rgba(255,255,255,0.82); border: 1px solid rgba(31,64,41,0.18); color: var(--ink); font-weight: 500; font-size: 0.95rem; cursor: pointer; user-select: none; transition: background-color 140ms ease, border-color 140ms ease, color 140ms ease; }

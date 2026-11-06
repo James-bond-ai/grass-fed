@@ -13,6 +13,7 @@ import { parse as parseYaml } from 'yaml';
 import { AFFILIATES_ENABLED } from '../src/data/site.mjs';
 import { STATES, STATE_BY_ABBR, SPECIES, FEEDING, CHANNELS, CERTIFICATIONS, DAIRY_PRODUCTS } from '../src/data/states.mjs';
 import { RAW_MILK, RAW_MILK_SOURCES, RAW_MILK_CHECKED } from '../src/data/raw-milk.mjs';
+import { GEO_DIR, farmCoords } from '../src/data/geo.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const args = process.argv.slice(2);
@@ -243,6 +244,13 @@ if (explicit.length || explicitJson.length) {
   }
   mdFiles('src/content/articles').forEach(checkArticle);
   if (args.includes('--drafts')) mdFiles('src/content/drafts').forEach(checkArticle);
+
+  // ZIP and town lookup tables for the home page ZIP or town search (Builder's files).
+  for (const d of '0123456789') if (!fs.existsSync(path.join(GEO_DIR, 'zip', `${d}.json`))) err(path.join(GEO_DIR, 'zip'), `missing ${d}.json`);
+  for (const s of STATES) if (!fs.existsSync(path.join(GEO_DIR, 'city', `${s.abbr}.json`))) err(path.join(GEO_DIR, 'city'), `missing ${s.abbr}.json`);
+  for (const { file, f } of farms) {
+    if (f.listing_status === 'published' && !farmCoords(f)) warn(file, `no location for distance sorting: "${f.city}" is not a known ${f.state} town and there is no zip; add the farm's ZIP if its site gives one`);
+  }
 
   // Raw milk status data (Builder's file) must cover every state, cite known sources,
   // and match the published guide's table word for word.

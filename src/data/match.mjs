@@ -2,6 +2,7 @@
 // time and served as /match.json, so the matcher runs in the browser with no server.
 import { loadPublishedFarms } from './farms.mjs';
 import { reach, feedingLabel, CERTIFICATIONS } from './states.mjs';
+import { farmCoords } from './geo.mjs';
 
 const PICKUP = ['on-farm-store', 'farm-pickup', 'farmers-market', 'csa'];
 
@@ -12,6 +13,7 @@ export function matchRecords(farms = loadPublishedFarms()) {
     const l = feedingLabel(f);
     // Organic pasture is a weaker label (the animals are not certified), so it doesn't count here.
     const cert = (f.certifications ?? []).find((c) => CERTIFICATIONS[c.program] && c.program !== 'usda-organic-pasture');
+    const g = farmCoords(f);
     const dairyOnly = (f.species ?? []).length > 0 && (f.species ?? []).every((s) => s.startsWith('dairy-'));
     return {
       s: f.slug,
@@ -32,6 +34,9 @@ export function matchRecords(farms = loadPublishedFarms()) {
       rg: !r.nationwide && r.shipsTo.size === 0 && ch.includes('ships-regional') ? 1 : 0,
       o: f.ordering_url || '',
       w: f.website,
+      // Approximate location (ZIP or town centre) for "about N miles away"; null if unknown.
+      la: g ? g.lat : null,
+      lo: g ? g.lng : null,
       av: f.availability && f.availability.status !== 'available' ? f.availability.note ?? '' : '',
     };
   });
