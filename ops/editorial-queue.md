@@ -15,7 +15,7 @@ Statuses: queued, drafting, in-review, returned, published.
 | 7 | quarter-vs-half-vs-whole-cow | Quarter vs half vs whole cow: which share size fits your household | guide | published | |
 | 8 | is-grass-fed-beef-worth-it | Is grass-fed beef worth the price? | guide | published | Include omega-3 numbers WITH absolute amounts and context. |
 | 9 | butcherbox-grass-fed-review | ButcherBox grass-fed beef: what you get and what it costs | review | in-review | Only the 100% grass-fed line is in scope. |
-| 10 | crowd-cow-grass-fed | Crowd Cow's grass-fed range: sourcing and prices | review | queued | |
+| 10 | crowd-cow-grass-fed | Crowd Cow's grass-fed range: sourcing and prices | review | in-review | |
 | 11 | butcherbox-vs-crowd-cow | ButcherBox vs Crowd Cow for grass-fed beef | compare | queued | |
 | 12 | us-wellness-meats-profile | US Wellness Meats: grass-finished beef and dairy by mail | review | queued | |
 | 13 | white-oak-pastures-profile | White Oak Pastures: what they sell and how they raise it | review | queued | |
