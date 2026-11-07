@@ -1,0 +1,46 @@
+{
+  "id": "diamond-11-cattle-company",
+  "slug": "diamond-11-cattle-company",
+  "farm_name": "Diamond 11 Cattle Company",
+  "city": "Willcox",
+  "state": "AZ",
+  "zip": "",
+  "address_public": false,
+  "website": "https://diamond11cattlecompany.com",
+  "phone": "520-405-9461",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole beef",
+    "half beef",
+    "quarter beef",
+    "beef tallow"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Unless otherwise requested, our beef are finished on our farm fro 90-120 days of a free feeding corn and grass mixture.",
+    "source_url": "https://diamond11cattlecompany.com/faq"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Southern Arizona"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://diamond11cattlecompany.com/faq"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://diamond11cattlecompany.com/",
+  "notes": "Fifth-generation ranching family in the Sulphur Springs Valley who also do custom processing; site says they handle ranching, farming and processing within the family. Default finish is 90 to 120 days on a corn and grass mix; the homepage meta text says grass or grain finished, and the FAQ says unless otherwise requested, so a grass-finished option may exist but is not described; category kept cautious. Whole $7.25, half $7.50, quarter $7.75 per lb including processing, $150 deposit. Owner delivers in their own vehicle, $75 standard fee varying by distance; site mentions serving all of Southern Arizona but names no towns. No shipping or pickup stated. Tallow sold through an outside store (raise-wellness.com)."
+}

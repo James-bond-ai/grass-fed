@@ -1,0 +1,35 @@
+{
+  "id": "blood-sweat-and-food-farms",
+  "slug": "blood-sweat-and-food-farms",
+  "farm_name": "Blood Sweat & Food Farms",
+  "city": "Homer",
+  "state": "AK",
+  "zip": "99603",
+  "address_public": false,
+  "website": "https://www.bloodsweatfood.com/",
+  "phone": "907-435-0551",
+  "social_urls": ["https://www.instagram.com/bloodsweatfood/", "https://www.facebook.com/bloodsweatfood"],
+  "species": ["pork", "poultry"],
+  "products": ["pork", "poultry"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Pasture raised, so it’s good for you and good for the environment",
+    "source_url": "https://www.bloodsweatfood.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.bloodsweatfood.com/contact-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://blood-sweat-food-farms-llc.localline.ca",
+  "data_source": "web-search",
+  "source_url": "https://www.bloodsweatfood.com/",
+  "notes": "Homepage names pork and poultry; about page describes pasture rotation with pigs, chickens, ducks, geese and sheep, but the site does not say lamb, duck or goose meat is sold, so those are left out (Alaska Grown lists lamb, turkey and goose). Sales are through a Local Line online store that could not be opened, so products, prices, pickup and delivery options are unconfirmed. A homepage testimonial mentions buying half a pig, but no half or whole shares are offered on the pages read, so bulk_shares left false. Work With Us page says interns help with regular deliveries and farmers markets, but no market or delivery area is named. Address published is a PO Box (99603); no street address. Site says nothing about grain or feed."
+}

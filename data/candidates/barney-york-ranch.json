@@ -1,0 +1,49 @@
+{
+  "id": "barney-york-ranch",
+  "slug": "barney-york-ranch",
+  "farm_name": "Barney York Ranch",
+  "city": "Prescott",
+  "state": "AZ",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.barneyyork.com",
+  "phone": "928-713-1188",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "half beef",
+    "whole beef"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "Barney York provides premium grass-fed and grass/grain-fed beef.",
+    "source_url": "https://www.barneyyork.com/our-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Prescott area"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.barneyyork.com/our-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.barneyyork.com/our-beef",
+  "availability": {
+    "status": "sold-out",
+    "note": "Site says sold out for 2026.",
+    "checked_on": "2026-11-07"
+  },
+  "notes": "Black Angus. Two options: grass-fed cattle fed only ranch grass, and grass/grain-fed cattle supplemented with grain for 90 to 120 days (another line on the same page says 90 days). Only half or whole beef, $7.50 per lb hanging weight, processed at Arizona Mobile Meat in Williams. Orders by phone, text or email to Kelsey; delivery to Prescott area customers only. No shipping or pickup stated. No street address published (contact page has placeholder text)."
+}

@@ -14,6 +14,20 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Bama Beef sales directory (bamabeef.org): Cowpen Creek Farms, Robertsdale; J-M Cattle, Notasulga; Bigbee Beef, Gilbertown; Brushy Creek Cattle Co, Repton (fetch blocked 2026-11-06); CK Cattle, Hope Hull (ckcattle.com) and Wagyu of Alabama, Selma (wagyuofalabama.com) unchecked; Flying K Farm, Lapine, DHD Farms, Troy, Tim Tucker Farms, Uriah: no website
 - Drysdale Family Farms, Enterprise (chicken, eggs): Facebook only; Narrow Gap Farm, Brewton (narrowgapfarm.webs.com): unchecked
 
+## AK
+- Funny River Farmstead LLC, Soldotna; Northern Lights Livestock, Delta Junction; Van Wyhe Family Farm, Copper Center; Hungate Farms LLC, Wasilla; Alaska Farm Fresh, Kasilof; Birch-Top Hill Ranch, Gakona; Crop Circle Farm, Willow: Alaska Grown or other listings only, no own website found 2026-11-07
+- 907 Livestock, Fairbanks; Cottonwood Creek Farm, Wasilla (raw goat milk herdshare); Conscious Earth Farm, Anchor Point; Alaska Range Dairy LLC, Delta Junction: Facebook only, no website to verify 2026-11-07
+- Fetch blocked: Tower Ranch Alaska, Palmer (towerranchalaska.com); Chugach Farm, Chickaloon (chugachfarm.com); Blankenship Farms, Wasilla (blankenshipfarm.com); Northern Roots Farm, Delta Junction (northernrootsfarm.com); White Fireweed Farm, Fairbanks (whitefireweedfarm.com, eggs); Alaska Yaks at Circle F Farms (alaskayaks.com, only eggs would qualify) 2026-11-07
+- Fetch blocked, may be defunct (2016 sourcebook names): Karluk Acres, Kenai (karlukacres.com); A.D. Farm, Palmer (adfarmorganic.com); Funny Farm Feed Folks, Fairbanks (funnyfarmfeedfolks.com) 2026-11-07
+- Wolverine Farm LLC, Palmer (wolverinefarm.blogspot.com, beef and hay): not fetched 2026-11-07
+
+## AZ
+- JH Grass Fed, Cave Creek (jhgrassfed.com): homepage and product page failed; FAQ says own herd 100% grass-fed and grass-finished beef, lamb and poultry bought from partner farms; needs full check 2026-11-07
+- Arizona Grass Raised Beef Co, Prescott Valley (azgrassraisedbeef.com): works with partner ranchers as well as own operations; unclear if it raises what it sells 2026-11-07
+- Lazy L Beef Co, Chino Valley (lazylbeef.com): no way to buy found on homepage, other pages unchecked 2026-11-07
+- Diablo Beef (Bar T Bar Ranch), Flagstaff (diablobeefaz.com): no way to buy on homepage, other pages unchecked 2026-11-07
+- Lilly Valley Farm (lillyvalleyfarm.com), Top Knot Farms (topknotfarms.com), Cruz Farm (cruzfarm.org, eggs): towns unknown, not visited 2026-11-07
+
 ## CA
 - Llano Seco, Chico (llanoseco.com blocks fetching)
 - California Beef Council directory, grass-fed ranches not yet checked: Arbuckle Cattle Co., Mokelumne Hill; Family Friendly Farms, Grass Valley; Full Circle Ranches, Petaluma; Koopmann Family Beef, Sunol; Marin Coast Ranch, Tomales; McLane Family Farms, Yreka; Muelrath Ranch, Penngrove; Summerfield Cattle Company, Vacaville; Tara Firma Farms, Petaluma; Yolo Land and Cattle, Woodland; Hornitos Beef; Springville Beef; Avenales Ranch, Santa Margarita; Twisselman Ranch; Sloan Ranch Beef, Santa Paula; Reed Valley Ranch, Hemet; Diamond B Ranch, Santa Ysabel

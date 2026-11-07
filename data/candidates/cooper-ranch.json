@@ -1,0 +1,60 @@
+{
+  "id": "cooper-ranch",
+  "slug": "cooper-ranch",
+  "farm_name": "Cooper Ranch",
+  "city": "Kirkland",
+  "state": "AZ",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.cooperranchlife.com",
+  "phone": "(888) 611-9199",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "roasts",
+    "ribs",
+    "brisket",
+    "beef packages",
+    "bones",
+    "tallow",
+    "organ meat"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We guarantee our beef is real 100% grass-fed and finished beef.",
+    "source_url": "https://www.cooperranchlife.com/why-grass-fed"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Phoenix",
+      "Prescott",
+      "Wickenburg",
+      "Scottsdale",
+      "Glendale",
+      "Surprise and surrounding areas"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Weekly or bi-weekly in-town pickup locations for orders under $200"
+    ],
+    "source_url": "https://www.cooperranchlife.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.cooperranchlife.com/category/all-products",
+  "data_source": "web-search",
+  "source_url": "https://www.cooperranchlife.com/",
+  "notes": "Site calls it Cooper Ranch Grass Fed Beef, domain cooperranchlife.com; ranch is in Kirkland near Prescott, no street address published. Free local delivery on orders over $200; product listings show a $25 delivery fee; ranch pickup on certain days. Site says beef is available locally only, no shipping. Sells quarter, half and whole beef plus Akaushi American Wagyu (several Akaushi packages labeled grass fed and out of stock on 2026-11-07). One whole Wagyu item is named Landon Harris; the site does not say whether those cattle are raised on the ranch. Second phone (928) 899-8647 also listed."
+}
