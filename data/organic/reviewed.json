@@ -162,6 +162,12 @@
    "date": "2026-10-26",
    "snapshot": "2026-10-01"
   },
+  "heartquist-hollow-farm": {
+   "decision": "no",
+   "date": "2026-11-08",
+   "snapshot": "2026-10-01",
+   "usda_record": "5561009482"
+  },
   "hickory-nut-gap": {
    "decision": "no",
    "date": "2026-10-26",
@@ -231,6 +237,11 @@
   "montana-brooks-beef": {
    "decision": "no",
    "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "montana-longhorn-company": {
+   "decision": "no",
+   "date": "2026-11-08",
    "snapshot": "2026-10-01"
   },
   "montana-ranchers-beef-company": {
@@ -335,16 +346,16 @@
    "date": "2026-10-26",
    "snapshot": "2026-10-01"
   },
-  "sweet-grass-dairy-ga": {
-   "decision": "no",
-   "date": "2026-10-26",
-   "snapshot": "2026-10-01"
-  },
   "sweet-grass-dairy": {
    "decision": "no",
    "date": "2026-10-26",
    "snapshot": "2026-10-01",
    "usda_record": "1600003001"
+  },
+  "sweet-grass-dairy-ga": {
+   "decision": "no",
+   "date": "2026-10-26",
+   "snapshot": "2026-10-01"
   },
   "tennessee-grass-fed": {
    "decision": "no",

@@ -1,0 +1,66 @@
+{
+  "id": "the-bur-ger-farm",
+  "slug": "the-bur-ger-farm",
+  "farm_name": "The Bur-Ger Farm",
+  "city": "Benson",
+  "state": "VT",
+  "zip": "",
+  "address_public": true,
+  "address": "1077 Stage Rd, Benson, VT",
+  "website": "https://www.burgerfarmvt.com",
+  "phone": "802-779-8619",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "poultry"
+  ],
+  "products": [
+    "beef",
+    "pork",
+    "lamb",
+    "chicken",
+    "sausage",
+    "box specials"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "premium, grass-fed beef (start to finish)",
+    "source_url": "https://www.burgerfarmvt.com/about.html"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "local-delivery",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Rutland Farmers Market",
+    "Bristol Farmers Market",
+    "Shelburne Farmers Market"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Rutland, VT area",
+      "Middlebury, VT area"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Otter Creek Fun Park, Danby, VT",
+      "Smokey House Center Farmstand, Danby, VT"
+    ],
+    "source_url": "https://www.burgerfarmvt.com/menu.html"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.burgerfarmvt.com/",
+  "notes": "On-farm sales Tuesday to Friday 10am to 5pm, call ahead. Delivery to the Rutland and Middlebury areas with a $100 minimum and 48 hours notice; site gives conflicting delivery days. Half or whole beef sold by the pound. Monthly winter delivery available for the Shelburne Farmers Market. Says it sells to New England areas but names no shipping.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

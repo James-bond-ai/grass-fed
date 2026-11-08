@@ -1,0 +1,52 @@
+{
+  "id": "montana-longhorn-company",
+  "slug": "montana-longhorn-company",
+  "farm_name": "Montana Longhorn Company",
+  "city": "Whitefish",
+  "state": "MT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://montanalonghorn.com/",
+  "phone": "406-672-4509",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "Longhorn ground beef package",
+    "Longhorn steak package",
+    "beef pepper sticks"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We are committed to strictly grass fed and finished diets without fillers or genetically modified shortcuts.",
+    "source_url": "https://montanalonghorn.com/pages/about-us"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://montanalonghorn.com/pages/about-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://montanalonghorn.com/collections/premium-longhorn-beef-packages",
+  "data_source": "web-search",
+  "source_url": "https://abundantmontana.com/amt-lister/montana-longhorn-company/",
+  "availability": {
+    "status": "sold-out",
+    "note": "All three beef packages shown as sold out.",
+    "checked_on": "2026-11-08"
+  },
+  "notes": "Quarter, half or whole cow by email. Home delivery offered, no area stated. Ranch town not stated on pages read; site keywords list Whitefish, Bigfork, Columbia Falls and Kalispell.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

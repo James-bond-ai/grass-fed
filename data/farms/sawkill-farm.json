@@ -1,0 +1,49 @@
+{
+  "id": "sawkill-farm",
+  "slug": "sawkill-farm",
+  "farm_name": "Sawkill Farm",
+  "city": "Red Hook",
+  "state": "NY",
+  "zip": "12571",
+  "address_public": true,
+  "address": "7782 Albany Post Rd, Red Hook, NY 12571",
+  "website": "https://sawkillfarm.com",
+  "phone": "845-594-5927",
+  "social_urls": [],
+  "species": [
+    "lamb"
+  ],
+  "products": [
+    "lamb half and full shares",
+    "ground lamb",
+    "merguez",
+    "lamb chops",
+    "bone broth"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Started in 2010, we began as a livestock farm raising 100% grass-fed and pasture raised meats for our customers in NYC and the Hudson Valley.",
+    "source_url": "https://sawkillfarm.com/pages/about-1"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://sawkillfarm.com/pages/grass-fed-lamb"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://sawkillfarm.com/pages/grass-fed-lamb",
+  "data_source": "web-search",
+  "source_url": "https://hudsonvalleybounty.com/businesses/sawkill-farm",
+  "notes": "Lamb boxes (half and full lamb shares) are ordered by email for pickup on the farm. Farm store page says the store is currently closed, by appointment. Steers are mentioned (hides, tallow) but no beef is offered for sale, so beef left out. Also sells yarn, pelts, soap and leather. Category cautious grass-fed: 100% grass-fed, finishing unstated.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

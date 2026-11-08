@@ -1,0 +1,49 @@
+{
+  "id": "lowland-farm",
+  "slug": "lowland-farm",
+  "farm_name": "Lowland Farm",
+  "city": "Warwick",
+  "state": "NY",
+  "zip": "",
+  "address_public": false,
+  "website": "https://lowlandfarm.com/",
+  "phone": "845-481-3459",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "beef cuts",
+    "lamb"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Lowland Farm cows graze pastures and eat hay exclusively, the food that best suits their ruminant stomachs.",
+    "source_url": "https://lowlandfarm.com/grass-fed-beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Valley Farmers Cooperative Market, 438 Route 94, Vernon, NJ (Saturday and Sunday 10 AM to 4 PM)"
+    ],
+    "source_url": "https://lowlandfarm.com/where-to-buy/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://lowlandfarm.com/order-on-line/",
+  "data_source": "web-search",
+  "source_url": "https://www.hudsonvalleysojourner.com/country-delights/farms-orchards/meat-farms/free-range-grass-fed-beef/lowland-farm/",
+  "notes": "Unpublished 2026-11-08: Site activity is doubtful: latest dated content is 2021 (beef page modified July 10, 2021, footer copyright 2015 to 2021, blog ends 2015, farm store post December 2019). Check that the farm still sells beef and lamb, that the Valley Farmers Cooperative Market store in Vernon, NJ is open, and that online ordering works. Online orders are picked up at that store. Order page and footer mention pastured pork, but no page says the farm raises pigs, so pork left out. No shipping stated.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

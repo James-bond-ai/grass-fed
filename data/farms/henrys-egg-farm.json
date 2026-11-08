@@ -1,0 +1,53 @@
+{
+  "id": "henrys-egg-farm",
+  "slug": "henrys-egg-farm",
+  "farm_name": "Henry's Egg Farm",
+  "city": "Morristown",
+  "state": "AZ",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.henryseggfarm.com",
+  "phone": "480-781-8040",
+  "social_urls": [],
+  "species": [
+    "eggs"
+  ],
+  "products": [
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "where they forage naturally and thrive in a pasture-raised environment.",
+    "source_url": "https://www.henryseggfarm.com/about"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "local-delivery",
+    "online-order",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Uptown Farmers Market (Saturdays)",
+    "Old Town Scottsdale Farmers Market, Scottsdale (Saturdays)",
+    "Gilbert Farmers Market, Gilbert (Saturdays)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Phoenix metroplex"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.henryseggfarm.com/shop/p/egg-club-weekly-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.henryseggfarm.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.henryseggfarm.com/",
+  "notes": "About 2,000 hens on roughly 20 acres near the Hassayampa River Preserve; hens raised from day-old chicks on a corn- and soy-free diet. Egg Club subscription delivers weekly on Saturdays in the Phoenix metroplex ($9 per dozen), first delivery November 7, 2026; market pre-order pickup $12 per dozen, 4-dozen minimum. Sold in retail stores in Phoenix, Scottsdale, Tucson, Chandler, Gilbert, Tempe, Mesa and Sedona and through delivery services Farm Box AZ, On the Road Meals and Sun Produce Co-op. No shipping. Meta text mentions dairy but no dairy products are for sale, so none listed. No street address published.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

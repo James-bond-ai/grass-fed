@@ -1,0 +1,77 @@
+{
+  "id": "chamburn-farm",
+  "slug": "chamburn-farm",
+  "farm_name": "ChamBurn Farm",
+  "city": "Oregon City",
+  "state": "OR",
+  "zip": "97045",
+  "address_public": true,
+  "website": "https://chamburnfarm.com/",
+  "phone": "(503) 956-9778",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef retail cuts",
+    "lamb",
+    "pork",
+    "chicken",
+    "rabbit",
+    "turkey",
+    "duck",
+    "eggs",
+    "subscriptions and bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "raised on open pastures and fed a natural grass-only diet",
+    "source_url": "https://chamburnfarm.com/portland-meat-egg-delivery/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "csa",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "N, NE and SE Portland and Sellwood",
+      "West Linn",
+      "Happy Valley",
+      "Oregon City",
+      "Gladstone",
+      "Milwaukie",
+      "Tualatin",
+      "Tigard",
+      "Beaverton",
+      "Hillsboro",
+      "West Hills",
+      "Hillsdale",
+      "Lake Oswego"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Eastside pickup locations in North, NE and SE Portland and Boring (Full Cellar Farm), first Wednesday of each month"
+    ],
+    "source_url": "https://chamburnfarm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://chamburnfarm.com/portland-meat-egg-delivery/",
+  "data_source": "web-search",
+  "source_url": "https://oregonpasturenetwork.org/listing/chamburn-farm-llc/",
+  "address": "20925 S Nursery Ln, Oregon City, OR 97045",
+  "resold_note": "Site says it works with a group of local farmers but does not say which products come from them.",
+  "notes": "Beef described as grass-only diet and ruminants as grass/hay only, but not as grass-finished, so kept at grass-fed. Pork gets grass and non-GMO grain. Farm pickup by call or text. $10 delivery fee, $49 delivery minimum. No shipping.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

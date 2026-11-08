@@ -1,0 +1,68 @@
+{
+  "id": "the-bend-beef",
+  "slug": "the-bend-beef",
+  "farm_name": "The Bend Beef",
+  "city": "Holly Pond",
+  "state": "AL",
+  "zip": "35083",
+  "address_public": true,
+  "address": "16 County Road 691, Holly Pond, AL 35083",
+  "website": "https://www.thebendbeef.com",
+  "phone": "256-590-5840",
+  "social_urls": [
+    "https://www.facebook.com/austin.sartain.7"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "freezer beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Our cattle spend most of their lives on grass, then finish on a high-quality grain blend during their last stretch.",
+    "source_url": "https://www.thebendbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Huntsville",
+      "Birmingham",
+      "Cullman",
+      "Decatur",
+      "Madison",
+      "Arab",
+      "Guntersville",
+      "Gadsden",
+      "Oneonta",
+      "Blountsville",
+      "Hoover",
+      "Trussville",
+      "Lake Guntersville",
+      "Smith Lake"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Meetups in nearby cities, arranged when ordering"
+    ],
+    "source_url": "https://www.thebendbeef.com/locations/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.thebendbeef.com/",
+  "notes": "Unpublished 2026-11-08: Site says the farm starts with Black Angus calves from local Cullman County farms, then raises them on its own pasture and finishes them on grain. Check whether any calves are born on the farm and what share of the cattle is bought in. Family farm of 360 acres on the Mulberry River. Orders by phone or Facebook message; no online store. Farm pickup in Holly Pond, meetups in nearby cities and local delivery across North and Central Alabama. Quarter, half and whole freezer beef with cut sheet. Takes restaurant accounts, none named. No shipping.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

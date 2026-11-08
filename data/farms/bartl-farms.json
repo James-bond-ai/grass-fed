@@ -1,0 +1,47 @@
+{
+  "id": "bartl-farms",
+  "slug": "bartl-farms",
+  "farm_name": "Bartl Farms",
+  "city": "Robertsdale",
+  "state": "AL",
+  "zip": "36567",
+  "address_public": true,
+  "address": "25082 Truck Route 17, Robertsdale, AL 36567",
+  "website": "https://bartlfarms.com",
+  "phone": "251-752-8801",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "1/8, quarter, half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "In their last 90-120 days, we will feed them a grain mixture grown fresh on our farm.",
+    "source_url": "https://bartlfarms.com/practices/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://bartlfarms.com/contact/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/bartlfarms/all",
+  "data_source": "web-search",
+  "source_url": "https://www.sweetgrownalabama.org/sga-members/1735",
+  "notes": "Black Angus beef in Gateswood area of central Baldwin County, mailing address Robertsdale. About page says \"They are grass-fed and grain finished.\"; cattle graze pasture and get homegrown hay until the last 90 to 120 days. Online store on Barn2Door (not read; fetch blocked). On-farm pickup by appointment Mon and Fri 10 to 6, Sat 9 to 2. Contact page says delivery and shipping are coming soon, not yet available. Name found on Sweet Grown Alabama member page 1735 (not read directly).",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

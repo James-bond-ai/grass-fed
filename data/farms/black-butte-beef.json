@@ -1,0 +1,52 @@
+{
+  "id": "black-butte-beef",
+  "slug": "black-butte-beef",
+  "farm_name": "Black Butte Beef",
+  "city": "Grass Range",
+  "state": "MT",
+  "zip": "",
+  "address_public": true,
+  "website": "https://www.blackbuttebeef.com/",
+  "phone": "406-366-0252",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "Angus steaks and cuts",
+    "American Wagyu steaks and cuts",
+    "burger",
+    "quarter, half and whole beef (deposit)"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "Black Butte Beef's Black Angus cattle are grass-fed and grass or grain-finished by the age of 18 months.",
+    "source_url": "https://www.blackbuttebeef.com/about-the-ranch"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "ships-nationwide",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Montana (in-state delivery by arrangement)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://www.blackbuttebeef.com/shipping-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.blackbuttebeef.com/shop-products",
+  "data_source": "web-search",
+  "source_url": "https://abundantmontana.com/?p=24884",
+  "address": "41430 U.S. 87 South, Grass Range, MT",
+  "notes": "Standard cattle are grass-fed and grain-finished; grass-finished beef can be ordered by emailing or calling. Cattle are born and raised on Beard Cattle Co. in Grass Range and Rockin L Genetics near Winnett. Ships boxed beef to the continental US, Alaska and Hawaii; bulk beef cannot be shipped. Many Angus cuts showed out of stock on 2026-11-08; bulk deposits open.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

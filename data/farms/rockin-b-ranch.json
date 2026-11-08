@@ -1,0 +1,46 @@
+{
+  "id": "rockin-b-ranch",
+  "slug": "rockin-b-ranch",
+  "farm_name": "Rockin' B Ranch",
+  "city": "Pearcy",
+  "state": "AR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.rockinbranchbeef.com/",
+  "phone": "214-952-7309",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole and half freezer beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Rockin' B Ranch cattle graze in our pastures, are fed hay grown on our land and are finished on a corn-based feed.",
+    "source_url": "https://www.rockinbranchbeef.com/arkansas-grass-fed-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": 30,
+    "ships_to": [],
+    "pickup_locations": [
+      "Processor (address given with the order)"
+    ],
+    "source_url": "https://www.rockinbranchbeef.com/local-arkansas-freezer-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://rockinbranchbeef.com/hot-springs-arkansas-local-beef-rancher",
+  "data_source": "web-search",
+  "source_url": "https://www.rockinbranchbeef.com/local-arkansas-freezer-beef",
+  "notes": "Unpublished 2026-11-08: site says calves are born in Mt. Ida, Arkansas and brought to the Pearcy ranch after weaning; check whether those calves come from the family's own cows or are bought from another producer. Free delivery within 30 miles of the ranch; farther by arrangement. No quarters sold. $500 deposit. Summer 2026 beef sold out; taking orders for January 2027.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

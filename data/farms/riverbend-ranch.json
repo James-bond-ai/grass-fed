@@ -1,0 +1,53 @@
+{
+  "id": "riverbend-ranch",
+  "slug": "riverbend-ranch",
+  "farm_name": "Riverbend Ranch",
+  "city": "Tenino",
+  "state": "WA",
+  "zip": "98589",
+  "address_public": true,
+  "website": "https://www.rb-ranch.com/",
+  "phone": "360-264-5336",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork"
+  ],
+  "products": [
+    "beef boxes",
+    "ground beef",
+    "quarter, half and whole beef (deposit)",
+    "lamb",
+    "half and whole pork",
+    "breakfast sausage"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "grass-fed and finished beef",
+    "source_url": "https://www.rb-ranch.com/shop-1"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.rb-ranch.com/product-page/whole-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.rb-ranch.com/shop-1",
+  "data_source": "web-search",
+  "source_url": "https://eatlocalfirst.org/listing/tenino/riverbend-ranch/",
+  "address": "3735 Skookumchuck Rd SE, Tenino, WA 98589",
+  "notes": "Meat shop at the ranch east entrance; site gives no shop hours. Shipping is not available; beef shares are picked up at the ranch or a neutral pickup point. Pork described as naturally raised, with no feeding detail. Some pages carry the name Riverbrook Ranch; the site footer and email use Riverbend.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

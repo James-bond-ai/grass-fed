@@ -1,0 +1,59 @@
+{
+  "id": "purely-pastured-farm",
+  "slug": "purely-pastured-farm",
+  "farm_name": "Purely Pastured Farm",
+  "city": "Foley",
+  "state": "AL",
+  "zip": "36535",
+  "address_public": true,
+  "address": "14190 Joe Norris Lane, Foley AL 36535",
+  "website": "https://purelypasturedfarm.com",
+  "phone": "251-233-9407",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "organs and bones",
+    "pork",
+    "chicken",
+    "eggs",
+    "bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass-fed and grass-finished.",
+    "source_url": "https://purelypasturedfarm.com/faq"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": 22,
+    "ships_to": [],
+    "pickup_locations": [
+      "Scheduled pickup stops across South Alabama and Florida"
+    ],
+    "source_url": "https://purelypasturedfarm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://purelypasturedfarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://purelypasturedfarm.com/store/beef",
+  "notes": "Farm pickup and select route pickup stops across South Alabama and Florida (site says NE Florida on one page and Northwest Florida on another). Home delivery within 22 miles of the farm, $200 minimum, for Subscribe and Save customers. Whole and half beef share deposits for November processing; whole and half pig deposits and a quarter hog bundle. Pigs and chickens get a non-GMO feed ration. No shipping stated.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "lane-creek-reserve",
+  "slug": "lane-creek-reserve",
+  "farm_name": "Lane Creek Reserve",
+  "city": "Central Point",
+  "state": "OR",
+  "zip": "97502",
+  "address_public": false,
+  "website": "https://www.lanecreekreserve.com/",
+  "phone": "541-727-1054",
+  "social_urls": [
+    "https://www.facebook.com/lanecreekreserve",
+    "https://www.instagram.com/lanecreekreserve/"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "half and whole beef (2027 reservation)",
+    "half and whole pork (2027 reservation)",
+    "lamb (2027 reservation)",
+    "whole chickens",
+    "eggs",
+    "chicken feet",
+    "raw ground beef and organ pet food"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Non-Medicated, Organic Raised Grass Fed & Finished Beef",
+    "source_url": "https://www.lanecreekreserve.com/shop/p/spring-bowl-rltkk-jy5sr-fjw6l-dp8lg-fbmgj-cs6n2-zpp9a-28z86"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.lanecreekreserve.com/shop/p/spring-bowl-rltkk-jy5sr-fjw6l-dp8lg-fbmgj-cs6n2-zpp9a-28z86"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.lanecreekreserve.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.roguevalleyfarmtour.com/local-farms",
+  "notes": "Half and whole beef, pork and lamb reserved by deposit for 2027, paid in full at farm pickup. Delivery listed as an added cost, area not stated. Farm stand open daily 9am to dusk, call or message first. Whole chickens sold out when checked; 2026 pre-order listed. Members-only meat shop marked coming soon. No shipping stated.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "big-oak-beef",
+  "slug": "big-oak-beef",
+  "farm_name": "Big Oak Beef",
+  "city": "Gainesville",
+  "state": "GA",
+  "zip": "30507",
+  "address_public": true,
+  "address": "3776 Anglin Drive, Gainesville, GA 30507",
+  "website": "https://bigoakbeef.com",
+  "phone": "470-716-4079",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole, half and quarter cows",
+    "boxes of cuts"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We are small family owned and operated business in north Georgia providing flavorful, all-natural grass fed & finished beef.",
+    "source_url": "https://bigoakbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "within 50 miles of Gainesville, GA 30507"
+    ],
+    "local_radius_miles": 50,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://bigoakbeef.com/pricing/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://bigoakbeef.shop/",
+  "data_source": "web-search",
+  "source_url": "https://bigoakbeef.com/",
+  "notes": "Nix Family Farm. Cattle graze fescue, Bermuda and orchard grass and are fed hay in winter. Claims USDA Grass-Fed certification; no certifier listing checked, so no certification added. Chickens for eggs mentioned in the farm story but no eggs offered for sale.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

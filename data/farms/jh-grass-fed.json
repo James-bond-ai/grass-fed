@@ -1,0 +1,60 @@
+{
+  "id": "jh-grass-fed",
+  "slug": "jh-grass-fed",
+  "farm_name": "JH Grass Fed",
+  "city": "Cave Creek",
+  "state": "AZ",
+  "zip": "",
+  "address_public": false,
+  "website": "https://jhgrassfed.com/",
+  "phone": "602.769.4614",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "grass-fed beef cuts",
+    "ground beef",
+    "beef organ meats",
+    "quarter and half beef packages"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass-fed/grass-finished beef raised by JH Cattle Co.",
+    "source_url": "https://jhgrassfed.com/product-brand/jh-grass-fed-beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "local-delivery",
+    "online-order",
+    "retail"
+  ],
+  "farmers_markets": [
+    "Roadrunner Park Farmers Market, Phoenix",
+    "Uptown Farmers Market, Phoenix",
+    "Chilleens on 17 Night Market, Black Canyon City"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Within Arizona",
+      "Maricopa County and nearby areas"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Pickup at the farmers markets listed"
+    ],
+    "source_url": "https://jhgrassfed.com/faqs/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://jhgrassfed.com/faqs/",
+  "resold_note": "Also sells lamb, chicken and turkey from partner Arizona ranchers and farmers, and fish from an Alaskan partner.",
+  "notes": "Beef brand of JH Cattle Co., based in Cave Creek. Delivers only within Arizona and does not ship; free delivery over $135 in Maricopa County and nearby areas. Also sold at select Phoenix-area retailers. Uptown market listed as running until 4/29. Quarter of Beef package listed with free home delivery.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

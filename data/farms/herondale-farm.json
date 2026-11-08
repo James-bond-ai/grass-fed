@@ -1,0 +1,58 @@
+{
+  "id": "herondale-farm",
+  "slug": "herondale-farm",
+  "farm_name": "Herondale Farm",
+  "city": "Ancramdale",
+  "state": "NY",
+  "zip": "12503",
+  "address_public": true,
+  "address": "90 Wiltsie Bridge Road, Ancramdale NY 12503",
+  "website": "https://www.herondalefarm.com",
+  "phone": "518-329-3769",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef cuts",
+    "lamb cuts",
+    "pork cuts and sausages",
+    "chicken sausages and pate",
+    "monthly meat CSA shares"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Grass Fed and Grass Finished",
+    "source_url": "https://www.herondalefarm.com/retail-meat-list"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "csa",
+    "on-farm-store",
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Multiple CSA pickup locations in NYC (not named on pages read)"
+    ],
+    "source_url": "https://www.herondalefarm.com/weekend-market"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://herondalefarm.square.site",
+  "data_source": "web-search",
+  "source_url": "https://www.hudsonvalleysojourner.com/for-the-table/herondale-farm",
+  "notes": "Beef and lamb are listed as grass fed and grass finished; pigs and chickens are on pasture with an organic feed mix. Farm store open Saturday 9 to 3 all year; online orders with curbside pickup. About page mentions UPS shipping but names no states, so no shipping channel set. 10, 15 and 20 lb monthly CSA shares.",
+  "resold_note": "Farm store also sells seasonal produce, baked goods and dry goods from other local producers.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

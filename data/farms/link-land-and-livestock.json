@@ -1,0 +1,46 @@
+{
+  "id": "link-land-and-livestock",
+  "slug": "link-land-and-livestock",
+  "farm_name": "Link Land & Livestock",
+  "city": "Whatcom County",
+  "state": "WA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.linklandlivestock.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "lamb"
+  ],
+  "products": [
+    "lamb cuts",
+    "lamb boxes"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our lambs are raised on pasture from birth to butcher for local restaurants and direct to your kitchen.",
+    "source_url": "https://www.linklandlivestock.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.linklandlivestock.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.linklandlivestock.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://eatlocalfirst.org/listing/ferndale/link-land-livestock/",
+  "notes": "Unpublished 2026-11-08: the shop page lists only sheepskins, with no lamb products, prices or availability, although the homepage says lamb is sold by the cut or box. Check that lamb is on sale direct to the public and how buyers receive it (pickup, delivery or shipping). Grazes leased pasture across Whatcom County. Site does not say grass-only, so category is pastured.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

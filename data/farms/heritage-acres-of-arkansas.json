@@ -1,0 +1,57 @@
+{
+  "id": "heritage-acres-of-arkansas",
+  "slug": "heritage-acres-of-arkansas",
+  "farm_name": "Heritage Acres of Arkansas",
+  "city": "Elkins",
+  "state": "AR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://heritageacresarkansas.com/",
+  "phone": "479-790-4295",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "half and quarter beef shares",
+    "20-pound sampler boxes",
+    "pastured pork",
+    "heritage turkeys",
+    "landrace chickens"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are grass fed and finished, which means they eat grass all their lives, from birth to processing.",
+    "source_url": "https://heritageacresarkansas.com/grass-fed-beef-home/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Northwest Arkansas"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://heritageacresarkansas.com/grass-fed-beef-home/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://heritageacresarkansas.com/grass-fed-beef-home/",
+  "availability": {
+    "status": "sold-out",
+    "note": "The farm says it is out of beef and processor waitlists are long.",
+    "checked_on": "2026-11-08"
+  },
+  "notes": "Unpublished 2026-11-08: Site looks unmaintained (footer copyright 2017; beef, pork and sampler pages say out of stock with processors booked through 2022, and no later date appears). Contact the farm (text 479-790-4295) to check whether it still sells beef, pork or poultry. Site says free shipping to most US states and FedEx shipping by quote outside Northwest Arkansas, but names no states, so no shipping recorded. Order by form or text.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

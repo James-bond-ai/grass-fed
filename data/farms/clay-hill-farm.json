@@ -1,0 +1,50 @@
+{
+  "id": "clay-hill-farm",
+  "slug": "clay-hill-farm",
+  "farm_name": "Clay Hill Farm",
+  "city": "Hartland",
+  "state": "VT",
+  "zip": "05048",
+  "address_public": true,
+  "website": "https://clayhillfarmbeef.com/",
+  "phone": "802-291-1209",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "quarter, half and whole beef",
+    "half and whole pork",
+    "ground beef",
+    "steaks"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "grass-fed, corn-finished Angus beef",
+    "source_url": "https://clayhillfarmbeef.com/about/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://clayhillfarmbeef.com/order-meats/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://clayhillfarmbeef.com/order-meats/",
+  "data_source": "web-search",
+  "source_url": "https://www.vtfarmtoplate.com/food-system-map/clay-hill-farm",
+  "address": "220 Clay Hill Rd, Hartland, VT 05048",
+  "notes": "Unpublished 2026-11-08: About page lists 25 brood cows and another 25-40 feeder cattle purchased off the farm, and the beef page says purchased calves go on the same ration and purchased feeders are sold to Black River Meats. Check with the farm what share of the beef sold direct (freezer quarters and halves, frozen ground beef and steaks) is born on the farm; the order page calls the quarter, half and whole beef farm-born-and-raised. Also check the Hanover Co-op retail outlet, not found on the pages read. Finishing ration includes farm-raised hay, corn silage, cracked corn and soy with pasture. Freezer beef and pork picked up at the farm, delivery can be arranged; does not ship.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

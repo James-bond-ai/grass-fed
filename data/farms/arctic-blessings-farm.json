@@ -1,0 +1,48 @@
+{
+  "id": "arctic-blessings-farm",
+  "slug": "arctic-blessings-farm",
+  "farm_name": "Arctic Blessings Farm",
+  "city": "Delta Junction",
+  "state": "AK",
+  "zip": "99737",
+  "address_public": true,
+  "address": "HC 62 Box 5311 Cummings Rd, Delta Junction, AK 99737",
+  "website": "https://arctic-blessings-farm.website.localline.ca/",
+  "phone": "907-616-0478",
+  "social_urls": [],
+  "species": [
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "whole fryer chickens",
+    "eggs",
+    "turkeys"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our egg layers enjoy the freedom of our pastured fields.",
+    "source_url": "https://arctic-blessings-farm.website.localline.ca/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://arctic-blessings-farm.website.localline.ca/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://arcticblessings.eatfromfarms.com",
+  "data_source": "web-search",
+  "source_url": "https://arctic-blessings-farm.website.localline.ca/",
+  "notes": "Small beginning farm near the Gerstle River bridge. Farm store on Eat From Farms lists free-range eggs, pastured chickens, free-range turkeys, vegetables and raw milk; a Local Line store is also linked from the website but could not be opened. Buyers choose pickup or delivery at checkout, but the site names no pickup point. Delivery to Tok, Delta Junction and Fairbanks is described as planned with dates to be set, so not recorded as a channel. Whole chickens are limited. Herdshare page offers raw milk to share owners ($100 buy-in, weekly milk), but no page text says whether the herd is cows or goats, so no dairy species or dairy_products added. Raw milk is legal only in some states. Hen feed is described as non-GMO grain.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

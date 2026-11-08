@@ -1,0 +1,52 @@
+{
+  "id": "flying-c-ranch",
+  "slug": "flying-c-ranch",
+  "farm_name": "Flying C Ranch",
+  "city": "Conway",
+  "state": "AR",
+  "zip": "",
+  "address_public": true,
+  "address": "730 Rocky Point Road",
+  "website": "https://flyingcranchar.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/FlyingCRanchAR/",
+    "https://www.instagram.com/flyingcranchar"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ribeye",
+    "ground beef",
+    "beef cuts by the pound",
+    "half and quarter carcass"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Our cattle are grass fed and grain finished.",
+    "source_url": "https://flyingcranchar.com/frequently-asked-questions/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://flyingcranchar.com/farm-fresh-beef/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://flyingcranchar.com/frequently-asked-questions/",
+  "resold_note": "Farm store also sells pork, chicken, lamb, eggs and vegetables; the site does not say who raises them.",
+  "notes": "Farm store open Tuesday and Friday 1 to 6 p.m., Saturday 8 a.m. to 1 p.m. Cow-calf operation on over 600 acres; steers stay on the farm for life. Beef page says bulk beef is paused for peak season and will resume in the fall; farm store remains open. Bulk ordered through contact form.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

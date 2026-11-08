@@ -1,0 +1,56 @@
+{
+  "id": "1984-farms",
+  "slug": "1984-farms",
+  "farm_name": "1984 Farms",
+  "city": "Atlanta",
+  "state": "MO",
+  "zip": "63530",
+  "address": "18335 State Highway O, Atlanta, MO 63530",
+  "address_public": true,
+  "website": "https://1984farms.com/",
+  "phone": "435.224.4593",
+  "social_urls": [
+    "https://facebook.com/1984farms",
+    "http://instagram.com/1984farms",
+    "https://www.youtube.com/1984farms"
+  ],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef cuts and bundles",
+    "lamb cuts and bundles",
+    "pork cuts and bundles",
+    "chicken cuts and bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass-fed and grass-finished on open pasture.",
+    "source_url": "https://1984farms.com/pages/order-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://1984farms.com/pages/order-in-bulk"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://1984farms.com/collections/grass-finished-beef",
+  "data_source": "web-search",
+  "source_url": "https://1984farms.com/",
+  "notes": "Unpublished 2026-11-08: check whether cattle are now born and raised on the Missouri farm or still bought in; the transparency statement dated September 5, 2024 says the farm buys cattle to finish (minimum 4 months on farm) while rebuilding the herd, with no share given. Also check bulk: Order In Bulk page lists whole, half, quarter and eighth shares but refers to fall 2024. Ships free to the 48 contiguous states weekly, 8 lb minimum. Pork and chicken get organic grain or feed.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

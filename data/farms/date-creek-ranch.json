@@ -1,0 +1,66 @@
+{
+  "id": "date-creek-ranch",
+  "slug": "date-creek-ranch",
+  "farm_name": "Date Creek Ranch",
+  "city": "Wickenburg",
+  "state": "AZ",
+  "zip": "85358",
+  "address_public": true,
+  "website": "https://www.datecreekranch.com",
+  "phone": "(928) 231-9058",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork"
+  ],
+  "products": [
+    "quarter beef",
+    "half beef",
+    "whole beef",
+    "box beef",
+    "pork shares",
+    "bacon",
+    "ham",
+    "sausage",
+    "lamb"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle forage for their own feed all through the year, and when selling time comes they are finished on irrigated pasture.",
+    "source_url": "https://www.datecreekranch.com/about-dcr"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Phoenix: lot across from Ben Avery shooting range off Carefree Hwy",
+      "Prescott Valley: Maverick Station, Fain Rd and AZ-69",
+      "Camp Verde: Chevron and Wendy's lot off Hwy 260",
+      "Wickenburg: post office parking lot"
+    ],
+    "source_url": "https://www.datecreekranch.com/delivery-schedule"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.datecreekranch.com/grass-fed-beef",
+  "data_source": "web-search",
+  "source_url": "https://www.datecreekranch.com/",
+  "address": "5 Date Creek Ranch Rd, Wickenburg, AZ 85358",
+  "notes": "Beef page says cattle live on native forages, irrigated pasture and occasionally some hay. Lamb sold as 100% grass-fed, offered as the ranch has its own lambs available. Pigs are raised outdoors on rotated paddocks but most of their diet is non-GMO grain and corn, so pork is pastured, not grass-fed. Beef orders need a $299 deposit. Pickup only at scheduled meat-up points (no shipping stated); sales_channels farm-pickup used for these. No drop-ins at the ranch. Second phone (602) 527-9369. Shop is on Shopify (datecreekranch.shop).",
+  "availability": {
+    "status": "waitlist",
+    "note": "Beef and lamb are sold through a waitlist; beef waits can run 10 to 12 weeks.",
+    "checked_on": "2026-11-08"
+  },
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

@@ -82,3 +82,6 @@ All 80 reviewed against each farm's own website and the USDA Organic Integrity s
 - grass-fed-certifications-compared: published. Reviewer removed overstatements on grain bans (AWA, organic) and noted AGW and OPT grain exceptions.
 - how-to-vet-a-grass-fed-farm: published. Reviewer corrected a yield example (whole carcass described as a half) and framed the corn silage tip as advice.
 - raw-milk-laws-by-state: held. Confirm North Carolina's 2026 Farm Act left herdshares and pet milk unchanged; re-fetch FDA and CDC pages; trim toward 2,000 words including the table.
+
+## 2026-11-08
+- Organic review: Heartquist Hollow Farm (AZ) is the same operation as USDA record 5561009482 (Heartquist Hollow Farm, Winkelman), but that record is certified for handling only, livestock not certified, so no label added. Montana Longhorn Company (MT) is not USDA record Montana Coffee Traders (Whitefish), a coffee business that only shares the town; no label added.

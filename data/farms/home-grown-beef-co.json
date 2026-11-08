@@ -1,0 +1,71 @@
+{
+  "id": "home-grown-beef-co",
+  "slug": "home-grown-beef-co",
+  "farm_name": "Home Grown Beef Co.",
+  "city": "Winslow",
+  "state": "AR",
+  "zip": "72959",
+  "address_public": false,
+  "website": "https://homegrownbeefco.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/HomegrownBeefCo",
+    "https://www.instagram.com/homegrownbeefco/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "ribeye",
+    "NY strip",
+    "T-bone",
+    "sirloin",
+    "brisket",
+    "roasts",
+    "short ribs",
+    "stew meat",
+    "burger patties",
+    "beef combo boxes",
+    "whole, half and quarter beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "wholesome, grass-fed/grain-finished beef that's free from additives.",
+    "source_url": "https://homegrownbeefco.com/grass-fed-beef-delivery-in-fayetteville-ar-homegrown-beef-co/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Fayetteville and Fort Smith metro areas",
+      "Bella Vista",
+      "Bentonville",
+      "Rogers",
+      "Springdale",
+      "Winslow",
+      "Van Buren",
+      "Ozark",
+      "Prairie Grove",
+      "Farmington",
+      "Elkins"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://homegrownbeefco.com/about/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://homegrownbeefco.com/store/all-products",
+  "data_source": "web-search",
+  "source_url": "https://homegrownbeefco.com/about/",
+  "notes": "Family farm in Winslow, Washington County. Monthly delivery on weekends or meet-up pickup at unnamed spots; flat $10 fee, free over $100, no minimum. Monthly subscriptions offered. Some cuts and the Family Beef Box sold out when checked. Homepage not read.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

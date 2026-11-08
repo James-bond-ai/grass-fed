@@ -1,0 +1,71 @@
+{
+  "id": "truc-farm",
+  "slug": "truc-farm",
+  "farm_name": "TRUC Farm",
+  "city": "Culloden",
+  "state": "GA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://trucfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "slow-cooker cuts",
+    "half cow subscription box",
+    "half and whole beef shares"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass-fed and finished",
+    "source_url": "https://trucfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [
+    "Dunwoody",
+    "Sandy Springs",
+    "Alpharetta",
+    "Milton"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Alpharetta",
+      "Dunwoody",
+      "Roswell",
+      "Sandy Springs",
+      "Brookhaven",
+      "Johns Creek",
+      "Milton"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farmers markets in Dunwoody, Sandy Springs, Alpharetta and Milton/Crabapple"
+    ],
+    "source_url": "https://trucfarm.com/pages/copy-of-about-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://trucfarm.com/collections",
+  "data_source": "web-search",
+  "source_url": "https://grassfed-beef-site.pages.dev/suppliers/truc-farm/",
+  "resold_note": "Some beef comes from partner family farms the company evaluates.",
+  "notes": "Unpublished 2026-11-08: check what share of the beef is raised by the Simms family on the leased Culloden land versus bought in or supplied by partner farms; the site says all beef comes from cattle they raise or from family farms they evaluate, and that they buy cattle to add to the herd, but gives no share. Not shipping.",
+  "availability": {
+    "status": "paused",
+    "note": "September 18, 2026 notice: most deliveries paused while out of stock of many cuts; farmers markets, existing orders and half and whole deposits continue.",
+    "checked_on": "2026-11-08"
+  },
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

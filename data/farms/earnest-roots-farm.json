@@ -1,0 +1,60 @@
+{
+  "id": "earnest-roots-farm",
+  "slug": "earnest-roots-farm",
+  "farm_name": "Earnest Roots Farm",
+  "city": "Ashville",
+  "state": "AL",
+  "zip": "35953",
+  "address_public": true,
+  "website": "https://earnestrootsfarm.com",
+  "phone": "256-504-5557",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "grass-finished beef",
+    "grass-fed grain-finished beef",
+    "grass-finished lamb",
+    "pastured pork",
+    "pastured chicken",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "100% Grassfed/Grass finished beef and lamb",
+    "source_url": "https://earnestrootsfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "on-farm-store",
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Limited local delivery area (not named)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://earnestrootsfarm.com/locations"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://earnestrootsfarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://earnestrootsfarm.com/",
+  "resold_note": "Also sells dairy, sauces and pantry goods from other vendors.",
+  "notes": "Farm store open Friday mornings 9:30 to 12; check email for closings. Online orders picked up on set dates at the farm. Free local home delivery over $179 in a limited, unnamed area. Run by Josh and Kiley. Beef and lamb page says never fed grain. Also sells a grass-fed, grain-finished beef line under the Byram Cattle Co name, which the site says comes from the same herd line and stays on the farm's pastures, so category set to both. Pork and poultry are pastured and supplemented with GMO-free, soy-free grain. No shipping stated.",
+  "address": "145 Angel Way, Ashville, AL 35953",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

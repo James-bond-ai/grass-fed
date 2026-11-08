@@ -1,0 +1,61 @@
+{
+  "id": "heartquist-hollow-farm",
+  "slug": "heartquist-hollow-farm",
+  "farm_name": "Heartquist Hollow Farm",
+  "city": "Winkelman",
+  "state": "AZ",
+  "zip": "85192",
+  "address_public": true,
+  "website": "https://heartquisthollowfarm.com",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "lamb",
+    "pork",
+    "eggs",
+    "bulk meat boxes",
+    "broth boxes"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We offer grass fed, grass finished beef because we believe it is better for the earth and ourselves.",
+    "source_url": "https://heartquisthollowfarm.com/products/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "online-order",
+    "farm-pickup"
+  ],
+  "farmers_markets": [
+    "Old Town Scottsdale Farmers Market, Scottsdale (Saturdays, October to June)",
+    "Gilbert Farmers Market at CGCC, Chandler (Saturdays)",
+    "Uptown Farmers Market, Phoenix (Saturdays)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Gallery of Food Bodega, 2522 E. Fort Lowell Road, Tucson (pre-order pickup Fridays and Saturdays)"
+    ],
+    "source_url": "https://heartquisthollowfarm.com/markets/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/heartquisthollowfarm/all",
+  "data_source": "web-search",
+  "source_url": "https://heartquisthollowfarm.com/",
+  "address": "4965 N S Camino Rio Rd, Winkelman, AZ 85192",
+  "notes": "Lamb described as grass-fed and grass-raised from hair sheep born on the farm's pastures; pork is Mangalitsa raised in a pasture-based setting; laying hens on pasture with organic corn- and soy-free grain. Online orders through Barn2Door with pickup at a chosen market. Quarter, half and whole beef shares year-round. FAQ says no delivery and no shipping yet (hopes to ship in 2026). Farm visits and pickup by appointment only. No phone published; contact form only. Also sells pickles from its garden.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-08",
+  "verification_method": "auto"
+}

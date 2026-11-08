@@ -47,5 +47,5 @@
   "last_verified_at": "2026-10-27",
   "verification_method": "auto",
   "listing_status": "unpublished",
-  "notes": "Unpublished 2026-10-27: shop says all meat is sold out for 2026, restocking March 2027, and the site does not say how orders are picked up, delivered or shipped. Recheck in March 2027. 2026-11-01: quick check: homepage unchanged and still gives no pickup, delivery or shipping details; shop page could not be fetched (robots blocked). Recheck in March 2027."
+  "notes": "Unpublished 2026-10-27: shop says all meat is sold out for 2026, restocking March 2027, and the site does not say how orders are picked up, delivered or shipped. Recheck in March 2027. 2026-11-01: quick check: homepage unchanged and still gives no pickup, delivery or shipping details; shop page could not be fetched (robots blocked). Recheck in March 2027. 2026-11-08: homepage fetch was refused; the beef shop page still says all meat is sold out for 2026, restocking March 2027, and gives no pickup, delivery or shipping details. Recheck in March 2027."
 }
