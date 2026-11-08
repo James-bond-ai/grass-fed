@@ -1,0 +1,53 @@
+{
+  "id": "jh-grass-fed",
+  "slug": "jh-grass-fed",
+  "farm_name": "JH Grass Fed",
+  "city": "Cave Creek",
+  "state": "AZ",
+  "zip": "",
+  "address_public": false,
+  "website": "https://jhgrassfed.com/",
+  "phone": "602.769.4614",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "grass-fed beef cuts",
+    "ground beef",
+    "beef organ meats",
+    "quarter and half beef packages"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef and lamb are 100% grass-fed and grass-finished.",
+    "source_url": "https://jhgrassfed.com/faqs/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [
+    "Roadrunner Park Farmers Market, Phoenix",
+    "Uptown Farmers Market, Phoenix",
+    "Chilleens on 17 Night Market, Black Canyon City"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Arizona"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://jhgrassfed.com/faqs/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://jhgrassfed.com/faqs/",
+  "resold_note": "Also sells lamb, chicken and turkey from partner Arizona ranchers and farmers, and fish from an Alaskan partner.",
+  "notes": "Ranch land about 45 miles north of Cave Creek. Delivers only within Arizona and does not ship; free delivery within Maricopa County over $135. Product pages failed to load; quarter and half packages seen in search results only."
+}

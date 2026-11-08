@@ -1,0 +1,60 @@
+{
+  "id": "osage-creek-farms",
+  "slug": "osage-creek-farms",
+  "farm_name": "Osage Creek Farms",
+  "city": "Osage",
+  "state": "AR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://osagecreekfarms.com/",
+  "phone": "(479) 208-6609",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts and brisket",
+    "beef sausage and brats",
+    "beef boxes",
+    "pork chops",
+    "bacon",
+    "pork sausage",
+    "pork roasts",
+    "quarter, half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are raised and finished on grass, without a grain-finishing stage.",
+    "source_url": "https://osagecreekfarms.com/our-practices"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [
+    "Fayetteville Farmers Market"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "eligible ZIP codes around Fayetteville, Springdale, Rogers and Bentonville"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "East Fayetteville home pickup, Fridays 4 to 6 p.m."
+    ],
+    "source_url": "https://osagecreekfarms.com/pickup-and-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://osagecreekfarms.com/store",
+  "data_source": "web-search",
+  "source_url": "https://osagecreekfarms.com/",
+  "notes": "Category applies to beef. Pork is pasture-raised and the site says the pigs get traditional corn-based feed. Pork reservations closed until 2027; reserving a December 2026 beef round. Bulk is pickup only. Store and locations pages not read."
+}

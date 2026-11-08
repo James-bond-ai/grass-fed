@@ -1,0 +1,47 @@
+{
+  "id": "mashie-farm",
+  "slug": "mashie-farm",
+  "farm_name": "Mashie Farm",
+  "city": "Goshen",
+  "state": "AR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.mashiefarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork"
+  ],
+  "products": [
+    "grass-finished beef",
+    "lamb",
+    "pork",
+    "seasonal pork CSA boxes"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Order our 100% grass fed, grass finished meat grown regeneratively on our family farm.",
+    "source_url": "https://www.mashiefarm.com/s/order"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "csa",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.mashiefarm.com/product/pork-csa/128"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.mashiefarm.com/s/order",
+  "data_source": "web-search",
+  "source_url": "https://www.mashiefarm.com/about",
+  "notes": "Pages returned only meta descriptions, so facts come from those plus the pork CSA page: Verifier should read full pages. Quote is from the order page meta description. CSA pickup first week of each month at a location chosen at checkout; named locations not read. Pig feed not stated."
+}

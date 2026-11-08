@@ -22,11 +22,21 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Wolverine Farm LLC, Palmer (wolverinefarm.blogspot.com, beef and hay): not fetched 2026-11-07
 
 ## AZ
-- JH Grass Fed, Cave Creek (jhgrassfed.com): homepage and product page failed; FAQ says own herd 100% grass-fed and grass-finished beef, lamb and poultry bought from partner farms; needs full check 2026-11-07
 - Arizona Grass Raised Beef Co, Prescott Valley (azgrassraisedbeef.com): works with partner ranchers as well as own operations; unclear if it raises what it sells 2026-11-07
 - Lazy L Beef Co, Chino Valley (lazylbeef.com): no way to buy found on homepage, other pages unchecked 2026-11-07
 - Diablo Beef (Bar T Bar Ranch), Flagstaff (diablobeefaz.com): no way to buy on homepage, other pages unchecked 2026-11-07
-- Lilly Valley Farm (lillyvalleyfarm.com), Top Knot Farms (topknotfarms.com), Cruz Farm (cruzfarm.org, eggs): towns unknown, not visited 2026-11-07
+- Lilly Valley Farm (lillyvalleyfarm.com), Top Knot Farms (topknotfarms.com), Cruz Farm (cruzfarm.org, eggs): towns unknown, fetch blocked 2026-11-08
+- Lazy L Beef Co and Diablo Beef homepages also fetch blocked 2026-11-08
+- Single Star Ranch, southern Arizona (singlestarranch.com): meta says "Grass-Fed (Fodder Fed)" mixed quarters; body text not returned, town and way to buy unknown 2026-11-08
+- Black Ranch, Prescott: seen in a directory only, not checked 2026-11-08
+
+## AR
+- Ozark Pasture Beef, LLC (ozarkpasturebeef.com): 100% grassfed and grass-finished beef and lamb, pastured pork, delivers in NW Arkansas and Little Rock, Local Line store; a partnership of farms and no town on pages that loaded, about page server error 2026-11-08
+- Wholly Cow Farms (whollycowfarms.com): grass-finished beef, online orders on hold until 2027, ships in Arkansas only; no town or county on site 2026-11-08
+- Barham's Ozark Beef, Conway (barhamsozarkbeef.com): bulk beef, no feeding wording on buy page, homepage fetch blocked 2026-11-08
+- Sumner Beef Farms, Carlisle (sumnerbeef.com): Arkansas Grown listing says grass fed and/or finished on non-GMO corn; own site fetch blocked 2026-11-08
+- Myers Farms, NW Arkansas (myersfarmsnwa.com) and Broke Tree Ranch (broketreeranch.com): robots block fetching 2026-11-08
+- Unchecked: Arkansas Beef Directory (arbeef.org/aca-beef-directory); Ozark Family Farm (Arkansas Grown listing)
 
 ## CA
 - Llano Seco, Chico (llanoseco.com blocks fetching)

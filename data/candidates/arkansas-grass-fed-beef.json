@@ -1,0 +1,62 @@
+{
+  "id": "arkansas-grass-fed-beef",
+  "slug": "arkansas-grass-fed-beef",
+  "farm_name": "Arkansas Grass-Fed Beef",
+  "city": "Chidester",
+  "state": "AR",
+  "zip": "71726",
+  "address_public": false,
+  "website": "https://www.grassfedbeef-ar.com/",
+  "phone": "(870) 675-0324",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "hamburger",
+    "steaks",
+    "roasts",
+    "brisket",
+    "short ribs",
+    "beef sausage",
+    "brats",
+    "beef bacon",
+    "whole, half and quarter cow shares"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "The cattle are fed only what we grow in the pasture",
+    "source_url": "https://www.grassfedbeef-ar.com/Farm.htm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "El Dorado, AR",
+      "Camden, AR",
+      "East Camden, AR",
+      "Magnolia, AR",
+      "Monroe, LA",
+      "Shreveport, LA"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.grassfedbeef-ar.com/Delivery.htm"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.grassfedbeef-ar.com/CowShare2.php",
+  "data_source": "web-search",
+  "source_url": "https://www.grassfedbeef-ar.com/",
+  "availability": {
+    "status": "waitlist",
+    "note": "Limited supply; the farm says nothing is available until January or later.",
+    "checked_on": "2026-11-08"
+  },
+  "notes": "Set to cautious grass-fed: homepage says \"only grass fed & grass finished\", but also says cattle are \"now getting grains\", and the farm page lists winter wheat, rye and oats planted in pasture. Verifier to judge. Delivery charged at an hourly drive-time rate. Homepage says it can ship anywhere, delivery page says it will not ship by carrier, so no shipping recorded."
+}
