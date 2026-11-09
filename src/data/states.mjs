@@ -97,6 +97,7 @@ export const CHANNELS = {
 export const CERTIFICATIONS = {
   aga: { name: 'American Grassfed Association', short: 'AGA Certified', url: 'https://www.americangrassfed.org/' },
   'agw-grassfed': { name: 'Certified Grassfed by AGW', short: 'AGW Certified Grassfed', url: 'https://agreenerworld.org/' },
+  'usda-svs-grass-fed': { name: 'USDA Grass Fed Program for Small and Very Small Producers', short: 'USDA Small Producer Grass Fed', url: 'https://www.ams.usda.gov/services/auditing/grass-fed-SVS' },
   awa: { name: 'Animal Welfare Approved by AGW', short: 'Animal Welfare Approved', url: 'https://agreenerworld.org/' },
   opt: { name: 'OPT Certified Grass-Fed Organic', short: 'OPT Grass-Fed Organic', url: 'https://certification.oeffa.org/organic-grass-fed/' },
   'usda-organic': { name: 'USDA Organic livestock', short: 'USDA Organic', url: 'https://organic.ams.usda.gov/integrity/' },

@@ -60,6 +60,8 @@ function checkFarm(file, f, { candidate = false } = {}) {
     if (!CERTIFICATIONS[c.program]) err(file, `unknown certification program "${c.program}"`);
     if (!isUrl(c.evidence_url)) err(file, `certification ${c.program} needs evidence_url from the certifier's listing`);
     if (!DATE.test(c.verified_on ?? '')) err(file, `certification ${c.program} needs verified_on YYYY-MM-DD`);
+    if (c.expires_on !== undefined && !DATE.test(c.expires_on)) err(file, `certification ${c.program} expires_on must be YYYY-MM-DD`);
+    if (c.expires_on && c.expires_on < new Date().toISOString().slice(0, 10)) warn(file, `certification ${c.program} approval date ${c.expires_on} has passed: recheck the certifier's listing`);
   }
   if (f.bulk_shares !== undefined && typeof f.bulk_shares !== 'boolean') err(file, 'bulk_shares must be true or false');
 

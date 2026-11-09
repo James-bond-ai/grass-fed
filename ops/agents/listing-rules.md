@@ -8,7 +8,7 @@ A US farm or ranch that raises the animals itself and sells grass-fed or pasture
 
 ## Where to find farms
 
-Use: A Greener World listings (https://agreenerworld.org/get-involved/meet-certified-producers/), the American Grassfed Association producer directory (https://www.americangrassfed.org/aga-membership/producer-members/), state agriculture department programs, university extension directories, USDA Local Food Directories, and web searches such as "grass-fed beef farm [town or region] [state]".
+Use: A Greener World listings (https://agreenerworld.org/get-involved/meet-certified-producers/), the American Grassfed Association producer directory (https://www.americangrassfed.org/aga-membership/producer-members/), the USDA small producer grass-fed lists (beef: https://www.ams.usda.gov/sites/default/files/media/LSOfficialListingBeefGrassFedProgram.pdf , sheep: https://www.ams.usda.gov/sites/default/files/media/LSOfficialListingGrassFedSheepProgram.pdf ), state agriculture department programs, university extension directories, USDA Local Food Directories, and web searches such as "grass-fed beef farm [town or region] [state]".
 
 Do NOT use Eatwild or LocalHarvest as sources at all, not even for names. Their terms protect their listings.
 
@@ -27,7 +27,7 @@ Open the farm's own website with WebFetch. Every listing must be confirmed again
    - `percentage`: describes a mixed or percentage diet.
    - `pastured`: describes pasture access without a grass-only diet (typical for pork, poultry, eggs).
    - `unknown`: nothing specific. When ambiguous, choose the more cautious category.
-4. Certifications: add one only if you find the farm in that certifier's own public listing. Put that listing page's URL in `evidence_url`. A logo or claim on the farm's site alone is not enough. Programs: `aga`, `agw-grassfed`, `awa`, `opt`, `usda-organic`.
+4. Certifications: add one only if you find the farm in that certifier's own public listing. Put that listing page's URL in `evidence_url`. A logo or claim on the farm's site alone is not enough. Programs: `aga`, `agw-grassfed`, `awa`, `opt`, `usda-organic`, `usda-svs-grass-fed`. Add `usda-svs-grass-fed` only from the USDA lists above, never from a farm saying "USDA certified" or from an FSIS label approval, and only when the listed Renewal Date has not passed; put the list's PDF in `evidence_url`, its certificate number in `cert_id`, `USDA AMS` in `body`, and the Renewal Date in `expires_on`.
 5. `bulk_shares: true` only if the site offers quarter, half or whole animals (or "freezer beef" shares).
 6. Delivery and shipping: record exactly where the farm says it delivers and ships, in a `delivery` object (see format). Use the farm's own wording for local areas (towns, counties, metro areas, "within 50 miles of the farm"). For shipping, use "nationwide" only if the site says it ships anywhere in the continental US or nationwide; otherwise list the state abbreviations it names. If the site doesn't say, leave the field empty rather than guessing. Pickup points away from the farm (drop sites, processors, markets) go in `pickup_locations`.
 7. Dairy: if the farm sells dairy from its own herd, list what it sells in `dairy_products` and add the dairy species. Leave out dairy the farm resells from other farms. Use `raw-milk` only when the site clearly says the milk is raw (unpasteurized), and note that raw milk is legal only in some states; never add anything about health.

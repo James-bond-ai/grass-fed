@@ -21,7 +21,17 @@
     "verbatim": "They eat nothing but grass in our pastures.",
     "source_url": "https://kcgrassfedbeef.com/our-grass-fed-beef/"
   },
-  "certifications": [],
+  "certifications": [
+    {
+      "body": "USDA AMS",
+      "program": "usda-svs-grass-fed",
+      "cert_id": "GF6078MHA",
+      "evidence_url": "https://www.ams.usda.gov/sites/default/files/media/LSOfficialListingBeefGrassFedProgram.pdf",
+      "evidence_note": "Listed as \"KC Grassfed Beef\" (Lawson, MO; contact email at kcgrassfedbeef.com), cattle, effective 2026-03-19, in USDA's SVS Grass Fed listing revised 2026-11-05.",
+      "verified_on": "2026-11-09",
+      "expires_on": "2028-03-19"
+    }
+  ],
   "sales_channels": [
     "online-order",
     "local-delivery",

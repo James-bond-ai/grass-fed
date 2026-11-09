@@ -10,7 +10,7 @@ import { loadPublishedFarms } from './farms.mjs';
 export const CERT_GUIDE = '/guides/grass-fed-certifications-compared/';
 
 // Display order: grass-only seals, the welfare seal, then the organic labels.
-export const CERT_ORDER = ['aga', 'agw-grassfed', 'opt', 'awa', 'usda-organic', 'usda-organic-dairy', 'usda-organic-pasture'];
+export const CERT_ORDER = ['aga', 'agw-grassfed', 'opt', 'usda-svs-grass-fed', 'awa', 'usda-organic', 'usda-organic-dairy', 'usda-organic-pasture'];
 
 export const CERT_PAGES = {
   aga: {
@@ -67,6 +67,24 @@ export const CERT_PAGES = {
       'We could not find a public list of OPT certified farms, so this page can only show farms we were able to confirm.',
     ],
     related: ['usda-organic', 'aga', 'agw-grassfed'],
+  },
+  'usda-svs-grass-fed': {
+    h1: 'USDA small producer grass-fed farms',
+    tagline: 'Grass-only diet, USDA desk audit',
+    one: 'USDA small producer grass-fed farm',
+    many: 'USDA small producer grass-fed farms',
+    section: 'usda-svs',
+    lede: "Farms approved under USDA's Grass Fed Program for Small and Very Small Producers, each one confirmed in USDA's published list of approved operations.",
+    gives: [
+      'Cattle and sheep eat only grass and forage for life, apart from milk before weaning. Grain and grain by-products are not allowed.',
+      'Continuous access to pasture during the growing season.',
+      "Approval lasts two years, and every approved operation is named on USDA's public list.",
+    ],
+    lacks: [
+      'Open only to small producers: 49 or fewer cattle marketed a year, or lambs from 99 or fewer ewes.',
+      'Approval starts with a desk audit of the application. An on-site audit may be required, so a farm on this list may not have been visited.',
+    ],
+    related: ['aga', 'agw-grassfed', 'opt'],
   },
   awa: {
     h1: 'Animal Welfare Approved farms',

@@ -104,6 +104,7 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
             c.program === 'usda-organic' ? <>, certified by {c.body}. The farm's animals are certified organic, so its meat, eggs or milk can be sold as organic. Confirmed in the <a href={c.evidence_url} rel="nofollow">USDA Organic Integrity Database</a> on {fmtDate(c.verified_on)}.</>
             : c.program === 'usda-organic-dairy' ? <>, certified by {c.body}. These dairy products are certified organic: {(c.products ?? []).map((p) => DAIRY_PRODUCTS[p] ?? p).join(', ')}. The farm's animals are not certified. Confirmed in the <a href={c.evidence_url} rel="nofollow">USDA Organic Integrity Database</a> on {fmtDate(c.verified_on)}.</>
             : c.program === 'usda-organic-pasture' ? <>, certified by {c.body}. The farm's pasture or hay is certified organic, but its animals are not, so its meat and milk can't be sold as organic. Confirmed in the <a href={c.evidence_url} rel="nofollow">USDA Organic Integrity Database</a> on {fmtDate(c.verified_on)}.</>
+            : c.program === 'usda-svs-grass-fed' ? <>. Confirmed in <a href={c.evidence_url} rel="nofollow">USDA's list of approved operations</a> on {fmtDate(c.verified_on)}{c.expires_on ? <>; approval runs to {fmtDate(c.expires_on)}</> : null}.</>
             : <>. Confirmed in the <a href={c.evidence_url} rel="nofollow">certifier's listing</a> on {fmtDate(c.verified_on)}.</>}</li>
         ))}
       </ul>
