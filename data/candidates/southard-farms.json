@@ -1,0 +1,59 @@
+{
+  "id": "southard-farms",
+  "slug": "southard-farms",
+  "farm_name": "Southard Farms",
+  "city": "Madison",
+  "state": "AL",
+  "zip": "35756",
+  "address_public": false,
+  "social_urls": [],
+  "certifications": [],
+  "farmers_markets": [
+    "Isom's Orchard, Athens"
+  ],
+  "bulk_shares": false,
+  "dairy_products": [],
+  "data_source": "web-search",
+  "website": "https://southardfarm.com/",
+  "phone": "",
+  "species": [
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "pasture-raised pork",
+    "chicken",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "We are producing pasture raised pork, chicken, turkey, and eggs outdoors on a rotational grazing system",
+    "source_url": "https://southardfarm.com/"
+  },
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order",
+    "farmers-market",
+    "retail",
+    "restaurants"
+  ],
+  "delivery": {
+    "local_areas": [
+      "Athens",
+      "Madison",
+      "Huntsville"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "S&J Produce, Madison (retail)",
+      "Isom's Orchard, Athens (eggs, retail and summer to fall market)"
+    ],
+    "source_url": "https://southardfarm.com/products/"
+  },
+  "ordering_url": "https://southardfarm.com/products/",
+  "source_url": "https://southardfarm.com/",
+  "notes": "Feed is grown and milled on the farm (wheat and alfalfa are grown; soybeans grown and sold); hogs have free-choice feed. Chickens rotated daily on fresh pasture. Eggs are from free-ranging hens on alfalfa fields. Farm pickup Monday, Wednesday, Friday 4 to 5pm and Sunday noon to 1pm; delivery Monday and Tuesday evenings by flat rate per zip. Restaurants include Farm Burger, Huntsville and Continental Bakery, Birmingham. Homepage mentions turkey; products page does not, so turkey is not listed separately. No phone found on the site."
+}

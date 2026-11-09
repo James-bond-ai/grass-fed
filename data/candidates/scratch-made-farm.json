@@ -1,0 +1,54 @@
+{
+  "id": "scratch-made-farm",
+  "slug": "scratch-made-farm",
+  "farm_name": "Scratch Made Farm",
+  "city": "Trussville",
+  "state": "AL",
+  "zip": "",
+  "address_public": false,
+  "social_urls": [],
+  "certifications": [],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "dairy_products": [],
+  "data_source": "web-search",
+  "website": "https://scratchmadefarm.com/",
+  "phone": "205-568-8222",
+  "species": [
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "whole chicken",
+    "eggs",
+    "turkey deposit"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our birds are moved daily to fresh pastures, giving them access to new ground to explore",
+    "source_url": "https://scratchmadefarm.com/"
+  },
+  "sales_channels": [
+    "local-delivery",
+    "online-order"
+  ],
+  "delivery": {
+    "local_areas": [
+      "greater Birmingham area"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Community drops, greater Birmingham (locations on site)"
+    ],
+    "source_url": "https://scratchmadefarm.com/shop"
+  },
+  "ordering_url": "https://scratchmadefarm.com/shop",
+  "source_url": "https://scratchmadefarm.com/",
+  "availability": {
+    "status": "available",
+    "note": "Eggs listed out of stock on 2026-11-09.",
+    "checked_on": "2026-11-09"
+  },
+  "notes": "Birds get a certified organic, non-GMO, soy-free feed; FAQ says the chicken and eggs themselves are not certified organic; broiler ration lists corn among ingredients. Site has unfilled placeholder text in places and staging-host canonical tags. Phone is listed as text only. Turkey pickup dated November 21."
+}

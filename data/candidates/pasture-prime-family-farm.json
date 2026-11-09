@@ -1,0 +1,47 @@
+{
+  "id": "pasture-prime-family-farm",
+  "slug": "pasture-prime-family-farm",
+  "farm_name": "Pasture Prime Family Farm",
+  "city": "Oxford",
+  "state": "FL",
+  "zip": "34484",
+  "address_public": false,
+  "website": "https://www.pastureprimewagyu.com/",
+  "phone": "352-266-9504",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry"
+  ],
+  "products": [
+    "Wagyu beef cuts",
+    "chicken",
+    "turkey"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "All of the Wagyu beef we sell on our farm has never been fed any grain.",
+    "source_url": "https://www.pastureprimewagyu.com/faq/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://www.pastureprimewagyu.com/faq/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://shop.pastureprimewagyu.com/",
+  "data_source": "web-search",
+  "source_url": "https://www.pastureprimewagyu.com/",
+  "resold_note": "Also sells Berkshire pork from a co-op of family farmers and premium grade Australian Wagyu raised on a grain ration.",
+  "notes": "Verifier: the FAQ grain statement conflicts with homepage wording about carrying grain-fed Australian Wagyu; category reflects the farm's own herd. Pickup at the farm on Saturdays 9 to 11am; site says it ships throughout the US by UPS. Contact page map points to Wildwood while the address is Oxford. Shop subdomain blocked fetching, so product list unread."
+}

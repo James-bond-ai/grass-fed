@@ -1,0 +1,55 @@
+{
+  "id": "green-heart-farm",
+  "slug": "green-heart-farm",
+  "farm_name": "Green Heart Farm",
+  "city": "Springfield",
+  "state": "VT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://greenheartfarm.com",
+  "phone": "802-279-5740",
+  "social_urls": [],
+  "species": [
+    "lamb",
+    "beef",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "whole Icelandic lamb",
+    "Dexter beef halves and wholes",
+    "chicken",
+    "turkey",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Pastured, Grass Fed and Finished",
+    "source_url": "https://greenheartfarm.squarespace.com/vermont-grass-fed-dexter-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Local USDA butcher (lamb, day it is ready)"
+    ],
+    "source_url": "https://greenheartfarm.squarespace.com/meat-poultry"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://greenheartfarm.squarespace.com/online-shop/meat/lamb",
+  "data_source": "web-search",
+  "source_url": "https://greenheartfarm.com",
+  "availability": {
+    "status": "waitlist",
+    "note": "Beef and lamb reservations open by mailing list notice; not currently open.",
+    "checked_on": "2026-11-09"
+  },
+  "notes": "Lamb page says 100% grass-fed, supplementing only with organic herbs, minerals, kelp and salt, and no grain. Site read at greenheartfarm.squarespace.com, canonical domain greenheartfarm.com; homepage blocked fetching. Whole lamb only, beef by half or whole."
+}

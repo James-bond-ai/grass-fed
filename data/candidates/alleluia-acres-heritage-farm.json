@@ -1,0 +1,48 @@
+{
+  "id": "alleluia-acres-heritage-farm",
+  "slug": "alleluia-acres-heritage-farm",
+  "farm_name": "Alleluia Acres Heritage Farm",
+  "city": "Alabaster",
+  "state": "AL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://alleluiaacresheritagefarm.com/",
+  "phone": "205-835-9500",
+  "social_urls": [],
+  "species": [
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "pastured pork",
+    "half and whole hogs",
+    "chicken",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Pastured and supplemented with organic feed without corn, soy, canola or wheat!",
+    "source_url": "https://alleluiaacresheritagefarm.com/half-whole-hogs/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://alleluiaacresheritagefarm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://alleluiaacresheritagefarm.com/product-category/pastured-meat-eggs/",
+  "data_source": "web-search",
+  "source_url": "https://alleluiaacresheritagefarm.com/",
+  "notes": "On-farm pickup and self-serve mini market Monday and Saturday 1 to 6pm. Half and whole hog deposits, processor or farm pickup. Site also sells raw A2 cow and raw goat milk as pet food; source herd not stated on pages read, so dairy not listed. Site claims Certified Naturally Grown since 2024; not verified with the certifier, so no certification added."
+}

@@ -1,0 +1,50 @@
+{
+  "id": "north-hollow-farm",
+  "slug": "north-hollow-farm",
+  "farm_name": "North Hollow Farm",
+  "city": "Rochester",
+  "state": "VT",
+  "zip": "05767",
+  "address_public": false,
+  "website": "https://vermontgrassfedbeef.com/",
+  "phone": "802-767-4255",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "frozen beef cuts",
+    "beef sides",
+    "pork",
+    "bacon",
+    "hot dogs",
+    "kielbasa",
+    "maple syrup"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are fed throughout the spring, summer and autumn on grass and clover pastures, and fed and finished during the winter on our own silage and hay.",
+    "source_url": "https://vermontgrassfedbeef.com/about-our-products/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://vermontgrassfedbeef.com/our-farmstore/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://store.vermontgrassfedbeef.com",
+  "data_source": "web-search",
+  "source_url": "https://vermontgrassfedbeef.com/",
+  "resold_note": "Farm store also sells milk and other dairy from Monument Farms.",
+  "notes": "Site says 100% grass-fed since 2003 and that everything the cattle eat is produced at the farm. Farm store open Monday to Saturday 10 to 6, Sunday noon to 5. Beef sold by the cut or side. Site mentions delivering to customers but names no area, so local delivery not listed. Pork sells out quickly. Our-family-farm page failed to load."
+}

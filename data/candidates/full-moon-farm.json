@@ -1,0 +1,49 @@
+{
+  "id": "full-moon-farm",
+  "slug": "full-moon-farm",
+  "farm_name": "Full Moon Farm",
+  "city": "Gardiner",
+  "state": "NY",
+  "zip": "12525",
+  "address_public": false,
+  "website": "https://www.fullmoonfarmny.com/",
+  "phone": "845-629-1462",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "pork cuts",
+    "lamb",
+    "pastured eggs",
+    "sampler boxes"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Grass finished",
+    "source_url": "https://www.fullmoonfarmny.com/our-meat-1"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.fullmoonfarmny.com/menus"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.fullmoonfarmny.com/",
+  "resold_note": "Chicken is sourced from another generational chicken farmer.",
+  "notes": "Our-meat page says cattle eat non-GMO grasses and balage through winter. Farm store open 24/7 self-serve, cash, check or Venmo. Menus page says no longer offering bulk orders of quarters or halves, while a bulk pricing page still lists samplers. Lamb gets supplemental feed; pork feed not stated. No shipping or delivery found."
+}

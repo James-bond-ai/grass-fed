@@ -1,0 +1,50 @@
+{
+  "id": "snug-valley-farm",
+  "slug": "snug-valley-farm",
+  "farm_name": "Snug Valley Farm",
+  "city": "East Hardwick",
+  "state": "VT",
+  "zip": "05836",
+  "address_public": false,
+  "website": "https://snugvalleyfarm.com/",
+  "phone": "802-472-6185",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "frozen beef cuts",
+    "pork"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "All of our grass-fed beef is grass-finished and tasty.",
+    "source_url": "https://snugvalleyfarm.com/vermont-farm-products/grass-fed-beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "farm-pickup",
+    "local-delivery",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Northern Vermont"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://snugvalleyfarm.com/where-to-buy/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://snugvalleyfarm.grazecart.com/",
+  "data_source": "web-search",
+  "source_url": "https://snugvalleyfarm.com/",
+  "notes": "Verifier: homepage says the farm uses family-run farms for sourcing animals; beef page describes 12 to 16 months at Snug Valley on grass and own hay, so young stock appears bought in and finished here. Year-round farmstand daily 8am to 6pm. Sold at many Vermont stores and restaurants plus Codman Community Farm Store (Lincoln, Mass.) and Archway Farm (Keene, NH). Limited grass-fed lamb about February to April; origin not stated, so not listed."
+}

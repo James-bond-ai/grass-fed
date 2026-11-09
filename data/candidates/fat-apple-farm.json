@@ -1,0 +1,58 @@
+{
+  "id": "fat-apple-farm",
+  "slug": "fat-apple-farm",
+  "farm_name": "Fat Apple Farm",
+  "city": "Pine Plains",
+  "state": "NY",
+  "zip": "",
+  "address_public": false,
+  "website": "https://fatapple.farm/",
+  "phone": "518-965-6655",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "eggs"
+  ],
+  "products": [
+    "beef boxes",
+    "pork boxes",
+    "whole and half hogs",
+    "grass-fed lamb",
+    "pastured eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "grass-fed beef",
+    "source_url": "https://fatapple.farm/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order",
+    "ships-regional",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [
+      "NY",
+      "NJ",
+      "CT",
+      "MA",
+      "VT"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://fatapple.farm/shop"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://fatapple.farm/shop",
+  "data_source": "web-search",
+  "source_url": "https://fatapple.farm/",
+  "notes": "Homepage bullets: grass-fed beef, pastured pork, grass-fed lamb, pastured eggs; no finishing statement found. Farm store open 24/7, self-serve or pre-order. FedEx to the Northeast states named, flat $30, shipped Thursdays. Whole or half hog is pickup only. Retail at Fulton Stall Market, New York. Zip differs between pages (11102 and 12567), so left blank. Meta description also names goats, ducks, chickens and turkeys, not on the shop pages read. Contact page failed."
+}

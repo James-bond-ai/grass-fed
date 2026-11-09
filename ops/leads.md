@@ -7,11 +7,11 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Goose Pond Farm, Hartselle (raisedonpasture.com); Whitesell Farms, Cullman (whitesellfarms.com) and North Alabama Wagyu (northalabamawagyu.com): fetch blocked 2026-11-06
 - Five Sons Farm, Elkmont/Huntsville area (fivesonsfarm.net): grass-fed and grass-finished, but no products, way to buy or town yet 2026-11-06
 - Par5 Livestock (par5livestock.com), town unknown; Cottonwood Farm & Grocery, Florence (cottonwood-farm.com, may be a grocery): fetch blocked 2026-11-06
-- Unchecked north: Dennis Farms, Ranburne (dennis-farms.com); Farm 47, Henagar; Stegall Farms, Arab; Rapid River USDA Beef and Pork, Woodville (Huntsville Food Hub vendors, own sites not found); Southard Farms, Madison; Alleluia Acres Heritage Farm, Alabaster; Marble Creek Farmstead, Sylacauga (marblecreekfarmstead.com)
+- Dennis Farms, Ranburne (dennis-farms.com): fetch blocked 2026-11-09. Unchecked north: Farm 47, Henagar; Stegall Farms, Arab; Rapid River USDA Beef and Pork, Woodville (Huntsville Food Hub vendors, own sites not found); Marble Creek Farmstead, Sylacauga (marblecreekfarmstead.com): fetch blocked 2026-11-09
 - Bois d'Arc Farm (BDA Farm), Uniontown (bdafarm.com): grass-finished, but about page says it sells live cattle to local farms to finish; may not sell direct 2026-11-06
 - C-4 Cattle Co., Grand Bay (bombassbeef.com): fetch blocked; Krauss Beef, Baldwin County (kraussbeef.com), Wildberry Cattle Farm (wildberrycattlefarm.com), Laid Back Acres (laidbackacres.org): robots block fetching; Lillian Cattle Company, Lillian (lilliancattlecompany.com): site error 2026-11-06
 - 4M Cattle Farm (4mcattlefarm.com): no town or way to buy; 3D Cattle Co, Enterprise (3dcattleco.com): linked freezer beef site gives a Texas address and conflicting details 2026-11-06
-- Bama Beef sales directory (bamabeef.org): Cowpen Creek Farms, Robertsdale; J-M Cattle, Notasulga; Bigbee Beef, Gilbertown; Brushy Creek Cattle Co, Repton (fetch blocked 2026-11-06); CK Cattle, Hope Hull (ckcattle.com) and Wagyu of Alabama, Selma (wagyuofalabama.com) unchecked; Flying K Farm, Lapine, DHD Farms, Troy, Tim Tucker Farms, Uriah: no website
+- Bama Beef sales directory (bamabeef.org): Cowpen Creek Farms, Robertsdale; J-M Cattle, Notasulga; Bigbee Beef, Gilbertown; Brushy Creek Cattle Co, Repton (fetch blocked 2026-11-06); CK Cattle, Hope Hull (ckcattle.com) fetch blocked 2026-11-09; Wagyu of Alabama, Selma (wagyuofalabama.com) unchecked; Flying K Farm, Lapine, DHD Farms, Troy, Tim Tucker Farms, Uriah: no website
 - Drysdale Family Farms, Enterprise (chicken, eggs): Facebook only; Narrow Gap Farm, Brewton (narrowgapfarm.webs.com): unchecked
 
 ## AK
@@ -51,7 +51,8 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 
 ## GA
 - Goshen Family Farm; Riverview Farms; Burge Organic Farms (all blocked fetching)
-- Mountain Valley Farm & Store, Ellijay (grassfedgeorgia.com): grass-fed dry-aged beef, farm store; site redirect loop between http and https 2026-11-04 and again 2026-11-05
+- Mountain Valley Farm & Store, Ellijay (grassfedgeorgia.com): grass-fed dry-aged beef, farm store; site redirect loop between http and https 2026-11-04 and again 2026-11-05; fetch blocked 2026-11-09
+- Stone Mountain Cattle: partner ranch named by H.E.R.O Farms (rejected), grass-fed, pasture-finished; own site not looked for 2026-11-09
 - Lily Hill Farm (lilyhillcattle.com): ships and local pickup, but says "grass and grain finished" and names no town; unchecked further 2026-11-05
 - Dyer Livestock Beef, Trenton (Beef Shop): grass-fed and grain finished, ships; only a squarespace preview domain, home and shop pages blocked 2026-11-05
 - Osborn Farms, Hiawassee: Facebook and Instagram only, no own website 2026-11-05
@@ -88,7 +89,10 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Unchecked: Terrace Ridge Farm (terraceridgefarm.com); Smithview Farm (smithviewfarm.com)
 
 ## NY
-- Kinderhook Farm, Valatie/Ghent (kinderhookfarm.com, shop kinderhookfarm.square.site): 100% grassfed beef and lamb, meatshare; own site not surfaced by search and fetch blocked 2026-11-05
+- Kinderhook Farm, Valatie/Ghent (kinderhookfarm.com, shop kinderhookfarm.square.site): 100% grassfed beef and lamb, meatshare; own site not surfaced by search and fetch blocked 2026-11-05 and 2026-11-09
+- Grassroots Farm, Stone Ridge (grassroots-farm.com): per Hudson Valley Bounty listing 100% grass-fed beef, CSA, regional shipping; own site fetch blocked 2026-11-09
+- Dirty Dog Farm, Germantown/Clermont (dirtydogfarm.com): per Hudson Valley Bounty listing 100% grass-fed beef, pastured chickens, online store; own site fetch blocked 2026-11-09
+- Home Farm, Amenia: own site not found, a search link went to an unrelated company 2026-11-09
 - Spring Lake Farm, Delhi area (springlakefarmny.com): grass-fed beef and lamb per a 2010 article; fetch blocked 2026-11-05
 - Raw milk permit holders not yet checked (sites blocked fetching): Essex Farm, Remembrance Farm, Byebrook, Side Hill Acres, Hoofprint, 3-Corner Field Farm, Stone Thistle, Asgaard Farm, Edgwick Farm
 
@@ -128,6 +132,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Jolly Barnyard (jollybarnyard.com) moved from Nashville TN to Lewisburg KY in 2020; beef "grass fed and grass finished" per its FAQ, but how to buy is unclear (FAQ points to Porter Road butcher)
 
 ## TX
+- Field to Family, College Station (shopfieldtofamily.com): grass-fed, corn-finished beef, ships, local delivery; own site read 2026-11-09, TX already over 15
 - DMD Ranch, Paige (bison), DMD-Ranch.com: fetch blocked 2026-10-27
 - Jolie Vue Farms (jolievuefarms.com), Dewberry Hills Farm, Mill-King Market & Creamery (dairy): fetch blocked 2026-10-27
 - Lightsey Farms; Yonder Way Farm, Fayetteville: no farm website found in search
@@ -158,9 +163,11 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Pine Woods Farm, West Pawlet (pinewoodsfarm.com): robots blocks fetching 2026-11-05
 - Beaver Meadow Farm, Shrewsbury (beavermeadowfarmvt.com): grass-fed beef sides, quarters, boxes; site names no way to buy or contact 2026-11-05
 - Ancestral Farm, White River Junction (ancestralfarmvt.my.canva.site): 100% grass fed beef cuts sold by email order, no pickup or delivery stated 2026-11-05
-- Maple Wind Farm, Richmond (maplewindfarm.com): beef, pork, poultry, eggs, ships to Northeast; no feeding statement beyond Grass-fed Beef collection title on pages read 2026-11-05
-- MKVT Farm, Glover (mkvtfarm.com): mixed species, pork and lamb get grain, 2026 sold out except beef; beef page unread 2026-11-05
-- Smith Family Meats (smithfamilymeats.com), Stargrazer Farm (stargrazerfarm.com): unchecked 2026-11-05
+- Maple Wind Farm, Richmond (maplewindfarm.com): beef, pork, poultry, eggs, ships to Northeast; no feeding statement beyond Grass-fed Beef collection title on pages read 2026-11-05; homepage fetch blocked 2026-11-09
+- MKVT Farm, Glover (mkvtfarm.com): beef page says beef is grown locally by farmer friends (not its own), 2026 grass-fed sold out; homepage blocked, other species unread 2026-11-09
+- Smith Family Meats (smithfamilymeats.com), Stargrazer Farm (stargrazerfarm.com): fetch blocked 2026-11-09
+- Vermont Natural Beef, Benson (vermontnaturalbeef.com): site says not taking new orders, no feeding wording on pages read 2026-11-09
+- Jericho Settlers Farm, Jericho (jerichosettlersfarm.com): redirect not followed and homepage blocked 2026-11-09
 
 ## WA
 - American Alps Ranch, Marblemount (americanalpsranch.com): robots blocks fetching 2026-11-03
@@ -174,3 +181,6 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Morning Breeze Farm, Hortonville and Brand Acres Beef, Greenleaf: AGW Certified Grassfed beef, but no own website found 2026-11-01 (Facebook and AGW listing only)
 - Riemer Family Farm (riemerfamilyfarm.com redirects to riemerprovisions.com, fetch not permitted 2026-11-01)
 - St. Isidore's Dairy, Osseo (no own website found 2026-11-01); LoveTree Farmstead, Grantsburg; Swiss Frau Farm, Mayville; Eckerman Sheep, Antigo; Dreamfarm, Cross Plains; Udder Brothers Creamery, Boscobel; Klemish Creamery, New Auburn; Ruegsegger Farms; Castle Rock Organic Farms
+
+## IL
+- The Log Cabin Ranch, Ina (thelogcabinranch.com): 100% grass-fed and finished beef, pastured pork and chicken, farm store, ships 48 states; own site read 2026-11-09, ready to write up when Scout reaches IL

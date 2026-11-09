@@ -1,0 +1,44 @@
+{
+  "id": "oak-clover-pastures",
+  "slug": "oak-clover-pastures",
+  "farm_name": "Oak Clover Pastures",
+  "city": "Citronelle",
+  "state": "AL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://oakcloverpastures.com/",
+  "phone": "251-224-6646",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole cow",
+    "half cow"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Whole 100% grass-fed, grass-finished cow.",
+    "source_url": "https://oakcloverpastures.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://oakcloverpastures.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://oakcloverpastures.com/",
+  "data_source": "web-search",
+  "source_url": "https://oakcloverpastures.com/",
+  "notes": "Mobile County. Sells whole and half cows, quarter not offered, shipping or pickup with ice packs; site names no shipping area. Site does not say outright who raises the cattle beyond from our pastures. A testimonial links it to Cowpen Creek. Only one page available; FAQ answers did not render."
+}

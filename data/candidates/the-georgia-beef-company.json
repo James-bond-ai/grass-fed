@@ -1,0 +1,45 @@
+{
+  "id": "the-georgia-beef-company",
+  "slug": "the-georgia-beef-company",
+  "farm_name": "The Georgia Beef Company",
+  "city": "Lexington",
+  "state": "GA",
+  "zip": "30648",
+  "address_public": false,
+  "website": "https://www.georgiabeefcompany.com/",
+  "phone": "706-255-8494",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "grass-finished Black Angus beef",
+    "grain-finished Black Angus beef"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "Grass finished beef for Atlanta and North Georgia from the Georgia Beef Company comes from cattle raised on grass pastures only, as the name implies.",
+    "source_url": "https://www.georgiabeefcompany.com/grass-finished"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Processor pickup (arranged after deposit)"
+    ],
+    "source_url": "https://www.georgiabeefcompany.com/how-to-purchase"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.georgiabeefcompany.com/how-to-purchase",
+  "data_source": "web-search",
+  "source_url": "https://www.georgiabeefcompany.com/",
+  "resold_note": "Pork is sourced from nearby farms.",
+  "notes": "Buyer pays a deposit on a live animal and picks up from the processor; site names no whole, half or quarter sizes on pages read, so bulk_shares is false. About page says the family owns the Bridges Angus Farm herd and the company markets cattle born and raised in Georgia; site refers to our cattle but does not state outright the company raises them. Grass-finished page also shows a 100% High Quality Grains badge, conflicting with its grass pastures wording. Separate grain-finished line uses corn and oats as a supplement."
+}

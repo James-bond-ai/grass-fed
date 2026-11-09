@@ -1,0 +1,45 @@
+{
+  "id": "piersons-farm",
+  "slug": "piersons-farm",
+  "farm_name": "Pierson's Farm",
+  "city": "Middletown",
+  "state": "NY",
+  "zip": "10940",
+  "address_public": false,
+  "website": "https://www.piersonsfarm.com/",
+  "phone": "845-386-1882",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "frozen beef by the pound",
+    "frozen pork by the pound",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Our own grass-fed (corn-finished) beef and farm-raised pork, frozen, by the pound",
+    "source_url": "https://www.piersonsfarm.com/visit/farm-store/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.piersonsfarm.com/visit/farm-store/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.piersonsfarm.com/",
+  "notes": "Black Angus beef, grass-fed with a corn finish per the site. Farm store year round by appointment; call or text to set up, and pumpkins and gifts in fall. Pork feed not stated. Eggs limited supply. No shipping, delivery, CSA or market wording found."
+}
