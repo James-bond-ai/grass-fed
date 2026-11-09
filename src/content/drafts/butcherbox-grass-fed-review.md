@@ -97,7 +97,7 @@ Here is what single items and bulk bundles of the grass-fed line cost on the sam
 
 Neither bundle page states a total weight. We added up the listed packs (for example, eight 2 pound packs of ground beef in the Quarter-Cow Box) to get the weights above, using the 1 pound size shown on the product list for one item the bundle page did not weigh. Some cuts are listed as approximate, so your box may differ by a few pounds. Promotions and coupon codes do not apply to either bundle.
 
-For context, the most common way to buy a quarter is straight from a farm. Using USDA's direct-to-consumer averages from September 2025, our [quarter cow guide](/guides/how-to-buy-a-quarter-cow/) estimates about $11 a pound of take-home meat for a grass-finished quarter, and that number varies a lot by region and farm. A farm quarter also tends to be bigger: often 100 pounds or more. So ButcherBox's bundle price is in a similar range, but you are buying a fixed mix of cuts from imported cattle, not a share of one animal cut to your instructions.
+For context, the most common way to buy a quarter is straight from a farm. Using USDA's direct-to-consumer averages from September 2025, our [quarter cow guide](/guides/how-to-buy-a-quarter-cow/) estimates about $11 a pound of take-home meat for a grass-finished quarter. Those USDA averages are general direct-to-consumer prices, not grass-fed prices, and the number varies a lot by region and farm. A farm quarter also tends to be bigger: often 100 pounds or more. So ButcherBox's bundle price is in a similar range, but you are buying a fixed mix of cuts from imported cattle, not a share of one animal cut to your instructions.
 
 ## How the subscription works
 
@@ -109,7 +109,7 @@ For context, the most common way to buy a quarter is straight from a farm. Using
 
 ## Freezer space
 
-A full box is easy to fit. A bundle is not. Oklahoma State University Extension says to allow about 1 cubic foot of freezer space for every 35 to 40 pounds of cut and wrapped beef. By that rule, our estimate is that the Quarter-Cow Box (about 85 pounds) needs roughly 2 to 2.5 cubic feet and the Half-Cow Box (about 151 pounds) needs roughly 4 to 4.5 cubic feet. Measure your freezer before you order a bundle. See [quarter vs half vs whole cow](/guides/quarter-vs-half-vs-whole-cow/) for help sizing a freezer.
+A full box is easy to fit. A bundle is not. Oklahoma State University Extension says to allow about 1 cubic foot of freezer space for every 35 to 40 pounds of cut and wrapped beef. By that rule, our estimate is that the Quarter-Cow Box (about 85 pounds) needs roughly 2 to 2.5 cubic feet and the Half-Cow Box (about 151 pounds) needs roughly 3.8 to 4.3 cubic feet. Measure your freezer before you order a bundle. See [quarter vs half vs whole cow](/guides/quarter-vs-half-vs-whole-cow/) for help sizing a freezer.
 
 ## Who it suits, and who it doesn't
 

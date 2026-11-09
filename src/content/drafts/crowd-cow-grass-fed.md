@@ -35,8 +35,8 @@ Everything below comes from Crowd Cow's own website, read on November 6, 2026: i
 
 Crowd Cow sorts its beef into categories. Two matter here:
 
-- **100% Grass Fed.** The grass-fed collection page describes grass-finished cattle as raised on mother's milk and forage only. Forage means grass, hay and other plants the animal grazes or is fed, not grain. The main beef page calls this line "100% grass-fed, grass-finished."
-- **Pasture Raised.** The main beef page says these animals graze on grass but finish "on wholesome grains." In other words, Crowd Cow's pasture-raised beef is grain-finished. "Pasture-raised" describes where an animal spent time, not what it ate at the end.
+- **100% Grass Fed.** The grass-fed collection page describes grass-finished cattle as raised on mother's milk and forage only. Forage means grass, hay and other plants the animal grazes or is fed, not grain. The main beef page describes this line as both 100% grass-fed and grass-finished.
+- **Pasture Raised.** The main beef page says these animals graze on grass but are finished on grain. In other words, Crowd Cow's pasture-raised beef is grain-finished. "Pasture-raised" describes where an animal spent time, not what it ate at the end.
 
 That distinction is the single most useful thing to know before you shop. Our guide to [grass-fed vs grass-finished](/guides/grass-fed-vs-grass-finished/) explains why the finishing diet matters and what the USDA label rules do and don't require.
 

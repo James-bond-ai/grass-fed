@@ -7,6 +7,32 @@ One entry per review, newest first: date, file, decision (published or returned)
 - kansas-city-grass-fed-beef: label added (certificate GF6078MHA, runs to 2028-03-19). Resolves the 2026-11-02 doubt about its "USDA certified grass-fed" claim.
 - jj-obrien-ranch: on the beef list (GF4302MHA) but its renewal date, 2026-10-28, has passed, so no label added. Verifier: recheck the list and add it if USDA shows a renewal.
 - Not yet updated: the published guide grass-fed-certifications-compared does not mention this program.
+### Weekly compliance run
+Review could not be done. Every WebFetch call in this run (about 240 URLs across 10 checkers) failed with PROVENANCE_REQUIRED: the permission request was not answered in time, and the error says not to retry. This run is unattended, so nobody could approve it. Per _common.md, web work stopped. No retries, and no shell or search route around the block. The failures say nothing about the sites or the claims.
+
+- butcherbox-grass-fed-review, crowd-cow-grass-fed, butcherbox-vs-crowd-cow: NOT decided. No source opened, so none published. Not returned either, because no fault was found that needs the Writer. All three stay `in-review` for the next run.
+- Repo-only checks passed: validator clean, no em dashes, word counts 1,739, 1,960 and about 1,997 (the comparison is close to the 2,000 limit), arithmetic in all price tables correct except as fixed below.
+- Small fixes made from the repo alone:
+  - butcherbox-grass-fed-review: Half-Cow freezer space corrected from 4 to 4.5 to 3.8 to 4.3 cubic feet (151 lb at 35 to 40 lb per cubic foot).
+  - butcherbox-grass-fed-review: added that the USDA averages behind the $11 estimate are not grass-fed prices, matching how-to-buy-a-quarter-cow.
+  - crowd-cow-grass-fed: two quotes from /shop/beef paraphrased, leaving one ("unnecessary antibiotics") under the one-quote-per-source rule.
+- To settle at the next review, once sources open:
+  - ButcherBox shipping: review says free on all boxes; comparison says free on subscription orders only, with charges possible on one-time and a la carte orders.
+  - ButcherBox delivery: review gives 2 to 5 business days only; comparison also gives 1 to 3 days.
+  - ButcherBox $8.52 to $15.23 range: comparison says a footnote ties it to a free protein for 12 months; review has no caveat, and $8.52 equals the box table's lowest per-pound figure.
+  - ButcherBox ribeye: comparison shows a struck-through $35.00 beside the $38.50 list price; the two may be reversed.
+  - The Market: review says no grass-fed beef was listed, but its own 1 lb ground beef source is a shop.butcherbox.com/market URL.
+  - Crowd Cow: review mentions a Pando New York strip tagged 100% Grass Fed that is missing from its supplier and price tables, and says one US item was sold out where the comparison says twelve grass-fed listings were.
+  - Crowd Cow pack sizes: comparison shows ground beef and burger patties at 1 lb for $14.99; the review and best-grass-fed-beef-delivery show 2 x 1 lb at $29.98.
+  - Crowd Cow wording: "mostly Uruguay" is 6 of 11 listings and "only a handful" of US items is 5 of 11; soften if the counts hold.
+  - Writer's flag still open: ButcherBox's FAQ reportedly says grass-finished, while published best-grass-fed-beef-delivery says ButcherBox uses "100% grass-fed" instead. Not changed.
+- Monday audit: none due. All published articles were reviewed 2026-10-26 or later, under 90 days ago.
+- Legal-status content: none in this batch.
+- Google rating matches: data/ratings/google.json has no entries, so 0 pending, 0 confirmed, 0 rejected.
+
+### Farm re-check
+Not done. 84 farms in scope (Verifier, last_verified_at 2026-11-08: 70 published, 14 unpublished), 0 checked, 84 blocked. No listing changed, no last_verified_at set, nothing unpublished. No random farms were eligible: every other farm was checked within 60 days.
+CARRY OVER: the next run must include every farm with last_verified_at 2026-11-08, even though that date is before this run. A "changed since last run" filter would miss them.
 
 ## 2026-11-02
 - best-grass-fed-beef-delivery: published. Every table row checked against the services' own pages on 2026-11-02: ButcherBox ($8.00 per lb, 100% grass-fed, Australian grass-fed and Certified Humane or GAP per FAQ), US Wellness ($13.98; 25 lb bundle $297, $11.88 per lb; free shipping at 15 lb; Canton, MO), Grass Roots ($13.95, $62.75, $149 or $35 shipping, Land to Market, central Arkansas), White Oak Pastures ($14.99, $374.75 bundle, 10% off, $15 and $249 shipping), Force of Nature ($14.99, $40 under $189), Crowd Cow ($29.98, $19.99 and $149). Also USDA AMS April 2024 report and FSIS notice 09-24. Prices unchanged, dates now read "rechecked November 2, 2026". Changes: replaced an unverified Crowd Cow "Grain Finished" Montana claim with the "Pasture Raised" badge seen on the page; softened the Crowd Cow mix and Land to Market wording; dropped ribeye figures and the direct-to-consumer label from the USDA paragraph (sales channel unclear in the report) and labeled the comparison as our reading; removed a link to an unpublished farm (Hickory Nut Gap); cut a second Force of Nature quote; "AND" to "and" in the White Oak quote; sources updated. Could not fetch the White Oak 1 lb page or the Crowd Cow ground beef product page. 1,903 words.
