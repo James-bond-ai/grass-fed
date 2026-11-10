@@ -1,0 +1,46 @@
+{
+  "id": "vera-earl-ranch",
+  "slug": "vera-earl-ranch",
+  "farm_name": "Vera Earl Ranch",
+  "city": "Sonoita",
+  "state": "AZ",
+  "zip": "85637",
+  "address_public": true,
+  "address": "3282 Hwy 82, Sonoita, AZ",
+  "website": "https://www.veraearlranch.com/",
+  "phone": "(520) 455-9317",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "bulk beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "They’re finished on a carefully balanced corn-based ration and taken to harvest only when they’re truly ready",
+    "source_url": "https://www.veraearlranch.com/premium-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.veraearlranch.com/premium-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.shopvepremiumbeef.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://fillyourplate.org/find-farm-product/vera-earl-premium-beef",
+  "notes": "Family ranch since 1968 with Black Angus and cross cattle, grazing native grass; also leases and partners with the Empire and Sands ranches. Site heading says grass-raised, grain-finished on a locally sourced corn and hay ration. Store has a Bulk & Shares section but no share sizes seen, so bulk_shares left false. Online store not opened, so delivery or shipping options unchecked. Storefront and office at the Hwy 82 address."
+}

@@ -29,6 +29,8 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Lazy L Beef Co and Diablo Beef homepages also fetch blocked 2026-11-08
 - Single Star Ranch, southern Arizona (singlestarranch.com): meta says "Grass-Fed (Fodder Fed)" mixed quarters; body text not returned, town and way to buy unknown 2026-11-08
 - Black Ranch, Prescott: seen in a directory only, not checked 2026-11-08
+- Windmill Mountain Ranch (windmillmountainranch.com, town unknown); Lazy L, Diablo Beef and Single Star homepages fetch blocked again 2026-11-10
+- Unchecked names from the Arizona Farm Bureau Fill Your Plate and US Farm Trail directories: Quarter Circle H Angus LLC, Taylor; Diamond K Grassfed Beef; Yubeta Cattle Co; Sonoita Grasslands Custom Beef, Sonoita; Forbes Meat Company (may be a processor) 2026-11-10
 
 ## AR
 - Ozark Pasture Beef, LLC (ozarkpasturebeef.com): 100% grassfed and grass-finished beef and lamb, pastured pork, delivers in NW Arkansas and Little Rock, Local Line store; a partnership of farms and no town on pages that loaded, about page server error 2026-11-08
@@ -36,7 +38,12 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Barham's Ozark Beef, Conway (barhamsozarkbeef.com): bulk beef, no feeding wording on buy page, homepage fetch blocked 2026-11-08
 - Sumner Beef Farms, Carlisle (sumnerbeef.com): Arkansas Grown listing says grass fed and/or finished on non-GMO corn; own site fetch blocked 2026-11-08
 - Myers Farms, NW Arkansas (myersfarmsnwa.com) and Broke Tree Ranch (broketreeranch.com): robots block fetching 2026-11-08
-- Unchecked: Arkansas Beef Directory (arbeef.org/aca-beef-directory); Ozark Family Farm (Arkansas Grown listing)
+- Unchecked: Ozark Family Farm (Arkansas Grown listing)
+- Lil Cypress Creek Heritage Farms, Conway (lccheritagefarms.com, grass-fed beef, lamb, poultry, milk) and Broken Spur Ranch, Lonoke (broken-spur-ranch.com, grass-fed, grain-finished): http/https redirect loop 2026-11-10
+- Gann Farm Raised, Benton (gannfarmraised.com, beef, chicken, pork, eggs, raw milk): about page says cows eat grass, other pages robots blocked 2026-11-10
+- Peaceful River Farm, Evening Shade (peacefulriverfarm.farm) and Sossamon Farms, Ozark (mtnbeef.com): sites not surfaced by search 2026-11-10
+- Arkansas Beef Directory names with grass or pasture wording but no website: Stonewall Creek Ranch, Searcy (grass-fed and finished); Uekman Farms, Quitman (grass-finished); White Farms, Harrison (pasture-raised and finished); Rock Creek Farm, Romance (grass-fed); Hall Farms, Mountain Home (grass-fed); Calhoun Land & Cattle, Little Rock (pasture-raised) 2026-11-10
+- The Riley Homestead, Conway (pastured chicken, duck, turkey, eggs; Conway Farmers Market): Facebook only, no website 2026-11-10
 
 ## CA
 - Llano Seco, Chico (llanoseco.com blocks fetching)
@@ -94,6 +101,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Dirty Dog Farm, Germantown/Clermont (dirtydogfarm.com): per Hudson Valley Bounty listing 100% grass-fed beef, pastured chickens, online store; own site fetch blocked 2026-11-09
 - Home Farm, Amenia: own site not found, a search link went to an unrelated company 2026-11-09
 - Spring Lake Farm, Delhi area (springlakefarmny.com): grass-fed beef and lamb per a 2010 article; fetch blocked 2026-11-05
+- Freedom Farms, Greene (wearefreedomfarms.com): grass-fed, grass-finished beef shares, pork, chicken, eggs, ships nationwide; a product page says the beef comes from the Great Plains, so check whether it raises its own cattle; homepage fetch blocked 2026-11-10
 - Raw milk permit holders not yet checked (sites blocked fetching): Essex Farm, Remembrance Farm, Byebrook, Side Hill Acres, Hoofprint, 3-Corner Field Farm, Stone Thistle, Asgaard Farm, Edgwick Farm
 
 ## OH

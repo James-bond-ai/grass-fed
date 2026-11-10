@@ -1,0 +1,54 @@
+{
+  "id": "new-dawn-farm",
+  "slug": "new-dawn-farm",
+  "farm_name": "New Dawn Farm",
+  "city": "Cove",
+  "state": "AR",
+  "zip": "71937",
+  "address_public": true,
+  "address": "134 Polk Road 20 W, Cove, AR 71937",
+  "website": "https://www.newdawnfarmar.com/",
+  "phone": "214-536-9660",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef",
+    "chicken",
+    "eggs",
+    "bone broth"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "producing pasture raised poultry and grass finished beef.",
+    "source_url": "https://www.newdawnfarmar.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Rogers, AR monthly drop (904 S 13th Street)",
+      "Mena, AR monthly drop",
+      "Pine Bluff, AR drop",
+      "Rockwall, TX monthly drop"
+    ],
+    "source_url": "https://newdawnfarmar.com/delivery_location/nw-arkansas"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.newdawnfarmar.com/shop.php",
+  "data_source": "web-search",
+  "source_url": "https://www.arbeef.org/aca-beef-directory",
+  "notes": "Raising cattle on pasture for over 25 years and chickens for 5+; poultry on pasture with organic, soy and corn free supplemental feed. Feeding quote is from the homepage meta description; shop category is Pasture Finished Beef. Mena, Pine Bluff and Rockwall drop pages not opened. No bulk shares seen on pages read (bundles page unchecked)."
+}

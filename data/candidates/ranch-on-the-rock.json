@@ -1,0 +1,56 @@
+{
+  "id": "ranch-on-the-rock",
+  "slug": "ranch-on-the-rock",
+  "farm_name": "Ranch on the Rock",
+  "city": "Maysville",
+  "state": "AR",
+  "zip": "72747",
+  "address_public": true,
+  "address": "9350 N Stateline Rd, Maysville, AR 72747",
+  "website": "https://www.ranchontherock.com/",
+  "phone": "479-291-0024",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole beef",
+    "half beef",
+    "quarter beef",
+    "beef packages",
+    "individual cuts"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We only offer meat that is finished when fresh, green grass is available.",
+    "source_url": "https://www.ranchontherock.com/ranch_wp/wp-content/uploads/2019/04/current_prices.pdf"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Northwest Arkansas",
+      "Northeast Oklahoma"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Pickup at the processor (SWC Processing)"
+    ],
+    "source_url": "https://www.ranchontherock.com/ranch_wp/wp-content/uploads/2019/04/current_prices.pdf"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.allaboutarkansas.com/best-grass-fed-beef-farms-in-arkansas/",
+  "availability": {
+    "status": "waitlist",
+    "note": "The farm says its processor is booked out over a year and it may have to stop selling beef; buyers are asked to get on the list.",
+    "checked_on": "2026-11-10"
+  },
+  "notes": "Beefmaster and Beefmaster or Angus cross cattle sold by hanging weight; order by email or text (479-719-0102). Price sheet PDF (uploaded 2019) says beef is finished only when green grass is available and that a protein supplement is fed in drought and winter; homepage title says grass fed, grass finished; Verifier to judge whether grass-finished holds. Delivery at a per-mile fee, no towns named; the area wording comes from the homepage title."
+}

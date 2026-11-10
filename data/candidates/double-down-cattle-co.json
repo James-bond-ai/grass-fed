@@ -1,0 +1,47 @@
+{
+  "id": "double-down-cattle-co",
+  "slug": "double-down-cattle-co",
+  "farm_name": "Double Down Cattle Co.",
+  "city": "Van Buren",
+  "state": "AR",
+  "zip": "72956",
+  "address_public": true,
+  "address": "7630 Uniontown Highway, Van Buren, AR 72956",
+  "website": "https://doubledowncattle.com/",
+  "phone": "(479) 222-7098",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter beef",
+    "half beef",
+    "whole beef",
+    "individual cuts"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "derived from cattle that are pasture-raised, grass-fed, and grain-finished.",
+    "source_url": "https://doubledowncattle.com/products/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://doubledowncattle.com/contact/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/doubledowncattle/all",
+  "data_source": "web-search",
+  "source_url": "https://www.arbeef.org/aca-beef-directory",
+  "notes": "Black Angus cow/calf operation started 2021, selling its own home-raised beef. Local deliveries offered, no towns named; visits by appointment. Individual cuts only when in stock."
+}

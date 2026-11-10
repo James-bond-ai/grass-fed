@@ -1,0 +1,61 @@
+{
+  "id": "lb-farm",
+  "slug": "lb-farm",
+  "farm_name": "L&B Farm",
+  "city": "Willcox",
+  "state": "AZ",
+  "zip": "85643",
+  "address_public": true,
+  "address": "8695 N Ingram Road, Willcox, AZ 85643",
+  "website": "https://www.lb-farm.com/",
+  "phone": "(520) 507-8241",
+  "social_urls": [],
+  "species": [
+    "pork",
+    "lamb",
+    "goat",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "pork",
+    "lamb",
+    "goat",
+    "chicken",
+    "turkey",
+    "duck",
+    "eggs",
+    "lard",
+    "chicken broth"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "pasture-based care for all our livestock, including pigs, chickens, goats, lambs, ducks, and turkeys.",
+    "source_url": "https://www.lb-farm.com/general-9"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Rillito Park Farmers Market, Tucson (Sundays except the third)",
+    "Arrowhead Farmers Market, Glendale (third Saturday)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Pre-order pickup at its farmers market booths"
+    ],
+    "source_url": "https://www.lb-farm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.lb-farm.com/orderform",
+  "data_source": "web-search",
+  "source_url": "https://www.lb-farm.com/",
+  "resold_note": "Also sells beef from Rafter M Meats of Willcox at its market booths.",
+  "notes": "Homepage says inventory is low, especially chicken, and orders may move to the next available date. No grass-fed claim; pasture wording only. Farm visits by call or email."
+}

@@ -1,0 +1,69 @@
+{
+  "id": "san-rafael-valley-grass-fed-beef",
+  "slug": "san-rafael-valley-grass-fed-beef",
+  "farm_name": "San Rafael Valley Grass Fed Beef",
+  "city": "Patagonia",
+  "state": "AZ",
+  "zip": "85624",
+  "address_public": false,
+  "website": "https://www.srvbeef.com/",
+  "phone": "(520) 841-2420",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "short ribs",
+    "organ meats",
+    "soup bones",
+    "tallow",
+    "chorizo",
+    "breakfast sausage",
+    "summer sausage",
+    "beef bacon"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "live their whole lives free range, eating native Arizona grass and drinking pure water",
+    "source_url": "https://www.srvbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "local-delivery",
+    "farm-pickup",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [
+    "Heirloom Farmers' Market at Steam Pump Ranch, Oro Valley (Saturday)",
+    "Rillito Farmers Market, Tucson (Sunday)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Sierra Vista",
+      "Green Valley",
+      "Phoenix metro",
+      "Tucson",
+      "Vail",
+      "Rio Rico"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Order pickup at any of its farmers markets",
+      "Sierra Vista meetup in front of ACE Hardware on Fry Blvd"
+    ],
+    "source_url": "https://www.srvbeef.com/markets/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://fillyourplate.org/find-farm-product/lazy-2-ranch-san-rafael-cattle-company/",
+  "resold_note": "Also sells the Harris Family's wood smoked pork bacon.",
+  "notes": "Angus-Hereford cross cattle born on the Lazy J2 Ranch in the San Rafael Valley; 2025 price list is headed 100% grass fed from birth to harvest. Farm visits by appointment. Delivery fees apply. Only cured products (summer sausage, bacon) ship by USPS, fresh beef does not, so no shipping recorded. Price list also shows eggs and a Local Arizona Free Range Beef line with no source stated; Verifier to check. Retail at Red Mountain Foods and Gathering Grounds, Patagonia."
+}

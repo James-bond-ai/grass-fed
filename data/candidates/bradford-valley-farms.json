@@ -1,0 +1,50 @@
+{
+  "id": "bradford-valley-farms",
+  "slug": "bradford-valley-farms",
+  "farm_name": "Bradford Valley Farms",
+  "city": "Damascus",
+  "state": "AR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://bvf.eatfromfarms.com/",
+  "phone": "503-803-9253",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef",
+    "pork",
+    "lamb",
+    "chicken",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is grass fed and finished.",
+    "source_url": "https://bvf.eatfromfarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://bvf.eatfromfarms.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.allaboutarkansas.com/best-grass-fed-beef-farms-in-arkansas/",
+  "notes": "Farm site (Eat From Farms store) names no town; Damascus comes from a 2021 to 2022 Arkansas blog listing, Verifier to confirm. Sells from the farm most days by text or call, and through Bramble Market (Little Rock), Me and McGhee Market (North Little Rock) and Bell Urban Farmstand (Conway). Chickens raised on grass most of their life, eggs pasture raised, pigs graze and root, sheep moved in tractors to new grass. bradfordvalleyfarms.com did not surface in search."
+}

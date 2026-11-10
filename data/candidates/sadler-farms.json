@@ -1,0 +1,45 @@
+{
+  "id": "sadler-farms",
+  "slug": "sadler-farms",
+  "farm_name": "Sadler Farms",
+  "city": "Greenwood",
+  "state": "AR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.sadler-farms.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole beef",
+    "half beef",
+    "ground beef",
+    "roasts"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "We supply families pasture raised, grain-fed finished, Prime Quality beef.",
+    "source_url": "https://www.sadler-farms.com/about-our-farm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.sadler-farms.com/faq"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.allaboutarkansas.com/best-grass-fed-beef-farms-in-arkansas/",
+  "notes": "Black Angus born and raised on the farm (FAQ). Whole and half beef priced by hanging weight; meat is brought back to the farm for pickup and the FAQ says they can also deliver, no area named. Homepage, shop and contact pages are blocked by robots, so phone, address and shop items are unchecked."
+}

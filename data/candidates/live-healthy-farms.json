@@ -1,0 +1,57 @@
+{
+  "id": "live-healthy-farms",
+  "slug": "live-healthy-farms",
+  "farm_name": "Live Healthy Farms",
+  "city": "Bonnerdale",
+  "state": "AR",
+  "zip": "71933",
+  "address_public": true,
+  "address": "1001 Caddo Gap Rd, Bonnerdale, AR 71933",
+  "website": "https://www.livehealthyfarms.com/",
+  "phone": "214-862-3869",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "eggs",
+    "dairy-cow"
+  ],
+  "products": [
+    "whole steer",
+    "half steer",
+    "beef cuts",
+    "raw milk",
+    "eggs",
+    "beef tallow"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass fed and GRASS FINISHED.",
+    "source_url": "https://www.livehealthyfarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.livehealthyfarms.com/perishables"
+  },
+  "dairy_products": [
+    "raw-milk"
+  ],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.livehealthyfarms.com/",
+  "availability": {
+    "status": "waitlist",
+    "note": "Beef sold out for 2025; the farm takes a waitlist for 2026 by text or call.",
+    "checked_on": "2026-11-10"
+  },
+  "notes": "Site title says Hot Springs; address is Bonnerdale. Grass-fed Angus sold as whole or half steers and by the cut; perishables (beef, eggs, raw A2 milk) are pickup only at the farm, appointment and gate code for new customers. Raw milk is sold for personal use only and is legal to sell only in some states. Only non-perishables (tallow, tinctures) ship, so no meat shipping recorded. Store hours differ between pages."
+}
