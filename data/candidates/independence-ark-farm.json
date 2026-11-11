@@ -1,0 +1,49 @@
+{
+  "id": "independence-ark-farm",
+  "slug": "independence-ark-farm",
+  "farm_name": "Independence Ark Farm",
+  "city": "Mount Pleasant",
+  "state": "AR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.independenceark.com/",
+  "phone": "205-887-6201",
+  "social_urls": [
+    "https://www.instagram.com/independenceark"
+  ],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "50, 100 and 200 lb beef bundles",
+    "beef boxes",
+    "beef bones",
+    "ham",
+    "tallow products"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Pasture raised, Grass-Fed and Finished",
+    "source_url": "https://www.independenceark.com/product-page/quarter-grass-fed-cow"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://www.independenceark.com/shipping-and-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.independenceark.com/grass-fedbeef",
+  "data_source": "web-search",
+  "source_url": "https://www.independenceark.com/",
+  "notes": "Babac family; homestead in Independence County, newer ranch in Mount Pleasant, contact area also lists Sulphur Rock. Ships to the continental US by UPS or FedEx. Most beef is pre-order, expected to ship Dec 2026; ham out of stock. FAQ says purchased stocker calves are kept on a forage only diet and sweet feed is used only to load cattle onto the trailer. About page says the family raises pasture-raised hogs, but the ham page says only sourced from pasture-raised pork; Verifier to confirm pork is raised on the farm. Arkansas customers email about local pickup or delivery."
+}

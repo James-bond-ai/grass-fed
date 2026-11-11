@@ -1,0 +1,37 @@
+{
+  "id": "bodine-farms",
+  "slug": "bodine-farms",
+  "farm_name": "Bodine Farms",
+  "city": "Hartly",
+  "state": "DE",
+  "zip": "19953",
+  "address_public": true,
+  "address": "1652 Hourglass Rd., Hartly, DE 19953",
+  "website": "https://www.bodinefarm.com/",
+  "phone": "302-632-2427",
+  "social_urls": [],
+  "species": ["beef", "pork"],
+  "products": ["bulk beef", "bulk pork", "ground beef patties", "beef tongue", "pork roasts", "ground pork", "sausages", "bratwurst", "kielbasa", "ham roast"],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Our cows also have access to chopped corn silage and grains such as beans, corn kernels along with vitamins and minerals.",
+    "source_url": "https://www.bodinefarm.com/about-the-farm"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "online-order", "local-delivery"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": 20,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.bodinefarm.com/shipping-and-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.bodinefarm.com/",
+  "data_source": "state-program",
+  "source_url": "https://agriculture.delaware.gov/communications-marketing/farmstands-guide/",
+  "resold_note": "Also sells eggs from hens kept on a different farm, contract-raised chicken, and products from other local family farms.",
+  "notes": "Bodine Farms Meat Market; store hours Monday, Wednesday and Friday 1 to 5 pm, Saturday 10 am to 3 pm. Homepage tagline says pasture raised; about page says cows have year-round access to hay and pigs to pasture and hay, both also fed grains, so category set to percentage. Local delivery Wednesdays up to 20 miles from the farm, fee by distance; site says it does not ship. Bulk beef (whole, half, quarter) and bulk pork were out of stock on 2026-11-11 while retail pork cuts were available. Shop lists lamb cuts and the about page mentions lamb once; Verifier to check whether lamb is raised on the farm before adding it. Eggs and chicken treated as not raised by the farm itself."
+}

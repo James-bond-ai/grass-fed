@@ -1,0 +1,63 @@
+{
+  "id": "shady-oaks-farms",
+  "slug": "shady-oaks-farms",
+  "farm_name": "Shady Oaks Farms",
+  "city": "Greenwood",
+  "state": "AR",
+  "zip": "72936",
+  "address_public": false,
+  "website": "https://www.shadyoaksfarms.net/",
+  "phone": "(479) 461-9223",
+  "social_urls": [
+    "https://www.facebook.com/ShadyOaksFarms"
+  ],
+  "species": [
+    "poultry",
+    "eggs",
+    "dairy-cow"
+  ],
+  "products": [
+    "whole chickens",
+    "chicken livers",
+    "chicken gizzards",
+    "eggs",
+    "raw milk",
+    "honey"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "The fresh grass is supplemented with an Arkansas sourced Non-GMO feed helping to support the rapid growth rate of the breed.",
+    "source_url": "https://www.shadyoaksfarms.net/pastured-poultry"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "local-delivery",
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Greenwood Farmers Market, Sebastian County Fairgrounds (1st Saturday, May to September)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Greenwood",
+      "Fort Smith"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Satellite milk pickup sites three times a week (locations emailed to subscribers)"
+    ],
+    "source_url": "https://www.shadyoaksfarms.net/beef-2"
+  },
+  "dairy_products": [
+    "raw-milk"
+  ],
+  "ordering_url": "https://shadyoaksfarmsstore.com",
+  "resold_note": "Also sells grass-fed, grain-finished beef from a partner producer in Sebastian County and sourdough bread from a local baker.",
+  "data_source": "web-search",
+  "source_url": "https://www.shadyoaksfarms.net/beef-2",
+  "notes": "Sarah and Casey Craig. On-farm store about 1 mile outside Greenwood off Hwy 10. Raw milk from its own A2 Jersey cow herd, $10 per gallon, waitlist sign-up; raw milk is legal only in some states. Milk page says Arkansas law allows raw milk sales only on the farm so it does not deliver, but the Satellite Pickup page offers milk at local pickup sites for a $2 fee; Verifier to check. Egg page says hens are not free-ranged and get seasonal grass access in a movable tractor. Also raises Kunekune pigs and Mini Lamancha goats, not seen for sale. Shopify store not checked."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "b-and-b-farms",
+  "slug": "b-and-b-farms",
+  "farm_name": "B&B Farms",
+  "city": "Townsend",
+  "state": "DE",
+  "zip": "19734",
+  "address_public": true,
+  "address": "1019 Caldwell Corner Road, Townsend, DE 19734",
+  "website": "https://bbfarmsde.com/",
+  "phone": "",
+  "social_urls": ["https://www.facebook.com/bbfarms.townsend.de/"],
+  "species": ["beef", "pork", "lamb", "poultry", "eggs"],
+  "products": ["dry-aged beef cuts", "ground beef", "pork cuts", "scrapple", "ground lamb", "lamb stew meat", "whole chickens", "chicken cuts", "seasonal turkeys", "eggs", "bundle boxes", "pork halves and quarters"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our animals are all raised on our land, moving around the pasture grazing and foraging.",
+    "source_url": "https://www.bbfarmsde.com/about"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.bbfarmsde.com/faqs"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/bbfarmsde/all",
+  "data_source": "web-search",
+  "source_url": "https://bbfarmsde.com/products/",
+  "notes": "On-the-farm meat market in Townsend; winter hours Saturday to Monday 10 am to 4 pm per contact page. About page says the farm also makes its own supplemental feed from farm-grown corn and seeds, so beef is not grass-only. Poultry and eggs described as pasture-raised; pork and beef described as natural. Bulk beef (whole, half, quarter) reserved by contacting the farm; pork halves and quarters in the online store. Site names no delivery or shipping; the Barn2Door store did not render, so Verifier should check its fulfillment options. No phone on site."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "stuart-family-farm",
+  "slug": "stuart-family-farm",
+  "farm_name": "Stuart Family Farm",
+  "city": "Bridgewater",
+  "state": "CT",
+  "zip": "06752",
+  "address_public": true,
+  "address": "191 Northrup Street, Bridgewater, CT 06752",
+  "website": "https://www.stuartfamilyfarm.com/",
+  "phone": "860-355-0172",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "grass-fed beef cuts",
+    "quarter beef",
+    "pork cuts",
+    "smoked pork",
+    "chicken",
+    "eggs",
+    "dry rubs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We do not feed our cattle grain, corn, or starches of any kind.",
+    "source_url": "https://www.stuartfamilyfarm.com/grass-fed-beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Statewide in Connecticut"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.stuartfamilyfarm.com/meat-order-home-delivery-application/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.stuartfamilyfarm.com/",
+  "notes": "Farm store Saturdays 10 to 4 and Sundays 12 to 4; about 800 acres in New Milford, Bridgewater and Roxbury. Beef page says 100% grass fed, grass finished. Bulk quarter beef and side or quarter of pork; pigs forage on grass and hay with seasonal fruit and vegetables. Does not ship. Delivery page says statewide home delivery is available but also that online ordering for home delivery is no longer available; Verifier to confirm delivery is current. Site shows AWA and certified grassfed logos but the farm was not found on the AGW Connecticut beef listing, so no certification added. Poultry and egg pages not read."
+}

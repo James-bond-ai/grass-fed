@@ -1,0 +1,51 @@
+{
+  "id": "saguaro-juniper",
+  "slug": "saguaro-juniper",
+  "farm_name": "Saguaro Juniper",
+  "city": "Cascabel",
+  "state": "AZ",
+  "zip": "",
+  "address_public": false,
+  "website": "https://saguarojuniper.org/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/pages/Saguaro-Juniper-Corp/381961841897868"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter, half and whole beef (roasts, steaks, stew meat, ground beef)"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Nearly everything our cattle eat is a local plant product.",
+    "source_url": "https://saguarojuniper.org/pastoralism/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Tucson",
+      "Willcox"
+    ],
+    "source_url": "https://saguarojuniper.org/pastoralism/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "availability": {
+    "status": "waitlist",
+    "note": "Waitlist for fall 2026 or 2027 beef; join by emailing beef@saguarojuniper.org.",
+    "checked_on": "2026-11-11"
+  },
+  "data_source": "web-search",
+  "source_url": "https://beefnear.me/states/arizona/",
+  "notes": "Non-profit 501(c)(3) conservation and community cattle ranch on the Middle San Pedro River near Cascabel. Older site saguaro-juniper.com/food/beef.html is headed Saguaro Juniper Natural Grass-fed Beef; current site says no urea or animal products fed and does not mention grain or finishing, so category grass-fed. Beef is picked up cut, wrapped and frozen in Tucson or Willcox, not at the ranch; farm-pickup used as the closest channel. January 2026 price $5 per lb hanging weight plus packing house fee."
+}

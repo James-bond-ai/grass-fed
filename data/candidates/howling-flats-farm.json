@@ -1,0 +1,72 @@
+{
+  "id": "howling-flats-farm",
+  "slug": "howling-flats-farm",
+  "farm_name": "Howling Flats Farm",
+  "city": "Canaan",
+  "state": "CT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.howlingflatsfarm.com/",
+  "phone": "(860) 379-8961",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "short ribs",
+    "rose veal",
+    "soup and marrow bones",
+    "tallow",
+    "suet",
+    "bacon",
+    "pork chops",
+    "sausage"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "sourced from Angus cattle that graze freely on rich, nutritious grasslands.",
+    "source_url": "https://www.howlingflatsfarm.com/products/beef-short-ribs-certified-humane-ground-angus-beef"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/connecticut/north-canaan/beef-1/howling-flats-farm-llc/",
+      "verified_on": "2026-11-11"
+    }
+  ],
+  "sales_channels": [
+    "online-order",
+    "farm-pickup",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [
+      "CT",
+      "MA",
+      "NY",
+      "NJ",
+      "NH",
+      "VT",
+      "ME",
+      "PA"
+    ],
+    "pickup_locations": [
+      "19 Raymond Avenue, Canaan, CT (pre-paid orders)"
+    ],
+    "source_url": "https://www.howlingflatsfarm.com/policies/shipping-policy"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.howlingflatsfarm.com/collections/nourishing-bites",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/category/beef-1/united-states/connecticut",
+  "resold_note": "Also sells chicken, duck and seafood from an unnamed sourced freezer selection.",
+  "notes": "AGW lists it as Animal Welfare Approved for beef (town North Canaan); farm site says Canaan. Product pages call the beef grass-fed and pasture-raised with no finishing statement. Ships by FedEx on Tuesdays to CT, MA, NY, NJ, NH, VT, southern Maine and eastern Pennsylvania; homepage also says Rhode Island, which the shipping policy omits. Site shows a Certified Humane badge but not checked on that certifier, so not added. Verifier to confirm pork is raised on the farm and whether chicken or duck are farm-raised."
+}

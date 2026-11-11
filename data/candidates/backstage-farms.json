@@ -1,0 +1,57 @@
+{
+  "id": "backstage-farms",
+  "slug": "backstage-farms",
+  "farm_name": "Backstage Farms",
+  "city": "Calico Rock",
+  "state": "AR",
+  "zip": "72519",
+  "address_public": false,
+  "website": "https://backstagefarms.com/",
+  "phone": "317-294-9991",
+  "social_urls": [
+    "https://www.facebook.com/people/Jerry-Horne-Backstage-Farms/100078561853141/"
+  ],
+  "species": [
+    "poultry",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "pasture-raised chicken",
+    "Berkshire pork",
+    "eggs",
+    "seasonal vegetables"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our Pasture-Raised Poultry roam freely on lush pastures, foraging for a natural diet.",
+    "source_url": "https://www.backstagefarms.com/products"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Mountain Home Farmers Market, 5th and South St. (Wednesday and Saturday, April to November)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Calico Rock",
+      "Norfolk",
+      "Jordan",
+      "Mountain Home"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.backstagefarms.com/contact"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/backstagefarms/all",
+  "data_source": "state-program",
+  "source_url": "https://arkansasgrown.org/listing/backstage-farms-llc/",
+  "notes": "Jerry Horne, farm started in 2022. Pork is described as forest-raised in wooded areas. Eggs appear only in the site meta description and the Arkansas Grown listing. Barn2Door store (prices, availability, fulfillment) could not be fetched; Verifier to check it. Delivery town written as Norfolk on the site (likely Norfork, AR)."
+}

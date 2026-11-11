@@ -1,0 +1,54 @@
+{
+  "id": "baldwin-brook-farm",
+  "slug": "baldwin-brook-farm",
+  "farm_name": "Baldwin Brook Farm",
+  "city": "Canterbury",
+  "state": "CT",
+  "zip": "06331",
+  "address_public": true,
+  "address": "176 Depot Road, Canterbury, CT 06331",
+  "website": "https://baldwinbrookfarm.com/",
+  "phone": "401-419-1214",
+  "social_urls": [],
+  "species": [
+    "dairy-cow",
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "raw milk",
+    "grass-fed beef",
+    "pork cuts",
+    "whole chickens",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "They “snack” on handfuls of grain during the few minutes in the milking parlor",
+    "source_url": "https://baldwinbrookfarm.com/milk/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://baldwinbrookfarm.com/faq/"
+  },
+  "dairy_products": [
+    "raw-milk"
+  ],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://baldwinbrookfarm.com/",
+  "resold_note": "Farm store also sells cheese, yogurt, butter and ice cream from other creameries, plus baked goods and pantry items from other producers.",
+  "notes": "Jersey dairy: site says cows are grass-fed, pasture May to October and grass hay November to April, no corn or corn silage, plus handfuls of grain in the milking parlor, so category set to pastured as the cautious choice; Verifier to confirm. Raw milk is sold at the self-serve farm store (Mon to Sat 10 to 6) and the farm delivers it to over 50 Connecticut retail stores and farm stands; raw milk retail sale is legal only in some states. Meats page: beef from grass-fed and grass-finished Jersey cattle (limited), pigs on forest and pasture with natural grain, chickens eat grass and a conventional grain mix. No home delivery and no shipping per FAQ. Eggs page not read."
+}

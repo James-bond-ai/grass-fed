@@ -1,0 +1,62 @@
+{
+  "id": "devon-point-farm",
+  "slug": "devon-point-farm",
+  "farm_name": "Devon Point Farm",
+  "city": "North Stonington",
+  "state": "CT",
+  "zip": "06359",
+  "address_public": true,
+  "address": "54 Jeremy Hill Road, North Stonington, CT 06359",
+  "website": "https://devonpointfarm.com/",
+  "phone": "(860) 942-6292",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "burger patties",
+    "roasts",
+    "stew meat",
+    "short ribs",
+    "soup bones",
+    "organ meats",
+    "sampler box",
+    "bacon",
+    "ham",
+    "pork chops",
+    "sausage",
+    "pork roasts"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We raise and sell 100% Gourmet Grass Fed, Grass Finished Beef, Pasture Raised, Humanely Raised",
+    "source_url": "https://devonpointfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Woodstock, CT (every other week)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Woodstock, CT"
+    ],
+    "source_url": "https://devonpointfarm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://devonpointfarm.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://devonpointfarm.com/",
+  "notes": "American Milking Devon beef: quarter and half beef by hanging weight, sampler box, individual cuts by appointment. Heritage Red Wattle x Gloucester Old Spot pigs sold as half or whole, fed a whole grain mix with room to forage, so pork is not grass-fed. Pork page still refers to Summer 2019 dates and a move to North Stonington; Verifier to check pork is current. Open by appointment only. No shipping stated. About and online shop pages were blocked by robots for the fetcher."
+}

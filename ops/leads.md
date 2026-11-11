@@ -22,23 +22,30 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Wolverine Farm LLC, Palmer (wolverinefarm.blogspot.com, beef and hay): not fetched 2026-11-07
 
 ## AZ
-- Arizona Grass Raised Beef Co, Prescott Valley (azgrassraisedbeef.com): works with partner ranchers as well as own operations; unclear if it raises what it sells 2026-11-07
+- Arizona Grass Raised Beef Co, Prescott Valley or Scottsdale (azgrassraisedbeef.com): sells own beef plus beef from partner AGA ranchers, products from the two sources not told apart, no town on site 2026-11-11
 - Lazy L Beef Co, Chino Valley (lazylbeef.com): no way to buy found on homepage, other pages unchecked 2026-11-07
 - Diablo Beef (Bar T Bar Ranch), Flagstaff (diablobeefaz.com): no way to buy on homepage, other pages unchecked 2026-11-07
 - Lilly Valley Farm (lillyvalleyfarm.com), Top Knot Farms (topknotfarms.com), Cruz Farm (cruzfarm.org, eggs): towns unknown, fetch blocked 2026-11-08
 - Lazy L Beef Co and Diablo Beef homepages also fetch blocked 2026-11-08
 - Single Star Ranch, southern Arizona (singlestarranch.com): meta says "Grass-Fed (Fodder Fed)" mixed quarters; body text not returned, town and way to buy unknown 2026-11-08
 - Black Ranch, Prescott: seen in a directory only, not checked 2026-11-08
-- Windmill Mountain Ranch (windmillmountainranch.com, town unknown); Lazy L, Diablo Beef and Single Star homepages fetch blocked again 2026-11-10
-- Unchecked names from the Arizona Farm Bureau Fill Your Plate and US Farm Trail directories: Quarter Circle H Angus LLC, Taylor; Diamond K Grassfed Beef; Yubeta Cattle Co; Sonoita Grasslands Custom Beef, Sonoita; Forbes Meat Company (may be a processor) 2026-11-10
+- Lazy L, Diablo Beef and Single Star homepages fetch blocked again 2026-11-10
+- Unchecked names from the Arizona Farm Bureau Fill Your Plate and US Farm Trail directories: Quarter Circle H Angus LLC, Taylor; Diamond K Grassfed Beef; Yubeta Cattle Co; Sonoita Grasslands Custom Beef, Sonoita; Forbes Meat Company (may be a processor) 2026-11-10; Quarter Circle H has no website, Diamond K and Sonoita Grasslands sites not surfaced by search 2026-11-11
+- Windmill Mountain Ranch (windmillmountainranch.com): grass-fed, grain-finished shares via Local Line, pickup at its butchering location in Buckeye, Gilbert Heritage District market; homepage title says Sedona, so town unclear; checked 2026-11-11, held back to keep the run at 15
+- Dunton Ranch Beef (duntonranchbeef.com): search title says grain finished, state and town unconfirmed; robots block fetching 2026-11-11
+- Flagstaff Family Farm, Rain Valley near Flagstaff (flagstafffamilyfarm.com): eggs and pork, CSA full; homepage has no grass or pasture wording, other pages unchecked 2026-11-11
+- Forestdale Farm, Flagstaff (forestdalefarm.com): egg CSA, no pasture wording found 2026-11-11
+- Beef Near Me Arizona directory names, no websites found: Broken Horn D Ranch, Prescott; ME Cattle, Portal; Gryphon Ranch LLC, Globe 2026-11-11
+- Snowflake Pig Farms (snowflakepigfarms.com) and Ridgeview Farm (Prescott Farmers Market vendor): unchecked 2026-11-11
 
 ## AR
-- Ozark Pasture Beef, LLC (ozarkpasturebeef.com): 100% grassfed and grass-finished beef and lamb, pastured pork, delivers in NW Arkansas and Little Rock, Local Line store; a partnership of farms and no town on pages that loaded, about page server error 2026-11-08
+- Ozark Pasture Beef, LLC (ozarkpasturebeef.com): 100% grassfed and grass-finished beef and lamb, pastured pork, delivers in NW Arkansas and Little Rock, Local Line store; a partnership of farms and no town on homepage; about, beef and pork pages robots blocked 2026-11-11
 - Wholly Cow Farms (whollycowfarms.com): grass-finished beef, online orders on hold until 2027, ships in Arkansas only; no town or county on site 2026-11-08
 - Barham's Ozark Beef, Conway (barhamsozarkbeef.com): bulk beef, no feeding wording on buy page, homepage fetch blocked 2026-11-08
 - Sumner Beef Farms, Carlisle (sumnerbeef.com): Arkansas Grown listing says grass fed and/or finished on non-GMO corn; own site fetch blocked 2026-11-08
 - Myers Farms, NW Arkansas (myersfarmsnwa.com) and Broke Tree Ranch (broketreeranch.com): robots block fetching 2026-11-08
-- Unchecked: Ozark Family Farm (Arkansas Grown listing)
+- Ozark Family Farm (Arkansas Grown listing): own site not surfaced by search 2026-11-11; Sumner Beef domain search returned nothing 2026-11-11
+- Ahillen Acres Farm, Austin (Arkansas Grown: rotationally grazed pork and chicken, free-range eggs): Facebook only 2026-11-11
 - Lil Cypress Creek Heritage Farms, Conway (lccheritagefarms.com, grass-fed beef, lamb, poultry, milk) and Broken Spur Ranch, Lonoke (broken-spur-ranch.com, grass-fed, grain-finished): http/https redirect loop 2026-11-10
 - Gann Farm Raised, Benton (gannfarmraised.com, beef, chicken, pork, eggs, raw milk): about page says cows eat grass, other pages robots blocked 2026-11-10
 - Peaceful River Farm, Evening Shade (peacefulriverfarm.farm) and Sossamon Farms, Ozark (mtnbeef.com): sites not surfaced by search 2026-11-10
@@ -51,6 +58,20 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 
 ## CO
 - Buck Up Buttercup Ranch; Lazy K's Ranch; Guthrie Cattle Company (Colorado Beef Council directory)
+
+## CT
+- Laurel Ridge Grass-Fed Beef, Litchfield (lrgfb.com): https to http redirect loop, fetch blocked twice 2026-11-11
+- Kindred Crossings (kindredcrossingsfarm.com): homepage gives no town, channels or feeding detail 2026-11-11
+- Surfaced in search, not checked: Fernandes Farmstead (fernandesfarmstead.com); Double A Ranch (doublearanch.farm); Broad Brook Beef & Pork, Broad Brook (broadbrookbeef.com); Kalenauskas Farm and Market (kalenauskasfarm.com); The Stead Farm (thesteadfarm.com); The Farm, Woodbury (thefarmwoodbury.com); CF Farms (cffarms.org); Greyledge Farm (buyctgrown.com listing only) 2026-11-11
+- Fairfield, New Haven and Middlesex counties have no farms yet
+
+## DE
+- Grass Works Meat Farm, Seaford (grassworksmeatfarm.com): feed page says cattle and lambs eat only pasture and own hay; other pages stuck in an https to http redirect loop, channels unchecked 2026-11-11
+- Dittmar Family Farms, Felton (dittmarfamilyfarms.com): grass-fed beef and lamb per Historic Lewes Farmers Market vendor page; not checked 2026-11-11
+- Ramsey's Farm, Wilmington (Wagyu and Angus beef, chickens; grass, hay and own grain): online beef ordering closed August 2025, call off-season; checked 2026-11-11, held back to keep the run at 15
+- Story Hill Farm, Frankford: pastured eggs; its store sells "Local Grass Fed" beef born in Kent County, MD, unclear if own herd; checked 2026-11-11, held back to keep the run at 15
+- Reid Angus Farm, Frankford (reidangus.com): Lewes market beef vendor, no grass wording, site unchecked 2026-11-11
+- No website (Facebook or directory only): Mahon River Farm, Dover (pastured poultry); Hudson Blooms, Harbeson (eggs); TS Smith & Sons, Bridgeville; Tomahawk Cattle, Greenwood; Beyond Wits End Farm, Harrington; Twisted Steel Cattle Company, Frederica 2026-11-11
 
 ## FL
 - E & C Cattle Ranch; JS2 Cattle; Our Ancestor's Food

@@ -1,0 +1,56 @@
+{
+  "id": "sunset-valley-farms",
+  "slug": "sunset-valley-farms",
+  "farm_name": "Sunset Valley Farms",
+  "city": "Broad Brook",
+  "state": "CT",
+  "zip": "06016",
+  "address_public": true,
+  "address": "55 Kreyssig Road, Broad Brook, CT 06016",
+  "website": "https://sunsetvalleyfarmsllc.com/",
+  "phone": "860-670-0495",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "stew meat",
+    "brisket",
+    "soup bones",
+    "marrow bones",
+    "organ meats",
+    "pork chops",
+    "pork roasts",
+    "ribs",
+    "bacon",
+    "ham",
+    "ground pork"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our beef are Grass fed year round from our own lush pastures.",
+    "source_url": "https://sunsetvalleyfarmsllc.com/products/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://sunsetvalleyfarmsllc.com/information-pricing/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://sunsetvalleyfarmsllc.com/",
+  "notes": "Sells quarter and half beef ($7.95/lb hanging weight, Jan 2026) and half pigs ($7.15/lb, 2026) by phone or email; meat is collected frozen at pickup. Pigs are fed fruits, vegetables, food scraps and grain. Homepage lists a service area (Ellington, Tolland, Vernon, Broad Brook, South Windsor, Enfield, Windsor Locks, plus CT, MA, RI) but no page says it delivers or ships, so none recorded; Verifier to check. No finishing statement for beef."
+}

@@ -1,0 +1,40 @@
+{
+  "id": "powers-farm",
+  "slug": "powers-farm",
+  "farm_name": "Powers Farm",
+  "city": "Townsend",
+  "state": "DE",
+  "zip": "19734",
+  "address_public": true,
+  "address": "324 VanDyke Maryland Line Rd., Townsend, DE 19734",
+  "website": "https://www.thepowersfarm.com/",
+  "phone": "(302) 378-0826",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["dry-aged beef cuts", "ground beef", "beef liver", "pork chops", "bacon", "ham", "ribs", "sausage", "scrapple", "brown eggs", "bulk freezer beef"],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Instead, our cattle graze on pastures, enjoying a diet primarily composed of hay forages supplemented with a small amount of feed.",
+    "source_url": "https://www.thepowersfarm.com/learn-about-our-animals"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farmers-market", "online-order", "local-delivery", "retail", "restaurants"],
+  "farmers_markets": [
+    "Middletown Farmers Market, behind the Appoquinimink Library (Saturday, May to October)",
+    "Newark Co-op Farmers Market, Newark Shopping Center (Sunday, May to November)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.thepowersfarm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.thepowersfarm.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.nebpi.org/local-beef-directory/delaware",
+  "resold_note": "Also sells cheese, yogurt, butter and ice cream from other local farms and creameries, plus honey, maple syrup, produce and seafood it does not raise.",
+  "notes": "Feed supplement for cattle is farm-grown corn, soybean meal and minerals, so category set to percentage; pigs and chickens are fed farm-grown corn rations and the site does not say they are on pasture, though the Meet Us page calls the meat pasture-raised. Home delivery is offered only on specific days to unnamed local areas, so no areas recorded. Bulk freezer beef in 1/8, 1/4, 1/2 and whole. Homepage mentions occasional lamb and the Meet Us page mentions turkeys; not listed as species. No shipping mentioned. Grocery and restaurant outlets are not named."
+}

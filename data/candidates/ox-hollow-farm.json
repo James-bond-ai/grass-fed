@@ -1,0 +1,65 @@
+{
+  "id": "ox-hollow-farm",
+  "slug": "ox-hollow-farm",
+  "farm_name": "Ox Hollow Farm",
+  "city": "Woodbury",
+  "state": "CT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.oxhollowfarmct.com/",
+  "phone": "860-567-0236",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "lamb",
+    "eggs"
+  ],
+  "products": [
+    "beef",
+    "Berkshire pork",
+    "chicken",
+    "seasonal turkeys",
+    "lamb",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "All or our animals are raised on pasture, we grow our own feed and ensure adequate nutrition year round",
+    "source_url": "https://www.oxhollowfarmct.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "csa",
+    "retail"
+  ],
+  "farmers_markets": [
+    "79th Street Greenmarket, New York, NY (Sunday)",
+    "Stuyvesant Greenmarket, New York, NY (Sunday)",
+    "Union Square Greenmarket, New York, NY (Monday)",
+    "Darien Farmers Market, Darien, CT (Wednesday)",
+    "Westport Farmers Market, Westport, CT (Thursday)",
+    "New Canaan Farmers Market, New Canaan, CT (Saturday)",
+    "Washington Depot Farm Market, Washington Depot, CT (Saturday)",
+    "Inwood Greenmarket, New York, NY (Saturday)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm stand, 1474 Bantam Road, Bantam, CT (daily 11 to 5)",
+      "Barn store, 478 Good Hill Road, Woodbury, CT (Sat and Sun 11 to 5)"
+    ],
+    "source_url": "https://www.oxhollowfarmct.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.oxhollowfarmct.com/",
+  "notes": "Homepage says stock is rotationally grazed spring to fall and fed hay and non-GMO corn silage grown on the farm in winter, so category set to pastured (no grass-only claim). Meat CSA with whole, half or quarter animal shares by cut sheet. Beef, pork, chicken and lamb pages had no body text when fetched. Also sells sweet corn and vegetables. Town set to Woodbury (barn store); farm stand is in Bantam."
+}

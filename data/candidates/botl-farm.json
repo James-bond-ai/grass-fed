@@ -1,0 +1,71 @@
+{
+  "id": "botl-farm",
+  "slug": "botl-farm",
+  "farm_name": "BOTL Farm",
+  "city": "Ashford",
+  "state": "CT",
+  "zip": "06278",
+  "address_public": true,
+  "address": "859 Westford Rd, Ashford, CT 06278",
+  "website": "https://www.botlfarm.com/",
+  "phone": "860-333-8810",
+  "social_urls": [],
+  "species": [
+    "goat",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "goat meat",
+    "goat organ meats",
+    "bone broth",
+    "pork cuts",
+    "whole chickens",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "only eat grass/hay and nothing else",
+    "source_url": "https://www.botlfarm.com/faq"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/connecticut/ashford/goat-1/botl-farm/",
+      "verified_on": "2026-11-11"
+    },
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/connecticut/ashford/goat-1/botl-farm/",
+      "verified_on": "2026-11-11"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "farm-pickup",
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Wooster Square Farmers Market, New Haven, CT (Saturday)",
+    "Assawaga Farm Market, Putnam, CT (Saturday)",
+    "Sturbridge Farmers Market, Sturbridge, MA"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "On-farm self pickup cooler, Ashford, CT (daily 8am to 8pm, order by 4pm the day before)"
+    ],
+    "source_url": "https://www.botlfarm.com/find-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://store.botlfarm.com/",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/connecticut/ashford/goat-1/botl-farm/",
+  "resold_note": "Also sells beef cuts from Stone Hill Farm in Plainfield, CT.",
+  "notes": "AGW listing: Certified Grassfed for goat and Animal Welfare Approved for pork and eggs. Goats never fed grain; pigs and chickens are pastured and get a soy-free, corn-free certified organic grain-based feed. No half or whole animals (custom boxes and a prepaid CSA discount card instead), so bulk_shares false. On-farm store Wed 12 to 2 and Sat 1 to 3. Sturbridge market day is inconsistent on the site. No delivery or shipping stated. Also sells animal feed and pet products."
+}
