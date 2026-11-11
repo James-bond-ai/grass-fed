@@ -17,7 +17,7 @@ Statuses: queued, drafting, in-review, returned, published.
 | 9 | butcherbox-grass-fed-review | ButcherBox grass-fed beef: what you get and what it costs | review | in-review | Only the 100% grass-fed line is in scope. |
 | 10 | crowd-cow-grass-fed | Crowd Cow's grass-fed range: sourcing and prices | review | in-review | |
 | 11 | butcherbox-vs-crowd-cow | ButcherBox vs Crowd Cow for grass-fed beef | compare | in-review | |
-| 12 | us-wellness-meats-profile | US Wellness Meats: grass-finished beef and dairy by mail | review | queued | |
+| 12 | us-wellness-meats-profile | US Wellness Meats: grass-finished beef and dairy by mail | review | in-review | |
 | 13 | white-oak-pastures-profile | White Oak Pastures: what they sell and how they raise it | review | queued | |
 | 14 | best-grass-fed-milk-and-butter | Grass-fed milk and butter brands, and what their labels certify | best | queued | |
 | 15 | best-grass-fed-ground-beef-delivery | Grass-fed ground beef by mail, compared | best | queued | |
