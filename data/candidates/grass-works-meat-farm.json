@@ -1,0 +1,35 @@
+{
+  "id": "grass-works-meat-farm",
+  "slug": "grass-works-meat-farm",
+  "farm_name": "Grass Works Meat Farm",
+  "city": "Seaford",
+  "state": "DE",
+  "zip": "",
+  "address_public": false,
+  "website": "http://www.grassworksmeatfarm.com/",
+  "phone": "(302)-858-1439",
+  "social_urls": ["https://www.facebook.com/grassworksmeatfarm/", "https://www.instagram.com/grassworksmeatfarm/"],
+  "species": ["beef", "lamb", "pork", "poultry"],
+  "products": ["beef", "lamb chops", "ground lamb", "lamb breast", "half lamb", "whole lamb", "pork", "chicken", "turkey"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our Cows and Lambs are exposed to only fresh green pasture and hay that we grow on our land.",
+    "source_url": "http://grassworksmeatfarm.com/our-feed.html"
+  },
+  "certifications": [],
+  "sales_channels": [],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": ""
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://grassfedsource.com/state/delaware/grass-fed-beef/",
+  "notes": "Feed page says pigs, chickens and turkeys eat feed made by an Amish farm in Dover and get daily pasture access. Lamb page lists cut prices plus half and whole lamb and says to order by phone; no pickup, delivery, market or shipping details found, so sales channels left empty. Beef, poultry and contact pages hit an https to http redirect loop or server error and could not be read. Town of Seaford comes from directories, not the farm site. Category kept at grass-fed because the site does not use grass-finished wording."
+}

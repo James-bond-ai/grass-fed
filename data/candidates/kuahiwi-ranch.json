@@ -1,0 +1,36 @@
+{
+  "id": "kuahiwi-ranch",
+  "slug": "kuahiwi-ranch",
+  "farm_name": "Kuahiwi Ranch",
+  "city": "Naalehu",
+  "state": "HI",
+  "zip": "96772",
+  "address_public": true,
+  "address": "95-5520 Mamalahoa Hwy, Naalehu, HI 96772",
+  "website": "https://kuahiwi.com/",
+  "phone": "(808) 929-7333",
+  "social_urls": ["https://www.instagram.com/kuahiwi_ranch/"],
+  "species": ["beef"],
+  "products": ["ground beef", "thin-sliced beef", "stew beef", "brisket", "steaks", "roasts", "prime rib", "tenderloin", "organ meats"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our herds range on pastures of Guinea Grass and a range of clovers.",
+    "source_url": "https://kuahiwi.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farmers-market", "retail", "restaurants"],
+  "farmers_markets": ["Volcano Farmers Market, Cooper Center (Sundays 6am to 9am)"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://kuahiwi.com/the-beef/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://kuahiwi.com/the-beef/",
+  "notes": "Family ranch in Kau on the Big Island. Beef is sold at The Feed Store in Naalehu (also sells feed and ranch supplies; Mon to Fri 10am to 5pm, Sun 11am to 3pm, call for prices). Homepage stats block shows 100% next to grass-fed beef but does not say how cattle are finished, so category kept at grass-fed. Also sold at Foodland, Sack and Save and Whole Foods stores and a few restaurants. Site mentions GAP Step 4 certification; not checked on the certifier listing so not added. No bulk shares, online ordering or shipping found."
+}

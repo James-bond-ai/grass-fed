@@ -1,0 +1,37 @@
+{
+  "id": "story-hill-farm",
+  "slug": "story-hill-farm",
+  "farm_name": "Story Hill Farm",
+  "city": "Frankford",
+  "state": "DE",
+  "zip": "19945",
+  "address_public": true,
+  "address": "34645 Winding Rd, Frankford, DE 19945",
+  "website": "https://www.storyhillmoos.com/",
+  "phone": "302-725-8200",
+  "social_urls": ["https://www.facebook.com/shfarmde", "https://www.instagram.com/storyhillfarm/"],
+  "species": ["eggs"],
+  "products": ["heritage breed eggs"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "An important part of regenerative agriculture our hens are out on the farm grazing our pastures from sunup to sundown.",
+    "source_url": "https://www.storyhillmoos.com/about-us"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farmers-market"],
+  "farmers_markets": ["Historic Lewes Farmers Market, Lewes"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.storyhillmoos.com/farm-store"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.historiclewesfarmersmarket.org/vendors/",
+  "resold_note": "Also sells chicken feed, honey and Henlopen Sea Salt.",
+  "notes": "Farm store open Wednesday to Sunday, 9am to 5pm. The farm keeps a herd of Randall heritage cattle and says it is working toward selling heritage beef; the homepage lists beef among store items, but the site does not say whether that beef is from its own herd or how cattle are fed. Lead said store beef is labeled local grass fed and born in Kent County, MD; not confirmed (online store storyhillfarmstore.com could not be fetched). Farmers market listed from the Lewes market vendor page, not the farm site."
+}

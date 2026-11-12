@@ -1,0 +1,40 @@
+{
+  "id": "kalenauskas-farm-and-market",
+  "slug": "kalenauskas-farm-and-market",
+  "farm_name": "Kalenauskas Farm & Market",
+  "city": "Watertown",
+  "state": "CT",
+  "zip": "06795",
+  "address_public": true,
+  "address": "360 Sand Bank Rd, Watertown, CT 06795",
+  "website": "https://kalenauskasfarm.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/KalenauskasFarm/",
+    "https://www.instagram.com/kalenauskasfarmmarket/"
+  ],
+  "species": ["beef", "lamb", "eggs"],
+  "products": ["roasts", "steaks", "ground beef", "stew meat", "sandwich steaks", "soup stock", "lamb", "chicken eggs", "goose eggs", "tallow"],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Today, we operate on over 400 acres of land producing corn silage and hay for our livestock feed.",
+    "source_url": "https://kalenauskasfarm.com/about/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://kalenauskasfarm.com/contact/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/kalenauskasfarm/all",
+  "data_source": "web-search",
+  "source_url": "https://kalenauskasfarm.com/",
+  "resold_note": "Also sells soap from Bubbly Duck Soap Company.",
+  "notes": "Site calls the beef grass-fed and pasture-raised and says animals get as much pasture as possible, but the about page says the farm grows corn silage and hay for livestock feed, so the diet looks mixed; Verifier to check. Lamb is from Karen's Lambs, run by a family member. Farm market open Tuesday, Friday, Saturday and Sunday; hours vary by season. Homepage social feed mentions markets in Kent, Black Rock, Greenwich, Newtown and Blueback; not confirmed on a farm page. No phone, bulk shares, delivery or shipping stated for meat. Also sells honey, maple syrup, fiber goods and hay."
+}

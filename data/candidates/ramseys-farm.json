@@ -1,0 +1,42 @@
+{
+  "id": "ramseys-farm",
+  "slug": "ramseys-farm",
+  "farm_name": "Ramsey's Farm",
+  "city": "Wilmington",
+  "state": "DE",
+  "zip": "19803",
+  "address_public": true,
+  "address": "440 Ramsey Road, Wilmington, DE 19803",
+  "website": "https://www.ramseysfarm.com/",
+  "phone": "(302) 496-6426",
+  "social_urls": ["https://www.facebook.com/ramseysfarm", "https://www.instagram.com/ramseys.farm"],
+  "species": ["beef", "poultry"],
+  "products": ["Wagyu beef cuts", "Angus beef", "bulk beef shares", "chicken"],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Our herd eats fresh grass and receive grass hay and select grains (grown on our farm).",
+    "source_url": "https://www.ramseysfarm.com/pick-your-own"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.ramseysfarm.com/produce-stand-wagyu-beef"
+  },
+  "dairy_products": [],
+  "availability": {
+    "status": "paused",
+    "note": "Online beef ordering closed on August 1, 2025. Beef is sold in person at the farm stand, or by calling the farm when the stands are closed. 2026 chicken pickups are finished.",
+    "checked_on": "2026-11-12"
+  },
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.nebpi.org/local-beef-directory/delaware",
+  "resold_note": "Also sells Woodside Farm ice cream and produce from neighboring Delaware farms.",
+  "notes": "Wagyu sold by 1/8, 1/4, half and whole, plus select Angus by share. Produce stand open May to October, Thursday to Sunday; farm market reopens for Christmas trees on Nov 27. ramseysbeef.com now redirects to the pick-your-own page. Chicken is pre-order only; the site does not describe how the chickens are raised. Grains fed to cattle are grown on the farm."
+}

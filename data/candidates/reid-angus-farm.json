@@ -1,0 +1,35 @@
+{
+  "id": "reid-angus-farm",
+  "slug": "reid-angus-farm",
+  "farm_name": "Reid Angus Farm",
+  "city": "Frankford",
+  "state": "DE",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.reidangus.com/",
+  "phone": "302-344-2052",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["dry-aged steaks", "roasts", "ground beef", "burger patties", "dog bones", "beef packages"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Finally, the herd is finished on grain for the final 5-6 months",
+    "source_url": "http://www.reidangus.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "online-order", "farmers-market", "ships-regional", "retail", "restaurants"],
+  "farmers_markets": ["Historic Lewes Farmers Market, George H. P. Smith Park, Lewes (Saturday)"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Lloyd's Market, Lewes, DE"],
+    "source_url": "https://www.reidangus.com/where-to-buy.html"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.reidangus.com/estore.html",
+  "data_source": "web-search",
+  "source_url": "https://www.historiclewesfarmersmarket.org/vendors/",
+  "notes": "Black Angus raised on Sudangrass after weaning, then grain-finished for the last 5 to 6 months, dry-aged 21 days. Farm pickup at the Frankford farm by appointment. Ships via FedEx Ground for a flat fee, but the site names no shipping area. Where to Buy page still shows 2019 market dates; the 2026 Historic Lewes Farmers Market vendor page still lists the farm. Lloyd's Market in Lewes carries some steaks and takes farm orders for pickup. 1/8, 1/4 and 1/2 steer packages are mentioned but that section was marked under construction. Hilton Christiana (Newark) and Cafe on 26 (Ocean View) serve the beef."
+}

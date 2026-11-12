@@ -1,0 +1,36 @@
+{
+  "id": "kualoa-ranch",
+  "slug": "kualoa-ranch",
+  "farm_name": "Kualoa Ranch",
+  "city": "Kaneohe",
+  "state": "HI",
+  "zip": "96744",
+  "address_public": true,
+  "address": "49-560 Kamehameha Hwy, Kaneohe, HI 96744",
+  "website": "https://www.kualoa.com/",
+  "phone": "(808) 237-7321",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["beef", "beef jerky"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "All of our cattle are 100% grass-fed and grass-finished.",
+    "source_url": "https://www.kualoa.com/meet-our-herds"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.kualoa.com/farmers-market"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.kualoa.com/meet-our-herds",
+  "notes": "Large Oahu ranch that also runs tours. The herds page says its beef is sold only at the KualoaGrown Market in the Ranch House building, open daily 10am to 5pm (market phone 808-748-3238). The market page names beef jerky and Kualoa-raised meats and eggs but does not list fresh beef cuts. The ranch also raises pigs (pasture raised, fed farm and kitchen produce waste) and lamb, but the site does not say these are sold at the market, so they are left out. A general FAQ mentions Farm Link Hawaii and local restaurants as other outlets. The online shop was not checked for meat. No shipping or delivery found."
+}

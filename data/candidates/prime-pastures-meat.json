@@ -1,0 +1,36 @@
+{
+  "id": "prime-pastures-meat",
+  "slug": "prime-pastures-meat",
+  "farm_name": "Prime Pastures Meat",
+  "city": "Middletown",
+  "state": "DE",
+  "zip": "19709",
+  "address_public": true,
+  "address": "1044 Bayview Rd, Middletown, DE 19709",
+  "website": "https://primepasturesmeat.com/",
+  "phone": "(302) 598-1452",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["steaks", "roasts", "ground beef", "organ meats", "bones", "suet", "beef shares"],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "They also receive a ration that includes spent grain and hop by-products from two local breweries.",
+    "source_url": "https://primepasturesmeat.com/faq/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://primepasturesmeat.com/contact/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://primepasturesmeat.com/catalog/",
+  "data_source": "web-search",
+  "source_url": "https://primepasturesmeat.com/",
+  "notes": "Angus cattle on pasture plus a ration of brewery spent grain and hop by-products; the FAQ answers no to whether cattle eat only grass. Orders by text or call, then pickup at the farm at an agreed time. No delivery or shipping. Whole, half and quarter shares; a share goes ahead once the animal is fully claimed. Price list of about 39 cuts on the catalog page."
+}

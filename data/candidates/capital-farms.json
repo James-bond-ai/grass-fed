@@ -1,0 +1,36 @@
+{
+  "id": "capital-farms",
+  "slug": "capital-farms",
+  "farm_name": "Capital Farms",
+  "city": "Wickenburg",
+  "state": "AZ",
+  "zip": "85390",
+  "address_public": true,
+  "address": "410 W Wickenburg Way, Wickenburg, AZ 85390",
+  "website": "https://capitalfarms.com/",
+  "phone": "(928) 543-9597",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["steaks", "ground beef", "patties", "hot dogs", "roasts", "short ribs", "sausage", "jerky", "beef tallow", "beef shares"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "All Capital Farms beef is grain finished for 240 days at Red Rock Feeding CO in Red Rock, Arizona.",
+    "source_url": "https://capitalfarms.com/pages/faqs"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery", "ships-regional", "on-farm-store", "retail", "restaurants"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["PHX Valley", "Prescott", "Flagstaff", "Tucson", "Lake Havasu", "Kingman", "Laughlin", "Bullhead City"],
+    "local_radius_miles": null,
+    "ships_to": ["AZ", "CA", "NV", "UT", "NM", "OR", "CO", "OK", "TX", "ID", "KS", "MT", "WY"],
+    "pickup_locations": [],
+    "source_url": "https://capitalfarms.com/pages/faqs"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://capitalfarms.com/collections/all",
+  "data_source": "web-search",
+  "source_url": "https://capitalfarms.com/",
+  "notes": "Corriente cattle grazed on desert range near Wickenburg, Forepaugh and Cave Creek, then grain finished at a feedlot in Red Rock, AZ. The homepage says 200 days on grain and the FAQ and about page say 240 days. The about page says some cattle are sourced from ranching families in the Sierra Madre of Mexico before coming to Arizona, so not all animals are born on the ranch. Shipping states listed are the free shipping states for orders over $250; the FAQ suggests other states may be possible at extra cost, and beef shares are excluded from free shipping. Local delivery areas are from the homepage banner; the Fresh Delivery page could not be fetched. Butcher shop in Wickenburg is the headquarters; on-farm-store channel assumes it sells to walk-in customers, not confirmed. Also sells through restaurants and retailers via a beef locator page. Shares of 1/8, 1/4, 1/2 and whole beef sold by pre-order."
+}

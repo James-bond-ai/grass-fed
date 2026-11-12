@@ -1,0 +1,36 @@
+{
+  "id": "fernandes-farmstead",
+  "slug": "fernandes-farmstead",
+  "farm_name": "Fernandes Farmstead",
+  "city": "Manchester",
+  "state": "CT",
+  "zip": "06040",
+  "address_public": true,
+  "address": "534 Keeney Street, Manchester, CT 06040",
+  "website": "https://fernandesfarmstead.com/",
+  "phone": "860.474.3860",
+  "social_urls": [],
+  "species": ["beef", "pork", "eggs"],
+  "products": ["beef", "pork", "eggs", "honey"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "grass fed beef, pasture raised pork, free range chicken eggs & local raw honey",
+    "source_url": "https://fernandesfarmstead.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://fernandesfarmstead.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://fernandesfarmstead.com/",
+  "notes": "Farm stand open Thursday 4 to 6 and Saturday 10 to 1, eggs daily; cash or Venmo; pre-order form for pickup. Beef finishing not stated. A testimonial mentions a pork share, but the beef and pork price list pages and pre-order form failed to load, so cuts and bulk options are unconfirmed. No delivery or shipping stated."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "the-stead-farm",
+  "slug": "the-stead-farm",
+  "farm_name": "The Stead Farm",
+  "city": "Barkhamsted",
+  "state": "CT",
+  "zip": "",
+  "address_public": true,
+  "address": "173 Old North Road, Barkhamsted, CT",
+  "website": "https://www.thesteadfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["lamb", "pork", "poultry", "eggs"],
+  "products": ["lamb", "chicken", "turkey", "pork", "eggs"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "We specialize in offering nutritious grass-fed Katahdin lamb, pastured chicken and eggs,",
+    "source_url": "https://www.thesteadfarm.com/about-us"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farmers-market"],
+  "farmers_markets": ["Barkhamsted farmers market, Highway Garage on Route 44 (Saturdays, May to September)"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.thesteadfarm.com/private-events"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.thesteadfarm.com/",
+  "resold_note": "Also sells sweet corn from Gresczyk Farms.",
+  "notes": "Self-serve farm stand open daily 9 to 7, cash or Venmo; custom or larger orders by contact form. Pork is raised in hardwood forest; chickens are free-range and get non-GMO grain, so only the lamb is described as grass-fed and finishing is not stated. Site says it holds A Greener World certifications (Animal Welfare Approved, grass-fed, Non-GMO), but the farm was not found on the AGW listing, so no certification added; Verifier to check. About page may mention beef; not confirmed as a product. No phone, delivery or shipping stated."
+}

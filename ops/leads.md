@@ -31,7 +31,10 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Black Ranch, Prescott: seen in a directory only, not checked 2026-11-08
 - Lazy L, Diablo Beef and Single Star homepages fetch blocked again 2026-11-10
 - Unchecked names from the Arizona Farm Bureau Fill Your Plate and US Farm Trail directories: Quarter Circle H Angus LLC, Taylor; Diamond K Grassfed Beef; Yubeta Cattle Co; Sonoita Grasslands Custom Beef, Sonoita; Forbes Meat Company (may be a processor) 2026-11-10; Quarter Circle H has no website, Diamond K and Sonoita Grasslands sites not surfaced by search 2026-11-11
-- Windmill Mountain Ranch (windmillmountainranch.com): grass-fed, grain-finished shares via Local Line, pickup at its butchering location in Buckeye, Gilbert Heritage District market; homepage title says Sedona, so town unclear; checked 2026-11-11, held back to keep the run at 15
+- Windmill Mountain Ranch (windmillmountainranch.com): grass-fed, grain-finished shares via Local Line, pickup at its butchering location in Buckeye, Gilbert Heritage District market; homepage title says Sedona, so town unclear; checked 2026-11-11, held back to keep the run at 15; fetch blocked 2026-11-12
+- Lazy L Beef Co homepage loaded 2026-11-12: says cattle are finished on a grain feed, no way to buy or contact on homepage, rest unchecked
+- Arlington Cattle Co, Buckeye (arlingtoncattleco.com): grass-fed then grain-finished 3 to 4 months; site shows only a burger stand and food truck, no beef sales found 2026-11-12 (may be a restaurant rejection)
+- Diablo Beef, Single Star Ranch, Snowflake Pig Farms: fetch blocked and not surfaced by search 2026-11-12
 - Dunton Ranch Beef (duntonranchbeef.com): search title says grain finished, state and town unconfirmed; robots block fetching 2026-11-11
 - Flagstaff Family Farm, Rain Valley near Flagstaff (flagstafffamilyfarm.com): eggs and pork, CSA full; homepage has no grass or pasture wording, other pages unchecked 2026-11-11
 - Forestdale Farm, Flagstaff (forestdalefarm.com): egg CSA, no pasture wording found 2026-11-11
@@ -60,18 +63,17 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Buck Up Buttercup Ranch; Lazy K's Ranch; Guthrie Cattle Company (Colorado Beef Council directory)
 
 ## CT
-- Laurel Ridge Grass-Fed Beef, Litchfield (lrgfb.com): https to http redirect loop, fetch blocked twice 2026-11-11
-- Kindred Crossings (kindredcrossingsfarm.com): homepage gives no town, channels or feeding detail 2026-11-11
-- Surfaced in search, not checked: Fernandes Farmstead (fernandesfarmstead.com); Double A Ranch (doublearanch.farm); Broad Brook Beef & Pork, Broad Brook (broadbrookbeef.com); Kalenauskas Farm and Market (kalenauskasfarm.com); The Stead Farm (thesteadfarm.com); The Farm, Woodbury (thefarmwoodbury.com); CF Farms (cffarms.org); Greyledge Farm (buyctgrown.com listing only) 2026-11-11
-- Fairfield, New Haven and Middlesex counties have no farms yet
+- Laurel Ridge Grass-Fed Beef, Litchfield (lrgfb.com): https to http redirect loop, fetch blocked twice 2026-11-11 and again 2026-11-12 (host did not resolve)
+- Kindred Crossings, North Franklin (kindredcrossingsfarm.com): Square Online pages return only metadata, no feeding sentence or channels; town from its 2024 lamb order PDF 2026-11-12
+- Broad Brook Beef & Pork, Broad Brook (broadbrookbeef.com): every page fetched came back empty 2026-11-12
+- The Farm, Woodbury (thefarmwoodbury.com): farmstand open 2026 and homepage mentions grass-fed beef, but meats page dated 2020 says sold out; pork grain-fed, chicken and lamb from other farms; unclear if meat still sold 2026-11-12
+- Greyledge Farm (buyctgrown.com listing only), unchecked 2026-11-11
+- New Haven and Middlesex counties have no farms yet
 
 ## DE
-- Grass Works Meat Farm, Seaford (grassworksmeatfarm.com): feed page says cattle and lambs eat only pasture and own hay; other pages stuck in an https to http redirect loop, channels unchecked 2026-11-11
-- Dittmar Family Farms, Felton (dittmarfamilyfarms.com): grass-fed beef and lamb per Historic Lewes Farmers Market vendor page; not checked 2026-11-11
-- Ramsey's Farm, Wilmington (Wagyu and Angus beef, chickens; grass, hay and own grain): online beef ordering closed August 2025, call off-season; checked 2026-11-11, held back to keep the run at 15
-- Story Hill Farm, Frankford: pastured eggs; its store sells "Local Grass Fed" beef born in Kent County, MD, unclear if own herd; checked 2026-11-11, held back to keep the run at 15
-- Reid Angus Farm, Frankford (reidangus.com): Lewes market beef vendor, no grass wording, site unchecked 2026-11-11
-- No website (Facebook or directory only): Mahon River Farm, Dover (pastured poultry); Hudson Blooms, Harbeson (eggs); TS Smith & Sons, Bridgeville; Tomahawk Cattle, Greenwood; Beyond Wits End Farm, Harrington; Twisted Steel Cattle Company, Frederica 2026-11-11
+- Dittmar Family Farms, Felton (dittmarfamilyfarms.com): homepage returns only metadata, other pages client errors 2026-11-12; state CSA list and Lewes market page say grass-fed beef and lamb, year-round CSA with Felton, Lewes and Bethany Beach pickups
+- No website (Facebook or directory only): Mahon River Farm, Dover (pastured poultry); Hudson Blooms, Harbeson (eggs); TS Smith & Sons, Bridgeville; Tomahawk Cattle, Greenwood; Beyond Wits End Farm, Harrington; Twisted Steel Cattle Company, Frederica 2026-11-12
+- Whole+sum Farm, Middletown and Locust Grove Farm, Middletown: own websites not found yet 2026-11-12
 
 ## FL
 - E & C Cattle Ranch; JS2 Cattle; Our Ancestor's Food
@@ -183,6 +185,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Springdale Farms, Woodstock (springdalefamilyfarms.com): grass-fed beef and pastured poultry, but no finishing detail and a photo of grain feeding; check products page
 - J&L Green Farm, Edinburg (jlgreenfarm.com): fetch error 2026-10-30
 - Chapel Creek Farms, Montvale (chapelcreek-farms.com): grass-finished beef, shares; unchecked
+- C&F Farms, Roanoke (cffarms.org): surfaced in a CT search, appears to be a Roanoke VA farm; unchecked 2026-11-12
 
 ## VT
 - Keith Farm Meats, Elmore (100% grass-fed beef, farm store): Facebook only, no own website 2026-11-04
@@ -213,3 +216,9 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 
 ## IL
 - The Log Cabin Ranch, Ina (thelogcabinranch.com): 100% grass-fed and finished beef, pastured pork and chicken, farm store, ships 48 states; own site read 2026-11-09, ready to write up when Scout reaches IL
+
+## HI
+- Ulupalakua Ranch, Kula, Maui (ulupalakuaranch.com): beef sold through Maui Cattle Company, ranch store is a grill, no direct meat sales found 2026-11-12
+- Makaweli Meat Company, Makaweli, Kauai (makawelimeatcompany.com): own ranch beef, Kauai Grown directory lists only retail, wholesale and restaurant outlets; own site unchecked 2026-11-12
+- Hana Ranch, Hana, Maui (hanaranch.com/grassfed-beef): http/https redirect loop 2026-11-12
+- Mauka Meats: named on a Hawaii Farm Bureau farmers market page that failed to load 2026-11-12
