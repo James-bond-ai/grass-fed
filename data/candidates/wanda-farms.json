@@ -1,0 +1,36 @@
+{
+  "id": "wanda-farms",
+  "slug": "wanda-farms",
+  "farm_name": "Wanda Farms",
+  "city": "Harvard",
+  "state": "IL",
+  "zip": "60033",
+  "address_public": true,
+  "address": "17419 Hebron Rd, Harvard, IL 60033",
+  "website": "https://wandafarms.com/",
+  "phone": "815-323-4777",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["beef", "pork", "chicken", "eggs", "sausage", "tallow"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass-fed AND grass-finished beef year round.",
+    "source_url": "https://josephwanda.grazecart.com/first-order-discount"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "local-delivery", "online-order", "farmers-market"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://josephwanda.grazecart.com/first-order-discount"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://wandafarms.com/",
+  "data_source": "web-search",
+  "source_url": "https://josephwanda.grazecart.com/first-order-discount",
+  "notes": "Family farm in Harvard, far northern Illinois near the Wisconsin line (also known as Wanda Family Farm; storefront name Wanda Farms LLC). Cattle are 100% grass-fed and grass-finished, eating only grass in summer and stockpiled grass and the farm's own hay through winter, never grain. Pigs and chickens get non-GMO grain; broilers are moved daily to fresh grass; the farm also sells eggs, sausage and tallow. Buy through the online store with farm pickup or Tuesday and Wednesday home delivery, at the farm store, and at farmers markets. Offers quarter, half and whole beef and half and whole hog bulk shares. The site says it ships across the Midwest but names no specific states, so ships_to is left empty."
+}

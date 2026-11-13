@@ -1,0 +1,36 @@
+{
+  "id": "the-log-cabin-ranch",
+  "slug": "the-log-cabin-ranch",
+  "farm_name": "The Log Cabin Ranch",
+  "city": "Ina",
+  "state": "IL",
+  "zip": "",
+  "address_public": true,
+  "address": "1384 N Log Cabin Lane, Ina, IL",
+  "website": "https://thelogcabinranch.com/",
+  "phone": "618-927-7711",
+  "social_urls": [],
+  "species": ["beef", "pork"],
+  "products": ["beef cuts", "pork"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass fed and finished",
+    "source_url": "https://leaf.localfoodmarketplace.com/Producer/bcda47a3-bce1-472f-ab2d-30a74dc982dd"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "csa", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://leaf.localfoodmarketplace.com/Producer/bcda47a3-bce1-472f-ab2d-30a74dc982dd"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://thelogcabinranch.com/",
+  "data_source": "web-search",
+  "source_url": "https://leaf.localfoodmarketplace.com/Producer/bcda47a3-bce1-472f-ab2d-30a74dc982dd",
+  "notes": "Family farm in Ina, southern Illinois (David Brubaker). Beef is 100% grass fed and finished; pigs are pastured year round and forage acorns in the forest. Site describes the farm as non-GMO and regenerative, not certified organic. The farm's own domain thelogcabinranch.com could not be fetched during this check (the request was blocked), so facts come from the farm's own online store at leaf.localfoodmarketplace.com. The store lists beef and pork and links to CSA shares and online ordering. The original lead said the farm also raises pastured chicken and ships to 48 states; neither was confirmed on the pages reached, so poultry and shipping are left out. Phone and address are as shown on the store page; zip left blank because the listed value looked inconsistent with Ina, IL."
+}

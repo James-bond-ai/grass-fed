@@ -1,0 +1,36 @@
+{
+  "id": "alderspring-ranch",
+  "slug": "alderspring-ranch",
+  "farm_name": "Alderspring Ranch",
+  "city": "May",
+  "state": "ID",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.alderspring.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef", "lamb", "pork"],
+  "products": ["steaks", "ground beef", "roasts", "dry-aged cuts", "sausages", "hot dogs", "jerky", "beef sticks", "lamb", "pork"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass fed and finished on some of the wildest mountain pastures in the world",
+    "source_url": "https://www.alderspring.com/idaho-organic-grass-fed-meats/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "ships-nationwide", "local-delivery"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["western Montana", "southern Idaho"],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://www.alderspring.com/faqs/shipping/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://shopalderspring.com/",
+  "data_source": "web-search",
+  "source_url": "https://www.alderspring.com/idaho-organic-grass-fed-meats/",
+  "resold_note": "Also sells pastured poultry from another Idaho farm, organic turkeys from A+ Ranch in Idaho, butter and cheese from Lifeline Farms in Montana, sheep cheese from Mountain Valley Farmstead in Idaho and wild Alaskan salmon.",
+  "notes": "Family ranch in the Pahsimeroi Valley at May, in central Idaho, with a shipping warehouse in Salmon. Beef is the main line; lamb is raised on the ranch and pork is raised on the ranch by a daughter and her husband. Orders go through the separate store site shopalderspring.com, with a $135 cart minimum, and ship frozen by UPS on Mondays. The shipping FAQ says orders go to all 50 states except Alaska and Hawaii, with no free shipping. The ordering FAQ says local customers in western Montana and southern Idaho can ask about delivery discounts by email. No phone number, street address or bulk quarter and half beef found on the pages checked. The ranch describes itself as certified organic, but organic labels are set by the repo's USDA Organic Integrity script, not by hand, so none were added here. The store site at shopalderspring.com could not be opened during this check."
+}

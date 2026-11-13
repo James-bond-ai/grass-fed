@@ -1,0 +1,35 @@
+{
+  "id": "red-star-ranch",
+  "slug": "red-star-ranch",
+  "farm_name": "Red Star Ranch",
+  "city": "Hazelton",
+  "state": "ID",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.redstargrassranch.com/",
+  "phone": "208-751-9510",
+  "social_urls": ["https://www.facebook.com/redstarranch", "https://www.instagram.com/redstargrassranch"],
+  "species": ["beef", "pork", "poultry"],
+  "products": ["beef cuts", "ground beef", "roasts", "steaks", "beef boxes", "pork chops", "pork roasts", "sausage", "cured pork", "whole chicken"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "The source for grass-finished, non-GMO meats raised in Southern Idaho.",
+    "source_url": "https://www.redstargrassranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "retail"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.redstargrassranch.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://idahofoodcoop.com/vendors/red-star-ranch",
+  "data_source": "web-search",
+  "source_url": "https://www.redstargrassranch.com/about.html",
+  "notes": "Fourth-generation family farm along the Snake River canyon in south-central Idaho, in the Magic Valley. The about page says the family keeps small herds of cattle and pigs and a seasonal flock of pastured poultry. Beef is described as grass-finished and kept out of the feedlot; a marketing packet PDF on the ranch's own site says cattle are supplemented with local hay in bad weather and that the pigs and chickens get non-GMO feed the family grows and mills, so the pork and poultry are pasture-raised rather than grass-fed. That same packet lists whole, half and quarter beef and whole or half pork, which is the basis for bulk shares here, and names Countryside Market in Twin Falls and the Boise Farmers Market as outlets; the packet is undated, so those outlets were not recorded as current. The homepage names Idaho Food Coop as the ranch's online store, Atkinson's in Ketchum and Hailey for poultry, Tara's Garden Market with home delivery in the Wood River Valley, and Farm Deliver Boise. The ranch publishes no street address."
+}

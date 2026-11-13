@@ -1,0 +1,36 @@
+{
+  "id": "i6-cattle-co",
+  "slug": "i6-cattle-co",
+  "farm_name": "I6 Cattle Co.",
+  "city": "Bonners Ferry",
+  "state": "ID",
+  "zip": "",
+  "address_public": true,
+  "address": "18431 Westside Road, Bonners Ferry, ID",
+  "phone": "208-610-5128",
+  "website": "https://isixcattleco.com/",
+  "social_urls": ["https://www.facebook.com/profile.php?id=61557128067956", "https://www.instagram.com/i6_cattleco/"],
+  "species": ["beef"],
+  "products": ["beef shares", "steaks", "roasts", "ground beef", "tallow skincare"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are 100% Grass Fed and 100% Grass Finished.",
+    "source_url": "https://isixcattleco.com/faqs"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Farm store at the ranch on Westside Road, Bonners Ferry, by appointment"],
+    "source_url": "https://isixcattleco.com/contact-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://isixcattleco.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://isixcattleco.com/faqs",
+  "notes": "First-generation ranch at Bonners Ferry in the Idaho panhandle. The FAQ says the cattle never have grain, never go to a feedlot, graze pasture in spring and summer and are supplemented with grass and alfalfa hay in winter. Quarter, half and whole beef are sold, with freezer space listed for each size, and individual steaks, roasts and ground beef are sold at the ranch; the farm store is open by appointment only. Tallow skincare is also sold online. Two phone numbers are published, 208-610-5128 for Jadon Isaac and 316-217-7182 for Kinsey Isaac; the Idaho number is recorded here. The homepage said fall and winter deposits were open with limited availability on 2026-11-13. No delivery or shipping is mentioned on the site. The site says it is a member of the Panhandle Farm Corridor; no certifier listing was checked, so no certifications were added. The beef page returned a server error during this check."
+}

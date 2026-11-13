@@ -1,0 +1,37 @@
+{
+  "id": "sonrise-farms",
+  "slug": "sonrise-farms",
+  "farm_name": "Sonrise Farms",
+  "city": "Penfield",
+  "state": "IL",
+  "zip": "61862",
+  "address_public": true,
+  "address": "1330 East 3000 North Road, Penfield, IL 61862",
+  "website": "https://sonrisefarms.net/",
+  "phone": "217-419-8474",
+  "social_urls": ["https://www.instagram.com/sonrise_farms/", "https://www.facebook.com/sonrisefarmsinfo/"],
+  "species": ["beef", "poultry", "eggs"],
+  "products": ["steaks", "roasts", "ground beef", "patties", "jerky", "chicken", "eggs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "they spend their entire lives eating only grass.",
+    "source_url": "https://sonrisefarms.net/grassfinishedbeef"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "online-order", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://sonrisefarms.net/grassfinishedbeef"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells raw milk and raw cottage cheese from Anna Belle Farm, butter from Nordic Creamery, and raw cream from E. Z. Acres Farm.",
+  "ordering_url": "https://my-site-102372-101132.square.site/",
+  "data_source": "web-search",
+  "source_url": "https://sonrisefarms.net/about",
+  "notes": "Family farm in Penfield, east-central Illinois (Champaign County area). Cattle are pasture-raised and finished and spend their entire lives eating only grass, rotated to fresh pasture daily in the growing season. Also raises pasture-raised chickens and eggs; the chickens get a non-GMO grain ration. Individual beef cuts are sold at the on-farm store (open Saturdays); quarter and half beef are reserved through the online shop. The beef page says freezer (bulk) beef is sold out for 2026. The farm resells raw milk and other dairy from other farms, so no dairy is listed as its own. No shipping or delivery is described on the site."
+}

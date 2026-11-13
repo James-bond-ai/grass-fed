@@ -1,0 +1,35 @@
+{
+  "id": "mint-creek-farm",
+  "slug": "mint-creek-farm",
+  "farm_name": "Mint Creek Farm",
+  "city": "Stelle",
+  "state": "IL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.mintcreekfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef", "lamb", "goat", "pork", "poultry", "eggs"],
+  "products": ["beef", "lamb", "goat", "pork", "chicken", "turkey", "eggs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cows are 100% grass-fed and grass-finished.",
+    "source_url": "https://www.mintcreekfarm.com/our-farm"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "csa", "farmers-market", "local-delivery", "ships-nationwide"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Chicago area"],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://www.mintcreekfarm.com/our-farm"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.mintcreekfarm.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.mintcreekfarm.com/our-farm",
+  "notes": "Central Illinois farm started in Stelle in 1992, now farming about 220 certified-organic acres. The cattle are 100% grass-fed and grass-finished. The farm also raises sheep, goats, pigs, turkeys and chickens and sells eggs; sheep and goats get an organic fermented soy fiber supplement and the pigs, chickens and turkeys forage pasture plus organic grains, so only the beef is grass-finished. Sells through an online shop, farmers markets, a Chicago-area meat CSA and Wednesday home delivery in the Chicago area, and says it can ship anywhere in the United States. The site describes certified-organic pastures; organic labels are left to the USDA matching script rather than added by hand."
+}

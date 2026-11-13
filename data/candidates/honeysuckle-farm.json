@@ -1,0 +1,36 @@
+{
+  "id": "honeysuckle-farm",
+  "slug": "honeysuckle-farm",
+  "farm_name": "Honeysuckle Farm",
+  "city": "Morris",
+  "state": "IL",
+  "zip": "60450",
+  "address_public": true,
+  "address": "Conley Rd, Morris, IL 60450",
+  "website": "https://honeysucklefarm.grazecart.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["pork", "poultry", "eggs"],
+  "products": ["pork", "chicken", "eggs", "honey"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "All of our production animals are raised on pasture",
+    "source_url": "https://honeysucklefarm.grazecart.com/about-honeysuckle-farm"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://honeysucklefarm.grazecart.com/home-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://honeysucklefarm.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://honeysucklefarm.grazecart.com/about-honeysuckle-farm",
+  "notes": "Small family farm in Morris, north-central Illinois (Grundy County). All production animals are raised on pasture: Berkshire and Duroc pigs for pork, Cornish Cross broilers for chicken, laying hens for eggs, and bees for honey. Laying hens also get a free-choice non-GMO grain ration. Retail pork is processed at Bittner's Eureka Locker. Buy through an online store with on-farm pickup or home delivery. The site does not use the words grass-fed or grass-finished, so this is listed as pastured. The farm keeps a family milk cow but does not say it sells milk, so no dairy is listed. It says it plans to add beef cattle (with quarter and half shares), lamb and turkeys later."
+}

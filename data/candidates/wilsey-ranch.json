@@ -1,0 +1,36 @@
+{
+  "id": "wilsey-ranch",
+  "slug": "wilsey-ranch",
+  "farm_name": "Wilsey Ranch Pasture Meats",
+  "city": "Marsing",
+  "state": "ID",
+  "zip": "",
+  "address_public": true,
+  "address": "16550 US Hwy 95, Marsing, ID",
+  "website": "https://wilseyranch.com/",
+  "phone": "208-249-0942",
+  "social_urls": ["https://www.instagram.com/wilseyranch/"],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["ground beef", "steaks", "roasts", "beef sausage", "organ meats", "beef boxes", "pork", "whole chickens", "eggs", "tallow balm"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "This commitment led to our evolution into a grass-fed and finished beef ranch.",
+    "source_url": "https://wilseyranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery", "farmers-market", "csa"],
+  "farmers_markets": ["Boise Farmers Market (pre-order for pickup)"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Boise", "Meridian", "Nampa", "Ketchum and the Wood River Valley"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Boise, South Cole, Thursday and Saturday", "Meridian, Walgreens at Overland and Meridian Road", "Nampa, Garrity at Winco Foods", "Ketchum and the Wood River Valley"],
+    "source_url": "https://wilseyranch.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://wilseyranch.com/",
+  "data_source": "web-search",
+  "source_url": "https://idbeef.org/cooking/local-producers-suppliers-directory",
+  "notes": "Ranch on Highway 95 at Marsing, in the Treasure Valley, found in the Idaho Beef Council producer directory and confirmed on the ranch's own site. Beef is American Wagyu described as grass-fed and finished; the ranch also raises Berkshire pork, heritage pasture chickens and free-range eggs, which the site describes as pasture-raised rather than grass-fed. Ordering is online with home delivery and set pickup spots in Boise, Meridian, Nampa and the Wood River Valley, plus a CSA and Boise Farmers Market pre-orders. The site says it does not ship at this time. The store has a Grass Finished Bulk Beef category but the pages checked do not say whether quarter, half or whole animals are sold, so bulk shares was left false."
+}

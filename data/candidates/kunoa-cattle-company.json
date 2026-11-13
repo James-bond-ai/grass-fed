@@ -1,0 +1,43 @@
+{
+  "id": "kunoa-cattle-company",
+  "slug": "kunoa-cattle-company",
+  "farm_name": "Kunoa Cattle Company",
+  "city": "Kapolei",
+  "state": "HI",
+  "zip": "96707",
+  "address_public": true,
+  "address": "91-319 Olai Street, Kapolei, HI 96707",
+  "website": "https://kunoacattle.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["ground beef", "steaks", "roasts"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "In an ideal system, animals are nourished naturally on vegetative forages, humanely handled, and butchered locally.",
+    "source_url": "https://kunoacattle-com.pages.dev/the-movement"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "body": "A Greener World",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/hawaii/kapolei/beef-1/kunoa-cattle-company-farm-store/",
+      "verified_on": "2026-11-13"
+    }
+  ],
+  "sales_channels": ["online-order", "retail", "restaurants"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://kunoacattle-com.pages.dev/where-to-buy"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://shop.kunoacattle.com/",
+  "data_source": "web-search",
+  "source_url": "https://kunoacattle-com.pages.dev/the-movement",
+  "notes": "Cattle company with a butchery in Kapolei on Oahu. The site labels its beef Pasture Raised, Grassfed, and Rotationally Grazed but gives no grass-finishing claim, so the category is kept at grass-fed. Select products are sold online through shop.kunoacattle.com; beef is also carried in many Hawaii supermarkets (Times, Don Quijote, Kokua Market, Big Save, Safeway, commissaries and others) and restaurants across the islands. The where-to-buy page also mentions pork, but whether Kunoa raises the pork itself is unclear, so only beef is listed. Certified Animal Welfare Approved by AGW per A Greener World's own Hawaii producer listing. No shipping area named and no quarter, half, or whole shares found."
+}

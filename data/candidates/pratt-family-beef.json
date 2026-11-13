@@ -1,0 +1,35 @@
+{
+  "id": "pratt-family-beef",
+  "slug": "pratt-family-beef",
+  "farm_name": "Pratt Family Beef",
+  "city": "Blackfoot",
+  "state": "ID",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.prattfamilybeef.com/",
+  "phone": "",
+  "social_urls": ["https://www.instagram.com/prattfamilybeef/", "https://facebook.com/prattfamilybeef"],
+  "species": ["beef"],
+  "products": ["beef shares", "ground beef", "burger bundles"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Pratt Family Beef is 100% grassfed from start to finish.",
+    "source_url": "https://www.prattfamilybeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Blackfoot, ID", "Boise, ID", "Twin Falls, ID", "Salt Lake City, UT"],
+    "source_url": "https://www.prattfamilybeef.com/beef-share-process"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.prattfamilybeef.com/buy-beef",
+  "data_source": "web-search",
+  "source_url": "https://idbeef.org/cooking/local-producers-suppliers-directory",
+  "notes": "Family ranch in southeast Idaho, found in the Idaho Beef Council producer directory and confirmed on the farm's own site. Sells custom beef shares in quarter, half and whole sizes, reserved with a deposit, plus ground beef bundles of 20, 50 or 100 pounds. The FAQ page says the cattle only eat forage, meaning grass and hay. Harvest is arranged at Hopkins Packing Company in Blackfoot and buyers pay the butcher separately; beef is ready in September and October. Buyers pick up in Blackfoot or at drop points in Boise, Twin Falls and Salt Lake City. No shipping is offered and no phone number is published; contact is by email. On 2026-11-13 the shop page showed custom beef shares sold out while the beef share process page said 2026 orders were being accepted, so availability was left out rather than guessed."
+}

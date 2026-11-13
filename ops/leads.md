@@ -131,6 +131,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Fred's Farm (fredsfarm.grazecart.com): grass-finished beef, site under maintenance 2026-10-31
 
 ## OR
+- Cunningham Pastured Meats, eastern Oregon near the Idaho line: 100% grass-fed and finished beef and lamb, ships by UPS, Boise Valley delivery; surfaced in an ID search 2026-11-13
 - Yoder Cattle Co, Brownsville (yodercattleco.com): grain-finished, grass-finished on request; Barn2Door shop, no pickup or delivery stated; unchecked beyond homepage
 - 4Y Ranch, Salem (4yranch.com): grass-fed beef, robots blocks fetching 2026-11-03
 - Unchecked: Martson Farm Highland Cattle, Molalla (martsonfarm.com); Kenagy Family Farm (kenagyfamilyfarm.com); Ropp Family Farm (roppfamilyfarm.com)
@@ -140,6 +141,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Oregon Pasture Network directory (oregonpasturenetwork.org), unchecked: Chintimini Ranch, Philomath (chintiminiranch.com, fetch not permitted); Deck Family Farm, Junction City (deckfamilyfarm.com, fetch not permitted, has raw milk); Black River Cattle Co, Eagle Creek (maybe blackrivercc.com); Shimanek Bridge Farm, Scio (Facebook only); Weathered Oak Farm, Lebanon (weatheredoakfarm.com now shows Aspen View Farm); All Natural Meats; Birkeland Farm; 1890 Willamette Grass Fed Farm; Cast Iron Farm
 
 ## PA
+- Pasture View Farm LLC, Morgantown (pastureviewfarmllc.grazecart.com): grass-finished beef, pastured pork, chicken and eggs; surfaced in an IL search 2026-11-13
 - Barbour Grassfed Beef, Cogan Station (barbourgrassfedbeef.com): "No Grain", quarters and halves; our-beef page errored and no town on site 2026-10-31
 - WindSwept Angus, Ulster (windsweptgrassfed.com) and Skelton Farms, Edinboro (skeltonfarms.com): NEBPI directory, fetch not permitted 2026-10-31
 - Heritage Trail Farm, Prosperity (lindleybeef.org): grass-finished Red Devon beef, but sold only through The Old Road Farm, so no direct sales
@@ -215,10 +217,32 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - St. Isidore's Dairy, Osseo (no own website found 2026-11-01); LoveTree Farmstead, Grantsburg; Swiss Frau Farm, Mayville; Eckerman Sheep, Antigo; Dreamfarm, Cross Plains; Udder Brothers Creamery, Boscobel; Klemish Creamery, New Auburn; Ruegsegger Farms; Castle Rock Organic Farms
 
 ## IL
-- The Log Cabin Ranch, Ina (thelogcabinranch.com): 100% grass-fed and finished beef, pastured pork and chicken, farm store, ships 48 states; own site read 2026-11-09, ready to write up when Scout reaches IL
+- Irish Grove Farms (northern IL), Yemm Farm (central IL), Three Spring Farms, Flora; Bear Creek Farm & Ranch, Flora; Golden Rose Livestock; Schroeder Farms Beef: directory listings only, no own website found 2026-11-13
+- Unchecked: Meadow Haven Farm, Hanover Park; Hasselmann Family Farms; Thankful Harvest, Glenview area; Bauman Family Farms and Tri Point Ranch (NRCS Illinois grazing profiles) 2026-11-13
+- The Log Cabin Ranch candidate: own domain fetch blocked, so pastured chicken and shipping to 48 states not confirmed; Verifier may check 2026-11-13
+
+## ID
+- Lava Lake Lamb, Hailey area (lavalakelamb.com): grass-fed lamb, says AGW certified; buy page would not load 2026-11-13
+- Weiser River Ranch, Council (weiserriverranch.com); LMAC Land & Cattle, Midvale (lmac-ranch.com); Hipwell Ranch, Oreana (hipwellranch.com, grass finished): Idaho Beef Council directory says grass-fed, direct sales; not opened, cap reached 2026-11-13
+- Idaho Beef LLC, Lewiston (idahobeef4u.com): grass-finished and grain-finished, likely both; Bruce Ranch Beef CSA (bruceranchbeef.com): grass-fed, grain-finished; unchecked 2026-11-13
+- Triple Slash Beef (tripleslashbeef.grazecart.com): grass-fed and finished per titles, store under maintenance 2026-11-13
+- Ball Ranch (ballranch.net), Idaho Mountain Meats (idahomountainmeats.com): location and feeding unchecked; Bent Tree Farm, Bonners Ferry: own site not found 2026-11-13
+- 6/2 Ranch, Moscow (62ranchbeef.com) and Big Canyon Beef, Craigmont: directory says grain-finished, likely rejections 2026-11-13
+- Desert Mountain Grass-Fed rejected as a cooperative; its member ranches may qualify individually 2026-11-13
+
+## IN
+- Hand to the Plow Farm, Albion (handtotheplowfarm.grazecart.com): grass-fed and finished beef, farm pickup; surfaced in an IL search, not written up 2026-11-13
+
+## MI
+- Finn's Ranch, Buchanan (finnsranch.com): grass-finished beef delivered across Chicagoland; own site fetch blocked 2026-11-13
+- Integrated Farms (integratedfarms.grazecart.com): grass-only beef, pastured pork and poultry; store names no town, possibly Buchanan area 2026-11-13
 
 ## HI
 - Ulupalakua Ranch, Kula, Maui (ulupalakuaranch.com): beef sold through Maui Cattle Company, ranch store is a grill, no direct meat sales found 2026-11-12
-- Makaweli Meat Company, Makaweli, Kauai (makawelimeatcompany.com): own ranch beef, Kauai Grown directory lists only retail, wholesale and restaurant outlets; own site unchecked 2026-11-12
+- Makaweli Meat Company, Makaweli, Kauai (makawelimeatcompany.com): Kauai Grown lists only retail, wholesale and restaurant outlets, no grass wording; own site fetch blocked 2026-11-13
 - Hana Ranch, Hana, Maui (hanaranch.com/grassfed-beef): http/https redirect loop 2026-11-12
-- Mauka Meats: named on a Hawaii Farm Bureau farmers market page that failed to load 2026-11-12
+- Mauka Meats: only a marketspread.com vendor page found, no own site 2026-11-13
+- Hawaii Lowline Cattle Company, Ahualoa/Honokaa (hawaiilowline.com): in AGW's Hawaii beef listing as Certified Grassfed and AWA; own site fetch blocked, so no feeding sentence 2026-11-13
+- Puu O Hoku Ranch, Molokai (puuohoku.com): grass-fed beef, ranch store and online ordering per third parties; own site fetch blocked 2026-11-13
+- Malama Farm, Haiku, Maui (malamafarm.squarespace.com): pastured pork; no sales channel on the page read, check products page 2026-11-13
+- Makana Provisions, Oahu: Hawaii beef sold at Times Supermarkets, may be a brand rather than a farm 2026-11-13
