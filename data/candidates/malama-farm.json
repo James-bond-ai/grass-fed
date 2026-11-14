@@ -1,0 +1,40 @@
+{
+  "id": "malama-farm",
+  "slug": "malama-farm",
+  "farm_name": "Malama Farm",
+  "city": "Haiku",
+  "state": "HI",
+  "zip": "",
+  "address_public": false,
+  "website": "https://malamafarm.squarespace.com/",
+  "phone": "(808) 633-6702",
+  "social_urls": ["https://www.instagram.com/malamafarm/"],
+  "species": ["pork"],
+  "products": ["pork chops", "roasts", "ground pork", "tenderloin", "bacon kit", "sausage", "ribs", "pork belly", "ham hocks", "fatback"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our pigs are born and raised on lush pasture, and rotated regularly to minimize impact to the land.",
+    "source_url": "https://malamafarm.squarespace.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://malamafarm.squarespace.com/contact-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://malamafarm.squarespace.com/products",
+  "availability": {
+    "status": "sold-out",
+    "note": "Every product on the online shop page was marked sold out.",
+    "checked_on": "2026-11-14"
+  },
+  "data_source": "web-search",
+  "source_url": "https://malamafarm.squarespace.com/",
+  "notes": "Small family farm at about 1,000 feet on Haleakala near Haiku, Maui, raising purebred Berkshire pigs on rotated pasture, with hens following in a mobile coop. The philosophy page says fruit, vegetables and cooked eggs supplement the pigs' grain diet, so the category is pastured. The products page lists 13 pork items with prices, all sold out on the day checked. No page explains pickup, delivery, shipping, markets or whole and half pigs; the contact page gives a phone, an email and an order request form. No street address published."
+}

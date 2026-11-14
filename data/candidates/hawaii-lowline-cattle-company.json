@@ -1,0 +1,50 @@
+{
+  "id": "hawaii-lowline-cattle-company",
+  "slug": "hawaii-lowline-cattle-company",
+  "farm_name": "Hawaii Lowline Cattle Company",
+  "city": "Honokaa",
+  "state": "HI",
+  "zip": "96727",
+  "address_public": true,
+  "address": "46-3930 Pu'aono Rd, Honoka'a, HI 96727",
+  "website": "https://hawaiilowline.com/",
+  "phone": "(808) 896-0883",
+  "social_urls": [
+    "https://www.facebook.com/HawaiiLowlineCattleCompany/",
+    "https://www.instagram.com/hawaiilowlinecattle/"
+  ],
+  "species": ["beef"],
+  "products": ["beef"],
+  "feeding_claim": {
+    "category": "unknown",
+    "verbatim": "well-suited to beef production on grass",
+    "source_url": "https://hawaiilowline.com/about-us/"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/hawaii/ahualoa/beef-1/hawaii-lowline-cattle-company/",
+      "verified_on": "2026-11-14"
+    },
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/hawaii/ahualoa/beef-1/hawaii-lowline-cattle-company/",
+      "verified_on": "2026-11-14"
+    }
+  ],
+  "sales_channels": ["farmers-market"],
+  "farmers_markets": ["The Hamakua Harvest, Honokaa (Sundays, mobile store)"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Mobile store on Mamane Street, Honokaa (Mondays and Wednesdays)"],
+    "source_url": "https://hawaiilowline.com/contact/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/hawaii/ahualoa/beef-1/hawaii-lowline-cattle-company/",
+  "notes": "Raises Lowline (small Angus type) cattle near Honokaa on the Hamakua coast. The contact page says the farm runs a mobile store at The Hamakua Harvest on Sundays and on Mamane Street in Honokaa on Mondays and Wednesdays. The about page only says the breed suits beef production on grass and turns grass into meat efficiently; no page fetched says grass-fed or grass-finished outright, so the category is unknown even though the AGW listing shows Certified Grassfed and Animal Welfare Approved (both confirmed on the AGW listing page, which names farm stores as the outlet). The homepage could not be fetched (tool permission timeout) and the shop page had no products or prices, so cuts, prices, bulk shares, delivery and shipping are unconfirmed. AGW lists phone 808-896-2140; the farm site shows (808) 896-0883, which is used here."
+}

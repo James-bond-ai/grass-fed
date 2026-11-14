@@ -1,0 +1,36 @@
+{
+  "id": "springville-family-farms",
+  "slug": "springville-family-farms",
+  "farm_name": "Springville Family Farms",
+  "city": "Lerna",
+  "state": "IL",
+  "zip": "62440",
+  "address_public": true,
+  "address": "417 N CR 1050 E, Lerna, IL 62440",
+  "website": "https://springvillefamilyfarms.com/",
+  "phone": "(217) 259-6059",
+  "social_urls": ["https://www.facebook.com/springvillefamilyfarms/", "https://www.instagram.com/springvillefamilyfarms/"],
+  "species": ["beef", "pork", "poultry"],
+  "products": ["100% grass-fed beef", "grain-finished beef", "pork", "chicken"],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "Some of these animals will be introduced to a grain diet with free choice hay.",
+    "source_url": "https://springvillefamilyfarms.com/about/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Champaign", "Effingham", "Mattoon/Charleston"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://springvillefamilyfarms.com/contact/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/springvillefamilyfarms/all",
+  "data_source": "web-search",
+  "source_url": "https://springvillefamilyfarms.com/",
+  "notes": "Fifth-generation family farm in Lerna, Coles County, with a farm store open Saturday mornings or by appointment. Checked the homepage, about, products, meet the team and contact pages; the Barn2Door shop could not be fetched. The cow-calf herd rotates on about 200 acres of pasture; after weaning some calves go onto grain with free-choice hay and others stay on grass, and the store lists both 100% grass-fed beef and grass-fed, grain finished beef, so the category is both. Hogs come in as feeder pigs from local farms and eat grain plus pasture and woods forage; chickens are moved on pasture and get some grain. The contact page names delivery to Champaign, Effingham and Mattoon/Charleston and mentions pickup locations listed in the online store, which could not be read. No bulk shares, markets or shipping were found."
+}

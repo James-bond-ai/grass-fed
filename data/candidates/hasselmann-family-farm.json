@@ -1,0 +1,37 @@
+{
+  "id": "hasselmann-family-farm",
+  "slug": "hasselmann-family-farm",
+  "farm_name": "Hasselmann Family Farm",
+  "city": "Marengo",
+  "state": "IL",
+  "zip": "60152",
+  "address_public": true,
+  "address": "23706 Harmony Rd, Marengo, IL 60152",
+  "website": "https://hasselmannfarm.com/",
+  "phone": "815-572-4833",
+  "social_urls": [],
+  "species": ["beef", "pork", "lamb", "poultry", "eggs"],
+  "products": ["beef", "beef shares", "Berkshire pork", "half hogs", "lamb", "chicken", "turkey", "eggs", "duck eggs"],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "our beef is 100% grass-fed from birth through finishing",
+    "source_url": "https://hasselmannfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "farmers-market", "local-delivery", "online-order"],
+  "farmers_markets": ["Palatine Farmers Market"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["west, northwest and north Chicago suburbs", "northern neighborhoods of Chicago"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Palatine Farmers Market, Saturdays", "Sketchbook Brewing taproom, Skokie"],
+    "source_url": "https://hasselmannfarm.com/how-it-works"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://hasselmannfarm.com/shop",
+  "resold_note": "Also sells milk, yogurt, kefir, cheese and butter plus pantry goods from partner farms and makers.",
+  "data_source": "web-search",
+  "source_url": "https://hasselmannfarm.com/",
+  "notes": "Family farm southwest of Marengo with a farm store open Monday, Wednesday and Saturday. Checked the homepage, our farm, FAQ, how it works, shares, partners and shop pages. The site says its beef is 100% grass-fed, but the shop also sells 1/2 and 1/4 Grain-Finished Beef shares next to the 100% grass-fed shares, so the category is both; the site does not say where the grain-finished cattle come from. Hogs and chickens get non-GMO grain feed with soy. Hand delivery to west, northwest and north Chicago suburbs and north city neighborhoods ($125 minimum), plus pickup at the farm, the Palatine Farmers Market and a Skokie taproom. The how it works page has a general line about getting food to your door wherever you are, but names no shipping states, so shipping is not listed. Dairy in the shop appears to come from partner dairies listed on the partners page, so no dairy species is added."
+}

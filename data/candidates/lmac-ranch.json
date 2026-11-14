@@ -1,0 +1,35 @@
+{
+  "id": "lmac-ranch",
+  "slug": "lmac-ranch",
+  "farm_name": "LMAC Ranch",
+  "city": "Boise",
+  "state": "ID",
+  "zip": "",
+  "address_public": false,
+  "website": "https://lmac-ranch.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["steaks", "roasts", "ground beef", "bulk ground beef", "beef sticks", "custom beef boxes", "quarter, half and whole beef"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass-fed and grass-finished Angus",
+    "source_url": "https://lmac-ranch.com/pages/faq"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Treasure Valley and surrounding areas"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://lmac-ranch.com/pages/build-your-own-box"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://lmac-ranch.com/pages/build-your-own-box",
+  "data_source": "web-search",
+  "source_url": "https://lmac-ranch.com/",
+  "notes": "Angus cattle ranch run by Bill and Lisa as LMAC Land & Cattle, LLC. Checked the homepage, about, FAQ, reserve your beef and build your own box pages. The site places the ranch in the Treasure Valley and the homepage names Boise; the lead said Midvale, which the site does not mention, so the town is not confirmed. The about page says the herd summers in mountain meadows, winters on lower pastures and ranch hay, and is never fed grain. Orders are built online with a $150 minimum and delivered locally in the Treasure Valley only, not shipped. The FAQ says ranch pickup is possible if requested at checkout. Quarter, half and whole steers are reserved with a deposit. The site lists two different phone numbers (208-355-5244 on the about page and 707-601-2982 on the reserve page) and two emails, and some FAQ figures are marked as placeholders, so no phone was recorded. The www about page failed to load; the non-www about page loaded."
+}

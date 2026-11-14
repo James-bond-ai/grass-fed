@@ -1,0 +1,36 @@
+{
+  "id": "idaho-mountain-meats",
+  "slug": "idaho-mountain-meats",
+  "farm_name": "Idaho Mountain Meats",
+  "city": "Kuna",
+  "state": "ID",
+  "zip": "83634",
+  "address_public": false,
+  "website": "https://idahomountainmeats.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["whole beef", "half beef", "quarter beef", "beef bundles"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Yes, all of our beef that we process is grass-fed and finished without any antibiotics, hormones, or grain supplements.",
+    "source_url": "https://idahomountainmeats.com/faq/"
+  },
+  "certifications": [],
+  "sales_channels": ["local-delivery", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Treasure Valley (Boise, Nampa, Caldwell)"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://idahomountainmeats.com/faq/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://idahomountainmeats.com/side-custom-beef/",
+  "data_source": "web-search",
+  "source_url": "https://idahomountainmeats.com/",
+  "resold_note": "Also sells wild Alaska salmon and halibut caught by a fishing family and processed on Kodiak.",
+  "notes": "Beef business in Kuna run by Jason, Krista, Zack and Jackie. Checked the homepage, why us page, FAQ, side custom beef page and the salmon page. The FAQ says it buys Idaho calves from ranch families it knows and grass-finishes them on its own pastures, so the cattle are finished but not born on its land. Whole and half beef are priced by hanging weight; quarters take a deposit but no quarter price was shown. Beef is cut at a small local butcher. Delivery is free in the Treasure Valley, or pickup can be arranged; delivery or shipping outside the valley costs extra, with no states named. The custom beef, bundles, whole beef and contact pages could not be opened, so no phone or online cart was confirmed."
+}

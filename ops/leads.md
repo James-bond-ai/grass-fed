@@ -119,6 +119,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Unchecked: Terrace Ridge Farm (terraceridgefarm.com); Smithview Farm (smithviewfarm.com)
 
 ## NY
+- Reber Rock Farm (reberrockfarm.com): surfaced in an IL search, unchecked 2026-11-14
 - Kinderhook Farm, Valatie/Ghent (kinderhookfarm.com, shop kinderhookfarm.square.site): 100% grassfed beef and lamb, meatshare; own site not surfaced by search and fetch blocked 2026-11-05 and 2026-11-09
 - Grassroots Farm, Stone Ridge (grassroots-farm.com): per Hudson Valley Bounty listing 100% grass-fed beef, CSA, regional shipping; own site fetch blocked 2026-11-09
 - Dirty Dog Farm, Germantown/Clermont (dirtydogfarm.com): per Hudson Valley Bounty listing 100% grass-fed beef, pastured chickens, online store; own site fetch blocked 2026-11-09
@@ -218,20 +219,32 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 
 ## IL
 - Irish Grove Farms (northern IL), Yemm Farm (central IL), Three Spring Farms, Flora; Bear Creek Farm & Ranch, Flora; Golden Rose Livestock; Schroeder Farms Beef: directory listings only, no own website found 2026-11-13
-- Unchecked: Meadow Haven Farm, Hanover Park; Hasselmann Family Farms; Thankful Harvest, Glenview area; Bauman Family Farms and Tri Point Ranch (NRCS Illinois grazing profiles) 2026-11-13
+- Bauman Family Farms, Vienna: no website, only Facebook per an NRCS profile 2026-11-14
+- Tri Point Ranch / Graized, Moweaqua (graized.com): homepage has no feeding claim or buying details, product page robots blocked 2026-11-14
+- Unchecked 2026-11-14: Miller Brothers Farm, Oakland (millerbrothersfarm.com, bulk beef says grass fed and grain finished, likely candidate); Fifty Four Farms, Chestnut (fiftyfourfarms.com, pasture-raised beef shares); Barn Again Beef, near Princeville (barnagainbeef.yolasite.com, own beef lightly grain fed, grass-fed beef resold); Slagel Farms, central IL (slagelfarms.com); Brass Family Farm (brassfamilyfarm.com, town unknown)
+- No website known 2026-11-14: Burnt Hill Cattle Company, Dahlgren; Main Street Pastures, St. Rose; Root and Sky Farms, Marengo (NRCS Illinois grazier profiles)
+- Illinois Beef Association Local Beef Directory (illinoisbeef.com/membership/local-beef-directory) not yet used as a source 2026-11-14
 - The Log Cabin Ranch candidate: own domain fetch blocked, so pastured chicken and shipping to 48 states not confirmed; Verifier may check 2026-11-13
 
 ## ID
-- Lava Lake Lamb, Hailey area (lavalakelamb.com): grass-fed lamb, says AGW certified; buy page would not load 2026-11-13
-- Weiser River Ranch, Council (weiserriverranch.com); LMAC Land & Cattle, Midvale (lmac-ranch.com); Hipwell Ranch, Oreana (hipwellranch.com, grass finished): Idaho Beef Council directory says grass-fed, direct sales; not opened, cap reached 2026-11-13
-- Idaho Beef LLC, Lewiston (idahobeef4u.com): grass-finished and grain-finished, likely both; Bruce Ranch Beef CSA (bruceranchbeef.com): grass-fed, grain-finished; unchecked 2026-11-13
-- Triple Slash Beef (tripleslashbeef.grazecart.com): grass-fed and finished per titles, store under maintenance 2026-11-13
-- Ball Ranch (ballranch.net), Idaho Mountain Meats (idahomountainmeats.com): location and feeding unchecked; Bent Tree Farm, Bonners Ferry: own site not found 2026-11-13
+- Triple Slash Beef (tripleslashbeef.grazecart.com): store shows a maintenance notice on every page 2026-11-14
+- Ball Ranch (ballranch.net): site blocks fetching 2026-11-14; Bent Tree Farm, Bonners Ferry: own site not found 2026-11-13
 - 6/2 Ranch, Moscow (62ranchbeef.com) and Big Canyon Beef, Craigmont: directory says grain-finished, likely rejections 2026-11-13
 - Desert Mountain Grass-Fed rejected as a cooperative; its member ranches may qualify individually 2026-11-13
+- Unchecked 2026-11-14: Buckaroo Beef, town unknown (buckaroobeef.eatfromfarms.com); Deep Creek Cattle Company, no own site found; Cunningham Pastured Meats (cunninghampasturedmeats.next.grazecart.com, state not confirmed)
 
 ## IN
 - Hand to the Plow Farm, Albion (handtotheplowfarm.grazecart.com): grass-fed and finished beef, farm pickup; surfaced in an IL search, not written up 2026-11-13
+- Holy Cow Farm Fresh (holycowfarmfresh.grazecart.com): surfaced in an IL search, unchecked 2026-11-14
+
+## IA
+- Thankful Harvest, Laporte City or Holstein (thankfulharvest.com): surfaced as an IL lead but is in Iowa, unchecked 2026-11-14
+
+## KS
+- Bauman's Meat Market (baumansmeatmarket.grazecart.com): surfaced in an IL search, may be a meat market rather than a farm, unchecked 2026-11-14
+
+## OK
+- Prairie Creek Farms (prairiecreek.farm): surfaced in an IL search, unchecked 2026-11-14
 
 ## MI
 - Finn's Ranch, Buchanan (finnsranch.com): grass-finished beef delivered across Chicagoland; own site fetch blocked 2026-11-13
@@ -239,10 +252,11 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 
 ## HI
 - Ulupalakua Ranch, Kula, Maui (ulupalakuaranch.com): beef sold through Maui Cattle Company, ranch store is a grill, no direct meat sales found 2026-11-12
-- Makaweli Meat Company, Makaweli, Kauai (makawelimeatcompany.com): Kauai Grown lists only retail, wholesale and restaurant outlets, no grass wording; own site fetch blocked 2026-11-13
-- Hana Ranch, Hana, Maui (hanaranch.com/grassfed-beef): http/https redirect loop 2026-11-12
+- Makaweli Meat Company, Makaweli, Kauai (makawelimeatcompany.com): https/http redirect loop; domain search shows Products, Where To Find Us and grass-fed pages, none fetchable 2026-11-14; Niihau Ranch beef is sold through this site
+- Hana Ranch, Hana, Maui (hanaranch.com/grassfed-beef): https/http redirect loop again 2026-11-14
 - Mauka Meats: only a marketspread.com vendor page found, no own site 2026-11-13
-- Hawaii Lowline Cattle Company, Ahualoa/Honokaa (hawaiilowline.com): in AGW's Hawaii beef listing as Certified Grassfed and AWA; own site fetch blocked, so no feeding sentence 2026-11-13
-- Puu O Hoku Ranch, Molokai (puuohoku.com): grass-fed beef, ranch store and online ordering per third parties; own site fetch blocked 2026-11-13
-- Malama Farm, Haiku, Maui (malamafarm.squarespace.com): pastured pork; no sales channel on the page read, check products page 2026-11-13
 - Makana Provisions, Oahu: Hawaii beef sold at Times Supermarkets, may be a brand rather than a farm 2026-11-13
+- Maili Moa / Maili Egg Farm, Maili, Oahu, and OK Poultry, Oahu: eggs, no own site found 2026-11-14
+- Ranch to Reef, Big Island: may be a retailer 2026-11-14
+- Avoid look-alike Hawaii beef pages on manus.space and pages.dev hosts (grassfedhi-j3pjbrue.manus.space, grassfed-beef-site.pages.dev, oahu-meats.pages.dev) 2026-11-14
+- Verifier: existing candidates oahu-meats and kunoa-cattle-company were sourced from pages.dev hosts (oahu-meats.pages.dev, kunoacattle-com.pages.dev) that may not be the farms' own sites; confirm the official domains before publishing 2026-11-14

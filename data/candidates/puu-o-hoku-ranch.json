@@ -1,0 +1,36 @@
+{
+  "id": "puu-o-hoku-ranch",
+  "slug": "puu-o-hoku-ranch",
+  "farm_name": "Puu O Hoku Ranch",
+  "city": "Kaunakakai",
+  "state": "HI",
+  "zip": "96748",
+  "address_public": true,
+  "address": "Mm 25, Kaunakakai, HI 96748",
+  "website": "https://www.puuohoku.com/",
+  "phone": "(808) 558-8109",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["beef boxes", "steaks", "ground beef", "venison"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass-fed and grass-finished, our beef is a byproduct of careful pasture management and rotational grazing.",
+    "source_url": "https://puuohokustore.com/products/copy-of-ohana-beef-box"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://puuohokustore.com/products/copy-of-ohana-beef-box"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://puuohokustore.com/pages/beef-venison",
+  "data_source": "web-search",
+  "source_url": "https://www.puuohoku.com/ranch",
+  "notes": "Large ranch and farm on the east end of Molokai that says its land is farmed organically and biodynamically. The ranch page says beef and venison are sold through its online store, and the store has a Grass-Fed Beef (Hoku Box) page listing ribeye, sirloin, NY, chuck and round steaks plus ground beef at $285. That beef box does not show in the store's all-products list, and the beef and venison store page could not be fetched, so current beef availability is unconfirmed. No shipping area, pickup or bulk shares were found for beef; the store sells some non-beef items to Hawaii and to the continental US. Venison is wild axis deer, not raised stock, so it is not listed as a species. The ranch store on site sells produce and honey; no page says it sells meat. The farm page also mentions specialty stores and wholesale without naming them. Organic labels are left to the organic match script."
+}

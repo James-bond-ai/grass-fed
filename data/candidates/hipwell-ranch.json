@@ -1,0 +1,35 @@
+{
+  "id": "hipwell-ranch",
+  "slug": "hipwell-ranch",
+  "farm_name": "Hipwell Ranch",
+  "city": "Oreana",
+  "state": "ID",
+  "zip": "",
+  "address_public": false,
+  "website": "https://hipwellranch.com/",
+  "phone": "208-495-6818",
+  "social_urls": ["https://www.facebook.com/hipranch/", "https://www.instagram.com/hipwellranch/"],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["steaks", "roasts", "ground beef", "ground beef organ blend", "hamburger patties", "stew meat", "beef bundles", "bulk beef", "bulk pork", "whole chicken", "ground chicken", "turkey", "eggs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "All Natural, Grass Fed and Finished",
+    "source_url": "https://hipwellranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Boise", "Meridian", "Eagle", "Nampa", "Caldwell", "Kuna", "Star"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Northwest Premium Meats (butcher pickup for bulk beef)"],
+    "source_url": "https://hipwellranch.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://hipwellranch.com/product-category/buy-all-natural-grass-fed-idaho-beef/",
+  "data_source": "web-search",
+  "source_url": "https://hipwellranch.com/",
+  "notes": "Family ranch in Oreana in the Owyhee Mountains raising BrAngus cattle. Checked the homepage, beef category and bulk beef pages, and the bulk beef, 50 lb bundle, stew meat, bulk pork, eggs and whole chicken product pages. The homepage calls the beef grass fed and finished and the stew meat page says grass-finished. Online orders, with home delivery to Boise, Meridian, Eagle, Nampa, Caldwell, Kuna and Star named on the homepage. Bulk beef comes as quarter, half or whole with a deposit; the butcher fee is paid to Northwest Premium Meats at pickup. Half and whole pork offered. Pork is described as raised in Oreana; chicken is called pasture raised on the homepage but its product page gives no detail. Eggs are from free range hens fed no corn or soy; the page does not say who keeps the hens. No shipping page, FAQ or street address found. The ranch also sells juniper firewood."
+}

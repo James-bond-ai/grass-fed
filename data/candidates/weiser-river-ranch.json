@@ -1,0 +1,36 @@
+{
+  "id": "weiser-river-ranch",
+  "slug": "weiser-river-ranch",
+  "farm_name": "Weiser River Ranch",
+  "city": "Council",
+  "state": "ID",
+  "zip": "83612",
+  "address_public": true,
+  "address": "2381 US Highway 95, Council, ID 83612",
+  "website": "https://www.weiserriverranch.com/",
+  "phone": "516-330-6498",
+  "social_urls": ["https://www.facebook.com/weiserriverranch", "https://www.instagram.com/weiserriverranch"],
+  "species": ["beef", "lamb"],
+  "products": ["steaks", "roasts", "ground beef", "Wagyu ground beef", "brisket", "short ribs", "stew beef", "organ meats", "bones", "lamb steaks", "lamb organ meats", "lamb bones"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% GRASS-FED AND GRASS-FINISHED.",
+    "source_url": "https://www.weiserriverranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "on-farm-store", "local-delivery", "farmers-market"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Boise and the Treasure Valley through McCall and Donnelly"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.weiserriverranch.com/shipping-and-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.weiserriverranch.com/shop-products",
+  "data_source": "web-search",
+  "source_url": "https://www.weiserriverranch.com/",
+  "notes": "Cattle and sheep ranch on Highway 95 at Council, run by David and Jamie. Checked the homepage, about page, shop page and ordering and delivery page. The homepage says beef and lamb are grass-fed and grass-finished, with organic alfalfa fed in winter. Customers can order online, visit the ranch to buy from the freezers, or get delivery from Boise and the Treasure Valley up to McCall and Donnelly. The delivery page says the ranch attends local farmers markets but names none. No shipping, no quarter or half beef, and no prices for bulk found. The shop has a second page of products that was not read. The ranch also sells raspberries. The about page says the meat is USDA certified, which is not a listing certification. The phone number uses a New York area code, as shown on the site."
+}

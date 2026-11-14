@@ -1,0 +1,36 @@
+{
+  "id": "gallagher-farms",
+  "slug": "gallagher-farms",
+  "farm_name": "Gallagher Farms",
+  "city": "Mansfield",
+  "state": "IL",
+  "zip": "61854",
+  "address_public": true,
+  "address": "2399 N 1000 East Rd, Mansfield, IL 61854",
+  "website": "https://www.gallagher-farms.com/",
+  "phone": "(317) 446-5533",
+  "social_urls": ["https://www.instagram.com/gallagherfarms", "https://www.facebook.com/GallagherFamilyFarms"],
+  "species": ["beef"],
+  "products": ["steaks", "roasts", "ground beef", "beef bundles", "jerky and snack sticks", "quarter, half and whole beef"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Gallagher Farms beef is grass fed, grain finished.",
+    "source_url": "https://www.gallagher-farms.com/beef-faq"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "online-order", "ships-regional"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.gallagher-farms.com/beef-faq"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.gallagher-farms.com/beef",
+  "data_source": "web-search",
+  "source_url": "https://www.gallagher-farms.com/beef-faq",
+  "notes": "Multi-generation family farm in Piatt County between Mansfield and Monticello that runs a cow-calf and feeder operation and says all its beef is raised on the farm. Checked the homepage, beef shop and beef FAQ pages. The FAQ says the cattle eat grass, hay, silage and other forage and are then corn fed, and the shop heading says grain finished, so the category is grain-finished. Sells individual cuts and bundles online, with on-farm pickup any time, and quarter, half and whole beef through a reservation form (the FAQ gives per-pound pricing). It ships by UPS to addresses within UPS's one or two day window from the farm but names no states, so ships_to is left empty. Several cuts and the 1/8 beef bundle were sold out on the day checked. The homepage also advertises crop farming and land services."
+}

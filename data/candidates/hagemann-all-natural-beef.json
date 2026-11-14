@@ -1,0 +1,40 @@
+{
+  "id": "hagemann-all-natural-beef",
+  "slug": "hagemann-all-natural-beef",
+  "farm_name": "Hagemann All Natural Beef",
+  "city": "Leaf River",
+  "state": "IL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://hagemannbeef.com/",
+  "phone": "815-238-7045",
+  "social_urls": ["https://www.facebook.com/HagemannBeef"],
+  "species": ["beef"],
+  "products": ["whole beef", "half beef", "quarter beef"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "We feed our livestock corn because it gives great flavor to the finished beef.",
+    "source_url": "https://hagemanbeef.squarespace.com/faqs"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Johnson's Processing, Chadwick, IL"],
+    "source_url": "https://hagemanbeef.squarespace.com/shop"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://hagemanbeef.squarespace.com/shop",
+  "availability": {
+    "status": "sold-out",
+    "note": "All whole, half and quarter beef deposits were marked sold out on the shop page.",
+    "checked_on": "2026-11-14"
+  },
+  "data_source": "web-search",
+  "source_url": "https://hagemanbeef.squarespace.com/our-story",
+  "notes": "Family farm in Ogle County with a Leaf River mailing address, raising Hereford cattle. Checked the homepage, our story, shop, FAQ, side of beef guide and purchasing terms pages. The cattle live on pasture or hay year round and are also fed corn the farm grows, so the category is grain-finished. Sells only whole, half and quarter beef by online deposit; buyers pick up at Johnson's Processing in Chadwick and pay processing there. The shop says there is no on-farm pickup or delivery, and no shipping is offered. The site's canonical domain is hagemannbeef.com but its pages are served from hagemanbeef.squarespace.com; the custom domain itself was not fetched."
+}

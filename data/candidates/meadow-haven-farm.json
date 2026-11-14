@@ -1,0 +1,36 @@
+{
+  "id": "meadow-haven-farm",
+  "slug": "meadow-haven-farm",
+  "farm_name": "Meadow Haven Farm",
+  "city": "Sheffield",
+  "state": "IL",
+  "zip": "61361",
+  "address_public": true,
+  "address": "6139 1700 North Avenue, Sheffield, IL 61361",
+  "website": "https://meadowhavenfarm.com/",
+  "phone": "815-303-6223",
+  "social_urls": ["https://www.facebook.com/Meadow-Haven-Farm-384840621718/"],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["beef", "pork", "chicken", "turkey", "eggs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "grass-fed, grass-finished beef and pastured chickens, turkeys and eggs",
+    "source_url": "https://meadowhavenfarm.com/meet-the-farmers/"
+  },
+  "certifications": [],
+  "sales_channels": ["local-delivery", "retail"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Palatine, Illinois"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Monthly drop at 120 North Rose Street, Palatine, second Saturday at 10:30 a.m.", "Healthy Harvest Urban Gardens, Rock Island"],
+    "source_url": "https://meadowhavenfarm.com/pick-up-locations/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://meadowhavenfarm.com/",
+  "notes": "Family farm in Sheffield, Bureau County, about two hours west of Chicago (not Hanover Park as the lead said). Checked the homepage, how we farm, meet the farmers, how to purchase and online store pages. The beef is described as grass-fed and grass-finished and the chickens, turkeys and eggs as pastured; the homepage also lists pastured pork. The farm delivers to Palatine on the second Saturday of each month and sells at Healthy Harvest Urban Gardens in Rock Island. The online store page only says Coming Soon, so no online ordering, bulk shares or shipping could be confirmed. The site says it is organically certified; organic labels are left to the USDA matching script."
+}
