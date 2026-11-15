@@ -221,7 +221,8 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Irish Grove Farms (northern IL), Yemm Farm (central IL), Three Spring Farms, Flora; Bear Creek Farm & Ranch, Flora; Golden Rose Livestock; Schroeder Farms Beef: directory listings only, no own website found 2026-11-13
 - Bauman Family Farms, Vienna: no website, only Facebook per an NRCS profile 2026-11-14
 - Tri Point Ranch / Graized, Moweaqua (graized.com): homepage has no feeding claim or buying details, product page robots blocked 2026-11-14
-- Unchecked 2026-11-14: Miller Brothers Farm, Oakland (millerbrothersfarm.com, bulk beef says grass fed and grain finished, likely candidate); Fifty Four Farms, Chestnut (fiftyfourfarms.com, pasture-raised beef shares); Barn Again Beef, near Princeville (barnagainbeef.yolasite.com, own beef lightly grain fed, grass-fed beef resold); Slagel Farms, central IL (slagelfarms.com); Brass Family Farm (brassfamilyfarm.com, town unknown)
+- Fetch blocked 2026-11-15 (own sites refused): Miller Brothers Farm, Oakland (millerbrothersfarm.com, bulk beef reportedly grass fed and grain finished); Fifty Four Farms, Chestnut (fiftyfourfarms.com, town confirmed by its Market Wagon page); Slagel Family Farm, Fairbury (slagelfamilyfarm.com, not slagelfarms.com, per Enjoy Illinois); Brass Family Farm, Stillman Valley (brassfamilyfarm.com, grass-fed beef per 2025 Shaw Local articles)
+- Unchecked 2026-11-15: Nature's Choice Farm (natureschoicefarm.com, surfaced for Tinley Park, farm location unknown); The Flock Farm (Facebook only, location unknown); findfoodforhumans.com/region/illinois directory not yet used
 - No website known 2026-11-14: Burnt Hill Cattle Company, Dahlgren; Main Street Pastures, St. Rose; Root and Sky Farms, Marengo (NRCS Illinois grazier profiles)
 - Illinois Beef Association Local Beef Directory (illinoisbeef.com/membership/local-beef-directory) not yet used as a source 2026-11-14
 - The Log Cabin Ranch candidate: own domain fetch blocked, so pastured chicken and shipping to 48 states not confirmed; Verifier may check 2026-11-13
@@ -231,11 +232,9 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Ball Ranch (ballranch.net): site blocks fetching 2026-11-14; Bent Tree Farm, Bonners Ferry: own site not found 2026-11-13
 - 6/2 Ranch, Moscow (62ranchbeef.com) and Big Canyon Beef, Craigmont: directory says grain-finished, likely rejections 2026-11-13
 - Desert Mountain Grass-Fed rejected as a cooperative; its member ranches may qualify individually 2026-11-13
-- Unchecked 2026-11-14: Buckaroo Beef, town unknown (buckaroobeef.eatfromfarms.com); Deep Creek Cattle Company, no own site found; Cunningham Pastured Meats (cunninghampasturedmeats.next.grazecart.com, state not confirmed)
+- Deep Creek Cattle Company / Wiebe Farms Inc., Buhl: no own website found, only a paywalled AgProud article 2026-11-15
 
 ## IN
-- Hand to the Plow Farm, Albion (handtotheplowfarm.grazecart.com): grass-fed and finished beef, farm pickup; surfaced in an IL search, not written up 2026-11-13
-- Holy Cow Farm Fresh (holycowfarmfresh.grazecart.com): surfaced in an IL search, unchecked 2026-11-14
 
 ## IA
 - Thankful Harvest, Laporte City or Holstein (thankfulharvest.com): surfaced as an IL lead but is in Iowa, unchecked 2026-11-14
