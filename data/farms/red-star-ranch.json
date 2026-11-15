@@ -1,0 +1,59 @@
+{
+  "id": "red-star-ranch",
+  "slug": "red-star-ranch",
+  "farm_name": "Red Star Ranch",
+  "city": "Hazelton",
+  "state": "ID",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.redstargrassranch.com/",
+  "phone": "208-751-9510",
+  "social_urls": [
+    "https://www.facebook.com/redstarranch",
+    "https://www.instagram.com/redstargrassranch"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef cuts",
+    "ground beef",
+    "roasts",
+    "steaks",
+    "beef boxes",
+    "pork chops",
+    "pork roasts",
+    "sausage",
+    "cured pork",
+    "whole chicken"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "The source for grass-finished, non-GMO meats raised in Southern Idaho.",
+    "source_url": "https://www.redstargrassranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.redstargrassranch.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://idahofoodcoop.com/vendors/red-star-ranch",
+  "data_source": "web-search",
+  "source_url": "https://www.redstargrassranch.com/about.html",
+  "notes": "Checked homepage, about page, grass fed benefits page and the marketing packet PDF on 2026-11-15. Town Hazelton comes from the ranch's own marketing packet; no street address published. Homepage says grass-finished with non-GMO feed; benefits page says cattle graze summer pastures and cover crops with grass or alfalfa hay in winter if needed. Pigs and chickens get non-GMO feed milled on the ranch, so they are pasture-raised. Online store via Idaho Food Coop; homepage also names Atkinson's (poultry), Tara's Garden Market and Farm Deliver Boise. Bulk whole, half and quarter beef and whole or half pork from the undated packet. Store product pages on the ranch site failed to load.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

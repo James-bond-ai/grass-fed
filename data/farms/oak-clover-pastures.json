@@ -1,0 +1,45 @@
+{
+  "id": "oak-clover-pastures",
+  "slug": "oak-clover-pastures",
+  "farm_name": "Oak Clover Pastures",
+  "city": "Citronelle",
+  "state": "AL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://oakcloverpastures.com/",
+  "phone": "251-224-6646",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole beef",
+    "half beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Whole 100% grass-fed, grass-finished cow.",
+    "source_url": "https://oakcloverpastures.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://oakcloverpastures.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://oakcloverpastures.com/",
+  "data_source": "web-search",
+  "source_url": "https://oakcloverpastures.com/",
+  "notes": "Unpublished 2026-11-15: the site is a single page that looks unfinished. The FAQ lists five questions with no answers, the Instagram and Facebook links point to the generic home pages, there is no checkout or order form beyond the Buy buttons and an email address, and the only farm detail is a four-generations line in Citronelle, AL. A testimonial mentions a wagyu ribeye from 'their Cowpen Creek (Oak Clover Pastures) line', so it is unclear whether Oak Clover raises its own cattle or sells beef from Cowpen Creek. Next check: whether the FAQ, ordering and social links are live, what the link to Cowpen Creek is, and the shipping area (whole $3,980 and half $2,190 cows are offered by shipping with ice packs or pickup, but no area is named, so shipping is not recorded as a channel). Phone 251-224-6646 is on the page.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

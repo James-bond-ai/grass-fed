@@ -47,7 +47,7 @@
     "note": "Freezer lamb currently unavailable; beef sold at the barn year round while supplies last.",
     "checked_on": "2026-11-05"
   },
-  "notes": "Unpublished 2026-11-08: Cattle page (modified 2026-01-13) says the farm decided not to keep cattle going forward, while the meat page still says meat is available at the barn year round. Sheep page says all 2025 lambs are sold and the meat page shows freezer lamb unavailable. Check with the farm whether any beef remains for sale (remove beef if not), whether lamb will be offered for 2026, and whether eggs and poultry sold at the barn are its own. Sold at the on-farm store, The Rooster's Egg. No shipping stated.",
+  "notes": "Unpublished 2026-11-08: Cattle page (modified 2026-01-13) says the farm decided not to keep cattle going forward, while the meat page still says meat is available at the barn year round. Sheep page says all 2025 lambs are sold and the meat page shows freezer lamb unavailable. Check with the farm whether any beef remains for sale (remove beef if not), whether lamb will be offered for 2026, and whether eggs and poultry sold at the barn are its own. Sold at the on-farm store, The Rooster's Egg. No shipping stated. 2026-11-15: could not check; site fetch refused (permission prompt timed out) and searches did not surface its pages; still unresolved.",
   "listing_status": "unpublished",
   "last_verified_at": "2026-11-08",
   "verification_method": "auto"

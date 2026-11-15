@@ -1,0 +1,56 @@
+{
+  "id": "new-dawn-farm",
+  "slug": "new-dawn-farm",
+  "farm_name": "New Dawn Farm",
+  "city": "Cove",
+  "state": "AR",
+  "zip": "71937",
+  "address_public": true,
+  "address": "134 Polk Road 20 W, Cove, AR 71937",
+  "website": "https://www.newdawnfarmar.com/",
+  "phone": "214-536-9660",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "ground beef",
+    "beef",
+    "chicken",
+    "eggs",
+    "bone broth",
+    "bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "producing pasture raised poultry and grass finished beef.",
+    "source_url": "https://www.newdawnfarmar.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm pickup, 134 Polk Road 20 W, Cove, AR",
+      "Monthly drop sites at Rogers AR, Mena AR, Pine Bluff AR and Rockwall TX (no future dates scheduled when checked)"
+    ],
+    "source_url": "https://newdawnfarmar.com/delivery_locations.php"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.newdawnfarmar.com/shop.php",
+  "data_source": "web-search",
+  "source_url": "https://www.arbeef.org/aca-beef-directory",
+  "notes": "Verifier 2026-11-15: read the homepage, about, delivery locations and bundles pages. The homepage meta description says the farm produces pasture raised poultry and grass finished beef; the beef is sold as Pasture Finished Beef and the cows are always on pasture, with no grain mentioned. Poultry is on pasture with organic, soy and corn free supplemental feed. Orders are placed online for farm pickup at Cove (always open); the four drop sites (Rogers, Mena, Pine Bluff, Rockwall TX) had no future dates scheduled, so local delivery is not listed as a channel. No quarter, half or whole beef listed, though the site mentions bulk beef orders in a newsletter offer. About page says the farm was started in 2023 by Joe and Rhonda Goss. No shipping mentioned.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

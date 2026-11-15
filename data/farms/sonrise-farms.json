@@ -1,0 +1,64 @@
+{
+  "id": "sonrise-farms",
+  "slug": "sonrise-farms",
+  "farm_name": "Sonrise Farms",
+  "city": "Penfield",
+  "state": "IL",
+  "zip": "61862",
+  "address_public": true,
+  "address": "1330 East 3000 North Road, Penfield, IL 61862",
+  "website": "https://sonrisefarms.net/",
+  "phone": "217-419-8474",
+  "social_urls": [
+    "https://www.instagram.com/sonrise_farms/",
+    "https://www.facebook.com/sonrisefarmsinfo/"
+  ],
+  "species": [
+    "beef",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "patties",
+    "jerky",
+    "chicken",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "At Sonrise Farms we raise and sell only 100% grass-fed, grass-finished beef.",
+    "source_url": "https://sonrisefarms.net/grassfinishedbeef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://sonrisefarms.net/grassfinishedbeef"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells raw milk and raw cottage cheese from Anna Belle Farm, butter from Nordic Creamery, and raw cream from E. Z. Acres Farm.",
+  "ordering_url": "https://my-site-102372-101132.square.site/",
+  "data_source": "web-search",
+  "source_url": "https://sonrisefarms.net/about",
+  "notes": "Checked homepage, grass-finished beef page and a 2024 blog post on 2026-11-15. Beef is 100% grass-fed and grass-finished. Also raises pasture-raised chickens and eggs sold in the farm store; poultry processing has been outsourced to Central Illinois Poultry Processing since 2024. Quarter and half beef reserved through the Square shop. Dairy and other items from other farms are resold. No shipping or delivery described.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "availability": {
+    "status": "sold-out",
+    "note": "Freezer beef (quarters and halves) is sold out for 2026; individual cuts are still sold by the pound at the on-farm store.",
+    "checked_on": "2026-11-15"
+  }
+}

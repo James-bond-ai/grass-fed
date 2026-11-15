@@ -1,0 +1,50 @@
+{
+  "id": "independence-ark-farm",
+  "slug": "independence-ark-farm",
+  "farm_name": "Independence Ark Farm",
+  "city": "Mount Pleasant",
+  "state": "AR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.independenceark.com/",
+  "phone": "205-887-6201",
+  "social_urls": [
+    "https://www.instagram.com/independenceark"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "50, 100 and 200 lb beef bundles",
+    "quarter and half beef",
+    "beef boxes",
+    "beef bones"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Pasture raised, Grass-Fed and Finished",
+    "source_url": "https://www.independenceark.com/product-page/quarter-grass-fed-cow"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://www.independenceark.com/shipping-and-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.independenceark.com/grass-fedbeef",
+  "data_source": "web-search",
+  "source_url": "https://www.independenceark.com/",
+  "notes": "Unpublished 2026-11-15: the FAQ (per the Scout's check) says purchased stocker calves are kept on a forage only diet, and the site says the beef is hand selected and raised by the Babac family; check whether any calves are born on the farm and how long bought calves are grazed before harvest. Also check whether the Heritage Pork is raised on the farm (the ham page said sourced from pasture-raised pork), so pork is left out for now. Checked the homepage, pre-sale beef page and quarter beef page; the FAQ and shipping pages were not surfaced this run. Product pages say Pasture raised, Grass-Fed and Finished, so the category is grass-finished. Most beef is pre-order, expected to ship Dec 2026, by UPS 2 or 3 day; the Scout read the shipping page as continental US. Arkansas customers can email about local pickup or delivery. Tallow products are also sold.",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "listing_status": "unpublished"
+}

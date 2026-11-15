@@ -1,0 +1,58 @@
+{
+  "id": "lau-family-farm",
+  "slug": "lau-family-farm",
+  "farm_name": "Lau Family Farm",
+  "city": "Soda Springs",
+  "state": "ID",
+  "zip": "83276",
+  "address_public": false,
+  "website": "https://laufamilyfarmllc.grazecart.com/",
+  "phone": "208-709-4981",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "hamburger patties",
+    "bones and organs",
+    "beef bundles",
+    "quarter beef",
+    "lamb",
+    "wool fiber products"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "16 years ago we converted our 5th generation farm to raising 100% grass-fed and grass-finished beef and lamb.",
+    "source_url": "https://laufamilyfarmllc.grazecart.com/about-our-farm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Northern Utah",
+      "Southeast Idaho"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://laufamilyfarmllc.grazecart.com/store/grassfed-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://laufamilyfarmllc.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://laufamilyfarmllc.grazecart.com/store/product/quarter-beef-deposit",
+  "notes": "Verifier 2026-11-15: read the about page, the grass-fed beef store page and the locations page. The about page says the farm converted to 100% grass-fed and grass-finished beef and lamb; animals graze pasture and get farm-grown hay, alfalfa, sainfoin and grasses in winter. The store lists about 30 beef cuts, bundles and patties; no lamb products were listed even though a lamb category exists. The site delivers to communities in Northern Utah and Southeast Idaho, with home delivery by zip code; no pickup sites are named and no shipping is mentioned. Phone and PO Box 337, Soda Springs are on the site.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

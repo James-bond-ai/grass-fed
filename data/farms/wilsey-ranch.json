@@ -1,0 +1,73 @@
+{
+  "id": "wilsey-ranch",
+  "slug": "wilsey-ranch",
+  "farm_name": "Wilsey Ranch Pasture Meats",
+  "city": "Marsing",
+  "state": "ID",
+  "zip": "83639",
+  "address_public": true,
+  "address": "16550 US Hwy 95, Marsing, ID",
+  "website": "https://wilseyranch.com/",
+  "phone": "208-249-0942",
+  "social_urls": [
+    "https://www.instagram.com/wilseyranch/"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "bulk beef",
+    "beef boxes",
+    "ground beef",
+    "steaks",
+    "roasts",
+    "organ meats",
+    "pasture pork",
+    "heritage pasture chickens",
+    "eggs",
+    "tallow skin balm"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass Finished American Wagyu Bulk Order",
+    "source_url": "https://wilseyranch.eatfromfarms.com/product/grass-finished-american-wagyu-bulk-order-deposit"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Boise Farmers Market (pre-order pickup)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Marsing",
+      "Boise",
+      "Garden City",
+      "Nampa"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Boise, South Cole (1851 Century Way)",
+      "The Common Well, Garden City",
+      "Nampa, Garrity at Winco Foods",
+      "Boise Farmers Market"
+    ],
+    "source_url": "https://wilseyranch.eatfromfarms.com/delivery_locations.php"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://wilseyranch.eatfromfarms.com/shop.php",
+  "data_source": "web-search",
+  "source_url": "https://idbeef.org/cooking/local-producers-suppliers-directory",
+  "notes": "Checked the ranch's online store (about page, shop, delivery locations and bulk order page); wilseyranch.com itself could not be fetched this run. Cattle graze rangeland in the Owyhee Mountains and the beef is sold as grass finished American Wagyu, with quarter, half and whole beef deposits. The ranch also sells pasture pork (fed non-GMO grain, apples and hay), heritage pasture chickens with non-corn, non-soy feed, and free range eggs. Ordering is online with home delivery and pickup in Boise, Garden City, Nampa and at the Boise Farmers Market. No shipping and no CSA found on the store, so CSA and the Meridian and Wood River Valley stops from the earlier check were dropped.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

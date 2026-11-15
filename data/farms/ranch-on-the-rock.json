@@ -1,0 +1,60 @@
+{
+  "id": "ranch-on-the-rock",
+  "slug": "ranch-on-the-rock",
+  "farm_name": "Ranch on the Rock",
+  "city": "Maysville",
+  "state": "AR",
+  "zip": "72747",
+  "address_public": true,
+  "address": "9350 N Stateline Rd, Maysville, AR 72747",
+  "website": "https://www.ranchontherock.com/",
+  "phone": "479-291-0024",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole beef",
+    "half beef",
+    "quarter beef",
+    "beef packages",
+    "individual cuts"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We offer beef from grass fed, grass finished Beefmaster and Angus crosses born and raised on our farm in NW Arkansas.",
+    "source_url": "https://www.ranchontherock.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Northwest Arkansas",
+      "Northeast Oklahoma"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Pickup at the processor (SWC Processing)"
+    ],
+    "source_url": "https://www.ranchontherock.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.allaboutarkansas.com/best-grass-fed-beef-farms-in-arkansas/",
+  "availability": {
+    "status": "waitlist",
+    "note": "The farm says its processor is booked out over a year and that it may have to stop selling beef; orders are still taken by email or text.",
+    "checked_on": "2026-11-15"
+  },
+  "notes": "Checked homepage and 2019 price sheet on 2026-11-15. Homepage says grass fed, grass finished cattle born and raised on the farm; price sheet adds that beef is finished only when green grass is available and a protein supplement is fed in drought and winter. Quarter, half or whole beef by hanging weight; order by email (preferred) or call or text 479-719-0102. Delivery for a nominal fee or pickup at the processor; no towns named, region from the homepage header. farm-pickup stands for pickup at the processor.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

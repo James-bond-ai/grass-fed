@@ -1,0 +1,62 @@
+{
+  "id": "cunningham-pastured-meats",
+  "slug": "cunningham-pastured-meats",
+  "farm_name": "Cunningham Pastured Meats",
+  "city": "Jordan Valley",
+  "state": "OR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://cunninghampasturedmeats.next.grazecart.com/",
+  "phone": "208-450-3276",
+  "social_urls": [
+    "https://www.facebook.com/CunninghamPasturedMeats",
+    "https://www.instagram.com/cunninghampasturedmeats/"
+  ],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "grass-fed beef",
+    "grass-fed lamb",
+    "beef boxes and bundles",
+    "bones and organs",
+    "bulk beef and lamb shares"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "All our beef and lamb is 100% grass-fed and finished: no grains, no GMOs, no hormones, no antibiotics.",
+    "source_url": "https://cunninghampasturedmeats.next.grazecart.com/about"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Boise Metro",
+      "Treasure Valley, Idaho"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Cliff's Country Market, 217 Blaine St, Caldwell, ID 83605, Tuesdays from 12:00 PM",
+      "Wednesday meetup in Meridian, ID (time and place emailed with the order)"
+    ],
+    "source_url": "https://cunninghampasturedmeats.next.grazecart.com/pickup"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://cunninghampasturedmeats.next.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://cunninghampasturedmeats.next.grazecart.com/",
+  "resold_note": "Also sells pork, chicken, bison, wild-caught seafood and other items; the site says it partners with other family producers and does not say which products are raised on its own ranch.",
+  "notes": "Checked the about page, FAQ, shipping page and grass-fed beef store page on 2026-11-15. The about page says all beef and lamb is 100% grass-fed and finished with no grains; the FAQ says the lamb comes from the family's own hair sheep flock and beef is sold under Cunningham Family Ranch. The about page says the ranch is just over the Idaho border in Eastern Oregon and that the farm partners with several other producers for beef, bison, lamb, pork, chicken and seafood, so only beef and lamb are listed as raised here. Free home delivery in the Boise Metro on orders over $199 (Wednesdays and Thursdays); pickup at Cliff's Country Market in Caldwell on Tuesdays and a Wednesday Meridian meetup. Ships frozen from Caldwell across the US except Alaska, Hawaii and Puerto Rico, $199 minimum. FAQ lists quarter, half and whole beef and half and whole lamb.",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

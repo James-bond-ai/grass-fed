@@ -1,0 +1,63 @@
+{
+  "id": "hawaii-lowline-cattle-company",
+  "slug": "hawaii-lowline-cattle-company",
+  "farm_name": "Hawaii Lowline Cattle Company",
+  "city": "Honokaa",
+  "state": "HI",
+  "zip": "96727",
+  "address_public": true,
+  "address": "46-3930 Pu'aono Rd, Honoka'a, HI 96727",
+  "website": "https://hawaiilowline.com/",
+  "phone": "(808) 896-0883",
+  "social_urls": [
+    "https://www.facebook.com/HawaiiLowlineCattleCompany/",
+    "https://www.instagram.com/hawaiilowlinecattle/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef"
+  ],
+  "feeding_claim": {
+    "category": "unknown",
+    "verbatim": "well-suited to beef production on grass",
+    "source_url": "https://hawaiilowline.com/about-us/"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/hawaii/ahualoa/beef-1/hawaii-lowline-cattle-company/",
+      "verified_on": "2026-11-14"
+    },
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/hawaii/ahualoa/beef-1/hawaii-lowline-cattle-company/",
+      "verified_on": "2026-11-14"
+    }
+  ],
+  "sales_channels": [
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "The Hamakua Harvest, Honokaa (Sundays, mobile store)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Mobile store on Mamane Street, Honokaa (Mondays and Wednesdays)"
+    ],
+    "source_url": "https://hawaiilowline.com/contact/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/hawaii/ahualoa/beef-1/hawaii-lowline-cattle-company/",
+  "notes": "Unpublished 2026-11-15: check what the mobile store sells and at what prices; the shop page shows no products and the contact page names the mobile store (The Hamakua Harvest, Sundays 9am to 2pm; Mamane Street, Honokaa, Mondays and Wednesdays) without saying it sells beef. Also look for a grass-fed or grass-finished statement on the homepage, which could not be fetched. Checked the about, shop and contact pages: the about page says the family has raised Lowline cattle since 2008 (first calf born 2008) and that the breed suits beef production on grass, with no grain or finishing statement, so the category is unknown. AGW Certified Grassfed and Animal Welfare Approved are kept from the AGW listing page found by the Scout. AGW lists phone 808-896-2140; the farm site shows (808) 896-0883, used here.",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "listing_status": "unpublished"
+}

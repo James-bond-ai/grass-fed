@@ -1,0 +1,60 @@
+{
+  "id": "pratt-family-beef",
+  "slug": "pratt-family-beef",
+  "farm_name": "Pratt Family Beef",
+  "city": "Blackfoot",
+  "state": "ID",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.prattfamilybeef.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.instagram.com/prattfamilybeef/",
+    "https://facebook.com/prattfamilybeef"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef shares",
+    "ground beef",
+    "burger bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Pratt Family Beef is 100% grassfed from start to finish.",
+    "source_url": "https://www.prattfamilybeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Blackfoot, ID",
+      "Boise, ID",
+      "Twin Falls, ID",
+      "Salt Lake City, UT"
+    ],
+    "source_url": "https://www.prattfamilybeef.com/beef-share-process"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.prattfamilybeef.com/buy-beef",
+  "data_source": "web-search",
+  "source_url": "https://idbeef.org/cooking/local-producers-suppliers-directory",
+  "notes": "Checked homepage, buy beef, share process and FAQ pages on 2026-11-15. 100% grassfed from start to finish; FAQ says cattle only eat forage, grass and hay. Family ranch since 1904. Quarter, half and whole shares by deposit, harvested at Hopkins Packing Company in Blackfoot; pickup in Blackfoot or drop points in Boise, Twin Falls and Salt Lake City. No shipping and no phone published. The shop shows custom beef shares sold out while the process page says 2026 orders are accepted, so availability is recorded as sold out with that note.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "availability": {
+    "status": "sold-out",
+    "note": "Custom beef shares show as sold out in the online shop; the share process page still says 2026 orders are being accepted, with beef ready in September and October. Burger bundles are listed without a sold-out label.",
+    "checked_on": "2026-11-15"
+  }
+}

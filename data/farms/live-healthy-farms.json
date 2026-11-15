@@ -1,0 +1,61 @@
+{
+  "id": "live-healthy-farms",
+  "slug": "live-healthy-farms",
+  "farm_name": "Live Healthy Farms",
+  "city": "Bonnerdale",
+  "state": "AR",
+  "zip": "71933",
+  "address_public": true,
+  "address": "1001 Caddo Gap Rd, Bonnerdale, AR 71933",
+  "website": "https://www.livehealthyfarms.com/",
+  "phone": "214-862-3869",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "eggs",
+    "dairy-cow"
+  ],
+  "products": [
+    "whole steer",
+    "half steer",
+    "steaks",
+    "roasts",
+    "brisket",
+    "stew meat",
+    "ground beef",
+    "organ meat",
+    "beef bones",
+    "raw milk",
+    "eggs",
+    "beef tallow"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass fed and GRASS FINISHED.",
+    "source_url": "https://www.livehealthyfarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.livehealthyfarms.com/perishables"
+  },
+  "dairy_products": [
+    "raw-milk"
+  ],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.livehealthyfarms.com/",
+  "notes": "Verifier 2026-11-15: read the homepage, perishables page and FAQ. The homepage says the beef is 100% grass fed and grass finished; the milk page says the A2 raw milk comes from grass-fed cows on pasture. Raw milk is sold for personal use, is not state inspected, and raw milk sales are legal only in some states. Beef cuts, raw milk and eggs are pickup only at the farm store (Mon to Sat 7am to 7pm, new customers need an appointment and gate code); only non-perishables such as tallow ship. Whole and half steers are sold by hanging weight with a deposit; the page still shows 2025 sold out and a 2026 waitlist for them, while individual cuts are listed with prices, so no overall availability flag is set. Site banner says Hot Springs; address is Bonnerdale.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

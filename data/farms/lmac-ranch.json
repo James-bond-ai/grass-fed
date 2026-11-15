@@ -1,0 +1,54 @@
+{
+  "id": "lmac-ranch",
+  "slug": "lmac-ranch",
+  "farm_name": "LMAC Ranch",
+  "city": "Boise",
+  "state": "ID",
+  "zip": "",
+  "address_public": false,
+  "website": "https://lmac-ranch.com/",
+  "phone": "(208) 355-5244",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "bulk ground beef",
+    "beef sticks",
+    "custom beef boxes",
+    "quarter, half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass-fed and grass-finished Angus, with no added hormones and no antibiotics.",
+    "source_url": "https://lmac-ranch.com/pages/faq"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Treasure Valley and surrounding areas"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://lmac-ranch.com/pages/faq"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://lmac-ranch.com/pages/build-your-own-box",
+  "data_source": "web-search",
+  "source_url": "https://lmac-ranch.com/",
+  "notes": "Verifier 2026-11-15: read the homepage, about, FAQ and contact pages. The site says 100% grass-fed and grass-finished Angus, never fed grain; the herd summers in mountain meadows and gets ranch-grown alfalfa and grass hay in winter. It sells cuts, beef sticks, custom boxes, bulk ground beef and quarter, half or whole beef by reservation, delivered across the Treasure Valley and surrounding areas, with pickup at the ranch on request. The site places the ranch in Idaho's Treasure Valley and its page title names Boise; Midvale is not mentioned anywhere, so the town is kept as Boise. Phone (208) 355-5244 appears on both the about and contact pages. Some FAQ details (pickup details, yields, prices) are still marked as placeholders.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

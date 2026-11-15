@@ -1,0 +1,56 @@
+{
+  "id": "alleluia-acres-heritage-farm",
+  "slug": "alleluia-acres-heritage-farm",
+  "farm_name": "Alleluia Acres Heritage Farm",
+  "city": "Alabaster",
+  "state": "AL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://alleluiaacresheritagefarm.com/",
+  "phone": "205-835-9500",
+  "social_urls": [],
+  "species": [
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "pastured pork",
+    "bacon",
+    "sausage and ground pork",
+    "half and whole hogs",
+    "chicken",
+    "chicken eggs",
+    "duck eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Pastured and supplemented with organic feed without corn, soy, canola or wheat!",
+    "source_url": "https://alleluiaacresheritagefarm.com/half-whole-hogs/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Slasham Valley Farms processor, Ashville, AL (half and whole hogs, standard pricing)"
+    ],
+    "source_url": "https://alleluiaacresheritagefarm.com/half-whole-hogs/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://alleluiaacresheritagefarm.com/product-category/pastured-meat-eggs/",
+  "data_source": "web-search",
+  "source_url": "https://alleluiaacresheritagefarm.com/",
+  "notes": "Family farm at Alabaster, AL raising Tamworth hogs, heritage chickens, ducks, Guernsey cows and Oberhasli goats. Checked 2026-11-15 the homepage, products, practices and breeds, half and whole hogs, store category and micro-dairy pages. Online orders and a self-serve mini market at the farm Monday and Saturday 1 to 6pm; pork cuts, a pork pack and chicken eggs in stock. Half and whole hog deposits taken, picked up at the processor in Ashville or at the farm with all-inclusive pricing. All livestock get pasture plus a certified organic feed with no corn, soy, canola or wheat (the practices page says dairy animals get minimal corn). Duck and chicken eggs are seasonal. Raw cow milk is sold only as pet milk, so no dairy listed. Grass-fed beef was listed as anticipated in fall 2025 but none is for sale, so beef is not listed. Site claims Certified Naturally Grown, which is not one of the tracked programs. No delivery, shipping or markets.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

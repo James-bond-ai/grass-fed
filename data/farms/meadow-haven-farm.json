@@ -1,0 +1,74 @@
+{
+  "id": "meadow-haven-farm",
+  "slug": "meadow-haven-farm",
+  "farm_name": "Meadow Haven Farm",
+  "city": "Sheffield",
+  "state": "IL",
+  "zip": "61361",
+  "address_public": true,
+  "address": "6139 1700 North Avenue, Sheffield, IL 61361",
+  "website": "https://meadowhavenfarm.com/",
+  "phone": "815-303-6223",
+  "social_urls": [
+    "https://www.facebook.com/Meadow-Haven-Farm-384840621718/"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "quarter, half and whole beef",
+    "pork",
+    "bacon",
+    "chicken",
+    "turkey",
+    "eggs",
+    "monthly meat CSA boxes"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "All our beef is pasture raised 100% GRASS-FED and finished.",
+    "source_url": "https://meadowhavenfarm.com/product/half-beef-down-payment/"
+  },
+  "certifications": [
+    {
+      "body": "Nature’s International Certification Services",
+      "program": "usda-organic-pasture",
+      "cert_id": "8431000173",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Jeremy & William House\" (Sheffield, IL), pasture or hay certified; livestock not certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-11-15"
+    }
+  ],
+  "sales_channels": [
+    "csa",
+    "online-order",
+    "local-delivery",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Palatine, Illinois"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Monthly drop at 120 North Rose Street, Palatine, second Saturday at 10:30 a.m.",
+      "Healthy Harvest Urban Gardens, Rock Island"
+    ],
+    "source_url": "https://meadowhavenfarm.com/pick-up-locations/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://meadowhavenfarm.com/product/half-beef-down-payment/",
+  "data_source": "web-search",
+  "source_url": "https://meadowhavenfarm.com/",
+  "notes": "Verifier 2026-11-15: the homepage returned only a verification screen; read the meet the farmers, CSA, pick-up locations and half beef pages. The farmers describe grass-fed, grass-finished beef and pastured chickens, turkeys and eggs, and the beef product pages say pasture raised 100% grass-fed and finished. Quarter, half and whole beef can be reserved online with a down payment. A three-month monthly meat CSA (beef, chicken, optional pork, egg add-on) is offered. The pick-up locations page lists a monthly drop at 120 North Rose Street, Palatine (second Saturday 10:30 a.m.) and in-person sales at Healthy Harvest Urban Gardens, Rock Island; the CSA page names older pickup towns (Elgin, Downers Grove, Arlington Heights, Bloomington, Peoria), which were not recorded. Pork is listed from the CSA page only; its feed is not described. The site says it is organically certified; organic labels are left to the USDA matching script.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "botl-farm",
+  "slug": "botl-farm",
+  "farm_name": "BOTL Farm",
+  "city": "Ashford",
+  "state": "CT",
+  "zip": "06278",
+  "address_public": true,
+  "address": "859 Westford Rd, Ashford, CT 06278",
+  "website": "https://www.botlfarm.com/",
+  "phone": "860-333-8810",
+  "social_urls": [],
+  "species": [
+    "goat",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "goat meat",
+    "goat organ meats",
+    "bone broth",
+    "pork cuts",
+    "whole chickens",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our goats are Certified Grass Fed by AGW, which means they only eat grass/hay and nothing else.",
+    "source_url": "https://www.botlfarm.com/faq"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/connecticut/ashford/goat-1/botl-farm/",
+      "verified_on": "2026-11-11"
+    },
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/connecticut/ashford/goat-1/botl-farm/",
+      "verified_on": "2026-11-11"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "farm-pickup",
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Assawaga Farm Market, Putnam, CT (Saturdays 9 am to noon, May 30 to November 21)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "On-farm self pickup cooler, Ashford, CT (daily 8am to 8pm, order by 4pm the day before)",
+      "New Haven preorder pickup, Wooster Square Park (set dates)",
+      "Sturbridge preorder pickup at Deep Roots Distillery, Fiskdale, MA (select Saturdays, October to February)"
+    ],
+    "source_url": "https://www.botlfarm.com/find-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://store.botlfarm.com/",
+  "data_source": "certifier",
+  "source_url": "https://agreenerworld.org/agw-listings/united-states/connecticut/ashford/goat-1/botl-farm/",
+  "resold_note": "Also sells beef cuts from Stone Hill Farm in Plainfield, CT.",
+  "notes": "Farm at 859 Westford Rd, Ashford, CT. Checked 2026-11-15 the homepage, FAQ, find us page and the online store with its drop point pages; the AGW listing page could not be opened, so the AGW certifications added by the Scout (Certified Grassfed for goat, Animal Welfare Approved) were kept on the strength of the certifier listing URL and the farm's own matching statement. Kiko goats eat only grass and hay; pigs and chickens are on pasture with a soy-free, corn-free, certified organic feed. On-farm store Wednesday noon to 2 and Saturday 1 to 3, online preorders with a daily self pickup cooler, the Assawaga Farm Market in Putnam, and preorder pickups in New Haven and at Deep Roots Distillery in Fiskdale, MA. The store also lists a drop point in Cambridge, MA tied to a July 4 box. The farm stopped raising sheep in winter 2024, so lamb is not listed. No shipping or delivery stated; no half or whole animals. Also sells organic animal feed from New Country Organics, honey and pet products.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

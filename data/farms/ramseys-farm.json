@@ -1,0 +1,59 @@
+{
+  "id": "ramseys-farm",
+  "slug": "ramseys-farm",
+  "farm_name": "Ramsey's Farm",
+  "city": "Wilmington",
+  "state": "DE",
+  "zip": "19803",
+  "address_public": true,
+  "address": "440 Ramsey Road, Wilmington, DE 19803",
+  "website": "https://www.ramseysfarm.com/",
+  "phone": "(302) 496-6426",
+  "social_urls": [
+    "https://www.facebook.com/ramseysfarm",
+    "https://www.instagram.com/ramseys.farm"
+  ],
+  "species": [
+    "beef",
+    "poultry"
+  ],
+  "products": [
+    "Wagyu beef cuts",
+    "Angus beef",
+    "bulk beef shares",
+    "chicken"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Our herd eats fresh grass and receive grass hay and select grains (grown on our farm).",
+    "source_url": "https://www.ramseysfarm.com/pick-your-own"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.ramseysfarm.com/produce-stand-wagyu-beef"
+  },
+  "dairy_products": [],
+  "availability": {
+    "status": "paused",
+    "note": "Online beef ordering closed August 1, 2025. Beef cuts are sold first come, first served at the Ramsey's Farm and New Roots produce stands (late May to October), or by calling 302-496-6426 while the stands are closed. 2026 chicken pickups are finished.",
+    "checked_on": "2026-11-15"
+  },
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.nebpi.org/local-beef-directory/delaware",
+  "resold_note": "Also sells Woodside Farm ice cream and produce from neighboring Delaware farms.",
+  "notes": "Checked Wagyu beef and produce stand pages on 2026-11-15. Herd eats fresh grass plus grass hay and select grains grown on the farm, so category is percentage. Wagyu sold at the stand; Angus offered by the 1/4, 1/2 and whole cow on inquiry. The Wagyu page says the cattle are raised in Cochranville, PA. Chicken is described as raised on the farm with free-range access, pre-order only. Farm market reopens for Christmas trees on Nov 27.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

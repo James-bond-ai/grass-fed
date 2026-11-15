@@ -1,0 +1,56 @@
+{
+  "id": "4a-ranch",
+  "slug": "4a-ranch",
+  "farm_name": "4A Ranch",
+  "city": "Canton",
+  "state": "IL",
+  "zip": "61520",
+  "address_public": true,
+  "address": "16844 E Hooty Rd, Canton, IL 61520",
+  "website": "https://4-a-ranch.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/people/The-4A-Ranch/100068234785541/",
+    "https://www.instagram.com/4.a.ranch"
+  ],
+  "species": [
+    "lamb",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "lamb",
+    "chicken",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our sheep are raised entirely on pasture and finished on grass without grain supplementation.",
+    "source_url": "https://4-a-ranch.com/products/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "within 10 miles of the ranch"
+    ],
+    "local_radius_miles": 10,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.4-a-ranch.com/contact"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/4-a-ranch/all",
+  "data_source": "web-search",
+  "source_url": "https://4-a-ranch.com/",
+  "notes": "The Allard family's ranch near Canton in Fulton County, which also boards horses. Checked 2026-11-15 the homepage, products, our practices, become an egg producer and contact pages. Lamb is grass-fed and grass-finished with no grain; meat chickens are on pasture with non-GMO feed (an organic corn and soy free ration by request); egg hens are on pasture with non-GMO, soy-free feed and the egg subscription has a waitlist. The egg producer page says outside producers' eggs are collected, graded and sold under the ranch's brand, so some eggs are not from the ranch's own hens. Orders go through the Barn2Door store, with free delivery within 10 miles; visitors must call ahead. No shipping, markets, phone or bulk lamb found. Site says it is not USDA certified organic.",
+  "resold_note": "Also sells eggs from independent producers in its egg producer network under the ranch's own brand.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

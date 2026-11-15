@@ -1,0 +1,49 @@
+{
+  "id": "vera-earl-ranch",
+  "slug": "vera-earl-ranch",
+  "farm_name": "Vera Earl Ranch",
+  "city": "Sonoita",
+  "state": "AZ",
+  "zip": "85637",
+  "address_public": true,
+  "address": "3282 Hwy 82, Sonoita, AZ",
+  "website": "https://www.veraearlranch.com/",
+  "phone": "(520) 455-9317",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "bulk beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "They're finished on a carefully balanced corn-based ration",
+    "source_url": "https://www.veraearlranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.veraearlranch.com/premium-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.shopvepremiumbeef.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://fillyourplate.org/find-farm-product/vera-earl-premium-beef",
+  "notes": "Checked the homepage, premium beef, cattle and certifications pages; the separate online shop could not be fetched. Black Angus and Black Angus cross cattle are born on the ranch, graze native grass in a pasture rotation until weaning, then are fed a corn and hay ration made from local ingredients until finished, so the category is grain-finished. Beef sells through the online shop and the storefront at 3282 Hwy 82 in Sonoita. The shop has a Shares and Bulk section but no share sizes were readable, and no delivery or shipping was stated. The ranch lists GAP Step 4, IMI Global and BQA programs, none of which are listing certifications.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

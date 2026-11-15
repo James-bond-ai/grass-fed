@@ -1,0 +1,75 @@
+{
+  "id": "alderspring-ranch",
+  "slug": "alderspring-ranch",
+  "farm_name": "Alderspring Ranch",
+  "city": "May",
+  "state": "ID",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.alderspring.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "roasts",
+    "dry-aged cuts",
+    "sausages",
+    "hot dogs",
+    "jerky",
+    "beef sticks",
+    "beef bundles",
+    "occasional quarter beef",
+    "lamb",
+    "pork"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass fed and finished on some of the wildest mountain pastures in the world",
+    "source_url": "https://www.alderspring.com/idaho-organic-grass-fed-meats/"
+  },
+  "certifications": [
+    {
+      "body": "Idaho State Department of Agriculture",
+      "program": "usda-organic",
+      "cert_id": "2170030520",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Alderspring Ranch\" (May, ID), livestock certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-11-15"
+    }
+  ],
+  "sales_channels": [
+    "online-order",
+    "ships-nationwide",
+    "local-delivery",
+    "farm-pickup",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Salmon, Idaho"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Shipping warehouse in Salmon, Idaho (Monday pickup, chosen at checkout)"
+    ],
+    "source_url": "https://www.alderspring.com/faqs/retail-locations/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://shopalderspring.com/",
+  "data_source": "web-search",
+  "source_url": "https://www.alderspring.com/idaho-organic-grass-fed-meats/",
+  "resold_note": "Also sells pastured poultry from another Idaho farm, organic turkeys from A+ Ranch in Idaho, butter and cheese from Lifeline Farms in Montana, sheep cheese from Mountain Valley Farmstead in Idaho and wild Alaskan salmon.",
+  "notes": "Family ranch in the Pahsimeroi Valley at May, in central Idaho, with a shipping warehouse in Salmon. Checked 2026-11-15 the homepage, Idaho meats page, Boise page, retail locations page and the store FAQ at shopalderspring.com. Beef is 100% grass fed and finished and never fed grain; lamb is raised on the ranch and pork is raised by a daughter and her husband. Orders go through shopalderspring.com ($125 minimum) and ship frozen by UPS from Salmon to the 48 continental states, not Alaska or Hawaii. Local delivery in Salmon by email, and Monday pickup at the Salmon warehouse; no on-ranch sales. Store FAQ says no halves or wholes online (largest is a sixteenth) but quarters are offered occasionally, and animals that cannot be certified organic are sometimes sold locally as quarters and halves. Ground beef is carried by co-ops and stores in Boise, Meridian, Ketchum, Hailey, Moscow, Bozeman MT, Decatur GA and Juneau AK. No phone or street address found. The ranch describes itself as certified organic; organic labels come only from the USDA matching script.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

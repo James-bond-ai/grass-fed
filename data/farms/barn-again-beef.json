@@ -1,0 +1,48 @@
+{
+  "id": "barn-again-beef",
+  "slug": "barn-again-beef",
+  "farm_name": "Barn Again Beef",
+  "city": "Princeville",
+  "state": "IL",
+  "zip": "61559",
+  "address_public": false,
+  "website": "https://barnagainbeef.yolasite.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "quarter beef",
+    "half beef",
+    "whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "hormone-free lightly grain fed Black Angus beef",
+    "source_url": "https://barnagainbeef.yolasite.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://barnagainbeef.yolasite.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "resold_note": "Also sells grass-fed beef, grass-fed bison, heritage pork, free-range chicken and wild-caught seafood from a partner group of farmers in Illinois and Missouri, under the name Barn Again Meats.",
+  "data_source": "web-search",
+  "source_url": "https://barnagainbeef.yolasite.com/",
+  "notes": "Unpublished 2026-11-15: the one-page Yola site says to call but prints no phone number, shows no prices (says they will be added later), gives no year or date, and does not say how buyers receive beef, so it is unclear whether the farm is still selling and how to reach it. Check for a current phone or contact route, a current locker season for quarter, half and whole beef, and how orders are picked up. Farm family just outside Princeville, IL. Its own Black Angus beef is described as lightly grain fed (category grain-finished); grass-fed beef, bison, pork, chicken and seafood come from partner farmers in IL and MO (see resold_note). Some cuts are kept in freezers and beef goes to the locker from April for quarter, half and whole orders.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

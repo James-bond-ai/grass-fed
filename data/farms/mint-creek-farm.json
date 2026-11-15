@@ -1,0 +1,86 @@
+{
+  "id": "mint-creek-farm",
+  "slug": "mint-creek-farm",
+  "farm_name": "Mint Creek Farm",
+  "city": "Stelle",
+  "state": "IL",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.mintcreekfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "goat",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef",
+    "beef summer sausage",
+    "beef snack sticks",
+    "lamb",
+    "goat",
+    "pork",
+    "boar",
+    "heritage turkey",
+    "eggs",
+    "meat CSA shares"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cows are 100% grass-fed and grass-finished.",
+    "source_url": "https://www.mintcreekfarm.com/our-farm"
+  },
+  "certifications": [
+    {
+      "body": "Organic Crop Improvement Association",
+      "program": "usda-organic-pasture",
+      "cert_id": "8830000795",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Mint Creek Inc DBA Mint Creek Farm\" (Cabery, IL), pasture or hay certified; livestock not certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-11-15"
+    }
+  ],
+  "sales_channels": [
+    "online-order",
+    "csa",
+    "farmers-market",
+    "local-delivery",
+    "farm-pickup",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [
+    "Evanston Downtown Market, Evanston (Saturday)",
+    "Green City Market Lincoln Park, Chicago (Saturday)",
+    "Green City Market West Loop, Chicago (Saturday)",
+    "Logan Square Market, Chicago (Sunday)",
+    "61st Street Market, Chicago (Saturday)",
+    "Independence Park Market, Chicago (2nd and 4th Sundays)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Chicago",
+      "Oak Park",
+      "Evanston"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "CSA pickup at selected locations",
+      "Farm pickup in Stelle, Wednesday to Saturday by requested time"
+    ],
+    "source_url": "https://www.mintcreekfarm.com/order-fulfillment-policies"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.mintcreekfarm.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.mintcreekfarm.com/our-farm",
+  "notes": "Verifier 2026-11-15: read the homepage, about, our farm, holiday meats and order fulfillment policy pages. The cattle are described as 100% grass-fed and grass-finished with no grain; lambs and goats are grass-fed on rotated organic pasture; pigs, boar and turkeys get certified-organic non-GMO feed with rotational grazing, so only the beef is grass-finished. Sells online, at six Chicago-area farmers markets, through pickup and home-delivery meat CSAs, by Wednesday direct delivery in Chicago, Oak Park and Evanston, and by farm pickup at Stelle. The our farm page says it can ship anywhere within the United States (UPS or FedEx outside delivery zones). No phone number found. The site describes certified-organic pastures; organic labels are left to the USDA matching script.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

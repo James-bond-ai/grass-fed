@@ -1,0 +1,59 @@
+{
+  "id": "holy-cow-farm-fresh",
+  "slug": "holy-cow-farm-fresh",
+  "farm_name": "Holy Cow Farm Fresh",
+  "city": "Monon",
+  "state": "IN",
+  "zip": "47959",
+  "address_public": true,
+  "address": "10498 N US-421, Monon, IN 47959",
+  "website": "https://holycowfarmfresh.grazecart.com/",
+  "phone": "219-253-8491",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb"
+  ],
+  "products": [
+    "grass-fed beef",
+    "grain-finished beef",
+    "pasture-raised pork",
+    "grass-fed lamb",
+    "bulk custom orders",
+    "bones and organs",
+    "meat bundles"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "Grass-fed beef is solely fed pasture grasses and hay",
+    "source_url": "https://holycowfarmfresh.grazecart.com/grass-fed-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "farm-pickup",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [
+      "IN"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://holycowfarmfresh.grazecart.com/pasture-raised-meat-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://holycowfarmfresh.grazecart.com/pasture-raised-meat-delivery",
+  "data_source": "web-search",
+  "source_url": "https://holycowfarmfresh.grazecart.com/",
+  "resold_note": "Also sells pasture-raised chicken from Middlefork Meadows in Rossville, Indiana.",
+  "notes": "Not the same farm as holy-cow-beef (Lubbock, TX); this is a farm with an on-farm butcher shop north of Monon, Indiana. Checked 2026-11-15: homepage, our farm, grass-fed beef, grain-finished beef and chicken pages. Two beef lines: grass-fed beef fed only pasture grasses and hay, and grain-finished beef given the farm's own non-GMO corn in the last 3 to 6 months, so the category is both. Pork is pasture-raised and lamb is called 100% grass-fed. Bulk custom orders go through the on-farm butcher, but no page seen offers quarter, half or whole shares by name, so bulk_shares is false. Pickup at the farm store (Thu and Fri 12 to 5, Sat 10 to 2, Mon to Wed by appointment) or shipping anywhere in Indiana, free on $150 or more. The site says pricing is being updated.",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

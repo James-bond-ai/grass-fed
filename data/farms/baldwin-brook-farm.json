@@ -1,0 +1,57 @@
+{
+  "id": "baldwin-brook-farm",
+  "slug": "baldwin-brook-farm",
+  "farm_name": "Baldwin Brook Farm",
+  "city": "Canterbury",
+  "state": "CT",
+  "zip": "06331",
+  "address_public": true,
+  "address": "176 Depot Road, Canterbury, CT 06331",
+  "website": "https://baldwinbrookfarm.com/",
+  "phone": "401-419-1214",
+  "social_urls": [],
+  "species": [
+    "dairy-cow",
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "raw milk",
+    "ground beef",
+    "pork cuts",
+    "cut-up chicken",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "All our cows eat grass, they don't eat corn or corn silage.",
+    "source_url": "https://baldwinbrookfarm.com/milk/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://baldwinbrookfarm.com/faq/"
+  },
+  "dairy_products": [
+    "raw-milk"
+  ],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://baldwinbrookfarm.com/",
+  "resold_note": "Farm store also sells cheese, yogurt, butter and ice cream from other creameries, plus baked goods and pantry items from other producers.",
+  "notes": "Jersey dairy at 176 Depot Road, Canterbury, CT. Checked 2026-11-15 the homepage results, raw milk, products, grass-finished FAQ and what do you sell FAQ pages; the meats page showed only a loading screen. The milk page says the cows are grass-fed, on rotational pasture May to October and grass hay November to April, with no corn or corn silage and only handfuls of grain in the milking parlor, so the category is grass-fed. Raw milk from about 25 milking cows is sold at the self-serve farm store (Monday to Saturday 10 to 6) and delivered weekly to grocery stores, IGA markets, farm stands and health food stores around Connecticut; raw milk retail sale is legal only in some states. The FAQ lists raw milk, eggs, pork cuts, ground beef and cut-up chicken, all described as pasture raised; meat availability and prices by email. No home delivery or shipping.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

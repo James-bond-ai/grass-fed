@@ -1,0 +1,70 @@
+{
+  "id": "north-hollow-farm",
+  "slug": "north-hollow-farm",
+  "farm_name": "North Hollow Farm",
+  "city": "Rochester",
+  "state": "VT",
+  "zip": "05767",
+  "address_public": false,
+  "website": "https://vermontgrassfedbeef.com/",
+  "phone": "802-767-4255",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "frozen beef cuts",
+    "beef sides",
+    "100% grass-fed ground beef",
+    "pork",
+    "bacon",
+    "sausage",
+    "hot dogs",
+    "kielbasa",
+    "maple syrup"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our beef has been 100% grass-fed since 2003.",
+    "source_url": "https://vermontgrassfedbeef.com/about-our-products/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [
+      "VT",
+      "NH",
+      "ME",
+      "MA",
+      "CT",
+      "RI",
+      "NY",
+      "PA",
+      "NJ",
+      "DE",
+      "MD",
+      "WV",
+      "VA"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://store.vermontgrassfedbeef.com/shippingpolicy.html"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://store.vermontgrassfedbeef.com",
+  "data_source": "web-search",
+  "source_url": "https://vermontgrassfedbeef.com/",
+  "resold_note": "Farm store also sells Monument Farms milk and other dairy.",
+  "notes": "Verifier 2026-11-15: read the homepage, about our products, farmstore and store shipping policy pages. The site says the beef has been 100% grass-fed since 2003, grazed on grass and clover pastures and fed and finished in winter on the farm's own silage and hay, with everything grown on the farm and no grain mentioned. The silage type is not stated, so the category is the cautious grass-fed. Beef is sold frozen by the cut or as a side; pork, bacon, sausage, kielbasa and franks are nitrate free. Farm store open Mon to Fri 10 to 6, Sat 10 to 6, Sun noon to 5. The online store ships frozen each Wednesday by UPS ground to New England and to NY, PA, NJ, DE, MD, WV and VA, and says all other orders go UPS overnight; it does not say nationwide, so only the named states are recorded. Pork feed not described.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

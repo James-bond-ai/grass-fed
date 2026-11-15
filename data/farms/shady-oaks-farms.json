@@ -1,0 +1,61 @@
+{
+  "id": "shady-oaks-farms",
+  "slug": "shady-oaks-farms",
+  "farm_name": "Shady Oaks Farms",
+  "city": "Greenwood",
+  "state": "AR",
+  "zip": "72936",
+  "address_public": false,
+  "website": "https://www.shadyoaksfarms.net/",
+  "phone": "(479) 461-9223",
+  "social_urls": [
+    "https://www.facebook.com/ShadyOaksFarms"
+  ],
+  "species": [
+    "poultry",
+    "eggs",
+    "dairy-cow"
+  ],
+  "products": [
+    "whole chickens",
+    "chicken livers",
+    "chicken gizzards",
+    "eggs",
+    "raw milk",
+    "honey"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "The fresh grass is supplemented with an Arkansas sourced Non-GMO feed helping to support the rapid growth rate of the breed.",
+    "source_url": "https://www.shadyoaksfarms.net/pastured-poultry"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Greenwood",
+      "Fort Smith"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.shadyoaksfarms.net/beef-2"
+  },
+  "dairy_products": [
+    "raw-milk"
+  ],
+  "ordering_url": "https://shadyoaksfarmsstore.com",
+  "resold_note": "Also sells grass-fed, grain-finished beef from a partner producer in Sebastian County and sourdough bread from a local baker.",
+  "data_source": "web-search",
+  "source_url": "https://www.shadyoaksfarms.net/beef-2",
+  "notes": "Checked homepage, about, pastured poultry, cow milk and beef pages plus the Shopify store on 2026-11-15. Broilers are moved daily in shelters on fresh grass with Arkansas non-GMO feed. Raw milk from its own A2 Jersey herd, which gets pasture, hay and a grain ration; $10 per gallon, sold on the farm only per Arkansas law, with a waiting list; raw milk is legal only in some states. Beef comes from a partner producer in Sebastian County and is grassfed, grain-finished, so it is in resold_note. Delivery to Greenwood (free) and Fort Smith ($10). The Greenwood farmers market and satellite milk pickup could not be confirmed on the pages read, so they were removed. Most store items were sold out (7 of 65 in stock).",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

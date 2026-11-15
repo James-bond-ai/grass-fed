@@ -50,7 +50,7 @@
     "note": "The farm says it is out of beef and processor waitlists are long.",
     "checked_on": "2026-11-08"
   },
-  "notes": "Unpublished 2026-11-08: Site looks unmaintained (footer copyright 2017; beef, pork and sampler pages say out of stock with processors booked through 2022, and no later date appears). Contact the farm (text 479-790-4295) to check whether it still sells beef, pork or poultry. Site says free shipping to most US states and FedEx shipping by quote outside Northwest Arkansas, but names no states, so no shipping recorded. Order by form or text.",
+  "notes": "Unpublished 2026-11-08: Site looks unmaintained (footer copyright 2017; beef, pork and sampler pages say out of stock with processors booked through 2022, and no later date appears). Contact the farm (text 479-790-4295) to check whether it still sells beef, pork or poultry. Site says free shipping to most US states and FedEx shipping by quote outside Northwest Arkansas, but names no states, so no shipping recorded. Order by form or text. 2026-11-15: could not check; site fetch refused (permission prompt timed out) and searches did not surface its pages; still unresolved.",
   "listing_status": "unpublished",
   "last_verified_at": "2026-11-08",
   "verification_method": "auto"

@@ -1,0 +1,51 @@
+{
+  "id": "idaho-mountain-meats",
+  "slug": "idaho-mountain-meats",
+  "farm_name": "Idaho Mountain Meats",
+  "city": "Kuna",
+  "state": "ID",
+  "zip": "83634",
+  "address_public": false,
+  "website": "https://idahomountainmeats.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole beef",
+    "half beef",
+    "quarter beef",
+    "beef bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Yes, all of our beef that we process is grass-fed and finished without any antibiotics, hormones, or grain supplements.",
+    "source_url": "https://idahomountainmeats.com/faq/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Treasure Valley (Boise, Nampa, Caldwell)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://idahomountainmeats.com/faq/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://idahomountainmeats.com/side-custom-beef/",
+  "data_source": "web-search",
+  "source_url": "https://idahomountainmeats.com/",
+  "resold_note": "Also sells wild Alaska salmon and halibut caught by a fishing family and processed on Kodiak.",
+  "notes": "Unpublished 2026-11-15: the FAQ says the business purchases Idaho calves from ranch families and grass-finishes them on its own pastures, and the why us page says each animal is sourced for each customer; check whether any cattle are born on its own land and how long purchased calves are grazed on its pastures before harvest. Checked the FAQ and why us pages (contact page is blocked by robots). The FAQ says all beef is grass-fed and finished with no grain supplements, so the category is grass-finished. Delivery is local in the Treasure Valley (Boise, Nampa, Caldwell), with delivery outside the area for an extra fee; no shipping states named. Whole, half and quarter beef are sold, cut at a small local butcher. No phone confirmed.",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "listing_status": "unpublished"
+}

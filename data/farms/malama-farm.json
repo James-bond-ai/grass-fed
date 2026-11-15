@@ -1,0 +1,60 @@
+{
+  "id": "malama-farm",
+  "slug": "malama-farm",
+  "farm_name": "Malama Farm",
+  "city": "Haiku",
+  "state": "HI",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.malamafarm.com/",
+  "phone": "(808) 633-6702",
+  "social_urls": [
+    "https://www.instagram.com/malamafarm/"
+  ],
+  "species": [
+    "pork"
+  ],
+  "products": [
+    "pork chops",
+    "roasts",
+    "ground pork",
+    "tenderloin",
+    "bacon kit",
+    "sausage",
+    "ribs",
+    "pork belly",
+    "ham hocks",
+    "fatback"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our pigs are born and raised on lush pasture, and rotated regularly to minimize impact to the land.",
+    "source_url": "https://www.malamafarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.malamafarm.com/contact-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.malamafarm.com/products",
+  "availability": {
+    "status": "sold-out",
+    "note": "All 13 pork products on the online shop were marked sold out.",
+    "checked_on": "2026-11-15"
+  },
+  "data_source": "web-search",
+  "source_url": "https://www.malamafarm.com/",
+  "notes": "Unpublished 2026-11-15: the site may be inactive. Every product on https://www.malamafarm.com/products is sold out, no page explains how or where buyers get the pork (pickup, delivery, CSA or markets), the contact page's order form does not render, and the footer says Copyright 2020 with the newest press item from 2012. Next check: whether any products are back in stock, whether the site or the farm's Instagram shows current sales, and how orders are fulfilled. Facts confirmed: pasture-raised Berkshire (Kurobuta) pigs in Haiku, Maui, rotated on pasture with fruit, vegetables and farm eggs supplementing a grain diet (category pastured); phone 808-633-6702 on the contact page. The real domain is malamafarm.com, not the squarespace address.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

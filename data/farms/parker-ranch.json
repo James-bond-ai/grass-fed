@@ -1,0 +1,65 @@
+{
+  "id": "parker-ranch",
+  "slug": "parker-ranch",
+  "farm_name": "Parker Ranch",
+  "city": "Waimea",
+  "state": "HI",
+  "zip": "96743",
+  "address_public": true,
+  "address": "66-1304 Mamalahoa Highway, Kamuela, HI 96743",
+  "website": "https://parkerranch.com/",
+  "phone": "(808) 885-7311",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "bulk ground beef",
+    "steaks",
+    "roasts",
+    "beef boxes",
+    "monthly and bimonthly beef subscriptions"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are 100% pasture-raised, grass-fed, and grass-finished",
+    "source_url": "https://shop.parkerranch.com/pages/faqs"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "ships-regional",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [
+      "HI",
+      "AZ",
+      "CA",
+      "CO",
+      "ID",
+      "MT",
+      "NV",
+      "NM",
+      "OR",
+      "UT",
+      "WA",
+      "WY"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://shop.parkerranch.com/pages/shipping-returns"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://shop.parkerranch.com/",
+  "data_source": "web-search",
+  "source_url": "https://shop.parkerranch.com/pages/faqs",
+  "notes": "Verifier 2026-11-15: read the shop FAQ and shipping and returns pages; the bulk ground beef product page failed to load. The FAQ says the cattle are 100% pasture-raised, grass-fed and grass-finished and graze natural grasses their whole lives. Beef is sold online as boxes and monthly or bimonthly subscriptions, shipped frozen on Wednesdays by FedEx or UPS to Hawaii and 11 western states (AZ, CA, CO, ID, MT, NV, NM, OR, UT, WA, WY); no order pickup is offered. Also sold at the Waimea Butcher Shop, all KTA Superstores, Target stores in Hawaii and Tamura's Waianae. The Waimea ranch store sells merchandise only. No quarter, half or whole shares found.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

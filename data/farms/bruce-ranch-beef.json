@@ -1,0 +1,60 @@
+{
+  "id": "bruce-ranch-beef",
+  "slug": "bruce-ranch-beef",
+  "farm_name": "Bruce Ranch Beef",
+  "city": "Eagle",
+  "state": "ID",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.bruceranchbeef.com/",
+  "phone": "208-890-5477",
+  "social_urls": [
+    "https://www.facebook.com/Bruce-Ranch-Beef-CSA-618407195461907",
+    "https://www.instagram.com/bruceranchbeef_csa"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "seasonal beef shares",
+    "quarter, half and full beef shares",
+    "beef subscriptions",
+    "tallow products"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "We give each CSA customer a choice of 14 day dry-aged 100% grass fed or grass-fed/grain finished beef.",
+    "source_url": "https://www.bruceranchbeef.com/how-it-works"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "csa",
+    "online-order",
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Treasure Valley"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Greater Treasure Valley area (bulk share pickup)"
+    ],
+    "source_url": "https://www.bruceranchbeef.com/faqs-1"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.bruceranchbeef.com/get-a-share-of-the-harvest",
+  "data_source": "web-search",
+  "source_url": "https://www.bruceranchbeef.com/",
+  "notes": "Josh and Alicia Bruce's Angus beef CSA, with the family ranch in Pleasant Valley, Idaho and a contact location in Eagle. Checked 2026-11-15 the homepage, how it works, seasonal shares and our team pages, and relied on the earlier FAQ reading for finishing and shipping. The team page says the family manages the cattle from birth on its ranch and mountain range. Buyers of quarter, half and full shares choose 100% grass fed or a grain finish (the FAQ says grain-finished animals get grass hay, alfalfa and grain for the last 90 to 120 days), so the category is both. Bulk shares are picked up in the greater Treasure Valley after harvest, with home delivery for an added fee, and were reserving for a March 2027 harvest. Seasonal shares of about 10 to 22 lbs ($198 to $306) are sold online with free home delivery in the Treasure Valley. The FAQ says the ranch never ships.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

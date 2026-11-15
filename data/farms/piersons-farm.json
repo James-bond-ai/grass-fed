@@ -1,0 +1,49 @@
+{
+  "id": "piersons-farm",
+  "slug": "piersons-farm",
+  "farm_name": "Pierson's Farm",
+  "city": "Middletown",
+  "state": "NY",
+  "zip": "10940",
+  "address_public": true,
+  "website": "https://www.piersonsfarm.com/",
+  "phone": "845-386-1882",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "frozen beef by the pound",
+    "frozen pork by the pound",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Our own grass-fed (corn-finished) beef and farm-raised pork, frozen, by the pound",
+    "source_url": "https://www.piersonsfarm.com/visit/farm-store/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.piersonsfarm.com/visit/farm-store/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.piersonsfarm.com/",
+  "notes": "Verifier 2026-11-15: read the homepage, contact and hours, and seasonal offerings pages; the farm store page was read by the Scout. The homepage says the farm sells grass-fed (corn-finished) Black Angus beef and farm-raised pork, frozen by the pound, year round from the farm store and gift shop, so the category is grain-finished. Meat is sold by appointment year round (contact online, Facebook or phone); the farm store also opens for the fall season and Christmas tree season. Pork feed not stated. Eggs are listed in limited supply on the farm store page. No shipping, delivery, CSA or market sales found. Phone 845-386-1882, text 845-283-7927.",
+  "address": "1448 Route 211 West, Middletown, NY 10940",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

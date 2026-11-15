@@ -1,0 +1,50 @@
+{
+  "id": "buckaroo-beef",
+  "slug": "buckaroo-beef",
+  "farm_name": "Buckaroo Beef",
+  "city": "Idaho Falls",
+  "state": "ID",
+  "zip": "83402",
+  "address_public": false,
+  "website": "https://buckaroobeef.eatfromfarms.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Our cattle are raised on grass and locally grown hay and finished on locally sourced corn and barley for 90-120 days.",
+    "source_url": "https://buckaroobeef.eatfromfarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Within 15 miles of Idaho Falls ($3.00), farther at $0.25 per mile"
+    ],
+    "local_radius_miles": 15,
+    "ships_to": [],
+    "pickup_locations": [
+      "Meetups in Idaho Falls, across from Reeds Dairy on Broadway or in the Cabela's parking lot"
+    ],
+    "source_url": "https://buckaroobeef.eatfromfarms.com/farm_pickup.php"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://buckaroobeef.eatfromfarms.com/",
+  "data_source": "web-search",
+  "source_url": "https://buckaroobeef.eatfromfarms.com/",
+  "notes": "Hereford and Angus beef ranch in southeastern Idaho. Rechecked the homepage, about page and the whole beef product page on 2026-11-15. The homepage says cattle are raised on grass and locally grown hay and finished on locally sourced corn and barley for 90 to 120 days, so the listing is grain-finished. Beef is ordered online and charged by final weight; a whole beef is offered at $7.50 per lb with a $1000 deposit, so bulk_shares is true. Payment can be made at delivery. Delivery fees and the Idaho Falls meetup spots come from the Scout's read of the pickup page, which could not be reopened this run. No phone or shipping listed.",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

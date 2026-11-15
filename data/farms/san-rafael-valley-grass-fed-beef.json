@@ -1,0 +1,72 @@
+{
+  "id": "san-rafael-valley-grass-fed-beef",
+  "slug": "san-rafael-valley-grass-fed-beef",
+  "farm_name": "San Rafael Valley Grass Fed Beef",
+  "city": "Patagonia",
+  "state": "AZ",
+  "zip": "85624",
+  "address_public": false,
+  "website": "https://www.srvbeef.com/",
+  "phone": "(520) 841-2420",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "short ribs",
+    "organ meats",
+    "soup bones",
+    "tallow",
+    "chorizo",
+    "breakfast sausage",
+    "summer sausage",
+    "beef bacon"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "calves are born on the ranch and live their whole lives eating ONLY grass - NOT manmade pasture or hay",
+    "source_url": "https://www.srvbeef.com/new/wp-content/uploads/2025/06/2025-PRICE-LIST-MKT-BULK-PDF-REV.pdf"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "local-delivery",
+    "farm-pickup",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [
+    "Heirloom Farmers' Market at Steam Pump Ranch, Oro Valley (Saturday)",
+    "Rillito Farmers Market, Tucson (Sunday)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Sierra Vista",
+      "Green Valley",
+      "Phoenix metro",
+      "Tucson",
+      "Vail",
+      "Rio Rico"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Order pickup at any of its farmers markets",
+      "Sierra Vista meetup in front of ACE Hardware on Fry Blvd"
+    ],
+    "source_url": "https://www.srvbeef.com/markets/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://fillyourplate.org/find-farm-product/lazy-2-ranch-san-rafael-cattle-company/",
+  "resold_note": "Also sells wood smoked pork bacon, eggs and a Local Arizona Free Range Beef pet line whose source is not stated.",
+  "notes": "Checked homepage, markets page and 2025 price list on 2026-11-15. Price list is headed 100% GrassFed from birth to harvest and says calves are born on the ranch and eat only native grass. Order by text to (520) 841-2420; bulk sold by the pound in 50 and 100 lb lots, no quarter or half shares. Delivery meetups in Sierra Vista, Green Valley and Phoenix metro for a fee, plus pickup points in Rio Rico, Green Valley, Tucson and Vail, and order pickup at the two markets. Only cured products ship by USPS, so no shipping recorded. Retail at Red Mountain Foods and Gathering Grounds in Patagonia. Eggs on the price list have no stated source, so they are not listed as a species.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "all-grass-farms",
+  "slug": "all-grass-farms",
+  "farm_name": "All Grass Farms",
+  "city": "Dundee",
+  "state": "IL",
+  "zip": "60118",
+  "address_public": true,
+  "address": "18N681 IL Route 31, Dundee, IL 60118",
+  "website": "https://allgrassfarms.com/",
+  "phone": "847-852-7081",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry",
+    "eggs",
+    "dairy-cow"
+  ],
+  "products": [
+    "beef",
+    "lamb",
+    "pork",
+    "chicken",
+    "turkey",
+    "eggs",
+    "raw milk",
+    "half and whole beef",
+    "half and whole hogs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We don't feed the beef cattle any grains - no corn, no soybeans, no milo - cattle are herbivores and their digestive systems are designed to eat grasses not grains.",
+    "source_url": "https://allgrassfarms.com/pages/our-farm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [
+      "IL",
+      "WI",
+      "MI",
+      "IN",
+      "IA"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://allgrassfarms.com/pages/frequently-asked-questions"
+  },
+  "dairy_products": [
+    "raw-milk"
+  ],
+  "ordering_url": "https://allgrassfarms.com/collections/shop-all",
+  "resold_note": "The farm store also sells honey, raw milk cheeses, yogurt, beans and grains, and the site does not say these are made from the farm's own animals or crops.",
+  "data_source": "web-search",
+  "source_url": "https://allgrassfarms.com/",
+  "notes": "Unpublished 2026-11-15: the Our Farm page says the farm buys weaned 6 to 8 month old beef calves from an Illinois farmer and buys 2 month old piglets from a local Illinois farmer who farrows on pasture, then raises them on its own pastures. Check whether any beef calves or pigs are born on the farm (dairy calves are, from its own Guernsey herd) and decide whether buying weaned calves meets the own-animals rule. Everything else checks out: farm store at Brunner Farm on Route 31 in Dundee open daily, online orders with in-store or curbside pickup, frozen meat shipped by FedEx Ground to IL, WI, MI, IN and IA (no milk, eggs or orders over 50 pounds), half and whole beef and hogs by hanging weight with processing paid to This Old Farm or Nordik Meats, raw A2 milk from its own Guernsey cows for pickup (raw milk is legal only in some states). Beef cattle, organic eggs and lamb are on the 400 acre farm near Elkhorn, WI; an Elkhorn pickup is listed as coming soon. Pigs get a certified organic grain mix; hens and broilers get organic corn and soy free feed on pasture. Laying hens are bought as pullets from a Wisconsin grower.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

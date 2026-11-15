@@ -117,3 +117,6 @@ All 80 reviewed against each farm's own website and the USDA Organic Integrity s
 
 ## 2026-11-08
 - Organic review: Heartquist Hollow Farm (AZ) is the same operation as USDA record 5561009482 (Heartquist Hollow Farm, Winkelman), but that record is certified for handling only, livestock not certified, so no label added. Montana Longhorn Company (MT) is not USDA record Montana Coffee Traders (Whitefish), a coffee business that only shares the town; no label added.
+
+## 2026-11-15
+- Organic review: Sonrise Farms (IL) possibly matches USDA record 7170220581 (Sonrise Farms Organics LLC, Penfield, Hesterberg family). Same town and name, but the farm's own site could not be read to confirm the owners, and the record certifies crops only (livestock not certified), so no label added either way; recorded as reviewed (no).

@@ -1,0 +1,52 @@
+{
+  "id": "sadler-farms",
+  "slug": "sadler-farms",
+  "farm_name": "Sadler Farms",
+  "city": "Greenwood",
+  "state": "AR",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.sadler-farms.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole beef",
+    "half beef",
+    "split half beef",
+    "steaks",
+    "roasts",
+    "ground beef",
+    "brisket"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "We supply families pasture raised, grain-fed finished, Prime Quality beef.",
+    "source_url": "https://www.sadler-farms.com/about-our-farm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.sadler-farms.com/faq"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.sadler-farms.com/product-page/quarter-beef-order",
+  "data_source": "web-search",
+  "source_url": "https://www.allaboutarkansas.com/best-grass-fed-beef-farms-in-arkansas/",
+  "notes": "Checked about, FAQ and split half order pages on 2026-11-15; homepage, shop and contact pages are blocked by robots. Black Angus born on the farm and raised on pasture, grain-fed finished. Whole, half and split half beef at $4.00 per lb hanging weight with a $200 deposit online; meat is brought back to the farm for pickup or delivered to the door in local areas only (no area named). Cuts are also listed per pound. No phone found.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

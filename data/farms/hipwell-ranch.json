@@ -1,0 +1,74 @@
+{
+  "id": "hipwell-ranch",
+  "slug": "hipwell-ranch",
+  "farm_name": "Hipwell Ranch",
+  "city": "Oreana",
+  "state": "ID",
+  "zip": "",
+  "address_public": false,
+  "website": "https://hipwellranch.com/",
+  "phone": "208-495-6818",
+  "social_urls": [
+    "https://www.facebook.com/hipranch/",
+    "https://www.instagram.com/hipwellranch/"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "ground beef organ blend",
+    "hamburger patties",
+    "stew meat",
+    "beef bundles",
+    "bulk beef",
+    "bulk pork",
+    "whole chicken",
+    "ground chicken",
+    "turkey",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Hipwell Ranch offers All Natural, Grass Fed and Finished Beef along with chicken and pork.",
+    "source_url": "https://hipwellranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Boise",
+      "Meridian",
+      "Eagle",
+      "Nampa",
+      "Caldwell",
+      "Kuna",
+      "Star"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Northwest Premium Meats (butcher pickup for bulk beef)"
+    ],
+    "source_url": "https://hipwellranch.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://hipwellranch.com/product-category/buy-all-natural-grass-fed-idaho-beef/",
+  "data_source": "web-search",
+  "source_url": "https://hipwellranch.com/",
+  "notes": "Family ranch in Oreana in the Owyhee Mountains. Checked 2026-11-15: homepage, bulk beef category and stew meat page (earlier Scout check also covered the bulk beef, bundle, pork, egg and chicken product pages). The homepage says All Natural, Grass Fed and Finished Beef and the stew meat page says grass-finished, so the category is grass-finished. Pork, chicken and eggs are linked as pasture raised with no further detail. Online orders delivered to Boise, Meridian, Eagle, Nampa, Caldwell, Kuna and Star. Bulk beef starts at $500 (quarter, half or whole per the Scout's product page check) with butcher pickup at Northwest Premium Meats. No shipping or street address found.",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

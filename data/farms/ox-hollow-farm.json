@@ -1,0 +1,67 @@
+{
+  "id": "ox-hollow-farm",
+  "slug": "ox-hollow-farm",
+  "farm_name": "Ox Hollow Farm",
+  "city": "Woodbury",
+  "state": "CT",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.oxhollowfarmct.com/",
+  "phone": "860-567-0236",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "lamb",
+    "eggs"
+  ],
+  "products": [
+    "beef",
+    "Berkshire pork",
+    "chicken",
+    "seasonal turkeys",
+    "lamb",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "All or our animals are raised on pasture, we grow our own feed and ensure adequate nutrition year round",
+    "source_url": "https://www.oxhollowfarmct.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "csa"
+  ],
+  "farmers_markets": [
+    "79th Street Greenmarket, New York, NY (Sunday)",
+    "Stuyvesant Greenmarket, New York, NY (Sunday)",
+    "Union Square Greenmarket, New York, NY (Monday)",
+    "Darien Farmers Market, Darien, CT (Wednesday)",
+    "Westport Farmers Market, Westport, CT (Thursday)",
+    "New Canaan Farmers Market, New Canaan, CT (Saturday)",
+    "Washington Depot Farm Market, Washington Depot, CT (Saturday)",
+    "Inwood Greenmarket, New York, NY (Saturday)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm stand, 1474 Bantam Road, Bantam, CT (daily 11 to 5)",
+      "Barn store, 478 Good Hill Road, Woodbury, CT (Sat and Sun 11 to 5)"
+    ],
+    "source_url": "https://www.oxhollowfarmct.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.oxhollowfarmct.com/",
+  "notes": "Verifier 2026-11-15: read the homepage, CSA and farm shares page and store page; the products page is blocked by robots and the beef, pork, chicken and lamb pages had no body text before. The homepage says all stock is rotationally grazed on full pasture spring to fall and fed farm-grown hay and non-GMO corn silage in winter, so the category is pastured (no grass-only claim). A monthly meat CSA includes the farm's own beef, pork, chicken and lamb, and whole, half or quarter animal shares are available by email. Sells at eight farmers markets in New York City and Fairfield and Litchfield counties, at a farm stand in Bantam (daily 11 to 5) and a barn store in Woodbury (Sat and Sun 11 to 5). The store page's shop button points to a different domain (oxhollowfarm.com), so online ordering is not listed. Eggs and turkeys come from the Scout's reading and could not be rechecked. Retail was removed because no shop selling the meat was named.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

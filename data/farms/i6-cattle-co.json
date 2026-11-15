@@ -1,0 +1,55 @@
+{
+  "id": "i6-cattle-co",
+  "slug": "i6-cattle-co",
+  "farm_name": "I6 Cattle Co.",
+  "city": "Bonners Ferry",
+  "state": "ID",
+  "zip": "",
+  "address_public": true,
+  "address": "18431 Westside Road, Bonners Ferry, ID",
+  "phone": "208-610-5128",
+  "website": "https://isixcattleco.com/",
+  "social_urls": [
+    "https://www.facebook.com/profile.php?id=61557128067956",
+    "https://www.instagram.com/i6_cattleco/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef shares",
+    "steaks",
+    "roasts",
+    "ground beef",
+    "tallow skincare"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are 100% Grass Fed and 100% Grass Finished.",
+    "source_url": "https://isixcattleco.com/faqs"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm store at the ranch on Westside Road, Bonners Ferry, by appointment"
+    ],
+    "source_url": "https://isixcattleco.com/shop"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://isixcattleco.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://isixcattleco.com/faqs",
+  "notes": "First-generation ranch at Bonners Ferry in the Idaho panhandle. Checked 2026-11-15: FAQ and shop pages (the home page returned a server error). The FAQ says the cattle are 100% grass fed and grass finished, never get grain or go to a feedlot, graze pasture in spring and summer and get grass and alfalfa hay in winter. Half and whole beef are offered (the Scout also saw quarters), plus individual steaks, roasts and ground beef sold at the ranch; the farm store is by appointment. The shop says fall and winter deposits are open with limited availability, beef does not ship and buyers choose farm pick-up; tallow products do ship but are not food. Two phone numbers are published, 208-610-5128 (Jadon Isaac) and 316-217-7182 (Kinsey Isaac); the Idaho number is recorded. No certifier listing was checked, so no certifications.",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

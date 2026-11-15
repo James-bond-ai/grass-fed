@@ -1,0 +1,61 @@
+{
+  "id": "scratch-made-farm",
+  "slug": "scratch-made-farm",
+  "farm_name": "Scratch Made Farm",
+  "city": "Trussville",
+  "state": "AL",
+  "zip": "",
+  "address_public": false,
+  "social_urls": [],
+  "certifications": [],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "dairy_products": [],
+  "data_source": "web-search",
+  "website": "https://scratchmadefarm.com/",
+  "phone": "205-568-8222",
+  "species": [
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "whole chicken",
+    "chicken cuts",
+    "chicken organs",
+    "bone broth kits",
+    "eggs",
+    "Thanksgiving turkey"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our birds are moved daily to fresh pastures, giving them access to new ground to explore",
+    "source_url": "https://scratchmadefarm.com/"
+  },
+  "sales_channels": [
+    "local-delivery",
+    "online-order",
+    "farm-pickup"
+  ],
+  "delivery": {
+    "local_areas": [
+      "greater Birmingham area"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Community drops, greater Birmingham area"
+    ],
+    "source_url": "https://scratchmadefarm.com/shop/"
+  },
+  "ordering_url": "https://scratchmadefarm.com/shop/",
+  "source_url": "https://scratchmadefarm.com/",
+  "availability": {
+    "status": "available",
+    "note": "Eggs listed out of stock on 2026-11-09.",
+    "checked_on": "2026-11-09"
+  },
+  "notes": "Checked homepage, shop and egg product page on 2026-11-15. Birds are moved daily to fresh pasture and fed a certified organic, soy-free ration from Kentucky Organic Farm & Feed; the chicken and eggs are not themselves certified organic. Sold online for local pickup in Trussville, community drops around Birmingham, or delivery. Eggs, breasts and tenders were out of stock and Thanksgiving turkeys sold out (waitlist by text); other chicken cuts were available. Phone is text only. Site still has template placeholder text.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

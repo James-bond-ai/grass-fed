@@ -1,0 +1,54 @@
+{
+  "id": "honeysuckle-farm",
+  "slug": "honeysuckle-farm",
+  "farm_name": "Honeysuckle Farm",
+  "city": "Morris",
+  "state": "IL",
+  "zip": "60450",
+  "address_public": true,
+  "address": "Conley Rd, Morris, IL 60450",
+  "website": "https://honeysucklefarm.grazecart.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "pork",
+    "chicken",
+    "turkey",
+    "eggs",
+    "honey"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "All of our production animals are raised on pasture and are able to free-range within the protective confines of fencing.",
+    "source_url": "https://honeysucklefarm.grazecart.com/about-honeysuckle-farm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://honeysucklefarm.grazecart.com/home-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://honeysucklefarm.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://honeysucklefarm.grazecart.com/about-honeysuckle-farm",
+  "notes": "Small family farm in Morris, Grundy County. Checked 2026-11-15: homepage, about page and online store. All production animals are raised on pasture: pigs born on the farm, Cornish Cross broilers and laying hens (hens also get a free-choice non-GMO grain ration), plus bees for honey. The site does not use grass-fed for these animals, so the category is pastured. The store now has a Grass-fed Beef category and pastured turkey, but the about page still says beef cattle are planned for the coming year, so beef is left out until the farm says it raises it. Orders are delivered on a scheduled date or picked up on the farm by appointment; delivery areas are not listed. No phone, shipping or farmers markets found. The family milk cow is not a dairy source for sale.",
+  "resold_note": "Also sells certified organic maple syrup from Big Timber Maple.",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "listing_status": "published"
+}

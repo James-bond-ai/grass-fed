@@ -1,0 +1,57 @@
+{
+  "id": "kunoa-cattle-company",
+  "slug": "kunoa-cattle-company",
+  "farm_name": "Kunoa Cattle Company",
+  "city": "Kapolei",
+  "state": "HI",
+  "zip": "96707",
+  "address_public": true,
+  "address": "91-319 Olai Street, Kapolei, HI 96707",
+  "website": "https://kunoacattle.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef bars",
+    "ground beef",
+    "steaks",
+    "roasts"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "In an ideal system, animals are nourished naturally on vegetative forages, humanely handled, and butchered locally.",
+    "source_url": "https://kunoacattle-com.pages.dev/the-movement"
+  },
+  "certifications": [
+    {
+      "program": "awa",
+      "body": "A Greener World",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/hawaii/kapolei/beef-1/kunoa-cattle-company-farm-store/",
+      "verified_on": "2026-11-13"
+    }
+  ],
+  "sales_channels": [
+    "online-order",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://kunoacattle-com.pages.dev/where-to-buy"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://shop.kunoacattle.com/",
+  "data_source": "web-search",
+  "source_url": "https://kunoacattle-com.pages.dev/the-movement",
+  "notes": "Unpublished 2026-11-15: the real domain kunoacattle.com blocks fetching (robots), and the feeding sentence and where-to-buy facts come from a kunoacattle-com.pages.dev copy of the site, which gives no direct grass-fed statement on the pages read; recheck kunoacattle.com (or ask whether the pages.dev host is the farm's own) for a clear feeding sentence and a direct beef sales channel. The farm's own shop.kunoacattle.com, checked today, sells only beef bars online (ships by date), mentions ground beef without prices and gives no feeding claim beyond Hawaii-raised beef with no added hormones or antibiotics. The pages.dev Meet Kunoa page says Kunoa ranches 2,000 head on 4,000 acres of Kauai and Oahu pasture, so it does raise cattle. Most beef is sold through Hawaii supermarkets and restaurants. Animal Welfare Approved is kept from A Greener World's own Hawaii producer listing.",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "listing_status": "unpublished"
+}

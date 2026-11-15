@@ -1,0 +1,60 @@
+{
+  "id": "backstage-farms",
+  "slug": "backstage-farms",
+  "farm_name": "Backstage Farms",
+  "city": "Calico Rock",
+  "state": "AR",
+  "zip": "72519",
+  "address_public": false,
+  "website": "https://backstagefarms.com/",
+  "phone": "317-294-9991",
+  "social_urls": [
+    "https://www.facebook.com/people/Jerry-Horne-Backstage-Farms/100078561853141/"
+  ],
+  "species": [
+    "poultry",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "pasture-raised chicken",
+    "Berkshire pork",
+    "eggs",
+    "seasonal vegetables"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our Pasture-Raised Poultry roam freely on lush pastures, foraging for a natural diet rich in essential vitamins and minerals.",
+    "source_url": "https://www.backstagefarms.com/products"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Mountain Home Farmers Market, 5th and South St. (Wednesday and Saturday 7 am to 12 pm, April to November)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Calico Rock",
+      "Norfolk",
+      "Jordan",
+      "Mountain Home"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.backstagefarms.com/contact"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/backstagefarms/all",
+  "data_source": "state-program",
+  "source_url": "https://arkansasgrown.org/listing/backstage-farms-llc/",
+  "notes": "Jerry Horne's farm at Calico Rock, AR, started in 2022. Checked 2026-11-15 the homepage (updated September 2026), products and contact pages. Pasture-raised chickens and Berkshire pork raised in wooded areas where the pigs forage; the site does not mention grain or feed, so the category is pastured. Eggs are named on the homepage but no egg product is listed on the products page. Orders through a Barn2Door store, delivery to Calico Rock, Norfork (written Norfolk on the site), Jordan and Mountain Home, and the Mountain Home Farmers Market. No shipping or bulk shares found. The Barn2Door store itself was not opened.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto"
+}

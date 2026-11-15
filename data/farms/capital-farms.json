@@ -1,0 +1,82 @@
+{
+  "id": "capital-farms",
+  "slug": "capital-farms",
+  "farm_name": "Capital Farms",
+  "city": "Wickenburg",
+  "state": "AZ",
+  "zip": "85390",
+  "address_public": true,
+  "address": "410 W Wickenburg Way, Wickenburg, AZ 85390",
+  "website": "https://capitalfarms.com/",
+  "phone": "(928) 543-9597",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "patties",
+    "hot dogs",
+    "roasts",
+    "short ribs",
+    "sausage",
+    "jerky",
+    "beef tallow",
+    "beef shares"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "All Capital Farms beef is grain finished for 240 days at Red Rock Feeding CO in Red Rock, Arizona.",
+    "source_url": "https://capitalfarms.com/pages/faqs"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "ships-regional",
+    "on-farm-store",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "PHX Valley",
+      "Prescott",
+      "Flagstaff",
+      "Tucson",
+      "Lake Havasu",
+      "Kingman",
+      "Laughlin",
+      "Bullhead City"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [
+      "AZ",
+      "CA",
+      "NV",
+      "UT",
+      "NM",
+      "OR",
+      "CO",
+      "OK",
+      "TX",
+      "ID",
+      "KS",
+      "MT",
+      "WY"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://capitalfarms.com/pages/faqs"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://capitalfarms.com/collections/all",
+  "data_source": "web-search",
+  "source_url": "https://capitalfarms.com/",
+  "notes": "Unpublished 2026-11-15: check whether Capital Farms raises its own cattle. The about page says it sources Corriente cattle from ranching families in the Sierra Madre of Mexico before they come to Arizona, and the FAQ says all beef is grain finished for 240 days at Red Rock Feeding CO, an outside feedlot. Publish only if the site shows the cattle are born or raised on its own Wickenburg area ranch land. Checked the homepage, about, FAQ and fresh delivery pages. The FAQ says the beef is pasture raised and grain finished; the homepage says 200 day grain-finished. Free shipping over $250 to the 13 states listed; shares of 1/8, 1/4, 1/2 and whole beef by pre-order. Butcher shop and headquarters at 410 W Wickenburg Way with posted hours. The homepage lists local delivery to PHX Valley, Prescott, Flagstaff, Tucson, Lake Havasu, Kingman, Laughlin and Bullhead City; the fresh delivery page describes UPS shipping tiers rather than local routes.",
+  "last_verified_at": "2026-11-15",
+  "verification_method": "auto",
+  "listing_status": "unpublished"
+}
