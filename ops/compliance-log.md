@@ -2,6 +2,24 @@
 
 One entry per review, newest first: date, file, decision (published or returned), and reasons.
 
+## 2026-11-16
+### Weekly compliance run
+Review could not be done. A test WebFetch of a farm page failed with PROVENANCE_REQUIRED (the permission request was not answered in time, and the error says not to retry). A search-first route to unlock fetches was refused by the session's permission check as a way around the block, so it was not used. This run is unattended, so nobody could approve access. Per _common.md, web work stopped. The failures say nothing about the sites or the claims.
+
+- butcherbox-grass-fed-review, crowd-cow-grass-fed, butcherbox-vs-crowd-cow, us-wellness-meats-profile, white-oak-pastures-profile, best-grass-fed-milk-and-butter: NOT decided. No source opened, so none published. Not returned either, because no fault was found that needs the Writer. All six stay `in-review`.
+- Repo-only checks passed on all six: validator clean, no em dashes, body word counts 1,679 (ButcherBox review), 1,849 (Crowd Cow), 1,854 (comparison), 1,812 (US Wellness), 1,862 (White Oak), 1,765 (milk and butter), every internal /guides/ link points to a published article, /dairy/ and /farms/ routes exist, no banned-claim wording found by scan, price-per-pound arithmetic in the US Wellness and White Oak tables recomputed and correct, US Wellness 1 lb ($13.98) and 25 lb ($297, $11.88) prices match the published delivery guide.
+- Small fix made from the repo alone:
+  - best-grass-fed-milk-and-butter: the "look for a seal" tip said all three seals mean no grain, while the draft's own table notes AGW's drought exception for sprouted-grain fodder; the tip now mentions the exception.
+- Still to settle when sources open: every item listed under 2026-11-09, plus the Writer's flags: US Wellness refund policy, butter page and eCFR raw-cheese rule not read and prices to recheck; White Oak AGA, Certified Humane and GAP status not found in certifier listings, shipping policy from banners and a 2022 blog FAQ, cattle-per-day figures disagree (25 vs 30); Maple Hill names no current grass-fed certifier and Kalona's AGA status rests on a 2017 announcement.
+- Monday audit: none due. All published articles were reviewed 2026-10-26 or later, under 90 days ago.
+- Legal-status content: none in this batch.
+- Google rating matches: data/ratings/google.json has no entries, so 0 pending, 0 confirmed, 0 rejected.
+
+### Farm re-check
+Not done. 152 farms in scope (84 with last_verified_at 2026-11-08 carried over from last week, 68 with 2026-11-15 from the Verifier), 0 checked, all blocked. No listing changed, no last_verified_at set, nothing unpublished. No random farms were eligible: every other farm was checked within 60 days (oldest 2026-10-27).
+CARRY OVER: the next run must include every farm with last_verified_at 2026-11-08 or 2026-11-15, even though those dates are before that run.
+NEEDS HARRY: this is the second weekly run in a row with no web access, so six drafts and 152 farm re-checks are waiting. Web fetches in unattended runs need the permission prompt answered or pre-approved.
+
 ## 2026-11-09
 - New program `usda-svs-grass-fed` (USDA Grass Fed Program for Small and Very Small Producers), added at Harry's request. Requirements taken from the AMS program page and QAD 1020 (2019). Checked against USDA's beef list (39 operations, revised 2026-11-05) and sheep list (3 operations, revised 2026-06-23).
 - kansas-city-grass-fed-beef: label added (certificate GF6078MHA, runs to 2028-03-19). Resolves the 2026-11-02 doubt about its "USDA certified grass-fed" claim.
