@@ -1,0 +1,61 @@
+{
+  "id": "cedar-hill-farm",
+  "slug": "cedar-hill-farm",
+  "farm_name": "Cedar Hill Farm",
+  "city": "Orange",
+  "state": "CT",
+  "zip": "06477",
+  "address_public": true,
+  "address": "831 Derby Milford Rd., Orange, CT 06477",
+  "website": "https://www.cedarhillfarmct.com/",
+  "phone": "203-889-7282",
+  "social_urls": [
+    "https://www.facebook.com/cedarhillfarmct"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "hamburger patties",
+    "hot dogs",
+    "beef organ meats",
+    "pork chops",
+    "pork roasts",
+    "sausage",
+    "bacon",
+    "whole chicken",
+    "chicken cuts",
+    "turkeys",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our cattle spend the growing season on pasture.",
+    "source_url": "https://www.cedarhillfarmct.com/beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.cedarhillfarmct.com/orderonline"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.cedarhillfarmct.com/orderonline",
+  "data_source": "web-search",
+  "source_url": "https://ctbites.com/blog/2020/5/1/field-guide-to-ct-grown-meats-via-connecticut-food-and-farm-magazine",
+  "notes": "New Haven County family farm (Bespuda family since 1931). Checked the homepage, about, products, beef, pork, chicken, eggs and order online pages. Beef page says cattle are on pasture in the growing season with rotational grazing and eat farm-grown hay or silage when pasture is short; no grass-fed or finishing wording, so category is pastured. Pork and chicken pages have no feeding wording; the chicken page describes birds raised indoors in small flocks with brooders and fans, and laying hens get scratch grains. Farm store open year round Friday 12 to 5:30 and Saturday 9 to 12; online pre-orders (eggs, turkeys) are picked up at the farm store. Homepage in mid November 2026 said beef stock was low and turkeys sold out for 2026. No bulk shares, markets, delivery or shipping found. Also sells produce and maple syrup."
+}

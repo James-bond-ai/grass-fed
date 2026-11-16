@@ -1,0 +1,36 @@
+{
+  "id": "dirty-dog-farm",
+  "slug": "dirty-dog-farm",
+  "farm_name": "Dirty Dog Farm",
+  "city": "Germantown",
+  "state": "NY",
+  "zip": "12526",
+  "address_public": true,
+  "address": "168 Buckwheat Road, Germantown, NY 12526",
+  "website": "https://dirtydogfarm.com/",
+  "phone": "518-660-7824",
+  "social_urls": ["https://www.facebook.com/DirtyDogFarm", "https://www.instagram.com/dirtydogfarm"],
+  "species": ["beef"],
+  "products": ["ground beef", "ground beef with liver and heart", "steaks", "beef shares", "meal prep packs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cows eat grass (and only grass), spend their lives on pasture, and help us build healthier soil.",
+    "source_url": "https://dirtydogfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "ships-regional"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": ["NY", "NJ", "CT", "MA", "PA", "RI", "VT", "NH", "ME", "MD", "DE", "OH", "VA", "NC", "SC", "IL", "IN", "MI", "KY", "WV"],
+    "pickup_locations": [],
+    "source_url": "https://dirtydogfarm.com/pages/faqs"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://dirtydogfarm.com/",
+  "data_source": "web-search",
+  "source_url": "https://dirtydogfarm.com/",
+  "notes": "Cattle farm on Buckwheat Road in Germantown, Hudson Valley, run by Josh Schwab and Jesse Warner since 2017. Checked the homepage, how we farm page, about page and FAQ. The site says the beef is 100% grass fed and finished: fresh pasture April to December and hay in winter, no grain. Sells online only, shipping weekly: free over $200 to the 11 Zone 1 states (NY, NJ, CT, MA, PA, RI, VT, NH, ME, MD, DE) and $25 a box to the 9 Zone 2 states (OH, VA, NC, SC, IL, IN, MI, KY, WV). It does not ship west of the Mississippi and refers those buyers to other farms. Eighth, quarter, half and whole beef shares by deposit, with a free chest freezer on halves and wholes; shares are being reserved for February 2027 and the 20 lb mini share was sold out, but ready-to-ship boxes were available. No farm pickup, markets or local delivery mentioned. The ops lead mentioned pastured chickens, but the current site sells only beef."
+}

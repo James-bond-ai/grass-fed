@@ -1,0 +1,36 @@
+{
+  "id": "riverview-farms",
+  "slug": "riverview-farms",
+  "farm_name": "Riverview Farms",
+  "city": "Ranger",
+  "state": "GA",
+  "zip": "30734",
+  "address_public": true,
+  "address": "987 White Graves Road, Ranger, GA 30734",
+  "website": "https://grassfedcow.com/",
+  "phone": "678-910-2831",
+  "social_urls": ["https://www.facebook.com/riverviewfarms", "https://www.instagram.com/riverview_farms"],
+  "species": ["beef", "pork"],
+  "products": ["grassfed beef cuts", "heritage pork cuts", "bulk half hogs", "meat bundles"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our cows are bred, born, raised, and finished on our farm where they eat a bovine buffet of forages",
+    "source_url": "https://grassfedcow.com/products/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery", "farmers-market"],
+  "farmers_markets": ["Freedom Farmers Market, Carter Center, Atlanta (Saturday mornings, year-round)", "Morningside Farmers Market, Atlanta (Saturday mornings, year-round)"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Atlanta"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Pickup locations throughout Atlanta (not listed on the site)"],
+    "source_url": "https://grassfedcow.com/buy-local-meat/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://grassfedcow.com/buy-local-meat/",
+  "data_source": "web-search",
+  "source_url": "https://grassfedcow.com/",
+  "notes": "Family farm on the Coosawattee River at Ranger, in the family since the 1970s. Checked the about page, who we are, products, buy local meat, bulk heritage pork and contact pages. Raises heritage breed pigs (Berkshire, Tamworth, Cheshire) and grassfed beef cattle and says it grows everything its animals eat, including organic corn, vegetables and forages, with rotational grazing of pasture and forest. Category set to grass-fed because the beef quote says finished on forages but no page says grass-finished or no grain, and the farm grows corn for its animals; the quote is the first part of a longer sentence. Pork would be pastured. Orders online through a Barn2Door store, delivered throughout Atlanta, pickup at unnamed Atlanta pickup points, and two Saturday Atlanta markets. Half hogs sold in bulk and delivered to Atlanta on Fridays; no beef shares found. Says it was certified organic in 2000; current status not stated, so run the organic match script. Also grows organic produce and heirloom grains (Artisan Milling Company). The buy local meat page was last modified February 2024, so the Verifier should confirm the markets are current. Farm visits by call first."
+}

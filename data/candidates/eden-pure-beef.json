@@ -1,0 +1,35 @@
+{
+  "id": "eden-pure-beef",
+  "slug": "eden-pure-beef",
+  "farm_name": "Eden Pure Beef",
+  "city": "Stephens",
+  "state": "GA",
+  "zip": "30667",
+  "address_public": false,
+  "website": "https://edenpurebeef.com/",
+  "phone": "",
+  "social_urls": ["https://www.facebook.com/edenpurebeef", "https://www.instagram.com/edenpurebeef", "https://www.youtube.com/@EdenPureBeef", "https://www.tiktok.com/@edenpurebeef"],
+  "species": ["beef"],
+  "products": ["beef bundles", "steaks", "cubed steak", "corned beef brisket", "custom orders"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Today, our cattle are raised on diverse pastures and fed only grass and hay grown on our farm.",
+    "source_url": "https://edenpurebeef.com/about/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "farmers-market", "local-delivery", "ships-nationwide"],
+  "farmers_markets": ["Marietta Square Farmers Market (Saturdays 9am to noon, year-round)", "Brookhaven Farmers Market (April to November)"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": ["Marietta Square Farmers Market", "Brookhaven Farmers Market"],
+    "source_url": "https://www.edenpurebeef.com/faq"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/9bPwk/all",
+  "data_source": "web-search",
+  "source_url": "https://marketspread.com/vendor/32792/eden-pure-beef/",
+  "notes": "Beef farm at Stephens in Oglethorpe County run by farmer Emmet and his daughters (a homepage photo shows a Chang Family Farm LLC sign). Checked the homepage, about, FAQ and contact pages; the markets and bundles pages failed to load. The site says the cattle are 100% grass-fed and grass-finished, never given grain, and take 36 to 40 months to mature. The about page says it ships beef nationwide and offers local courier delivery, but names no delivery area. The FAQ says only 16 to 20 lb bundles and 15 to 20 lb custom orders ship, by UPS every Tuesday, and that it sells at the Marietta Square market year-round and Brookhaven market April to November. No quarter or half beef found. Address given only as Stephens, GA 30667, visits by appointment; no phone. Verifier should load the markets page to confirm current markets."
+}

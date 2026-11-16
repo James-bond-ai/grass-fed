@@ -64,29 +64,33 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 
 ## CT
 - Laurel Ridge Grass-Fed Beef, Litchfield (lrgfb.com): https to http redirect loop, fetch blocked twice 2026-11-11 and again 2026-11-12 (host did not resolve)
-- Kindred Crossings, North Franklin (kindredcrossingsfarm.com): Square Online pages return only metadata, no feeding sentence or channels; town from its 2024 lamb order PDF 2026-11-12
-- Broad Brook Beef & Pork, Broad Brook (broadbrookbeef.com): every page fetched came back empty 2026-11-12
+- Broad Brook Beef & Pork, Broad Brook (broadbrookbeef.com): every page fetched came back empty 2026-11-12 and again 2026-11-16
 - The Farm, Woodbury (thefarmwoodbury.com): farmstand open 2026 and homepage mentions grass-fed beef, but meats page dated 2020 says sold out; pork grain-fed, chicken and lamb from other farms; unclear if meat still sold 2026-11-12
-- Greyledge Farm (buyctgrown.com listing only), unchecked 2026-11-11
-- New Haven and Middlesex counties have no farms yet
+- Greyledge Farm, Roxbury (greyledgefarm.com): magazine says pasture-raised, grass-fed Angus beef, heritage pork, poultry; https to http redirect loop 2026-11-16
+- Sycamore Farm, Higganum (sycamorefarmmeats.com): grass-fed beef, pork, lamb per 2020 CT Food and Farm guide; robots block fetching 2026-11-16
+- 3B Ranch, Northford (3branchct.com): "100% Grass Fed" Angus beef, bison, goats, halves and wholes by email; site copyright 2017, no town or contact on site, may be inactive 2026-11-16
+- Field House Farm, Madison (fieldhousefarm.net): pastured chickens with grain supplement, sold by phone or email; other pages robots blocked, newest posts 2017 2026-11-16
+- Half Mile Acres, North Guilford: pasture-raised, grain-finished beef via Guilford Food Center; no website found 2026-11-16
+- Unchecked names from the 2020 CT Food and Farm meat guide: Cold Goats Farm, Haddam Neck (coldgoatsfarm.com); Before and After Farms, Woodbridge (beforeandafterfarms.com); Farmer Joe's Gardens, Wallingford (farmerjoesgardens.com); Latella Farm, Orange; Maple Breeze Farm, Westbrook (maplebreezefarm.com); Little Rascals Farm, Killingworth; Four Mile River Farm; Provider Farm; Terra Firma Farm; Scantic Valley Farm; Hidden Blossom Farm; New Boston Beef; Sub Edge Farm; Tulmeadow Farm; Whippoorwill Farm; Why Not Farm 2026-11-16
 
 ## DE
-- Dittmar Family Farms, Felton (dittmarfamilyfarms.com): homepage returns only metadata, other pages client errors 2026-11-12; state CSA list and Lewes market page say grass-fed beef and lamb, year-round CSA with Felton, Lewes and Bethany Beach pickups
+- Dittmar Family Farms, Felton (dittmarfamilyfarms.com): homepage returns only metadata, other pages client errors 2026-11-12 and again 2026-11-16; state CSA list and Lewes market page say grass-fed beef and lamb, year-round CSA with Felton, Lewes and Bethany Beach pickups
 - No website (Facebook or directory only): Mahon River Farm, Dover (pastured poultry); Hudson Blooms, Harbeson (eggs); TS Smith & Sons, Bridgeville; Tomahawk Cattle, Greenwood; Beyond Wits End Farm, Harrington; Twisted Steel Cattle Company, Frederica 2026-11-12
-- Whole+sum Farm, Middletown and Locust Grove Farm, Middletown: own websites not found yet 2026-11-12
+- Whole+sum Farm, Middletown and Locust Grove Farm, Middletown: own websites still not found 2026-11-16
 
 ## FL
 - E & C Cattle Ranch; JS2 Cattle; Our Ancestor's Food
 - Nature's Hand Cattle Co., Westville; Sunset Ranch of Escambia: no own website found 2026-11-04
 
 ## GA
-- Goshen Family Farm; Riverview Farms; Burge Organic Farms (all blocked fetching)
-- Mountain Valley Farm & Store, Ellijay (grassfedgeorgia.com): grass-fed dry-aged beef, farm store; site redirect loop between http and https 2026-11-04 and again 2026-11-05; fetch blocked 2026-11-09
-- Stone Mountain Cattle: partner ranch named by H.E.R.O Farms (rejected), grass-fed, pasture-finished; own site not looked for 2026-11-09
-- Lily Hill Farm (lilyhillcattle.com): ships and local pickup, but says "grass and grain finished" and names no town; unchecked further 2026-11-05
+- Goshen Family Farm; Burge Organic Farms, Mansfield; Stone Mountain Cattle (partner ranch named by H.E.R.O Farms, rejected): no own website found in search 2026-11-16
+- Mountain Valley Farm & Store, Ellijay (grassfedgeorgia.com): grass-fed dry-aged beef, farm store; search shows beef, pork and price PDF pages; http/https redirect loop again 2026-11-16
 - Dyer Livestock Beef, Trenton (Beef Shop): grass-fed and grain finished, ships; only a squarespace preview domain, home and shop pages blocked 2026-11-05
 - Osborn Farms, Hiawassee: Facebook and Instagram only, no own website 2026-11-05
-- Verdant Beef, Burke County (verdantbeef.com): fetch blocked, directory info from 2021 2026-11-05
+- Verdant Beef, Burke County (verdantbeef.com): domain search returned nothing, only directory listings 2026-11-16
+- Lamboy Beef, Cave Spring (lamboybeef.com): city directory says pasture raised, grass fed then supplemental grain finished; Square Online site renders no text 2026-11-16
+- AGF Farms (Abundant Grace Farms), Reidsville (agffarm.com): Georgia Grown page says grass-fed beef, eggs, jerky; robots block fetching 2026-11-16
+- C&F Farms (cffarms.grazecart.com): 100% grass-fed and finished beef, pastured chicken and pork, ships to every Georgia zip; names no town, may be the Roanoke VA C&F Farms lead 2026-11-16
 
 ## MO
 - Grace's Grass Fed and Wells Family Farms (blocked fetching)
@@ -119,14 +123,14 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Unchecked: Terrace Ridge Farm (terraceridgefarm.com); Smithview Farm (smithviewfarm.com)
 
 ## NY
-- Reber Rock Farm (reberrockfarm.com): surfaced in an IL search, unchecked 2026-11-14
-- Kinderhook Farm, Valatie/Ghent (kinderhookfarm.com, shop kinderhookfarm.square.site): 100% grassfed beef and lamb, meatshare; own site not surfaced by search and fetch blocked 2026-11-05 and 2026-11-09
-- Grassroots Farm, Stone Ridge (grassroots-farm.com): per Hudson Valley Bounty listing 100% grass-fed beef, CSA, regional shipping; own site fetch blocked 2026-11-09
-- Dirty Dog Farm, Germantown/Clermont (dirtydogfarm.com): per Hudson Valley Bounty listing 100% grass-fed beef, pastured chickens, online store; own site fetch blocked 2026-11-09
+- Kinderhook Farm, Valatie/Ghent (kinderhookfarm.com, shop kinderhookfarm.square.site): share pages say 100% grassfed and finished beef; price list dated 12/6/25 shows beef, lamb, mutton, pork, poultry, eggs, pickup orders by email; Square shop renders no text and main site not surfaced, town unconfirmed 2026-11-16
 - Home Farm, Amenia: own site not found, a search link went to an unrelated company 2026-11-09
-- Spring Lake Farm, Delhi area (springlakefarmny.com): grass-fed beef and lamb per a 2010 article; fetch blocked 2026-11-05
-- Freedom Farms, Greene (wearefreedomfarms.com): grass-fed, grass-finished beef shares, pork, chicken, eggs, ships nationwide; a product page says the beef comes from the Great Plains, so check whether it raises its own cattle; homepage fetch blocked 2026-11-10
-- Raw milk permit holders not yet checked (sites blocked fetching): Essex Farm, Remembrance Farm, Byebrook, Side Hill Acres, Hoofprint, 3-Corner Field Farm, Stone Thistle, Asgaard Farm, Edgwick Farm
+- Spring Lake Farm, Delhi (springlakefarmny.com, new site springlake.farm): 100% grass fed cattle and sheep, but content dated 2019, ordering for regular customers only, beef page blocked; may be inactive 2026-11-16
+- Freedom Farms, Greene (wearefreedomfarms.com): homepage loads 2026-11-16, says beef from "our family farm in Greene, NY", 130 acres, ships nationwide, only "Grass Fed" wording; says beef is "carefully sourced" and a product page mentions the Great Plains, so sourcing still unclear
+- Raw milk permit holders not yet checked: Remembrance Farm, Byebrook, Side Hill Acres, Hoofprint, 3-Corner Field Farm, Stone Thistle, Edgwick Farm
+- Asgaard Farm & Dairy, Au Sable Forks (asgaardfarm.com): store mentions grass-fed and finished beef, pastured pork, goat cheese; Square pages show no body text 2026-11-16
+- Cairncrest Farm, central NY (cairncrestfarm.com): 100% grass fed and finished beef and lamb, pastured pork, ships to 12 Northeast states, chicken from Wrong Direction Farm; site names no town 2026-11-16
+- Finger Lakes names, unchecked: Tamberlane Farm (tamberlanefarm.com); Big Bend Cattle Co (bigbendcattleco.com, feeding unknown); Backbone Farm (grass-fed and finished per a GreenStar Co-op article) 2026-11-16
 
 ## OH
 - Fred's Farm (fredsfarm.grazecart.com): grass-finished beef, site under maintenance 2026-10-31

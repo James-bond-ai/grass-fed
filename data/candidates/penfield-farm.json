@@ -1,0 +1,58 @@
+{
+  "id": "penfield-farm",
+  "slug": "penfield-farm",
+  "farm_name": "Penfield Farm",
+  "city": "Portland",
+  "state": "CT",
+  "zip": "06480",
+  "address_public": true,
+  "address": "51 Ames Hollow Road, Portland, CT 06480",
+  "website": "http://penfieldfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "Black Angus beef",
+    "steaks",
+    "Berkshire pork",
+    "bacon",
+    "breakfast sausage",
+    "lamb",
+    "lamb chops",
+    "chicken",
+    "duck",
+    "emu",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Free-range, grass-fed meats, raised without hormones or antibiotics.",
+    "source_url": "http://penfieldfarm.com/farm-stand"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "http://penfieldfarm.com/farm-stand"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "resold_note": "Also sells honey from Full Bloom Apiaries.",
+  "data_source": "web-search",
+  "source_url": "https://ctbites.com/blog/2020/5/1/field-guide-to-ct-grown-meats-via-connecticut-food-and-farm-magazine",
+  "notes": "Middlesex County farm. Checked the homepage, farm stand page and philosophy page; the site also has educational experiences and animal rescue pages (not read). Farm stand open Saturdays 9am to 3pm, other times by contact; sells aged Black Angus beef, Berkshire pork, lamb, chicken, duck, emu, free-range eggs and emu oil products. Philosophy page says meats are free-range and grass fed. The grass-fed wording covers all meats including pork and poultry and says nothing about finishing, so category is grass-fed; Verifier may prefer pastured. The homepage says its eggs are also sold at Gardiner's Market in South Glastonbury (counted as retail). No phone on site, contact by email link to the farm manager. No prices, bulk shares, delivery or shipping found."
+}

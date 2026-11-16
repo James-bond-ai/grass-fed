@@ -1,0 +1,43 @@
+{
+  "id": "coverdale-farm-preserve",
+  "slug": "coverdale-farm-preserve",
+  "farm_name": "Coverdale Farm Preserve",
+  "city": "Greenville",
+  "state": "DE",
+  "zip": "19807",
+  "address_public": true,
+  "address": "543 Way Road, Greenville, DE 19807",
+  "website": "https://www.delawarenaturesociety.org/centers/coverdale-farm-preserve",
+  "phone": "302-239-2334",
+  "social_urls": [],
+  "species": [
+    "poultry"
+  ],
+  "products": [
+    "Thanksgiving turkeys"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our pasture-raised Thanksgiving turkeys enjoy fresh air, open fields, and a healthy, natural diet.",
+    "source_url": "https://www.delawarenaturesociety.org/centers/coverdale-farm-preserve"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.delawarenaturesociety.org/centers/coverdale-farm-preserve"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.delawarenaturesociety.org/centers/coverdale-farm-preserve",
+  "data_source": "web-search",
+  "source_url": "https://delawarenaturesociety.org/news-updates/press-releases/delawares-small-farms-innovate-with-the-changing-times/",
+  "notes": "Working farm run by the Delaware Nature Society (nonprofit) on its own pages, not a standalone farm site. Checked the Coverdale center page, The Market at Coverdale page and a 2021 press release. Sells pasture-raised Thanksgiving turkeys by reservation (from November 1, $8.95 per pound, $25 deposit, pickup at The Market on November 24). The Market is open April to November, Friday to Sunday, mainly produce and flowers. Pages also describe hens rotated through pasture in mobile houses but do not say eggs are sold, so eggs are left out; a Delaware Nature Society article lists pasture-raised eggs and chicken, worth checking. The 2021 press release says meat at The Market comes from local and regional partner farms. Thin listing (turkeys only); Verifier should decide whether a seasonal turkey sale is enough."
+}
