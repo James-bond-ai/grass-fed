@@ -108,7 +108,7 @@ Vital Farms is clear about grain. Its butter page says the cows are 90 percent g
 
 ## How to read a grass-fed dairy label in the store
 
-1. **Look for a seal first.** OPT, AGA or Certified Grassfed by AGW each mean no grain and outside inspection. A plain "grass-fed" with no seal is the brand's own claim.
+1. **Look for a seal first.** OPT, AGA or Certified Grassfed by AGW each mean a no-grain diet rule (AGW allows a narrow drought exception, as the table shows) and outside inspection. A plain "grass-fed" with no seal is the brand's own claim.
 2. **Look for a number.** "100%" or "grass-fed only" says more than "grass-fed." A brand that gives a percentage, like 90 or 95 percent, is telling you some of the diet isn't grass.
 3. **Don't treat organic as grass-fed.** USDA Organic guarantees pasture time and organic feed, not a grain-free diet.
 4. **Check each product, not the brand.** Organic Valley and Kalona both sell some products with a grass-fed seal and others without one under the same name.
