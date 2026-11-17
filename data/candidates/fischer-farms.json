@@ -1,0 +1,37 @@
+{
+  "id": "fischer-farms",
+  "slug": "fischer-farms",
+  "farm_name": "Fischer Farms",
+  "city": "St. Anthony",
+  "state": "IN",
+  "zip": "47575",
+  "address_public": true,
+  "address": "4630 South Cross St., St. Anthony, IN 47575",
+  "website": "https://ffnatural.com/",
+  "phone": "812-266-0537",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["dry-aged beef"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "They are then brought into open air covered barns for the last few months to allow us to finish them",
+    "source_url": "https://ffnatural.com/blog/what-makes-quality-beef-3"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery", "retail", "restaurants"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Pickup points around Indiana and Chicago"],
+    "source_url": "https://ffnatural.com/"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells pork from the Gutgsell family, chicken from Miller Poultry, eggs and produce from an Amish community near Paoli, and dairy and pantry items from other Indiana farms and businesses.",
+  "ordering_url": "https://ffnatural.com/store",
+  "data_source": "web-search",
+  "source_url": "https://ffnatural.com/",
+  "notes": "Borderline fit for a grass-fed directory: beef is finished in barns. The old fischerfarms.grazecart.com store redirects to ffnatural.com. Read the homepage, our farm story and the 'What Makes Quality Beef?' blog post (WebFetch summaries only, so recheck the verbatim quote). The store, partner farms and our natural neighbors pages were blocked or failed, so the product list, bulk options and delivery details are unconfirmed. The blog says calves are born on pasture, graze ryegrass, sorghum sudan grass and fescue, get feed of corn silage, ryegrass silage and distillers grains, and are finished in open air covered barns for the last few months, so category is grain-finished. Homepage and story page do not mention grass in text (only an image label 'Grass-fed Indiana beef'). Story page says the family farm is 750 acres; the homepage says the family farm supplies the beef, and a network of over 35 partner farmers supplies other products; no partner cattle farms named. Homepage says it delivers 'to homes throughout most of the country' (no states named, so no shipping channel set) with pickup points around Indiana and Chicago, plus wholesale to restaurants, institutions and stores. The lead said Jasper; the site gives St. Anthony, near Jasper."
+}

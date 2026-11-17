@@ -239,6 +239,13 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Deep Creek Cattle Company / Wiebe Farms Inc., Buhl: no own website found, only a paywalled AgProud article 2026-11-15
 
 ## IN
+- Fetch blocked or no site 2026-11-17: MeadowBlend Farm, Leesburg (meadowblendfarm.com, homepage refused, /recipes robots blocked); Mumford Hills Livestock, Griffin, Posey County (mumfordhillslivestock.com, refused); Sycamore Run Farm (only a Market Wagon blog post, no own site found); Pasture Haven, Syracuse (Andrew and Norma Yoder, raw milk herd shares, no website found)
+- Four Rivers (fourrivers.grazecart.com): maintenance page on every URL, state and town unconfirmed 2026-11-17
+- Acorn Acres Farm, Chesterton: only a Squarespace preview domain found, no own domain 2026-11-17
+- Unchecked names 2026-11-17: Wholesome Meadows Farm, Huntington area; Heritage Homestead Farms LLC (heritagehomesteadfarmsllc.grazecart.com); Elm Run Farms (elmrunfarms.grazecart.com, state unconfirmed); Brenneman Farms (brennemanfarms.grazecart.com, raw milk herd share); Gunthorp Farms, LaGrange (pastured pork); Kemp Family Organic Dairy (raw dairy); Greenfield Highland Beef, Greenfield (only a Squarespace preview domain seen); Plumer & Bowers Farmstead, near Seymour (grass-fed beef, no site found); Wagner Farms Grass Finished Beef, Brothers Beef, Greener Grass Farms (no own sites seen)
+- Seven Sons partner farms, no own sites found: Hoosier Cattle / Hoosier Grass-fed Beef, Perry Farm, Roger Rose 2026-11-17
+- CF Farms (cffarms.grazecart.com): has an Indiana delivery page as well as Georgia, may be the GA/VA C&F Farms lead; town unknown 2026-11-17
+- Beiler Family Farm (beilerfamilyfarm.grazecart.com) and Lick Skillet (lickskillet.grazecart.com): state unknown 2026-11-17
 
 ## IA
 - Thankful Harvest, Laporte City or Holstein (thankfulharvest.com): surfaced as an IL lead but is in Iowa, unchecked 2026-11-14

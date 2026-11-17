@@ -1,0 +1,37 @@
+{
+  "id": "hine-farms",
+  "slug": "hine-farms",
+  "farm_name": "Hine Farms",
+  "city": "Waterloo",
+  "state": "IN",
+  "zip": "46793",
+  "address_public": true,
+  "address": "2859 County Rd 23, Waterloo, IN 46793",
+  "website": "https://www.hinefarms.com/",
+  "phone": "260-316-4189",
+  "social_urls": ["https://www.instagram.com/hinefarms", "https://www.facebook.com/hinefarms"],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["quarter and half beef", "canned beef", "half and whole hogs", "canned pork", "pork cuts", "whole chickens", "chicken cuts", "eggs", "tallow and lard soap and balms", "maple syrup", "produce"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Yes, all of our cattle are raised and finished on grasses, forage, and hay; no grain is fed to our cattle.",
+    "source_url": "https://hinefarms.squarespace.com/faqs"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://hinefarms.squarespace.com/contact-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/hinefarms",
+  "resold_note": "Also sells honey from a Noble County beekeeper, jams, pie fillings and produce from Gran's Garden, and Michigan-grown fruit.",
+  "data_source": "web-search",
+  "source_url": "https://hinefarms.squarespace.com",
+  "notes": "Family farm at Waterloo, IN (Tim and Stephanie Hine, 5th-generation farm). Pages read on hinefarms.squarespace.com (same Squarespace site as hinefarms.com, which was blocked to direct fetch but its homepage was read at www.hinefarms.com): homepage, our story, products list, grass fed beef, pasture raised pork, eggs, chicken, tallow and lard skincare, maple syrup, honey, jams, seasonal produce, FAQs, contact, herd news. FAQ says cattle are raised and finished on grasses, forage and hay with no grain; winter hay is mostly grown on the farm. FAQ also says the farm buys some cattle, replacement heifers and sows or gilts from local grass fed and pasture raised producers. Pigs are raised in woods and on pasture with free choice feed mostly grown on the farm; laying hens get corn and soy free feed, broilers non-GMO feed. Quarter and half beef and half and whole hogs are sold by hanging weight, picked up at the processor; beef page says $4.75/lb and FAQ says $5/lb. Farm Store on County Road 28 is open May to October Wed, Fri and Sat; porch pickup Wednesdays November to April; season closing event November 13 and 14. Online store is Barn2Door with pickup at select locations; Barn2Door store was blocked and not read, so pickup points are not listed. Site says produce is sold at the Auburn Farmers Market; not stated for meat, so no market listed. No delivery or shipping mentioned. Eggs are limited supply. Tallow and lard soaps are made by a local soap maker from the farm's own fat. Verbatim quote taken from WebFetch output."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "pastures-delights",
+  "slug": "pastures-delights",
+  "farm_name": "Pasture's Delights",
+  "city": "Decatur",
+  "state": "IN",
+  "zip": "",
+  "address_public": false,
+  "website": "https://pasturesdelights.3dcartstores.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["dairy-cow", "dairy-goat", "beef"],
+  "products": ["raw cow milk", "raw goat milk", "cream", "butter", "bulk beef", "soup bones"],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "Your cows are raised on a non-gmo forage diet, harvesting most of their own food themselves on pasture.",
+    "source_url": "https://pasturesdelights.3dcartstores.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["local-delivery"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Central and northern Indiana", "Fort Wayne", "Indianapolis", "Muncie", "Richmond", "Lafayette", "Logansport", "Wabash", "Northwest Indiana", "South Bend"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://pasturesdelights.3dcartstores.com/delivery.html"
+  },
+  "dairy_products": ["raw-milk", "cream", "butter"],
+  "ordering_url": "",
+  "resold_note": "Also sells grass-fed beef and eggs from Seven Sons Farms.",
+  "data_source": "web-search",
+  "source_url": "https://pasturesdelights.3dcartstores.com/",
+  "notes": "Raw milk herdshare dairy at Decatur, Indiana. Read the homepage, herdshare program, delivery, our farm and other farm store products pages; the about us page failed to load. Raw milk is sold only through herdshares, and raw milk is legal only in some states. Herd owners choose a 100% grass-fed (no-grain) cow, A2A2 grass-fed (no-grain) cow, low-fat grass-fed (no-grain) cow, a non-GMO grain supplemented cow for the budget conscious, or a non-GMO grain supplemented goat, so the category is both. Cream and butter are for herd owners only. Beef is bulk beef and soup bones from cull dairy cows; no quarter or half shares named. Free bi-weekly delivery to 30 plus drop sites, of which the homepage names nine areas; the delivery page uses a map that could not be read. The homepage says the website is being overhauled and asks buyers to email for pricing, so it may be out of date. No street address or phone on the site. Pastured eggs, raw honey and kefir grains were out of stock and the eggs may be the Seven Sons eggs, so eggs are not listed. Quote from a WebFetch extraction asked for exact words."
+}
