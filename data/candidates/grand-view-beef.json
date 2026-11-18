@@ -1,0 +1,36 @@
+{
+  "id": "grand-view-beef",
+  "slug": "grand-view-beef",
+  "farm_name": "Grand View Beef",
+  "city": "Clarion",
+  "state": "IA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.grandviewbeef.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["steaks", "ground beef", "roasts", "beef sticks", "beef boxes", "beef shares"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle never eat grain.",
+    "source_url": "https://www.grandviewbeef.com/pages/our-practices"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "ships-nationwide", "farm-pickup", "retail", "restaurants"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://www.grandviewbeef.com/pages/shipping-faq"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells pasture-raised chicken from partner farm The Thomas Farmstead, and buys in some 100% grass-fed weaned calves from other Midwest ranches.",
+  "ordering_url": "https://www.grandviewbeef.com/collections/100-grass-fed-beef",
+  "data_source": "web-search",
+  "source_url": "https://practicalfarmers.org/events/field-days/raising-100-grass-fed-beef-in-row-crop-country",
+  "notes": "Knute and Amanda Severson, fifth-generation family farm at Clarion (Wright County). Found via a Practical Farmers of Iowa field day page, then the farm site via web search. Read the homepage, our practices, shipping FAQ, store and restaurant locator, beef collection and chicken collection pages (WebFetch summaries only, so recheck the verbatim quote). Homepage: 'They eat only grass and forage their entire lives, including right up to harvest.' Most cattle are born and finished on the farm; when short of calves they buy 100% grass-fed weaned calves from Midwest ranches (resold_note). Chicken comes from partner farm The Thomas Farmstead and gets non-GMO corn and soy feed, so poultry is not listed as a species. Shipping FAQ: 'We ship to all 50 states', UPS on Tuesdays; pickup in Clarion at checkout. Beef collection shows a 1/16 Fill Your Freezer share and mentions quarter, half and whole shares. Store and restaurant locator is a map that did not render, so retail and restaurant partners are unnamed. The site says the farm is AGA certified, but the AGA producer directory fetch was blocked, so no certification is added; recheck the AGA listing. An Ames Main Street Farmers Market vendor page exists but the farm site does not name markets, so none listed. No phone or street address on the pages read."
+}

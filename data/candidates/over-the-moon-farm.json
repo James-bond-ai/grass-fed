@@ -1,0 +1,39 @@
+{
+  "id": "over-the-moon-farm",
+  "slug": "over-the-moon-farm",
+  "farm_name": "Over the Moon Farm",
+  "city": "Coggon",
+  "state": "IA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://overthemoonfarmflowersllc.grazecart.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.instagram.com/overthemoonfarm_",
+    "https://www.facebook.com/overthemoonfarmflowers"
+  ],
+  "species": ["pork", "poultry"],
+  "products": ["pork chops", "bacon", "sausage", "ground pork", "pork roasts", "ribs", "ham steaks", "smoked hocks", "whole and half hogs", "chicken", "Thanksgiving turkeys"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our chickens and turkeys spend their lives on pasture with fresh air and sunshine.",
+    "source_url": "https://overthemoonfarmflowersllc.grazecart.com/farm-practices"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery", "ships-nationwide", "retail"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Cedar Rapids and Iowa City corridor", "Marion", "Hiawatha", "Coralville", "North Liberty", "Solon", "Mount Vernon", "Lisbon"],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": ["Buffalo Ridge Orchard Farm Store, Central City (seasonal, Tuesday to Saturday)"],
+    "source_url": "https://overthemoonfarmflowersllc.grazecart.com/delivery-and-shipping"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells grass-fed beef and lamb from partner farms, some pasture-raised chicken from a partner farm, and dairy and pantry items whose source the site does not name.",
+  "ordering_url": "https://overthemoonfarmflowersllc.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://overthemoonfarmflowersllc.grazecart.com/home",
+  "notes": "Run by Shae and Anna Pesek on Shae's family land in Coggon (Linn County); they 'primarily raise farrow to finish pigs' (Berkshire) plus turkeys and some chicken. Read the homepage, farm practices, FAQ, delivery and shipping, meet your farmers and Berkshire pork store pages (WebFetch summaries only, so recheck the verbatim quote). Farm practices and FAQ say grass-fed beef and lamb come from partner farmers, so they are in resold_note, not species. Pork: 'raised in spacious deep bedded barns, outdoor lots, and on pasture'; no feed details, so category pastured. Delivery page: local delivery in the Cedar Rapids and Iowa City corridor, Midwest shipping (IA, IL, KS, MN, MS, NE, WI) and nationwide shipping to all other continental states. Whole and half hog deposits listed (next available December 2026); FAQ also offers quarter/half/whole beef and whole lamb shares from partners. 'retail' channel is the Buffalo Ridge Orchard farm store in Central City. A related domain overthemoonmeat.com exists (store link and owner email) but the fetch was blocked, so website is the GrazeCart store. No phone published."
+}

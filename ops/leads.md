@@ -240,18 +240,36 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 
 ## IN
 - Fetch blocked or no site 2026-11-17: MeadowBlend Farm, Leesburg (meadowblendfarm.com, homepage refused, /recipes robots blocked); Mumford Hills Livestock, Griffin, Posey County (mumfordhillslivestock.com, refused); Sycamore Run Farm (only a Market Wagon blog post, no own site found); Pasture Haven, Syracuse (Andrew and Norma Yoder, raw milk herd shares, no website found)
-- Four Rivers (fourrivers.grazecart.com): maintenance page on every URL, state and town unconfirmed 2026-11-17
+- Four Rivers (fourrivers.grazecart.com): maintenance page on every URL, state and town unconfirmed 2026-11-17 and 2026-11-18
 - Acorn Acres Farm, Chesterton: only a Squarespace preview domain found, no own domain 2026-11-17
-- Unchecked names 2026-11-17: Wholesome Meadows Farm, Huntington area; Heritage Homestead Farms LLC (heritagehomesteadfarmsllc.grazecart.com); Elm Run Farms (elmrunfarms.grazecart.com, state unconfirmed); Brenneman Farms (brennemanfarms.grazecart.com, raw milk herd share); Gunthorp Farms, LaGrange (pastured pork); Kemp Family Organic Dairy (raw dairy); Greenfield Highland Beef, Greenfield (only a Squarespace preview domain seen); Plumer & Bowers Farmstead, near Seymour (grass-fed beef, no site found); Wagner Farms Grass Finished Beef, Brothers Beef, Greener Grass Farms (no own sites seen)
+- Fetch blocked 2026-11-18: Wholesome Meadows Farm, 9141 N 100 W, Huntington (wholesomemeadows.com; Visit Huntington listing says grass-fed beef, pork, chicken, eggs and dairy, likely good); Brenneman Farms, town unknown (brennemanfarms.net, raw milk herd share for Indiana customers); Beiler Family Farm, state unknown (beilerfamilyfarm.com); Grass Corp, Linton (grasscorp.net)
+- No own website found 2026-11-18: Gunthorp Farms, LaGrange (pastured pork, only third-party pages); Kemp Family Organic Farm & Dairy (marketplace listings only)
+- Grandma Pat's Beef, Lake Village (grandmapats.eatfromfarms.com): says grass fed and grain finished, not written up, could be added as grain-finished 2026-11-18
+- Unchecked names 2026-11-17: Plumer & Bowers Farmstead, near Seymour (grass-fed beef, no site found); Wagner Farms Grass Finished Beef, Brothers Beef, Greener Grass Farms (no own sites seen)
 - Seven Sons partner farms, no own sites found: Hoosier Cattle / Hoosier Grass-fed Beef, Perry Farm, Roger Rose 2026-11-17
-- CF Farms (cffarms.grazecart.com): has an Indiana delivery page as well as Georgia, may be the GA/VA C&F Farms lead; town unknown 2026-11-17
-- Beiler Family Farm (beilerfamilyfarm.grazecart.com) and Lick Skillet (lickskillet.grazecart.com): state unknown 2026-11-17
+- Not Indiana (checked 2026-11-18): Elm Run Farms is in Orrville, OH; CF Farms (C&F Farms) is near Bonsack, Roanoke County, VA, and only ships into Indiana; Lick Skillet Farm is in Tennessee
+- Vintage Meadows candidate: only the Squarespace address loaded; own domain vintagemeadows.farm not checked, Verifier should confirm 2026-11-18
 
 ## IA
-- Thankful Harvest, Laporte City or Holstein (thankfulharvest.com): surfaced as an IL lead but is in Iowa, unchecked 2026-11-14
+- Fetch blocked 2026-11-18: Diamond I Cattle Co (diamondicattleco.com, may be in the Ozarks, not Iowa); Blue Wildrye Farms (bluewildrye.com, state unknown)
+- Knob Hill Farm, Webster City (knobhillfarm1915.com): Choose Iowa page says organic, pastured chicken, eggs and pork; not fetched, run cap reached 2026-11-18
+- Noble Provisions, near Griswold (nobleprovisions.eatfromfarms.com): story page says grass started, grain finished; no way to buy found 2026-11-18
+- Bobolink Prairie Farms, northwest Iowa (bobolinkprairiefarms.yolasite.com): rotational grazing but no feeding claim or way to buy 2026-11-18
+- Simply Living Homestead, Dallas Center (simplylivinghomestead.squarespace.com): small raw milk dairy, cows get feed at milking, subscriptions closed 2026-11-18
+- No own website found 2026-11-18: Sawyer Beef, Princeton (grass-finished and some corn-fed per Practical Farmers of Iowa); Ebersole Cattle Co, Kellerton; Crossroads Beef; Oak Savanna Farms
+- Grand View Beef candidate claims AGA certification; AGA directory was blocked, so no certification added; recheck 2026-11-18
+- No qualifying farm found yet in western Iowa; Iowa Beef Industry Council directory grass-fed entries mostly lack websites and are grain-finished 2026-11-18
 
 ## KS
-- Bauman's Meat Market (baumansmeatmarket.grazecart.com): surfaced in an IL search, may be a meat market rather than a farm, unchecked 2026-11-14
+- Bauman's Meat Market / Bauman's Cedar Valley Farm, Garnett (baumansmeatmarket.grazecart.com): fetch blocked; AgMRC and Lawrence Business Magazine say the family raises its own pastured beef, pork, lamb, poultry and eggs, sells at Overland Park and Olathe markets and runs Baumans Butcher Block in Ottawa; do not reject 2026-11-18
+- Fetch blocked 2026-11-18: Gypsum Hills Natural, Lake City (gypsumhills.com, article says 100% grass-fed and finished, ships); Beaver Creek Farm, Dexter (beavercreekfarmks.com, From the Land of Kansas listing says grass-fed beef, Winfield and Derby markets); Dale Family Farms, Protection (dalefamilyfarms.com)
+- Sites not surfaced by search 2026-11-18: Kansas Grassfed Beef Company / Chapman Creek Cattle, Topeka or Abilene (kansasgrassfedbeefcompany.com); Graze the Prairie, Latham (grazetheprairie.com); Route Step Farm, Onaga (routestepfarm.vet, grass-finished lamb and goat, eggs); Mull Beef, Minneapolis (mullbeef.com); Eagle Ridge Ranch, Abilene (no own site found)
+- Rhino's Beef / The All Natural Beef LLC, Smoky Hills (kansas-grass-fed.com): grass-finished, but no town, owner or phone and content looks years old 2026-11-18
+- JK Wilson Ranch, Gypsum (jkwilsonranch.grazecart.com): store still a template with sample products, recheck later 2026-11-18
+- Hedge Valley Farms, Fredonia (hedgevalleyfarms.com): mostly a food hub reselling partner farms, only eggs its own, probably does not qualify 2026-11-18
+- Diamond R Cattle, Independence (diamondrcattle.com): grass fed and grain finished, could be added as grain-finished 2026-11-18
+- Unchecked From the Land of Kansas members (fromthelandofkansas.com/Members/_MemberList, only part of the list read): Cannon Farm Company, Perry; Hidden Hill Farms, Auburn; Eco-Cattle, Lawrence; Piccalilli Farm, Manhattan. Also unused: ICT Food Circle grass-fed directory (Wichita), Kansas Beef Council local beef directory 2026-11-18
+- MJ Ranch candidate claims AGW certification; no current AGW listing found, recheck 2026-11-18
 
 ## OK
 - Prairie Creek Farms (prairiecreek.farm): surfaced in an IL search, unchecked 2026-11-14

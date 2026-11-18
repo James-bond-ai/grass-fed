@@ -1,0 +1,36 @@
+{
+  "id": "septenary-farm",
+  "slug": "septenary-farm",
+  "farm_name": "Septenary Farm",
+  "city": "Ames",
+  "state": "IA",
+  "zip": "50014",
+  "address_public": true,
+  "address": "50459 150th St, Ames, IA 50014",
+  "website": "https://septenaryfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["poultry", "pork", "eggs"],
+  "products": ["whole chickens", "turkeys", "Berkshire pork", "eggs", "vegetables", "plants"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our pastured meat chickens start out the first 2 weeks in a brooder to help them get a healthy start.",
+    "source_url": "https://septenaryfarm.com/products/"
+  },
+  "certifications": [],
+  "sales_channels": ["csa", "online-order", "local-delivery", "on-farm-store", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Ames", "Gilbert", "Story City"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://septenaryfarm.com/contact/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/septenaryfarm/all",
+  "data_source": "web-search",
+  "source_url": "https://septenaryfarm.com/",
+  "notes": "Family of seven farming near Ames (Story County); adults not named on the about page (Instagram handle suggests Jessica). Read the homepage, about, products and contact pages; the verbatim quote was confirmed as an exact short quote by WebFetch, the rest are summaries. Products page: meat chickens go from a brooder to movable pens rotated daily to new ground, 'supplemented with locally grown feed from our local feed mill'; turkeys raised the same way; purebred Berkshire pigs with no feeding or pasture detail; eggs from hens fed garden scraps. Category pastured, based on the poultry. Sells through a meat and vegetable CSA and weekly 'Tailgater Box' with weekly delivery or farm pickup; on-farm hours Saturdays 10 to 2 (listed as on-farm-store; recheck); delivery to Ames, Gilbert and Story City. No bulk hogs, shipping or markets mentioned. Barn2Door shop not read. No phone or email published (contact form only). Bottle calves mentioned on about page but no beef for sale found."
+}

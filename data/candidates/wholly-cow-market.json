@@ -1,0 +1,36 @@
+{
+  "id": "wholly-cow-market",
+  "slug": "wholly-cow-market",
+  "farm_name": "Wholly Cow Market",
+  "city": "Johnson City",
+  "state": "KS",
+  "zip": "",
+  "address_public": false,
+  "website": "https://whollycowmarket.com/",
+  "phone": "",
+  "social_urls": ["https://www.facebook.com/whollycowmkt", "https://www.instagram.com/whollycowmeat/"],
+  "species": ["beef", "poultry"],
+  "products": ["steaks", "roasts", "ground beef", "burgers", "brisket", "beef offal", "beef sticks", "cooking tallow", "monthly meat boxes", "bulk beef bundles", "whole chickens", "chicken breasts", "chicken dark meat", "chicken giblets", "beef tallow skincare"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We're a premier farm-to-table provider of grass-fed and finished beef and pastured chicken.",
+    "source_url": "https://whollycowmarket.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "ships-nationwide"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://whollycowmarket.com/"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells one seafood product and produce it says is sourced from local farms, without naming the sources.",
+  "ordering_url": "https://whollycowmarket.com/collections",
+  "data_source": "web-search",
+  "source_url": "https://whollycowmarket.com/pages/areas-we-serve-witchita",
+  "notes": "Ranch brand of Matt and Michelle Canny (fifth generation), formerly sold as Bear Creek Cattle on an older GrazeCart site (whollycowmarket.grazecart.com) that still loads. Read the current Shopify homepage, our story, Wichita areas-we-serve page, contact and bulk (whole, half, quarter) collection; also read the old GrazeCart homepage, about, how it works, protocols, Manhattan page and contact (WebFetch summaries only, so recheck the verbatim quote). Our story: 'We are located in the rural town of Johnson City, KS.' Homepage: 'All the beef and chicken you get from us at Wholly Cow Market has been raised on our 5th generation ranch here in Kansas' and 'our beef is never fed grain'. Old protocols page says chickens get a non-GMO grain ration with foraging. Page title says 'Nationwide Delivery'; meat ships frozen via UPS or FedEx Mondays and Tuesdays; free shipping on orders $175+ to CO and KS. Bulk: 1/16, 1/8, 1/4, 1/2 and whole beef bundles listed with prices. The old GrazeCart site also listed lamb and eggs and mentioned scheduled pickup locations, but the current site shows neither, so they are left out. Phone not set: current contact page only gives a number for 'the restaurant' (620-492-1478); old GrazeCart contact gave 620-353-8344 and 303 S. Main St., Johnson, KS 67855. Also sells tallow skincare and candles. The areas-we-serve index page and the K-State Kansas Profile article were blocked."
+}

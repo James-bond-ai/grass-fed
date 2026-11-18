@@ -1,0 +1,37 @@
+{
+  "id": "janzen-family-farms",
+  "slug": "janzen-family-farms",
+  "farm_name": "Janzen Family Farms",
+  "city": "Newton",
+  "state": "KS",
+  "zip": "67114",
+  "address_public": true,
+  "address": "15076 NW 180th Street, Newton, KS 67114",
+  "website": "https://www.janzenfamilyfarms.com/",
+  "phone": "316-882-4877",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["eighth beef", "quarter beef", "half beef", "whole beef", "steaks", "roasts", "ground beef", "stew meat", "short ribs", "soup bones", "liver", "heart", "tongue"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "They are bred to finish in 21 to 26 months on grass-only diets, resulting in healthy, flavorful meat.",
+    "source_url": "https://www.janzenfamilyfarms.com/beef"
+  },
+  "certifications": [],
+  "sales_channels": ["local-delivery"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.janzenfamilyfarms.com/order-now"
+  },
+  "dairy_products": [],
+  "resold_note": "The site also offers pork from Rockin D Farms (Ben and Halie Duerksen), a separate business whose grain-fed hogs are raised at Janzen Family Farms and ordered directly from them.",
+  "ordering_url": "https://www.janzenfamilyfarms.com/order-now",
+  "data_source": "web-search",
+  "source_url": "https://ictfoodcircle.org/local-food-directory/wpbdp_category/grass-fed-beef/",
+  "notes": "Five-generation family livestock farm east of Newton, managed by John Janzen. Read the homepage, beef, pork, order form page, slaughters cuts and cooking, about us and contact; the FAQ page returned no Q and A text (WebFetch summaries only, so recheck the verbatim quote). Homepage: '100% Grass-Fed Beef', 'No Hormones // No Antibiotics // No Grain', pastured year-round on native prairie, cool-season grasses, winter forage and stubble fields. Advance orders for 2026 open for eighths, quarters, halves and wholes via a downloadable order form; order page lists per-lb cut prices and says 'All prices include processing and delivery!' but names no delivery area, so local-delivery is set with no areas. Processed at Peabody Sausage House, Peabody, KS. Homepage says the farm plans to attend the Kansas Grown Farmers' Market in Wichita 'this summer, if supply allows', so no market is listed. Address and phone are from the contact page."
+}

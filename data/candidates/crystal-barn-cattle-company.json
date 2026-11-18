@@ -1,0 +1,39 @@
+{
+  "id": "crystal-barn-cattle-company",
+  "slug": "crystal-barn-cattle-company",
+  "farm_name": "Crystal Barn Cattle Company",
+  "city": "Alburnett",
+  "state": "IA",
+  "zip": "52202",
+  "address_public": true,
+  "address": "2753 Arabian Road, Alburnett, IA 52202",
+  "website": "https://crystalbarncattlecompany.grazecart.com/",
+  "phone": "319-360-4252",
+  "social_urls": [
+    "https://www.facebook.com/CrystalBarnCattleCo/",
+    "https://www.instagram.com/crystalbarncattleco/"
+  ],
+  "species": ["beef"],
+  "products": ["ground beef", "beef patties", "steaks", "brisket", "chuck roast", "snack sticks", "soup bones", "beef heart", "oxtail", "beef tongue"],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "Animals are evaluated and selected for grain-finishing or grass-finishing.",
+    "source_url": "https://crystalbarncattlecompany.grazecart.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Eastern Iowa"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://crystalbarncattlecompany.grazecart.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://crystalbarncattlecompany.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://crystalbarncattlecompany.grazecart.com/",
+  "notes": "Family beef farm near Alburnett (Linn County); owners not named. Read the homepage, store, grass-finished beef category, about us and pickup locations pages (WebFetch summaries only, so recheck the verbatim quote). Store has two separate lines: Local Grain-Finished Beef and 100% Grass-Finished Beef ('100% grass-finished on pasture'), so category is both. About page says grain-finished cattle get locally grown, custom-milled grain and all cattle have year-round pasture access. Homepage says local delivery or free local pickup and 'serving families throughout Eastern Iowa'; the pickup locations page rendered no locations (likely loaded by zip lookup), so pickup_locations and delivery zones are unconfirmed. Only bundle is a 10 lb ground beef pack; no quarter, half or whole found. No shipping mentioned. The site is on a GrazeCart subdomain; no separate farm domain found. Ordering requires an account."
+}
