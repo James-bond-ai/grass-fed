@@ -30,7 +30,7 @@ for (const f of dairy) for (const p of f.dairy_products ?? []) productCount[p] =
       <ul class="farm-list" id="dairy">{dairy.map((f) => <FarmRow farm={f} />)}</ul>
     </>
   ) : (
-    <p class="empty">We're verifying our first grass-fed dairy farms now. <a href="/list-your-farm/">Run a grass-fed dairy? List your farm.</a></p>
+    <p class="empty">We're verifying our first grass-fed dairy farms now.</p>
   )}
 </Base>
 <style>

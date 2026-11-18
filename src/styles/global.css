@@ -232,7 +232,8 @@ a.tile:hover { outline: 2px solid var(--hay); outline-offset: 1px; }
 .glance a:hover { border-color: var(--pasture); }
 .glance b { display: block; font-family: var(--display); font-size: 2rem; line-height: 1.1; color: var(--pasture-deep); }
 .glance span { font-size: 0.98rem; }
-.glance a.none b { font-size: 1.25rem; color: var(--ink-soft); padding: 0.35rem 0 0.2rem; }
+.glance .none { display: block; padding: 0.9rem 1.1rem; border: 1px dashed var(--rule); border-radius: var(--radius-md); color: var(--ink); }
+.glance .none b { font-size: 1.25rem; color: var(--ink-soft); padding: 0.35rem 0 0.2rem; }
 .section-count { font-family: var(--body); font-weight: 500; font-size: 0.6em; color: var(--ink-soft); margin-left: 0.4em; }
 
 .avail { margin: 0.35rem 0 0; font-size: 0.9rem; color: #6d4f0b; background: var(--hay-tint); display: inline-block; padding: 0.15em 0.6em; border-radius: var(--radius-sm); }
