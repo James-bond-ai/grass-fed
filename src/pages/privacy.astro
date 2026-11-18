@@ -1,7 +1,7 @@
 ---
 import Page from '../layouts/Page.astro';
 import { GA_MEASUREMENT_ID, ADS_ENABLED } from '../data/site.mjs';
-const updated = 'October 30, 2026';
+const updated = 'November 18, 2026';
 ---
 <Page title="Privacy policy" crumb="Privacy" description="What information grassfed.food collects, why, and the choices you have.">
   <p class="muted small">Last updated {updated}</p>
@@ -16,11 +16,11 @@ const updated = 'October 30, 2026';
   <p>The farm finder on the home page remembers the state, ZIP code or town, products and buying options you choose, in your own browser, so they are there next time. A ZIP code or town is looked up in your browser from a file on this site; it is not sent to us or to Google Analytics, which only records whether one was used. We don't receive them except as part of Google Analytics' aggregate reports, which count how the finder is used (for example, which state was chosen and how many farms matched){GA_MEASUREMENT_ID ? '' : ', and only if analytics is turned on'}. You can clear them by clearing this site's data in your browser.</p>
   {!ADS_ENABLED && <p>The site shows no advertising.</p>}
 
-  <h2>Farm submissions and corrections</h2>
-  <p>If you submit a farm or a correction, the details you enter are published on GitHub, where our directory is maintained, and are visible to anyone. Don't include information you want kept private. Business details we publish about a farm (name, town, website, phone) are taken from the farm's own public website.</p>
+  <h2>Farm listings</h2>
+  <p>The site has no forms for submitting farms or messages, so we don't collect anything you type. Business details we publish about a farm (name, town, website, phone) are taken from the farm's own public website, and each listing is rechecked against that website on a schedule.</p>
 
   <h2>Your choices</h2>
-  <p>You can block or delete cookies in your browser settings. Farms can ask us to update or remove their listing at any time through our <a href="/corrections/">corrections form</a>.</p>
+  <p>You can block or delete cookies in your browser settings.</p>
 
   <h2>Children</h2>
   <p>grassfed.food is not directed at children under 13 and doesn't knowingly collect information from them.</p>

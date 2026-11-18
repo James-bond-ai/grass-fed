@@ -141,7 +141,7 @@ const description = `${farm.farm_name} in ${farm.city}, ${st.name}${species.leng
       {farm.phone && <><dt>Phone</dt><dd><a href={`tel:${telDigits(farm.phone)}`}>{farm.phone}</a></dd></>}
       {farm.address_public && farm.address && <><dt>Address</dt><dd>{farm.address.includes(farm.city) ? farm.address : `${farm.address}, ${farm.city}, ${farm.state} ${farm.zip ?? ''}`.trim()}</dd></>}
     </dl>
-    <p class="small muted">Last checked against the farm's website on {fmtDate(farm.last_verified_at)}. Products, prices and availability change; confirm with the farm before you buy. Something wrong? <a href="/corrections/">Report a correction</a>.</p>
+    <p class="small muted">Last checked against the farm's website on {fmtDate(farm.last_verified_at)}. Products, prices and availability change; confirm with the farm before you buy.</p>
   </section>
 
   {nearby.length > 0 && (

@@ -85,7 +85,7 @@ const jsonLd = [
   <div class="glance" aria-label={`Farms for ${st.name} at a glance`}>
     {n > 0
       ? <a href="#based"><b>{n}</b><span>{n === 1 ? 'farm is' : 'farms are'} <strong>based in {st.name}</strong>. Your best bet for farm pickup, local delivery and bulk shares.</span></a>
-      : <a href="/list-your-farm/" class="none"><b>None listed yet</b><span>No farms <strong>based in {st.name}</strong> have been verified yet. Raise grass-fed animals here? List your farm.</span></a>}
+      : <div class="none"><b>None listed yet</b><span>No farms <strong>based in {st.name}</strong> have been verified yet.</span></div>}
     <a href="#ships-here"><b>{sN}</b><span>{sN === 1 ? 'farm' : 'farms'} in <strong>other states ship to {st.name}</strong>. Usually ordered online and shipped frozen.</span></a>
   </div>
   <StatePicks st={st} based={farms} shipIn={shipIn} />
@@ -132,7 +132,7 @@ const jsonLd = [
     </section>
   )}
   {n === 0 && (
-    <p class="empty" style="margin-top:2rem">We add farms every week. If you raise grass-fed animals in {st.name}, <a href="/list-your-farm/">list your farm</a> and we'll check it first.</p>
+    <p class="empty" style="margin-top:2rem">We add farms every week.</p>
   )}
   {dairyN > 0 && <p><a href={`/dairy/${st.slug}/`}>Grass-fed dairy farms in {st.name}</a></p>}
   {bulkBeefN > 0 && <p><a href={`/bulk-beef/${st.slug}/`}>Buy a quarter or half cow in {st.name}</a></p>}

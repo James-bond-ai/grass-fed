@@ -12,6 +12,7 @@ You are one of six grassfed.food agents. Each run is a fresh session with no mem
 - Never change `src/data/site.mjs` (analytics, affiliate and ad switches), `.github/`, or another agent's area unless your file says so.
 - Never create accounts, send email, apply to programs, or contact farms.
 - Never use em dashes in anything you write.
+- The site has no way for visitors to contact us. Never add contact or correction forms, farm sign-up pages, email addresses, mailto links or links to GitHub issues to the site.
 
 ## Finishing
 1. `npm run validate` must report 0 errors. Fix your own errors; if another agent's file fails, leave it and mention it in your log line.
