@@ -1,0 +1,46 @@
+{
+  "id": "one-cow-farm",
+  "slug": "one-cow-farm",
+  "farm_name": "One Cow Farm",
+  "city": "Harrodsburg",
+  "state": "KY",
+  "zip": "40330",
+  "address_public": false,
+  "website": "https://www.onecowfarm.com/",
+  "phone": "859-699-4524",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole, half, quarter and eighth beef packages"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "All the beef is 100% grass fed / finished with no hormones or antibiotics.",
+    "source_url": "https://www.onecowfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "central Kentucky",
+      "Lexington",
+      "Louisville"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.onecowfarm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.onecowfarm.com/#ordering",
+  "data_source": "web-search",
+  "source_url": "https://www.onecowfarm.com/",
+  "notes": "Read the single-page homepage (about, offerings, ordering, processing, contact sections) via WebFetch summary only, so recheck the verbatim quote. Address 1545 Mundy's Landing Road, Harrodsburg, KY 40330. Angus and Angus/Hereford cattle. Sells eighth ($550), quarter, half and whole cow packages; customers call to check availability, pay before delivery; delivers throughout central Kentucky including Lexington and Louisville, or pickup at the farm. Says large shipments are difficult so it sells mostly locally. Did not read the cooking, butcher block or antibiotic-free pages. No individual cuts store found."
+}

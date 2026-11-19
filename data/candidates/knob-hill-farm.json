@@ -1,0 +1,38 @@
+{
+  "id": "knob-hill-farm",
+  "slug": "knob-hill-farm",
+  "farm_name": "Knob Hill Farm",
+  "city": "Webster City",
+  "state": "IA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://knobhillfarm1915.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/myknobhillfarm/",
+    "https://www.instagram.com/knobhillfarm/"
+  ],
+  "species": ["pork", "poultry"],
+  "products": ["pork cuts", "bacon", "bratwurst", "sausage", "holiday hams", "whole chicken", "half and whole hog shares"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "They are fed Organic feed and have daily access to fresh air and grass.",
+    "source_url": "https://knobhillfarm1915.com/pages/our-practices"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery", "farm-pickup", "farmers-market"],
+  "farmers_markets": ["Ames Main Street Farmers Market (May through October)"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Ames", "Webster City"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Iowa Food Cooperative, Des Moines (every other Wednesday)", "Clarion Locker (custom half and whole hogs)"],
+    "source_url": "https://knobhillfarm1915.com/pages/shipping-delivery-information"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://knobhillfarm1915.com/collections/all",
+  "data_source": "web-search",
+  "source_url": "https://amesmainstreetfarmersmarket.locallygrown.net/growers/show/9477",
+  "notes": "Run by Mike and Janine Robertson. Read homepage, our story, our practices, pick up/delivery/shipping, contact and custom hog shares pages (WebFetch summaries only, so the Verifier should recheck the verbatim quote; it refers to the broilers). Site says only 'Central Iowa'; Webster City comes from the delivery page (Webster City pickup days, delivery in Ames and Webster City) and the Ames Main Street Farmers Market grower page, which says outside Webster City in Hamilton County. Practices page: pigs, broilers and laying hens have year-round outdoor access, broilers finished on pasture, all livestock fed USDA certified organic feed (some grown on the farm), so category pastured. Site claims USDA Certified Organic; not added by hand, run scripts/organic/match.mjs. Bundles ship flat-rate to areas on a map image that could not be read, other US areas by contact, so shipping channel and ships_to left empty pending recheck. Laying hens mentioned but eggs not seen in the shop, so eggs not listed. Bulk: custom half and whole hog deposits. Some items marked out of stock. No phone or address published."
+}

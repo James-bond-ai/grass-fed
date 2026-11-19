@@ -1,0 +1,72 @@
+{
+  "id": "foxhollow-farm",
+  "slug": "foxhollow-farm",
+  "farm_name": "Foxhollow Farm",
+  "city": "Crestwood",
+  "state": "KY",
+  "zip": "40014",
+  "address_public": false,
+  "website": "https://foxhollow.com/",
+  "phone": "502-797-0005",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "burger patties",
+    "beef tallow",
+    "beef shares",
+    "bundles and boxes"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "All our meat is always 100% grassfed and grass finished guaranteed",
+    "source_url": "https://foxhollow.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "local-delivery",
+    "online-order",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "within 25 miles of Foxhollow"
+    ],
+    "local_radius_miles": 25,
+    "ships_to": [
+      "AL",
+      "DE",
+      "FL",
+      "GA",
+      "IL",
+      "IN",
+      "KY",
+      "MD",
+      "NJ",
+      "NY",
+      "NC",
+      "OH",
+      "PA",
+      "SC",
+      "TN",
+      "VA",
+      "WV"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://foxhollow.com/pages/faqs"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://foxhollow.com/collections/shop-all-products",
+  "data_source": "web-search",
+  "source_url": "https://foxhollow.com/",
+  "notes": "Read homepage, about, FAQ, shop-all (page 1 of 3), beef shares collection and Meet the Farmers page (WebFetch summaries only, so recheck the verbatim quote). About: farm on 1,300+ acres in Crestwood since 1960, 8905 Highway 329, Crestwood, KY 40014; says it raises 100% grass-fed Demeter certified biodynamic beef, and beef is the only livestock it names as its own; Meet the Farmers lists only produce, flower, honey and orchard partners, so the other meats are treated as resold. FAQ: regional shipping along the East Coast to the 17 states listed; local orders delivered by the Foxhollow van; Foxhollow Market is self-serve daily dawn to dusk for shopping and order pickups. Beef shares (1/8, 1/4, 1/2, whole) are pickup or delivery within 25 miles and do not ship. Site claims AGA certified beef, but certifications left empty because the AGA public producer listing was not checked (search did not return it).",
+  "resold_note": "Also sells pork, chicken, turkey, bison, lamb and wild Alaska salmon without saying which farms raise them."
+}

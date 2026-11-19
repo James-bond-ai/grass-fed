@@ -1,0 +1,36 @@
+{
+  "id": "baumans-meat-market",
+  "slug": "baumans-meat-market",
+  "farm_name": "Bauman's Meat Market",
+  "city": "Garnett",
+  "state": "KS",
+  "zip": "66032",
+  "address_public": true,
+  "address": "24161 Northwest Kentucky Road, Garnett, KS 66032",
+  "website": "https://baumansmeatmarket.grazecart.com/",
+  "phone": "785-448-2239",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["beef", "pork", "chicken", "turkey", "chicken eggs", "goose eggs", "brats", "burgers", "pet treats", "bundles"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "100% Grassfed Beef",
+    "source_url": "https://baumansmeatmarket.grazecart.com/store"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "online-order", "local-delivery"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://baumansmeatmarket.grazecart.com/locations"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://baumansmeatmarket.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://baumansmeatmarket.grazecart.com/",
+  "notes": "Also known as Bauman's Cedar Valley Farm; John and Yvonne Bauman's family farm near Garnett (since 2001) with its own on-site USDA poultry plant. Read homepage, about us, contact, pickup locations and store pages (WebFetch summaries only, so recheck the verbatim quote, which is a store category label). Homepage and about: 'We feed only grass and NON-GMO feeds.' Store categories: '100% Grassfed Beef', 'Non-GMO Pork', 'Pasture Raised Poultry', 'Pasture Raised Eggs'; category kept at grass-fed for the beef since pork and poultry get non-GMO feed. Store also has a 'Glass Bottled Milk' category; the site does not say the milk is from its own herd, so dairy is left out pending a recheck. Brats and burgers include lamb per the homepage, but no lamb category, so lamb not listed. Pickup locations page lists only the farm market in Garnett and a pop-up saying 'We offer home delivery in your zip code!' with no area named. Second phone 785-448-4502. Earlier lead (AgMRC, Lawrence Business Magazine) mentions Overland Park and Olathe markets and Baumans Butcher Block in Ottawa; not on the farm's site, so not listed. No bulk shares listed."
+}
