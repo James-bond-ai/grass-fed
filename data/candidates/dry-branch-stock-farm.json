@@ -1,0 +1,55 @@
+{
+  "id": "dry-branch-stock-farm",
+  "slug": "dry-branch-stock-farm",
+  "farm_name": "Dry Branch Stock Farm",
+  "city": "Danville",
+  "state": "KY",
+  "zip": "40422",
+  "address_public": true,
+  "address": "201 West Main Street, Suite A, Danville, KY 40422",
+  "website": "https://www.drybranchstockfarm.com/",
+  "phone": "859-209-2028",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "dry-aged beef",
+    "lamb",
+    "pork",
+    "air-chilled chicken",
+    "turkey",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "The animals we have selected to go into our meat program are fed a non-gmo grain ration in addition to being on pasture.",
+    "source_url": "https://www.drybranchstockfarm.com/faq/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Dry Branch Farm Market, Main Street, Danville"
+    ],
+    "source_url": "https://drybranchfarmmarket.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.drybranchstockfarm.com/",
+  "resold_note": "The farm market also sells seasonings, cornbread mixes, granola, sauces, pickled goods and gift items from other small businesses.",
+  "notes": "Read drybranchstockfarm.com homepage, /faq/, /our-philosophy/ and drybranchfarmmarket.com homepage via WebFetch summaries; recheck verbatim quote. Philosophy page says cattle graze farm pastures in Danville and are finished on grain with non-GMO corn ('Cows finished with non-GMO Corn'); chickens and turkeys moved daily on pasture in mobile coops; sheep on pasture year round; Duroc sows on open pasture; lambs and poultry get non-GMO grain. Sells through its own Dry Branch Farm Market in Danville (philosophy page also mentions a Harrodsburg store; recheck), call-in orders for pickup. Market address inconsistent on site (201 West Main Street Suite A vs 125 W Main St); recheck. Hours Tue-Fri 10-6, Sat 9-5, Sun 12-4. 'Home Delivery' menu item links nowhere, so local-delivery not set. bulk_shares true based on 'Freezer Beef' navigation item and FAQ freezer beef guidance (call or email); Verifier should confirm. Wholesale offered to restaurants and retailers via inquiry form (not listed as channel). Did not read /our-store/ or /farm-family/."
+}

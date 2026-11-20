@@ -1,0 +1,51 @@
+{
+  "id": "st-catharine-farm",
+  "slug": "st-catharine-farm",
+  "farm_name": "St. Catharine Farm",
+  "city": "St. Catharine",
+  "state": "KY",
+  "zip": "40061",
+  "address_public": false,
+  "website": "https://scfarmkentucky.org/",
+  "phone": "859-805-1278",
+  "social_urls": [
+    "https://www.facebook.com/stcatharinefarm/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "beef patties",
+    "beef boxes (25, 35, 50 and 100 lb)",
+    "half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Corn and hay for the winter and early spring feed for the cows are grown right here on St. Catharine Farm.",
+    "source_url": "https://scfarmkentucky.org/about-st-catharine-farm/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://scfarmkentucky.org/pricing-and-order-information/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://scfarmkentucky.org/pricing-and-order-information/",
+  "resold_note": "Also sells pork raised by Amish neighbors in central Kentucky, and chicken whose source is not stated.",
+  "data_source": "web-search",
+  "source_url": "https://scfarmkentucky.org/about-our-meat-products/",
+  "notes": "Washington County near Springfield, central KY (outside the southern/eastern search area but in state). Farm sponsored by the Dominican Sisters of Peace, manager Danny Ray Spalding; second phone 859-336-0444; address 2645 Bardstown Rd. Read homepage, about-st-catharine-farm, about-our-meat-products, pricing-and-order-information and the Dec 2025 certified farm market post via WebFetch summaries; recheck the verbatim quote. About page describes intensive rotational grazing ('The cows feed on the grass for a few days and then are moved to another paddock.') but also corn and hay grown on the farm as winter and early spring feed, and the site never says grass-fed or grass-finished, so category set cautiously to percentage. Meat page says calves are raised on the farm from its own cows; pork comes from a partnership with Amish neighbors (resold); chicken listed as 'Farm Grown Boneless Chicken Breast' with no source, so left out of species. Order page: order by phone, email or online form, 'Delivery is available.', pickup arranged by phone; delivery area not stated. Half and whole beef by hanging weight (call for price). Accepts SNAP. Recently accepted to the KY Farm Bureau Certified Farm Market program per its Dec 2025 post."
+}

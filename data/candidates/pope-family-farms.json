@@ -1,0 +1,46 @@
+{
+  "id": "pope-family-farms",
+  "slug": "pope-family-farms",
+  "farm_name": "Pope Family Farms",
+  "city": "Paris",
+  "state": "KY",
+  "zip": "40361",
+  "address_public": true,
+  "address": "964 Peacock Road, Paris, KY 40361",
+  "website": "http://www.popefamilyfarms.com/",
+  "phone": "(859) 473-5122",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef",
+    "pork",
+    "chicken"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "We offer premium, grass-fed, all natural, ASH-Free beef that is raised on organic pastures.",
+    "source_url": "http://www.popefamilyfarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "http://www.popefamilyfarms.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "http://www.popefamilyfarms.com/",
+  "notes": "Read homepage only via WebFetch summary (no internal page links were found); recheck verbatim quote. Site says pasture-raised pork and free-range chicken available year round, beef quantities limited, buy by appointment (call or text). Also sells produce. Site may be stale: it mentions a produce store opening July 2018 and no newer dates were seen. Verifier should confirm the farm still sells direct, and look for the beef page the homepage mentions. 'Organic pastures' is a farm claim only; no certification added."
+}
