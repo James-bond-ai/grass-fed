@@ -1,0 +1,39 @@
+{
+  "id": "iowa-farm-fresh-meats",
+  "slug": "iowa-farm-fresh-meats",
+  "farm_name": "Iowa Farm Fresh Meats",
+  "city": "West Branch",
+  "state": "IA",
+  "zip": "52358",
+  "address_public": true,
+  "address": "1342 Plato Rd., West Branch, IA 52358",
+  "website": "https://iowafarmfreshmeats.com/",
+  "phone": "563-889-0175",
+  "social_urls": [
+    "https://www.instagram.com/twistedoaksmeats",
+    "https://www.facebook.com/p/Iowa-Meat-Shack-61557189652362/"
+  ],
+  "species": ["beef", "lamb", "pork", "poultry"],
+  "products": ["grass-fed beef", "grass-fed lamb", "pastured pork", "chicken", "turkey", "bundle deals", "tallow skin care"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "The grass-fed and grass-finished lamb and beef is produced on rolling hills of clover, grass, alfalfa",
+    "source_url": "https://iowafarmfreshmeats.com/about-our-farm"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery", "on-farm-store", "ships-regional"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Iowa City", "Coralville", "North Liberty", "Cedar Rapids", "Des Moines", "West Branch", "Davenport"],
+    "local_radius_miles": null,
+    "ships_to": ["IA"],
+    "pickup_locations": ["Iowa Meat Shack, West Branch"],
+    "source_url": "https://iowafarmfreshmeats.com/about-our-farm"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://iowafarmfreshmeats.com/store",
+  "data_source": "web-search",
+  "source_url": "https://iowafarmfreshmeats.com/",
+  "notes": "Also trades as Twisted Oaks Meats (Instagram, images, testimonials); also known as the Iowa Meat Shack store in West Branch. About page says 'the ladies of Iowa Farm Fresh Meats' run a fifth and sixth generation family farm in east-central Iowa that Jamie is transitioning to regenerative production; farm town not named, so city is the West Branch contact address. Read homepage, about, locations, grass-fed beef store, bundle deals and contact pages (WebFetch summaries only; the verbatim is a truncated phrase, so the Verifier should recheck it and may quote the full sentence). Pork 'fed non-GMO grain' on pasture; poultry moved to fresh grass daily with non-GMO grain. Homepage gives Iowa Meat Shack hours Tuesday and Friday 4-6 and Saturday 9-1 with conflicting addresses (322 West Main St in one place, East Main Street in another). Site says meat is 'delivered or shipped' in Iowa with bulk bundles shipped beyond delivery points, no other states named, so ships_to is IA only. No quarter, half or whole shares offered by name (a testimonial mentions buying a whole cow and hog), so bulk_shares false. Not confirmed that all animals are raised on the farm."
+}

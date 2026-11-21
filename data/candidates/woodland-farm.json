@@ -1,0 +1,35 @@
+{
+  "id": "woodland-farm",
+  "slug": "woodland-farm",
+  "farm_name": "Woodland Farm",
+  "city": "Goshen",
+  "state": "KY",
+  "zip": "40026",
+  "address_public": false,
+  "website": "https://www.woodlandfarm.com/",
+  "phone": "502-664-7182",
+  "social_urls": ["https://www.instagram.com/woodlandfarm/"],
+  "species": ["bison", "pork", "eggs"],
+  "products": ["bison steaks", "bison roasts", "ground bison", "bison burger patties", "bison breakfast sausage", "bison organ meats and bones", "heritage pork", "ground pork", "breakfast sausage", "eggs"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our bison graze on open pasture at our Goshen, KY farm and are professionally managed.",
+    "source_url": "https://www.woodlandfarm.com/kybison/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "restaurants"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.woodlandfarm.com/farm-store/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.woodlandfarm.com/farm-store/",
+  "data_source": "web-search",
+  "source_url": "https://www.woodlandfarm.com/kybison/",
+  "notes": "Historic farm in Goshen (Oldham County area) selling as KY Bison Co. Read KY Bison page, farm store page, livestock page, about page, links page and the 2026 bison price list PDF (WebFetch summaries, Verifier should recheck the quote). Farm store open Monday to Friday 8am to 4pm, call ahead for cuts; also sells wholesale to restaurants and retailers. About page mentions raising bison on grass pastures, but no grass-only or grass-finished statement anywhere, so category is pastured; pigs (Mulefoot and Hereford) eat feed grown on the farm. Eggs listed as sold at the farm store. No shipping, delivery or bulk shares mentioned. Street address is published (4716 Greenhaven Ln) but left private here."
+}

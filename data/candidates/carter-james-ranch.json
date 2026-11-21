@@ -1,0 +1,35 @@
+{
+  "id": "carter-james-ranch",
+  "slug": "carter-james-ranch",
+  "farm_name": "Carter James Ranch",
+  "city": "Paola",
+  "state": "KS",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.carterjamesranch.com/",
+  "phone": "(913) 379-4600",
+  "social_urls": [],
+  "species": ["beef", "lamb", "pork", "poultry", "eggs"],
+  "products": ["steaks", "ground beef", "roasts", "brisket", "beef organs", "beef share deposit", "lamb chops", "leg of lamb", "lamb ribs", "bacon", "pork chops", "sausage", "brats", "ham", "leaf lard", "whole chickens", "chicken parts", "chicken broth", "chicken eggs", "duck eggs", "guinea eggs", "egg subscription", "membership meat box"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass-Fed & Finished Beef",
+    "source_url": "https://www.carterjamesranch.com/shop"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "farm-pickup", "local-delivery", "csa"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Paola", "Spring Hill", "Olathe", "Overland Park", "Lenexa", "surrounding areas"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Garmin visitors parking garage, Ridgeview and 151st Street, Olathe (Wednesdays, April to November)"],
+    "source_url": "https://www.carterjamesranch.com/join"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.carterjamesranch.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.carterjamesranch.com/",
+  "notes": "Family ranch in Paola (Miami County). Read homepage, shop, join (membership) page and the site's llms.txt (WebFetch summaries only, so recheck the verbatim quote; the October beef pre-order product page failed; our story and contact pages not read, so owners not recorded). Shop section headings: 'Grass-Fed & Finished Beef', 'Grass-Fed & Finished Lamb', 'Heritage Pasture Pork', 'Pasture-Raised Organic Chicken' and 'Pasture-Raised Organic Eggs'; organic wording not verified with any certifier, so no certification. Site also has a Wagyu page with no Wagyu products listed, not checked for feeding. Join page: weekly delivery April through November on routes in Paola, Spring Hill, Olathe, Overland Park, Lenexa and surrounding areas; ranch pickup by appointment; Garmin pickup Wednesdays 4:30 to 6:30 PM. No shipping mentioned. bulk_shares set from a 'Beef Share Deposit' product (from $200, ready in December); share size not confirmed. csa channel stands for the Rancher's Choice membership box. Many egg and chicken items marked out of stock (seasonal). Also sells sourdough."
+}

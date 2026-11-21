@@ -1,0 +1,39 @@
+{
+  "id": "oconnell-organic-acres",
+  "slug": "oconnell-organic-acres",
+  "farm_name": "O'Connell Organic Acres",
+  "city": "Durango",
+  "state": "IA",
+  "zip": "52039",
+  "address_public": true,
+  "address": "20595 Asbury Rd, Durango, IA 52039",
+  "website": "https://oconnellorganicacres.com/",
+  "phone": "563-542-2574",
+  "social_urls": [
+    "https://www.facebook.com/OConnellOrganicAcres",
+    "https://www.instagram.com/oconnellorganicacres/"
+  ],
+  "species": ["beef", "lamb", "pork", "poultry"],
+  "products": ["beef cuts", "lamb", "pork", "chicken", "quarter, half and whole beef", "half and whole hogs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are 100% grass fed from start to finish. They are never fed any grain.",
+    "source_url": "https://oconnellorganicacres.com/FAQs"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "online-order", "local-delivery", "ships-nationwide", "farmers-market", "retail", "restaurants"],
+  "farmers_markets": ["Downtown Dubuque Farmers' Market (summer, Saturday mornings, May to October)", "Winter Dubuque Farmers' Market (Saturday mornings, November to April)"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Dubuque area (weekly, Wednesdays)", "Iowa City route (every four weeks, Mondays)"],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": ["Sprinkled Confections, Holy Cross (retail)"],
+    "source_url": "https://oconnellorganicacres.com/delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://oconnellorganicacres.com/store",
+  "data_source": "web-search",
+  "source_url": "https://oconnellorganicacres.com/",
+  "notes": "Family farm in the Bankston community of Dubuque County, in the O'Connell family 150+ years; founders John and Peri, sons Chris (beef, marketing) and Kevin (hogs, chickens) with their families. Read homepage, our farm, our animals, FAQs, delivery, retail and contact pages (WebFetch summaries only, so the Verifier should recheck the verbatim quote). Our animals page: beef and lamb 100% grass-fed on certified organic pastures with farm-grown organic hay in winter; hogs pasture-raised with outdoor access and fed farm-grown organic grain; chickens forage on rotated pasture but arrive as day-old Freedom Ranger chicks from Pennsylvania. Category grass-finished comes from the beef FAQ. Site says the farm is certified organic (since 2003) but no organic label added by hand; run scripts/organic/match.mjs once published. Delivery page: 'We deliver to all 48 contiguous states' via FedEx; FAQ shows slightly different shipping fees and Iowa City schedule than the delivery page. Farm store Thursday 3-7 and Saturday 10-3, other weekdays by appointment. Sprinkled Confections in Holy Cross listed as a retail store. FAQ offers quarter, half and whole cows and half and whole hogs year round. Restaurants page exists but was not read in detail."
+}

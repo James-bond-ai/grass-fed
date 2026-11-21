@@ -1,0 +1,35 @@
+{
+  "id": "mull-beef",
+  "slug": "mull-beef",
+  "farm_name": "Mull Beef",
+  "city": "Minneapolis",
+  "state": "KS",
+  "zip": "67467",
+  "address_public": false,
+  "website": "https://www.mullbeef.com/",
+  "phone": "785-392-7501",
+  "social_urls": ["https://www.facebook.com/profile.php?id=100091927315030"],
+  "species": ["beef"],
+  "products": ["steaks", "roasts", "ground beef", "beef patties", "brisket", "cube steak", "soup bones", "whole, half and quarter beef"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Our beef is home raised on quality pasture grass and grain finished.",
+    "source_url": "https://www.mullbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "farm-pickup", "local-delivery"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Within 40 miles of Minneapolis, KS"],
+    "local_radius_miles": 40,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.mullbeef.com/collections"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.mullbeef.com/collections",
+  "data_source": "web-search",
+  "source_url": "https://www.mullbeef.com/",
+  "notes": "Fourth-generation family farm and ranch of Lloyd and Clara (surname not given beyond the brand); site mentions both Ada, KS and a Minneapolis, KS 67467 address (505 Limestone Rd., Ottawa County). Read homepage, about, collections, contact information policy page and a ground beef product page (WebFetch summaries only, so recheck the verbatim quote). Homepage says cattle graze native grass, cover crops and stalks in winter; about page says calves receive a feed ration that includes grain, formulated with a nutritionist, and they raise their own alfalfa, brome and silage. Collections page: 'Our Orders are for Local Pickup & Delivery Only - We do not offer shipping at this time', delivery within 40 miles of Minneapolis (lists nearby towns, not captured), farther customers asked to text first; $50 minimum for delivery. Pickup location not stated (assumed farm, verify). Whole, half and quarter sides offered; beef bundles currently not offered. Resolves the leads.md lead."
+}

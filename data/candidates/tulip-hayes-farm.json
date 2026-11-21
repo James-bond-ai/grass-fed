@@ -1,0 +1,35 @@
+{
+  "id": "tulip-hayes-farm",
+  "slug": "tulip-hayes-farm",
+  "farm_name": "Tulip Hayes Farm",
+  "city": "Georgetown",
+  "state": "KY",
+  "zip": "40324",
+  "address_public": false,
+  "website": "https://www.tuliphayesfarm.com/",
+  "phone": "502-524-0453",
+  "social_urls": [],
+  "species": ["pork", "eggs"],
+  "products": ["pork chops", "roasts", "bacon", "sausage", "bratwurst", "half and whole hogs", "eggs", "feeder and breeding pigs"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Tulip Hayes Farm raises Berkshire pigs on pasture during the fall and winter months,",
+    "source_url": "https://www.tuliphayesfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Central Kentucky"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.tuliphayesfarm.com/farm-store"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.tuliphayesfarm.com/farm-store",
+  "data_source": "web-search",
+  "source_url": "https://www.tuliphayesfarm.com/",
+  "notes": "Berkshire pig farm run by Shena and David Kirk in Georgetown. Read homepage, our story, available livestock, contact and farm store pages (WebFetch summaries, Verifier should recheck the quote, which ends mid-sentence on the site). Pigs rotate through woodland and pasture paddocks with free choice forage plus milled feed, so pastured. Online store lists cuts, half and whole hog deposits and eggs, with free home delivery on orders of $75 or more; delivery area is not stated, Central Kentucky comes from the contact page title. Finished hogs priced by hanging weight, taken to a Kentucky processor of the buyer's choice. Many cuts were sold out. Eggs assumed to be from the farm's own hens but the site does not say."
+}

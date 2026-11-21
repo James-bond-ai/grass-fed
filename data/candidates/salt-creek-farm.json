@@ -1,0 +1,36 @@
+{
+  "id": "salt-creek-farm",
+  "slug": "salt-creek-farm",
+  "farm_name": "Salt Creek Farm",
+  "city": "Eureka",
+  "state": "KS",
+  "zip": "67045",
+  "address_public": false,
+  "website": "https://thesaltcreekfarm.com/",
+  "phone": "",
+  "social_urls": ["https://www.facebook.com/thesaltcreekfarm", "https://instagram.com/thesaltcreekfarm"],
+  "species": ["beef"],
+  "products": ["dry-aged ground beef", "steaks", "roasts", "brisket", "short ribs", "steak burgers", "hot dogs", "beef heart", "oxtail", "beef bundles", "farm club subscription box", "beef sticks and jerky", "raw honey"],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "they are given a free-choice grain supplement while still grazing in the pastures.",
+    "source_url": "https://thesaltcreekfarm.com/pages/the-farm"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "online-order", "local-delivery", "restaurants"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Kansas City area (Johnson County, Bonner Springs, Eudora, parts of Kansas City, Kansas)", "Emporia city limits", "Wichita area (Wichita, Andover, Augusta, El Dorado, Maize)", "Eureka"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Salt Creek Market & Garden, 609 E. River Street, Eureka"],
+    "source_url": "https://thesaltcreekfarm.com/pages/shipping-delivery"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells lamb, pork and chicken from partner family farms, plus ice cream, cookies, salsa and other Kansas products in its market.",
+  "ordering_url": "https://thesaltcreekfarm.com/collections/shop-all",
+  "data_source": "web-search",
+  "source_url": "https://littleapplepost.com/posts/a3b3dbe9-0f67-4ed3-8f6c-03264df98d12",
+  "notes": "Black Angus herd of Sara and Jay Shivers in the Flint Hills just south of Eureka (Greenwood County). Found via a 2023 K-State Kansas Profile story reprinted by Little Apple Post. Read homepage, about (the-farm), market, beef collection, contact and shipping-delivery pages (WebFetch summaries only, so recheck the verbatim quote). About page says cattle graze tallgrass pastures year round with brome, fescue and native grass hay, that 'we finish our cattle on pasture', and that they get a free-choice grain supplement while grazing; supplemental grain is also mentioned for protein when on hay. Chose percentage (mixed grass and grain diet) as the cautious category; Verifier may prefer grain-finished. Shipping page says 'We no longer ship orders'; local delivery routes every two weeks (KC area, Emporia), monthly (Wichita area) and as needed in Eureka; free pickup at the market. Older article mentions supplying about two dozen KC restaurants (not confirmed on site, so restaurants channel is from the article). No bulk quarter or half beef seen. Market address 609 E. River Street, Eureka, KS 67045 is the store, not the ranch. No phone on site. Chickens and ducks are kept but chicken sold is from partner farms, so poultry left out."
+}

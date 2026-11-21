@@ -1,0 +1,35 @@
+{
+  "id": "river-watch-beef",
+  "slug": "river-watch-beef",
+  "farm_name": "River Watch Beef",
+  "city": "Shawnee",
+  "state": "KS",
+  "zip": "",
+  "address_public": false,
+  "website": "https://riverwatchbeef.com/",
+  "phone": "(800) 373-5210",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["ground beef", "steaks", "roasts", "short ribs", "minute steaks", "liver", "summer sausage", "brats", "beef packages", "custom beef boxes", "grass fed beef club subscription"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our high-quality beef is 100% natural & grass finished in the pasture.",
+    "source_url": "https://riverwatchbeef.com/2022/01/grass-fed-beef-from-pasture-to-fork/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery", "ships-nationwide"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Kansas City metro"],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://riverwatchbeef.com/about-us/grass-fed-beef-faq/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://riverwatchbeef.com/store/grass-fed-beef-packages/",
+  "data_source": "web-search",
+  "source_url": "https://riverwatchbeef.com/2022/01/grass-fed-beef-from-pasture-to-fork/",
+  "notes": "Family business incorporated in Kansas in 2016, office in the Kansas City area (city Shawnee comes from a third-party business listing, not the farm site, so Verifier should confirm; the pastures are elsewhere). Read the 'pasture to fork' blog post, the FAQ and the 'how we raise our grass-fed beef' post (WebFetch summaries only; homepage and about pages not read, so recheck). Pastures are in the Flint Hills of central Kansas, a small farm about an hour west of Emporia, and southern Colorado. The how-we-raise post says they used to be cow-calf but now buy young calves from neighbors on the same grass-fed program and graze them to harvest; it also says grass-fed producers commonly feed a few pounds of 'cake' as a supplement, so Verifier should check whether any is fed. FAQ: ships within the continental United States (not AK or HI), 3-day ground with faster options; Kansas City metro delivery Monday through Saturday. No halves or quarters mentioned. Owner not clearly named (Chris Kovac authored the post). ordering_url is the packages category inferred from product URLs."
+}
