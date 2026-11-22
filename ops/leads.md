@@ -311,6 +311,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Prairie Creek Farms (prairiecreek.farm): surfaced in an IL search, unchecked 2026-11-14
 
 ## MI
+- Smith Family Farm, Nashville (thesmithfamilyfarm.net): FAQ says 100% grass-fed and finished, home delivery to Michigan metro areas; surfaced in a Maine search, unchecked 2026-11-22
 - Finn's Ranch, Buchanan (finnsranch.com): grass-finished beef delivered across Chicagoland; own site fetch blocked 2026-11-13
 - Integrated Farms (integratedfarms.grazecart.com): grass-only beef, pastured pork and poultry; store names no town, possibly Buchanan area 2026-11-13
 
@@ -324,3 +325,28 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Ranch to Reef, Big Island: may be a retailer 2026-11-14
 - Avoid look-alike Hawaii beef pages on manus.space and pages.dev hosts (grassfedhi-j3pjbrue.manus.space, grassfed-beef-site.pages.dev, oahu-meats.pages.dev) 2026-11-14
 - Verifier: existing candidates oahu-meats and kunoa-cattle-company were sourced from pages.dev hosts (oahu-meats.pages.dev, kunoacattle-com.pages.dev) that may not be the farms' own sites; confirm the official domains before publishing 2026-11-14
+
+## LA
+- Kent Farms: only a writer's Squarespace portfolio page found, no farm website 2026-11-22
+- Hereau Farms: only Crescent City Farmers Market and Market Umbrella press pages, no farm website 2026-11-22
+- Bayou Farm: name from an Eat Well Guide result, not searched 2026-11-22
+- McCain Farms, Calhoun: pickup point for Mahaffey Farms, may be a farm itself, not searched 2026-11-22
+- Daigle Farms: on the beefitswhatsfordinner.com Louisiana map, not checked 2026-11-22
+- Certified Louisiana program producer list may give more names (Three Twelve Beef is a member), not opened 2026-11-22
+
+## ME
+- Intervale Farm, New Gloucester (intervalefarm.com): homepage and about page failed with robots.txt errors; beef FAQ loaded (quarter and half grass-fed beef cut by West Gardiner Beef); retry 2026-11-22
+- Shaw Farms, town unknown (shawfarmsofmaine.com): robots.txt error 2026-11-22
+- Harris Farm (harrisfarm.com), Depot Street Meats and Dairy at L.D. Farms (depotstreetmeats.com), WC Farm (wcfarm-maine.com): not reached 2026-11-22
+- Maine Beef Producers Association member list (mainebeefproducersassociation.com/members.php) and MOFGA / Get Real Get Maine directories: not opened 2026-11-22
+- Chase's Organic Dairy, Mapleton: no farm website found, milk appears to go to Organic Valley 2026-11-22
+- Skip aggregator look-alikes in Maine results: bhumifarms.co, organicfarmfood.org, grassfedjunction.com, fieldandcattle.com, halfacowclub.com 2026-11-22
+
+## MD
+- Checked 2026-11-22 and held back to keep the run at 15 (Maryland's Best names, all look listable; recheck and write candidates next run): The Farm at the Pines, Keymar (grass-finished beef, own pork, farm shop, online order and pickup, bulk unclear); Crescent Moon Farms, Hampstead (grass-finished Red Devon beef, chicken, eggs, shares, local delivery within 25 or 30 miles on $200 orders); Good Hope Farmstead, Woodsboro (grass-finished, free delivery over $50 to Frederick, Mt. Airy, Westminster, Rockville, Bethesda, Crofton, Bowie, Rockville Farmers Market; Local Line shop blocked); Mary's Land Farm, Ellicott City (grass-finished Devon beef, pork, poultry, eggs, farm store, bulk beef; maryslandfood.com blocked); Freedom Valley Farm, White Hall (pastured pork, chicken, eggs; most beef from PA partner farms; ships UPS to 23 states plus DC)
+- Grand View Farm, Forest Hill (grandviewfarming.com): 100% grass fed and finished beef, home delivery in MD and nearby states, also resells; unchecked 2026-11-22
+- Clark's Elioak Farm, Ellicott City (clarklandfarm.com): beef and pork on a break per an apparently 2021 page, status unclear 2026-11-22
+- Ferguson Family Farm, Parkton (fergusonfamilyfarm.com): sales paused after the founder's death, no products listed 2026-11-22
+- Seneca Ayr Farms Beef, Laytonsville: grass fed and grain finished, no website 2026-11-22
+- Lovell Grass Fed Cattle Company, New Windsor; Hedgeapple Farm, Buckeystown: no farm website found 2026-11-22
+- QCF Angus Grass Fed Beef (qcfangusgrassfedbeef.com), Bar G5 Cattle, Harford Co. (barg5cattle.com), Groff's Content Farm (groffscontentfarm.grazecart.com), Hard Bargain Farm: not opened, states unconfirmed 2026-11-22

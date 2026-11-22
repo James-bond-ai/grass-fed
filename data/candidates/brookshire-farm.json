@@ -1,0 +1,56 @@
+{
+  "id": "brookshire-farm",
+  "slug": "brookshire-farm",
+  "farm_name": "Brookshire Farm",
+  "city": "Abbeville",
+  "state": "LA",
+  "zip": "70510",
+  "address_public": true,
+  "address": "8916 Brookshire Road, Abbeville, LA 70510",
+  "website": "https://brookshirefarm.com/",
+  "phone": "337-893-5115",
+  "social_urls": [
+    "https://www.facebook.com/BrookshireFarm/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "stew meat",
+    "brisket",
+    "short ribs",
+    "organ meats",
+    "bones"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "they are never supplemented with grain",
+    "source_url": "https://brookshirefarm.com/about-our-farm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Old Metairie, 106 Metairie Lawn Drive, Metairie",
+      "Baton Rouge, 2950 College Dr",
+      "Houma/Thibodaux, 4067 W Park Ave, Gray"
+    ],
+    "source_url": "https://brookshirefarm.com/locations/baton-rouge"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://brookshirefarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://brookshirefarm.com/",
+  "notes": "Checked the homepage, about our farm page, store page, grass-fed beef store category, beef shares page, contact page, the locations page and the Old Metairie, Baton Rouge, Houma/Thibodaux and Ruston location pages. The about page says pastures are native and cultivated forages and cattle are never supplemented with grain; the beef shares page calls it Grass Fed 'n Pasture Finished Beef. Customers order online and pick up at scheduled pickup locations (next dates listed as Sat Dec 12th) with a $10 flat rate delivery fee; there is also a farm pickup location page and a Ruston location marked coming soon. Quarter, half and whole beef shares and ground meat shares are listed but the shares page says they are currently sold out; individual cuts are still for sale. The store also has Louisiana Raised Pastured Pork and Louisiana Raised Pastured Chicken categories, but no page I read says the farm raises the pork and chicken itself, so only beef is listed; the Verifier should confirm and add pork and poultry if they are the farm's own. Feeding quotes came from WebFetch summaries, not raw text."
+}

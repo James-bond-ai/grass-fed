@@ -1,0 +1,62 @@
+{
+  "id": "three-twelve-beef",
+  "slug": "three-twelve-beef",
+  "farm_name": "Three Twelve Beef",
+  "city": "St. Francisville",
+  "state": "LA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.threetwelvebeef.com/",
+  "phone": "225-721-1313",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef family pack",
+    "ground beef",
+    "stew meat",
+    "roasts",
+    "steaks",
+    "liver",
+    "bones",
+    "half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Pasture raised, grass fed, grass finished, and never given any growth hormones.",
+    "source_url": "https://www.threetwelvebeef.com/pricing/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "local-delivery",
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [
+    "St. Francisville Farmer's Market, Thursdays 9 to 1, Wilcox Street"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "within 5 miles of the town of St. Francisville",
+      "the Bluffs",
+      "Jackson"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "The Bluffs, Mondays",
+      "Tara Marie Photography, Fridays",
+      "Baton Rouge, Wednesdays",
+      "Jackson, LA, Mondays"
+    ],
+    "source_url": "https://www.threetwelvebeef.com/about/ordering/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://threetwelvebeef.square.site/",
+  "data_source": "web-search",
+  "source_url": "https://www.threetwelvebeef.com/",
+  "notes": "Farm on Hwy 421 at St. Francisville (Jackson side). Checked the contact page, ordering page, pricing page, and the Square shop homepage, which returned no body text. Orders are by email or phone to Tara or through the Square shop. The ordering page says family packs can be delivered within 5 miles of St. Francisville, the Bluffs or Jackson, while the pricing page lists Friday delivery within 20 miles of the St. Francisville office for $5 and 20 to 40 miles for $7, so the Verifier should decide on the delivery area and radius. The pricing page says no need to buy a whole or half animal, and search results show a Square shop product titled Deposit for 1/2 or whole beef, which I did not open, so bulk_shares is true pending confirmation. The ordering page calls the farm a Certified Louisiana farm to table producer; no certification was added. Feeding quote came from a WebFetch summary, not raw text."
+}

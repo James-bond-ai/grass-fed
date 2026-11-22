@@ -1,0 +1,46 @@
+{
+  "id": "sebago-lake-ranch",
+  "slug": "sebago-lake-ranch",
+  "farm_name": "Sebago Lake Ranch",
+  "city": "Gorham",
+  "state": "ME",
+  "zip": "",
+  "address_public": false,
+  "website": "https://sebagolakeranch.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/SebagoLakeRanch"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "quarter beef",
+    "half beef",
+    "whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "They spend their days grazing and moving through pasture rather than being confined or grain-finished.",
+    "source_url": "https://sebagolakeranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://sebagolakeranch.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://sebagolakeranch.com/",
+  "data_source": "web-search",
+  "source_url": "https://sebagolakeranch.com/",
+  "notes": "Single-page site with about, ordering, our cattle and contact sections; the separate Buy.html page returned an error. Herd raised on pasture in Gorham on an all-grass diet, pasture in season and hay in winter, and the site says the cattle are not grain-finished. Orders by email to sebagolakeranch@gmail.com from a price list, invoiced, with pickup by appointment and a 100 dollar minimum. Sells quarter, half and whole animals plus cuts when available. No phone, street address, delivery or shipping listed. Feeding quote came from a WebFetch summary."
+}

@@ -1,0 +1,51 @@
+{
+  "id": "baker-bayou-farm-market",
+  "slug": "baker-bayou-farm-market",
+  "farm_name": "Baker Bayou Farm Market",
+  "city": "Pineville",
+  "state": "LA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://bakerbayoufarmmarket.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.instagram.com/bakerbayoufarmmarket/"
+  ],
+  "species": [
+    "beef",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "grass-fed beef",
+    "whole beef",
+    "pastured chicken",
+    "pastured eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Baker Bayou's beef is grass-fed and raised using regenerative farming practices.",
+    "source_url": "https://bakerbayoufarmmarket.grazecart.com/store/product/whole-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://bakerbayoufarmmarket.grazecart.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://bakerbayoufarmmarket.com/store",
+  "data_source": "web-search",
+  "source_url": "https://bakerbayoufarmmarket.com/",
+  "notes": "Owned by Tina and Rusty Baker with farmers David and Kamryn Crawford on a 1300-acre property at Pineville; animals were introduced in late 2021. Checked the homepage, about us page, how it works page, store page and the whole beef deposit page. The homepage says animals are raised on pasture and lists pastured eggs, pastured chicken and grass fed beef; the whole beef page says the beef is grass-fed and shows a 99.9% Grass Fed protocol label, and nothing says how the cattle are finished, so the category is grass-fed (the Verifier may prefer percentage given that label). Whole beef is $10 per pound with a $200 deposit and must be picked up at the farm or delivered locally, not shipped. Homepage offers free farm pickup Monday to Saturday, $10 local delivery on Mondays with no area named, monthly subscriptions, and says customers can shop in a store near you, with no stores named. The store also has Pastured Pork and Produce categories that I could not confirm are raised on the farm. Feeding quote came from a WebFetch summary, not raw text."
+}
