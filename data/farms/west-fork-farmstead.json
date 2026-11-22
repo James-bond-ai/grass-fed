@@ -1,0 +1,78 @@
+{
+  "id": "west-fork-farmstead",
+  "slug": "west-fork-farmstead",
+  "farm_name": "West Fork Farmstead",
+  "city": "West Chester",
+  "state": "IA",
+  "zip": "52359",
+  "address_public": true,
+  "address": "1745 200th St., West Chester, IA 52359",
+  "website": "https://westforkfarmstead.com/",
+  "phone": "319-325-5097",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "brisket",
+    "beef jerky",
+    "beef hot dogs",
+    "organ meats",
+    "marrow bones",
+    "pork chops",
+    "ground pork",
+    "whole and half hogs",
+    "chicken",
+    "chicken eggs",
+    "duck eggs",
+    "raw honey"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle graze on diverse pasture and eat hay in the winter; we do not feed them grain.",
+    "source_url": "https://westforkfarmstead.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Coralville",
+      "Iowa City",
+      "Kalona",
+      "North Liberty",
+      "Solon",
+      "Swisher",
+      "Tiffin",
+      "Washington",
+      "Wellman",
+      "Fairfield"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Bud's Custom Meats, Riverside (bulk beef, spring)",
+      "Packwood Locker, Packwood (bulk beef, fall)"
+    ],
+    "source_url": "https://westforkfarmstead.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://westforkfarmstead.com/collections/all",
+  "data_source": "web-search",
+  "source_url": "https://westforkfarmstead.com/",
+  "notes": "Checked homepage, how we farm and the quarter or half beef deposit page. Cattle are on pasture and farm hay with no grain; pigs, chickens and ducks get non-GMO feed. Local delivery every other Thursday to the listed towns and every other Friday to Fairfield; on-farm pickup by appointment; no shipping. Bulk beef is picked up at the lockers in Riverside or Packwood.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

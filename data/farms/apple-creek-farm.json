@@ -1,0 +1,81 @@
+{
+  "id": "apple-creek-farm",
+  "slug": "apple-creek-farm",
+  "farm_name": "Apple Creek Farm",
+  "city": "Bowdoinham",
+  "state": "ME",
+  "zip": "04008",
+  "address_public": true,
+  "address": "538 Millay Rd, Bowdoinham, ME 04008",
+  "website": "https://applecreekfarm.me/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "goat",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "ground beef",
+    "organ meats",
+    "bone broth",
+    "chicken",
+    "lamb",
+    "goat",
+    "eggs",
+    "sausage",
+    "pate",
+    "tallow balms",
+    "sheepskins"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass-fed and 100% grass-finished.",
+    "source_url": "https://applecreekfarm.me/collections/organic-beef"
+  },
+  "certifications": [
+    {
+      "body": "MOFGA Certification Services, LLC - MCS",
+      "program": "usda-organic",
+      "cert_id": "7142073916",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Apple Creek Farm, LLC\" (Bowdoinham, ME), livestock certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-11-22"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market",
+    "online-order",
+    "csa"
+  ],
+  "farmers_markets": [
+    "Brunswick Farmers Market, Maine St and Park Row, Brunswick (May to November)",
+    "BTLT Farmers Market, Crystal Spring Farm, 277 Pleasant Hill Rd, Brunswick (May to November)",
+    "Brunswick Winter Market, 14 Maine St, Brunswick (November to April)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Vessel and Vine, 4 Pleasant St, Brunswick",
+      "Brunswick Farmers Market",
+      "BTLT Farmers Market, Brunswick",
+      "Brunswick Winter Market"
+    ],
+    "source_url": "https://applecreekfarm.me/pages/ways-to-shop"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://applecreekfarm.me/collections/all",
+  "data_source": "web-search",
+  "source_url": "https://applecreekfarm.me/",
+  "notes": "Verified 2026-11-22 against the beef collection, how we farm and ways to shop pages. Beef quote confirmed; cattle, sheep and goats are not fed grain, chickens get organic grain. Meat and eggs are pickup only (farm Sundays, Brunswick markets, Vessel and Vine); only hides and merchandise ship. No beef shares.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

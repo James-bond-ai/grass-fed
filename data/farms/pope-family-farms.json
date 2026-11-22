@@ -1,0 +1,58 @@
+{
+  "id": "pope-family-farms",
+  "slug": "pope-family-farms",
+  "farm_name": "Pope Family Farms",
+  "city": "Paris",
+  "state": "KY",
+  "zip": "40361",
+  "address_public": true,
+  "address": "964 Peacock Road, Paris, KY 40361",
+  "website": "http://www.popefamilyfarms.com/",
+  "phone": "(859) 473-5122",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "beef patties",
+    "pork chops",
+    "sausage",
+    "pork roasts",
+    "ribs",
+    "jowl bacon",
+    "whole chicken",
+    "chicken cuts",
+    "broth kits"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "grass-fed beef that is raised on organic pastures",
+    "source_url": "http://www.popefamilyfarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "http://www.popefamilyfarms.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "http://www.popefamilyfarms.com/",
+  "notes": "Checked homepage and products page. Beef grass-fed on pastures; pork pasture raised and chicken free range, year round. Meats made to order by call, text or email, pickup by appointment; products page says orders range from one steak to a whole beef. Site has no recent dates (mentions a July 2018 produce store opening). Organic pastures is a farm claim only.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

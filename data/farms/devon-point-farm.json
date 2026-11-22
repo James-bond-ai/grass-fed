@@ -1,0 +1,67 @@
+{
+  "id": "devon-point-farm",
+  "slug": "devon-point-farm",
+  "farm_name": "Devon Point Farm",
+  "city": "North Stonington",
+  "state": "CT",
+  "zip": "06359",
+  "address_public": true,
+  "address": "54 Jeremy Hill Road, North Stonington, CT 06359",
+  "website": "https://devonpointfarm.com/",
+  "phone": "(860) 942-6292",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "burger patties",
+    "roasts",
+    "stew meat",
+    "short ribs",
+    "soup bones",
+    "organ meats",
+    "sampler box",
+    "bacon",
+    "ham",
+    "pork chops",
+    "sausage",
+    "pork roasts"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "OUR BEEF is 100% grass fed and grass finished!",
+    "source_url": "https://devonpointfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Wallingford, New Haven and Hartford route along the Rt. 95 corridor (CT)",
+      "Boston area and Lancaster, MA route along the Rt. 395 and Rt. 290 corridor (eastern CT and central MA)",
+      "Providence, RI and Massachusetts Rt. 95 corridor route (RI and southeastern MA)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Woodstock, CT"
+    ],
+    "source_url": "https://devonpointfarm.com/about-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://devonpointfarm.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://devonpointfarm.com/",
+  "notes": "Verifier 2026-11-22 read homepage, grass fed beef and about pages (shop page returned a server error). Quote confirmed; site also says no grain ever. Pork is heritage pigs fed grain with pasture, sold as halves and wholes with butcher dates listed for 2027, so pork is current. Beef halves, quarters and sampler boxes; pickup at the farm by appointment or in Woodstock; delivery routes by special arrangement. No shipping stated.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

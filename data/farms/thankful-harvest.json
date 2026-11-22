@@ -1,0 +1,66 @@
+{
+  "id": "thankful-harvest",
+  "slug": "thankful-harvest",
+  "farm_name": "Thankful Harvest",
+  "city": "Laporte City",
+  "state": "IA",
+  "zip": "50651",
+  "address_public": true,
+  "address": "12635 Bader Road, Laporte City, IA 50651",
+  "website": "https://thankfulharvest.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/thankfulharvestofficial/",
+    "https://www.instagram.com/thankfulharvest"
+  ],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef",
+    "lamb",
+    "pork",
+    "chicken",
+    "eggs",
+    "raw honey"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "They are never fed any grain throughout their life.",
+    "source_url": "https://thankfulharvest.com/products/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Lincoln",
+      "Omaha",
+      "Western Iowa",
+      "Central Iowa",
+      "Eastern Iowa"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://thankfulharvest.com/contact/"
+  },
+  "dairy_products": [],
+  "resold_note": "Also buys in grass-fed cattle and sheep from other similarly managed farms.",
+  "ordering_url": "https://app.barn2door.com/thankfulharvest/all",
+  "data_source": "web-search",
+  "source_url": "https://thankfulharvest.com/",
+  "notes": "Verified 2026-11-22 against products, about and contact pages. Products quote confirmed; about page says beef cattle and sheep get a 100% grass-fed diet with no grain. Pork and hens get organic soy-free feed. About page says the farm also acquires cattle and sheep from other similarly managed farms (share not stated). Delivers to Lincoln, Omaha and Western, Central and Eastern Iowa areas; farm visits by appointment. Barn2Door store not read, so bulk shares and shipping unconfirmed. City from the contact page address.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

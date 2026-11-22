@@ -1,0 +1,64 @@
+{
+  "id": "hine-farms",
+  "slug": "hine-farms",
+  "farm_name": "Hine Farms",
+  "city": "Waterloo",
+  "state": "IN",
+  "zip": "46793",
+  "address_public": true,
+  "address": "2859 County Rd 23, Waterloo, IN 46793",
+  "website": "https://www.hinefarms.com/",
+  "phone": "260-316-4189",
+  "social_urls": [
+    "https://www.instagram.com/hinefarms",
+    "https://www.facebook.com/hinefarms"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "quarter and half beef",
+    "canned beef",
+    "half and whole hogs",
+    "canned pork",
+    "pork cuts",
+    "whole chickens",
+    "chicken cuts",
+    "eggs",
+    "tallow and lard soap and balms",
+    "maple syrup",
+    "produce"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Yes, all of our cattle are raised and finished on grasses, forage, and hay; no grain is fed to our cattle.",
+    "source_url": "https://www.hinefarms.com/faqs"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.hinefarms.com/contact-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/hinefarms",
+  "resold_note": "Also sells honey from a Noble County beekeeper, jams, pie fillings and produce from Gran's Garden, and Michigan-grown fruit.",
+  "data_source": "web-search",
+  "source_url": "https://www.hinefarms.com/",
+  "notes": "Verifier 2026-11-22: read FAQs, contact and products pages on hinefarms.com; FAQ quote confirmed. FAQ says the farm also buys some cattle, replacement heifers and sows or gilts from local grass fed and pasture raised producers. Products page offers quarter, half and whole beef and half and whole hogs, picked up at the processor; pigs, hens and broilers on pasture. Farm store at 2859 County Rd 23, Waterloo: May to October Wed, Fri, Sat; November to April Wednesdays. Barn2Door online store not read. No delivery or shipping mentioned.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

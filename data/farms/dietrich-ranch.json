@@ -1,0 +1,53 @@
+{
+  "id": "dietrich-ranch",
+  "slug": "dietrich-ranch",
+  "farm_name": "Dietrich Ranch",
+  "city": "Mount Morris",
+  "state": "IL",
+  "zip": "61054",
+  "address_public": true,
+  "address": "4575 North Leaf River Rd, Mount Morris, IL 61054",
+  "website": "https://dietrichranch.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/dietrichranchllc/"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "poultry"
+  ],
+  "products": [
+    "beef",
+    "pork",
+    "lamb",
+    "chicken"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "our 100% grass-fed beef, pork, and lamb are nurtured on our multi-generational family farm",
+    "source_url": "https://dietrichranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": ""
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/dietrichranch/all",
+  "data_source": "web-search",
+  "source_url": "https://dietrichranch.com/",
+  "notes": "Verifier 2026-11-22: read homepage, about, products and contact pages. Homepage quote confirmed. Cattle are pastured spring to fall and fed farm-grown hay in winter; pigs are raised outdoors and supplemented with grain; finishing is not stated on the farm's pages, so category is grass-fed. Sales are through the Barn2Door online store, which could not be opened, so pickup, delivery, shipping and bulk options are unconfirmed. No phone published.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

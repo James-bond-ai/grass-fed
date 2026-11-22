@@ -1,0 +1,68 @@
+{
+  "id": "beaver-creek-farm",
+  "slug": "beaver-creek-farm",
+  "farm_name": "Beaver Creek Farm",
+  "city": "Dexter",
+  "state": "KS",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.beavercreekfarmks.com/",
+  "phone": "620-705-8885",
+  "social_urls": [
+    "https://www.facebook.com/BeaverCreekFarmDexterKS/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "brisket",
+    "ribs",
+    "ground beef",
+    "beef patties",
+    "stew meat",
+    "soup and marrow bones",
+    "organ meats",
+    "oxtail",
+    "beef jerky",
+    "beef sticks",
+    "summer sausage",
+    "beef brats",
+    "beef hot dogs",
+    "beef bacon",
+    "sampler boxes",
+    "quarter beef",
+    "half beef",
+    "whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "They eat a rich diversified diet of native prairie grasses, legumes and forbs.",
+    "source_url": "https://www.beavercreekfarmks.com/F-A-Q-.html"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market",
+    "online-order",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.beavercreekfarmks.com/By-The-Cut.html"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://beaver-creek-farm-ks.square.site/",
+  "data_source": "web-search",
+  "source_url": "https://www.beavercreekfarmks.com/",
+  "notes": "Verifier 2026-11-22: rechecked homepage, about and FAQ. Verbatim quote confirmed on the FAQ page. FAQ also mentions a low starch protein supplement and a finishing program without detail, so category stays grass-fed. About page confirms sales at home, at farmers markets (unnamed), in bulk and in stores; homepage links the Square online store with door delivery but names no area.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

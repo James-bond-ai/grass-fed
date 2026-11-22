@@ -1,0 +1,58 @@
+{
+  "id": "stuart-family-farm",
+  "slug": "stuart-family-farm",
+  "farm_name": "Stuart Family Farm",
+  "city": "Bridgewater",
+  "state": "CT",
+  "zip": "06752",
+  "address_public": true,
+  "address": "191 Northrup Street, Bridgewater, CT 06752",
+  "website": "https://www.stuartfamilyfarm.com/",
+  "phone": "860-355-0172",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "grass-fed beef cuts",
+    "quarter beef",
+    "pork cuts",
+    "side of pork",
+    "smoked pork",
+    "pastured chicken",
+    "eggs",
+    "dry rubs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We do not feed our cattle grain, corn, or starches of any kind.",
+    "source_url": "https://www.stuartfamilyfarm.com/grass-fed-beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Statewide in Connecticut"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.stuartfamilyfarm.com/meat-order-home-delivery-application/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.stuartfamilyfarm.com/",
+  "notes": "Checked homepage, grass fed beef, prices, bulk beef and pork, hours and directions, and home delivery pages. Beef is 100% grass fed and grass finished with no grain. Farm store Saturdays 10 to 4 and Sundays 12 to 4. Quarter beef and side of pork year round. Several pages say statewide home delivery is available, though the delivery page says online ordering for delivery has ended. Does not ship.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

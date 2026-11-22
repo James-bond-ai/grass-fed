@@ -1,0 +1,54 @@
+{
+  "id": "st-catharine-farm",
+  "slug": "st-catharine-farm",
+  "farm_name": "St. Catharine Farm",
+  "city": "St. Catharine",
+  "state": "KY",
+  "zip": "40061",
+  "address_public": false,
+  "website": "https://scfarmkentucky.org/",
+  "phone": "859-805-1278",
+  "social_urls": [
+    "https://www.facebook.com/stcatharinefarm/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "beef patties",
+    "beef boxes (25, 35, 50 and 100 lb)",
+    "half and whole beef"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Corn and hay for the winter and early spring feed for the cows are grown right here on St. Catharine Farm.",
+    "source_url": "https://scfarmkentucky.org/about-st-catharine-farm/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://scfarmkentucky.org/pricing-and-order-information/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://scfarmkentucky.org/pricing-and-order-information/",
+  "resold_note": "Also sells pork raised by Amish neighbors in central Kentucky, and chicken whose source is not stated.",
+  "data_source": "web-search",
+  "source_url": "https://scfarmkentucky.org/about-our-meat-products/",
+  "notes": "Verifier 2026-11-22 read about the farm, about our meat products and pricing and order pages. Quote confirmed; rotational grazing on paddocks plus farm-grown corn and hay in winter, and no grass-fed wording, so percentage. Calves born and raised on the farm. Beef boxes 25 to 100 lb, half and whole beef. Order by phone or form; pickup or delivery arranged by phone, no delivery area given. Pork from Amish neighbors.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

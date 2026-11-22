@@ -1,0 +1,59 @@
+{
+  "id": "springville-family-farms",
+  "slug": "springville-family-farms",
+  "farm_name": "Springville Family Farms",
+  "city": "Lerna",
+  "state": "IL",
+  "zip": "62440",
+  "address_public": true,
+  "address": "417 N CR 1050 E, Lerna, IL 62440",
+  "website": "https://springvillefamilyfarms.com/",
+  "phone": "(217) 259-6059",
+  "social_urls": [
+    "https://www.facebook.com/springvillefamilyfarms/",
+    "https://www.instagram.com/springvillefamilyfarms/"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "100% grass-fed beef",
+    "grain-finished beef",
+    "pork",
+    "chicken"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "Some of these animals will be introduced to a grain diet with free choice hay.",
+    "source_url": "https://www.springvillefamilyfarms.com/about"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Champaign",
+      "Effingham",
+      "Mattoon/Charleston"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://springvillefamilyfarms.com/contact/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/springvillefamilyfarms/all",
+  "data_source": "web-search",
+  "source_url": "https://springvillefamilyfarms.com/",
+  "notes": "Verified 2026-11-22 against the about, products and contact pages. Quote confirmed; some calves go onto grain with free-choice hay and the others stay on a grass-fed diet, and the store lists grass-fed, grain finished beef, so category both. Hogs are bought as 50 lb feeder pigs from local farms and finished on the farm on grain plus forage; chickens on pasture with some grain. Delivery to Champaign, Effingham and Mattoon/Charleston; farm store Saturday 9 to 12:30 or by appointment. Barn2Door shop could not be fetched, so pickup locations are not listed.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

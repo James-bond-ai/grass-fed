@@ -1,0 +1,66 @@
+{
+  "id": "autumns-harvest-farm",
+  "slug": "autumns-harvest-farm",
+  "farm_name": "Autumn's Harvest Farm",
+  "city": "Romulus",
+  "state": "NY",
+  "zip": "14541",
+  "address_public": true,
+  "address": "5170 Kings Corners Road, Romulus, NY 14541",
+  "website": "https://autumnsharvestfarmpasturedmeats.com/",
+  "phone": "607-869-3879",
+  "social_urls": [
+    "https://www.instagram.com/autumnsharvestfarm",
+    "https://www.facebook.com/autumns.harvest"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "roasts",
+    "pork cuts",
+    "bacon",
+    "chicken",
+    "eggs",
+    "Thanksgiving turkeys"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "A commitment to 100% grass-fed and finished ruminants defines our approach.",
+    "source_url": "https://autumnsharvestfarmpasturedmeats.com/our-farming-practices"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order",
+    "local-delivery",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "within roughly 50 to 60 miles of the farm"
+    ],
+    "local_radius_miles": 60,
+    "ships_to": [
+      "NY"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://autumnsharvestfarmpasturedmeats.com/how-to-shop"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://autumnsharvestfarmpasturedmeats.com/",
+  "data_source": "web-search",
+  "source_url": "https://autumnsharvestfarmpasturedmeats.com/",
+  "notes": "Verifier 2026-11-22 read farming practices, our story, how to shop, Q&A and farm store pages. Quote confirmed: ruminants 100% grass-fed and finished; pigs and chickens on pasture with local non-GMO grain. Doorstep delivery within about 50 to 60 miles, UPS shipping elsewhere in New York State. Farm store open Friday and Saturday. No bulk shares or markets stated.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

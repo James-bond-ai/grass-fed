@@ -1,0 +1,61 @@
+{
+  "id": "crystal-barn-cattle-company",
+  "slug": "crystal-barn-cattle-company",
+  "farm_name": "Crystal Barn Cattle Company",
+  "city": "Alburnett",
+  "state": "IA",
+  "zip": "52202",
+  "address_public": true,
+  "address": "2753 Arabian Road, Alburnett, IA 52202",
+  "website": "https://crystalbarncattlecompany.grazecart.com/",
+  "phone": "319-360-4252",
+  "social_urls": [
+    "https://www.facebook.com/CrystalBarnCattleCo/",
+    "https://www.instagram.com/crystalbarncattleco/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "beef patties",
+    "steaks",
+    "brisket",
+    "chuck roast",
+    "snack sticks",
+    "soup bones",
+    "beef heart",
+    "oxtail",
+    "beef tongue"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "Animals are evaluated and selected for grain-finishing or grass-finishing.",
+    "source_url": "https://crystalbarncattlecompany.grazecart.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Eastern Iowa"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://crystalbarncattlecompany.grazecart.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://crystalbarncattlecompany.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://crystalbarncattlecompany.grazecart.com/",
+  "notes": "Verified 2026-11-22 against the homepage and about page. Quote confirmed on the homepage; separate grain-finished and 100% grass-finished lines, so category both. Homepage offers local delivery and free pickup for Eastern Iowa; pickup locations page shows no list. No shares or shipping. Address and phone from the homepage.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "heartstone-farm",
+  "slug": "heartstone-farm",
+  "farm_name": "Heartstone Farm",
+  "city": "Charleston",
+  "state": "ME",
+  "zip": "04422",
+  "address_public": true,
+  "address": "128 Paine Rd, Charleston, ME 04422",
+  "website": "https://heartstonefarm.com/",
+  "phone": "207-897-1780",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "burger patties",
+    "steaks",
+    "short ribs",
+    "brisket",
+    "stew meat",
+    "roasts",
+    "organ meat",
+    "beef bones",
+    "meat boxes"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Then, when it comes time to finish, we feed a carefully balanced natural grain ration that helps build marbling and flavor.",
+    "source_url": "https://heartstonefarm.com/products/grass-fed-ground-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [
+      "AL",
+      "CT",
+      "DE",
+      "DC",
+      "FL",
+      "GA",
+      "IL",
+      "IN",
+      "KY",
+      "ME",
+      "MA",
+      "MD",
+      "MI",
+      "NC",
+      "NH",
+      "NJ",
+      "NY",
+      "OH",
+      "PA",
+      "RI",
+      "SC",
+      "TN",
+      "VA",
+      "VT",
+      "WV"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://heartstonefarm.com/pages/delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://heartstonefarm.com/",
+  "data_source": "web-search",
+  "source_url": "https://heartstonefarm.com/",
+  "resold_note": "Also sells pork from Knight Family Farm, turkey from Stonewood Farm, beef and pork through Herring Bros. Butcher, chicken from unnamed family farms, and wild-caught seafood.",
+  "notes": "Unpublished 2026-11-22: The site says cattle graze on its 500-acre farm and with trusted partner farms, the beef product page says raised by small family farms, and the partner list includes Herring Bros. Butcher for beef. Check what share of the beef is raised on Heartstone's own farm; if most is bought in, reject as a reseller. Grain-finishing quote confirmed on the ground beef page; shipping list of 25 jurisdictions confirmed on the delivery page.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

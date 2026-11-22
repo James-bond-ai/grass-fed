@@ -1,0 +1,49 @@
+{
+  "id": "sebago-lake-ranch",
+  "slug": "sebago-lake-ranch",
+  "farm_name": "Sebago Lake Ranch",
+  "city": "Gorham",
+  "state": "ME",
+  "zip": "",
+  "address_public": false,
+  "website": "https://sebagolakeranch.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/SebagoLakeRanch"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "quarter beef",
+    "half beef",
+    "whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "They spend their days grazing and moving through pasture rather than being confined or grain-finished.",
+    "source_url": "https://sebagolakeranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://sebagolakeranch.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://sebagolakeranch.com/",
+  "data_source": "web-search",
+  "source_url": "https://sebagolakeranch.com/",
+  "notes": "Checked the homepage and the Happy Cows page. All-grass diet, pasture in season and hay in winter, and not grain-finished. Mostly quarter, half and whole animals harvested June to August, plus cuts when available; order by email from the price list, $100 minimum, pickup by appointment. No phone, delivery or shipping listed.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

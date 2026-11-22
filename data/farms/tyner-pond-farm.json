@@ -1,0 +1,78 @@
+{
+  "id": "tyner-pond-farm",
+  "slug": "tyner-pond-farm",
+  "farm_name": "Tyner Pond Farm",
+  "city": "Greenfield",
+  "state": "IN",
+  "zip": "46140",
+  "address_public": true,
+  "address": "90 West McClarnon Dr, Greenfield, IN 46140",
+  "website": "https://tynerpondfarm.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/TynerPondFarm",
+    "https://www.instagram.com/tynerpondfarm",
+    "https://www.tiktok.com/@tynerpondfarm",
+    "https://www.pinterest.com/tynerpondfarm"
+  ],
+  "species": [
+    "beef",
+    "poultry"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "beef ribs",
+    "organ meats",
+    "oxtail",
+    "burger patties",
+    "whole chicken",
+    "chicken cuts",
+    "subscription boxes",
+    "freezer bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass-fed and grass-finished, moved to fresh pasture daily using regenerative grazing methods",
+    "source_url": "https://tynerpondfarm.com/pages/our-practices"
+  },
+  "certifications": [
+    {
+      "body": "OnMark Certification Services",
+      "program": "usda-organic-pasture",
+      "cert_id": "7170019053",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Christopher & Amy Baggott - Tyner Pond Farm\" (Greenfield, IN), pasture or hay certified; livestock not certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-11-22"
+    }
+  ],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "ships-nationwide",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Central Indiana"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Fulfillment center, 90 West McClarnon Dr, Greenfield, Monday to Friday 8am to 12pm"
+    ],
+    "source_url": "https://tynerpondfarm.com/pages/faqs"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells pork from Gunthorp Farms and other local producers, raw dairy from Kemp Family Organic Dairy, wild Alaska sockeye salmon and other foods from partner producers.",
+  "ordering_url": "https://tynerpondfarm.com/collections/grass-fed-beef",
+  "data_source": "web-search",
+  "source_url": "https://tynerpondfarm.com/",
+  "notes": "Verified 2026-11-22 against our practices, our animals and FAQ pages. Quote corrected to the exact wording. Farm raises grass-fed beef and pasture-raised chicken; pork comes from partner farms such as Gunthorp Farms. Egg origin not stated, so eggs left out. Free local delivery in Central Indiana, shipping across the continental US, pickup at 90 West McClarnon Dr, Greenfield weekdays 8 to 12. No whole animals; bundles include 1/8 of a cow.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

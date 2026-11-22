@@ -1,0 +1,61 @@
+{
+  "id": "graze-the-prairie",
+  "slug": "graze-the-prairie",
+  "farm_name": "Graze the Prairie",
+  "city": "Latham",
+  "state": "KS",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.grazetheprairie.com/",
+  "phone": "316-322-0536",
+  "social_urls": [
+    "https://www.facebook.com/GrazeThePrairie",
+    "https://www.instagram.com/graze_the_prairie/"
+  ],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "ground beef",
+    "roasts",
+    "steaks",
+    "marrow bones",
+    "soup bones",
+    "bundles",
+    "lamb"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "When we use the term 'Grass Fed' it means the animals are never fed grain or concentrates.",
+    "source_url": "https://www.grazetheprairie.com/page2"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [
+    "Old Town Farmers Market, Wichita (Saturdays, April to October)",
+    "Kansas Grown Farmers Market, Wichita (Saturdays, April to October)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Wichita and surrounding areas"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.grazetheprairie.com/page3"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.grazetheprairie.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.grazetheprairie.com/form__map",
+  "notes": "Unpublished 2026-11-22: the online shop shows no products and the newest dated post found is from 2019, so check whether the farm still sells (current market vendor lists, the farm's social pages, or a call) before publishing. Also open the A Greener World listing page for Graze The Prairie (Latham, beef), which failed to load, to see whether agw-grassfed applies. About page wording on feeding confirmed; markets run April to October in Wichita with weekly Wichita-area deliveries.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

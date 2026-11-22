@@ -1,0 +1,71 @@
+{
+  "id": "riverview-farms",
+  "slug": "riverview-farms",
+  "farm_name": "Riverview Farms",
+  "city": "Ranger",
+  "state": "GA",
+  "zip": "30734",
+  "address_public": true,
+  "address": "987 White Graves Road, Ranger, GA 30734",
+  "website": "https://grassfedcow.com/",
+  "phone": "678-910-2831",
+  "social_urls": [
+    "https://www.facebook.com/riverviewfarms",
+    "https://www.instagram.com/riverview_farms"
+  ],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "grassfed beef cuts",
+    "heritage pork cuts",
+    "bulk half hogs",
+    "meat bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our cows are bred, born, raised, and finished on our farm where they eat a bovine buffet of forages (grasses) on our pastures",
+    "source_url": "https://grassfedcow.com/products/"
+  },
+  "certifications": [
+    {
+      "body": "Quality Certification Services",
+      "program": "usda-organic-pasture",
+      "cert_id": "5870000421",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Charlotte Swancy dba Riverview Farms\" (Ranger, GA), pasture or hay certified; livestock not certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-11-22"
+    }
+  ],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farmers-market",
+    "csa"
+  ],
+  "farmers_markets": [
+    "Freedom Farmers Market, Carter Center, Atlanta (Saturday mornings, year-round)",
+    "Morningside Farmers Market, Atlanta (Saturday mornings, year-round)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Atlanta"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Pickup locations throughout Atlanta (not listed on the site)"
+    ],
+    "source_url": "https://grassfedcow.com/meat-csa/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://grassfedcow.com/buy-local-meat/",
+  "data_source": "web-search",
+  "source_url": "https://grassfedcow.com/",
+  "notes": "Verified 2026-11-22 against products, bulk heritage pork, markets and two-ways-to-order pages. Products quote confirmed; no page says grass-finished or no grain and the farm grows corn for its animals, so grass-fed. Orders via Barn2Door (weekly home delivery in Atlanta or pickup points) or Farmigo (monthly subscription). Half hogs delivered to Atlanta on Fridays; bulk page updated October 2026. Markets page lists Freedom and Morningside Saturday markets but was last updated February 2024.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

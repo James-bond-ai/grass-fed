@@ -1,0 +1,54 @@
+{
+  "id": "grand-view-beef",
+  "slug": "grand-view-beef",
+  "farm_name": "Grand View Beef",
+  "city": "Clarion",
+  "state": "IA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.grandviewbeef.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "roasts",
+    "beef sticks",
+    "beef boxes",
+    "beef shares"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle never eat grain.",
+    "source_url": "https://www.grandviewbeef.com/pages/our-practices"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "ships-nationwide",
+    "farm-pickup",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://www.grandviewbeef.com/pages/shipping-faq"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells pasture-raised chicken from partner farm The Thomas Farmstead, and buys in some 100% grass-fed weaned calves from other Midwest ranches.",
+  "ordering_url": "https://www.grandviewbeef.com/collections/100-grass-fed-beef",
+  "data_source": "web-search",
+  "source_url": "https://practicalfarmers.org/events/field-days/raising-100-grass-fed-beef-in-row-crop-country",
+  "notes": "Verified 2026-11-22 against the homepage, our practices and beef collection pages. Quote confirmed on our practices; 100% grass fed and finished. Most cattle born and finished on the farm, some AGA grass-fed weaned calves bought in (resold_note). Ships nationwide via UPS on Tuesdays; pickup in Clarion. 1/16 share plus quarter, half and whole shares. Site says AGA verified but no certifier listing was checked, so no certification added.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

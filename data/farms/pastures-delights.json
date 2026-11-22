@@ -1,0 +1,67 @@
+{
+  "id": "pastures-delights",
+  "slug": "pastures-delights",
+  "farm_name": "Pasture's Delights",
+  "city": "Decatur",
+  "state": "IN",
+  "zip": "",
+  "address_public": false,
+  "website": "https://pasturesdelights.3dcartstores.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "dairy-cow",
+    "dairy-goat",
+    "beef"
+  ],
+  "products": [
+    "raw cow milk",
+    "raw goat milk",
+    "cream",
+    "butter",
+    "bulk beef",
+    "soup bones"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "Your cows are raised on a non-gmo forage diet, harvesting most of their own food themselves on pasture.",
+    "source_url": "https://pasturesdelights.3dcartstores.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Central and northern Indiana",
+      "Fort Wayne",
+      "Indianapolis",
+      "Muncie",
+      "Richmond",
+      "Lafayette",
+      "Logansport",
+      "Wabash",
+      "Northwest Indiana",
+      "South Bend"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://pasturesdelights.3dcartstores.com/"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "cream",
+    "butter"
+  ],
+  "ordering_url": "",
+  "resold_note": "Also sells grass-fed beef and eggs from Seven Sons Farms.",
+  "data_source": "web-search",
+  "source_url": "https://pasturesdelights.3dcartstores.com/",
+  "notes": "Unpublished 2026-11-22: homepage says the website is being overhauled and asks buyers to email for herdshare pricing; every farm store product showed out of stock and the site has no phone or address. Next Verifier should confirm the raw milk herdshare and drop-site delivery are still running (a current site or recent posts), and confirm the bulk beef comes from the farm's own cows. Feeding quote confirmed on the homepage; herd owners choose 100% grass-fed or grain-supplemented cows, so category is both.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

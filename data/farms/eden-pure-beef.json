@@ -1,0 +1,64 @@
+{
+  "id": "eden-pure-beef",
+  "slug": "eden-pure-beef",
+  "farm_name": "Eden Pure Beef",
+  "city": "Stephens",
+  "state": "GA",
+  "zip": "30667",
+  "address_public": false,
+  "website": "https://edenpurebeef.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/edenpurebeef",
+    "https://www.instagram.com/edenpurebeef",
+    "https://www.youtube.com/@EdenPureBeef",
+    "https://www.tiktok.com/@edenpurebeef"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef bundles",
+    "steaks",
+    "cubed steak",
+    "corned beef brisket",
+    "custom orders"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are 100% lifetime grass-fed and grass-finished, grazing on pasture and farm-raised hay throughout their lives.",
+    "source_url": "https://edenpurebeef.com/practices/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "farmers-market",
+    "local-delivery",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [
+    "Marietta Square Farmers Market (Saturdays 9am to noon, year-round)",
+    "Brookhaven Farmers Market (April to November)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Local courier delivery (area not named)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Marietta Square Farmers Market",
+      "Brookhaven Farmers Market"
+    ],
+    "source_url": "https://www.edenpurebeef.com/faq"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/9bPwk/all",
+  "data_source": "web-search",
+  "source_url": "https://marketspread.com/vendor/32792/eden-pure-beef/",
+  "notes": "Checked homepage, about, practices and FAQ pages. 100% grass-fed and grass-finished, never grain. Ships 15 to 20 lb bundles and custom orders nationwide by UPS on Tuesdays; local courier delivery mentioned with no area. Markets per FAQ: Marietta Square year-round Saturdays and Brookhaven April to November. No bulk shares or phone found.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

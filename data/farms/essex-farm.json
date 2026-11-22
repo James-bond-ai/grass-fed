@@ -1,0 +1,63 @@
+{
+  "id": "essex-farm",
+  "slug": "essex-farm",
+  "farm_name": "Essex Farm",
+  "city": "Essex",
+  "state": "NY",
+  "zip": "12936",
+  "address_public": true,
+  "address": "2503 NY Route 22, Essex, NY 12936",
+  "website": "https://www.essexfarmcsa.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.instagram.com/essexfarmcsa",
+    "https://www.facebook.com/essexfarm"
+  ],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry",
+    "eggs",
+    "dairy-cow"
+  ],
+  "products": [
+    "beef",
+    "lamb",
+    "pork",
+    "chicken",
+    "eggs",
+    "raw milk",
+    "dairy products"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grassfed and finished beef and lamb",
+    "source_url": "https://www.essexfarmcsa.com/csa"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "csa",
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.essexfarmcsa.com/faq"
+  },
+  "dairy_products": [
+    "raw-milk"
+  ],
+  "resold_note": "The CSA also includes grains, flours and dry beans from other regional growers.",
+  "ordering_url": "https://www.essexfarmcsa.com/csa",
+  "data_source": "state-program",
+  "source_url": "https://agriculture.ny.gov/dairy/raw-milk-permit-holders",
+  "notes": "Verifier 2026-11-22: CSA, farm store and FAQ pages checked. Verbatim quote confirmed on the CSA page. Pickup at the farm Fridays 3 to 7 pm plus weekends; FAQ says the farm no longer delivers. Farm store self-serve 24/7 sells grassfed raw Jersey milk and grassfed and finished beef and lamb; the farm store page says lamb can also be shipped but names no area, so no shipping recorded. Raw milk sales are legal only in some states.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

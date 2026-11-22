@@ -1,0 +1,75 @@
+{
+  "id": "foxhollow-farm",
+  "slug": "foxhollow-farm",
+  "farm_name": "Foxhollow Farm",
+  "city": "Crestwood",
+  "state": "KY",
+  "zip": "40014",
+  "address_public": false,
+  "website": "https://foxhollow.com/",
+  "phone": "502-797-0005",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "burger patties",
+    "beef tallow",
+    "beef shares",
+    "bundles and boxes"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "All our meat is always 100% grassfed and grass finished guaranteed",
+    "source_url": "https://foxhollow.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "local-delivery",
+    "online-order",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "within 25 miles of Foxhollow"
+    ],
+    "local_radius_miles": 25,
+    "ships_to": [
+      "AL",
+      "DE",
+      "FL",
+      "GA",
+      "IL",
+      "IN",
+      "KY",
+      "MD",
+      "NJ",
+      "NY",
+      "NC",
+      "OH",
+      "PA",
+      "SC",
+      "TN",
+      "VA",
+      "WV"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://foxhollow.com/pages/faqs"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://foxhollow.com/collections/shop-all-products",
+  "data_source": "web-search",
+  "source_url": "https://foxhollow.com/",
+  "notes": "Verifier 2026-11-22: read homepage, about, about our beef and FAQ pages; quote confirmed on homepage. Beef page says every steer and heifer is born on the farm's biodynamic pastures and is not fattened on grain. FAQ lists shipping to 17 eastern states, local van delivery, and self-serve Foxhollow Market pickup daily dawn to dusk. Other meats are store categories with no source named, so treated as resold. Site claims AGA certification; not added because the AGA listing was not checked.",
+  "resold_note": "Also sells pork, chicken, turkey, bison, lamb and wild Alaska salmon without saying which farms raise them.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

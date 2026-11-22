@@ -1,0 +1,63 @@
+{
+  "id": "baumans-meat-market",
+  "slug": "baumans-meat-market",
+  "farm_name": "Bauman's Meat Market",
+  "city": "Garnett",
+  "state": "KS",
+  "zip": "66032",
+  "address_public": true,
+  "address": "24161 Northwest Kentucky Road, Garnett, KS 66032",
+  "website": "https://baumansmeatmarket.grazecart.com/",
+  "phone": "785-448-2239",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "grassfed beef quarters",
+    "grain-finished beef quarters",
+    "ground beef bundles",
+    "pork",
+    "chicken",
+    "turkey",
+    "chicken eggs",
+    "goose eggs",
+    "brats",
+    "burgers",
+    "pet treats",
+    "bundles"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "Beef Quarter 100% Grassfed",
+    "source_url": "https://baumansmeatmarket.grazecart.com/store/beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://baumansmeatmarket.grazecart.com/locations"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://baumansmeatmarket.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://baumansmeatmarket.grazecart.com/",
+  "notes": "Verifier 2026-11-22: read homepage, about, pickup locations, store, beef, poultry and milk pages. Beef page sells a 100% grassfed beef quarter and a grain-finished beef quarter (sold out), so category is both. Homepage and about say the farm feeds only grass and non-GMO feeds; pork is non-GMO fed, poultry and eggs pasture raised. Pickup at the farm in Garnett; the only delivery text is a generic zip-code pop-up naming no area, so local delivery is not listed. Milk source not stated, so dairy left out. Second phone 785-448-4502.",
+  "resold_note": "Also sells glass-bottled milk, cream and butter without saying which farm produces them.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

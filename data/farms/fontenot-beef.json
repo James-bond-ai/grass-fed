@@ -1,0 +1,50 @@
+{
+  "id": "fontenot-beef",
+  "slug": "fontenot-beef",
+  "farm_name": "Fontenot Beef",
+  "city": "Iowa",
+  "state": "LA",
+  "zip": "70647",
+  "address_public": true,
+  "address": "19470 Bebee Rd, Iowa, LA 70647",
+  "website": "https://fontenotbeef.net/",
+  "phone": "337-802-3426",
+  "social_urls": [
+    "https://www.facebook.com/fontenotbeef/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "bundles",
+    "half and quarter beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "We graze our cattle on large, stress free pastures with native grasses year round.",
+    "source_url": "https://fontenotbeef.net/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://fontenotbeef.net/products/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/fontenotbeef.net/all",
+  "data_source": "web-search",
+  "source_url": "https://fontenotbeef.net/",
+  "notes": "Checked homepage, about, products and contact pages. Fifth-generation cow/calf operation in Jeff Davis Parish; beef called grass-fed with year-round native pasture and no finishing wording, so grass-fed. Half and quarter animals at $9.25 per pound; call before visiting the farm. The Barn2Door shop could not be opened, so delivery and shipping options are unknown.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "river-watch-beef",
+  "slug": "river-watch-beef",
+  "farm_name": "River Watch Beef",
+  "city": "Shawnee",
+  "state": "KS",
+  "zip": "",
+  "address_public": false,
+  "website": "https://riverwatchbeef.com/",
+  "phone": "(800) 373-5210",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "short ribs",
+    "minute steaks",
+    "liver",
+    "summer sausage",
+    "brats",
+    "beef packages",
+    "custom beef boxes",
+    "grass fed beef club subscription"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our high-quality beef is 100% natural & grass finished in the pasture.",
+    "source_url": "https://riverwatchbeef.com/2022/01/grass-fed-beef-from-pasture-to-fork/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Kansas City metro"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://riverwatchbeef.com/about-us/grass-fed-beef-faq/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://riverwatchbeef.com/store/grass-fed-beef-packages/",
+  "data_source": "web-search",
+  "source_url": "https://riverwatchbeef.com/2022/01/grass-fed-beef-from-pasture-to-fork/",
+  "notes": "Unpublished 2026-11-22: the how-we-raise post says the business no longer runs cows and buys young calves from neighbors to graze to harvest, and it sometimes feeds organic cake with barley; next Verifier should confirm whether River Watch raises enough of its own cattle to count as a farm rather than a brand, and find the ranch town on the farm's own site (the FAQ gives only an office in the Kansas City area and pastures in the Flint Hills; city Shawnee came from a third-party listing and is unconfirmed). Verbatim quote, continental US shipping and Kansas City metro delivery were confirmed.",
+  "listing_status": "unpublished",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

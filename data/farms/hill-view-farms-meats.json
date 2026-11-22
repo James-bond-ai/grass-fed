@@ -1,0 +1,55 @@
+{
+  "id": "hill-view-farms-meats",
+  "slug": "hill-view-farms-meats",
+  "farm_name": "Hill View Farms Meats",
+  "city": "Owensboro",
+  "state": "KY",
+  "zip": "42301",
+  "address_public": true,
+  "website": "https://www.hillviewfarmsmeats.com/",
+  "phone": "270-570-7039",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "Black Angus beef cuts",
+    "beef boxes",
+    "broiler chickens",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "They are pasture raised and grain finished.",
+    "source_url": "https://www.hillviewfarmsmeats.com/our-products"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farmers-market",
+    "online-order"
+  ],
+  "farmers_markets": [
+    "Owensboro Farmers Market"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.hillviewfarmsmeats.com/online-store"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://the-market-hill-view-farms.square.site",
+  "resold_note": "Also sells pork from a neighboring Daviess County farm, plus milk, cheese and other products from partner producers.",
+  "data_source": "web-search",
+  "source_url": "https://www.hillviewfarmsmeats.com/our-products",
+  "notes": "Checked homepage, about, our products, online store, boxes and contact pages. Beef is pasture raised with grass or hay plus a daily grain ration and grain finished. Farm raises the beef, broilers and layers; pork comes from a neighboring farmer. Market store open Monday to Friday 10 to 6 and Saturday 9 to 3; cuts in store or at the Owensboro Farmers Market; call for pickup or shipping, no shipping area named. Many beef boxes showed out of stock.",
+  "address": "5024 Lee Rudy Rd., Owensboro, KY 42301",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

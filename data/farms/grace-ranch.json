@@ -1,0 +1,60 @@
+{
+  "id": "grace-ranch",
+  "slug": "grace-ranch",
+  "farm_name": "Grace Ranch",
+  "city": "Jennings",
+  "state": "LA",
+  "zip": "70546",
+  "address_public": true,
+  "address": "2400 F E Landry Road, Jennings, LA 70546",
+  "website": "https://graceranchllc.com/",
+  "phone": "337-515-4543",
+  "social_urls": [
+    "https://www.instagram.com/graceranchllc/",
+    "https://www.facebook.com/graceranchllc"
+  ],
+  "species": [
+    "beef",
+    "dairy-cow"
+  ],
+  "products": [
+    "beef boxes",
+    "ground meat box",
+    "individual beef cuts",
+    "raw milk",
+    "raw cream",
+    "yogurt",
+    "chocolate milk"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "At weaning time, we select several choice calves that we grain finish for our Farm-to-Table beef products.",
+    "source_url": "https://graceranchllc.com/farm-to-table-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://graceranchllc.com/farm-to-table-beef"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "cream",
+    "yogurt"
+  ],
+  "ordering_url": "https://grace-ranch.localline.ca/shop",
+  "data_source": "web-search",
+  "source_url": "https://graceranchllc.com/",
+  "notes": "Verifier 2026-11-22 read homepage, farm-to-table beef and contact pages plus the ranch's Harvest of Grace dairy homepage and shop. Beef page quote confirmed; homepage says calves are grass-fed from birth and grain-finished. Pickup at Grace Ranch Market on the ranch is the only fulfillment option. Whole and half beef are listed but not currently available, so bulk_shares is false. Harvest of Grace says raw milk, raw cream, yogurt and chocolate milk are made on the ranch from its own Jersey cows, sold to members of a private membership association because of Louisiana's raw milk law. Raw milk is legal only in some states. Other Harvest of Grace items are sourced locally.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

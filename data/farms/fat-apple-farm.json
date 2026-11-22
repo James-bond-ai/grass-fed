@@ -1,0 +1,61 @@
+{
+  "id": "fat-apple-farm",
+  "slug": "fat-apple-farm",
+  "farm_name": "Fat Apple Farm",
+  "city": "Pine Plains",
+  "state": "NY",
+  "zip": "12567",
+  "address_public": false,
+  "website": "https://fatapple.farm/",
+  "phone": "518-965-6655",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "eggs"
+  ],
+  "products": [
+    "beef boxes",
+    "pork boxes",
+    "whole and half hogs",
+    "grass-fed lamb",
+    "pastured eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "grass-fed beef",
+    "source_url": "https://fatapple.farm/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order",
+    "ships-regional",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [
+      "NY",
+      "NJ",
+      "CT",
+      "MA",
+      "VT"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://fatapple.farm/shop"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://fatapple.farm/shop",
+  "data_source": "web-search",
+  "source_url": "https://fatapple.farm/",
+  "notes": "Verifier 2026-11-22 read homepage, local retail, contact and a Red Devon blog post. Homepage product list says grass-fed beef, grass-fed lamb, pastured pork and pastured eggs; no finishing statement for the farm's own beef, so grass-fed. Farm store at 730 Hall Hill Rd open daily, self-serve or pre-order pickup. FedEx shipping to NY, NJ, CT, MA and VT, flat $30, ships Thursdays. Whole and half hogs pickup only. Also sold at Fulton Stall Market, New York. Contact page gives zip 12567 (footer 11102 looks like a typo).",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

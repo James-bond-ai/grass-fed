@@ -1,0 +1,60 @@
+{
+  "id": "brookshire-farm",
+  "slug": "brookshire-farm",
+  "farm_name": "Brookshire Farm",
+  "city": "Abbeville",
+  "state": "LA",
+  "zip": "70510",
+  "address_public": true,
+  "address": "8916 Brookshire Road, Abbeville, LA 70510",
+  "website": "https://brookshirefarm.com/",
+  "phone": "337-893-5115",
+  "social_urls": [
+    "https://www.facebook.com/BrookshireFarm/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "stew meat",
+    "brisket",
+    "short ribs",
+    "organ meats",
+    "bones"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "never supplemented with grain",
+    "source_url": "https://brookshirefarm.com/about-our-farm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Old Metairie, 106 Metairie Lawn Drive, Metairie",
+      "Baton Rouge, 2950 College Dr",
+      "Houma/Thibodaux, 4067 W Park Ave, Gray"
+    ],
+    "source_url": "https://brookshirefarm.com/locations/baton-rouge"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://brookshirefarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://brookshirefarm.com/",
+  "notes": "Verified 2026-11-22 against the homepage, about, store, beef store, beef shares and contact pages. About page says cattle are never supplemented with grain; homepage says Grass Fed N' Finished. Beef page says online ordering, pickup or delivery. Quarter, half and whole shares listed but currently sold out; cuts still sold. Address and phone from the contact page. Store also sells Louisiana raised pastured pork and chicken, but the site does not say the farm raises them, so only beef is listed. Pickup location pages did not render; pickup list kept from the earlier scout read.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

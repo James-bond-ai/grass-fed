@@ -1,0 +1,59 @@
+{
+  "id": "woodland-farm",
+  "slug": "woodland-farm",
+  "farm_name": "Woodland Farm",
+  "city": "Goshen",
+  "state": "KY",
+  "zip": "40026",
+  "address_public": false,
+  "website": "https://www.woodlandfarm.com/",
+  "phone": "502-664-7182",
+  "social_urls": [
+    "https://www.instagram.com/woodlandfarm/"
+  ],
+  "species": [
+    "bison",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "bison steaks",
+    "bison roasts",
+    "ground bison",
+    "bison burger patties",
+    "bison breakfast sausage",
+    "bison organ meats and bones",
+    "heritage pork",
+    "ground pork",
+    "breakfast sausage",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our bison graze on open pasture at our Goshen, KY farm and are professionally managed.",
+    "source_url": "https://www.woodlandfarm.com/kybison/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "restaurants",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.woodlandfarm.com/farm-store/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.woodlandfarm.com/farm-store/",
+  "data_source": "web-search",
+  "source_url": "https://www.woodlandfarm.com/kybison/",
+  "notes": "Verifier 2026-11-22: KY Bison and farm store pages checked. Verbatim quote confirmed on the KY Bison page; no grass-only or finishing statement, so category pastured. Farm store open Monday to Friday 8am to 4pm, call ahead for cuts; bison and pork sold there and the KY Bison page says eggs too. Also sold at specialty markets and restaurants across Kentucky. No shipping or delivery mentioned.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

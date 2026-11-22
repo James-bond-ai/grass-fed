@@ -1,0 +1,64 @@
+{
+  "id": "cedar-hill-farm",
+  "slug": "cedar-hill-farm",
+  "farm_name": "Cedar Hill Farm",
+  "city": "Orange",
+  "state": "CT",
+  "zip": "06477",
+  "address_public": true,
+  "address": "831 Derby Milford Rd., Orange, CT 06477",
+  "website": "https://www.cedarhillfarmct.com/",
+  "phone": "203-889-7282",
+  "social_urls": [
+    "https://www.facebook.com/cedarhillfarmct"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "hamburger patties",
+    "hot dogs",
+    "beef organ meats",
+    "pork chops",
+    "pork roasts",
+    "sausage",
+    "bacon",
+    "whole chicken",
+    "chicken cuts",
+    "turkeys",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our cattle spend the growing season on pasture.",
+    "source_url": "https://www.cedarhillfarmct.com/beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.cedarhillfarmct.com/orderonline"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.cedarhillfarmct.com/orderonline",
+  "data_source": "web-search",
+  "source_url": "https://ctbites.com/blog/2020/5/1/field-guide-to-ct-grown-meats-via-connecticut-food-and-farm-magazine",
+  "notes": "Checked homepage, products, beef and order online pages. Beef page says cattle graze rotationally in the growing season and eat farm-grown hay or silage otherwise; no grass-fed or grain wording, so pastured. Products page says all meat in the store comes from animals raised on the farm. Online pre-orders (eggs, turkeys) are picked up at the farm store; no delivery, shipping, markets or bulk shares found. November 2026: beef stock low, turkeys sold out.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

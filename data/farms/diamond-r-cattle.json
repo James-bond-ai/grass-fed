@@ -1,0 +1,74 @@
+{
+  "id": "diamond-r-cattle",
+  "slug": "diamond-r-cattle",
+  "farm_name": "Diamond R Cattle",
+  "city": "Independence",
+  "state": "KS",
+  "zip": "67301",
+  "address_public": true,
+  "address": "3521 CR 5000, Independence, KS 67301",
+  "website": "https://diamondrcattle.com/",
+  "phone": "620-330-3031",
+  "social_urls": [
+    "https://www.facebook.com/diamondrcattleks/",
+    "https://www.instagram.com/diamondrcattle1/"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "steaks",
+    "KC strip",
+    "ribeye",
+    "top sirloin",
+    "picanha",
+    "brisket",
+    "burger patties",
+    "ground beef",
+    "beef boxes",
+    "quarter beef",
+    "half beef",
+    "whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Our calves are an Angus Hereford cross, black baldy and red baldy, raised on Kansas pasture and finished on corn and oats.",
+    "source_url": "https://diamondrcattle.com/pages/kansas-city-beef-for-sale"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "within 200 miles of the ranch"
+    ],
+    "local_radius_miles": 200,
+    "ships_to": [
+      "KS",
+      "MO",
+      "OK"
+    ],
+    "pickup_locations": [
+      "Kansas City drop point",
+      "Wichita drop point",
+      "Tulsa drop point",
+      "Joplin drop point",
+      "Oklahoma City drop point"
+    ],
+    "source_url": "https://diamondrcattle.com/products/quarter-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://diamondrcattle.com/collections/beef-shares",
+  "data_source": "web-search",
+  "source_url": "https://diamondrcattle.com/",
+  "notes": "Checked homepage, Kansas City beef page, quarter beef page, sampler box page and contact page. Grass fed on Kansas pasture and finished on corn and oats, so grain-finished. Free ranch pickup, delivery within 200 miles for $120 (the quarter page also mentions free delivery within 100 miles), drop points in five cities, and boxed beef that ships; the homepage names Kansas, Missouri and Oklahoma for shipping. Quarter shares showed sold out with the next harvest given as February 2027.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

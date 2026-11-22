@@ -1,0 +1,49 @@
+{
+  "id": "diamond-11-cattle-company",
+  "slug": "diamond-11-cattle-company",
+  "farm_name": "Diamond 11 Cattle Company",
+  "city": "Willcox",
+  "state": "AZ",
+  "zip": "",
+  "address_public": false,
+  "website": "https://diamond11cattlecompany.com",
+  "phone": "520-405-9461",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole beef",
+    "half beef",
+    "quarter beef",
+    "beef tallow"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Unless otherwise requested, our beef are finished on our farm fro 90-120 days of a free feeding corn and grass mixture.",
+    "source_url": "https://diamond11cattlecompany.com/faq"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Southern Arizona"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://diamond11cattlecompany.com/faq"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://diamond11cattlecompany.com/",
+  "notes": "Checked homepage and FAQ (beef, ranch life and contact pages failed to load). FAQ: beef finished on the farm 90 to 120 days on a corn and grass mix unless otherwise requested; homepage says grass or grain finished. Quarter, half and whole shares; owner delivers personally. Prices include processing.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

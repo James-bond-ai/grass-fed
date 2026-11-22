@@ -1,0 +1,61 @@
+{
+  "id": "penfield-farm",
+  "slug": "penfield-farm",
+  "farm_name": "Penfield Farm",
+  "city": "Portland",
+  "state": "CT",
+  "zip": "06480",
+  "address_public": true,
+  "address": "51 Ames Hollow Road, Portland, CT 06480",
+  "website": "http://penfieldfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "Black Angus beef",
+    "steaks",
+    "Berkshire pork",
+    "bacon",
+    "breakfast sausage",
+    "lamb",
+    "lamb chops",
+    "chicken",
+    "duck",
+    "emu",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Free-range, grass-fed meats, raised without hormones or antibiotics.",
+    "source_url": "http://penfieldfarm.com/farm-stand"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "http://penfieldfarm.com/farm-stand"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "resold_note": "Also sells honey from Full Bloom Apiaries, maple syrup from Goshen Hill Maples, Songline emu oil products and Victory Dog Food.",
+  "data_source": "web-search",
+  "source_url": "https://ctbites.com/blog/2020/5/1/field-guide-to-ct-grown-meats-via-connecticut-food-and-farm-magazine",
+  "notes": "Verifier 2026-11-22 read homepage, farm stand and philosophy pages. Farm stand quote confirmed; philosophy page says free-range and grass fed with no finishing detail, so grass-fed. Chickens described as pasture raised. Farm stand open Saturdays 9am to 3pm, other times by contact. Eggs also sold at Gardiner's Market, South Glastonbury. No phone on the site, contact by email link. No bulk shares, delivery or shipping found.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

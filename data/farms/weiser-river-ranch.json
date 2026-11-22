@@ -1,0 +1,65 @@
+{
+  "id": "weiser-river-ranch",
+  "slug": "weiser-river-ranch",
+  "farm_name": "Weiser River Ranch",
+  "city": "Council",
+  "state": "ID",
+  "zip": "83612",
+  "address_public": true,
+  "address": "2381 US Highway 95, Council, ID 83612",
+  "website": "https://www.weiserriverranch.com/",
+  "phone": "516-330-6498",
+  "social_urls": [
+    "https://www.facebook.com/weiserriverranch",
+    "https://www.instagram.com/weiserriverranch"
+  ],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "Wagyu ground beef",
+    "brisket",
+    "short ribs",
+    "stew beef",
+    "organ meats",
+    "bones",
+    "lamb steaks",
+    "lamb organ meats",
+    "lamb bones"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We sell grass-fed and grass-finished, beef and lamb.",
+    "source_url": "https://www.weiserriverranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "on-farm-store",
+    "local-delivery",
+    "farmers-market"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Boise and the Treasure Valley through McCall and Donnelly"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.weiserriverranch.com/shipping-and-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.weiserriverranch.com/shop-products",
+  "data_source": "web-search",
+  "source_url": "https://www.weiserriverranch.com/",
+  "notes": "Checked homepage, shop and ordering and delivery pages. Beef and lamb grass-fed and grass-finished with organic alfalfa in winter. Order online or by phone, shop the ranch freezers, or delivery from Boise and the Treasure Valley through McCall and Donnelly. Sells at local farmers markets, none named. No shipping or bulk shares found.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "iowa-farm-fresh-meats",
+  "slug": "iowa-farm-fresh-meats",
+  "farm_name": "Iowa Farm Fresh Meats",
+  "city": "West Branch",
+  "state": "IA",
+  "zip": "52358",
+  "address_public": true,
+  "address": "1342 Plato Rd., West Branch, IA 52358",
+  "website": "https://iowafarmfreshmeats.com/",
+  "phone": "563-889-0175",
+  "social_urls": [
+    "https://www.instagram.com/twistedoaksmeats",
+    "https://www.facebook.com/p/Iowa-Meat-Shack-61557189652362/"
+  ],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "grass-fed beef",
+    "grass-fed lamb",
+    "pastured pork",
+    "chicken",
+    "turkey",
+    "bundle deals",
+    "tallow skin care"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "The grass-fed and grass-finished lamb and beef is produced on rolling hills of clover, grass, alfalfa",
+    "source_url": "https://iowafarmfreshmeats.com/about-our-farm"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "on-farm-store",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Iowa City",
+      "Coralville",
+      "North Liberty",
+      "Cedar Rapids",
+      "Des Moines",
+      "West Des Moines",
+      "West Branch",
+      "Davenport",
+      "Dubuque"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [
+      "IA"
+    ],
+    "pickup_locations": [
+      "Iowa Meat Shack, West Branch"
+    ],
+    "source_url": "https://iowafarmfreshmeats.com/about-our-farm"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://iowafarmfreshmeats.com/store",
+  "data_source": "web-search",
+  "source_url": "https://iowafarmfreshmeats.com/",
+  "notes": "Verifier 2026-11-22: homepage, about, locations and contact pages checked. Verbatim phrase confirmed as the start of a longer sentence on the about page (full sentence over the quote limit in the summary). Pork fed non-GMO grain on pasture; poultry moved to fresh grass daily with non-GMO grain. Homepage says the meat is all their own. Delivery areas from homepage and footer, plus Dubuque and West Des Moines location pages; site says it will ship specific bulk bundles beyond pickup or delivery points but names only Iowa. Iowa Meat Shack in West Branch, address given as both 322 West and 322 East Main St. Phone and Plato Rd address from the contact page.",
+  "listing_status": "published",
+  "resold_note": "The Iowa Meat Shack store also sells eggs, cheese, other dairy, pizza and ice cream whose source the site does not name.",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

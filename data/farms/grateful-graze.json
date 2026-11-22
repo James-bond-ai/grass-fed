@@ -1,0 +1,71 @@
+{
+  "id": "grateful-graze",
+  "slug": "grateful-graze",
+  "farm_name": "Grateful Graze",
+  "city": "Cambridge",
+  "state": "IL",
+  "zip": "61238",
+  "address_public": true,
+  "address": "10740 E 1500 St, Cambridge, IL 61238",
+  "website": "https://gratefulgraze.com/",
+  "phone": "309-852-3276",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs",
+    "goat"
+  ],
+  "products": [
+    "beef cuts",
+    "quarter and half beef pre-orders",
+    "beef jerky and sticks",
+    "pork",
+    "chicken",
+    "eggs",
+    "goat",
+    "pet food and treats"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We offer 100% Grass-Fed and Grass-Finished Beef, raised regeneratively and moved daily to fresh forage.",
+    "source_url": "https://gratefulgraze.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup",
+    "farmers-market",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [
+    "QC Farmers Market, Rock Island"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Quad Cities and surrounding communities"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "QC Farmers Market, Rock Island",
+      "NOSH, Geneseo",
+      "Cornucopia, Galesburg",
+      "Farm pickup, Cambridge"
+    ],
+    "source_url": "https://gratefulgraze.com/how-to-order"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://gratefulgraze.com/store",
+  "data_source": "web-search",
+  "source_url": "https://gratefulgraze.com/",
+  "notes": "Checked homepage, store, beef collection, half beef pre-order and how to order pages. Beef sold as 100% grass-fed and grass-finished; pork timber raised and chicken mobile-pasture raised on homegrown non-GMO feed; goat silvopasture raised. Quarter and half beef pre-orders are farm pickup only. Home delivery by zip code in the Quad Cities area; longer distance delivery suspended. No egg category was in the store at check time.",
+  "resold_note": "Also sells Vienna Beef hot dogs.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

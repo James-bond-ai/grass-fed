@@ -1,0 +1,73 @@
+{
+  "id": "over-the-moon-farm",
+  "slug": "over-the-moon-farm",
+  "farm_name": "Over the Moon Farm",
+  "city": "Coggon",
+  "state": "IA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://overthemoonfarmflowersllc.grazecart.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.instagram.com/overthemoonfarm_",
+    "https://www.facebook.com/overthemoonfarmflowers"
+  ],
+  "species": [
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "pork chops",
+    "bacon",
+    "sausage",
+    "ground pork",
+    "pork roasts",
+    "ribs",
+    "ham steaks",
+    "smoked hocks",
+    "whole and half hogs",
+    "chicken",
+    "Thanksgiving turkeys"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Free-range chicken, raised in open pastures on our Iowa family farm.",
+    "source_url": "https://overthemoonfarmflowersllc.grazecart.com/store/pastured-poultry/thanksgiving"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "ships-nationwide",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Cedar Rapids and Iowa City corridor",
+      "Marion",
+      "Hiawatha",
+      "Coralville",
+      "North Liberty",
+      "Solon",
+      "Mount Vernon",
+      "Lisbon"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Buffalo Ridge Orchard Farm Store, Central City (seasonal, Tuesday to Saturday)"
+    ],
+    "source_url": "https://overthemoonfarmflowersllc.grazecart.com/delivery-and-shipping"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells grass-fed beef and lamb from partner farms, some pasture-raised chicken from a partner farm, and dairy and pantry items whose source the site does not name.",
+  "ordering_url": "https://overthemoonfarmflowersllc.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://overthemoonfarmflowersllc.grazecart.com/home",
+  "notes": "Verifier 2026-11-22: homepage, delivery and shipping, Thanksgiving poultry and quarter beef share pages checked (farm practices page could not be opened, so the quote was replaced with one confirmed on the poultry page). Poultry rotated on pasture, feed described only as GMO-free; pork described as pasture-raised with no feed details, so category pastured. Quarter beef share page names partner Pine View Angus Beef, consistent with beef in resold_note. Delivery page confirms Cedar Rapids and Iowa City corridor delivery, Midwest shipping and nationwide shipping to the continental US; Buffalo Ridge Orchard Farm Store in Central City sells seasonally.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "full-moon-farm",
+  "slug": "full-moon-farm",
+  "farm_name": "Full Moon Farm",
+  "city": "Gardiner",
+  "state": "NY",
+  "zip": "12525",
+  "address_public": false,
+  "website": "https://www.fullmoonfarmny.com/",
+  "phone": "845-629-1462",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "eggs"
+  ],
+  "products": [
+    "beef cuts",
+    "pork cuts",
+    "lamb",
+    "pastured eggs",
+    "sampler boxes"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Grass finished",
+    "source_url": "https://www.fullmoonfarmny.com/our-meat-1"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.fullmoonfarmny.com/menus"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.fullmoonfarmny.com/",
+  "resold_note": "Chicken is sourced from another generational chicken farmer.",
+  "notes": "Verifier 2026-11-22: homepage, our meat and beef and pork pages checked. '100% Grass finished' confirmed as a beef claim on the our meat page; cattle eat non-GMO grasses and balage in winter. Lamb gets supplemental feed; pork feed not stated. Homepage: farm store open 24/7, cash, check or Venmo, 54 Steves Lane, Gardiner; phones 845-255-5602 and 845-629-1462. Beef and pork page says quarters and halves are no longer offered. No delivery, shipping or markets on the site.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "misty-brook-farm",
+  "slug": "misty-brook-farm",
+  "farm_name": "Misty Brook Farm",
+  "city": "Albion",
+  "state": "ME",
+  "zip": "04910",
+  "address_public": true,
+  "address": "156 Bog Road, Albion, ME 04910",
+  "website": "https://mistybrook.com/",
+  "phone": "207-437-4719",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "eggs",
+    "dairy-cow"
+  ],
+  "products": [
+    "beef",
+    "rose veal",
+    "pork",
+    "sausage",
+    "lamb",
+    "mutton",
+    "organ meats",
+    "eggs",
+    "raw milk",
+    "raw cream",
+    "stone-milled flours",
+    "dry beans"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our certified-organic herd of Jersey cows is 100% grass-fed.",
+    "source_url": "https://mistybrook.com/products/our-milk/"
+  },
+  "certifications": [
+    {
+      "body": "MOFGA Certification Services, LLC - MCS",
+      "program": "usda-organic",
+      "cert_id": "7142074245",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Misty Brook Farm\" (Albion, ME), livestock certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-11-22"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "csa",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Maine"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://mistybrook.com/wheretobuy/farm-share-delivery/"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "cream"
+  ],
+  "ordering_url": "https://mistybrook.com/our-farm-shop/",
+  "data_source": "web-search",
+  "source_url": "https://mistybrook.com/",
+  "resold_note": "The farm store also sells raw sheep milk from Golden Fleece Farm, kefir from Milkhouse, vegetables from Ironwood Farm, salami from Small Good and other goods from Maine producers.",
+  "notes": "Verifier 2026-11-22: products, raw dairy and farm store pages checked. Verbatim quote confirmed on the raw dairy page. Farm store lists Organic 100% Grass-Fed Beef and Lamb and pastured soy-free pork, no finishing statement, so category stays grass-fed. Store open daily dawn to dusk, self-serve. Farm sells its own raw milk, half and half and cream; kefir and yogurt are Milkhouse products. Farm store page says the farm does not ship. Raw milk sales are legal only in some states.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

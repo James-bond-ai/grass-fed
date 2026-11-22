@@ -1,0 +1,65 @@
+{
+  "id": "triple-strand-ranch",
+  "slug": "triple-strand-ranch",
+  "farm_name": "Triple Strand Ranch",
+  "city": "Baker",
+  "state": "FL",
+  "zip": "32531",
+  "address_public": true,
+  "website": "https://triplestrandranch.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "pork",
+    "poultry",
+    "eggs",
+    "dairy-cow"
+  ],
+  "products": [
+    "pastured pork",
+    "chicken",
+    "duck",
+    "turkey",
+    "quail",
+    "rabbit",
+    "eggs",
+    "raw milk",
+    "cheese"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "We do not use antibiotics and we do not feed any corn or soy to any of our livestock, including the poultry!",
+    "source_url": "https://triplestrandranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Crestview",
+      "Fort Walton Beach",
+      "Niceville"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://triplestrandranch.com/contact/"
+  },
+  "dairy_products": [
+    "raw-milk",
+    "cheese"
+  ],
+  "ordering_url": "https://app.barn2door.com/3RYW6/all",
+  "data_source": "web-search",
+  "source_url": "https://triplestrandranch.com/",
+  "notes": "Verified 2026-11-22 against homepage, products and contact pages. Homepage quote corrected to the full sentence. Dairy cows are 100% grass-fed a2a2 Jerseys; pigs and poultry pastured with no corn or soy. Beef appears only in the page title, so not listed. On-farm pickup by appointment and delivery to Crestview, Fort Walton Beach and Niceville. Cheese image says it is made with raw milk and labeled for non-human consumption; Florida allows raw milk sales only as pet food.",
+  "address": "1734 Cobb Rd, Baker, FL 32531",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

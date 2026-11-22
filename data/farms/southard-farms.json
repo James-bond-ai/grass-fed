@@ -1,0 +1,62 @@
+{
+  "id": "southard-farms",
+  "slug": "southard-farms",
+  "farm_name": "Southard Farms",
+  "city": "Madison",
+  "state": "AL",
+  "zip": "35756",
+  "address_public": true,
+  "social_urls": [],
+  "certifications": [],
+  "farmers_markets": [
+    "Isom's Orchard, Athens (summer through fall, 8am to noon)"
+  ],
+  "bulk_shares": false,
+  "dairy_products": [],
+  "data_source": "web-search",
+  "website": "https://southardfarm.com/",
+  "phone": "",
+  "species": [
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "pasture-raised pork",
+    "chicken",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "We are producing pasture raised pork, chicken, turkey, and eggs outdoors on a rotational grazing system",
+    "source_url": "https://southardfarm.com/"
+  },
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order",
+    "farmers-market",
+    "retail",
+    "restaurants"
+  ],
+  "delivery": {
+    "local_areas": [
+      "Athens",
+      "Madison",
+      "Huntsville"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Isom's Orchard farmers market, Athens (summer through fall)"
+    ],
+    "source_url": "https://southardfarm.com/"
+  },
+  "ordering_url": "https://app.barn2door.com/southardfarm/all",
+  "source_url": "https://southardfarm.com/",
+  "notes": "Verifier 2026-11-22 read homepage, products, about, contact and prepared meals pages. Homepage quote confirmed. Hogs are a closed herd born on the farm with free-choice feed made on the farm; broilers start as day-old chicks from a Muscle Shoals hatchery and are rotated daily on pasture; hens free range on alfalfa fields. Farm pickup Mon, Wed, Fri 4 to 5pm and Sun noon to 1pm; delivery Mon and Tue 5 to 9pm at a flat rate by zip. Retail at S&J Produce, Madison and Isom's Orchard, Athens; restaurants Farm Burger, Huntsville and Continental Bakery, Birmingham. Also sells prepared meal subscriptions using farm meat and local vegetables. No phone on the site.",
+  "address": "27405 Huntsville Brownsferry Rd, Madison, AL 35756",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

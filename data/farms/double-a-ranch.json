@@ -1,0 +1,61 @@
+{
+  "id": "double-a-ranch",
+  "slug": "double-a-ranch",
+  "farm_name": "Double A Ranch",
+  "city": "New Fairfield",
+  "state": "CT",
+  "zip": "06812",
+  "address_public": true,
+  "address": "26 Bear Mountain Rd, New Fairfield, CT 06812",
+  "website": "https://doublearanch.farm/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/p/Double-A-Ranch-100063529686203/",
+    "https://www.instagram.com/double_a_ranch_/"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef cuts",
+    "pork",
+    "chicken",
+    "butcher boxes",
+    "monthly subscription boxes",
+    "quarter beef shares",
+    "quarter pork shares"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We raise Grass-Fed & Grass-Finished Beef Cattle, sustainably-raised pork, and pasture-raised chicken.",
+    "source_url": "https://doublearanch.farm/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Fairfield County, CT",
+      "Westchester County, NY"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.doublearanch.farm/contact"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/doublearanch.farm/all",
+  "data_source": "web-search",
+  "source_url": "https://doublearanch.farm/",
+  "notes": "Verified 2026-11-22 against homepage, FAQs and contact. Homepage quote confirmed. Quarter beef and pork shares, butcher boxes and subscriptions; delivery across Fairfield and Westchester counties; ranch pickup by appointment Tuesday and Thursday 5 to 8 pm. No phone or shipping on the site. Pork feeding not described.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

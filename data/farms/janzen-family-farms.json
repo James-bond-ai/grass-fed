@@ -1,0 +1,58 @@
+{
+  "id": "janzen-family-farms",
+  "slug": "janzen-family-farms",
+  "farm_name": "Janzen Family Farms",
+  "city": "Newton",
+  "state": "KS",
+  "zip": "67114",
+  "address_public": true,
+  "address": "15076 NW 180th Street, Newton, KS 67114",
+  "website": "https://www.janzenfamilyfarms.com/",
+  "phone": "316-882-4877",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "eighth beef",
+    "quarter beef",
+    "half beef",
+    "whole beef",
+    "steaks",
+    "roasts",
+    "ground beef",
+    "stew meat",
+    "short ribs",
+    "soup bones",
+    "liver",
+    "heart",
+    "tongue"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "They are bred to finish in 21 to 26 months on grass-only diets, resulting in healthy, flavorful meat.",
+    "source_url": "https://www.janzenfamilyfarms.com/beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.janzenfamilyfarms.com/order-now"
+  },
+  "dairy_products": [],
+  "resold_note": "The site also offers pork from Rockin D Farms (Ben and Halie Duerksen), a separate business whose grain-fed hogs are raised at Janzen Family Farms and ordered directly from them.",
+  "ordering_url": "https://www.janzenfamilyfarms.com/order-now",
+  "data_source": "web-search",
+  "source_url": "https://ictfoodcircle.org/local-food-directory/wpbdp_category/grass-fed-beef/",
+  "notes": "Verifier 2026-11-22 read homepage, beef, order form, pork, slaughters page, contact and the February 2026 post. Beef page quote confirmed; homepage says No Hormones // No Antibiotics // No Grain. February 2026 post says the farm is focusing on bulk sales of whole, half, quarter and eighths, with processing moving to Champs Meats of Halstead, and no inventory for the Kansas Grown Farmers Market in Wichita, so no market is listed. Order page says all prices include processing and delivery but names no area. Pork is Rockin D Farms' own venture raised on the farm with farm-grown grain, ordered from them directly.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

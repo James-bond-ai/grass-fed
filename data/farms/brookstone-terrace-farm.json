@@ -1,0 +1,55 @@
+{
+  "id": "brookstone-terrace-farm",
+  "slug": "brookstone-terrace-farm",
+  "farm_name": "Brookstone Terrace Farm",
+  "city": "New Lisbon",
+  "state": "IN",
+  "zip": "47366",
+  "address_public": false,
+  "website": "https://sites.google.com/site/brookstoneterracefarm/",
+  "phone": "765-593-1545",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter beef",
+    "half beef",
+    "whole beef",
+    "bulk ground beef",
+    "bulk roasts"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We continue the tradition of naturally adapted genetics on 100% grass from conception to finish.",
+    "source_url": "https://sites.google.com/site/brookstoneterracefarm/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Pickup at the processor (the farm names Fishers Meats, Portland, IN as one of its butchers)"
+    ],
+    "source_url": "https://sites.google.com/site/brookstoneterracefarm/pricing-example"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "availability": {
+    "status": "waitlist",
+    "note": "Site says currently sold out, with a waiting list; butcher dates booked about 6 months ahead.",
+    "checked_on": "2026-11-22"
+  },
+  "data_source": "web-search",
+  "source_url": "https://sites.google.com/site/brookstoneterracefarm/",
+  "notes": "Verifier 2026-11-22 read home and pricing example pages (Our Beef page has no body text). Quote confirmed. Sells quarter, half and whole beef by live weight plus bulk ground beef and roasts; order by email or phone; buyer pays butcher fee at pickup. Sold out with waitlist. Site shows no dates.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

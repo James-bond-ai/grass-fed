@@ -1,0 +1,66 @@
+{
+  "id": "pleasant-meadow-farm",
+  "slug": "pleasant-meadow-farm",
+  "farm_name": "Pleasant Meadow Farm",
+  "city": "Shipshewana",
+  "state": "IN",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.pleasantmeadowfarm.net/",
+  "phone": "574-350-9364",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "quarter beef",
+    "half beef",
+    "whole steer",
+    "ground beef",
+    "steaks",
+    "roasts",
+    "short ribs",
+    "stew meat",
+    "organ meats",
+    "oxtail",
+    "soup bones",
+    "beef suet",
+    "dog bones"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass-fed and finished Black Angus beef, raised right here on our farm.",
+    "source_url": "https://www.pleasantmeadowfarm.net/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "farm-pickup",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Lagrange County",
+      "Elkhart County",
+      "Cass County",
+      "St. Joseph County"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Shipshewana farm",
+      "Bristol farm"
+    ],
+    "source_url": "https://www.pleasantmeadowfarm.net/products"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.pleasantmeadowfarm.net/products",
+  "data_source": "web-search",
+  "source_url": "https://www.pleasantmeadowfarm.net/",
+  "notes": "Verified 2026-11-22 on pleasantmeadowfarm.net (the main domain; website updated from the squarespace subdomain): homepage, products and FAQ. Quote confirmed; FAQ says no corn or grain of any kind. Pickup at the Shipshewana or Bristol farm, or $35 delivery within Lagrange, Elkhart, Cass or St. Joseph counties; no shipping. Quarter and half beef in stock, whole steer sold out. Shop also sells chicken, duck and guinea eggs but the site does not say the farm keeps the birds, so eggs are not listed.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

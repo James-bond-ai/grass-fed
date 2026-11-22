@@ -1,0 +1,62 @@
+{
+  "id": "seven-sons-farms",
+  "slug": "seven-sons-farms",
+  "farm_name": "Seven Sons Farms",
+  "city": "Roanoke",
+  "state": "IN",
+  "zip": "46783",
+  "address_public": true,
+  "address": "15718 Aboite Road, Roanoke, IN 46783",
+  "website": "https://sevensons.net/",
+  "phone": "260-298-5299",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "burgers",
+    "steaks",
+    "roasts",
+    "beef kabobs",
+    "beef liver",
+    "bones",
+    "organ meats",
+    "beef bundles"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass-fed and grass-finished; cattle never receive grain at any point in their lives.",
+    "source_url": "https://sevensons.net/store/grass-fed-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "ships-nationwide",
+    "local-delivery",
+    "on-farm-store",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Chicago",
+      "Indianapolis",
+      "Fort Wayne"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://sevensons.net/how-home-delivery-works"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells beef, chicken and pork from named partner farms, plus lamb, bison, eggs, dairy, seafood and groceries whose source farms the site does not name.",
+  "ordering_url": "https://sevensons.net/store",
+  "data_source": "web-search",
+  "source_url": "https://sevensons.net/",
+  "notes": "Verifier 2026-11-22: homepage, grass-fed beef store page and home delivery page checked. Verbatim quote corrected to the full sentence on the beef page. Cattle graze on the Roanoke farm and on vetted partner farms, so only beef is listed as raised here and other products stay in resold_note. Delivery across the continental US except Hawaii and Alaska, local courier in its regional area, home delivery in Chicago, Indianapolis and Fort Wayne, pickup at the Roanoke farm store. No quarter, half or whole shares found.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "farmer-joes",
+  "slug": "farmer-joes",
+  "farm_name": "Farmer Joe's",
+  "city": "Salvisa",
+  "state": "KY",
+  "zip": "40372",
+  "address_public": false,
+  "website": "https://farmerjoesky.com/",
+  "phone": "859-321-1691",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "stew meat",
+    "organ meats",
+    "beef bundles",
+    "pastured chicken",
+    "pastured duck",
+    "turkey"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass-fed & finished. No hormones, no antibiotics, no steroids. Ever.",
+    "source_url": "https://farmerjoesky.com/store/grass-fed-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "farm-pickup",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Farm, 4104 Louisville Rd, Salvisa (by appointment)",
+      "PNC Bank, 720 Euclid Ave, Chevy Chase, Lexington",
+      "Republic Bank, 3726 Lexington Rd, St. Matthews, Louisville"
+    ],
+    "source_url": "https://farmerjoesky.com/locations"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://farmerjoesky.com/store",
+  "data_source": "web-search",
+  "source_url": "https://farmerjoesky.com/home",
+  "notes": "Verified 2026-11-22 against home, about, grass-fed beef store and pickup location pages. Store quote confirmed. Online orders with pickup windows at named locations (all showed next date TBA); farm pickup at Salvisa by appointment. Home delivery not confirmed on the pages read, so local-delivery removed. About page says meats are served in restaurants in Chicago. No shipping or bulk shares.",
+  "availability": {
+    "status": "sold-out",
+    "note": "Most beef cuts and all bundles showed sold out; ground beef, heart and liver were available. Pickup dates were listed as TBA.",
+    "checked_on": "2026-11-22"
+  },
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

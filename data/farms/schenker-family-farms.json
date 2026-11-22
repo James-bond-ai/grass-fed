@@ -1,0 +1,71 @@
+{
+  "id": "schenker-family-farms",
+  "slug": "schenker-family-farms",
+  "farm_name": "Schenker Family Farms",
+  "city": "McCune",
+  "state": "KS",
+  "zip": "",
+  "address_public": false,
+  "website": "https://schenkerfarms.com/",
+  "phone": "620-632-4470",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "lamb",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "steaks",
+    "ground beef",
+    "freezer beef (1/2, 1/4, 1/8)",
+    "freezer hog",
+    "pork cuts",
+    "bacon",
+    "lamb cuts",
+    "whole chickens",
+    "chicken cuts",
+    "bone broth",
+    "brown eggs",
+    "meat bundles",
+    "CSA meat subscription"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Quality, Grass-Fed & Finished Beef",
+    "source_url": "https://schenkerfarms.com/products/bulk-beef-1-2-1-4-or-1-8-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "farmers-market",
+    "ships-nationwide",
+    "retail",
+    "csa"
+  ],
+  "farmers_markets": [
+    "Overland Park Farmers Market",
+    "Lenexa Farmers Market (seasonal)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "McCune Farm to Market, McCune",
+      "Next to Nature Farm Store, Leavenworth"
+    ],
+    "source_url": "https://schenkerfarms.com/pages/retail-locations"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://schenkerfarms.com/collections",
+  "data_source": "web-search",
+  "source_url": "https://shopkansasfarms.com/schenker-family-farms",
+  "notes": "Checked collections, beef collection, freezer beef product, about and retail locations pages. Freezer beef product says Grass-Fed & Finished; freezer beef (1/2, 1/4, 1/8) sold out until late February 2027 while retail cuts are still listed. Animals graze prairie and specialty grasses with native grass hay in winter. Site says it ships nationwide. Also sold through Market Wagon and Shatto Home Delivery.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

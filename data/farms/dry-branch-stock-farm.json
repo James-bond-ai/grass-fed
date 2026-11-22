@@ -1,0 +1,59 @@
+{
+  "id": "dry-branch-stock-farm",
+  "slug": "dry-branch-stock-farm",
+  "farm_name": "Dry Branch Stock Farm",
+  "city": "Danville",
+  "state": "KY",
+  "zip": "40422",
+  "address_public": true,
+  "address": "201 West Main Street, Suite A, Danville, KY 40422",
+  "website": "https://www.drybranchstockfarm.com/",
+  "phone": "859-209-2028",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "dry-aged beef",
+    "lamb",
+    "pork",
+    "air-chilled chicken",
+    "turkey",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "As they get older, we supplement (finish) with natural grain made with non-GMO corn.",
+    "source_url": "https://www.drybranchstockfarm.com/our-philosophy/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Dry Branch Farm Market, 125 W Main St, Danville"
+    ],
+    "source_url": "https://www.drybranchstockfarm.com/contact-us/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://drybranchstockfarm.com/store/",
+  "data_source": "web-search",
+  "source_url": "https://www.drybranchstockfarm.com/",
+  "resold_note": "The farm market also sells seasonings, cornbread mixes, granola, sauces, pickled goods and gift items from other small businesses.",
+  "notes": "Verified 2026-11-22 against the homepage, our philosophy, FAQ, contact and freezer space FAQ pages. Cattle graze farm pastures and are finished on non-GMO corn grain; lambs, pigs and poultry also get non-GMO grain on pasture. Store address 125 W Main St, Danville per contact page; philosophy page also mentions Harrodsburg but no address given. Freezer beef and lamb ordered by phone or email with a deposit. Home Delivery menu item has no details, so no delivery recorded. Online store at drybranchstockfarm.com/store.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

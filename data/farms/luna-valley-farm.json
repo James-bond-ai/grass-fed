@@ -1,0 +1,60 @@
+{
+  "id": "luna-valley-farm",
+  "slug": "luna-valley-farm",
+  "farm_name": "Luna Valley Farm",
+  "city": "Decorah",
+  "state": "IA",
+  "zip": "52101",
+  "address_public": true,
+  "address": "3012 Middle Sattre Road, Decorah, IA 52101",
+  "website": "https://www.lunavalleyfarm.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/lunavalleyfarm/",
+    "https://www.instagram.com/lunavalleyfarm/"
+  ],
+  "species": [
+    "beef",
+    "lamb"
+  ],
+  "products": [
+    "beef cuts",
+    "lamb cuts",
+    "quarter and half beef",
+    "whole lamb"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Throughout their lives our animals have access to high quality grass and hay, mineral and salt.",
+    "source_url": "https://www.lunavalleyfarm.com/new-page-1"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Local locker (custom beef and whole lamb)",
+      "Iowa Food Hub drop locations such as Cedar Falls, Cedar Rapids and Des Moines (custom orders, fee billed by Iowa Food Hub)"
+    ],
+    "source_url": "https://www.lunavalleyfarm.com/lamb"
+  },
+  "dairy_products": [],
+  "availability": {
+    "status": "waitlist",
+    "note": "Custom quarter and half beef sold out for 2026 with a waitlist; retail beef and lamb cuts sold at the farm store.",
+    "checked_on": "2026-11-22"
+  },
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.lunavalleyfarm.com/beef",
+  "notes": "Checked homepage, beef, lamb and farm store pages. Beef is 100% grass fed on pasture and farm-grown hay with no grain mentioned; lamb page says lambs are never fed grain. Farm store open Fridays 4 to 8 during pizza nights. Custom quarter or half beef and whole lamb are picked up at the locker or delivered through Iowa Food Hub drop sites. Previous quote was a photo caption, replaced with page text.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

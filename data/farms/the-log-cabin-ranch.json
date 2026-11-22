@@ -1,0 +1,59 @@
+{
+  "id": "the-log-cabin-ranch",
+  "slug": "the-log-cabin-ranch",
+  "farm_name": "The Log Cabin Ranch",
+  "city": "Ina",
+  "state": "IL",
+  "zip": "62846",
+  "address_public": true,
+  "address": "1384 N Log Cabin Ln, Ina, IL 62846",
+  "website": "https://thelogcabinranch.com/",
+  "phone": "618-927-7711",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef cuts",
+    "beef halves, quarters and eighths",
+    "pork",
+    "whole chicken"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass-fed and grass-finished",
+    "source_url": "https://thelogcabinranch.com/frequently-asked-questions"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "on-farm-store",
+    "farm-pickup",
+    "online-order",
+    "local-delivery",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Southern Illinois"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Drop points in Southern Illinois",
+      "Processor pickup for beef halves, quarters and eighths"
+    ],
+    "source_url": "https://thelogcabinranch.com/frequently-asked-questions"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://thelogcabinranch.com/",
+  "data_source": "web-search",
+  "source_url": "https://thelogcabinranch.com/",
+  "notes": "Verified 2026-11-22 on thelogcabinranch.com: homepage, about and FAQ. Quote confirmed on the FAQ; pork and chicken raised on pasture with a non-GMO corn and soy ration. Farm store in Ina with next-day pre-order pickup, drop points in Southern Illinois, local delivery trucks and UPS shipping across the contiguous 48 states. Beef halves, quarters and eighths. No CSA mentioned, so csa removed.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

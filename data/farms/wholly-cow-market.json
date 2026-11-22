@@ -1,0 +1,64 @@
+{
+  "id": "wholly-cow-market",
+  "slug": "wholly-cow-market",
+  "farm_name": "Wholly Cow Market",
+  "city": "Johnson City",
+  "state": "KS",
+  "zip": "",
+  "address_public": false,
+  "website": "https://whollycowmarket.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/whollycowmkt",
+    "https://www.instagram.com/whollycowmeat/"
+  ],
+  "species": [
+    "beef",
+    "poultry"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "burgers",
+    "brisket",
+    "beef offal",
+    "beef sticks",
+    "cooking tallow",
+    "monthly meat boxes",
+    "bulk beef bundles",
+    "whole chickens",
+    "chicken breasts",
+    "chicken dark meat",
+    "chicken giblets",
+    "beef tallow skincare"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are never given hormones or antibiotics, and our beef is never fed grain.",
+    "source_url": "https://whollycowmarket.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "ships-nationwide"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://whollycowmarket.com/"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells one seafood product and produce it says is sourced from local farms, without naming the sources.",
+  "ordering_url": "https://whollycowmarket.com/collections",
+  "data_source": "web-search",
+  "source_url": "https://whollycowmarket.com/pages/areas-we-serve-witchita",
+  "notes": "Verifier 2026-11-22: read homepage, our story, Wichita areas-we-serve and restaurant pages. Our story places the family ranch in Johnson City, KS; homepage says all beef and chicken sold are raised on the 5th generation ranch, beef never fed grain, chickens rotationally pasture-raised. Homepage advertises nationwide delivery; meat ships frozen Mondays and Tuesdays by UPS or FedEx, free shipping over $175 to CO and KS. Wichita page mentions pick-up without details, so no pickup point listed. The family also runs a restaurant in Johnson; its number is not used as the farm phone.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

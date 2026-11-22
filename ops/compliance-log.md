@@ -138,3 +138,6 @@ All 80 reviewed against each farm's own website and the USDA Organic Integrity s
 
 ## 2026-11-15
 - Organic review: Sonrise Farms (IL) possibly matches USDA record 7170220581 (Sonrise Farms Organics LLC, Penfield, Hesterberg family). Same town and name, but the farm's own site could not be read to confirm the owners, and the record certifies crops only (livestock not certified), so no label added either way; recorded as reviewed (no).
+
+## 2026-11-22
+- Organic review: 3 rows from new farms, all with livestock not certified, so no usda-organic label added; all recorded as reviewed (no) without a usda_record link. Barr Farms (KY) possibly matches Barr, Adam (Rhodelia), owner name not confirmed on the farm's site. Guidry Organic Farms (LA) likely matches Guidry Organic Farms LLC (Sunset, same name and town), but that record does not certify livestock. Pond Hill Farms (ME) does not match Skyscraper Hill Farm (Brooks), a different name that only shares the town.

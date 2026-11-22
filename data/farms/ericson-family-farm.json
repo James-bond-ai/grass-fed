@@ -1,0 +1,56 @@
+{
+  "id": "ericson-family-farm",
+  "slug": "ericson-family-farm",
+  "farm_name": "Ericson Family Farm",
+  "city": "Coggon",
+  "state": "IA",
+  "zip": "52218",
+  "address_public": true,
+  "address": "5680 N Highway 13, Coggon, IA 52218",
+  "website": "https://ericsonfamilyfarm.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/profile.php?id=61571483143042",
+    "https://www.instagram.com/ericsonfamilyfarm/"
+  ],
+  "species": [
+    "poultry",
+    "eggs",
+    "pork",
+    "lamb"
+  ],
+  "products": [
+    "pasture-raised chicken",
+    "turkeys",
+    "chicken eggs",
+    "pork",
+    "lamb"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Raised on pasture, our chickens are allowed to roam, eating a natural diet of grasses, seeds, and insects.",
+    "source_url": "https://ericsonfamilyfarm.com/practices/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://ericsonfamilyfarm.com/contact/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/ericsonfamilyfarm/all",
+  "data_source": "web-search",
+  "source_url": "https://ericsonfamilyfarm.com/",
+  "notes": "Verifier 2026-11-22: read homepage, practices, products and contact pages; quote confirmed on practices page. Pastured broilers on farm-blended feed, turkeys raised outdoors, pasture-raised eggs, outdoor-raised pork, and grass-fed and grass-finished lamb; category pastured from the main poultry line. Contact page says the farm offers local deliveries and pick-up locations listed in its Barn2Door store (not read). Visits by appointment. No phone, shipping, markets or bulk shares found.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

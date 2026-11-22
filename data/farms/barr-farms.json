@@ -1,0 +1,68 @@
+{
+  "id": "barr-farms",
+  "slug": "barr-farms",
+  "farm_name": "Barr Farms",
+  "city": "Rhodelia",
+  "state": "KY",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.barrfarmsky.com/",
+  "phone": "859-608-6458",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "poultry",
+    "pork"
+  ],
+  "products": [
+    "grass-fed beef",
+    "pastured chicken",
+    "pork",
+    "CSA meat shares"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "We raise Organic produce, 100% grass-fed beef, pastured chicken and pork on our 260 acre farm.",
+    "source_url": "https://www.barrfarmsky.com/faq"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "csa",
+    "farmers-market",
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [
+    "Douglass Loop Farmers Market, Louisville (Saturdays, April to December)",
+    "Phoenix Hill Farmers Market, Louisville (Tuesdays)"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Louisville inside I-265 (Tuesdays and Saturdays)",
+      "Elizabethtown, Brandenburg and the I-65 corridor from E-town to Louisville (Tuesdays)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Brandenburg (Tuesdays)",
+      "Harmony and Health, Corydon (Tuesdays)",
+      "Crossfit Hard Knox, Fort Knox/Radcliff (Tuesdays)",
+      "Germantown/Paristown, Louisville (Tuesdays)",
+      "Douglass Loop Farmers Market, Louisville (Saturdays)",
+      "Rainbow Blossom stores in Louisville: Highlands, Holiday Manor, Middletown and St. Matthews (Saturdays)",
+      "Locals Food Hub and Pizza Pub"
+    ],
+    "source_url": "https://www.barrfarmsky.com/faq"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://barrfarmsky.localfoodmarketplace.com/",
+  "data_source": "web-search",
+  "source_url": "https://ediblekentucky.ediblecommunities.com/shop/csa-louisville-and-bluegrass",
+  "notes": "Checked barrfarmsky.com homepage, about and FAQ, plus the Local Food Marketplace store, CSA signup and contact pages. FAQ says the farm raises the beef, chicken and pork on its own 260 acres; no finishing wording, so grass-fed. Home delivery is $8.50. Store product list needs a login. No quarter or half beef mentioned.",
+  "resold_note": "The online store also lists products from Morgan Farms and other local partners.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

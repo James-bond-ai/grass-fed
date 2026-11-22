@@ -17,6 +17,11 @@
    "date": "2026-10-26",
    "snapshot": "2026-10-01"
   },
+  "barr-farms": {
+   "decision": "no",
+   "date": "2026-11-22",
+   "snapshot": "2026-10-01"
+  },
   "bean-hollow-grassfed": {
    "decision": "no",
    "date": "2026-10-26",
@@ -155,6 +160,11 @@
   "greenacres-foundation": {
    "decision": "no",
    "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "guidry-organic-farms": {
+   "decision": "no",
+   "date": "2026-11-22",
    "snapshot": "2026-10-01"
   },
   "harmon-creek-farms": {
@@ -303,6 +313,11 @@
   "pigeon-river-farm": {
    "decision": "no",
    "date": "2026-10-26",
+   "snapshot": "2026-10-01"
+  },
+  "pond-hill-farms": {
+   "decision": "no",
+   "date": "2026-11-22",
    "snapshot": "2026-10-01"
   },
   "primal-pastures": {

@@ -1,0 +1,77 @@
+{
+  "id": "knob-hill-farm",
+  "slug": "knob-hill-farm",
+  "farm_name": "Knob Hill Farm",
+  "city": "Webster City",
+  "state": "IA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://knobhillfarm1915.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/myknobhillfarm/",
+    "https://www.instagram.com/knobhillfarm/"
+  ],
+  "species": [
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "pork cuts",
+    "bacon",
+    "bratwurst",
+    "sausage",
+    "holiday hams",
+    "whole chicken",
+    "half and whole hog shares"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "They are fed Organic feed and have daily access to fresh air and grass.",
+    "source_url": "https://knobhillfarm1915.com/pages/our-practices"
+  },
+  "certifications": [
+    {
+      "body": "Minnesota Crop Improvement Association",
+      "program": "usda-organic",
+      "cert_id": "3671600058",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"Knob Hill Farm / Mike and Janine Robertson\" (Webster City, IA), livestock certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-11-22"
+    }
+  ],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "farm-pickup",
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Ames Main Street Farmers Market (May through October)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Ames",
+      "Webster City"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Webster City (usually Mondays or Tuesdays)",
+      "Ames (usually Wednesdays)",
+      "Iowa Food Cooperative, Des Moines (every other Wednesday)",
+      "Ames Main Street Farmers Market (May to October)",
+      "Clarion Locker (custom half and whole hogs)"
+    ],
+    "source_url": "https://knobhillfarm1915.com/pages/shipping-delivery-information"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://knobhillfarm1915.com/collections/all",
+  "data_source": "web-search",
+  "source_url": "https://amesmainstreetfarmersmarket.locallygrown.net/growers/show/9477",
+  "notes": "Verifier 2026-11-22 read our practices and pickup, delivery and shipping pages. Quote confirmed (broilers); pigs, broilers and hens have year round outdoor access and organic feed, so pastured. Delivery only in Ames and Webster City. Bundles ship flat rate to areas shown only on a map image, so no shipping states recorded. Farm claims USDA organic; left to the organic match script.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "septenary-farm",
+  "slug": "septenary-farm",
+  "farm_name": "Septenary Farm",
+  "city": "Ames",
+  "state": "IA",
+  "zip": "50014",
+  "address_public": true,
+  "address": "50459 150th St, Ames, IA 50014",
+  "website": "https://septenaryfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": [
+    "poultry",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "whole chickens",
+    "turkeys",
+    "Berkshire pork",
+    "eggs",
+    "vegetables",
+    "plants"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our pastured meat chickens start out the first 2 weeks in a brooder to help them get a healthy start.",
+    "source_url": "https://septenaryfarm.com/products/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "csa",
+    "online-order",
+    "local-delivery",
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Ames",
+      "Gilbert",
+      "Story City"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://septenaryfarm.com/contact/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/septenaryfarm/all",
+  "data_source": "web-search",
+  "source_url": "https://septenaryfarm.com/",
+  "notes": "Verifier 2026-11-22: read products and contact pages; quote confirmed on products page. Meat chickens move from a brooder to pasture with feed from a local mill; turkeys raised the same way; farm raises purebred Berkshire pigs (no feeding detail); hens get garden scraps. Weekly CSA boxes delivered or picked up at the farm; delivery to Ames, Gilbert and Story City; on-farm pickup Saturdays 10 to 2 or by appointment. Barn2Door store not read. No phone, shipping, markets or bulk found.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

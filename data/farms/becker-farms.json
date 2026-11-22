@@ -1,0 +1,77 @@
+{
+  "id": "becker-farms",
+  "slug": "becker-farms",
+  "farm_name": "Becker Farms",
+  "city": "Mooreland",
+  "state": "IN",
+  "zip": "47360",
+  "address_public": true,
+  "address": "7392 N. Wilbur Wright Rd., Mooreland, IN 47360",
+  "website": "https://beckerfarmsin.com/",
+  "phone": "765-524-8697",
+  "social_urls": [
+    "https://www.facebook.com/beckerfarmsin",
+    "https://www.instagram.com/beckerfarmsin/"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "steaks",
+    "roasts",
+    "ground beef",
+    "beef patties",
+    "organ meats",
+    "beef tallow",
+    "quarter beef",
+    "bacon",
+    "ham",
+    "pork chops",
+    "pork sausage",
+    "half hog",
+    "whole chickens",
+    "chicken cuts",
+    "chicken sausage",
+    "turkeys",
+    "turkey cuts",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "are pasture-raised, with much of their diet consisting of the components just mentioned as well as a small amount of non-GMO grain during the winter season.",
+    "source_url": "https://beckerfarmsin.com/pages/faqs"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "farmers-market",
+    "local-delivery",
+    "csa"
+  ],
+  "farmers_markets": [
+    "Carmel Winter Farmers Market, Carmel",
+    "Carmel Farmers Market, Carmel",
+    "Fishers Farmers Market, Fishers"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Carmel Winter Farmers Market, 611 3rd Ave SW, Carmel (Saturdays 9 a.m. to noon, October to March)"
+    ],
+    "source_url": "https://beckerfarmsin.com/pages/faqs"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://beckerfarmsin.com/collections/all-products",
+  "data_source": "web-search",
+  "source_url": "https://beckerfarmsin.com/",
+  "notes": "Verified 2026-11-22 against homepage, FAQs, FAQs-new and beef collection. FAQ quote confirmed: cattle pasture-raised with a small amount of non-GMO grain in winter, so percentage. Quarter, half and whole beef and pork; Carmel Winter Farmers Market pickup Saturdays; CSA with monthly pickup or delivery; no shipping. FAQs-new says some animals are raised on additional farms after a flood.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "pond-hill-farms",
+  "slug": "pond-hill-farms",
+  "farm_name": "Pond Hill Farms",
+  "city": "Brooks",
+  "state": "ME",
+  "zip": "04921",
+  "address_public": true,
+  "address": "144 Pond Hill Rd, Brooks, ME 04921",
+  "website": "https://www.pondhillfarms.com/",
+  "phone": "207-322-4682",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef cuts",
+    "Wagyu beef",
+    "quarter beef",
+    "half beef",
+    "whole beef"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our beef is 100% self-certified grass-fed through the State of Maine.",
+    "source_url": "https://www.pondhillfarms.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.pondhillfarms.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.pondhillfarms.com/",
+  "notes": "Verifier 2026-11-22 read homepage, Maine grass fed beef and about pages. Quote confirmed. Sells state-inspected cuts by the pound and quarters, halves and wholes by hanging weight; call or email for availability and the site invites buyers to the farm. No delivery or shipping stated. No finishing statement, so grass-fed.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

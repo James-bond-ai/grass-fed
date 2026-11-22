@@ -1,0 +1,59 @@
+{
+  "id": "sunset-valley-farms",
+  "slug": "sunset-valley-farms",
+  "farm_name": "Sunset Valley Farms",
+  "city": "Broad Brook",
+  "state": "CT",
+  "zip": "06016",
+  "address_public": true,
+  "address": "55 Kreyssig Road, Broad Brook, CT 06016",
+  "website": "https://sunsetvalleyfarmsllc.com/",
+  "phone": "860-670-0495",
+  "social_urls": [],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "ground beef",
+    "steaks",
+    "roasts",
+    "stew meat",
+    "brisket",
+    "soup bones",
+    "marrow bones",
+    "organ meats",
+    "pork chops",
+    "pork roasts",
+    "ribs",
+    "bacon",
+    "ham",
+    "ground pork"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our beef are grass fed year round from our own lush pastures.",
+    "source_url": "https://sunsetvalleyfarmsllc.com/grass-fed-beef-eastern-ct/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://sunsetvalleyfarmsllc.com/information-pricing/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://sunsetvalleyfarmsllc.com/",
+  "notes": "Verifier 2026-11-22: grass-fed beef and information and pricing pages checked (products page could not be opened, so the quote source is the grass-fed beef page). Cattle graze in summer and eat farm hay in winter; no grain or finishing statement, so category grass-fed. Quarter and half beef at $8.20 per lb hanging weight (January 2027 pricing) and half pigs; orders by phone with Steve Moser, meat picked up frozen. A local service area is named but no page says it delivers or ships, so none recorded.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

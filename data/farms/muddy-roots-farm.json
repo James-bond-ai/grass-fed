@@ -1,0 +1,65 @@
+{
+  "id": "muddy-roots-farm",
+  "slug": "muddy-roots-farm",
+  "farm_name": "Muddy Roots Farm",
+  "city": "Wallingford",
+  "state": "CT",
+  "zip": "06492",
+  "address_public": true,
+  "address": "175 Northford Rd., Wallingford, CT 06492",
+  "website": "https://www.muddyrootsfarm.com/",
+  "phone": "203-213-6001",
+  "social_urls": [
+    "https://www.facebook.com/MuddyRootsFarm",
+    "https://www.instagram.com/muddyrootsfarm"
+  ],
+  "species": [
+    "poultry",
+    "eggs",
+    "pork"
+  ],
+  "products": [
+    "whole chickens",
+    "chicken breasts",
+    "chicken tenders",
+    "chicken quarters",
+    "chicken thighs",
+    "wings",
+    "drumsticks",
+    "chicken livers",
+    "chicken hearts",
+    "eggs",
+    "half and whole pigs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our poultry is humanely raised and rotated on fresh pasture daily to keep the birds healthy and to help rejuvenate the land.",
+    "source_url": "https://www.muddyrootsfarm.com/poultry"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "farmers-market"
+  ],
+  "farmers_markets": [
+    "Stamford Farmers' Market"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Stamford Farmers' Market"
+    ],
+    "source_url": "https://www.muddyrootsfarm.com/ordering"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.muddyrootsfarm.com/ordering",
+  "data_source": "web-search",
+  "source_url": "https://ctbites.com/blog/2020/5/1/field-guide-to-ct-grown-meats-via-connecticut-food-and-farm-magazine",
+  "notes": "Verifier 2026-11-22 read meat chickens, ordering, pork, eggs and contact pages. Poultry quote fixed to the full sentence on the meat chickens page; birds get non-GMO grain supplement, pigs get non-GMO grain and garden scraps, hens on pasture in warm months. Whole birds picked up on the farm; birds and cuts at the Stamford Farmers' Market in season; eggs on the farm year round and through HealthyPlanEat. Chicken orders open in January; pork (half or whole only) sold out for 2026. Turkeys removed: not on the pages read. Second phone (860) 805-0788.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

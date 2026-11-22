@@ -1,0 +1,74 @@
+{
+  "id": "dirty-dog-farm",
+  "slug": "dirty-dog-farm",
+  "farm_name": "Dirty Dog Farm",
+  "city": "Germantown",
+  "state": "NY",
+  "zip": "12526",
+  "address_public": true,
+  "address": "168 Buckwheat Road, Germantown, NY 12526",
+  "website": "https://dirtydogfarm.com/",
+  "phone": "518-660-7824",
+  "social_urls": [
+    "https://www.facebook.com/DirtyDogFarm",
+    "https://www.instagram.com/dirtydogfarm"
+  ],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "ground beef",
+    "ground beef with liver and heart",
+    "steaks",
+    "beef shares",
+    "meal prep packs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cows eat grass (and only grass), spend their lives on pasture, and help us build healthier soil.",
+    "source_url": "https://dirtydogfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "ships-regional"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [
+      "NY",
+      "NJ",
+      "CT",
+      "MA",
+      "PA",
+      "RI",
+      "VT",
+      "NH",
+      "ME",
+      "MD",
+      "DE",
+      "OH",
+      "VA",
+      "NC",
+      "SC",
+      "IL",
+      "IN",
+      "MI",
+      "KY",
+      "WV"
+    ],
+    "pickup_locations": [],
+    "source_url": "https://dirtydogfarm.com/pages/faqs"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://dirtydogfarm.com/",
+  "data_source": "web-search",
+  "source_url": "https://dirtydogfarm.com/",
+  "notes": "Verifier 2026-11-22: homepage, about and FAQ checked. Verbatim quote confirmed on the homepage; FAQ says grass and only grass, hay in winter, no grain ever. FAQ confirms Zone 1 and Zone 2 shipping states as recorded and no shipping west of the Mississippi. Beef only; eighth, quarter, half and whole shares listed.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

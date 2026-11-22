@@ -1,0 +1,79 @@
+{
+  "id": "oconnell-organic-acres",
+  "slug": "oconnell-organic-acres",
+  "farm_name": "O'Connell Organic Acres",
+  "city": "Durango",
+  "state": "IA",
+  "zip": "52039",
+  "address_public": true,
+  "address": "20595 Asbury Rd, Durango, IA 52039",
+  "website": "https://oconnellorganicacres.com/",
+  "phone": "563-542-2574",
+  "social_urls": [
+    "https://www.facebook.com/OConnellOrganicAcres",
+    "https://www.instagram.com/oconnellorganicacres/"
+  ],
+  "species": [
+    "beef",
+    "lamb",
+    "pork",
+    "poultry"
+  ],
+  "products": [
+    "beef cuts",
+    "lamb",
+    "pork",
+    "chicken",
+    "quarter, half and whole beef",
+    "half and whole hogs"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are 100% grass fed from start to finish. They are never fed any grain.",
+    "source_url": "https://oconnellorganicacres.com/FAQs"
+  },
+  "certifications": [
+    {
+      "body": "Iowa Department of Agriculture and Land Stewardship",
+      "program": "usda-organic",
+      "cert_id": "5400000196",
+      "evidence_url": "https://organic.ams.usda.gov/integrity/Reports/DataHistory",
+      "evidence_note": "Matched to USDA record \"O'Connell Organic Acres, LLC\" (Durango, IA), livestock certified, in the Organic Integrity snapshot of 2026-10-01.",
+      "verified_on": "2026-11-22"
+    }
+  ],
+  "sales_channels": [
+    "on-farm-store",
+    "online-order",
+    "local-delivery",
+    "ships-nationwide",
+    "farmers-market",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [
+    "Downtown Dubuque Farmers' Market (summer, Saturday mornings, May to October)",
+    "Winter Dubuque Farmers' Market (Saturday mornings, November to April)"
+  ],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Dubuque area (weekly, Wednesdays)",
+      "Iowa City route (every four weeks, Mondays)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [
+      "Sprinkled Confections, Holy Cross (retail)"
+    ],
+    "source_url": "https://oconnellorganicacres.com/delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://oconnellorganicacres.com/store",
+  "data_source": "web-search",
+  "source_url": "https://oconnellorganicacres.com/",
+  "notes": "Checked homepage, FAQs, delivery, our animals and contact pages. Cattle 100% grass fed and never grain; lamb 100% grass-fed; hogs pasture-raised on farm-grown organic grain; chickens pastured from day-old chicks shipped in. Ships to all 48 contiguous states by FedEx; Dubuque delivery Wednesdays and an Iowa City route. Quarter, half and whole cows and half and whole hogs. Farm store Thursday and Saturday, other days by appointment. Markets and retail list taken from the earlier scout read of the retail page. Organic labels left to the match script.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

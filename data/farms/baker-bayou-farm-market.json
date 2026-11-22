@@ -1,0 +1,57 @@
+{
+  "id": "baker-bayou-farm-market",
+  "slug": "baker-bayou-farm-market",
+  "farm_name": "Baker Bayou Farm Market",
+  "city": "Pineville",
+  "state": "LA",
+  "zip": "71360",
+  "address_public": true,
+  "website": "https://bakerbayoufarmmarket.com/",
+  "phone": "318-419-2044",
+  "social_urls": [
+    "https://www.instagram.com/bakerbayoufarmmarket/"
+  ],
+  "species": [
+    "beef",
+    "poultry",
+    "eggs"
+  ],
+  "products": [
+    "grass-fed beef cuts",
+    "whole beef",
+    "pastured chicken",
+    "pastured eggs"
+  ],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Baker Bayou’s beef is grass-fed and raised using regenerative farming practices.",
+    "source_url": "https://bakerbayoufarmmarket.grazecart.com/store/product/whole-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "local-delivery",
+    "online-order",
+    "retail"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Local delivery on Mondays (area not named)"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://bakerbayoufarmmarket.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://bakerbayoufarmmarket.com/store",
+  "data_source": "web-search",
+  "source_url": "https://bakerbayoufarmmarket.com/",
+  "notes": "Checked homepage, about, contact, on-farm pickup, store, pork category and whole beef pages. Beef labeled grass-fed and 99.9% Grass Fed, finishing not stated. Free farm pickup Monday to Saturday, $10 local delivery Mondays; freezer beef not shipped. Pastured Pork category had no products, so pork not listed. Site mentions stores near you but names none.",
+  "address": "2446 Hickory Hill Road, Pineville, LA 71360",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

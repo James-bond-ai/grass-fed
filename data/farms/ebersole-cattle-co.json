@@ -1,0 +1,64 @@
+{
+  "id": "ebersole-cattle-co",
+  "slug": "ebersole-cattle-co",
+  "farm_name": "Ebersole Cattle Co",
+  "city": "Kellerton",
+  "state": "IA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.ebersolecattleco.com/",
+  "phone": "515-971-8462",
+  "social_urls": [
+    "https://www.facebook.com/EbersoleCattleCo/",
+    "https://www.instagram.com/ebersolecattleco/",
+    "https://www.tiktok.com/@ebersolecattleco"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "beef bundles",
+    "ground beef",
+    "beef sticks",
+    "organ meats",
+    "bone broth",
+    "half and quarter beef",
+    "pork bundles",
+    "half hog",
+    "eggs",
+    "tallow balm"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We raise and finish your beef on the best grass of the season.",
+    "source_url": "https://www.ebersolecattleco.com/products/2026-half-beef"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Des Moines metro"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Single Speed Brewing (monthly egg pickup, Des Moines metro)"
+    ],
+    "source_url": "https://www.ebersolecattleco.com/products/ecc-quarter-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.ebersolecattleco.com/pages/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.ebersolecattleco.com/",
+  "notes": "Verifier 2026-11-22 read homepage, our story, FAQ, contact, quarter and half beef, egg and pork bundle pages. Beef pages say 100% Grass Fed and Finished; quote fixed to the exact half beef page wording. Eggs are from the ranch hens (pasture raised, non-GMO grain). Pork is called \"our\" Berkshire Duroc pork but no page says how it is raised. Home delivery to the Des Moines metro. Quarter beef page says Free Nationwide Shipping and a pork page says shipping is available, but no shipping policy or area is given, so no shipping recorded.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

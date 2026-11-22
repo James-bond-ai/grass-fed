@@ -1,0 +1,66 @@
+{
+  "id": "mj-ranch",
+  "slug": "mj-ranch",
+  "farm_name": "MJ Ranch",
+  "city": "Lawrence",
+  "state": "KS",
+  "zip": "66044",
+  "address_public": true,
+  "address": "3105 Wild Horse Road, Lawrence, KS 66044",
+  "website": "https://mandjranch.com/",
+  "phone": "785-865-2503",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "whole beef",
+    "half beef",
+    "quarter beef",
+    "ground beef",
+    "beef liver",
+    "beef heart",
+    "soup bones",
+    "tallow balm"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% GRASS-FED/GRASS FINISHED ANGUS BEEF!",
+    "source_url": "https://mandjranch.com/pressy/wp-content/uploads/2026/01/FOR-SALE_MJ-Ranch-Updated-01JAN26.pdf"
+  },
+  "certifications": [
+    {
+      "program": "agw-grassfed",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/kansas/lawrence/beef-1/mj-ranch/",
+      "verified_on": "2026-11-22"
+    },
+    {
+      "program": "awa",
+      "evidence_url": "https://agreenerworld.org/agw-listings/united-states/kansas/lawrence/beef-1/mj-ranch/",
+      "verified_on": "2026-11-22"
+    }
+  ],
+  "sales_channels": [
+    "farm-pickup"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Steve's Meat Market (processor), 32685 Lexington, DeSoto, KS",
+      "Baumans Butcher Block (processor), 2417 Haskell Rd., Ottawa, KS"
+    ],
+    "source_url": "https://mandjranch.com/pressy/wp-content/uploads/2026/01/FOR-SALE_MJ-Ranch-Updated-01JAN26.pdf"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://mandjranch.com/pressy/contact-pricing/",
+  "data_source": "web-search",
+  "source_url": "https://ictfoodcircle.org/local-food-directory/wpbdp_category/grass-fed-beef/",
+  "notes": "Verified 2026-11-22 against homepage, contact and pricing page, practices page and the 01JAN26 bulk order sheet. Quote is from the bulk order sheet; practices page says cattle get only grass and hay after weaning. Front or hind quarter, half or whole at hanging weight, $100 deposit; buyers pick up and pay processing at Steve's Meat Market (DeSoto) or Baumans Butcher Block (Ottawa). AGW listing page for MJ Ranch, Lawrence shows Certified Grassfed and Animal Welfare Approved, so both added.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

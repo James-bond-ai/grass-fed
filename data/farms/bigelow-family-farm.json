@@ -1,0 +1,53 @@
+{
+  "id": "bigelow-family-farm",
+  "slug": "bigelow-family-farm",
+  "farm_name": "Bigelow Family Farm",
+  "city": "Winterset",
+  "state": "IA",
+  "zip": "50273",
+  "address_public": true,
+  "address": "1854 275th Street, Winterset, IA 50273",
+  "website": "https://bigelowfamilyfarm.com/",
+  "phone": "515-313-5703",
+  "social_urls": [
+    "https://www.facebook.com/BigelowFamilyFarm",
+    "https://www.instagram.com/bigelow.family.farm/"
+  ],
+  "species": [
+    "beef",
+    "pork"
+  ],
+  "products": [
+    "whole, half and quarter beef",
+    "grass-finished beef (limited)",
+    "whole and half hogs"
+  ],
+  "feeding_claim": {
+    "category": "both",
+    "verbatim": "We are now (2025) offering a limited number of grass finished beef.",
+    "source_url": "https://bigelowfamilyfarm.com/beef/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [
+      "Story City Locker, Story City"
+    ],
+    "source_url": "https://bigelowfamilyfarm.com/buy/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://bigelowfamilyfarm.com/buy/",
+  "data_source": "web-search",
+  "source_url": "https://bigelowfamilyfarm.com/beef/",
+  "notes": "Verifier 2026-11-22 read homepage, beef, buy and contact pages and the farm page. Verbatim quote confirmed on the beef page. Main line is hay and Non-GMO corn finished; a limited grass finished line is requested on the order form (receives some grain at weaning). Whole, half and quarter beef by deposit, pickup at Story City Locker. Address and both phones are on the contact page; second phone (Crystal) 515-493-9206. No delivery or shipping. Eggs not offered for sale.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "rocky-ridge-livestock",
+  "slug": "rocky-ridge-livestock",
+  "farm_name": "Rocky Ridge Livestock",
+  "city": "Canton",
+  "state": "ME",
+  "zip": "04221",
+  "address_public": true,
+  "address": "42 Keene Road, Canton, ME 04221",
+  "website": "https://www.rockyridgelivestockllc.com/",
+  "phone": "",
+  "social_urls": [
+    "https://www.facebook.com/rockyridgelivestock",
+    "https://www.instagram.com/rockyridgelivestockllc"
+  ],
+  "species": [
+    "beef",
+    "pork",
+    "eggs"
+  ],
+  "products": [
+    "quarter beef",
+    "side of beef",
+    "whole beef",
+    "beef bundles",
+    "ground beef",
+    "steaks",
+    "roasts",
+    "pork",
+    "eggs"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Grass fed Grain-finished Locally Raised Maine Beef",
+    "source_url": "https://www.rockyridgelivestockllc.com/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.rockyridgelivestockllc.com/shop-farm-raised-products"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.rockyridgelivestockllc.com/shop-farm-raised-products",
+  "data_source": "web-search",
+  "source_url": "https://www.rockyridgelivestockllc.com/",
+  "notes": "Verifier 2026-11-22 read homepage, livestock practices and farm store pages. Quote is the homepage description, Grass fed Grain-finished Locally Raised Maine Beef available by the quarter, half and whole; practices page says calves are born on the farm in spring and raised with local grain and grass. Farm store sells whole, side and quarter deposits and bundles with pickup scheduled at the farm. Homepage says shipping to your doorstep is available through a ChopLocal shop, which could not be opened, and names no states, so no shipping channel is recorded. Homepage lists beef, pork and eggs; no feeding details for pigs or hens. A ribeye image is captioned Hazy Ridge Pasture LLC without explanation. No phone on the site.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

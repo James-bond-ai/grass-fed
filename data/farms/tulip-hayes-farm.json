@@ -1,0 +1,55 @@
+{
+  "id": "tulip-hayes-farm",
+  "slug": "tulip-hayes-farm",
+  "farm_name": "Tulip Hayes Farm",
+  "city": "Georgetown",
+  "state": "KY",
+  "zip": "40324",
+  "address_public": false,
+  "website": "https://www.tuliphayesfarm.com/",
+  "phone": "502-524-0453",
+  "social_urls": [],
+  "species": [
+    "pork"
+  ],
+  "products": [
+    "pork chops",
+    "tomahawk pork chops",
+    "roasts",
+    "bacon",
+    "sausage",
+    "bratwurst",
+    "hocks",
+    "half and whole hogs",
+    "feeder and breeding pigs"
+  ],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our Berkshire heritage hogs are pasture raised.",
+    "source_url": "https://www.tuliphayesfarm.com/our-story"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [
+      "Central Kentucky"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.tuliphayesfarm.com/contact-us"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.tuliphayesfarm.com/farm-store",
+  "data_source": "web-search",
+  "source_url": "https://www.tuliphayesfarm.com/",
+  "notes": "Verifier 2026-11-22 read homepage, our story, available livestock, farm store and contact pages. Quote replaced with a complete sentence from the our story page (the homepage sentence is longer than the earlier excerpt). Pigs rotate across 175 acres of woodland and pasture with free choice forage plus milled feed, so pastured. Farm store lists cuts (many sold out), half and whole hog deposits and free home delivery on orders of $75 and over; contact page says the farm serves Central Kentucky. Finished hogs priced by hanging weight and taken to a Kentucky processor of the buyer's choice. The store also sells fresh eggs, but no page mentions hens, so eggs are left out of species until their source is confirmed.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

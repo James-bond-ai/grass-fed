@@ -1,0 +1,62 @@
+{
+  "id": "fischer-farms",
+  "slug": "fischer-farms",
+  "farm_name": "Fischer Farms",
+  "city": "St. Anthony",
+  "state": "IN",
+  "zip": "47575",
+  "address_public": true,
+  "address": "4630 South Cross St., St. Anthony, IN 47575",
+  "website": "https://ffnatural.com/",
+  "phone": "812-266-0537",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "dry-aged beef"
+  ],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Calves are finished in open air and bedded barns.",
+    "source_url": "https://ffnatural.com/sustainability"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "online-order",
+    "local-delivery",
+    "ships-regional",
+    "retail",
+    "restaurants"
+  ],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "Indiana and the Midwest"
+    ],
+    "local_radius_miles": null,
+    "ships_to": [
+      "IN",
+      "KY",
+      "MO",
+      "IL",
+      "OH",
+      "TN",
+      "AL"
+    ],
+    "pickup_locations": [
+      "Pickup points around Indiana and Chicago"
+    ],
+    "source_url": "https://ffnatural.com/indiana-meat-delivery"
+  },
+  "dairy_products": [],
+  "resold_note": "Also sells pork from the Gutgsell family, chicken from Miller Poultry, eggs and produce from an Amish community near Paoli, and dairy and pantry items from other Indiana farms and businesses.",
+  "ordering_url": "https://ffnatural.com/store",
+  "data_source": "web-search",
+  "source_url": "https://ffnatural.com/",
+  "notes": "Checked homepage, farm story, sustainability, buy beef and delivery pages (the blog post was blocked). Calves are born and grazed on pasture, then fed on pasture and feed and finished in barns, so grain-finished. Home delivery at $9.98 to Indiana, Kentucky and parts of MO, IL, OH, TN and AL, more elsewhere in its zone, which the site says covers most of the country. No quarter or half beef found. Pork, chicken, eggs and produce come from partner farms.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}

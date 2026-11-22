@@ -1,0 +1,63 @@
+{
+  "id": "three-twelve-beef",
+  "slug": "three-twelve-beef",
+  "farm_name": "Three Twelve Beef",
+  "city": "St. Francisville",
+  "state": "LA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.threetwelvebeef.com/",
+  "phone": "225-721-1313",
+  "social_urls": [],
+  "species": [
+    "beef"
+  ],
+  "products": [
+    "beef family pack",
+    "ground beef",
+    "stew meat",
+    "roasts",
+    "steaks",
+    "liver",
+    "bones"
+  ],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Pasture raised, grass fed, grass finished, and never given any growth hormones.",
+    "source_url": "https://www.threetwelvebeef.com/pricing/"
+  },
+  "certifications": [],
+  "sales_channels": [
+    "farmers-market",
+    "local-delivery",
+    "farm-pickup",
+    "online-order"
+  ],
+  "farmers_markets": [
+    "St. Francisville Farmer's Market, Thursdays 9 to 1, Wilcox Street"
+  ],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [
+      "within 40 miles of the office on Hwy. 421 in St. Francisville (Fridays)",
+      "family packs to homes within 5 miles of St. Francisville or Jackson"
+    ],
+    "local_radius_miles": 40,
+    "ships_to": [],
+    "pickup_locations": [
+      "The Bluffs, Mondays",
+      "Tara Marie Photography, Fridays",
+      "Baton Rouge, Wednesdays",
+      "Jackson, LA, Mondays"
+    ],
+    "source_url": "https://www.threetwelvebeef.com/pricing/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://threetwelvebeef.square.site/",
+  "data_source": "web-search",
+  "source_url": "https://www.threetwelvebeef.com/",
+  "notes": "Checked pricing and ordering pages; the homepage redirects to the Square shop, which could not be opened. Feeding quote confirmed. Friday delivery $5 within 20 miles and $7 within 20 to 40 miles; free pickup; pickup points and the Thursday St. Francisville market listed on the ordering page. Pricing page says no need to buy a whole or half animal, and no bulk share offer was seen, so bulk_shares is false.",
+  "listing_status": "published",
+  "last_verified_at": "2026-11-22",
+  "verification_method": "auto"
+}
