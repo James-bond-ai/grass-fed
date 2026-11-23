@@ -1,0 +1,35 @@
+{
+  "id": "lopes-farm-maui",
+  "slug": "lopes-farm-maui",
+  "farm_name": "Lopes Farm Maui",
+  "city": "Kula",
+  "state": "HI",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.lopesfarmmaui.com/",
+  "phone": "808-870-5038",
+  "social_urls": ["https://www.facebook.com/lopes.farm.96"],
+  "species": ["beef", "pork", "poultry", "goat", "lamb", "eggs"],
+  "products": ["beef by the whole, half, quarter or eighth", "ground beef", "pork", "free-range chicken", "grass-fed goat", "grass-fed lamb", "eggs"],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Our COWS are fed 70% grass and veggies with 30% being spent grain from Maui Brewing Co.",
+    "source_url": "https://www.lopesfarmmaui.com/animals"
+  },
+  "certifications": [],
+  "sales_channels": ["farmers-market"],
+  "farmers_markets": ["Upcountry Farmer's Market, Pukalani (egg pickup every other Saturday, reserve ahead)"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Upcountry Farmer's Market, Pukalani, every other Saturday (eggs)"],
+    "source_url": "https://www.lopesfarmmaui.com/meat"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.lopesfarmmaui.com/meat",
+  "data_source": "web-search",
+  "source_url": "https://www.lopesfarmmaui.com/meat",
+  "notes": "Paul Lopes, farms in Kula, Olinda, Haiku and Waihe'e on Maui; Kula used as town but the site gives no single home farm, Verifier should confirm. Read meat, animals, about and contact pages. Orders by email or phone, at least one month before delivery with a $100 deposit (contact page), so how meat is handed over is unclear; only egg pickup at the Upcountry Farmer's Market is stated. Animals page: cows 70% grass and veggies, 30% spent grain, grain added to calves' diet; pigs fed food waste from partners; chickens fed grain, veggies and food scraps; goats and lambs graze pasture. Beef, pork and lamb sold whole, half, quarter or eighth. Listed prices (beef $5 per pound) look old; Verifier should check whether the site is current. Quotes came from WebFetch extraction."
+}

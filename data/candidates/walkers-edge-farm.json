@@ -1,0 +1,36 @@
+{
+  "id": "walkers-edge-farm",
+  "slug": "walkers-edge-farm",
+  "farm_name": "Walker's Edge Farm",
+  "city": "Louisburg",
+  "state": "KS",
+  "zip": "66053",
+  "address_public": true,
+  "address": "4120 West 295th Street, Louisburg, KS 66053",
+  "website": "https://walkersedgefarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["eggs"],
+  "products": ["chicken eggs", "duck eggs", "seasonal vegetables"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our hens and ducks forage on pasture, and you can taste the difference.",
+    "source_url": "https://walkersedgefarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://walkersedgefarm.com/order.html"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://walkersedgefarm.com/order.html",
+  "data_source": "web-search",
+  "source_url": "https://walkersedgefarm.com/",
+  "notes": "Family farm established 2024. Read homepage, animals, about and order eggs pages; contact page not read. Egg order form, pay at pickup or delivery; farm pickup Mon to Fri 5 to 7 pm, Sat 9 to noon. Delivery offered but no area named. Also raises Highland cattle (breeding program only, no beef for sale seen), Kunekune pigs (listed as breeding stock and pork, no cuts or prices) and registered goats sold live, so only eggs listed as a species. Instagram handle @walkers_edge_farm and a Facebook page are linked but full URLs not captured."
+}

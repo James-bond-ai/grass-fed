@@ -1,0 +1,41 @@
+{
+  "id": "brass-family-farm",
+  "slug": "brass-family-farm",
+  "farm_name": "Brass Family Farm",
+  "city": "Stillman Valley",
+  "state": "IL",
+  "zip": "61084",
+  "address_public": true,
+  "address": "9402 N Meridian Rd, Stillman Valley, IL 61084",
+  "website": "https://brassfamilyfarm.com/",
+  "phone": "(815) 218-5076",
+  "social_urls": [],
+  "species": ["beef", "pork"],
+  "products": ["beef quarter, half, three-quarter and whole shares", "beef bundles and samplers", "ground beef box", "brisket", "liver", "bones", "beef fat", "half and whole hogs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our Red Devon–influenced cattle are 100% grass-fed and grass-finished, carefully raised and properly finished on pasture.",
+    "source_url": "https://brassfamilyfarm.com/product/quarter-beef/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Bulk beef picked up from the local butcher (small-scale butchers within an hour of Rockford)"],
+    "source_url": "https://brassfamilyfarm.com/products/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://brassfamilyfarm.com/products/",
+  "data_source": "web-search",
+  "source_url": "https://brassfamilyfarm.com/",
+  "availability": {
+    "status": "sold-out",
+    "note": "Pork: the farm says its 2026 pork season has concluded. Beef shares and boxes still offered.",
+    "checked_on": "2026-11-23"
+  },
+  "notes": "Footer also names Brass Family dba Walnut Grove Farm. Read homepage, farm and family page, products page and quarter beef deposit page; county landing pages (Cook County etc.) returned a verification screen. Beef boxes by pre-order with farm pickup by appointment; shares picked up from the butcher, customer pays processing. Pasture-raised pork by half or whole hog. Winter feeding is grass/alfalfa hay on pasture. No delivery or shipping seen. The quote contains an en dash from the site's own text. Availability status describes pork only; Verifier may prefer to drop the availability object since beef is available. Pork page and why-grass-fed page not read."
+}

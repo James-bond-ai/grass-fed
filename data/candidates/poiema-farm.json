@@ -1,0 +1,36 @@
+{
+  "id": "poiema-farm",
+  "slug": "poiema-farm",
+  "farm_name": "Poiema Farm",
+  "city": "Sterling",
+  "state": "AK",
+  "zip": "99672",
+  "address_public": true,
+  "address": "39694 Fritz Street, Sterling, AK 99672",
+  "website": "https://www.poiemafarm.com/",
+  "phone": "(907) 206-4703",
+  "social_urls": [],
+  "species": ["poultry", "lamb"],
+  "products": ["pasture-raised chicken", "turkey", "lamb"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Truly pasture-raised, moved daily, soaking in the sun, munching on grass, and scratching for grubs.",
+    "source_url": "https://www.poiemafarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.poiemafarm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://poiemafarm.localline.ca/shop",
+  "data_source": "web-search",
+  "source_url": "https://www.poiemafarm.com/",
+  "notes": "Kenai Peninsula farm. Read the homepage, about and contact pages on 2026-11-23; the Local Line shop (poiemafarm.localline.ca/shop) loads only with JavaScript and shop.poiemafarm.com was blocked, so products, prices and delivery area were not seen. Homepage says chicken is moved daily on pasture and turkeys get up to 30% of their feed from pasture; lamb is St. Croix sheep with no feeding detail. Homepage says meats are delivered to your door but names no area, so local_areas left empty; Verifier should read the shop for delivery zones and pickup points. Site meta description mentions pork and the about page says meat and egg farm, but no pork or eggs were seen for sale, so they are left out. Quotes came from WebFetch extraction."
+}

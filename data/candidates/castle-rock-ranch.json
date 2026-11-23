@@ -1,0 +1,36 @@
+{
+  "id": "castle-rock-ranch",
+  "slug": "castle-rock-ranch",
+  "farm_name": "Castle Rock Ranch",
+  "city": "Kingston",
+  "state": "ID",
+  "zip": "83839",
+  "address_public": true,
+  "address": "12718 Old River Rd., Kingston, ID 83839",
+  "website": "https://www.cdariverranch.com/",
+  "phone": "208-682-9537",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["quarter beef", "half beef", "whole beef"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We never feed grain.",
+    "source_url": "https://www.cdariverranch.com/beef-sales"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Mountain View Custom Meats, Coeur d'Alene", "Hardy Boys Custom Meats, Blanchard", "Country Meats, Cataldo"],
+    "source_url": "https://www.cdariverranch.com/butcher-info"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.cdariverranch.com/orderbeef",
+  "data_source": "web-search",
+  "source_url": "https://www.cdariverranch.com/beef-sales",
+  "notes": "Scout 2026-11-23: read homepage, beef sales, butcher info, FAQ and our practices pages (order beef and about pages not opened). The site calls itself Castle Rock Ranch in its heading and footer and CDA River Ranch in its logo and body text. Sells quarter, half and whole beef only (FAQ says no individual cuts and no other meats); three lines: Premium Grass Finished, Grass Fed and Grass Fed Burger Cows, all described as fed only grass, sea kelp and salt; practices page also says the ranch will never feed grain. Buyers pay the butcher and pick up meat there; the three butchers listed are the pickup points (Verifier: confirm which butchers are used for pickup, FAQ says premium quarters go only through Mountain View Custom Meats). No delivery or shipping stated. Ranch also runs weddings, trail rides and a summer camp."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "rafter-m-farm",
+  "slug": "rafter-m-farm",
+  "farm_name": "Rafter M Farm",
+  "city": "Kasilof",
+  "state": "AK",
+  "zip": "99610",
+  "address_public": false,
+  "website": "https://www.raftermfarm.com/",
+  "phone": "907-252-0607",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry", "eggs", "dairy-cow"],
+  "products": ["whole and half beef", "whole and half hogs", "pasture raised whole roaster chickens", "chicken eggs", "duck eggs", "raw milk herd shares"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Pasture raised and Grain finished beef.",
+    "source_url": "https://www.raftermfarm.com/2023-price-lists"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Main farm store just south of Soldotna, open year-round, self-serve", "Farm stand at the farm in Kasilof, summer only"],
+    "source_url": "https://www.raftermfarm.com/services-8"
+  },
+  "dairy_products": ["raw-milk"],
+  "ordering_url": "https://www.raftermfarm.com/2023-price-lists",
+  "data_source": "state-program",
+  "source_url": "https://dnr.alaska.gov/ag/alaskagrown/profile/1489/rafterm-farm",
+  "notes": "Found through the Alaska Grown directory. Read the homepage, about the farm, cattle (dairy), 2026 price list and farm stand stores pages on 2026-11-23. Site name is Rafter M Farm & Dairy, PO Box 408, Kasilof (north side of Cohoe). Homepage says beef is rotationally grazed, pasture raised in summer, local hay in winter, and finished with Alaska-grown barley, oats, peas and non-GMO alfalfa pellets, so category is grain-finished. Beef sold by whole or half only ($10/lb hanging), delivered free to a butcher of the buyer's choice; harvest usually October. Pork raised by the owners' son on a no corn, no soy diet, sold by half or whole; no pasture wording for pork. Raw A2A2 Jersey milk only through a herd share ($75 yearly fee, $16 per gallon weekly) picked up at a farm stand location; raw milk is legal only in some states. Dairy cows graze pasture and also get barley, sunflower seeds and alfalfa pellets. Chickens and ducks free range; meat chickens described as pasture raised. Farm stores also sell produce, soap, tallow balm and other items. Price list page title says 2025 but heading says 2026. Quotes came from WebFetch extraction; Verifier should recheck the verbatim and the store hours."
+}

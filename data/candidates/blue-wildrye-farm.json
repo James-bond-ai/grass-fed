@@ -1,0 +1,36 @@
+{
+  "id": "blue-wildrye-farm",
+  "slug": "blue-wildrye-farm",
+  "farm_name": "Blue Wildrye Farm",
+  "city": "Princeton",
+  "state": "ID",
+  "zip": "83857",
+  "address_public": true,
+  "address": "1029 Laura Lane, Princeton, ID 83857",
+  "website": "https://bluewildrye.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry", "eggs", "dairy-cow"],
+  "products": ["ground beef", "steaks", "roasts", "brisket", "short ribs", "organ meats", "soup bones", "beef jerky", "Berkshire pork", "Freedom Ranger chickens", "pasture eggs", "raw Jersey milk", "yogurt"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Rotationally grazed and pasture-raised in Princeton, Idaho, our beef is grass-fed & finished (no grain on our farm)",
+    "source_url": "https://bluewildrye.com/store/beef"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "farm-pickup", "local-delivery", "farmers-market"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://bluewildrye.com/locations"
+  },
+  "dairy_products": ["raw-milk", "yogurt"],
+  "ordering_url": "https://bluewildrye.com/store",
+  "data_source": "web-search",
+  "source_url": "https://bluewildrye.com/",
+  "notes": "Scout 2026-11-23: read homepage, store landing, beef store page, about-us, Blue Wildrye Dairy page and locations page. Beef page says grass-fed and finished with no grain on the farm; pork, chicken and eggs described as pasture-raised; dairy page says the Jersey milk is not pasteurized (raw) and the cows graze the farm's pastures. Store offers nearby pickup or home delivery by zip code, but the locations page only shows a zip lookup, so no pickup sites or delivery areas were recorded. Farmers market channel is based only on a customer review on the homepage mentioning the farmer market season; Verifier should confirm or drop farmers-market. No phone on site. No bulk shares seen."
+}

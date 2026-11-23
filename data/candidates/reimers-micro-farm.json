@@ -1,0 +1,35 @@
+{
+  "id": "reimers-micro-farm",
+  "slug": "reimers-micro-farm",
+  "farm_name": "Reimers Micro Farm",
+  "city": "Wasilla",
+  "state": "AK",
+  "zip": "",
+  "address_public": false,
+  "website": "https://reimersmicrofarm.com/",
+  "phone": "512-576-4009",
+  "social_urls": [],
+  "species": ["lamb", "dairy-sheep"],
+  "products": ["whole lamb", "mutton", "sheep milk shares"],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Raised on a diet of local hay and grains",
+    "source_url": "https://reimersmicrofarm.com/meats/"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Mat-Su Valley (sheep milk pickup)"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Bear Mountain Meats, Palmer (lamb pickup from the processor)"],
+    "source_url": "https://reimersmicrofarm.com/meats/"
+  },
+  "dairy_products": ["milk"],
+  "ordering_url": "https://reimersmicrofarm.com/meats/",
+  "data_source": "web-search",
+  "source_url": "https://reimersmicrofarm.com/meats/",
+  "notes": "Sheep farm in Meadow Lakes, Wasilla. Read the homepage, about, meats and sheep milk pages on 2026-11-23. Site says lamb is pasture raised on open pasture; meats FAQ says sheep are fed local hay and barley, and dairy sheep get local hay, alfalfa hay and pellets, so category is percentage. Lamb sold by the whole (FAQ) at $16/lb hanging with a $100 deposit through an online order form; harvest mid-November, pickup at Bear Mountain Meats in Palmer. Meats page also mentions half shares, which conflicts with the FAQ; Verifier should recheck. Sheep milk shares $50 per gallon, weekly local pickup in the Mat-Su Valley; page does not say the milk is raw, so recorded as milk. Phone on homepage has a Texas area code; recheck. Also sells wool, yarn and hides. Quotes came from WebFetch extraction."
+}
