@@ -21,7 +21,7 @@ Statuses: queued, drafting, in-review, returned, published.
 | 13 | white-oak-pastures-profile | White Oak Pastures: what they sell and how they raise it | review | in-review | |
 | 14 | best-grass-fed-milk-and-butter | Grass-fed milk and butter brands, and what their labels certify | best | in-review | |
 | 15 | best-grass-fed-ground-beef-delivery | Grass-fed ground beef by mail, compared | best | in-review | Make it distinct from best-grass-fed-beef-delivery: focus on lean/fat ratios, ground beef vs hamburger (9 CFR 319.15), %lean/%fat label rules (FSIS nutrition labeling Q&A 2012), bulk bundle price per lb, farms in the directory that ship ground beef. |
-| 16 | freezer-space-for-beef | How much freezer space a quarter or half cow needs | guide | queued | |
+| 16 | freezer-space-for-beef | How much freezer space a quarter or half cow needs | guide | in-review | |
 | 17 | grass-fed-beef-on-a-budget | Grass-fed beef on a budget | guide | queued | |
 | 18 | grass-fed-vs-grain-fed | Grass-fed vs grain-fed beef: what actually differs | guide | queued | Hub page. Careful with nutrition framing. |
 | 19 | grass-fed-beef-sticks | Grass-fed beef sticks and jerky: what to check on the label | best | queued | |
