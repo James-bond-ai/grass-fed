@@ -357,3 +357,6 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Seneca Ayr Farms Beef, Laytonsville: grass fed and grain finished, no website 2026-11-22
 - Lovell Grass Fed Cattle Company, New Windsor; Hedgeapple Farm, Buckeystown: no farm website found 2026-11-22
 - QCF Angus Grass Fed Beef (qcfangusgrassfedbeef.com), Bar G5 Cattle, Harford Co. (barg5cattle.com), Groff's Content Farm (groffscontentfarm.grazecart.com), Hard Bargain Farm: not opened, states unconfirmed 2026-11-22
+
+## MA
+- No leads yet. Massachusetts is the next state with no farms and no leads after MD in the alphabetical order (then MI, which has leads, and MN). (Monitor 2026-11-23)

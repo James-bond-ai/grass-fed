@@ -6,7 +6,7 @@ Scout works the priority states in order until each reaches 15 verified farms, t
 TX, CA, CO, TN, VA, NC, OH, PA, WI, MO, MT, OR, WA, FL, GA, VT, NY, then every other state alphabetically.
 
 ## Counts
-Updated by Monitor. Listings per state as of 2026-11-16 (priority order, then the states Scout has started, alphabetical by state name). States at 15+ published: TX, CA, CO, TN, VA, NC, OH, PA, WI, MO, MT, OR, WA, FL, VT, AL.
+Updated by Monitor. Listings per state as of 2026-11-23 (priority order, then the states Scout has started, alphabetical by state name). States at 15+ published: TX, CA, CO, TN, VA, NC, OH, PA, WI, MO, MT, OR, WA, FL, GA, VT, NY, AL, AR, CT, IA, KY.
 
 | State | Published | Unpublished (held) | Candidates | Rejected |
 |---|---|---|---|---|
@@ -23,21 +23,26 @@ Updated by Monitor. Listings per state as of 2026-11-16 (priority order, then th
 | MT | 16 | 0 | 0 | 4 |
 | OR | 17 | 1 | 0 | 0 |
 | WA | 16 | 1 | 0 | 2 |
-| FL | 15 | 1 | 1 | 4 |
-| GA | 14 | 1 | 4 | 7 |
+| FL | 16 | 1 | 0 | 4 |
+| GA | 17 | 2 | 0 | 7 |
 | VT | 15 | 3 | 0 | 8 |
-| NY | 14 | 3 | 6 | 4 |
-| AL | 15 | 3 | 1 | 1 |
-| AK | 4 | 1 | 0 | 1 |
-| AZ | 13 | 1 | 1 | 2 |
-| AR | 14 | 5 | 1 | 0 |
-| CT | 6 | 0 | 10 | 0 |
-| DE | 5 | 1 | 3 | 0 |
-| HI | 4 | 4 | 1 | 0 |
-| ID | 11 | 1 | 1 | 3 |
-| IL | 9 | 2 | 5 | 1 |
-| IN | 2 | 0 | 0 | 0 |
-| **Total** | **348** | **37** | **34** | **76** |
+| NY | 20 | 3 | 0 | 4 |
+| AL | 16 | 3 | 0 | 1 |
+| AK | 4 | 1 | 5 | 6 |
+| AZ | 14 | 1 | 1 | 3 |
+| AR | 15 | 5 | 0 | 0 |
+| CT | 16 | 0 | 0 | 0 |
+| DE | 7 | 2 | 0 | 0 |
+| HI | 5 | 4 | 2 | 1 |
+| ID | 12 | 1 | 3 | 3 |
+| IL | 14 | 2 | 1 | 1 |
+| IN | 13 | 2 | 2 | 1 |
+| IA | 15 | 0 | 0 | 1 |
+| KS | 13 | 3 | 2 | 0 |
+| KY | 15 | 1 | 0 | 4 |
+| LA | 8 | 0 | 0 | 0 |
+| ME | 6 | 1 | 0 | 0 |
+| **Total** | **448** | **46** | **16** | **89** |
 | All other states | 0 | 0 | 0 | 0 |
 
-Delivery coverage of published farms (2026-11-16): ships nationwide 36, ships regionally 36, local only 270, unknown 6. Farms selling dairy: 46.
+Delivery coverage of published farms (2026-11-23): ships nationwide 46, ships regionally 50, local only 346, unknown 6. Farms selling dairy: 52.
