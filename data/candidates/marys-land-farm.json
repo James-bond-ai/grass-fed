@@ -1,0 +1,37 @@
+{
+  "id": "marys-land-farm",
+  "slug": "marys-land-farm",
+  "farm_name": "Mary's Land Farm",
+  "city": "Ellicott City",
+  "state": "MD",
+  "zip": "21042",
+  "address_public": true,
+  "address": "4979 Sheppard Lane, Ellicott City, MD 21042",
+  "website": "https://maryslandfarm.com/",
+  "phone": "410-849-4314",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["steaks", "roasts", "ground beef", "burgers", "beef sticks", "organ meats", "beef quarters, halves and wholes", "pork chops", "bacon", "sausage", "ribs", "whole chickens", "chicken parts", "chicken eggs", "duck eggs", "Thanksgiving turkeys"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle eat grass from start to finish, with no grain or corn finishing period.",
+    "source_url": "https://maryslandfarm.com/grass-fed-beef/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "online-order", "farmers-market"],
+  "farmers_markets": ["Winter Indoor Farmers Market at Mary's Land Farm, Ellicott City (Saturdays, November to March)"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://maryslandfarm.com/food-hub/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.maryslandfood.com/",
+  "data_source": "web-search",
+  "source_url": "https://maryslandfarm.com/grass-fed-beef/",
+  "resold_note": "The farm store also sells seafood, local honey, baked goods, pottery, Secolari oils and vinegars and pantry goods from other businesses.",
+  "notes": "Scout 2026-11-24: read the maryslandfarm.com homepage, farm store, grass-fed beef, our animals, product overview, beef and lamb product overview, plan your visit and home delivery pages; the maryslandfood.com online store renders almost no text (only titles such as 100% Grass Fed and Finished Beef and Bulk - Beef & Pork were readable). Devon cattle are grass-fed and grass-finished on the farm. Pigs are woodland-raised with a non-GMO soy-free organic grain supplement; broilers, layers and ducks also get that grain; turkeys forage in the woods in fall. Farm store open daily 10am to 5pm; online orders are picked up at the store. Bulk beef in quarter, half and whole shares from inventory or by preorder with a deposit. A home delivery page exists but was last modified in 2022, names no areas and links to an outside delivery service; the homepage mentions online ordering for pickup or delivery, so delivery is left empty; Verifier: check whether delivery is current. Lamb appears only in an old Easter preorder and the sheep are described as companions to the cattle, so lamb is left out. Site also runs an inn, events and field trips."
+}

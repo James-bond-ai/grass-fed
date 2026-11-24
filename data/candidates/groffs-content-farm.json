@@ -1,0 +1,36 @@
+{
+  "id": "groffs-content-farm",
+  "slug": "groffs-content-farm",
+  "farm_name": "Groff's Content Farm",
+  "city": "Rocky Ridge",
+  "state": "MD",
+  "zip": "21778",
+  "address_public": true,
+  "address": "14930 Bollinger Road, Rocky Ridge, MD 21778",
+  "website": "https://groffscontentfarm.com/",
+  "phone": "301-820-7657",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry", "lamb", "goat"],
+  "products": ["beef cuts", "organ meats", "tallow", "bulk beef (whole, half, quarter, eighth)", "pork", "chicken", "turkey", "lamb", "goat", "prepared meals", "snack sticks"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our grass fed beef is raised on grass from start to finish",
+    "source_url": "https://groffscontentfarm.grazecart.com/store/beef"
+  },
+  "certifications": [],
+  "sales_channels": ["farmers-market", "online-order", "ships-regional"],
+  "farmers_markets": ["FRESHFARM Dupont Circle Market, Washington DC", "FRESHFARM Monroe St. Market, Washington DC", "Riverdale Park Farmers Market, Riverdale Park"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["FRESHFARM Dupont Circle Market, 1600 20th St NW, Washington DC", "FRESHFARM Monroe St., 716 Monroe St NE, Washington DC", "Riverdale Park Farmers Market, 4650 Queensbury, Riverdale Park"],
+    "source_url": "https://groffscontentfarm.com/bulk-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://groffscontentfarm.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://groffscontentfarm.com/",
+  "notes": "Scout 2026-11-24: read homepage, bulk beef page, store beef page, store pickup locations list and three market location pages (product pages for other species not opened; no FAQ page found). Beef page says calves are born on the farm and finished at a neighbor's who custom grazes them, with local hay and sprouted seed fodder in winter; meta and product names say 100% grass fed and grass finished; Verifier: the sprouted seed fodder is a supplement, consider whether grass-finished still fits. Other store categories: free range soy-free chicken and turkey, forage fed pork, pasture raised lamb, pastured goat. Bulk beef (whole, half, quarter, eighth) by deposit, opened a few times a year. Bulk page says boxes can be picked up at DC-area farmers markets or shipped frozen to the home with free shipping, but no shipping area is named, so ships_to is empty. Homepage lists nine DC and MD markets without confirming attendance; only the three with store pickup pages are recorded."
+}

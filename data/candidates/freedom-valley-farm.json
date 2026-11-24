@@ -1,0 +1,37 @@
+{
+  "id": "freedom-valley-farm",
+  "slug": "freedom-valley-farm",
+  "farm_name": "Freedom Valley Farm",
+  "city": "White Hall",
+  "state": "MD",
+  "zip": "21161",
+  "address_public": true,
+  "address": "2523 Bradenbaugh Road, White Hall, MD 21161",
+  "website": "https://freedomvalleyfarmmd.com/",
+  "phone": "443-752-4338",
+  "social_urls": [],
+  "species": ["pork", "poultry", "eggs"],
+  "products": ["pork chops", "tenderloin", "bacon", "sausage", "ham", "spareribs", "quarter, half and whole pigs", "whole chickens", "bulk chicken", "eggs"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our chickens and pigs are rotationally grazed, and do get a NON-GMO soy-free feed supplement.",
+    "source_url": "https://freedomvalleyfarmmd.com/farm-store/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "online-order", "ships-regional"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": ["MD", "PA", "VA", "WV", "DE", "NJ", "OH", "NY", "CT", "RI", "MA", "VT", "NH", "ME", "MI", "IN", "KY", "TN", "NC", "SC", "GA", "AL", "FL", "DC"],
+    "pickup_locations": ["Monthly drop-site at Grace Fellowship Church, 74 E Forrest Ave, Shrewsbury, PA"],
+    "source_url": "https://freedomvalleyfarmmd.com/locations/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://freedomvalleyfarmmd.com/farm-store/",
+  "data_source": "web-search",
+  "source_url": "https://freedomvalleyfarmmd.com/",
+  "resold_note": "Also sells 100% grass-fed beef raised mostly by partner farms in Pennsylvania, plus honey, produce and homesteading supplies.",
+  "notes": "Scout 2026-11-24: read homepage, farm store, locations, beef, pork and eggs pages and the shipping-goes-live post (about, chicken and bulk buys pages not opened). The beef page says most of its grass-fed beef comes from Pennsylvania partner farms (named growers) because the farm ran short of pasture, while chicken and pork are raised on the farm in Maryland; so beef is in resold_note and the listing covers pork, chicken and eggs. Pigs live in wooded and open paddocks moved weekly; pigs, chickens and hens get a non-GMO soy-free ration from a Pennsylvania mill. Farm pickup by appointment, scheduled at checkout; monthly drop-site in Shrewsbury, PA. Ships frozen by UPS to the 22 states listed plus FL and DC (the site says 24 states in one place and 23 plus DC in another). Quarter, half and whole pigs sold in fall and usually sell out; bulk chicken offered. Eggs were out of stock on 2026-11-24. FAQ on the pork page has a few garbled answers (None of the above)."
+}

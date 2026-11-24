@@ -1,0 +1,37 @@
+{
+  "id": "country-meadows-farm",
+  "slug": "country-meadows-farm",
+  "farm_name": "Country Meadows Farm",
+  "city": "Hudson",
+  "state": "IN",
+  "zip": "46747",
+  "address_public": true,
+  "address": "11325 E. 550 S., Hudson, IN 46747",
+  "website": "https://countrymeadowsfarmmkt.com/",
+  "phone": "260-336-2106",
+  "social_urls": [],
+  "species": ["beef", "lamb", "pork", "poultry", "eggs", "dairy-cow"],
+  "products": ["beef cuts", "ground beef", "whole lamb", "half lamb", "lamb cuts", "half hog", "pork cuts", "bacon", "sausage", "chicken", "eggs", "raw milk", "cheese", "butter"],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "At some point in their lives they did receive some grain to supplement their diet.",
+    "source_url": "https://countrymeadowsfarmmkt.com/store/pasture-raised-beef"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "farm-pickup", "local-delivery", "farmers-market"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Howe Town Park, 409 3rd St., Howe, IN (Wednesdays)"],
+    "source_url": "https://countrymeadowsfarmmkt.com/locations"
+  },
+  "dairy_products": ["raw-milk", "cheese", "butter"],
+  "ordering_url": "https://countrymeadowsfarmmkt.com/store",
+  "resold_note": "Online store also carries products from Best Forage LLC and Grassroots Farmstead.",
+  "data_source": "web-search",
+  "source_url": "https://countrymeadowsfarmmkt.com/about-our-farm",
+  "notes": "Scout 2026-11-24: read homepage, about, contact, pickup locations, two pickup location pages, the farm's vendor product list (pages 1 and 2) and the beef, lamb, pork, poultry, eggs and dairy store pages (no FAQ page found). Beef page says beef animals (dairy, dairy-cross and beef breeds) are raised mainly on pasture, hay and baleage but received some grain, so beef is percentage; lamb category is labelled 100% Grass-fed with no finishing statement; pork, poultry and eggs are pasture raised, poultry and eggs with supplemental grain or feed. Category set to percentage from the beef; Verifier: consider whether the lamb line justifies a different category. Dairy: raw A2/A2 milk in half gallons, cultured butter and many named cheeses, cheese said to be made from the farm's milk at Tulip Tree Creamery in Indianapolis; raw milk is legal only in some states. Pickup at the farm house Fridays 3 to 6 pm and at Howe Town Park Wednesdays; locations page says home delivery is offered in some zip codes but names none. About page says family members are often at the farmer's market in summer but names no market. Bulk: whole and half lamb and half hog listed; no bulk beef. Prices visible only after creating an account. Also sells farm tours."
+}

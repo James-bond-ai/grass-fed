@@ -1,0 +1,37 @@
+{
+  "id": "grand-view-farm",
+  "slug": "grand-view-farm",
+  "farm_name": "Grand View Farm",
+  "city": "Forest Hill",
+  "state": "MD",
+  "zip": "21050",
+  "address_public": true,
+  "address": "1939 High Point Road, Forest Hill, MD 21050",
+  "website": "https://grandviewfarming.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["steaks", "ground beef", "beef boxes", "quarter beef shares", "pork", "chicken", "turkey", "eggs", "chicken soup", "pet treats"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass fed and grass finished",
+    "source_url": "https://grandviewfarming.com/livestock"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Eastern United States, New York to North Carolina (zones by ZIP code)"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://grandviewfarming.com/delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://grandviewfarming.com/store",
+  "data_source": "web-search",
+  "source_url": "https://grandviewfarming.com/livestock",
+  "resold_note": "Also sells milk, raw pet milk and yogurt from Prigel Family Creamery, cheese from Alpine Heritage Creamery, honey, bread and olive oil from other producers.",
+  "notes": "Scout 2026-11-24: read homepage, how we raise animals, home delivery, shop at the farm, about our farm, new to the farm, FAQ, local favorites and dairy store pages. Cattle are 100% grass fed and finished (FAQ also says never grain); pigs and chickens are pastured with a soy-free non-GMO grain ration. About page says the farm has partnered with other local farms to help raise livestock, without naming them or saying which products; Verifier: check how much of the meat is raised off the farm. Farm store Thursday and Friday afternoons and Saturdays 9am to 4pm; online orders can be picked up there. Weekly home delivery (own zones 1 to 3, by ZIP) across the Eastern United States, New York to North Carolina, with gel or dry ice; $124 minimum (FAQ says $99), free at $159; no states listed, so ships_to is left empty. Quarter beef shares (split side, about 85 lb take-home, $800 deposit) described in the FAQ. Dairy on the store comes from other creameries, so dairy_products is empty. No phone on the site."
+}

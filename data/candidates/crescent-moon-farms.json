@@ -1,0 +1,35 @@
+{
+  "id": "crescent-moon-farms",
+  "slug": "crescent-moon-farms",
+  "farm_name": "Crescent Moon Farms",
+  "city": "Hampstead",
+  "state": "MD",
+  "zip": "",
+  "address_public": false,
+  "website": "https://crescentmoonfarmsmd.com/",
+  "phone": "267-992-5281",
+  "social_urls": ["https://www.instagram.com/crescentmoonfarmsmd/", "https://www.facebook.com/crescentmoonfarmsmd"],
+  "species": ["beef", "poultry", "eggs"],
+  "products": ["steaks", "roasts", "ground beef", "short ribs", "brisket", "whole chickens", "chicken parts", "chicken broth", "eggs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "No grain finishing, no shortcuts",
+    "source_url": "https://crescentmoonfarmsmd.com/product/grass-fed-beef/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": 30,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://crescentmoonfarmsmd.com/product/pasture-raised-chicken/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://crescentmoonfarmsmd.com/shop/",
+  "data_source": "state-program",
+  "source_url": "https://marylandsbest.maryland.gov/producers/crescent-moon-farms/",
+  "notes": "Scout 2026-11-24: read homepage, about, shop, contact, price list and the beef, chicken and egg product pages (journal and events not opened; site has no FAQ or delivery page). Found via the Maryland's Best producer listing (which gives 19411 Resh Mill Rd, Hampstead; the farm's own site gives only the town and says to email for the address, so the address is left out). Beef product page is titled 100% Grass-Fed & Finished Beef and says the Red Devon cattle are rotated daily on pasture. Chicken and eggs are pasture-raised; hens eat grass, seeds and bugs, no feed details given. Delivery radius conflict: product pages say local delivery within 30 miles on orders of $200 or more, contact page says home delivery within a 25-mile radius; Verifier: confirm. Contact page mentions a Farm Store in Hampstead with visits 10am to 4pm by emailing ahead, while the about page says the farm store is still being prepared, so on-farm-store was not added. No shares, bulk beef or shipping found on the site (earlier lead mentioned shares). Price list is an image dated July 2026."
+}

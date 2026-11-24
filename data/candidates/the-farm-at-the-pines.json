@@ -1,0 +1,36 @@
+{
+  "id": "the-farm-at-the-pines",
+  "slug": "the-farm-at-the-pines",
+  "farm_name": "The Farm at the Pines",
+  "city": "Keymar",
+  "state": "MD",
+  "zip": "21757",
+  "address_public": true,
+  "address": "2104 Hagerstown Lane, Keymar, MD 21757",
+  "website": "https://www.thefarmatthepines.com/",
+  "phone": "410-610-1138",
+  "social_urls": ["https://www.facebook.com/TheFarmatthePines/", "https://www.instagram.com/thefarmatthepines/"],
+  "species": ["beef", "pork"],
+  "products": ["steaks", "roasts", "ground beef", "beef hot dogs", "ground beef bundles", "beef quarters and halves", "pork chops", "bacon", "sausage", "ribs", "ham", "scrapple", "pork halves"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass fed and grass finished.",
+    "source_url": "https://www.thefarmatthepines.com/about-the-farm"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.thefarmatthepines.com/grass-fed-angus-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.1000ecofarms.com/go/thefarmatthepines",
+  "data_source": "state-program",
+  "source_url": "https://marylandsbest.maryland.gov/producers/the-farm-at-the-pines-grass-fed-beef/",
+  "notes": "Scout 2026-11-24: read homepage, about the farm, grass fed Angus beef, Berkshire pork, bundles and FAQ pages (contact page and the 1000ecofarms ordering site not opened). Found via the Maryland's Best producer listing. Cattle are born on the farm; FAQ says the cattle do not eat any grain or corn and get hay in winter. Pigs are described as farm-raised on a natural diet with no pasture or feed details. Farm shop on site, no set hours (FAQ asks visitors to call or text first); all products available for on-farm pickup; online ordering through 1000ecofarms. No delivery or shipping stated. Bulk: beef page mentions beef quarters and halves and the pork page mentions pork halves, but the bundles page lists only three ground beef bundles (all out of stock) and no quarter or half product; Verifier: confirm bulk_shares. Payment is cash, check, Venmo or Zelle, no credit cards."
+}

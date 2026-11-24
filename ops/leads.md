@@ -17,12 +17,10 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 ## AK
 - Funny River Farmstead LLC, Soldotna; Northern Lights Livestock, Delta Junction; Van Wyhe Family Farm, Copper Center; Alaska Farm Fresh, Kasilof; Birch-Top Hill Ranch, Gakona; Crop Circle Farm, Willow: Alaska Grown or other listings only, no own website found 2026-11-07
 - 907 Livestock, Fairbanks; Cottonwood Creek Farm, Wasilla (raw goat milk herdshare); Conscious Earth Farm, Anchor Point; Alaska Range Dairy LLC, Delta Junction: Facebook only, no website to verify 2026-11-07
-- Chugach Farm, Chickaloon area (chugachfarm.com): eggs and forested pork via Barn2Door, Palmer market, CSA; homepage has no pasture wording, other pages bot-check 2026-11-23
-- Karluk Acres, Kenai (karlukacres.com): homepage says fenced pasture access for pigs, goats, poultry; For Sale page not reached 2026-11-23
+- Karluk Acres, Kenai (karlukacres.com): homepage says fenced pasture access for pigs, goats, poultry; homepage lists heritage breeding stock only, no meat or egg sales seen; other pages robots.txt unreadable and no For Sale page found 2026-11-24
 - White Fireweed Farm, Fairbanks (whitefireweedfarm.com): robots.txt unreadable; search shows a fiber and breeding stock site, probably not a fit 2026-11-23
 - Northern Roots Farm LLC, Delta Junction (poultry, eggs): no website; northernrootsfarm.com is a Georgia farm 2026-11-23
 - A.D. Farm, Palmer (adfarmorganic.com): domain search found nothing, likely defunct; Funny Farm Feed Folks, Fairbanks (funnyfarmfeedfolks.com): not retried 2026-11-23
-- Sun Fire Ridge, Wasilla (sunfireridge.com): raw milk herd share, homepage says free range cows, no grass or pasture wording, other pages unread 2026-11-23
 - Alaska Grown profiles (dnr.alaska.gov/ag/alaskagrown) with no website: North Wind Farm, Wasilla; Grace Acres, Kasilof; Harpestead Farms, Cooper Landing; Log Creek Farm, Trapper Creek; Wild Edge Farms, Homer; Frozen Root Farm, Fairbanks; Red Hill Farm, Palmer; Northwest Land & Livestock, Delta Junction; also Fox Creek Ranch near Homer (2018 article), Nenana Urban Farm and The Big M Farm, Nenana, Tusk Farm, Fairbanks 2026-11-23
 - Alaska Grown profiles not opened (fetch permission timed out): Hansen Farms, Kenai; Liberty Farms, Talkeetna; Moose Creek Farm, North Pole; Mugrage Hay & Cattle, Delta Junction; Blue Creek Livestock, Delta Junction; Lancashire Farms, Soldotna; Luke's Poultry Ranch, Wasilla; Frontier Farms, Nenana; Angels Nesting Farm, Fairbanks and Sunny Side Up, Delta Junction (sites not found by search) 2026-11-23
 - Palmer Farms Beef (palmerfarmsbeef.com) is in Kentucky, not Alaska 2026-11-23
@@ -43,7 +41,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Flagstaff Family Farm, Rain Valley near Flagstaff (flagstafffamilyfarm.com): eggs and pork, CSA full; homepage has no grass or pasture wording, other pages unchecked 2026-11-11
 - Forestdale Farm, Flagstaff (forestdalefarm.com): egg CSA, no pasture wording found 2026-11-11
 - Beef Near Me Arizona directory names, no websites found: Broken Horn D Ranch, Prescott; ME Cattle, Portal; Gryphon Ranch LLC, Globe 2026-11-11
-- Snowflake Pig Farms (snowflakepigfarms.com) and Ridgeview Farm (Prescott Farmers Market vendor): unchecked 2026-11-11
+- Ridgeview Farm (Prescott Farmers Market vendor): unchecked 2026-11-11
 
 ## AR
 - Ozark Pasture Beef, LLC (ozarkpasturebeef.com): 100% grassfed and grass-finished beef and lamb, pastured pork, delivers in NW Arkansas and Little Rock, Local Line store; a partnership of farms and no town on homepage; about, beef and pork pages robots blocked 2026-11-11
@@ -255,7 +253,6 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - The Log Cabin Ranch candidate: own domain fetch blocked, so pastured chicken and shipping to 48 states not confirmed; Verifier may check 2026-11-13
 
 ## ID
-- SkyLines Farm of Idaho (skylinesfarm.com, "100% Grassfed Beef"): seen in search only 2026-11-23
 - Triple Slash Beef (tripleslashbeef.grazecart.com): store shows a maintenance notice on every page 2026-11-14
 - Ball Ranch (ballranch.net): site blocks fetching 2026-11-14; Bent Tree Farm, Bonners Ferry: own site not found 2026-11-13
 - 6/2 Ranch, Moscow (62ranchbeef.com) and Big Canyon Beef, Craigmont: directory says grain-finished, likely rejections 2026-11-13
@@ -272,7 +269,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Unchecked names 2026-11-17: Plumer & Bowers Farmstead, near Seymour (grass-fed beef, no site found); Wagner Farms Grass Finished Beef, Brothers Beef, Greener Grass Farms (no own sites seen)
 - Seven Sons partner farms, no own sites found: Hoosier Cattle / Hoosier Grass-fed Beef, Perry Farm, Roger Rose 2026-11-17
 - Not Indiana (checked 2026-11-18): Elm Run Farms is in Orrville, OH; CF Farms (C&F Farms) is near Bonsack, Roanoke County, VA, and only ships into Indiana; Lick Skillet Farm is in Tennessee
-- Country Meadows Farm, Hudson (countrymeadowsfarmmkt.com): pasture-raised beef, pork, chicken, dairy, eggs, 100% grass-fed lamb; surfaced 2026-11-23, unchecked
+- Grassroots Farmstead and Best Forage LLC, northeast Indiana, town unknown: sell through Country Meadows Farm's store, no own websites found 2026-11-24
 - Vintage Meadows candidate: only the Squarespace address loaded; own domain vintagemeadows.farm not checked, Verifier should confirm 2026-11-18
 
 ## IA
@@ -329,7 +326,8 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Makana Provisions, Oahu: Hawaii beef sold at Times Supermarkets, may be a brand rather than a farm 2026-11-13
 - Maili Moa / Maili Egg Farm, Maili, Oahu, and OK Poultry, Oahu: eggs, no own site found 2026-11-14
 - Ranch to Reef, Big Island: may be a retailer 2026-11-14
-- Unchecked 2026-11-23: Kahua Ranch, Big Island (kahua-ranch.com); Forage Hawaii / Kahumana, Oahu (foragehawaii.com); Hamakua Meat Processors (hamakuameat.com, probably a processor); Makaweli redirect loop persists
+- Unchecked 2026-11-23: Hamakua Meat Processors (hamakuameat.com, probably a processor); Makaweli redirect loop persists
+- Named as suppliers on Forage Hawaii's sourcing page (rejected as a retailer), no websites found 2026-11-24: North Shore Livestock Ranch, Kahuku, Oahu (cattle); Mountain View Farms, Waianae Valley, Oahu; Punachicks Farm, Keaau, Big Island; Hawaiian Hogs, Puukapu, Waimea, Big Island
 - Avoid look-alike Hawaii beef pages on manus.space and pages.dev hosts (grassfedhi-j3pjbrue.manus.space, grassfed-beef-site.pages.dev, oahu-meats.pages.dev) 2026-11-14
 - Verifier: existing candidates oahu-meats and kunoa-cattle-company were sourced from pages.dev hosts (oahu-meats.pages.dev, kunoacattle-com.pages.dev) that may not be the farms' own sites; confirm the official domains before publishing 2026-11-14
 
@@ -350,13 +348,12 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Skip aggregator look-alikes in Maine results: bhumifarms.co, organicfarmfood.org, grassfedjunction.com, fieldandcattle.com, halfacowclub.com 2026-11-22
 
 ## MD
-- Checked 2026-11-22 and held back to keep the run at 15 (Maryland's Best names, all look listable; recheck and write candidates next run): The Farm at the Pines, Keymar (grass-finished beef, own pork, farm shop, online order and pickup, bulk unclear); Crescent Moon Farms, Hampstead (grass-finished Red Devon beef, chicken, eggs, shares, local delivery within 25 or 30 miles on $200 orders); Good Hope Farmstead, Woodsboro (grass-finished, free delivery over $50 to Frederick, Mt. Airy, Westminster, Rockville, Bethesda, Crofton, Bowie, Rockville Farmers Market; Local Line shop blocked); Mary's Land Farm, Ellicott City (grass-finished Devon beef, pork, poultry, eggs, farm store, bulk beef; maryslandfood.com blocked); Freedom Valley Farm, White Hall (pastured pork, chicken, eggs; most beef from PA partner farms; ships UPS to 23 states plus DC)
-- Grand View Farm, Forest Hill (grandviewfarming.com): 100% grass fed and finished beef, home delivery in MD and nearby states, also resells; unchecked 2026-11-22
 - Clark's Elioak Farm, Ellicott City (clarklandfarm.com): beef and pork on a break per an apparently 2021 page, status unclear 2026-11-22
 - Ferguson Family Farm, Parkton (fergusonfamilyfarm.com): sales paused after the founder's death, no products listed 2026-11-22
 - Seneca Ayr Farms Beef, Laytonsville: grass fed and grain finished, no website 2026-11-22
 - Lovell Grass Fed Cattle Company, New Windsor; Hedgeapple Farm, Buckeystown: no farm website found 2026-11-22
-- QCF Angus Grass Fed Beef (qcfangusgrassfedbeef.com), Bar G5 Cattle, Harford Co. (barg5cattle.com), Groff's Content Farm (groffscontentfarm.grazecart.com), Hard Bargain Farm: not opened, states unconfirmed 2026-11-22
+- QCF Angus Grass Fed Beef (qcfangusgrassfedbeef.com), Hard Bargain Farm: not opened, states unconfirmed 2026-11-22
+- Maryland's Best producer pages seen in search, unchecked 2026-11-24: Lovell Grass Fed Cattle Company (marylandsbest.maryland.gov/producers/lovell-grass-fed-cattle-company/, may have a site after all); Columbine Manor; His Grace Farm; Newark Farms; also Prigel Family Creamery (grass-fed dairy, sells through Grand View Farm)
 
 ## MA
 - No leads yet. Massachusetts is the next state with no farms and no leads after MD in the alphabetical order (then MI, which has leads, and MN). (Monitor 2026-11-23)

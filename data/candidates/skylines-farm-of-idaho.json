@@ -1,0 +1,41 @@
+{
+  "id": "skylines-farm-of-idaho",
+  "slug": "skylines-farm-of-idaho",
+  "farm_name": "SkyLines Farm of Idaho",
+  "city": "Harvard",
+  "state": "ID",
+  "zip": "83834",
+  "address_public": true,
+  "address": "4551 Highway 6, Harvard, ID 83834",
+  "website": "https://www.skylinesfarm.com/",
+  "phone": "208-310-5442",
+  "social_urls": [],
+  "species": ["beef", "pork"],
+  "products": ["whole beef", "half beef", "quarter beef", "whole pig", "half pig"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "SkyLines beef eat only grass their entire lives, just as ruminant animals are designed to do.",
+    "source_url": "https://www.skylinesfarm.com/beef.htm"
+  },
+  "certifications": [],
+  "sales_channels": ["local-delivery"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Lewiston, ID", "Moscow, ID", "Coeur d'Alene, ID", "Sandpoint, ID", "Post Falls, ID"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.skylinesfarm.com/beef.htm"
+  },
+  "dairy_products": [],
+  "availability": {
+    "status": "sold-out",
+    "note": "Beef page update dated 2/27/26 says all 2026 beef is reserved; reservations open in January for previous customers and February for everyone else.",
+    "checked_on": "2026-11-24"
+  },
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.skylinesfarm.com/beef.htm",
+  "notes": "Scout 2026-11-24: read homepage (index.htm), beef, pigs, about, management practices and contact pages (no FAQ or shop page exists; Philosophy, Herstory and Links pages not opened). Sells whole, half and quarter beef and whole or half pigs by reservation with a deposit, priced by hanging weight plus processing at C&L Locker or Potlatch Pack near Moscow; beef and pig pages both say free delivery to Lewiston, Moscow, Coeur d'Alene, Sandpoint and Post Falls and that shipping is not available. Beef page also says the cattle are never fed grain. Pigs are pastured but get a daily ration of locally grown non-GMO grains (no corn or soy), so the grass-finished category rests on the beef only; Verifier: confirm category handling for a farm with grass-finished beef and grain-supplemented pastured pork. Sheep flock sold in 2013, so no lamb; homepage still mentions lamb in old text. Contact page says to call only if necessary and prefers email. Pig page availability for 2026 not stated. Management practices page still describes the old sheep operation."
+}

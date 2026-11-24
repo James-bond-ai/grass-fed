@@ -1,0 +1,35 @@
+{
+  "id": "good-hope-farmstead",
+  "slug": "good-hope-farmstead",
+  "farm_name": "Good Hope Farmstead",
+  "city": "Woodsboro",
+  "state": "MD",
+  "zip": "",
+  "address_public": false,
+  "website": "https://goodhopefarmstead.com/",
+  "phone": "240-367-9676",
+  "social_urls": ["https://www.facebook.com/GoodHopeFarmstead/", "https://instagram.com/goodhopefarmstead/"],
+  "species": ["beef", "pork", "poultry", "lamb"],
+  "products": ["beef cuts", "pork cuts", "sausage", "chicken", "lamb", "mutton"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass-fed and grass-finished beef",
+    "source_url": "https://goodhopefarmstead.com/about-us"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery", "farmers-market", "online-order"],
+  "farmers_markets": ["Rockville Farmers Market, Rockville (Saturdays, May to November)"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Frederick / Mt. Airy / Westminster area", "Rockville / Bethesda / Crofton / Bowie area"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Rockville Farmers Market, Rockville"],
+    "source_url": "https://goodhopefarmstead.com/where-to-buy"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://good-hope-farmstead.localline.ca/shop",
+  "data_source": "state-program",
+  "source_url": "https://marylandsbest.maryland.gov/producers/good-hope-farmstead/",
+  "notes": "Scout 2026-11-24: read homepage, about us and where to buy pages; the online store (good-hope-farmstead.localline.ca) could not be opened, and the old goodhopefarmstead.grazecart.com site shows only a maintenance notice. Town Woodsboro comes from the Maryland's Best listing (10820 Renner Road, Woodsboro); the farm's own site says only Frederick County and gives no address. Beef is grass-fed and grass-finished; pork, chicken, lamb and mutton are described as pasture-raised on non-GMO feed. Free home delivery on orders of $50 or more: Wednesdays to the Frederick / Mt. Airy / Westminster area, Saturdays to the Rockville / Bethesda / Crofton / Bowie area. Preorder pickup at the Rockville Farmers Market (Saturdays May 16 to Nov 21, 2026) and Friday curbside pickup on the farm; no on-farm store. No shipping stated. Bulk shares not seen on the pages read (store not reachable); Verifier: check the store for quarters or halves. Maryland's Best also lists delivery to Montgomery, Prince George's, Carroll and Frederick Counties; not used here."
+}

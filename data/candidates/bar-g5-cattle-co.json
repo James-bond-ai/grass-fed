@@ -1,0 +1,35 @@
+{
+  "id": "bar-g5-cattle-co",
+  "slug": "bar-g5-cattle-co",
+  "farm_name": "Bar-G5 Cattle Co.",
+  "city": "Bel Air",
+  "state": "MD",
+  "zip": "",
+  "address_public": false,
+  "website": "https://barg5cattle.com/",
+  "phone": "410-652-2274",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["quarter beef", "half beef", "whole beef", "monthly beef boxes"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Rotated pasture and quality hay, finished on grain for flavor and marbling.",
+    "source_url": "https://barg5cattle.com/about"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": 25,
+    "ships_to": [],
+    "pickup_locations": ["USDA-inspected processor (name not given), on harvest day"],
+    "source_url": "https://barg5cattle.com/shop"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://barg5cattle.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://barg5cattle.com/",
+  "notes": "Scout 2026-11-24: read homepage, shop, subscriptions, our farm and contact pages (site has no FAQ). Black Angus on rotated pasture and hay, finished on grain, so category is grain-finished. Contact page says the farm is near Bel Air in Harford County and shares the address only by appointment, so city is Bel Air. Quarter, half and whole beef shares by deposit; free local delivery within 25 miles for half and whole shares (fee otherwise), farm pickup by appointment, or pickup at the processor. Monthly subscription boxes are marked coming soon with placeholder pricing. Shop also lists a seasonal pasture-raised pork share, but the about page describes beef only and does not say the farm raises pigs, so pork is left out; Verifier: check."
+}
