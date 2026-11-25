@@ -1,0 +1,35 @@
+{
+  "id": "seawind-meadows",
+  "slug": "seawind-meadows",
+  "farm_name": "Seawind Meadows",
+  "city": "Dennis",
+  "state": "MA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.seawindmeadows.com/",
+  "phone": "508-776-7150",
+  "social_urls": ["https://www.facebook.com/Seawind-Meadows-328028167285775/"],
+  "species": ["beef", "eggs"],
+  "products": ["ground beef", "hamburger patties", "ribeye", "NY strip", "sirloin steak tips", "flat iron", "brisket", "short rib", "shoulder roast", "osso buco", "bones", "organs", "suet", "beef sausage", "hot dogs", "chicken eggs", "Highland breeding stock"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Seawind Meadows, LLC is a family-owned and operated grass-fed and grass-finished Highland beef producer.",
+    "source_url": "https://www.seawindmeadows.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farmers-market", "retail"],
+  "farmers_markets": ["Orleans Farmers Market, 19 Old Colony Way, Orleans (Saturdays 9am to 12pm, May to November)", "Orleans Winter Farmers Market, Lower Cape TV, 5 Namskaket Road, Orleans (twice a month, Saturdays 10am to 12pm, December to April)"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.seawindmeadows.com/contact"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.seawindmeadows.com/",
+  "notes": "Scout 2026-11-25: read the seawindmeadows.com homepage, Beef for Sale and Contact pages. Scottish Highland cattle on Cape Cod in Dennis; no street address or zip on the site. Beef is sold at the Orleans Farmers Market (high-end steaks only there) and at two retail stores: Orleans Whole Food Store (46 Main Street, Orleans) and Cape Abilities Farmstand (458 Main Street, Route 6A, Dennis); Verifier: these stores may sell the beef, not just pickup. Eggs sold at the market. Phone (508) 776-7150 is on the Contact page. No online ordering, bulk shares, delivery or shipping mentioned; email for information. Also sells registered Highland breeding stock."
+}

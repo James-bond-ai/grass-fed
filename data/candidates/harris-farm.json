@@ -1,0 +1,37 @@
+{
+  "id": "harris-farm",
+  "slug": "harris-farm",
+  "farm_name": "Harris Farm",
+  "city": "Dayton",
+  "state": "ME",
+  "zip": "04005",
+  "address_public": true,
+  "address": "280 Buzzell Rd, Dayton, ME 04005",
+  "website": "https://www.harrisfarm.com/",
+  "phone": "207-499-2678",
+  "social_urls": [],
+  "species": ["beef", "dairy-cow"],
+  "products": ["steaks", "roasts", "hamburger", "stew meat", "veal", "glass-bottled milk", "flavored milk", "half and half", "heavy cream", "butter"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We offer a full line of tender, grass-finished steaks, succulent roasts, all-natural hamburger, and our own free-range veal at our farm store.",
+    "source_url": "https://www.harrisfarm.com/beef.html"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "local-delivery", "retail"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["coastal southern Maine"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.harrisfarm.com/"
+  },
+  "dairy_products": ["milk", "cream", "butter"],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.harrisfarm.com/beef.html",
+  "resold_note": "The farm store also sells eggs from Whippoorwill Farm, cheese from Smith's Farmstead, yogurt and ice cream made by Sweetcream Dairy, bacon and sausage from Short Creek Farm, and other goods from local producers.",
+  "notes": "Scout 2026-11-25: read the harrisfarm.com homepage, about us, milk, products, our cows, where to buy, beef and our herd pages. Beef page says grass-finished steaks and that animals are finished naturally on a grass-based diet; our herd page says the animals are fed grass, hay and grass silage. Verifier: 'grass-based' is softer than grass-only, confirm grass-finished is right. Dairy cows get grain and supplements in winter (our cows page), which applies to the milking herd, not the beef claim. Milk is not stated to be raw, so listed as milk. Home delivery is through The Maine Milkman (themainemilkman.com, linked as the farm's own milkman), not read. Milk is also sold in about 25 southern Maine stores listed on where-to-buy (retail). Vegetable CSA and Saco Farmers Market are for corn and vegetables only, so left out. No bulk beef shares mentioned."
+}

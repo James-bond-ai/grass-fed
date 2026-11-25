@@ -1,0 +1,36 @@
+{
+  "id": "gonsoulin-land-and-cattle",
+  "slug": "gonsoulin-land-and-cattle",
+  "farm_name": "Gonsoulin Land and Cattle",
+  "city": "New Iberia",
+  "state": "LA",
+  "zip": "70563",
+  "address_public": true,
+  "address": "6110 Loreauville Road, New Iberia, LA 70563",
+  "website": "https://www.glcranch.com/",
+  "phone": "337-577-9160",
+  "social_urls": ["https://www.facebook.com/GonsoulinCattle", "https://www.instagram.com/gonsoulinbeef", "https://www.youtube.com/@gonsoulinlandcattle"],
+  "species": ["beef"],
+  "products": ["ground beef", "keto blend ground beef", "stew meat", "ribeye", "filet mignon", "top sirloin steak", "chuck steak", "round steak", "short ribs", "brisket", "chuck roast", "sirloin tip roast", "beef bundles", "beef quarters, halves and wholes"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Gonsoulin Land and Cattle is your choice for LOCALLY PRODUCED grass-fed, grass finished, antibiotic-free and growth hormone-free meats.",
+    "source_url": "https://www.glcranch.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "online-order", "local-delivery", "ships-regional", "farmers-market"],
+  "farmers_markets": ["Lafayette Farmers & Artisans Market, Lafayette (Saturdays 8am to 12pm)", "Red Stick Farmer's Market, Baton Rouge (Saturdays 8am to 12pm)"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": 35,
+    "ships_to": ["LA"],
+    "pickup_locations": [],
+    "source_url": "https://www.glcranch.com/pages/frequently-asked-questions"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.glcranch.com/collections/grassfed-beef",
+  "data_source": "web-search",
+  "source_url": "https://www.explorelouisiana.com/agritourism/glc-meat-market",
+  "notes": "Scout 2026-11-25: read the glcranch.com homepage, FAQ, our story, the farm store, farmers markets, custom beef deposit product and grassfed beef collection (first 16 of 28 products) pages. Homepage and FAQ describe the beef as grass-fed and grass finished; FAQ says the animals eat grass but does not explicitly say no grain. Farm Store at 6110 Loreauville Road, open Monday to Friday 9am to 6pm and Saturday 8am to noon. FAQ: free local delivery within a 35-mile radius on orders of $150 or more ($25 fee under $150), Louisiana shipping only. Custom beef (quarter, half, whole, $100 deposit) is Farm Store pickup only. Homepage says to buy their grassfed beef and pork at the Farm Store and markets, but no pork products appear in the shop and the site never says they raise pigs, so pork is left out; Verifier: check. Our story page says the ranch is certified by the American Grassfed Association, but the AGA producer directory was blocked, so no certification added; Verifier: look for Gonsoulin in the AGA listing and add aga with evidence_url if found. Site also offers custom processing for outside animals. Store is called GLC Meat Market on explorelouisiana.com."
+}

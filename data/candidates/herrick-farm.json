@@ -1,0 +1,37 @@
+{
+  "id": "herrick-farm",
+  "slug": "herrick-farm",
+  "farm_name": "Herrick Farm",
+  "city": "Rowley",
+  "state": "MA",
+  "zip": "",
+  "address_public": true,
+  "address": "77 Dodge Road, Rowley, MA",
+  "website": "https://herrickfarm.net/",
+  "phone": "978-992-6246",
+  "social_urls": [],
+  "species": ["beef", "poultry"],
+  "products": ["grass-fed beef", "meat chickens"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Herrick Farm is now offering grass-fed beef at its 77 Dodge Road location.",
+    "source_url": "https://herrickfarm.net/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://herrickfarm.net/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://herrickfarm.net/",
+  "resold_note": "The farm store also carries products from other New England farms; the dairy herd's milk goes to the Agri-Mark co-op.",
+  "notes": "Scout 2026-11-25: read the herrickfarm.net homepage and About Us page; other pages are behind unlabeled Learn More links that were not reachable. Dairy farm milking over 100 Holsteins (milk shipped to Agri-Mark, so no dairy listed) with a herd of about 30 steers for grass-fed beef; site recently began raising meat chickens. No grain, pasture or finishing wording found, so category is grass-fed. Eggs and milk appear only in a customer review quoted on the site, so eggs are left out; Verifier: check whether eggs and bottled milk are the farm's own. The site lists the zip as 01696, which does not match Rowley (01969), so zip is left empty. Hours are inconsistent on the homepage (farm stand Thursday to Monday 10am to 5pm vs farm store Monday, Friday to Sunday, Tuesday to Thursday by appointment); site says call or text to check availability; curbside pickup on request. No bulk shares, delivery or shipping mentioned."
+}

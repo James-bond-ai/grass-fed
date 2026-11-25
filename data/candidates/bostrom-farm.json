@@ -1,0 +1,36 @@
+{
+  "id": "bostrom-farm",
+  "slug": "bostrom-farm",
+  "farm_name": "Bostrom Farm",
+  "city": "Greenfield",
+  "state": "MA",
+  "zip": "01301",
+  "address_public": true,
+  "address": "701 Colrain Road, Greenfield, MA 01301",
+  "website": "https://bostromfarm.com/",
+  "phone": "413-325-7120",
+  "social_urls": [],
+  "species": ["beef", "pork"],
+  "products": ["ground beef", "steaks", "brisket", "tenderloin", "top round steaks", "bone broth", "ground pork", "boneless pork chops", "pork sirloin steaks", "bacon", "sausage", "kielbasa", "hot dogs", "smoked ham steaks", "monthly meat CSA share"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "We are a Massachusetts farm, producing grass-fed beef and pork.",
+    "source_url": "https://bostromfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "csa", "farmers-market"],
+  "farmers_markets": ["Greenfield Farmers' Market"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://bostromfarm.com/n/6/Next-CSA-starts-in-Oct"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://buylocalfood.org/directory/listing/bostrom-farm",
+  "notes": "Scout 2026-11-25: found via the CISA Buy Local directory; read the bostromfarm.com homepage, Meats page, CSA news page (Next CSA starts, updated November 5, 2026) and news list. Farm store (butcher shop) open Monday to Friday 10am to 6pm and Saturday 9am to 4pm. Meat CSA is 10 lbs of assorted beef and pork a month for 4 months ($475); the fall CSA is full and the next starts February 2027. Meats page mentions the Greenfield Farmers' Market booth; the site's Farmers Market page has no details, so Verifier: confirm the farm still attends. The site calls the pork grass-fed as well as the beef; CISA describes the pork as pasture-raised; no finishing or grain wording found, so category is grass-fed. Homepage says milk, vegetables and plants were added to the retail store; the source of the milk is not stated, so no dairy is listed. Only a sample 10 lb share is mentioned, no quarter or half shares. No delivery or shipping mentioned."
+}

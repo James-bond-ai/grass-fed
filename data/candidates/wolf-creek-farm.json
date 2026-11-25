@@ -1,0 +1,47 @@
+{
+  "id": "wolf-creek-farm",
+  "slug": "wolf-creek-farm",
+  "farm_name": "Wolf Creek Farm",
+  "city": "Sidney",
+  "state": "ME",
+  "zip": "04330",
+  "address_public": true,
+  "address": "26 Blake Road, Sidney, ME 04330",
+  "website": "https://www.wcfarm-maine.com/",
+  "phone": "207-446-7220",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["ground beef", "burger patties", "beef sausage", "steaks", "roasts", "stew beef", "shaved steak", "short ribs", "soup and marrow bones", "organ meats", "tallow balm and soap"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our USDA Certified Grass-fed Beef offers numerous benefits.",
+    "source_url": "https://www.wcfarm-maine.com/about"
+  },
+  "certifications": [
+    {
+      "body": "USDA AMS",
+      "program": "usda-svs-grass-fed",
+      "cert_id": "GF5122MHA",
+      "evidence_url": "https://www.ams.usda.gov/sites/default/files/media/LSOfficialListingBeefGrassFedProgram.pdf",
+      "evidence_note": "Listed as \"Wolf Creek Farm\" (Sidney, ME) in USDA's SVS Grass Fed listing revised 2026-11-18.",
+      "verified_on": "2026-11-25",
+      "expires_on": "2027-05-02"
+    }
+  ],
+  "sales_channels": ["on-farm-store"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": ""
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "usda",
+  "source_url": "https://www.ams.usda.gov/sites/default/files/media/LSOfficialListingBeefGrassFedProgram.pdf",
+  "resold_note": "The farm store also sells bratwurst and kielbasa from W.A. Beans, coffee roasted by Tessier Farm Coffee and Tea Co., and goods from other local producers.",
+  "notes": "Scout 2026-11-25: read the wcfarm-maine.com homepage (Farmers Market), about, farm store (products and price list), cooking tips and contact pages. Site domain is WC Farm; contact page names the farm Wolf Creek Farm. All cattle are born and raised on the farm with rotational grazing; the site says grass-fed but nothing about finishing, so grass-fed. Store open year-round Wed 5 to 7pm, Fri 11 to 6, Sat 9:30 to 5, Sun 12 to 4. Verifier: the store also sells chicken, ground turkey, pork cuts and eggs with no source stated; left out of species until the farm says it raises them. Maple syrup is labeled From Wolf Creek Maple. No bulk shares, delivery or shipping mentioned. The homepage title says Farmers Market but no market is named."
+}

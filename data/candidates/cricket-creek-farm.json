@@ -1,0 +1,37 @@
+{
+  "id": "cricket-creek-farm",
+  "slug": "cricket-creek-farm",
+  "farm_name": "Cricket Creek Farm",
+  "city": "Williamstown",
+  "state": "MA",
+  "zip": "",
+  "address_public": true,
+  "address": "1255 Oblong Road, Williamstown, MA",
+  "website": "https://cricketcreekfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef", "pork", "dairy-cow"],
+  "products": ["ground beef", "steaks", "rose veal", "ground veal", "bones and organs", "ground pork", "bacon", "sausage links", "beef, veal and pork half and quarter shares", "raw milk", "farmstead cheeses"],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "All of our beef is 96-100% grass-fed.",
+    "source_url": "https://cricketcreekfarm.com/bulk-meat-packages/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "farmers-market"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://cricketcreekfarm.com/bulk-meat-packages/"
+  },
+  "dairy_products": ["raw-milk", "cheese"],
+  "ordering_url": "https://cricketcreekfarm.com/bulk-meat-packages/",
+  "data_source": "web-search",
+  "source_url": "https://cricketcreekfarm.com/bulk-meat-packages/",
+  "resold_note": "The farm store also sells eggs, produce, pickles, preserves, coffee, bread and other goods from other farms and businesses.",
+  "notes": "Scout 2026-11-25: read the cricketcreekfarm.com homepage, farm store, raw milk, about the farm, the farm organism and bulk meat packages (Beef + Veal + Pork) pages; the where to find our cheese page would not load (robots error). Grass-based dairy; the bulk page says beef is 96-100% grass-fed, the young stock and beef herd get no grain, dairy cows get a small cornmeal and molasses supplement, and a 100% grass-fed beef bundle is available with advance notice at a 15% premium, so category is percentage (Verifier: consider whether grass-finished fits better for the 100% bundle only). Pigs are fed grain mash, whey and cheese ends; site calls them pastured and whey-fed. Raw milk page says the milk is raw (unpasteurized) and sold only at the farm store at 1255 Oblong Road; no zip or phone found on the site. Farm store open daily 7am to 7pm. Bulk half and quarter shares: deposit online, pickup at the farm. Meat is sold at the farmers markets the farm attends, but no market names were found; Verifier: check the cheese page for market names and retail outlets (cheese is sold in stores, so retail may apply). Butter and ice cream in the store were not confirmed as the farm's own, so they are left out. No delivery or shipping mentioned."
+}

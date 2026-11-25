@@ -1,0 +1,37 @@
+{
+  "id": "weatherlow-farms",
+  "slug": "weatherlow-farms",
+  "farm_name": "Weatherlow Farms",
+  "city": "Westport",
+  "state": "MA",
+  "zip": "02790",
+  "address_public": true,
+  "address": "845 Sodom Road, Westport, MA 02790",
+  "website": "https://www.weatherlowfarms.com/",
+  "phone": "",
+  "social_urls": ["https://www.instagram.com/weatherlow_farms", "https://www.facebook.com/weatherlowfarms"],
+  "species": ["beef", "poultry", "eggs"],
+  "products": ["steaks", "roasts", "brisket", "short rib", "ground beef patties", "beef sausage", "bones", "organs", "suet", "whole chickens", "chicken parts", "chicken eggs", "chef-prepared meals"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Our beef is entirely grass-fed, and hormone and antibiotic free.",
+    "source_url": "https://www.weatherlowfarms.com/proteinmenu"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.weatherlowfarms.com/thefarmstore"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.weatherlowfarms.com/proteinmenu",
+  "data_source": "web-search",
+  "source_url": "https://www.weatherlowfarms.com/",
+  "resold_note": "The farm store also sells pantry staples, baked goods and gifts from regional artisans.",
+  "notes": "Scout 2026-11-25: read the weatherlowfarms.com homepage, About, Farm Store, Menu and Protein Menu pages; the old bulk orders/CSA page (weatherlowfarms.com/bulk-orderscsa/) failed to load. Farm store and market open Thursday to Sunday 10am to 5pm; protein menu has an online cart priced by the pound (checkout total may differ); fulfillment method not stated, assumed pickup at the store. Beef described as entirely grass-fed; page meta description says pasture-finished, but no grass-finished wording in the body, so category is grass-fed (Verifier: consider grass-finished). Homepage says the farm raises lamb and pork, but on the protein menu the pork, lamb and some chicken are labeled Azuluna Farms and duck is described as sourced from pasture-raised ducks, so pork, lamb and duck are left out; Verifier: check whether Azuluna Farms is Weatherlow's own brand or another farm. No phone, delivery, shipping or bulk shares found."
+}

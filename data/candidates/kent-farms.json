@@ -1,0 +1,35 @@
+{
+  "id": "kent-farms",
+  "slug": "kent-farms",
+  "farm_name": "Kent Farms",
+  "city": "Clinton",
+  "state": "LA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://amelia-levin-kent.squarespace.com/kent-farms",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["freezer beef (custom beef)", "individual beef cuts"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "That model evolved into grass-fed and grass-finished beef marketed directly to the household consumer as custom beef to fill your freezer, which then grew into having a labeled-retail product as well.",
+    "source_url": "https://amelia-levin-kent.squarespace.com/kent-farms"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://amelia-levin-kent.squarespace.com/kent-farms"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://amelia-levin-kent.squarespace.com/kent-farms",
+  "notes": "Scout 2026-11-25: the farm has no site of its own; its only web page is the Kent Farms page on co-owner Amelia Levin Kent's personal site (pages: About, Advocacy, Blog, Kent Farms), which was read in full. Headquartered in Clinton with farm sites in East Feliciana Parish. Page says the farm sells custom beef to fill your freezer and that they also sell individual beef cuts from our home; retail marketing is through partnerships with other farmers (no stores named). No phone, address, hours, shipping or delivery given; contact is by email only. No quarter or half sizes named; bulk_shares is set from the freezer beef wording. Verifier: confirm direct sales are current, since the page has an empty Hours section and no ordering details, and decide whether a page on a personal site is acceptable as the website."
+}

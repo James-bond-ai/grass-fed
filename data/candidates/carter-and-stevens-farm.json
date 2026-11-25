@@ -1,0 +1,42 @@
+{
+  "id": "carter-and-stevens-farm",
+  "slug": "carter-and-stevens-farm",
+  "farm_name": "Carter & Stevens Farm",
+  "city": "Barre",
+  "state": "MA",
+  "zip": "01005",
+  "address_public": true,
+  "address": "500 West Street, Barre, MA 01005",
+  "website": "https://www.carterandstevensfarm.com/",
+  "phone": "978-355-4940",
+  "social_urls": [],
+  "species": ["beef", "dairy-cow"],
+  "products": ["grass-fed beef cuts", "raw milk"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "The beef is from a healthy animal that lived its life grazing on pastures.",
+    "source_url": "https://www.carterandstevensfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.carterandstevensfarm.com/farm-store"
+  },
+  "dairy_products": ["raw-milk"],
+  "ordering_url": "",
+  "availability": {
+    "status": "paused",
+    "note": "Farm store is open seasonally from mid to late April until October.",
+    "checked_on": "2026-11-25"
+  },
+  "data_source": "web-search",
+  "source_url": "https://www.carterandstevensfarm.com/",
+  "resold_note": "The farm store also sells locally made ice cream, local groceries and beer from Stone Cow Brewery.",
+  "notes": "Scout 2026-11-25: read the carterandstevensfarm.com homepage, About the Farm, Farm Store and FAQ pages (site name styled Carter & Steven's Family Farm; Verifier: check preferred farm_name). Pasture-based dairy; farm store sells its own grass-fed beef and raw milk bottled daily (site says raw milk, not the word unpasteurized). Category grass-fed because no finishing wording was found. Farm store page says beef is available in bulk with many cuts, but no quarter, half or whole shares are named, so bulk_shares is false; Verifier: check. 2026 season hours were Thursday and Sunday 11am to 7pm, Friday and Saturday 11am to 8pm; store closes for the winter, so availability is paused. Site also runs Stone Cow Kitchen, a BBQ venue and Stone Cow Brewery. No delivery or shipping mentioned."
+}

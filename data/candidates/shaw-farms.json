@@ -1,0 +1,36 @@
+{
+  "id": "shaw-farms",
+  "slug": "shaw-farms",
+  "farm_name": "Shaw Farms",
+  "city": "South Paris",
+  "state": "ME",
+  "zip": "",
+  "address_public": true,
+  "address": "175 East Oxford Road, South Paris, ME",
+  "website": "https://shawfarmsofmaine.com/",
+  "phone": "207-689-6988",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["ribeye steaks", "tomahawk ribeye", "tenderloin steaks", "shaved steak", "eye of round roast", "quarter beef shares", "pastured pork", "pastured chicken", "eggs"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "All the Shaws' animals have the benefit of fresh air, sunshine, and green grass to eat.",
+    "source_url": "https://shawfarmsofmaine.com/our-history"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": ""
+  },
+  "dairy_products": [],
+  "ordering_url": "https://shawfarmsofmaine.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://shawfarmsofmaine.com/our-history",
+  "notes": "Scout 2026-11-25: read the our-history, our-practices, why-grass-fed and blog pages. The homepage, contact page, shop and every product page returned server errors, so products, the quarter beef share and the 100% Grass-Fed product names come only from search result titles of shop pages. Verifier: open the shop to confirm products, the quarter share (bulk_shares), fulfillment (pickup, delivery, shipping) and the zip code. History page says cattle were created to eat grass rather than corn or other grains and the why-grass-fed page describes daily rotational grazing; no explicit finishing statement read, so grass-fed. Poultry is described as getting about 30% of feed from grass and insects; pork described as pastured. Farm store mentioned ('Visit our store'), hours not found."
+}

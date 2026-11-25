@@ -332,18 +332,22 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Verifier: existing candidates oahu-meats and kunoa-cattle-company were sourced from pages.dev hosts (oahu-meats.pages.dev, kunoacattle-com.pages.dev) that may not be the farms' own sites; confirm the official domains before publishing 2026-11-14
 
 ## LA
-- Kent Farms: only a writer's Squarespace portfolio page found, no farm website 2026-11-22
-- Hereau Farms: only Crescent City Farmers Market and Market Umbrella press pages, no farm website 2026-11-22
-- Bayou Farm: name from an Eat Well Guide result, not searched 2026-11-22
-- McCain Farms, Calhoun: pickup point for Mahaffey Farms, may be a farm itself, not searched 2026-11-22
-- Daigle Farms: on the beefitswhatsfordinner.com Louisiana map, not checked 2026-11-22
-- Certified Louisiana program producer list may give more names (Three Twelve Beef is a member), not opened 2026-11-22
+- Bayou Farm, south Louisiana (Freetown Farmers Market, Lafayette): Eat Well Guide lists pastured poultry, eggs, pork, sheep, turkey; no website found 2026-11-25
+- McCain Farms, Calhoun; Hereau Farms: no website found 2026-11-25
+- Smith Family Farms of Louisiana, Elm Grove, stores in Bossier City and Benton (smithfamilyfarmslouisiana.com): pastured cattle and hair sheep; every fetch failed, retry 2026-11-25
+- Bayou Sarah Farms, St. Francisville: grass-fed water buffalo (not an allowed species) and pasture-raised eggs; Instagram and market vendor page only 2026-11-25
+- No website (Facebook or directory only): PaPa Simpson's Farm, Arcadia; C6 Farms, Logansport; Nourishing Farm, Shreveport 2026-11-25
+- Unchecked 2026-11-25: Iverstine Family Farms, Kentwood area (press only, site not searched); Sagrera Farms, Ethel (half cow sales mentioned, porchandparish.com page); A&A Acres, pasture-raised eggs, town and site unknown
+- Certified Louisiana program producer list: no public list found 2026-11-25
+- Skip aggregator look-alikes: ffhtwo.netlify.app, grassfed-beef-site.pages.dev, bayoupastures.netlify.app 2026-11-25
 
 ## ME
-- Intervale Farm, New Gloucester (intervalefarm.com): homepage and about page failed with robots.txt errors; beef FAQ loaded (quarter and half grass-fed beef cut by West Gardiner Beef); retry 2026-11-22
-- Shaw Farms, town unknown (shawfarmsofmaine.com): robots.txt error 2026-11-22
-- Harris Farm (harrisfarm.com), Depot Street Meats and Dairy at L.D. Farms (depotstreetmeats.com), WC Farm (wcfarm-maine.com): not reached 2026-11-22
-- Maine Beef Producers Association member list (mainebeefproducersassociation.com/members.php) and MOFGA / Get Real Get Maine directories: not opened 2026-11-22
+- Intervale Farm, New Gloucester (intervalefarm.com): homepage and about page still robots.txt errors; beef FAQ mentions grass-fed beef, quarter and half shares cut by West Gardiner Beef; town unconfirmed from own site 2026-11-25
+- N bar A Ranch, Harmony (nbara.com): 100% grass-fed, never fed grain, delivery of quarters and halves in most of Maine, but newest post 2021 and "sold out as of Winter 2021"; check if still selling 2026-11-25
+- Eden Farm, Athens (edenfarm.weebly.com): raw goat milk dairy, cows 100% grass fed but no beef sold, farm stand closed for 2026, no goat pasture claim found; possible reject 2026-11-25
+- Maine Beef Producers Association members with websites, unchecked 2026-11-25: Casa Cattle Company, Corinna (casacattle.com); Homestead Farm, Pownal (homesteadfarmangus.com); Saints Hill Farm, Greenwood (themainefarm.com); Maple Lane Farm, Charleston (maplelanefarmsmaine.com). Pineland Farms Natural Meats, New Gloucester, probably a retail brand
+- MBPA grass-fed members with no website: Thunder Hill Farm, Waterford (Highland beef); Hines Clan Farm, Bradford 2026-11-25
+- MOFGA / Get Real Get Maine directories: not opened 2026-11-25
 - Chase's Organic Dairy, Mapleton: no farm website found, milk appears to go to Organic Valley 2026-11-22
 - Skip aggregator look-alikes in Maine results: bhumifarms.co, organicfarmfood.org, grassfedjunction.com, fieldandcattle.com, halfacowclub.com 2026-11-22
 
@@ -356,4 +360,9 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Maryland's Best producer pages seen in search, unchecked 2026-11-24: Lovell Grass Fed Cattle Company (marylandsbest.maryland.gov/producers/lovell-grass-fed-cattle-company/, may have a site after all); Columbine Manor; His Grace Farm; Newark Farms; also Prigel Family Creamery (grass-fed dairy, sells through Grand View Farm)
 
 ## MA
-- No leads yet. Massachusetts is the next state with no farms and no leads after MD in the alphabetical order (then MI, which has leads, and MN). (Monitor 2026-11-23)
+- Chestnut Farms, Hardwick (chestnutfarm.org): site and Square store render by JavaScript, only metadata read (grass-fed beef, pastured pork, lamb, goat, poultry, meat CSA, Natick market) 2026-11-25
+- Walker Farm, New Braintree (AGW listing agreenerworld.org/northeast/walker-farm-new-braintree-ma/) and Kinne Brook Farm, Worthington (AGW listing agreenerworld.org/northeast/kinne-brook-farm-worthington-ma-2/): not checked, time 2026-11-25
+- Unchecked 2026-11-25: Appleton Farms (The Trustees), Ipswich (site not found); Roaming Farm LLC and Foxbard Farm, Pioneer Valley (CISA directory); Poplar Hill Farm, Franklin County (Greenfield Recorder); Moonlight Run Farm, central MA (moonlightrunfarm.com); Caledonia Farm, Barre (site not found)
+
+## MS
+- Seen at Crescent City Farmers Market, unchecked 2026-11-25: White Sand Homestead, Poplarville (whitesandhomestead.com); Pearl River Pastures, Picayune (Barn2Door store sunsetoaksfarmms); Black Creek Farm, Picayune

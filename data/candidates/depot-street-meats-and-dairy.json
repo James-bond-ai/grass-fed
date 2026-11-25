@@ -1,0 +1,36 @@
+{
+  "id": "depot-street-meats-and-dairy",
+  "slug": "depot-street-meats-and-dairy",
+  "farm_name": "Depot Street Meats & Dairy at L.D. Farms",
+  "city": "Jay",
+  "state": "ME",
+  "zip": "04239",
+  "address_public": true,
+  "address": "29 Depot Street, Jay, ME 04239",
+  "website": "https://www.depotstreetmeats.com/",
+  "phone": "207-645-6121",
+  "social_urls": [],
+  "species": ["beef", "lamb", "goat", "poultry", "eggs", "dairy-cow", "dairy-goat"],
+  "products": ["Belted Galloway beef cuts", "ground beef", "steaks", "roasts", "organ meats", "lamb cuts", "lamb meat shares", "goat meat", "whole pastured chickens", "chicken parts", "chicken eggs", "duck eggs", "raw cow and goat milk", "chevre", "mozzarella", "yogurt", "kefir", "butter"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our pasture raised Belted Galloway Cattle are 100% Grass Fed and Grass Finished.",
+    "source_url": "https://www.depotstreetmeats.com/depot-street-meats"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farmers-market"],
+  "farmers_markets": ["Friday market at 181 Front Street, next to the Better Living Center (10am to 1pm)", "Saturday market at 129 Main Street, near the Courthouse (10am to 1pm)"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.depotstreetmeats.com/farm-store"
+  },
+  "dairy_products": ["raw-milk", "cheese", "yogurt", "kefir", "butter"],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.depotstreetmeats.com/",
+  "notes": "Scout 2026-11-25: read the depotstreetmeats.com homepage, contact, Depot Street Meats, Belted Galloway beef, pastured lamb, heritage poultry and eggs, Depot Street Dairy (general-8), farm store and price list pages. Beef and lamb are grass fed and grass finished on the farm; chickens are pastured from 5 weeks and supplemented with local grains fermented in goat milk. Licensed Maine raw milk dairy (Guernsey goats and a Normande cow); butter and kefir come from the dairy page's meta description. Raw milk sales are legal only in some states. Farm store hours Mon to Thu 12 to 6, Fri 2 to 6, Sat 1 to 6. Verifier: the two market addresses name no town (likely Farmington, Franklin County, not confirmed on the site); the farm store page mentions a partnership with Western Maine Market for customers not nearby, not checked; price list page URL says 2023 while the menu says 2025. Lamb meat shares are limited; no quarter or half beef offered, so bulk_shares is false."
+}

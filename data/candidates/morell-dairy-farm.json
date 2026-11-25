@@ -1,0 +1,37 @@
+{
+  "id": "morell-dairy-farm",
+  "slug": "morell-dairy-farm",
+  "farm_name": "Morell Dairy Farm",
+  "city": "Mooringsport",
+  "state": "LA",
+  "zip": "71060",
+  "address_public": true,
+  "address": "4743 Highway 169, Mooringsport, LA 71060",
+  "website": "https://www.morelldairyfarm.com/",
+  "phone": "",
+  "social_urls": ["http://facebook.com/morelldairyfarm", "http://instagram.com/morelldairyfarm"],
+  "species": ["dairy-cow", "eggs"],
+  "products": ["whole Jersey milk (non-homogenized)", "skim milk", "chocolate milk", "heavy cream", "raw milk", "seasonal eggnog", "chicken eggs"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Our cows graze freely all year long. However, we supplement with hay in the winter and feed a special blend of feed at twice-daily milking times to make sure our cows are getting proper nutrition.",
+    "source_url": "https://www.morelldairyfarm.com/faq"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "retail", "restaurants"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.morelldairyfarm.com/products"
+  },
+  "dairy_products": ["milk", "raw-milk", "cream"],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://slowfoodnla.squarespace.com/local",
+  "resold_note": "The farm store also sells Wooldridge meat from another producer.",
+  "notes": "Scout 2026-11-25: read the morelldairyfarm.com homepage, products, FAQ, about and visit pages. Jersey herd; milk is vat pasteurized and bottled on the farm (whole milk not homogenized). Raw milk is sold at the farm stand only and the FAQ says it is labeled not for human consumption (Louisiana allows raw milk as pet food only). Farm open Monday, Wednesday and Friday 2 to 5pm and Saturday 9am to noon. Products page lists about 17 partner retailers in the Shreveport, Bossier City, Stonewall, Greenwood, Vivian, Benton and Mooringsport area (including Mahaffey Farms and Smith Family Farms of Louisiana stores) and restaurants using the milk. No phone shown (placeholder only), no delivery or shipping. Eggs: site says they sell farm-fresh eggs and visitors can meet the cows and chickens, but does not say how hens are kept; Verifier: confirm eggs are from their own hens. FAQ mentions butter in passing but butter is not on the products list, so it is left out. Category is pastured because cows graze year round but also get hay and a feed blend at milking."
+}

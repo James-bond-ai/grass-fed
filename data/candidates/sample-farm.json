@@ -1,0 +1,36 @@
+{
+  "id": "sample-farm",
+  "slug": "sample-farm",
+  "farm_name": "Sample Farm",
+  "city": "Shreveport",
+  "state": "LA",
+  "zip": "71115",
+  "address_public": true,
+  "address": "1214 LA-1, Shreveport, LA 71115",
+  "website": "https://www.samplefarmla.com/",
+  "phone": "318-562-3299",
+  "social_urls": ["https://www.instagram.com/samplefarm/", "https://www.facebook.com/Sample-Farm-1179370322194408"],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["beef", "pork", "chicken", "chicken eggs"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "We utilize managed rotational grazing of pasture grasses.",
+    "source_url": "https://www.samplefarmla.com/history"
+  },
+  "certifications": [],
+  "sales_channels": ["retail"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Chop Shop, Shreveport (the farm's own food hub storefront)"],
+    "source_url": "https://www.samplefarmla.com/history"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.chopshopshv.com/",
+  "data_source": "web-search",
+  "source_url": "https://slowfoodnla.squarespace.com/local",
+  "notes": "Scout 2026-11-25: read the samplefarmla.com homepage, history, meet the crew and contact pages; the craft butchery page failed to load and chopshopshv.com was blocked. Regenerative beef, pork and egg farm in northern Red River Parish (near Coushatta); history page names beef, chicken, pork and eggs. Homepage SHOP NOW links to Chop Shop, which the history page calls the permanent home for Sample Farm products and other local producers; it began as a weekly Farm Stand trailer. The 1214 LA-1 Shreveport address and zip are from the contact page and may be the Chop Shop rather than the farm; Verifier: check, and set city to Coushatta if the address is the store. No grass-only or grain statements, so category is pastured. Verifier: open chopshopshv.com and the craft butchery page to confirm current products, ordering, any delivery, and whether Chop Shop resells other farms' meat (add resold_note)."
+}
