@@ -1,0 +1,35 @@
+{
+  "id": "chestnut-farms",
+  "slug": "chestnut-farms",
+  "farm_name": "Chestnut Farms",
+  "city": "Hardwick",
+  "state": "MA",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.chestnutfarm.org/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef", "pork", "lamb", "goat", "poultry", "eggs"],
+  "products": ["beef steaks", "pork", "lamb", "goat", "poultry", "chicken eggs", "monthly meat CSA"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Delicious grass-fed tender beef Delmonico steak (Boneless Ribeye Steak).",
+    "source_url": "https://store.chestnutfarm.org/product/beef-delmonico-steak/129"
+  },
+  "certifications": [],
+  "sales_channels": ["csa", "farmers-market", "online-order"],
+  "farmers_markets": ["Natick Farmers Market (Saturdays)"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.chestnutfarm.org/csa-faq"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://store.chestnutfarm.org/s/order",
+  "data_source": "web-search",
+  "source_url": "https://www.chestnutfarm.org/",
+  "notes": "Scout 2026-11-26: the site renders with JavaScript, so WebFetch of the homepage, CSA, CSA FAQ, Our Story, Our Practices, Turkey Pickup, ?page_id=2551 and the Square store order page returned only metadata, no body text. Facts come from the meta description ('grassfed beef, pastured pork, lamb, goat and poultry', monthly meat CSA, 'find us Saturdays at the Natick Farmers Market') and the store's Delmonico steak and eggs product descriptions. Verifier must recheck in a real browser: finishing claim (Our Practices page), CSA pickup sites (old ?page_id=86 'Harvard' and ?page_id=77 'Arlington 3' pages suggest drop sites), delivery, bulk shares, phone, and whether the turkeys and eggs are raised on the farm. Category kept at grass-fed as nothing about finishing could be read."
+}

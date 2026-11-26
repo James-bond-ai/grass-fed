@@ -1,0 +1,36 @@
+{
+  "id": "foxbard-farm",
+  "slug": "foxbard-farm",
+  "farm_name": "Foxbard Farm",
+  "city": "Shelburne",
+  "state": "MA",
+  "zip": "01370",
+  "address_public": true,
+  "address": "400 Bardwells Ferry Road, Shelburne, MA 01370",
+  "website": "https://www.foxbardfarm.com/",
+  "phone": "413-625-4604",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["Black Angus beef boxes", "premium ground beef", "steaks", "roasts", "organ meats and marrow bones", "beef quarters"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Bred naturally in the fields, our Angus spend about half the year grazing on the prime pastures surrounding the Farm.",
+    "source_url": "https://www.foxbardfarm.com/our-beef"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["within about 20 miles of the farm, orders over $200"],
+    "local_radius_miles": 20,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.foxbardfarm.com/our-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.foxbardfarm.com/contact",
+  "data_source": "web-search",
+  "source_url": "https://www.foxbardfarm.com/",
+  "notes": "Scout 2026-11-26: read the homepage, Our Beef, Contact & Order, History, The Land and Hay & Wood pages via WebFetch summaries; quote and delivery wording ('Free delivery available within ~20 miles, for orders >$200.') were returned as exact quotes but recheck. Category is pastured, not grass-fed: the Our Beef page says first-winter calves receive a small ration of GMO-free grain from Five Point Farm in Northfield; herd eats farm-grown hay in winter; site never says grass-fed. Beef boxes ($52 to $190) requested through the contact form; Contact page invites reservations for a quarter for Fall 2026. Pickup at the farm. Also sells hay, firewood and lumber."
+}

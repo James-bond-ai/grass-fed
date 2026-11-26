@@ -315,9 +315,7 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Prairie Creek Farms (prairiecreek.farm): surfaced in an IL search, unchecked 2026-11-14
 
 ## MI
-- Smith Family Farm, Nashville (thesmithfamilyfarm.net): FAQ says 100% grass-fed and finished, home delivery to Michigan metro areas; surfaced in a Maine search, unchecked 2026-11-22
-- Finn's Ranch, Buchanan (finnsranch.com): grass-finished beef delivered across Chicagoland; own site fetch blocked 2026-11-13
-- Integrated Farms (integratedfarms.grazecart.com): grass-only beef, pastured pork and poultry; store names no town, possibly Buchanan area 2026-11-13
+- Unchecked 2026-11-26: B&B Farms (thegoodnessofgrass.com); Heaven Sent Beef (heavensentbeef.com); Fowler Valley Farms (fowlervalleyfarms.com); Terra Rose Farm (terrarose.farm); Rebel Pastures (rebelpastures.com); Apsey Farms (apseyfarms.com, Traverse City delivery page, home state unconfirmed)
 
 ## HI
 - Ulupalakua Ranch, Kula, Maui (ulupalakuaranch.com): beef sold through Maui Cattle Company, ranch store is a grill, no direct meat sales found 2026-11-12
@@ -342,10 +340,13 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Skip aggregator look-alikes: ffhtwo.netlify.app, grassfed-beef-site.pages.dev, bayoupastures.netlify.app 2026-11-25
 
 ## ME
-- Intervale Farm, New Gloucester (intervalefarm.com): homepage and about page still robots.txt errors; beef FAQ mentions grass-fed beef, quarter and half shares cut by West Gardiner Beef; town unconfirmed from own site 2026-11-25
-- N bar A Ranch, Harmony (nbara.com): 100% grass-fed, never fed grain, delivery of quarters and halves in most of Maine, but newest post 2021 and "sold out as of Winter 2021"; check if still selling 2026-11-25
+- Intervale Farm, New Gloucester (intervalefarm.com): homepage and about page still robots.txt errors 2026-11-26; beef FAQ mentions grass-fed beef, quarter, half and whole shares cut by West Gardiner Beef; town, phone and pickup unconfirmed from own site
+- N bar A Ranch, Harmony (nbara.com): rechecked 2026-11-26, still says 100% grass-fed, never fed grain, but nothing newer than 2021, buying page "sold out as of Winter 2021", Montana area code phone; likely inactive, held back (not a candidate)
 - Eden Farm, Athens (edenfarm.weebly.com): raw goat milk dairy, cows 100% grass fed but no beef sold, farm stand closed for 2026, no goat pasture claim found; possible reject 2026-11-25
-- Maine Beef Producers Association members with websites, unchecked 2026-11-25: Casa Cattle Company, Corinna (casacattle.com); Homestead Farm, Pownal (homesteadfarmangus.com); Saints Hill Farm, Greenwood (themainefarm.com); Maple Lane Farm, Charleston (maplelanefarmsmaine.com). Pineland Farms Natural Meats, New Gloucester, probably a retail brand
+- Homestead Farm, Pownal (homesteadfarmangus.com): checked 2026-11-26, summer rotational pasture plus hay and custom grain mix in winter (percentage or grain-finished), sides and quarter packs, but site never says how or where buyers collect; held back
+- Saints Hill Farm, Greenwood (themainefarm.com): homepage says meats from our pastures (beef, pork), unnamed farmers market; other pages robots.txt errors, newest post 2020 2026-11-26
+- Pineland Farms Natural Meats, New Gloucester: probably a retail brand, unchecked
+- Unchecked 2026-11-26: Black Earth Forest Farm (blackearthforestfarm.com, grass-fed lamb and goose); Bleecker & Greer (mainemeat.com, may be a butcher shop)
 - MBPA grass-fed members with no website: Thunder Hill Farm, Waterford (Highland beef); Hines Clan Farm, Bradford 2026-11-25
 - MOFGA / Get Real Get Maine directories: not opened 2026-11-25
 - Chase's Organic Dairy, Mapleton: no farm website found, milk appears to go to Organic Valley 2026-11-22
@@ -360,9 +361,10 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Maryland's Best producer pages seen in search, unchecked 2026-11-24: Lovell Grass Fed Cattle Company (marylandsbest.maryland.gov/producers/lovell-grass-fed-cattle-company/, may have a site after all); Columbine Manor; His Grace Farm; Newark Farms; also Prigel Family Creamery (grass-fed dairy, sells through Grand View Farm)
 
 ## MA
-- Chestnut Farms, Hardwick (chestnutfarm.org): site and Square store render by JavaScript, only metadata read (grass-fed beef, pastured pork, lamb, goat, poultry, meat CSA, Natick market) 2026-11-25
-- Walker Farm, New Braintree (AGW listing agreenerworld.org/northeast/walker-farm-new-braintree-ma/) and Kinne Brook Farm, Worthington (AGW listing agreenerworld.org/northeast/kinne-brook-farm-worthington-ma-2/): not checked, time 2026-11-25
-- Unchecked 2026-11-25: Appleton Farms (The Trustees), Ipswich (site not found); Roaming Farm LLC and Foxbard Farm, Pioneer Valley (CISA directory); Poplar Hill Farm, Franklin County (Greenfield Recorder); Moonlight Run Farm, central MA (moonlightrunfarm.com); Caledonia Farm, Barre (site not found)
+- Walker Farm at Whortleberry Hill, New Braintree (walkergrassfed.com, 508-867-8097): site is HTTP-only so WebFetch loops; AGW listing (agreenerworld.org/agw-listings/united-states/massachusetts/new-braintree/beef-1/walker-farm-at-whortleberry-hill/) shows Animal Welfare Approved only; AGW article says grass-fed and finished 2026-11-26
+- Kinne Brook Farm, Worthington (kinnebrookfarm.com, 413-238-8001): HTTP-only site; AGW listing (agreenerworld.org/awa-listings/kinne-brook-farm/) shows AWA and Certified Grassfed by AGW, farm sales by appointment, also Four Corners Farmstand 2026-11-26
+- Poplar Hill Farm, Whately (poplarhillfarminc.com): checked 2026-11-26, cattle raised on field corn, hay and corn silage, beef sold to restaurants and butchers; Farm Store page server error, direct sales unconfirmed; held back
+- Unchecked: Appleton Farms (The Trustees), Ipswich (site not found); Caledonia Farm, Barre (site not found) 2026-11-25
 
 ## MS
 - Seen at Crescent City Farmers Market, unchecked 2026-11-25: White Sand Homestead, Poplarville (whitesandhomestead.com); Pearl River Pastures, Picayune (Barn2Door store sunsetoaksfarmms); Black Creek Farm, Picayune

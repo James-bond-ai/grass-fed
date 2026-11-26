@@ -1,0 +1,36 @@
+{
+  "id": "finns-ranch",
+  "slug": "finns-ranch",
+  "farm_name": "Finn's Ranch",
+  "city": "Buchanan",
+  "state": "MI",
+  "zip": "49107",
+  "address_public": false,
+  "website": "https://finnsranch.com/",
+  "phone": "(773) 616-0251",
+  "social_urls": ["https://www.facebook.com/FinnsSteakAndEggsRanch/", "https://www.instagram.com/finnsranch/"],
+  "species": ["beef", "lamb", "pork", "poultry", "eggs"],
+  "products": ["steaks", "roasts", "ground beef", "burger patties", "beef franks", "organs", "bones", "beef bone stock", "tallow", "ground lamb", "lamb stew meat", "bacon", "pork chops", "pork sausage and brats", "ham", "lard", "whole chicken", "chicken parts", "ground turkey", "chicken eggs", "tallow skincare", "pet food"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are raised on grass and forage, without grain finishing.",
+    "source_url": "https://finnsranch.com/store/beef"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "farmers-market", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Chicago and surrounding suburbs (select ZIP codes)", "Cook County, IL", "DuPage County, IL"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Neighborhood pickup spots in Chicagoland (Wednesdays; shown by ZIP code at checkout)"],
+    "source_url": "https://finnsranch.com/home-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://finnsranch.com/store",
+  "resold_note": "Also sells wild-caught Great Lakes fish from local fishermen.",
+  "data_source": "web-search",
+  "source_url": "https://finnsranch.com/",
+  "notes": "Scout 2026-11-26: read the finnsranch.com homepage, About Us, FAQs, Home Delivery, Neighborhood Pickup, Farmers Markets, Find Us (locations), Farm pickup location, Contact, and store pages for beef, beef bulk, lamb/goat, pork, poultry and fish, all through WebFetch summaries, so the quote came from a summary; Verifier: recheck exact wording. Farm is at 13559 Coveney Road, Buchanan, but sells mainly to Chicagoland: Wednesday home delivery in Cook and DuPage counties ($15, free over $200, $35 minimum), neighborhood pickup, and farm pickup Sundays 8am to noon (porch cooler). FAQ says it does not ship. Farmers markets are described only as various markets throughout Chicagoland; the names were in an image or not on the pages, so none are listed. Bulk beef page exists but said no products currently available, so bulk_shares left false. Lamb page says raised on open pastures; pork and poultry are pasture-raised, chicken feed includes non-GMO corn and soy. Goat category had no goat products. Site does not say whether lamb or pork are raised on the farm or bought in; About page photos show sheep, goats and pigs. Banner: last delivery December 16 before an end-of-year break."
+}

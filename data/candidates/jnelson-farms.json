@@ -1,0 +1,37 @@
+{
+  "id": "jnelson-farms",
+  "slug": "jnelson-farms",
+  "farm_name": "JNelson Farms",
+  "city": "Hope",
+  "state": "MI",
+  "zip": "48628",
+  "address": "4240 N Stark Rd, Hope, MI 48628",
+  "address_public": true,
+  "website": "https://jnelsonfarms.com/",
+  "phone": "989-859-9670",
+  "social_urls": ["https://www.pinterest.com/tammyrivettnelson/", "https://www.instagram.com/jnelsonfarms"],
+  "species": ["beef", "eggs"],
+  "products": ["Black Angus and Red Angus beef", "beef bundles", "chicken eggs", "produce", "breeding and feeder cattle"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Cattle at JNelson Farms enjoy lush pasture and stored grasses (hay or grass silage) birth to finish",
+    "source_url": "https://jnelsonfarms.com/protocols"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "online-order", "retail"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Birch Run (monthly schedule)", "Berkley (monthly schedule)"],
+    "source_url": "https://jnelsonfarms.com/faq"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://jnelsonfarms.com/store",
+  "resold_note": "Also sells pastured pork from Standen Acres in Alpena, MI.",
+  "data_source": "web-search",
+  "source_url": "https://jnelsonfarms.com/",
+  "notes": "Scout 2026-11-26: read the jnelsonfarms.com homepage, About Our Farm, Protocols, FAQ, Store, Pickup Locations, The Market at JNelson Farms, Contact, the Standen Acres vendor page and two retail-location pages, all through WebFetch summaries, so the quote came from a summary; Verifier: recheck exact wording. Protocols page says cattle are never finished on corn or grain; FAQ says beef will always be grass-fed and grass-finished with a zero grain protocol. Market building at the farm open dawn to dusk daily with cash and carry beef and pastured eggs plus online order pickup; quarter bundle orders and larger picked up by appointment; FAQ says Birch Run and Berkely (likely Berkley) pickups follow a monthly schedule; no shipping. Retail pages list Jack's Fruit & Meat Market, Midland and Beyond Measure Bulk Foods (town not shown); confirm they carry JNelson beef. Store product list needs sign-in, so products are from other pages; check whether half or whole bundles are offered and whether the eggs are from the farm's own hens. Locations page shows only a generic home-delivery popup, so local-delivery not recorded."
+}

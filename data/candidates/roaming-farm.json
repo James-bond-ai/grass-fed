@@ -1,0 +1,36 @@
+{
+  "id": "roaming-farm",
+  "slug": "roaming-farm",
+  "farm_name": "Roaming Farm",
+  "city": "South Deerfield",
+  "state": "MA",
+  "zip": "",
+  "address_public": true,
+  "address": "80 S. Mill River Rd., South Deerfield, MA",
+  "website": "https://roamingfarm.com/",
+  "phone": "413-268-4317",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["Highland beef by package or individual cut"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Pasture Raised",
+    "source_url": "https://roamingfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://roamingfarm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://roamingfarm.com/",
+  "notes": "Scout 2026-11-26: read only the homepage via a WebFetch summary. The Highland Beef, Price List and Contact Us subpages are plain HTTP only and could not be fetched, so recheck them (especially Price List for halves or quarters, and Highland Beef for grass-only wording). Homepage lists 'Pasture Raised' and 'Pasture Fed' as attributes; category kept at pastured because no grass-only or grain statement was found. Sales: farm open by appointment (call, text or email RoamingFarm@gmail.com), beef sold in packages or by the cut. No delivery or shipping mentioned. Legal name Roaming Farm LLC."
+}

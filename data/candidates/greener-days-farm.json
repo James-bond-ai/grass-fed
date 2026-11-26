@@ -1,0 +1,36 @@
+{
+  "id": "greener-days-farm",
+  "slug": "greener-days-farm",
+  "farm_name": "Greener Days Farm",
+  "city": "Waldoboro",
+  "state": "ME",
+  "zip": "04572",
+  "address": "286 Miller Road, Waldoboro, ME 04572",
+  "address_public": true,
+  "website": "https://www.greenerdaysfarm.com/",
+  "phone": "207-406-0392",
+  "social_urls": ["https://www.facebook.com/greenerdaysfarm", "https://www.instagram.com/greenerdaysfarm"],
+  "species": ["lamb", "pork", "poultry"],
+  "products": ["whole lamb", "half lamb", "lamb chops", "lamb roasts", "ground lamb", "heritage pork cuts", "bacon", "sausage", "ham", "whole and half pigs", "roaster pigs", "feeder and breeder pigs", "pasture-raised whole chicken", "lard"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "We feed no grain!",
+    "source_url": "https://www.greenerdaysfarm.com/grass-fed-lamb-in-maine.html"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["within 20 miles of the farm (free, by appointment)", "Route 1 delivery June to October: Waldoboro, Freeport, Portland, Scarborough, Buxton and stops along the way ($10)", "Route 2 delivery June to October: Waldoboro, Belfast, Ellsworth, Bar Harbor and stops along the way ($10)"],
+    "local_radius_miles": 20,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.greenerdaysfarm.com/logistics.html"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.greenerdaysfarm.com/products.html",
+  "data_source": "web-search",
+  "source_url": "https://www.greenerdaysfarm.com/grass-fed-lamb-in-maine.html",
+  "notes": "Scout 2026-11-26: read the homepage, Our Farm, Products, 100% Grass Fed Lamb, Heritage Pork Cuts, Pig Feed, Shipping Pickup & Delivery and Contact pages; the broiler chicken page redirected to http and was not read. Lamb is '100% grass fed' with no grain, and was marked sold out for 2026 (only the lamb, so no farm-wide availability set; Verifier may add one). Heritage pigs are raised on pasture and woodlot with a daily organic grain ration; chicken is pasture-raised. Quote came from a WebFetch summary. Site says 'We do not ship any of our products'; pickup at the farm by appointment, delivery routes as listed. Whole and half lamb ($8.50 to $9.00/lb hanging weight, processed at Herring Brothers, Guilford) and whole and half pigs; online store takes deposits. Also lists 'Whole Hog Soap' (not food). Found via web search 'Maine farm 100% grass-fed beef lamb farm store pickup'."
+}

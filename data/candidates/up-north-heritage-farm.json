@@ -1,0 +1,41 @@
+{
+  "id": "up-north-heritage-farm",
+  "slug": "up-north-heritage-farm",
+  "farm_name": "Up North Heritage Farm",
+  "city": "Williamsburg",
+  "state": "MI",
+  "zip": "49690",
+  "address_public": false,
+  "website": "https://upnorthheritagefarm.com/",
+  "phone": "231-655-0554",
+  "social_urls": ["https://www.instagram.com/upnorthheritagefarm/", "https://www.facebook.com/UpNorthHeritageFarm/"],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["dry-aged Angus beef", "Mangalitsa pork", "chicken", "chicken eggs", "bones and organs", "bundles"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "100% Grass-fed Angus Beef",
+    "source_url": "https://upnorthheritagefarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Traverse City", "Elk Rapids", "surrounding areas"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://upnorthheritagefarm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://upnorthheritagefarm.com/store",
+  "availability": {
+    "status": "paused",
+    "note": "The farm says it is not restocking its online store while it changes over to selling whole and half shares.",
+    "checked_on": "2026-11-26"
+  },
+  "resold_note": "Also sells lamb from partner farm Back Acre Farm/Pharo Polypay in Rapid City, MI.",
+  "data_source": "web-search",
+  "source_url": "https://upnorthheritagefarm.com/",
+  "notes": "Scout 2026-11-26: read the upnorthheritagefarm.com homepage, About Our Family, Meet Our Partners, FAQs, Local Delivery, Pickup (locations), Store and Pastured Lamb pages, all through WebFetch summaries, so the quote came from a summary; Verifier: recheck exact wording. Category kept cautious at grass-fed: beef is labeled 100% grass-fed and the About page says all animals are grass-fed and pasture-raised, live in the grass their entire lives and are never fed corn or soy, but no page says grass-finished. Lamb is all from a partner farm and is grass-fed with a little non-GMO grain in winter, so it is in resold_note, not species. Chicken and eggs are organic and soy-free fed (not organic certified; do not add organic). FAQ says it does not ship meat; delivers to Traverse City, Elk Rapids and surrounding areas and makes special deliveries further away; flexible farm pickup. Store notice says it will not restock while changing over to whole/half shares and the last Mangalitsa pork is being sold; bulk_shares set true on that notice, recheck once shares are posted. Also has an Up North Meat Club (quarterly boxes)."
+}

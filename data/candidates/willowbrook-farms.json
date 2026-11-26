@@ -1,0 +1,40 @@
+{
+  "id": "willowbrook-farms",
+  "slug": "willowbrook-farms",
+  "farm_name": "Willowbrook Farms",
+  "city": "Cassopolis",
+  "state": "MI",
+  "zip": "49031",
+  "address_public": false,
+  "website": "https://willowbrookmi.com/",
+  "phone": "574-386-7550",
+  "social_urls": ["https://www.instagram.com/willowbrookmichigan/"],
+  "species": ["beef", "lamb", "pork", "poultry", "eggs"],
+  "products": ["steaks", "roasts", "ground beef", "beef organs and bones", "lamb", "bacon", "pork chops", "ribs", "pork sausage and brats", "ground pork", "chicken", "turkey", "chicken eggs", "duck eggs", "bone broth", "honey", "pet treats"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% Grassfed and Finished Beef",
+    "source_url": "https://willowbrookmi.com/store/100-grassfed-and-finished-beef"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "farmers-market", "local-delivery", "ships-regional", "online-order"],
+  "farmers_markets": ["Green City Market, 1817 North Clark St, Chicago, IL (Saturdays 7am to 1pm, April to November 23)"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://willowbrookmi.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://willowbrookmi.com/store",
+  "availability": {
+    "status": "sold-out",
+    "note": "Beef is listed as sold out until October 2026 and every beef cut still showed sold out; lamb, pork, poultry and eggs are listed for sale.",
+    "checked_on": "2026-11-26"
+  },
+  "data_source": "web-search",
+  "source_url": "https://willowbrookmi.com/",
+  "notes": "Scout 2026-11-26: read the willowbrookmi.com homepage, About Us, Farm Store, Pickup Locations, and store pages for beef, lamb (store/beef URL) and pork, all through WebFetch summaries, so the quote (the beef category heading) came from a summary; Verifier: recheck exact wording. Lamb and goat labeled 100% Grass Fed; pork is forest raised and non-GMO; chicken, turkey and eggs pasture raised (eggs corn and soy free). Goat appears only in a Subscribe & Save section, so left out of species; check. Farm store at the farm open Tuesday to Saturday (address given as both 19555 and 19585 Bulhand St). Homepage says shipments go out every Monday and Tuesday and arrive by end of week, but names no shipping area, so ships_to is empty; local delivery during the week by location, no areas named. A customer review mentions the New Buffalo Farmers Market; not listed since the farm does not list it. Site does not say whether the beef is raised on the farm; no bulk shares found. Also an agritourism farm (camp, tours, farm stays, lavender)."
+}

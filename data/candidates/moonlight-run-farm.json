@@ -1,0 +1,36 @@
+{
+  "id": "moonlight-run-farm",
+  "slug": "moonlight-run-farm",
+  "farm_name": "Moonlight Run Farm",
+  "city": "Barre",
+  "state": "MA",
+  "zip": "01005",
+  "address_public": true,
+  "address": "1140 South Street, Barre, MA 01005",
+  "website": "https://moonlightrunfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef", "poultry", "eggs"],
+  "products": ["Highland beef", "pasture-raised chicken", "pasture-raised heritage turkey (Thanksgiving pre-order)", "chicken eggs", "goose eggs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our Scottish Highland cattle are 100% grass-fed and finished.",
+    "source_url": "https://www.moonlightrunfarm.com/store"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.moonlightrunfarm.com/store"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.moonlightrunfarm.com/store",
+  "data_source": "web-search",
+  "source_url": "https://moonlightrunfarm.com/",
+  "notes": "Scout 2026-11-26: read the homepage, Farm Store, About and Services pages via WebFetch summaries (no raw text; curl was blocked), so recheck the quote wording on the Farm Store page. Store lists beef, pasture-raised chicken (supplemental organic feed), pasture-raised heritage turkey (November pre-order only), chicken and goose eggs, plus hay and raw fiber; all prices are 'contact for pricing' via the inquiry form, farm visits by appointment at the Barre address. No phone on the site. No quarter/half beef, delivery or shipping for food seen; the 'nationwide' hauling on the Services page is livestock transport, not food shipping. Farm also sells breeding animals and offers petting zoo and dog boarding services."
+}

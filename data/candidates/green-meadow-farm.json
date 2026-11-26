@@ -1,0 +1,36 @@
+{
+  "id": "green-meadow-farm",
+  "slug": "green-meadow-farm",
+  "farm_name": "Green Meadow Farm",
+  "city": "Union",
+  "state": "ME",
+  "zip": "04862",
+  "address": "779 N Union Rd, Union, ME 04862",
+  "address_public": true,
+  "website": "https://greenmeadowfarmme.com/",
+  "phone": "207-754-9052",
+  "social_urls": ["https://www.facebook.com/GrassFedBeefMaine"],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["ground beef", "steaks", "roasts", "brisket", "beef liver", "beef quarters, sides and whole", "pork sausage", "bacon", "ham", "pork chops", "pork roasts", "pork quarters, sides and whole hogs", "whole chicken", "chicken parts", "Thanksgiving turkey", "chicken eggs", "meat packages"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "nutritious grasses to support our 100% grass-fed & grass-finished beef",
+    "source_url": "https://greenmeadowfarmme.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farmers-market", "retail", "restaurants"],
+  "farmers_markets": ["Rockport Farmers Market at Guini Ridge Farm & Garden Center, 310 Commercial Street, Rockport (Saturdays 9 to 12, year round)", "Rockland Farmers' Market, Harbor Park, Rockland (Thursdays 9 to 1, May through December)", "Sheepscot Valley Farmer's Market at Albee Farm, 1628 Alna Road, Alna"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://greenmeadowfarmme.com/where-to-find-green-meadow-farm-products"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://greenmeadowfarmme.com/farm-products",
+  "data_source": "web-search",
+  "source_url": "https://greenmeadowfarmme.com/",
+  "notes": "Scout 2026-11-26: read the homepage, Farm Products, Where to Find Green Meadow Farm Products and Contact Us pages. Beef: '100% Grass-fed Beef' and 'No grain. Ever.' on the products page; pork and poultry are pasture-raised and fed grain (non-GMO). Quote came from a WebFetch summary and is a sentence fragment; Verifier should copy the full sentence from the homepage. Farm store by appointment only. Retail: The Common Market (Union), Good Tern Natural Foods (Rockland), Gowell's Shop 'n Save (Greene and Litchfield), The Potted Pantry (Edgecomb); restaurants In Good Company (Rockland) and Winona's (Camden). Orders via contact form, phone or email; Thanksgiving turkeys by preorder with late October pickup. No delivery or shipping stated (one testimonial mentions home delivery). Found via web search 'Maine farm 100% grass-fed beef lamb farm store pickup'."
+}

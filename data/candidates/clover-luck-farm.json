@@ -1,0 +1,36 @@
+{
+  "id": "clover-luck-farm",
+  "slug": "clover-luck-farm",
+  "farm_name": "Clover Luck Farm",
+  "city": "Pepperell",
+  "state": "MA",
+  "zip": "01463",
+  "address_public": true,
+  "address": "84 Jewett St, Pepperell, MA 01463",
+  "website": "https://cloverluckfarm.com/",
+  "phone": "978-433-6802",
+  "social_urls": ["https://www.facebook.com/CloverLuckFarm", "https://www.instagram.com/cloverluck.farm"],
+  "species": ["beef", "pork", "poultry", "eggs", "dairy-cow"],
+  "products": ["ground beef", "stew beef", "pork cuts", "ground pork", "kielbasa", "half and whole pigs", "whole chickens", "chicken eggs", "raw milk", "spreadable farmstead cheese"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass-fed & grass-finished cattle",
+    "source_url": "https://cloverluckfarm.com/products/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://cloverluckfarm.com/contact-us/"
+  },
+  "dairy_products": ["raw-milk", "cheese"],
+  "ordering_url": "https://cloverluckfarm.com/shop/",
+  "data_source": "web-search",
+  "source_url": "https://cloverluckfarm.com/shop/beef",
+  "notes": "Scout 2026-11-26: read homepage, About, Products, Contact, Shop, Beef category and the half pig and whole chicken product pages via WebFetch summaries (quote returned as exact but recheck). Farm store open 8am to 4pm, 7 days a week (Contact page). Beef products labeled 'Grass Fed and Grass Finished'; recheck the About page line 'During winter we feed baled hay and a little non-GMO grain to get them in the barn', which seems to refer to the Normande and Jersey milk cows, not the beef; if it covers beef cattle the category should drop to grass-fed. Pork is pasture raised on a non-GMO diet; chickens 'Raised on our pastures, Fed Non-GMO grains'. Half and whole pigs by deposit (bulk_shares true for pork); Beef for Stewing was sold out. Raw milk sold at the farm store (raw milk sales are legal only in some states). Shop also lists Raw Honey; not checked whether it is from the farm. No delivery, shipping or markets mentioned."
+}

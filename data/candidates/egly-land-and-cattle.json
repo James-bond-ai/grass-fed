@@ -1,0 +1,35 @@
+{
+  "id": "egly-land-and-cattle",
+  "slug": "egly-land-and-cattle",
+  "farm_name": "Egly Land & Cattle",
+  "city": "Paw Paw",
+  "state": "MI",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.eglygrassfedbeef.com/",
+  "phone": "269-370-4228",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["Red Devon and Devon/Wagyu-cross beef", "breeding stock"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef is 100% grass fed, and grass finished never finished on corn or grain.",
+    "source_url": "https://www.eglygrassfedbeef.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://www.eglygrassfedbeef.com/contact-us.html"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://www.eglygrassfedbeef.com/",
+  "notes": "Scout 2026-11-26: read the eglygrassfedbeef.com homepage, About Us, Pricing, Contact Us and What's Happening On The Farm pages, all through WebFetch summaries, so the quote came from a summary; Verifier: recheck exact wording. About page says the cattle never had grains, are rotated daily on planted pasture with winter hay, and all animals are raised on the farm (no feeder calves bought in). Price list is sent by email; after an order the farm schedules a pickup or delivery time; Contact page says shipping is not cost effective. No delivery area, street address or bulk share wording on the pages read (freezer beef only in meta keywords), so bulk_shares left false. Recheck that the farm is still selling: the newest farm update is dated January 2021 (a May 2020 post said sold out for the season). Site claims MAEAP certification, which is not a listing program, so not recorded."
+}

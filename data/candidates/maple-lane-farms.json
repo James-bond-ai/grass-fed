@@ -1,0 +1,37 @@
+{
+  "id": "maple-lane-farms",
+  "slug": "maple-lane-farms",
+  "farm_name": "Maple Lane Farms",
+  "city": "Charleston",
+  "state": "ME",
+  "zip": "04422",
+  "address": "224 Upper-Charleston Rd., Charleston, ME 04422",
+  "address_public": true,
+  "website": "https://maplelanefarmsmaine.com/",
+  "phone": "207-285-3591",
+  "social_urls": ["https://www.facebook.com/maplelanefarmsmaine/"],
+  "species": ["beef", "pork"],
+  "products": ["beef sides", "hind quarters", "fore quarters", "Black Label Reserve beef", "retail beef cuts", "ground beef", "pork", "meat packages", "hay", "silage", "screened compost", "custom meat processing"],
+  "feeding_claim": {
+    "category": "percentage",
+    "verbatim": "Our animals are grown here locally, on home grown hay, haylege, corn silage, small amounts of soybean meal, and minerals.",
+    "source_url": "https://maplelanefarmsmaine.com/black-label-reserve"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://maplelanefarmsmaine.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://maplelanefarmsmaine.com/all-natural-beef-2",
+  "data_source": "web-search",
+  "resold_note": "Also sells lamb sourced from other Maine farms and chicken described only as locally raised.",
+  "source_url": "https://maplelanefarmsmaine.com/",
+  "notes": "Scout 2026-11-26: read the homepage, About, Products, All-Natural Beef, Black Label Reserve, Locally Sourced Lamb and Packages and Sales pages; the Natural Farm Raised Pork page returned only a bot-check screen twice. Large operation (site says about 700 beef cows) with a retail store and custom processing plant; open Mon to Fri 8 to 5, Sat 8 to 2, Sun 9 to 12, curbside pickup or in-store shopping. Beef fed hay, haylage, corn silage and some soybean meal, in pastures in summer; the site never uses the words grass-fed or grain, so category is percentage (Verifier may prefer grain-finished; corn silage contains grain). Products page says 'pastured pork'; Verifier should read the pork page to confirm the farm raises its pigs. Quote came from a WebFetch summary. Sides $4.19/lb, hind quarters $4.39/lb, fore quarters $3.99/lb hanging weight. No delivery or shipping mentioned."
+}
