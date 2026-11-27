@@ -23,7 +23,7 @@ Statuses: queued, drafting, in-review, returned, published.
 | 15 | best-grass-fed-ground-beef-delivery | Grass-fed ground beef by mail, compared | best | in-review | Make it distinct from best-grass-fed-beef-delivery: focus on lean/fat ratios, ground beef vs hamburger (9 CFR 319.15), %lean/%fat label rules (FSIS nutrition labeling Q&A 2012), bulk bundle price per lb, farms in the directory that ship ground beef. |
 | 16 | freezer-space-for-beef | How much freezer space a quarter or half cow needs | guide | in-review | |
 | 17 | grass-fed-beef-on-a-budget | Grass-fed beef on a budget | guide | in-review | Drafted 2026-11-25. AMS price report could not be fetched this run, so price figures are linked to is-grass-fed-beef-worth-it rather than restated. |
-| 18 | grass-fed-vs-grain-fed | Grass-fed vs grain-fed beef: what actually differs | guide | queued | Hub page. Careful with nutrition framing. |
+| 18 | grass-fed-vs-grain-fed | Grass-fed vs grain-fed beef: what actually differs | guide | in-review | Hub page. Careful with nutrition framing. Drafted 2026-11-27. FSIS, nutrition, carbon and price sources could not be fetched this run, so those sections link to existing guides rather than restating figures. |
 | 19 | grass-fed-beef-sticks | Grass-fed beef sticks and jerky: what to check on the label | best | queued | |
 | 20 | force-of-nature-profile | Force of Nature Meats: sourcing and claims | review | queued | |
 | 21 | bulk-grass-fed-beef-texas | Buying grass-fed beef in bulk in Texas: farms, processors and what to expect | guide | queued | State bulk-beef guide. Link /bulk-beef/tx/ and Texas farms in the directory. Cite Texas A&M AgriLife Extension and Texas DSHS meat safety rules for custom-exempt processing. |
