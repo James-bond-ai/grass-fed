@@ -315,7 +315,8 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Prairie Creek Farms (prairiecreek.farm): surfaced in an IL search, unchecked 2026-11-14
 
 ## MI
-- Unchecked 2026-11-26: B&B Farms (thegoodnessofgrass.com); Heaven Sent Beef (heavensentbeef.com); Fowler Valley Farms (fowlervalleyfarms.com); Terra Rose Farm (terrarose.farm); Rebel Pastures (rebelpastures.com); Apsey Farms (apseyfarms.com, Traverse City delivery page, home state unconfirmed)
+- Guindon Farms, Cornell (guindonfarms.com, (906) 384-6517): homepage says 100% grass fed and finished Limousin cattle; ordering page guindonfarms.com/order loops on an https to http redirect, so how to buy is unconfirmed 2026-11-27
+- Unchecked 2026-11-27: Beery Farms of MI (beeryfarmsmi.com, town unknown); BP Farms (bpfarmsorganic.com, town unknown); Livingston Farms (livingstonfarmsmi.com, town unknown); Michigan Craft Beef (michigancraftbeef.com, town unknown); Yooper Beef, Bruce Crossing (third-party directory only, own site not found)
 
 ## HI
 - Ulupalakua Ranch, Kula, Maui (ulupalakuaranch.com): beef sold through Maui Cattle Company, ranch store is a grill, no direct meat sales found 2026-11-12
@@ -367,4 +368,10 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Unchecked: Appleton Farms (The Trustees), Ipswich (site not found); Caledonia Farm, Barre (site not found) 2026-11-25
 
 ## MS
-- Seen at Crescent City Farmers Market, unchecked 2026-11-25: White Sand Homestead, Poplarville (whitesandhomestead.com); Pearl River Pastures, Picayune (Barn2Door store sunsetoaksfarmms); Black Creek Farm, Picayune
+- Black Creek Farm, Picayune (4421 Hwy 43N): no own website found, only Facebook (juneaufamilyfarm) and a Crescent City Farmers Market profile 2026-11-27
+- Shady Acres Farm (shadyacresms.com, town unknown): every fetch failed with robots.txt errors 2026-11-27
+- Home Place Pastures, Como (homeplacepastures.com): has a page inviting other farms to produce for it, may be partly an aggregator, unchecked 2026-11-27
+- Johnson Farms, Picayune: MDAC Market Portal lists grain fed, no website, likely reject 2026-11-27
+- Third-party directory only, no own site seen: Persimmon Ridge Family Farm, Philadelphia; Ladner Livestock, Sebastopol 2026-11-27
+- State unconfirmed, unchecked: Stonnington Farm (stonningtonfarm.com); Beam Family Farm (beamfamilyfarms.com) 2026-11-27
+- Genuine MS member directories (genuinems.com/members/meat/ and /members/eggs/): not browsed yet 2026-11-27

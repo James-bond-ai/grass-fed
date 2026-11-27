@@ -1,0 +1,41 @@
+{
+  "id": "heaven-sent-farms",
+  "slug": "heaven-sent-farms",
+  "farm_name": "Heaven Sent Farms",
+  "city": "Webberville",
+  "state": "MI",
+  "zip": "48892",
+  "address_public": true,
+  "address": "3732 East Howell Rd, Webberville, MI 48892",
+  "website": "https://heavensentbeef.com/",
+  "phone": "248-521-9406",
+  "social_urls": ["https://www.facebook.com/HeavenSentFarmsUSA", "https://www.instagram.com/heavensentbeef"],
+  "species": ["beef", "pork"],
+  "products": ["whole, half and quarter beef", "ground beef", "steaks", "roasts", "stew meat", "brisket", "soup and marrow bones", "suet", "organs", "whole hog", "pork roasts", "ground pork", "bacon", "pork chops", "ribs", "pork steaks", "country sausage"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "They are truly grass-fed and grass-finished from start to finish.",
+    "source_url": "https://heavensentbeef.com/pages/about-us"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Michigan residents only (free delivery to your door or freezer)"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://heavensentbeef.com/products/quarter-beef"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://heavensentbeef.com/collections/all",
+  "availability": {
+    "status": "waitlist",
+    "note": "Beef orders are taken for animals going to the processor around Summer 2027; whole hogs listed as in stock.",
+    "checked_on": "2026-11-27"
+  },
+  "data_source": "web-search",
+  "source_url": "https://heavensentbeef.com/",
+  "notes": "Scout 2026-11-27: read the heavensentbeef.com homepage, About Us, Contact Us, all-products collection, and the half beef, quarter beef and whole hog product pages, all through WebFetch summaries, so the quote came from a summary; Verifier: recheck exact wording. Site brand is Heaven Sent Beef; the farm calls itself Heaven Sent Farms. Farm store by appointment only (call or text). Bulk prices on the site are non-refundable deposits; processing by Jones Farm Meats, Saranac, and the farm delivers free to the door; quarter page says Michigan Residents Only but gives no radius. Whole hog page says delivery is applied at checkout and also free, which conflicts. Pork: raised on the farm and roam outside, but feed is not described, so pork feeding is unknown; category reflects the beef. Shipping Policy page not read (not surfaced by search). Homepage shows a Michigan Beef Quality Assurance badge, not a listed certification."
+}

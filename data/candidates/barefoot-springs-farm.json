@@ -1,0 +1,35 @@
+{
+  "id": "barefoot-springs-farm",
+  "slug": "barefoot-springs-farm",
+  "farm_name": "Barefoot Springs Farm",
+  "city": "Pelahatchie",
+  "state": "MS",
+  "zip": "39145",
+  "address_public": false,
+  "website": "https://barefootspringsfarm.net/",
+  "phone": "(601) 540-1665",
+  "social_urls": ["https://www.facebook.com/barefootspringsfarm", "https://www.instagram.com/barefootspringsfarm"],
+  "species": ["beef", "poultry", "eggs"],
+  "products": ["ground beef", "burger patties", "steaks", "roasts", "brisket", "beef bacon", "beef organs", "bones", "beef fat and suet", "whole chickens", "chicken parts", "chicken eggs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "our steers are grassfed, grass-finished, and completely free of antibiotics and hormones.",
+    "source_url": "https://barefootspringsfarm.net/about-us"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Drop-off pickup locations chosen at account signup (not named on the site)"],
+    "source_url": "https://barefootspringsfarm.net/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://barefootspringsfarm.net/store",
+  "data_source": "web-search",
+  "source_url": "https://barefootspringsfarm.net/",
+  "notes": "Scout 2026-11-27: read the barefootspringsfarm.net homepage, About Us, Shop, Beef by the Pound, Beef Shares and Poultry pages and the new-website blog post, all through WebFetch summaries, so the quote came from a summary; Verifier: recheck exact wording. The Locations page was blocked (PROVENANCE_REQUIRED) and not read. Homepage says customers pick a pickup location and the farm meets them at multiple drop-off locations; none are named, and local-delivery is a cautious reading of that drop-off model; Verifier: confirm. No shipping or farmers markets mentioned. Beef shares (whole, half, quarter) are pre-order with deposits. Poultry and eggs are labeled Non-GMO Fed & Pastured; no feed detail beyond that. No street address on the site."
+}

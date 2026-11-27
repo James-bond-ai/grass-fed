@@ -1,0 +1,36 @@
+{
+  "id": "fowler-valley-farms",
+  "slug": "fowler-valley-farms",
+  "farm_name": "Fowler Valley Farms",
+  "city": "Honor",
+  "state": "MI",
+  "zip": "49640",
+  "address_public": true,
+  "address": "12028 Fowler Road, Honor, MI 49640",
+  "website": "https://fowlervalleyfarms.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["beef boxes", "beef shares (10 and 15 lb)", "ground beef", "ribeye steak", "NY strip steak", "chuck roast", "burger patties", "bacon", "tallow skincare"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Our cattle graze on pasture their whole lives, then spend their final weeks on a grain diet.",
+    "source_url": "https://fowlervalleyfarms.com/pages/faq-local-beef-delivery-fowlervalleyfarms"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery", "ships-nationwide", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Benzie County", "Leelanau County", "Grand Traverse County (including Traverse City and nearby towns)"],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://fowlervalleyfarms.com/pages/local-beef-delivery-northern-michigan-fowlervalleyfarms"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://fowlervalleyfarms.com/collections/beef-boxes",
+  "data_source": "web-search",
+  "source_url": "https://fowlervalleyfarms.com/",
+  "notes": "Scout 2026-11-27: read the fowlervalleyfarms.com homepage, Our Farm Story, Beef Box FAQ, Local Delivery page, Beef Boxes and Individual Cuts collections, all through WebFetch summaries, so the quote came from a summary; Verifier: recheck exact wording. Site says pasture-raised and grain-finished throughout (product names say Michigan Grain-Finished); no grass-fed wording, but pasture wording is present, so listed as grain-finished. Family raises its own herd on 125 acres in Platte Township, Benzie County; processed at RRR Meats, Buckley. Friday local delivery ($15, free over $150), Saturday farm stand pickup 10 AM to 6 PM at the farm, ships to the lower 48 Monday to Tuesday (free over $200; homepage meta says $150). Bacon is labeled Michigan Pasture-Raised but the site does not say if it is pork or beef or who raises it, so pork not listed. Beef shares are fixed 10 and 15 lb boxes, not quarter or half animals, so bulk_shares false. No phone on the pages read; contact email uses the fowlervalleycattlecompany.com domain. Several blog posts look like SEO content."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "rebel-pastures",
+  "slug": "rebel-pastures",
+  "farm_name": "Rebel Pastures",
+  "city": "Rockford",
+  "state": "MI",
+  "zip": "",
+  "address_public": false,
+  "website": "https://rebelpastures.com/",
+  "phone": "(616) 818-7198",
+  "social_urls": ["https://www.facebook.com/rebelpastures", "https://www.instagram.com/rebelpastures/", "https://www.linkedin.com/company/rebelpastures/"],
+  "species": ["lamb", "beef"],
+  "products": ["lamb chops", "ground lamb", "lamb bratwurst", "lamb stew meat", "steaks", "ground beef", "burger patties", "roasts", "short ribs", "brisket", "snack sticks", "frankfurters", "organs", "bones", "suet", "tallow balm", "bundles"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass-fed and grass-finished right here in Michigan.",
+    "source_url": "https://rebelpastures.com/pages/about"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "ships-nationwide"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://rebelpastures.com/pages/shipping"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://rebelpastures.com/collections/all",
+  "resold_note": "Also sells beef from partner graziers (including Apsey Farms), chicken from Joe's Farm, pork from Flying W Ranch, eggs from Hehlden Farms and Alaskan seafood from Net to Table.",
+  "data_source": "web-search",
+  "source_url": "https://rebelpastures.com/",
+  "notes": "Scout 2026-11-27: read rebelpastures.com About, Our Story, Rebel Farmers, Contact Us, Shipping, and the grassfed lamb, grass-fed beef and bison collection pages, all through WebFetch summaries, so the quote came from a summary; Verifier: recheck exact wording (quote is about the lamb, which the site says is raised on its own ground). Doubts: this is largely an online brand that resells partner-farm meat. Lamb is raised on its own land in West Michigan; beef is described as our herd plus a trusted circle of graziers, so beef is partly resold. Bison page says raised in Michigan but does not say by whom, so bison left out of species. Town: no address on the site; Rebel Farmers page calls Rockford its hometown and lamb page says West Michigan, so Rockford is a best guess. Ships to the lower 48 states (recorded as nationwide); no pickup, local delivery or markets. No bulk animal shares, only bundles. Veteran owned. Apsey Farms (also a candidate) is named as a beef partner."
+}

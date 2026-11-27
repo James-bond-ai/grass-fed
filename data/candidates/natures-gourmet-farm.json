@@ -1,0 +1,37 @@
+{
+  "id": "natures-gourmet-farm",
+  "slug": "natures-gourmet-farm",
+  "farm_name": "Nature's Gourmet Farm",
+  "city": "Petal",
+  "state": "MS",
+  "zip": "39465",
+  "address": "367 McKenzie Road, Petal, MS 39465",
+  "address_public": true,
+  "website": "https://naturesgourmetfarm.com/",
+  "phone": "(601) 434-9081",
+  "social_urls": ["https://www.facebook.com/naturesgourmetfarm"],
+  "species": ["beef", "lamb", "pork", "poultry", "eggs"],
+  "products": ["steaks", "ground beef", "roasts", "beef bundles", "beef bacon", "beef bones", "lamb chops", "leg of lamb", "ground lamb", "lamb organs", "bacon", "sausage", "pork chops", "ribs", "ham", "lard", "chicken", "turkey", "chicken eggs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grassfed & Finished means NO Grain...Ever!",
+    "source_url": "https://naturesgourmetfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://naturesgourmetfarm.com/farm-store"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://naturesgourmetfarm.com/store/storefront",
+  "resold_note": "Also sells tallow skincare from Covenant Heritage Farm.",
+  "data_source": "web-search",
+  "source_url": "https://naturesgourmetfarm.com/",
+  "notes": "Scout 2026-11-27: read the naturesgourmetfarm.com homepage, Pickup Locations, Farm Store, Retail Stores, Custom Bulk Orders, the grass-fed protocol page and store pages for beef, lamb and pork, all through WebFetch summaries, so quotes came from summaries; Verifier: recheck exact wording. Beef page says 100% grass-fed and grass-finished diet and never any grain; lamb is sold as Grass Fed To Finish Lamb. Pork is pastured with optional non-GMO feed. Chicken, turkey and egg pages were not opened. Farm store pickup at 367 McKenzie Road, Mon to Sat 4 to 6 pm or by appointment, ordered online. Pickup Locations and Retail Stores pages loaded with no named sites (likely loaded by script); the homepage mentions route pickup locations and a generic home delivery pop-up, but no areas, so local-delivery and retail were not added. Bulk: half beef and half pork custom processed at $6.50/lb; the farm has an on-farm USDA plant per the bulk page. No shipping mentioned. Tallow skincare is sold via Covenant Heritage Farm (separate site)."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "apsey-farms",
+  "slug": "apsey-farms",
+  "farm_name": "Apsey Farms",
+  "city": "Reed City",
+  "state": "MI",
+  "zip": "49677",
+  "address": "8663 170th Ave., Reed City, MI 49677",
+  "address_public": true,
+  "website": "https://apseyfarms.com/",
+  "phone": "",
+  "social_urls": ["https://instagram.com/apseyfarms", "https://www.facebook.com/apseyfarms"],
+  "species": ["beef", "pork", "poultry"],
+  "products": ["steaks", "ground beef", "brisket", "ribs", "roasts", "beef organs", "bones", "fat", "ground pork", "sausage", "bratwurst", "kielbasa", "pork chops", "ham", "bacon", "pork belly", "lard", "whole chicken", "chicken pieces", "ground chicken", "chicken sausage", "chicken organs", "bone broth", "bundles"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle are 100% grass-fed and finished.",
+    "source_url": "https://apseyfarms.com/pages/standards-and-protocols"
+  },
+  "certifications": [],
+  "sales_channels": ["online-order", "local-delivery", "ships-nationwide"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Michigan (weekly home delivery by local courier within its regular service area)", "Traverse City area"],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://apseyfarms.com/pages/faqs"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://apseyfarms.com/pages/shop",
+  "resold_note": "Says it partners with other farms that follow its standards; chicken is described as raised on its fellowship of regenerative farms, none named.",
+  "data_source": "web-search",
+  "source_url": "https://apseyfarms.com/",
+  "notes": "Scout 2026-11-27: read apseyfarms.com homepage, About, FAQs (Shipping and FAQs), Standards and Protocols, delivery pages for Michigan, Traverse City, Chicago and Pennsylvania, Bulk Beef Bundle, and the pork and chicken collection pages, all through WebFetch summaries, so the quote came from a summary; Verifier: recheck exact wording. Farm confirmed in Reed City, MI (address in site footer and About page). Beef never supplemented with grains; winter hay made on the farm. Pork is forest raised and chicken pastured, both with corn and soy free supplemental feed (peas, wheat, barley). FAQ says it delivers to the continental US: local courier inside its regular service area, UPS outside; service area not defined, city pages exist for Traverse City, Grand Rapids, Lansing, Detroit, Chicago, Milwaukee, Illinois and Pennsylvania. Bulk Beef Bundle comes in 1/8, 1/4 and 1/2 sizes but is a box of set cuts, not an animal share, so bulk_shares left false. No phone on the site; emails support@apseyfarms.com and hello@apseyfarm.com. Doubt: About page says it partners with other farms and chicken page says raised on its fellowship of regenerative farms, so some meat may not be raised at Reed City. Rebel Pastures resells Apsey beef."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "white-sand-homestead",
+  "slug": "white-sand-homestead",
+  "farm_name": "White Sand Homestead",
+  "city": "Poplarville",
+  "state": "MS",
+  "zip": "39470",
+  "address": "33 Los Nogales Boulevard, Poplarville, MS 39470",
+  "address_public": true,
+  "website": "https://whitesandhomestead.com/",
+  "phone": "(601) 463-1951",
+  "social_urls": ["https://www.facebook.com/p/White-Sand-Homestead-61579171650234/", "https://www.instagram.com/wsh.farms/"],
+  "species": ["beef", "lamb", "pork", "eggs"],
+  "products": ["ground beef", "steaks", "brisket", "short ribs", "stew meat", "beef bones", "beef organs", "ground lamb", "lamb chops", "lamb stew meat", "bacon", "pork chops", "sausage", "ham", "pork roasts", "pork ribs", "chicken eggs", "duck eggs", "pecans", "mayhaw berries"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Grass-fed & finished beef & lamb, pastured pork & eggs.",
+    "source_url": "https://whitesandhomestead.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farmers-market", "online-order", "restaurants"],
+  "farmers_markets": ["Crescent City Farmers Market, Uptown Tuesday Market (New Orleans, LA)", "Crescent City Farmers Market, City Park Sunday Market (New Orleans, LA)", "Camellia City Market (Slidell, LA)"],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Farmers market pickup in New Orleans and Slidell, LA"],
+    "source_url": "https://whitesandhomestead.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://whitesandhomestead.com/store",
+  "data_source": "web-search",
+  "source_url": "https://whitesandhomestead.com/",
+  "notes": "Scout 2026-11-27: read the whitesandhomestead.com homepage, About, Pickup Locations, store pages for beef, pork, lamb, eggs and other, and the ground beef product page, all through WebFetch summaries, so quotes came from summaries; Verifier: recheck exact wording (the quote is the homepage meta description; the ground beef page also says Grass-Fed & Grass-Finished). Lamb page heading says Grassfed & finished. Pork is described as pastured-wooded with Non-GMO feed; hens are on pasture with non-GMO feed. Sells by online pre-order for pickup at New Orleans and Slidell farmers markets; the Pickup Locations page listed no named sites and the site does not say it ships. A generic store pop-up mentions home delivery by zip code but no areas, so local-delivery was not added. About page mentions sales to New Orleans chefs (whole or half animals) and Emeril's, but no consumer bulk shares are offered, so bulk_shares is false. Many beef cuts were sold out. Pecans and mayhaws are listed as farm products with no source stated."
+}

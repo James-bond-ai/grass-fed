@@ -1,0 +1,36 @@
+{
+  "id": "etta-hills-farm",
+  "slug": "etta-hills-farm",
+  "farm_name": "Etta Hills Farm",
+  "city": "Etta",
+  "state": "MS",
+  "zip": "38627",
+  "address": "90 Co Rd 253, Etta, MS 38627",
+  "address_public": true,
+  "website": "https://ettahillsfarm.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef", "lamb", "pork", "poultry", "eggs"],
+  "products": ["beef shares", "steaks", "ground beef", "beef ancestral blend", "lamb cuts", "lamb organs", "pork shares", "pork belly", "chicken", "turkey", "chicken eggs", "meat bundles"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "100% grass-finished: pasture from birth through the last day.",
+    "source_url": "https://ettahillsfarm.com/products/beef-share"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Free delivery within a 60 to 90 minute radius of Etta, MS (Tuesday and Friday routes)"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://ettahillsfarm.com/pages/shipping-delivery"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://ettahillsfarm.com/products/beef-share",
+  "data_source": "web-search",
+  "source_url": "https://ettahillsfarm.com/",
+  "notes": "Scout 2026-11-27: read the ettahillsfarm.com homepage, About, Shipping & Delivery, the beef share and pasture-raised turkey product pages, all through WebFetch summaries, so quotes came from summaries; Verifier: recheck exact wording. Several pages (grass-finished beef collection, all products, contact, whole pork share) failed to load (client errors), so the product list is partial and no phone was found. Address is from the beef share page. Beef and lamb are described as grass-finished, pork, poultry and eggs as pastured; the turkey page reuses the same 100% grass-finished template text, which seems wrong for turkey, so the quote is from the beef share page. Shipping page shows Shipping Soon / Coming Soon while also describing 48-state shipping, so shipping was not listed; recheck later. Local delivery radius is given as both 60 and 90 minutes. Farm pickup by appointment. Shares: quarter, half and whole beef plus pork shares. Linked to Dr. Allen Williams (co-founder); also sells wholesale and runs a food truck."
+}

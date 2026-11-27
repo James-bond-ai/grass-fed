@@ -1,0 +1,40 @@
+{
+  "id": "terra-rose-farm",
+  "slug": "terra-rose-farm",
+  "farm_name": "Terra Rose Farm",
+  "city": "Grattan Township",
+  "state": "MI",
+  "zip": "",
+  "address_public": false,
+  "website": "https://terrarose.farm/",
+  "phone": "313-881-2763",
+  "social_urls": [],
+  "species": ["lamb"],
+  "products": ["half lamb", "whole lamb", "custom cuts (chops, roasts, shanks, ground lamb, sausage, organs)"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our lambs eat fresh pasture grasses, hay in winter, and mother's milk when young.",
+    "source_url": "https://terrarose.farm/practices/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Jones' Farm Market, Saranac (the processor), within one week of the lamb being ready"],
+    "source_url": "https://terrarose.farm/reserve/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://terrarose.farm/reserve/",
+  "availability": {
+    "status": "waitlist",
+    "note": "Reservations by deposit or email; site still shows the May 2026 batch and says the next batch is expected November 2026 to March 2027.",
+    "checked_on": "2026-11-27"
+  },
+  "data_source": "web-search",
+  "source_url": "https://terrarose.farm/",
+  "notes": "Scout 2026-11-27: read the terrarose.farm homepage, Our Practices, FAQ, How It Works, Reserve and Contact pages, all through WebFetch summaries, so the quote came from a summary; Verifier: recheck exact wording (the site may use a curly apostrophe in mother's). Practices page has the heading 100% grass-fed & finished and says No grain. Ever.; Reserve page says finished on grass. Sells half and whole lambs only, $7.50/lb hanging weight plus butcher fee paid to Jones' Farm Market in Saranac, where pickup happens; no delivery or shipping mentioned. Farm visits by appointment; no street address or zip on the site. Card checkout not live; deposits are arranged by email (lambs@terrarose.farm). Availability doubt: Reserve page still lists 2 of 6 half-equivalent slots for the May 2026 batch, which has passed, so set to waitlist. Sales channel farm-pickup used for pickup at the processor."
+}
