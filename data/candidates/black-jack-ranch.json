@@ -1,0 +1,37 @@
+{
+  "id": "black-jack-ranch",
+  "slug": "black-jack-ranch",
+  "farm_name": "Black Jack Ranch",
+  "city": "Wiggins",
+  "state": "MS",
+  "zip": "",
+  "address": "853 Oil Well Road, Wiggins, MS",
+  "address_public": true,
+  "website": "https://blackjackranchms.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["Wagyu beef", "Angus beef", "steaks", "custom-cut whole, half and quarter beef", "beef tallow soaps"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Our cattle are grass-fed and grain-finished, and pasture-raised with care",
+    "source_url": "https://blackjackranchms.com/about-us/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "farmers-market", "local-delivery"],
+  "farmers_markets": ["Saturday farmers market at Black Jack Ranch, Wiggins, 8:00 am to 1:30 pm"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Mississippi Gulf Coast (weekly delivery, Tuesdays and Thursdays)"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Century 21 Offices, 2137 E Pass Rd, Ste A, Gulfport, MS 39507"],
+    "source_url": "https://blackjackranchms.com/farm-store/local-delivery/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://blackjackranchms.com/farm-store/beef-reservations/",
+  "data_source": "web-search",
+  "source_url": "https://explorestonecounty.com/shop/black-jack-ranch/",
+  "resold_note": "The Saturday market also sells produce and eggs from other local growers, plus baked goods and prepared food.",
+  "notes": "Scout 2026-11-28: read the blackjackranchms.com homepage, About, Farm Store pricing page, Local Delivery and Farmer's Market pages, all through WebFetch summaries, so recheck exact quote wording. Every page says grass-fed and grain-finished, so category is grain-finished. Whole, half and quarter beef is mentioned on the homepage; the pricing page itself did not mention shares and the Beef Reservations page was not read. Delivery page says weekly Gulf Coast delivery with no towns named; the pricing page gives Tuesday and Thursday delivery days; Gulfport pickup point is from the delivery page. Farm store open Tuesday to Saturday. Address is from the farmers market page (no zip given). No phone found on the farm's own site (a tourism page gives one, not used). No shipping mentioned. Also runs a food truck and sells seedstock."
+}

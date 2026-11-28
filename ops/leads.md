@@ -315,8 +315,9 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 - Prairie Creek Farms (prairiecreek.farm): surfaced in an IL search, unchecked 2026-11-14
 
 ## MI
-- Guindon Farms, Cornell (guindonfarms.com, (906) 384-6517): homepage says 100% grass fed and finished Limousin cattle; ordering page guindonfarms.com/order loops on an https to http redirect, so how to buy is unconfirmed 2026-11-27
-- Unchecked 2026-11-27: Beery Farms of MI (beeryfarmsmi.com, town unknown); BP Farms (bpfarmsorganic.com, town unknown); Livingston Farms (livingstonfarmsmi.com, town unknown); Michigan Craft Beef (michigancraftbeef.com, town unknown); Yooper Beef, Bruce Crossing (third-party directory only, own site not found)
+- Guindon Farms, Cornell (guindonfarms.com, (906) 384-6517): homepage says 100% grass fed and finished Limousin cattle; ordering page guindonfarms.com/order loops on an https to http redirect, so how to buy is unconfirmed 2026-11-27; order page still loops between http and https 2026-11-28
+- Yooper Beef, Bruce Crossing: third-party directory only, own site not found 2026-11-27
+- Old Pine Farm, Manchester: only directories, LocalWiki and press pages found, no own site 2026-11-28
 
 ## HI
 - Ulupalakua Ranch, Kula, Maui (ulupalakuaranch.com): beef sold through Maui Cattle Company, ranch store is a grill, no direct meat sales found 2026-11-12
@@ -369,9 +370,16 @@ Named farms found but not yet checked, by state. Scout takes these first and rem
 
 ## MS
 - Black Creek Farm, Picayune (4421 Hwy 43N): no own website found, only Facebook (juneaufamilyfarm) and a Crescent City Farmers Market profile 2026-11-27
-- Shady Acres Farm (shadyacresms.com, town unknown): every fetch failed with robots.txt errors 2026-11-27
-- Home Place Pastures, Como (homeplacepastures.com): has a page inviting other farms to produce for it, may be partly an aggregator, unchecked 2026-11-27
 - Johnson Farms, Picayune: MDAC Market Portal lists grain fed, no website, likely reject 2026-11-27
 - Third-party directory only, no own site seen: Persimmon Ridge Family Farm, Philadelphia; Ladner Livestock, Sebastopol 2026-11-27
-- State unconfirmed, unchecked: Stonnington Farm (stonningtonfarm.com); Beam Family Farm (beamfamilyfarms.com) 2026-11-27
-- Genuine MS member directories (genuinems.com/members/meat/ and /members/eggs/): not browsed yet 2026-11-27
+- Shaded Grove Farm Market, Macon (shadedgrovefarmmarket.com): own site showed only an "under maintenance" page 2026-11-28; food trail listing says it raises grass-fed beef and lamb, pastured pork, chicken and eggs, recheck when site is back
+- Morning Dew Pastures, Seminary (morningdewpastures.com): only the pastured-poultry blog page loaded; homepage, location and store pages refused (robots unreachable); sells chicken, beef, pork 2026-11-28
+- Honestly Beef, Magee/Collins (honestlybeef.com): every page redirects to the grazecart.com homepage, store may be lapsed; recheck before rejecting 2026-11-28
+- Blue Sky Farms, Richland (blueskyfarms.org): MDAC listing says grass fed and finished only; site fetch refused (robots unreachable) 2026-11-28
+- 5H Beef, town unknown (5hbeef.com): title mentions grass and grain fed beef; fetch refused 2026-11-28
+- Rockin' M Farms, town unknown (rockinmfarms.co): pasture-raised beef shares; no town or sales details on site 2026-11-28
+- Falkner Farms, Oxford (falknerfarms.com): beef and eggs per MDAC; Square Online site returned no readable content 2026-11-28
+- TideLand Farm, Kiln (tidelandfarm.com): MDAC lists beef, but site pages look like seedstock sales 2026-11-28
+- No own website found: 7-Gen Pastures, Clinton (Genuine MS lists grass-finished beef); Golden S Farms, Mendenhall (MDAC, grass fed Brangus cross); Sand Ridge Farm, Lucedale (MDAC, pastured pork 2020 to 2022); Wamego Valley Farm, Terry (Facebook only, eggs) 2026-11-28
+- Genuine MS meat and egg directories read in full 2026-11-28; names still unchecked (detail pages blocked, no sites found by name search): Grazing Way Farm, Pasture & Pine, Hickory Heal Farm, Mississippi Beef Brothers, Breezy Oaks Ranch, Broadhead Beef, Dowdle Family Farms, Line Prairie Farms, Loch Ross Farms, 5D Natural Farm, Thirty West Farms, Good Earth Eats, Coastal Beef Co., Eight Acre Porch and Poultry, Henderson Heritage Homestead, Twelve2 Farm
+- From a takingthekids.com article, not searched: Eubanks Family Ranch, Lucedale; Culbertson Cattle Co., Bogue Chitto; Waverly Beef, Columbus 2026-11-28

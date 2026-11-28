@@ -1,0 +1,36 @@
+{
+  "id": "beery-farms-of-mi",
+  "slug": "beery-farms-of-mi",
+  "farm_name": "Beery Farms of MI",
+  "city": "Mason",
+  "state": "MI",
+  "zip": "48854",
+  "address": "849 N. Aurelius Rd, Mason, MI 48854",
+  "address_public": true,
+  "website": "https://www.beeryfarmsmi.com/",
+  "phone": "616-447-8393",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["quarter, half and whole beef shares", "beef bundles", "steaks", "roasts", "ground beef", "short ribs", "stew meat", "organ meats", "suet", "marrow bones"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Free-range, 100% grass fed & finished beef in Mid-Michigan",
+    "source_url": "https://www.beeryfarmsmi.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Commuter lot meet-ups for orders over $200: US 127 South (Chelsea), I-96 East (Webberville), I-96 West (Portland)", "Jones Country Farm Market, Saranac (processor, on pickup day)"],
+    "source_url": "https://www.beeryfarmsmi.com/our-products"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.beeryfarmsmi.com/our-products",
+  "data_source": "web-search",
+  "source_url": "https://www.beeryfarmsmi.com/",
+  "notes": "Scout 2026-11-28: read the beeryfarmsmi.com homepage, About and Our Products pages through WebFetch summaries; the quote is the homepage headline, Verifier: recheck exact wording. About page says the herd (about 180 cows) grazes non-GMO perennial grasses and legumes and mentions organic; no organic label added. Orders by phone or email to Maddy; farm pickup at Mason about three weeks after processing; shares priced by hanging weight with deposits. No shipping mentioned. Phone has a 616 area code (Saranac area) while the farm is in Mason; it is the number the site gives. No FAQ or separate delivery page found."
+}

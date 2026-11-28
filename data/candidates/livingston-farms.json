@@ -1,0 +1,41 @@
+{
+  "id": "livingston-farms",
+  "slug": "livingston-farms",
+  "farm_name": "Livingston Farms",
+  "city": "St. Johns",
+  "state": "MI",
+  "zip": "48879",
+  "address": "2204 Livingston Road, Saint Johns, MI 48879",
+  "address_public": true,
+  "website": "https://www.livingstonfarmsmi.com/",
+  "phone": "989-640-7391",
+  "social_urls": ["http://www.facebook.com/Livingston-Farms-187591248434/"],
+  "species": ["beef"],
+  "products": ["quarter, half and whole beef", "beef bundles", "beef cuts", "ground beef", "organ meats", "soup bones", "summer sausage", "snack sticks", "jerky"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our beef are pasture raised and grass-fed their entire lives.",
+    "source_url": "https://www.livingstonfarmsmi.com/grass-fed-beef"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "retail"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Fabiano's Pizza and Deli, Grand Ledge (retail)"],
+    "source_url": "https://www.livingstonfarmsmi.com/contact-us"
+  },
+  "dairy_products": [],
+  "availability": {
+    "status": "waitlist",
+    "note": "Most 2026 retail cuts and bundles sold out; interest form open for 2027 quarter, half and whole beef.",
+    "checked_on": "2026-11-28"
+  },
+  "ordering_url": "https://www.livingstonfarmsmi.com/contact-us",
+  "data_source": "web-search",
+  "source_url": "https://www.livingstonfarmsmi.com/grass-fed-beef",
+  "notes": "Scout 2026-11-28: read the livingstonfarmsmi.com homepage, Grass Fed Beef page and Contact Us/Ordering page through WebFetch summaries, so the quote came from a summary; Verifier: recheck exact wording. The same page also says the beef is NOT grain-finished, so category is grass-finished. No about or FAQ page exists (FAQ marked coming soon). Phone is the grass-fed beef order line; main farm line is 989-224-6685. Mailing address is 2204 Livingston Road but the pickup address is given as 2224 Livingston Road; recheck. Ordering by email or order form, pickup at the farm by arrangement; bulk beef needs a $100 deposit per quarter. Contact page lists retail outlets including Market Wagon hubs in West and Southeast Michigan, Amazin' Mitten (Frankenmuth) and several St. Johns shops; unclear which carry beef versus maple syrup and mint products. Maple syrup and mint oils ship by USPS but no beef shipping is mentioned. Farm also sells maple syrup, mint oils and mint compost (not animal products)."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "weesner-meadow",
+  "slug": "weesner-meadow",
+  "farm_name": "Weesner Meadow",
+  "city": "Holly Springs",
+  "state": "MS",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.realgrassfedmeat.com/",
+  "phone": "(662) 504-4214",
+  "social_urls": [],
+  "species": ["beef", "pork"],
+  "products": ["whole grass-fed beef", "steaks", "brisket", "ground beef", "beef bones, fat and liver", "whole pastured pork", "pork chops", "tenderloin", "bacon", "sausages", "ground pork", "meat boxes", "registered Large Black hogs (live)"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "grass-fed British White/French Tarentaise/Angus beef",
+    "source_url": "https://www.realgrassfedmeat.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Free delivery on orders over $99 up to 75 miles from Holly Springs, MS", "Bulk orders delivered in the Mid South region from West TN and East AR to North MS and Northwest AL"],
+    "local_radius_miles": 75,
+    "ships_to": [],
+    "pickup_locations": ["Bulk meat can be picked up at the processor"],
+    "source_url": "https://www.realgrassfedmeat.com/shipping-info"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.realgrassfedmeat.com/shop",
+  "data_source": "web-search",
+  "source_url": "https://msmade.msstate.edu/manufacturers/weesner-meadow-farm",
+  "notes": "Scout 2026-11-28: weesnermeadow.com redirects to realgrassfedmeat.com. Read the homepage, Livestock, Contact, Shop, Shipping Info and the whole beef product page, through WebFetch summaries, so recheck exact quote wording. Beef is called grass-fed but finishing is not stated, and the homepage says supplemental non-medicated feed is available depending on the weather, so category is grass-fed. Pigs are Large Black hogs raised free range on grass and woods with supplemental feed (pastured). Shipping Info says individual cuts can choose shipping at checkout but names no states, so no shipping channel was recorded; recheck. Bulk is whole animal (the beef product page also mentions half); About Bulk Orders page not read. On-farm sales by appointment. No street address published; farm is near Hudsonville outside Holly Springs. Also sells live breeding hogs."
+}

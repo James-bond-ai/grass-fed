@@ -1,0 +1,35 @@
+{
+  "id": "livingston-springs-farm",
+  "slug": "livingston-springs-farm",
+  "farm_name": "Livingston Springs Farm",
+  "city": "Jackson",
+  "state": "MS",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.livingstonspringsfarm.com/",
+  "phone": "601-259-5613",
+  "social_urls": ["https://www.facebook.com/livingstonspringsfarm/"],
+  "species": ["beef", "lamb", "pork"],
+  "products": ["beef shares", "steaks", "roasts", "ground beef", "stew meat", "beef sausage", "beef organs", "bones", "lamb shares", "lamb chops", "ground lamb", "lamb organs", "pork shares", "pork cuts"],
+  "feeding_claim": {
+    "category": "grass-fed",
+    "verbatim": "Grass Fed Beef, Lamb & Pastured Pork",
+    "source_url": "https://www.livingstonspringsfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farmers-market"],
+  "farmers_markets": ["Jackson Farmers Market, High Street, Jackson (Saturdays, February to December)"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": ""
+  },
+  "dairy_products": [],
+  "ordering_url": "https://www.livingstonspringsfarm.com/contact-us.html",
+  "data_source": "web-search",
+  "source_url": "https://genuinems.com/directory/livingston-springs-farm/",
+  "notes": "Scout 2026-11-28: found via the Genuine MS directory (which gives a Jackson address that is not on the farm's own site, so no address listed). Read livingstonspringsfarm.com homepage, Beef, Lamb and Contact Us pages through WebFetch summaries; Pork page not read. The only feeding language is the headline and the Grass Fed lamb heading, nothing on finishing, so category is grass-fed and the pork is pastured. Pastures are in several areas around Jackson (Flora, north of Clinton, north of Forest, Attala County). Whole, half and quarter beef; whole and half lamb and pork; orders by phone (alternate 601-415-1494) or contact form. No farm pickup, delivery or shipping details. Old template site with no dates, so it may be out of date; recheck that the farm still sells."
+}

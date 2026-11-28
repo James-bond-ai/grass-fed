@@ -1,0 +1,36 @@
+{
+  "id": "bp-farms",
+  "slug": "bp-farms",
+  "farm_name": "BP Farms",
+  "city": "Dundee",
+  "state": "MI",
+  "zip": "48131",
+  "address": "6300 N Rea Road, Dundee, MI 48131",
+  "address_public": true,
+  "website": "https://bpfarmsorganic.com/",
+  "phone": "734-430-4261",
+  "social_urls": [],
+  "species": ["beef", "pork", "poultry", "eggs"],
+  "products": ["beef shares", "beef cuts", "pork shares", "pork cuts", "chicken", "chicken eggs"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle eat grass on pasture or hay when pasture isn't available and never get any grain or soy.",
+    "source_url": "https://bpfarmsorganic.com/faq-frequently-asked-questions/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://bpfarmsorganic.com/faq-frequently-asked-questions/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://bpfarmsorganic.com/reservations/",
+  "data_source": "web-search",
+  "source_url": "https://bpfarmsorganic.com/",
+  "notes": "Scout 2026-11-28: read the bpfarmsorganic.com homepage, FAQ, Products and About pages through WebFetch summaries, so the quote came from a summary; Verifier: recheck exact wording. Beef is grass-finished; pork (heritage Red Wattle) and free-range chickens forage on pasture with supplemental feed, and eggs are described as soy-free pastured. FAQ says the farm does not deliver or ship; all orders are picked up at the Dundee farm (Mon to Sat, 8 am to 7 pm, by scheduled time). Shares of beef and pork by hanging weight via the reservations page; in-stock items ordered online. Site name and pages say organic; no organic label added (run organic match script). Owners not named. Phone hours 8 am to 12 pm. Feed Ingredients page suggests the farm also sells livestock feed; not read."
+}

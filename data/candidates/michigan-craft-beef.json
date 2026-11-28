@@ -1,0 +1,35 @@
+{
+  "id": "michigan-craft-beef",
+  "slug": "michigan-craft-beef",
+  "farm_name": "Michigan Craft Beef (Moraine Park Farms)",
+  "city": "Zeeland",
+  "state": "MI",
+  "zip": "",
+  "address_public": false,
+  "website": "https://michigancraftbeef.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["beef bundles", "quarter beef bundle", "ground beef", "patties", "steaks", "roasts", "bratwurst"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "In addition to the grasses and legumes that the cattle graze, we also feed grains, vegetables, and unique byproducts such as apple pulp, cherry juice, and spent grain from Michigan breweries.",
+    "source_url": "https://michigancraftbeef.com/faqs/"
+  },
+  "certifications": [],
+  "sales_channels": ["local-delivery", "ships-regional", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["West Michigan"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://michigancraftbeef.com/faqs/"
+  },
+  "dairy_products": [],
+  "ordering_url": "",
+  "data_source": "web-search",
+  "source_url": "https://michigancraftbeef.com/",
+  "notes": "Scout 2026-11-28: read the michigancraftbeef.com homepage, About, FAQs and Products pages through WebFetch summaries; the quote was assembled from summary fragments, so Verifier: recheck exact wording. FAQ says the beef is not 100% grassfed; cattle are born and grazed on the family ranch in the western Upper Peninsula (Ontonagon area) and finished at the farm in Zeeland, with grains and byproducts fed, so category is grain-finished (could be percentage). FAQ says it ships frozen meat to 21 states from Minnesota to Massachusetts but the states were not named, so ships_to is empty. Ordering is through an external Barn2Door store (URL not captured). Sold as bundles including a 1/4 Beef Bundle (100 lbs); the Basic Bundle includes pork chops and pork sausage, source of the pork not stated. Contact page and restaurants page not read; no phone or address found."
+}

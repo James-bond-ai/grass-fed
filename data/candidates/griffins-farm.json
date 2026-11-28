@@ -1,0 +1,36 @@
+{
+  "id": "griffins-farm",
+  "slug": "griffins-farm",
+  "farm_name": "Griffin's Farm",
+  "city": "Lucedale",
+  "state": "MS",
+  "zip": "39452",
+  "address": "2212 Crossroads Rd, Lucedale, MS 39452",
+  "address_public": true,
+  "website": "https://griffinsfarm.grazecart.com/",
+  "phone": "(228) 365-7654",
+  "social_urls": ["https://www.facebook.com/groups/griffinsfarm/"],
+  "species": ["pork", "poultry", "eggs"],
+  "products": ["whole and half hogs", "bacon", "pork chops", "sausage", "ham steaks", "spare ribs", "whole chickens", "chicken breasts", "wings", "leg quarters", "chicken eggs"],
+  "feeding_claim": {
+    "category": "pastured",
+    "verbatim": "Every animal on our farm is raised on pasture with care, respect, and attention to sustainable practices.",
+    "source_url": "https://griffinsfarm.grazecart.com/about-us"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "local-delivery", "online-order"],
+  "farmers_markets": [],
+  "bulk_shares": false,
+  "delivery": {
+    "local_areas": ["Southern Alabama and Mississippi (home delivery on Saturdays)"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://griffinsfarm.grazecart.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://griffinsfarm.grazecart.com/store",
+  "data_source": "web-search",
+  "source_url": "https://griffinsfarm.grazecart.com/",
+  "notes": "Scout 2026-11-28: read the griffinsfarm.grazecart.com homepage, About Us, Store, Contact, Pork and Poultry pages, through WebFetch summaries, so recheck exact quote wording. Pork is sold as Woodland Raised Pork (pigs forage in woodland on a diet not described); chickens are listed as pastured and NON-GMO; eggs as pastured. Store category label mentions whole and half hog but no bulk product or price was shown, so bulk_shares left false; recheck. Most poultry and pork cuts were sold out on 2026-11-28. Delivery area wording is only Southern Alabama and Mississippi with Saturday delivery; no towns or shipping named. Owners not named. No separate farm domain found."
+}

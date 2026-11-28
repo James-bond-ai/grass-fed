@@ -1,0 +1,37 @@
+{
+  "id": "stonnington-farm",
+  "slug": "stonnington-farm",
+  "farm_name": "Stonnington Farm",
+  "city": "Perkinston",
+  "state": "MS",
+  "zip": "39573",
+  "address": "100 M Price Rd, Perkinston, MS 39573",
+  "address_public": true,
+  "website": "https://stonningtonfarm.com/",
+  "phone": "601-270-7048",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["beef shares", "steaks", "roasts", "ground beef", "stew meat", "short ribs", "oxtail", "beef organs", "bones", "bone broth", "beef tallow", "meat bundles"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Our cattle receive no hormones, no antibiotics, and no grain.",
+    "source_url": "https://stonningtonfarm.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup", "farmers-market", "local-delivery"],
+  "farmers_markets": ["Long Beach Farmers Market, Town Green on Jeff Davis Ave., Long Beach, MS (Saturdays)", "Ocean Springs Fresh Market, 1000 Washington Ave., Ocean Springs, MS (Saturdays)"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["Hattiesburg (free delivery)", "Jackson area (monthly delivery)"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Farm pickup in Perkinston by appointment"],
+    "source_url": "https://stonningtonfarm.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://stonningtonfarm.com/shop/",
+  "resold_note": "Also sells grain-finished beef, Japanese wagyu and heritage pork from partner farms, including farms outside Mississippi.",
+  "data_source": "web-search",
+  "source_url": "https://stonningtonfarm.com/home-2/",
+  "notes": "Scout 2026-11-28: read the stonningtonfarm.com homepage, the older Home original page (/home-2/), Shop, Our Farm and the Pasture Raised Grain Fed Beef page, all through WebFetch summaries, so the quote should be rechecked. State confirmed as MS (Perkinston address). Own herd described as 100% grassfed and grass finished on 431 acres. The Pasture Raised Grain Fed Beef page sells grain-finished beef from partnered farms (one named in Reardan, WA), wagyu from Kagoshima Farms and pork from Hidden River Farms; that page has placeholder buy buttons and a free shipping on $99+ banner but names no shipping area, so shipping was not listed. Shop page orders are by phone or email; whole, half and quarter cow by hanging weight. Home original page also names Corner Market, 3720 Hardy St., Hattiesburg, and carries an old COVID-19 supply notice; market hours for Ocean Springs differ between pages. No FAQ page found."
+}

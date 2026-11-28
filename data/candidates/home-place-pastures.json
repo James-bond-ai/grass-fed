@@ -1,0 +1,36 @@
+{
+  "id": "home-place-pastures",
+  "slug": "home-place-pastures",
+  "farm_name": "Home Place Pastures",
+  "city": "Como",
+  "state": "MS",
+  "zip": "",
+  "address_public": false,
+  "website": "https://homeplacepastures.com/",
+  "phone": "",
+  "social_urls": [],
+  "species": ["beef", "pork"],
+  "products": ["beef shares", "steaks", "roasts", "ground beef", "beef organs", "hog shares", "pork chops", "pork tenderloin", "subscription meat boxes"],
+  "feeding_claim": {
+    "category": "grass-finished",
+    "verbatim": "Home Place Pastures raises and sources 100% grass fed and finished beef, and pasture raised pork.",
+    "source_url": "https://homeplacepastures.com/pages/farming-practices"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farm-pickup", "online-order", "ships-nationwide"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": "nationwide",
+    "pickup_locations": [],
+    "source_url": "https://homeplacepastures.com/pages/how-it-works"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://homeplacepastures.com/collections/all",
+  "resold_note": "Also sells beef, pork and lamb raised for it by a network of partner farms in the Southeast, and a beef and chicken box whose chicken source is not stated.",
+  "data_source": "web-search",
+  "source_url": "https://homeplacepastures.com/",
+  "notes": "Scout 2026-11-28: read the homeplacepastures.com homepage, Our Story, Farming Practices, Produce for us, How It Works (with FAQ) and the all-products collection (first page of 6 only), all through WebFetch summaries, so the quote should be rechecked. Partly an aggregator: the Produce for us page says a select number of small local farmers raise hogs, lambs and beef for it, and the FAQ says animals are raised on its Como farm or in the southeast US, so it is not possible to tell which beef or pork comes from the home farm. Listed beef and pork as raised on the farm (Our Story describes its own grazing operation for both); lamb and chicken left out. Farming Practices also mentions pastured eggs, but no egg products were seen. Ships boxes and online orders to the lower 48 (free in the Southeast where its ground network reaches, flat rate elsewhere); whole, half and quarter shares are farm pickup only. Farm Store and Eatery in Como, open Tuesday to Saturday. No phone or street address on the site. Also offers processing services to other local farmers."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "shady-acres-farm",
+  "slug": "shady-acres-farm",
+  "farm_name": "Shady Acres Farm",
+  "city": "West Point",
+  "state": "MS",
+  "zip": "",
+  "address_public": false,
+  "website": "https://www.shadyacresms.com/",
+  "phone": "662-205-6188",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["beef cuts", "ground beef", "beef shares", "bundle boxes", "beef subscriptions"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "Grass-fed, grain-finished beef from our third-generation family farm.",
+    "source_url": "https://www.shadyacresms.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["on-farm-store", "farmers-market", "local-delivery", "online-order"],
+  "farmers_markets": ["Starkville farmers market (Saturdays, seasonal)", "Columbus farmers market (Saturdays, seasonal)"],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": ["West Point", "Columbus", "Starkville", "nearby areas"],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": ["Farm store, 122 MS-50, Columbus, MS 39705 (Tuesday to Saturday)"],
+    "source_url": "https://www.shadyacresms.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://app.barn2door.com/shadyacresms/all",
+  "data_source": "web-search",
+  "source_url": "https://www.shadyacresms.com/",
+  "notes": "Scout 2026-11-28: retry worked. Read shadyacresms.com homepage, Products and About through WebFetch summaries; Contact page and the Barn2Door store not read. Farm is in West Point per the homepage; the farm store is in Columbus. Beef is sold as grass-fed, grain-finished (cattle on native grass pasture with antibiotic-free feed and minerals). The About page mentions locally sourced cattle and does not say every animal is raised on the farm; recheck. Half, quarter and whole beef offered. No shipping mentioned."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "morgan-farms-22",
+  "slug": "morgan-farms-22",
+  "farm_name": "Morgan Farms 22",
+  "city": "Sumrall",
+  "state": "MS",
+  "zip": "39482",
+  "address": "400 J D Broome Rd, Sumrall, MS 39482",
+  "address_public": true,
+  "website": "https://morganfarms22.com/",
+  "phone": "(601) 408-1053",
+  "social_urls": [],
+  "species": ["beef"],
+  "products": ["whole, half and quarter beef", "ground beef", "steaks", "roasts", "brisket", "short ribs", "stew meat", "cube steak", "sausage", "beef tallow"],
+  "feeding_claim": {
+    "category": "grain-finished",
+    "verbatim": "We feed on rye grass and finish the cattle on specially blended feed.",
+    "source_url": "https://morganfarms22.com/"
+  },
+  "certifications": [],
+  "sales_channels": ["farm-pickup"],
+  "farmers_markets": [],
+  "bulk_shares": true,
+  "delivery": {
+    "local_areas": [],
+    "local_radius_miles": null,
+    "ships_to": [],
+    "pickup_locations": [],
+    "source_url": "https://morganfarms22.com/"
+  },
+  "dairy_products": [],
+  "ordering_url": "https://morganfarms22.com/optimamedia/products/P_31528/411648e2-441f-4ea0-8c31-34f26c3acd17.pdf",
+  "data_source": "state-program",
+  "source_url": "https://agnet.mdac.ms.gov/MarketPortal/MarketPortal_Single?id=582",
+  "notes": "Scout 2026-11-28: read the morganfarms22.com one-page site (About, FAQ and Services are anchors on the homepage) and the linked price list PDF, through WebFetch summaries, so recheck exact quote wording. Site calls itself a grain-finished cattle farm since 2000 and lists Grain Finished Beef and Freezer Beef as services. Orders are by text or email; the site gives no pickup, delivery or shipping details, so farm-pickup is inferred from the published farm address and needs checking. FAQ section text did not load and store hours link was empty. Also sells replacement heifers and tallow skin products."
+}
